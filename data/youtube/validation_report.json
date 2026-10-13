@@ -53,15 +53,15 @@
   },
   "analyses_by_official_ref_status": {
     "OFFICIAL_CONFIRMED": 10,
-    "NEEDS_OFFICIAL_DOC": 41,
-    "CONSISTENT_WITH_OFFICIAL": 52,
+    "NEEDS_OFFICIAL_DOC": 61,
+    "CONSISTENT_WITH_OFFICIAL": 32,
     "CONFLICT": 12,
     "UNSUPPORTED": 12
   },
   "analyses_by_confidence": {
-    "HIGH": 34,
-    "MEDIUM": 78,
-    "LOW": 15
+    "MEDIUM": 107,
+    "LOW": 15,
+    "HIGH": 5
   },
   "analyses_by_academic_year": {
     "2028": 118,
@@ -71,6 +71,17 @@
   "analyses_by_verification_status": {
     "NORMALIZED": 127
   },
+  "analyses_by_evidence_basis": {
+    "INFERRED_FROM_TIMELINE_LABEL": 66,
+    "INFERRED_FROM_DESCRIPTION_SUMMARY": 46,
+    "INFERRED_FROM_CHAPTER_LABEL": 1,
+    "INFERRED_FROM_METADATA": 6,
+    "AS_PUBLISHED_TEXT": 8
+  },
+  "analyses_inferred_basis": 119,
+  "analyses_speech_verified": 0,
+  "analyses_confidence_capped": 29,
+  "analyses_with_official_url": 60,
   "analyses_linking_conflict": 87,
   "videos_referenced_by_analyses": 72,
   "conflicts_total": 12,

@@ -27,6 +27,24 @@ ACCESS = {"HTTP_STATIC", "HTTP_PLAYWRIGHT", "MANUAL"}
 ANALYSIS_STATUS = {"METADATA_ONLY", "CONTENT_ANALYZED"}
 ANCHOR_SRC = {"desc_timestamp", "chapter_title", "video_level", "description_transcript", "none"}
 TIER = {"TIER_1", "TIER_2", "TIER_3"}
+BASIS = {"AS_PUBLISHED_TEXT", "INFERRED_FROM_TIMELINE_LABEL", "INFERRED_FROM_CHAPTER_LABEL",
+         "INFERRED_FROM_DESCRIPTION_SUMMARY", "INFERRED_FROM_METADATA"}
+INFERRED = {b for b in BASIS if b.startswith("INFERRED_")}
+DOC_VERIFIED_REF = {"OFFICIAL_CONFIRMED", "CONSISTENT_WITH_OFFICIAL"}
+
+
+def expected_basis(anchor_src, content_evidence):
+    """Derives the evidence level from already-stored fields (mirrors yt_mark_evidence_basis.py)."""
+    if anchor_src == "description_transcript":
+        return "AS_PUBLISHED_TEXT"
+    if anchor_src == "desc_timestamp":
+        return "INFERRED_FROM_TIMELINE_LABEL"
+    ev = content_evidence or ""
+    if "description" in ev:
+        return "INFERRED_FROM_DESCRIPTION_SUMMARY"
+    if "chapters" in ev:
+        return "INFERRED_FROM_CHAPTER_LABEL"
+    return "INFERRED_FROM_METADATA"
 
 
 def load(name):
@@ -80,6 +98,8 @@ def main():
     amap = {a["id"]: a for a in arows}
     if len(amap) != len(arows):
         errors.append("duplicate analysis id")
+    if not analyses.get("evidence_basis_definitions"):
+        errors.append("analyses.json header missing evidence_basis_definitions")
     known_conflicts = {c["id"] for c in crow}
     for a in arows:
         if a["video_id"] not in vmap:
@@ -110,6 +130,22 @@ def main():
             errors.append("%s bad verification_status" % a["id"])
         if a["verification_status"] == "APPROVED":
             errors.append("%s must not be APPROVED before human sign-off" % a["id"])
+        b = a.get("evidence_basis")
+        if b not in BASIS:
+            errors.append("%s missing/invalid evidence_basis=%s" % (a["id"], b))
+        elif a["video_id"] in vmap:
+            exp = expected_basis(a["anchor"]["src"], vmap[a["video_id"]].get("content_evidence"))
+            if b != exp:
+                errors.append("%s evidence_basis=%s but stored fields say %s" % (a["id"], b, exp))
+            if a.get("speech_verified") != bool(vmap[a["video_id"]].get("caption_available")):
+                errors.append("%s speech_verified contradicts caption_available" % a["id"])
+        if b in INFERRED and a["confidence"] == "HIGH":
+            errors.append("%s is %s yet confidence=HIGH (label-only evidence cannot be asserted)" % (a["id"], b))
+        if a["official_ref"]["status"] in DOC_VERIFIED_REF and not (a["official_ref"].get("url") or "").startswith("http"):
+            errors.append("%s claims %s without an official document URL" % (a["id"], a["official_ref"]["status"]))
+        url_val = a["official_ref"].get("url") or ""
+        if url_val and not url_val.startswith("http"):
+            errors.append("%s official_ref.url is a descriptor, not a URL" % a["id"])
         for cid in a["conflict_ids"]:
             if cid not in known_conflicts:
                 errors.append("%s unknown conflict %s" % (a["id"], cid))
@@ -134,6 +170,11 @@ def main():
             errors.append("%s missing difference_reason" % c["id"])
 
     stray = []
+    header_blob = json.dumps(
+        {k: v for k, v in analyses.items() if k != "analyses"}, ensure_ascii=False)
+    found = cjk(header_blob)
+    if found:
+        stray.append(("analyses.json#header", "".join(sorted(set(found)))))
     for a in arows:
         found = cjk(json.dumps(a, ensure_ascii=False))
         if found:
@@ -170,6 +211,11 @@ def main():
         "analyses_by_confidence": dict(Counter(a["confidence"] for a in arows)),
         "analyses_by_academic_year": dict(Counter(a["academic_year"] for a in arows)),
         "analyses_by_verification_status": dict(Counter(a["verification_status"] for a in arows)),
+        "analyses_by_evidence_basis": dict(Counter(a.get("evidence_basis") for a in arows)),
+        "analyses_inferred_basis": sum(1 for a in arows if a.get("evidence_basis") in INFERRED),
+        "analyses_speech_verified": sum(1 for a in arows if a.get("speech_verified")),
+        "analyses_confidence_capped": sum(1 for a in arows if a.get("confidence_capped")),
+        "analyses_with_official_url": sum(1 for a in arows if (a["official_ref"].get("url") or "").startswith("http")),
         "analyses_linking_conflict": sum(1 for a in arows if a["conflict_ids"]),
         "videos_referenced_by_analyses": len({a["video_id"] for a in arows}),
         "conflicts_total": len(crow),
@@ -195,7 +241,10 @@ def main():
                 "analyses_by_academic_year", "analyses_by_verification_status",
                 "conflicts_by_type", "conflicts_by_resolution", "videos_with_chapters",
                 "videos_with_desc_timestamps", "videos_with_caption_tracks_listed",
-                "videos_with_caption_text", "distinct_presenters"):
+                "videos_with_caption_text", "distinct_presenters",
+                "analyses_by_evidence_basis", "analyses_inferred_basis",
+                "analyses_speech_verified", "analyses_confidence_capped",
+                "analyses_with_official_url"):
         out.append("%s=%s" % (key, json.dumps(report[key], ensure_ascii=False, sort_keys=True) if isinstance(report[key], dict) else report[key]))
     text = "\n".join(out).encode("ascii", "replace").decode("ascii")
     sys.stdout.write(text + "\n")

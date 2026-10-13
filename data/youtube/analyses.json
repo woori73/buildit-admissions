@@ -21,7 +21,10 @@
     "상담 답변은 OFFICIAL_FACT 또는 official_ref_status=OFFICIAL_CONFIRMED 항목을 우선한다.",
     "EXPERT_ANALYSIS·PREDICTION·STRATEGY는 반드시 '전문가 해석/전망'임을 문구에 포함한다.",
     "DISPUTED·OUTDATED·UNSUPPORTED는 단일 근거로 결론을 만들지 않고 차이와 이유를 함께 안내한다.",
-    "confidence=LOW 항목은 학생 개인 배치(합격·불합격 예측)에 사용하지 않는다."
+    "confidence=LOW 항목은 학생 개인 배치(합격·불합격 예측)에 사용하지 않는다.",
+    "evidence_basis가 INFERRED_*인 항목은 전문가의 확정 발언으로 인용하지 말고 '채널이 공개한 설명란·챕터 라벨 기반 복원'임을 함께 표기한다(본 네트워크에서 자막 미확보).",
+    "speech_verified=false인 항목은 발언 전체 내용을 영상에서 직접 확인하지 않은 것이므로, 수치·비율·문구 인용은 공식 1차 자료 확인 전에는 예시로만 사용한다.",
+    "confidence는 근거 수준에 의해 상한된다 — AS_PUBLISHED_TEXT가 아닌 항목의 HIGH는 허용하지 않는다(confidence_capped=true에 기록)."
   ],
   "counts_note": "항목 수는 scripts/youtube/yt_validate.py가 실제 파일에서 산출한다(수동 계상 금지).",
   "analyses": [
@@ -61,8 +64,11 @@
         "use": "수시 중심 구조임을 설명할 때 기준 수치로 사용.",
         "caution": "시행계획 단계 수치이며 최종 모집요강에서 바뀔 수 있다."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A002",
@@ -95,7 +101,9 @@
         "caution": "'정시 10.2%'의 분모 정의(전체/지방대)를 확인해야 한다."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A003",
@@ -133,7 +141,9 @@
         "caution": "최저가 없는 전형 확대와 동시에 진행되므로 전형별 확인이 필요하다."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A004",
@@ -166,8 +176,11 @@
         "use": "정시만 준비하는 학생에게 출결·학생부 기본 관리의 필요성 설명.",
         "caution": "정시 학생부 반영은 정량(등급)과 정성(서류)이 대학별로 달라 개별 확인 필요."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A005",
@@ -202,7 +215,9 @@
         "caution": "2028 수능 첫 채점 결과가 나오기 전까지 확정 불가."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A006",
@@ -242,7 +257,9 @@
         "caution": "'수능 올인 금지' 결론은 이 채널의 해석이며 공식 지침이 아니다."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A007",
@@ -281,7 +298,9 @@
         "caution": "2026 결과 기반이며 2028에 동일하게 적용되지 않는다."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A008",
@@ -318,7 +337,9 @@
         "caution": "2026 결과이며 전형명이 2028에 달라질 수 있다."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A009",
@@ -353,7 +374,9 @@
         "caution": "시행계획 단계 — 최저 세부 기준은 2027년 5월 모집요강에서 확정."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A010",
@@ -372,8 +395,8 @@
       "evidence": "충족률 분모 정의 차이.",
       "official_ref": {
         "url": "",
-        "note": "방법론적 주장(검증 대상 아님).",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "note": "방법론적 주장(검증 대상 아님). [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [],
       "counseling": {
@@ -385,8 +408,11 @@
         "use": "배치 상담에서 경쟁률 숫자를 그대로 비교하지 않도록 경고.",
         "caution": "출처별 수치가 다른 분모를 쓰고 있는지 먼저 확인할 것."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A011",
@@ -417,8 +443,11 @@
         "use": "정시 축소 인상을 과장/축소하지 않고 설명하는 기준 틀.",
         "caution": "정시 40% 의무는 특정 대학군에 적용되는 규정이므로 대상 대학 확인 필요."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A012",
@@ -454,7 +483,9 @@
         "caution": "대학별 반영 비율·방식은 모집요강에서 최종 확정."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A013",
@@ -487,8 +518,11 @@
         "use": "학교에서 배우는 과목 이수 자체가 입시 자산임을 설명.",
         "caution": "수능 범위 밖 과목을 '불리하다'고 해석하면 안 된다."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A014",
@@ -522,7 +556,9 @@
         "caution": "수시 6장 접수(9월) 전에는 3학년 1학기까지만 반영된다는 전형별 차이와 혼동 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A015",
@@ -560,7 +596,9 @@
         "caution": "모든 교과전형이 재학생 제한은 아니다(대학별 확인)."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A016",
@@ -595,7 +633,9 @@
         "caution": "비중 수치는 모집요강에서 재확인 필요."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A017",
@@ -632,7 +672,9 @@
         "caution": "One-school anecdote — 일반화 금지, confidence LOW."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A018",
@@ -668,7 +710,9 @@
         "caution": "타입 ②·③ 경계 대학은 전형 이름별로 달라 개별 확인."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A019",
@@ -703,7 +747,9 @@
         "caution": "2026-05 시점 정보 — 2027년 발표될 모집요강에서 달라질 수 있다."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A020",
@@ -739,7 +785,9 @@
         "caution": "재수가 유리/불리라는 단정 답변 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A021",
@@ -772,7 +820,9 @@
         "caution": "최저 '확대' 진술은 SKY 최저 미적용 확대 주장(A003)과 결이 달라 함께 확인 필요."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A022",
@@ -792,8 +842,8 @@
       "evidence": "컨설턴트 경험 기반 판단 기준.",
       "official_ref": {
         "url": "",
-        "note": "행동 권고.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "note": "행동 권고. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [],
       "counseling": {
@@ -807,7 +857,9 @@
         "caution": "개인별 편차가 커 일반화 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A023",
@@ -844,8 +896,11 @@
         "use": "상담 시작 시 확인 체크리스트로 활용.",
         "caution": "②환산은 공식 기준이 없다는 점을 반드시 함께 고지."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_CHAPTER_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A024",
@@ -882,8 +937,11 @@
         "use": "과거 입결 비교 시 등급 체제 차이를 경고.",
         "caution": "환산표는 기관별 해석이 달라 단일표 제시 금지."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A025",
@@ -919,7 +977,9 @@
         "caution": "이지영 강사의 '탐구 평균 5곳'류 집계와 교차 확인 필요."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A026",
@@ -940,8 +1000,8 @@
       "evidence": "김영준 센터장(이투스247학원) 2부 — 대학별 정시 학생부 반영 방법 → 정성평가 핵심 → 전공의 이해로 이어지는 논리.",
       "official_ref": {
         "url": "",
-        "note": "대학 평가 요소의 일반 원리 해설.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "note": "대학 평가 요소의 일반 원리 해설. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [],
       "counseling": {
@@ -955,8 +1015,11 @@
         "use": "과목 선택-세특 연계 설계 상담의 근거 프레임.",
         "caution": "'전공의 이해'의 배점·필수성은 대학별 상이."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A027",
@@ -990,8 +1053,11 @@
         "use": "막연한 '완전 변경' 불안 줄이기 — 큰 틀은 유지된다는 점.",
         "caution": "기조 유지는 '전형 내부 구성 변화'와 양립한다(A012, A019)."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A028",
@@ -1026,7 +1092,9 @@
         "caution": "정량·정성 반영 비율을 합쳐 하나의 성질로 부르지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A029",
@@ -1075,7 +1143,9 @@
         "caution": "환산 수치를 확정 규정처럼 답하지 말 것. 실제 합불은 대학별 전형 산출식에 의존."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A030",
@@ -1116,7 +1186,9 @@
         "caution": "특정 고교의 진학률 수치는 개인 배치 근거로 쓰지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A031",
@@ -1161,7 +1233,9 @@
         "caution": "'어디 학교가 유리하다'단정 금지. 학생 성적대·진로가 달라 결론이 뒤집힐 수 있다."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A032",
@@ -1206,7 +1280,9 @@
         "caution": "업계 상담 경험담을 전국 현황처럼 말하지 말 것."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A033",
@@ -1231,8 +1307,8 @@
       },
       "official_ref": {
         "url": "",
-        "note": "행동 권고. 2028 수능에서 통합사회·통합과학이 출제되는 것은 교육부 확정안과 일치.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "note": "행동 권고. 2028 수능에서 통합사회·통합과학이 출제되는 것은 교육부 확정안과 일치. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [],
       "counseling": {
@@ -1249,7 +1325,9 @@
         "caution": "'90% 집중' 같은 수치는 발표자 경험상 비율로, 공식 근거 없음."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A034",
@@ -1292,8 +1370,11 @@
         "use": "정시 준비생에게 '수능-only' 전략의 한계를 설명.",
         "caution": "학생부 반영 여부·비중은 대학별로 달라 단정 불가(모집요강 확인)."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A035",
@@ -1335,7 +1416,9 @@
         "caution": "배분 비율은 발표자 개인 기준. 학생 과목별 등급 분포에 따라 조정 필요."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A036",
@@ -1377,7 +1460,9 @@
         "caution": "어느 한쪽 결론을 확정해 말하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A037",
@@ -1416,7 +1501,9 @@
         "caution": "발표자가 지목한 특정 자료 목록은 영상에서 확인되지 않아 인용 불가."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A038",
@@ -1464,7 +1551,9 @@
         "caution": "'정시 축소' 폭은 기관별·연도별 확인 전 수치화 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A039",
@@ -1503,7 +1592,9 @@
         "caution": "'면접에서 보는 것은 정답이 아니다'라는 서술은 평가 기준 공식화 이전 해석."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A040",
@@ -1526,8 +1617,8 @@
       },
       "official_ref": {
         "url": "",
-        "note": "2027은 현행 9등급·선택과목 체제, 2028부터 5등급·통합형 체제가 적용된다는 교육부 확정안과 부합.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "note": "2027은 현행 9등급·선택과목 체제, 2028부터 5등급·통합형 체제가 적용된다는 교육부 확정안과 부합. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C004"
@@ -1542,7 +1633,9 @@
         "caution": "2026 결과를 2028에 그대로 외삽하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A041",
@@ -1587,7 +1680,9 @@
         "caution": "'학종화'를 확정 정책으로 표현하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A042",
@@ -1629,8 +1724,11 @@
         "use": "1등급 보유 학생의 방심 교정.",
         "caution": "1등급 비율 수치는 공식 확정부호 대기(구간표 미확정)."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A043",
@@ -1655,8 +1753,8 @@
       },
       "official_ref": {
         "url": "",
-        "note": "세특 기재 주체는 교과교사이므로 학생의 '자료 제공' 수준에 대한 처방으로 이해해야 한다.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "note": "세특 기재 주체는 교과교사이므로 학생의 '자료 제공' 수준에 대한 처방으로 이해해야 한다. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C008"
@@ -1671,7 +1769,9 @@
         "caution": "외부 작성 대입 기재를 사칭하는 행위는 금지되므로 '본인 근거 준비'로 한정해 설명."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A044",
@@ -1715,7 +1815,9 @@
         "caution": "기재 rule을 영상 해석만으로 확정해 말하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A045",
@@ -1762,7 +1864,9 @@
         "caution": "'표준편차 미제공' 같은 세부 운영 사항은 공식 문구 확인 전 단정 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A046",
@@ -1806,7 +1910,9 @@
         "caution": "특정 학교를 '부풀리기'로 지목·확정하는 표현 금지(명예훼손 리스크)."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A047",
@@ -1847,8 +1953,11 @@
         "use": "과목 변경 문의에 대한 기본 안내.",
         "caution": "변경 가능 여부는 학교 규칙이 우선 — 담임·교무실 확인을 반드시 병기."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A048",
@@ -1895,7 +2004,9 @@
         "caution": "비율 수치를 답변에 직접 넣지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A049",
@@ -1940,7 +2051,9 @@
         "caution": "시행계획은 확정 모집요강이 아니므로 최종 요강 확인을 병기."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A050",
@@ -1987,8 +2100,11 @@
         "use": "과거 입결을 현재 등급에적용하지 않도록 경고할 때.",
         "caution": "임의 환산계수(예: 9등급×0.55)를 공식 기준으로 소개 금지."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A051",
@@ -2032,7 +2148,9 @@
         "caution": "인용된 분포 표본의 범위(전국/지역/학교)가 미확인."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A052",
@@ -2077,7 +2195,9 @@
         "caution": "백분위 제공 여부는 학교별 고지 정책에 따라 다름."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A053",
@@ -2116,7 +2236,9 @@
         "caution": "활동 종류를 늘리는 것과 정성평가 점수는 별개라는 점을 함께 안내."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A054",
@@ -2158,7 +2280,9 @@
         "caution": "특정 학교를 '불리'로 단정하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A055",
@@ -2188,8 +2312,8 @@
         ]
       },
       "official_ref": {
-        "url": "each 대학 입학처 2028학년도 입학전형 시행계획",
-        "note": "대학별 시행계획 원문(첨부 파일) 미확보 → 수치 직접 인용 불가.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): each 대학 입학처 2028학년도 입학전형 시행계획 | 대학별 시행계획 원문(첨부 파일) 미확보 → 수치 직접 인용 불가.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -2204,7 +2328,9 @@
         "caution": "'정시 수능 100%' 목록은 연도마다 바뀌므로 최신 요강 확인 필수."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A056",
@@ -2232,8 +2358,8 @@
         ]
       },
       "official_ref": {
-        "url": "서울대 2028학년도 입학전형 시행계획",
-        "note": "정정 내용은 공개된 시행계획 방향과 모순되지 않으나 원문 PDF 미확보로 최종 확인 전.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 서울대 2028학년도 입학전형 시행계획 | 정정 내용은 공개된 시행계획 방향과 모순되지 않으나 원문 PDF 미확보로 최종 확인 전.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -2252,7 +2378,9 @@
         "caution": "발표자 오류가 포함된 영상이므로 정정문 기준으로만 인용."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_METADATA",
+      "speech_verified": false
     },
     {
       "id": "YT-A057",
@@ -2296,7 +2424,9 @@
         "caution": "합격선 예측으로 답변 생성 금지."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_METADATA",
+      "speech_verified": false
     },
     {
       "id": "YT-A058",
@@ -2347,7 +2477,9 @@
         "caution": "나열된 대학 라인을 확정 합격선처럼 말하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A059",
@@ -2391,7 +2523,9 @@
         "caution": "'우상향 가점' 같은 규정화된 혜택은 없음."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A060",
@@ -2440,7 +2574,9 @@
         "caution": "개인 합불 예측에 사용 금지(confidence 낮음)."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A061",
@@ -2467,8 +2603,8 @@
         ]
       },
       "official_ref": {
-        "url": "각 의과대학 2028학년도 권장과목·선발정보",
-        "note": "권장/필수 이수 과목은 대학별 자체 공지이므로 대학별 원문 대조 필요.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 각 의과대학 2028학년도 권장과목·선발정보 | 권장/필수 이수 과목은 대학별 자체 공지이므로 대학별 원문 대조 필요.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -2486,7 +2622,9 @@
         "caution": "'화학 필수'는 대학 공통 규정이 아니라 기관별 권장 수준."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A062",
@@ -2532,7 +2670,9 @@
         "caution": "오답 수 기준 수치를 답변에 그대로 심지 말 것."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A063",
@@ -2577,8 +2717,11 @@
         "use": "영역별 학습 전략 안내의 시작점으로 활용.",
         "caution": "커리큘럼 제안은 EBSi 강좌 연계 상업 콘텐츠일 수 있음을 구분."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A064",
@@ -2619,7 +2762,9 @@
         "caution": "난이도·변별력 전망은 논쟁 중임을 함께 안내."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A065",
@@ -2664,7 +2809,9 @@
         "caution": "추가 세부(구간 비율·환산)는 별도 확인 필요."
       },
       "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "AS_PUBLISHED_TEXT",
+      "speech_verified": false
     },
     {
       "id": "YT-A066",
@@ -2710,7 +2857,9 @@
         "caution": "'강화될 가능성'은 전망 표현이지 확정 지침 아님."
       },
       "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "AS_PUBLISHED_TEXT",
+      "speech_verified": false
     },
     {
       "id": "YT-A067",
@@ -2753,7 +2902,9 @@
         "caution": "'도전' 권고는 등급 하락 리스크와 맞바뀌므로 학생별 성적 여력을 함께 검토."
       },
       "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "AS_PUBLISHED_TEXT",
+      "speech_verified": false
     },
     {
       "id": "YT-A068",
@@ -2790,9 +2941,9 @@
         ]
       },
       "official_ref": {
-        "url": "각 대학 입학처 권장(권고) 이수과목 공지",
-        "note": "현직 교사가 공영 방송에서 열거한 자료로 신뢰도는 높으나, 목록 시점(2025-09) 이후 추가·변경 가능성 있음.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 각 대학 입학처 권장(권고) 이수과목 공지 | 현직 교사가 공영 방송에서 열거한 자료로 신뢰도는 높으나, 목록 시점(2025-09) 이후 추가·변경 가능성 있음. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C001"
@@ -2807,7 +2958,9 @@
         "caution": "권장 과목은 법적 필수 요건이 아니므로 '불합격 사유'로 오해시키지 말 것."
       },
       "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "AS_PUBLISHED_TEXT",
+      "speech_verified": false
     },
     {
       "id": "YT-A069",
@@ -2836,8 +2989,8 @@
       },
       "official_ref": {
         "url": "",
-        "note": "처방형 권고.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "note": "처방형 권고. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C003"
@@ -2856,7 +3009,9 @@
         "caution": "최저 기준은 학교·전형별차이 — 반드시 요강 확인 유도."
       },
       "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "AS_PUBLISHED_TEXT",
+      "speech_verified": false
     },
     {
       "id": "YT-A070",
@@ -2883,8 +3038,8 @@
         ]
       },
       "official_ref": {
-        "url": "한국교육과정평가원 2027학년도 수능 시행기본계획",
-        "note": "평가원 발표문 원문 대조 전(날짜 정합성은 높음).",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 한국교육과정평가원 2027학년도 수능 시행기본계획 | 평가원 발표문 원문 대조 전(날짜 정합성은 높음).",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [],
@@ -2898,7 +3053,9 @@
         "caution": "2028 일정과는 별도로, 2028 지원생은 해당 연도 시행계획 확인 필요."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "AS_PUBLISHED_TEXT",
+      "speech_verified": false
     },
     {
       "id": "YT-A071",
@@ -2928,8 +3085,8 @@
         ]
       },
       "official_ref": {
-        "url": "성균관대·동국대 2027학년도 대학별 모집요강",
-        "note": "공영 방송에 출연한 현직 교사가 특정 전형·비중을 지목한 진술. 원문 요강 대조 필요.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 성균관대·동국대 2027학년도 대학별 모집요강 | 공영 방송에 출연한 현직 교사가 특정 전형·비중을 지목한 진술. 원문 요강 대조 필요.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -2948,7 +3105,9 @@
         "caution": "2027 사례를 2028에 그대로 이식 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "AS_PUBLISHED_TEXT",
+      "speech_verified": false
     },
     {
       "id": "YT-A072",
@@ -2989,7 +3148,9 @@
         "caution": "모집인원 감소폭은 모집단위별 체감 차이가 크므로 단정 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "AS_PUBLISHED_TEXT",
+      "speech_verified": false
     },
     {
       "id": "YT-A073",
@@ -3031,7 +3192,9 @@
         "caution": "재수 불리 여부는 논쟁 중(공통 규정 없음) — 확정 표현 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A074",
@@ -3074,7 +3237,9 @@
         "caution": "체크리스트 내용은 영상에서만 확인 가능 — 인용 시 원문 확인 필요 표기."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A075",
@@ -3103,8 +3268,8 @@
         ]
       },
       "official_ref": {
-        "url": "각 의과대학 2028학년도 모집요강",
-        "note": "세부 전형 조합·비중은 원문 미확보.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 각 의과대학 2028학년도 모집요강 | 세부 전형 조합·비중은 원문 미확보.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -3123,7 +3288,9 @@
         "caution": "의대 정원·지역인재 규모는 정부 발표에 따라 변동 — 최신 자료 확인."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A076",
@@ -3162,7 +3329,9 @@
         "caution": "산업 전망을 입시 결론의 근거로 쓰지 말 것."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A077",
@@ -3187,9 +3356,9 @@
         "people": []
       },
       "official_ref": {
-        "url": "경희대·숙명여대 권장과목 자료(영상 설명란에 원문 링크)",
-        "note": "설명란에 경희대 입학처 페이지와 숙명여대 권장과목 PDF 링크가 제시되어 1차 자료로 확인 가능.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "https://iphak.khu.ac.kr/detail.do?menuurl=wvOt10B5et6zMa%2FM59G%2BxQ%3D%3D&board_seq=16401&pageNo=1&categoryid=0&userpwd=",
+        "note": "영상 설명란에 게시된 경희대 입학처 페이지·숙명여대 권장과목 PDF 링크를 원문 경로로 채취했다(첫 링크를 url에 기록). 본문 대조는 미완료이므로 NEEDS_OFFICIAL_DOC으로 유지한다. 두 번째 원문: https://admission.sookmyung.ac.kr/upload/info/20250724162837CGJKFQ.PDF",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C001"
@@ -3203,7 +3372,9 @@
         "caution": "'권장'과 '필수'를 혼동 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A078",
@@ -3228,8 +3399,8 @@
         ]
       },
       "official_ref": {
-        "url": "숙명여대 권장과목 PDF(설명란 링크)",
-        "note": "계열별 요구 과목은 대학·모집단위별 공지 기준으로 상이.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 숙명여대 권장과목 PDF(설명란 링크) | 계열별 요구 과목은 대학·모집단위별 공지 기준으로 상이.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [],
@@ -3242,7 +3413,9 @@
         "caution": "위 영문 혼입 표현은 정제 필요 — 답변 시 한국어로 재구성."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A079",
@@ -3283,7 +3456,9 @@
         "caution": "2027 재수생이 2028 체제에서 받는 불이익 여부는 미확정."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A080",
@@ -3325,8 +3500,11 @@
         "use": "통합탐구 체제 설명의 공식 수치로 사용.",
         "caution": "배점 세분화 세부(문항별 배점 배분)는 최종 출제계획 확인 필요."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A081",
@@ -3376,7 +3554,9 @@
         "caution": "다수 강사의 방송 토크는 근거 수치를 동반하지 않음."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A082",
@@ -3401,8 +3581,8 @@
       },
       "official_ref": {
         "url": "",
-        "note": "처방형. 5등급제에서 3등급 대에 인원이 몰리는 구조와 정합.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "note": "처방형. 5등급제에서 3등급 대에 인원이 몰리는 구조와 정합. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C002"
@@ -3420,7 +3600,9 @@
         "caution": "'기회'라는 표현이 등급 상승의 용이함으로 오해되지 않도록 조정."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A083",
@@ -3450,8 +3632,8 @@
         ]
       },
       "official_ref": {
-        "url": "각 대학 2027학년도입학전형 결과 공개 자료",
-        "note": "2027 경쟁률 원자료 미확보. 5등급 전환으로 비교 자체가 성립하지 않을 수 있음.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 각 대학 2027학년도입학전형 결과 공개 자료 | 2027 경쟁률 원자료 미확보. 5등급 전환으로 비교 자체가 성립하지 않을 수 있음.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -3470,7 +3652,9 @@
         "caution": "합격선 예측 답변 금지."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_METADATA",
+      "speech_verified": false
     },
     {
       "id": "YT-A084",
@@ -3515,7 +3699,9 @@
         "caution": "23.7%를 확정 통계로 인용하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A085",
@@ -3531,7 +3717,7 @@
         "T09"
       ],
       "academic_year": "2028",
-      "claim": "연세대 학생부종합전형의 평가 기준은 학업역량·진로역량·공동체역량의 3가지이며, 발표자는 각 기준별 세부 평가 내용을 대학 공개 자료 순서대로 해설했다.",
+      "claim": "연세대 학생부종합전형의 평가 기준은 학업역량·진로역량·공동체역량의 3가지이며, 장(챕터) 제목 순서가 대학 공개 자료의 평가 요소 체계와 일치하므로, 해당 순서로 해설이 구성되었을 것으로 추정된다(발음 내용 미청취).",
       "evidence": "장 제목이 '학종 평가기준 세 가지 → 연세대 학종 살펴보기 → 1.학업역량 → 2.진로역량 → 3.공동체역량'으로 대학 공개 평가 요소 체계와 동일.",
       "entities": {
         "institutions": [
@@ -3543,9 +3729,9 @@
         ]
       },
       "official_ref": {
-        "url": "연세대 입학처 학생부종합전형 평가기준(공통평가사항) 공개 자료",
-        "note": "3역량 체계는 대학이 공개한 평가 프레임으로 확인 가능. 원문 URL 미확보로 문서 대조 전.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 연세대 입학처 학생부종합전형 평가기준(공통평가사항) 공개 자료 | 3역량 체계는 대학이 공개한 평가 프레임으로 확인 가능. 원문 URL 미확보로 문서 대조 전. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [],
       "counseling": {
@@ -3560,8 +3746,11 @@
         "use": "학종 준비 항목을 대학 공개 기준 명칭으로 정렬할 때.",
         "caution": "역량별 배점·가중치는 대학이 공개하지 않는다."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A086",
@@ -3605,7 +3794,9 @@
         "caution": "제도 폐지·축소 전망으로 확대 해석 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A087",
@@ -3634,8 +3825,8 @@
         ]
       },
       "official_ref": {
-        "url": "중앙대·경희대·동국대 2028학년도 입학전형 시행계획",
-        "note": "발표자 해석의 세부 명칭(서류형 등)은 대학 자료의 용어와 대조 필요.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 중앙대·경희대·동국대 2028학년도 입학전형 시행계획 | 발표자 해석의 세부 명칭(서류형 등)은 대학 자료의 용어와 대조 필요.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -3654,7 +3845,9 @@
         "caution": "'컷라인 예측'은 제외하고 전형 구조만 전달."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A088",
@@ -3683,8 +3876,8 @@
         ]
       },
       "official_ref": {
-        "url": "해당 대학 2028학년도 입학전형 시행계획",
-        "note": "감점·가산 방식은 시행계획·수시 모집요강 원문 확인 필요.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 해당 대학 2028학년도 입학전형 시행계획 | 감점·가산 방식은 시행계획·수시 모집요강 원문 확인 필요.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -3704,7 +3897,9 @@
         "caution": "2027 입결 기반 컷은 5등급 전환 후 재작성 필요."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A089",
@@ -3748,7 +3943,9 @@
         "caution": "2024년 시안 단계 표현을 2028 확정 내용으로 쓰지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A090",
@@ -3772,8 +3969,8 @@
         ]
       },
       "official_ref": {
-        "url": "각 대학 2028 권장과목 안내",
-        "note": "고급 과목 이수 요구는 자연계열 상위권 일부 모집단위에 한정.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 각 대학 2028 권장과목 안내 | 고급 과목 이수 요구는 자연계열 상위권 일부 모집단위에 한정.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -3791,7 +3988,9 @@
         "caution": "사교육 업체 콘텐츠 기반임을 구분해서 안내."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A091",
@@ -3832,7 +4031,9 @@
         "caution": "부담 증가의 정도는 학교별 편성 차이에 좌우."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A092",
@@ -3859,9 +4060,9 @@
         ]
       },
       "official_ref": {
-        "url": "각 대학 2028학년도 입학전형 시행계획 및 권장과목 공지",
-        "note": "교과전형에 서류·정성평가를 반영한 대학은 시행계획에서 확인 가능. 다만 '일부 반영' 폭은 대학별 상이.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 각 대학 2028학년도 입학전형 시행계획 및 권장과목 공지 | 교과전형에 서류·정성평가를 반영한 대학은 시행계획에서 확인 가능. 다만 '일부 반영' 폭은 대학별 상이. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C005",
@@ -3876,8 +4077,11 @@
         "use": "권장과목을 '선택 가이드'가 아닌 평가 연계 요소로 설명.",
         "caution": "권장과목 미이수가 감점 사유라는 식의 단정 금지."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A093",
@@ -3904,9 +4108,9 @@
         ]
       },
       "official_ref": {
-        "url": "대학별 권장과목 공지(예: 숙명여대 PDF, 경희대 입학처)",
-        "note": "1차 자료 링크는 다른 영상 설명란에서 확인 가능하며 개별 대학 원문 대조 필요.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 대학별 권장과목 공지(예: 숙명여대 PDF, 경희대 입학처) | 1차 자료 링크는 다른 영상 설명란에서 확인 가능하며 개별 대학 원문 대조 필요. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [],
       "counseling": {
@@ -3918,7 +4122,9 @@
         "caution": "학교에 미개설 과목은 공동교육과정·온라인수업 등 대체 경로를 함께 안내."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A094",
@@ -3957,8 +4163,11 @@
         "use": "공교육 표준 설명을 우선 인용해야 할 때 출처로 사용.",
         "caution": "개별 대학 전형 수치는 포함되지 않음 — 요강과 병행."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A095",
@@ -3997,8 +4206,11 @@
         "use": "전형 용어·구조 설명의 중립 기준 자료.",
         "caution": "발표자 개인 경험이 섞인 예시는 일반화 금지."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A096",
@@ -4023,8 +4235,8 @@
         ]
       },
       "official_ref": {
-        "url": "경희대 2028학년도 입학전형 시행계획",
-        "note": "특정 대학 하나를 사례로 한 일반화. '요즘 합격 패턴' 류의 결론과 함께 주의 필요.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 경희대 2028학년도 입학전형 시행계획 | 특정 대학 하나를 사례로 한 일반화. '요즘 합격 패턴' 류의 결론과 함께 주의 필요.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -4041,7 +4253,9 @@
         "caution": "타 대학에 전이 적용 금지."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A097",
@@ -4086,7 +4300,9 @@
         "caution": "'트렌드'를 확정 경향으로 말하지 말 것."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A098",
@@ -4114,8 +4330,8 @@
       },
       "official_ref": {
         "url": "",
-        "note": "처방형. 지역별 정시 비중 차이는 시행계획 통계로 확인 가능한 방향.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "note": "처방형. 지역별 정시 비중 차이는 시행계획 통계로 확인 가능한 방향. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C004"
@@ -4135,7 +4351,9 @@
         "caution": "'학군지=정시' 단순화 위험 — 학생 내신·모의고사 분포를 함께 봐야 함."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A099",
@@ -4176,8 +4394,11 @@
         "use": "통합사회 출제 여부 확인.",
         "caution": "발표자가 '자료 부족'을 이유로자기 홍보하는 상업 콘텐츠임을 구분."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A100",
@@ -4224,7 +4445,9 @@
         "caution": "방송 문구를 제도의 공식 해석처럼 인용 금지."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A101",
@@ -4252,8 +4475,8 @@
         ]
       },
       "official_ref": {
-        "url": "고려대 입학처 최종등록자 성적 공개 자료",
-        "note": "공개 입결은 9등급제 기준이므로 5등급 체제로의 환산은 미확정.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 고려대 입학처 최종등록자 성적 공개 자료 | 공개 입결은 9등급제 기준이므로 5등급 체제로의 환산은 미확정.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -4272,7 +4495,9 @@
         "caution": "방송에서 언급된 등급 수치는 답변에 직접 사용 금지."
       },
       "confidence": "LOW",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A102",
@@ -4300,9 +4525,9 @@
         ]
       },
       "official_ref": {
-        "url": "고려대 2028학년도 입학전형 시행계획",
-        "note": "시행계획 원문에 대한 정밀독해로, 인용 수치 원문 대조 필요.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 고려대 2028학년도 입학전형 시행계획 | 시행계획 원문에 대한 정밀독해로, 인용 수치 원문 대조 필요. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C001"
@@ -4319,8 +4544,11 @@
         "use": "고려대 지원군에게 전형 설계 변화 해석 제공.",
         "caution": "발표자 해석과 대학 공식 문구를 구분해 전달."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A103",
@@ -4364,7 +4592,9 @@
         "caution": "커리큘럼 제안은 EBSi 강좌 연계 콘텐츠."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A104",
@@ -4409,7 +4639,9 @@
         "caution": "문항 수·배점 등 세부 운영은 출제계획 확인."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A105",
@@ -4437,9 +4669,9 @@
         ]
       },
       "official_ref": {
-        "url": "연세대 2028학년도 입학전형 시행계획",
-        "note": "시행계획 정밀독해 계열로, 수치 원문 대조 필요.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 연세대 2028학년도 입학전형 시행계획 | 시행계획 정밀독해 계열로, 수치 원문 대조 필요. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C001"
@@ -4455,8 +4687,11 @@
         "use": "연세대 지원 후보에게 전형 설계 관점 제공.",
         "caution": "논술 전형 인원 변동은 최신 요강 확인."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A106",
@@ -4504,7 +4739,9 @@
         "caution": "한쪽 결론으로 확정하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A107",
@@ -4531,8 +4768,8 @@
         ]
       },
       "official_ref": {
-        "url": "중앙대 2028학년도 입학전형 시행계획 및 평가요소 공개 자료",
-        "note": "출결 반영 여부는 대학·전형별 규정이므로 원문 확인 필요.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 중앙대 2028학년도 입학전형 시행계획 및 평가요소 공개 자료 | 출결 반영 여부는 대학·전형별 규정이므로 원문 확인 필요.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -4548,7 +4785,9 @@
         "caution": "'출결 1일이 등급 몇 개와 같다' 식 환산은 근거 없음."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false
     },
     {
       "id": "YT-A108",
@@ -4593,7 +4832,9 @@
         "caution": "시안 수치를 2028 확정 내용으로 인용 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A109",
@@ -4637,8 +4878,11 @@
         "use": "재수 고민 상담에서 양쪽 논거를 함께 제시.",
         "caution": "응시 과목·성적 반영 규칙 변경은 졸업연도별 상이 — 재수 지원 조건은 해당 연도 요강 확인."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A110",
@@ -4666,9 +4910,9 @@
         ]
       },
       "official_ref": {
-        "url": "서울대 2028학년도 권장과목 안내",
-        "note": "권장 과목의 구체 목록은 대학 공지 원문 확인 필요.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 서울대 2028학년도 권장과목 안내 | 권장 과목의 구체 목록은 대학 공지 원문 확인 필요. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C001"
@@ -4684,8 +4928,11 @@
         "use": "상위권 목표 학생의 과목 선택 기준 설명.",
         "caution": "'사실상 필수'라는 표현은 해석 — 대학이 요구 요건으로 공지한 것은 아님."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A111",
@@ -4724,8 +4971,11 @@
         "use": "입문 설명의 목차 프레임.",
         "caution": "각 항목의 세부 수치는 이 영상 출처로는 사용 불가."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_TIMELINE_LABEL",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A112",
@@ -4767,7 +5017,9 @@
         "caution": "세부 결론은 자막 미확보로 인용 불가."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A113",
@@ -4808,7 +5060,9 @@
         "caution": "'깊이'의 평가 기준은 대학이 공개하지 않음."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A114",
@@ -4836,9 +5090,9 @@
         ]
       },
       "official_ref": {
-        "url": "각 대학 권장과목 안내",
-        "note": "같은 출연자의 상세 발언은 TnpTvofuaIU 항목에 전문 기준으로 기록.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 각 대학 권장과목 안내 | 같은 출연자의 상세 발언은 TnpTvofuaIU 항목에 전문 기준으로 기록. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [],
       "counseling": {
@@ -4850,8 +5104,11 @@
         "use": "과목 선택 우선순위 상담.",
         "caution": "학교 과목 개설 여부에 따라 실행 가능성이 달라짐."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A115",
@@ -4878,9 +5135,9 @@
         ]
       },
       "official_ref": {
-        "url": "각 대학 2028학년도 입학전형 시행계획",
-        "note": "정시에 학생부·수시에 최저가 확산되는 현상은 시행계획에서 관측된다.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 각 대학 2028학년도 입학전형 시행계획 | 정시에 학생부·수시에 최저가 확산되는 현상은 시행계획에서 관측된다. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C001",
@@ -4896,7 +5153,9 @@
         "caution": "모든 전형을 다 준비하라는 처방은 시간 제약과 충돌 — 우선순위 설계 병행."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A116",
@@ -4923,8 +5182,8 @@
         ]
       },
       "official_ref": {
-        "url": "서울 주요 대학 2028학년도 시행계획",
-        "note": "대학별 반영 비율 원문 대조 필요.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 서울 주요 대학 2028학년도 시행계획 | 대학별 반영 비율 원문 대조 필요.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -4943,7 +5202,9 @@
         "caution": "'주요대' 범위가 특정되지 않았으므로 대학명 확정 전 인용 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A117",
@@ -4969,8 +5230,8 @@
         ]
       },
       "official_ref": {
-        "url": "서울대 2028학년도 입학전형 시행계획",
-        "note": "수능 반영 축소 여부는 단계별 비율을 원문으로 확인해야 하는 사안. 감정적 수사로 일반화 위험.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 서울대 2028학년도 입학전형 시행계획 | 수능 반영 축소 여부는 단계별 비율을 원문으로 확인해야 하는 사안. 감정적 수사로 일반화 위험.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -4989,7 +5250,9 @@
         "caution": "표현을 대학 정책의 의도로 확정해 말하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A118",
@@ -5031,7 +5294,9 @@
         "caution": "위계와 등급 안전(소인수 리스크) 간 상충은 별도 상담 필요."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A119",
@@ -5072,7 +5337,9 @@
         "caution": "제목만 근거로 '2027 수능에 통합사회 출제'라고 답하면 오답."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_METADATA",
+      "speech_verified": false
     },
     {
       "id": "YT-A120",
@@ -5110,8 +5377,11 @@
         "use": "공공 학습 전략 자료로 우선 권유 가능.",
         "caution": "강사별 커리큘럼 제안은 상품 연계 가능성 구분."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_METADATA",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A121",
@@ -5150,7 +5420,9 @@
         "caution": "동일 제목의 다른 편(2KrOPWG1Rnk)과 내용이 겹칠 수 있어 중복 인용 주의."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A122",
@@ -5174,8 +5446,8 @@
         ]
       },
       "official_ref": {
-        "url": "연세대 2028학년도 입학전형 시행계획",
-        "note": "기관 분석 보고서 원문 대조 필요.",
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 연세대 2028학년도 입학전형 시행계획 | 기관 분석 보고서 원문 대조 필요.",
         "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
@@ -5191,7 +5463,9 @@
         "caution": "사교육 기관 자료로, 대학 공식 문서와 구분 표기."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_METADATA",
+      "speech_verified": false
     },
     {
       "id": "YT-A123",
@@ -5236,7 +5510,9 @@
         "caution": "'평이해진다'를 사실로 답하지 말 것."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A124",
@@ -5280,7 +5556,9 @@
         "caution": "'유리한 과목'이라는 표현이 특정 과목을 지목하는 결론으로 읽히지 않도록 주의."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A125",
@@ -5318,8 +5596,11 @@
         "use": "입문 개념 설명.",
         "caution": "제도 개요 이상은 다른 출처 필요."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     },
     {
       "id": "YT-A126",
@@ -5364,7 +5645,9 @@
         "caution": "전제 자체를 확정으로 안내 금지."
       },
       "confidence": "MEDIUM",
-      "verification_status": "NORMALIZED"
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false
     },
     {
       "id": "YT-A127",
@@ -5392,9 +5675,9 @@
         ]
       },
       "official_ref": {
-        "url": "각 대학 권장과목 안내",
-        "note": "현직 교사의 공영 방송 해설로 출처 신뢰도 높음. 다만 대학별 목록 원문 대조 필요.",
-        "status": "CONSISTENT_WITH_OFFICIAL"
+        "url": "",
+        "note": "대조 대상 자료(URL 미확보): 각 대학 권장과목 안내 | 현직 교사의 공영 방송 해설로 출처 신뢰도 높음. 다만 대학별 목록 원문 대조 필요. [공식 원문 URL 미확보 — 대조 완료로 오독되지 않도록 NEEDS_OFFICIAL_DOC으로 강등]",
+        "status": "NEEDS_OFFICIAL_DOC"
       },
       "conflict_ids": [
         "YT-C001"
@@ -5408,8 +5691,18 @@
         "use": "권장과목 활용 절차 안내.",
         "caution": "권장과목 이수가 합격 요건은 아니다."
       },
-      "confidence": "HIGH",
-      "verification_status": "NORMALIZED"
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED",
+      "evidence_basis": "INFERRED_FROM_DESCRIPTION_SUMMARY",
+      "speech_verified": false,
+      "confidence_capped": true
     }
-  ]
+  ],
+  "evidence_basis_definitions": {
+    "AS_PUBLISHED_TEXT": "채널이 설명란 등에 공개한 텍스트 자체를 근거로 삼은 항목(발언 청취가 아니라 공개 문언 기준).",
+    "INFERRED_FROM_TIMELINE_LABEL": "설명란 타임스탬프(챕터) 라벨이 해당 구간의 존재를 가리키므로, 그 라벨 어휘로 주장을 복원한 항목. 실제 발화 내용은 미청취.",
+    "INFERRED_FROM_CHAPTER_LABEL": "YouTube 챕터 제목 라벨만 근거로 한 항목. 실제 발화 내용은 미청취.",
+    "INFERRED_FROM_DESCRIPTION_SUMMARY": "채널이 제공한 설명란 요약문·해시태그를 근거로 한 항목. 실제 발화 내용은 미청취.",
+    "INFERRED_FROM_METADATA": "제목·채널·게시일 등 메타데이터와 영상 단위 개요로 복원한 항목. 실제 발화 내용은 미청취."
+  }
 }

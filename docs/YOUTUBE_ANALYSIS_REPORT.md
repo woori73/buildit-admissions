@@ -29,8 +29,24 @@
 - 제외: **6** (`METADATA_ONLY`) — 설명란이 비었거나 제목만 있어 주장의 근거를 확인할 수 없는 영상. `analyst_note`에 제외 사유를 기록했고 분석 항목(analysis)을 만들지 않았다.
 - 분석 항목: **127** (영상 72개 전수 커버, 항목당 앵커·근거·공식 대조 상태·상담 규칙 부여)
   - classification: EXPERT_ANALYSIS 69 / STRATEGY 24 / DISPUTED 14 / OFFICIAL_FACT 10 / PREDICTION 7 / OUTDATED 3
-  - confidence: HIGH 34 / MEDIUM 78 / LOW 15
+  - confidence: HIGH 5 / MEDIUM 107 / LOW 15
   - 적용 학년도: 2028 118 / 2027 7 / 2026 2
+
+### 근거 수준 표시 — `evidence_basis` (실제 발언 vs 라벨 기반 복원)
+
+자막을 확보한 영상이 0건이므로, 127개 항목 전부에 `evidence_basis`와 `speech_verified:false`를 부여했다(`scripts/youtube/yt_mark_evidence_basis.py`가 `anchor.src` + 해당 영상의 `content_evidence`에서 결정적으로 파생. 재분석 아님).
+
+| 근거 수준 | 항목 | 의미 |
+|---|---|---|
+| `AS_PUBLISHED_TEXT` | 8 | 채널이 설명란에 공개한 문언 자체를 근거로 함(발언 청취는 아님) |
+| `INFERRED_FROM_TIMELINE_LABEL` | 66 | 설명란 타임스탬프·챕터 라벨의 어휘로 주장 복원, 발화 내용 미청취 |
+| `INFERRED_FROM_DESCRIPTION_SUMMARY` | 46 | 채널 제공 설명란 요약문·해시태그 근거, 발화 내용 미청취 |
+| `INFERRED_FROM_CHAPTER_LABEL` | 1 | YouTube 챕터 제목 라벨만 근거, 발화 내용 미청취 |
+| `INFERRED_FROM_METADATA` | 6 | 제목·채널·일시 등 메타데이터 기반 복원, 발화 내용 미청취 |
+
+- **라벨 기반 복원 119건 / 공개 문언 근거 8건 / 발언 직접 확인 0건.** 상담 시 `INFERRED_*` 항목은 전문가의 확정 발언으로 인용하지 말도록 `usage_rules`에 규칙을 추가했다.
+- 근거 수준과 맞지 않는 확실성 라벨을 제거: `INFERRED_*`인데 `confidence=HIGH`였던 **29건**을 MEDIUM으로 하향(항목에 `confidence_capped:true` 기록). 결과 HIGH 34→5, 남은 HIGH 5건은 전부 `AS_PUBLISHED_TEXT`. 검증기가 `INFERRED_* + HIGH`를 오류로 차단한다.
+- 발언 행위를 서술한 문구 1건(YT-A085 "발표자는 … 해설했다")을 "챕터 제목 순서가 대학 공개 자료의 체계와 일치 → 해설 구성 추정(발음 내용 미청취)"으로 바꿔, 듣지 않은 내용을 확정 진술로 남기지 않았다.
 
 **자막 확보 한계(중요)**: 본 네트워크에서 YouTube `timedtext`가 HTTP 200 + 본문 0바이트(bot attestation `pot`/`xoaf`)로 차단되어 자막 전문을 확보하지 못했다(`/player` 응답도 UNPLAYABLE). 따라서 근거 계층은 ①공식 설명란의 타임스탬프(챕터 앵커) ②`/next` 챕터 제목 ③EBS 뉴스 등 설명란에 전문이 게시된 경우이며, 각 행의 `content_evidence`에 확보 수준을 명시했다. 자막 원문은 저장·재배포하지 않았다(§8).
 
@@ -66,7 +82,11 @@
 
 ## ⑤ 공식자료 대조 검증 결과
 
-`official_ref.status` 분포: OFFICIAL_CONFIRMED 10 / CONSISTENT_WITH_OFFICIAL 52 / NEEDS_OFFICIAL_DOC 41 / CONFLICT 12 / UNSUPPORTED 12.
+`official_ref.status` 분포: OFFICIAL_CONFIRMED 10 / CONSISTENT_WITH_OFFICIAL 32 / NEEDS_OFFICIAL_DOC 61 / CONFLICT 12 / UNSUPPORTED 12. 원문 URL을 가진 항목 60건.
+
+- **URL 없는 "대조 완료" 라벨 제거**: 기존에 `CONSISTENT_WITH_OFFICIAL`이면서 `official_ref.url`이 없던 **20건**을 `NEEDS_OFFICIAL_DOC`으로 강등했다. 문서 대조를 완료한 항목만 원문 URL과 함께 대조 상태(CONSISTENT_WITH_OFFICIAL / OFFICIAL_CONFIRMED)를 유지하며, 검증기가 URL 없는 대조 상태를 오류로 차단한다.
+- 원문 링크 보전 예: YT-A077은 영상 설명란에 게시돼 있던 경희대 입학처 페이지·숙명여대 권장과목 PDF URL을 `official_ref.url`/note로 채취해 기록하되, 본문 대조는 미완료이므로 상태를 `NEEDS_OFFICIAL_DOC`으로 유지했다(추측 URL 사용 금지).
+- `official_ref.url` 필드 의미 고정: 실제 URL이 아닌 자료명 서술 27건을 note로 이동하고 필드를 비웠다. 검증기가 `url`이 http가 있으면 오류로 차단하므로, URL이 비어 있으면 "대조 원문 미확보"를 의미한다.
 
 - 확인 예: 348,789명·80.8%·19.2%(대교협 공표 전한 교육부 보도자료· kyobit 보도), 통합사회·통합과학 25문항·40분, 내신 5등급·선택과목 폐지(교육부 2023-12-27 확정안), 고3까지 내신 반영.
 - 미해결(원문 필요): 대학별 정시 학생부 반영비율(서울대 20→40% 등), 5등급 구간·9등급 환산표(「학교생활기록 작성 및 관리지침」), 탐구 반영 방식 집계, 학종 비중(23.7%) 분류 기준.
@@ -77,12 +97,13 @@
 ## ⑥ DB에 저장된 분석 항목 수
 
 - videos 78 / analyses **127** / topics 10 / conflicts **12**
-- 외래키·무결성 검증 통과(`errors=0`): `analysis.video_id ∈ videos`, `analysis.topics ⊆ video.topic_ids`(union 적용), `conflict_ids ∈ conflicts`, `conflict.side_*.analysis_ids ∈ analyses`, 앵커 `t1 ≤ video.duration_sec`, 열거형 유효, METADATA_ONLY 영상의 analysis 금지, `APPROVED` 행 금지, CJK 혼입 문자 0건.
+- 외래키·무결성 검증 통과(`errors=0`): `analysis.video_id ∈ videos`, `analysis.topics ⊆ video.topic_ids`(union 적용), `conflict_ids ∈ conflicts`, `conflict.side_*.analysis_ids ∈ analyses`, 앵커 `t1 ≤ video.duration_sec`, 열거형 유효, METADATA_ONLY 영상의 analysis 금지, `APPROVED` 행 금지, CJK 혼입 문자 0건(항목 + 헤더).
+- 근거 수준 무결성(추가): `evidence_basis`가 저장 필드(`anchor.src`, `content_evidence`)에서 재계산한 값과 일치, `speech_verified = video.caption_available`(전건 false), `INFERRED_*`인데 `confidence=HIGH`이면 오류, `OFFICIAL_CONFIRMED`·`CONSISTENT_WITH_OFFICIAL`인데 URL이 없으면 오류, 헤더에 `evidence_basis_definitions` 필수.
 
 ## ⑦ GitHub 브랜치·PR·파일 경로
 
 - 브랜치: `qoder-b/youtube-analysis`
-- 파일: `data/youtube/{videos,analyses,topics,conflicts}.json`, `data/youtube/validation_report.json`, `docs/YOUTUBE_ANALYSIS_REPORT.md`, `scripts/youtube/{yt_build_videos.py,yt_validate.py}` (+ 수집 스크립트 일체)
+- 파일: `data/youtube/{videos,analyses,topics,conflicts}.json`, `data/youtube/validation_report.json`, `docs/YOUTUBE_ANALYSIS_REPORT.md`, `scripts/youtube/{yt_build_videos.py,yt_mark_evidence_basis.py,yt_validate.py}` (+ 수집 스크립트 일체)
 - Qoder A 경로(`data/meta/**`, `data/parsed/**`, `data/seed/**`, `docs/FIRST_PASS_REPORT.md`, `docs/SOURCE_REGISTRY.md`, `docs/schema/V1064~V1067`, 기존 `scripts/*.py`)는 수정·삭제하지 않았으며 커밋 범위에 포함하지 않음.
 - 스키마 재사용: `verification_status` 5단계, `content_class`, `redistribution`, `access_method`, `url_hash(sha256)` 어휘를 Qoder A의 `ipsi_*` 정의와 동일하게 사용.
 
@@ -104,3 +125,5 @@
 3. `DISPUTED`·`OUTDATED`·`UNSUPPORTED` 또는 `conflict_ids`가 있는 항목은 단일 근거 결론 금지 — 차이와 확인 경로를 함께 안내.
 4. `confidence=LOW`는 개인 합격·불합격 배치에 사용하지 않음.
 5. `verification_status != APPROVED` 데이터는 운영 상담 검색에 자동 반영하지 않음(§8).
+6. `evidence_basis=INFERRED_*`(119건)·`speech_verified=false` 항목은 전문가의 확정 발언으로 인용하지 말고 '설명란·챕터 라벨 기반 복원'임을 함께 표기.
+7. 원문 URL이 없는 항목은 `NEEDS_OFFICIAL_DOC`/`UNSUPPORTED`이므로 "공식 확인 완료"로 말하지 않음.
