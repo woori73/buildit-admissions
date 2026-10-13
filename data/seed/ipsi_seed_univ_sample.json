@@ -1,0 +1,2618 @@
+{
+ "generated_at": "2026-10-13T15:38:19+09:00",
+ "gate": "verification_status=NORMALIZED — APPROVED전까지 상담 검색 미노출",
+ "ipsi_universities": [
+  {
+   "code": "snu",
+   "verification_status": "NORMALIZED",
+   "university_code": "SNU",
+   "name": "서울대학교",
+   "establishment_type": "국립",
+   "region": "서울",
+   "admission_office_url": "https://admission.snu.ac.kr/"
+  },
+  {
+   "code": "yon",
+   "verification_status": "NORMALIZED",
+   "university_code": "YONSEI",
+   "name": "연세대학교",
+   "establishment_type": "사립",
+   "region": "서울",
+   "admission_office_url": "https://admission.yonsei.ac.kr/"
+  },
+  {
+   "code": "skku",
+   "verification_status": "NORMALIZED",
+   "university_code": "SKKU",
+   "name": "성균관대학교",
+   "establishment_type": "사립",
+   "region": "서울",
+   "admission_office_url": "https://admission.skku.edu/"
+  }
+ ],
+ "ipsi_documents": [
+  {
+   "document_key": "doc_snu_2027_susi",
+   "institution_name": "서울대학교 입학본부",
+   "document_name": "2027학년도 대학 신입학생 수시모집 안내(모집요강)",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "file_url": "https://admission.snu.ac.kr/webdata/admission/files/2027susi.pdf",
+   "applicable_academic_year": 2027,
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED",
+   "redistribution": "METADATA_PRIORITY",
+   "store_fulltext": false,
+   "note": "원문 전문은 git 미저장(data/raw). 구조화 행만 저장."
+  },
+  {
+   "document_key": "doc_yon_2027_susi",
+   "institution_name": "연세대학교 입학처",
+   "document_name": "2027학년도 수시모집 모집요강",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "file_url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
+   "applicable_academic_year": 2027,
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED",
+   "redistribution": "METADATA_PRIORITY",
+   "store_fulltext": false,
+   "note": "원문 전문은 git 미저장(data/raw). 구조화 행만 저장."
+  },
+  {
+   "document_key": "doc_yon_2027_plan",
+   "institution_name": "연세대학교",
+   "document_name": "2027학년도 연세대학교 서울캠퍼스 입학전형 시행계획",
+   "source_url": "https://www2.yonsei.ac.kr/entrance/plan/2027_plan.pdf",
+   "file_url": "https://www2.yonsei.ac.kr/entrance/plan/2027_plan.pdf",
+   "applicable_academic_year": 2027,
+   "published_at": "2026-04",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED",
+   "redistribution": "METADATA_PRIORITY",
+   "store_fulltext": false,
+   "note": "원문 전문은 git 미저장(data/raw). 구조화 행만 저장."
+  },
+  {
+   "document_key": "doc_yon_2028_plan",
+   "institution_name": "연세대학교",
+   "document_name": "2028학년도 연세대학교 서울캠퍼스 입학전형 시행계획",
+   "source_url": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
+   "file_url": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
+   "applicable_academic_year": 2028,
+   "published_at": "2026-04",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED",
+   "redistribution": "METADATA_PRIORITY",
+   "store_fulltext": false,
+   "note": "원문 전문은 git 미저장(data/raw). 구조화 행만 저장."
+  },
+  {
+   "document_key": "doc_skku_2027_susi",
+   "institution_name": "성균관대학교 입학처",
+   "document_name": "2027학년도 수시모집 모집요강",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "file_url": "https://admission.skku.edu/upload/guide/20260813104526BBPE44.pdf",
+   "applicable_academic_year": 2027,
+   "published_at": "2026-08-13",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED",
+   "redistribution": "METADATA_PRIORITY",
+   "store_fulltext": false,
+   "note": "원문 전문은 git 미저장(data/raw). 구조화 행만 저장."
+  }
+ ],
+ "ipsi_departments": [
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "광역",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 0,
+    "기회균형특별전형": 0,
+    "합계": 0
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "자유전공학부",
+   "counts_by_type": {
+    "지역균형전형": 20,
+    "일반전형": 48,
+    "기회균형특별전형": 6,
+    "합계": 74
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "인문계열",
+   "counts_by_type": {
+    "지역균형전형": 27,
+    "일반전형": 0,
+    "기회균형특별전형": 14,
+    "합계": 41
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "국어국문학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "중어중문학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "영어영문학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 8,
+    "기회균형특별전형": 0,
+    "합계": 8
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "불어불문학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "독어독문학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "노어노문학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "서어서문학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "언어학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "아시아언어문명학부",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "역사학부",
+   "counts_by_type": {
+    "지역균형전형": 9,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 18
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "고고미술사학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "철학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "종교학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "미학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 9,
+    "기회균형특별전형": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "정치외교학부",
+   "counts_by_type": {
+    "지역균형전형": 17,
+    "일반전형": 25,
+    "기회균형특별전형": 4,
+    "합계": 46
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "경제학부",
+   "counts_by_type": {
+    "지역균형전형": 7,
+    "일반전형": 60,
+    "기회균형특별전형": 8,
+    "합계": 75
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "사회학과",
+   "counts_by_type": {
+    "지역균형전형": 6,
+    "일반전형": 10,
+    "기회균형특별전형": 1,
+    "합계": 17
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "인류학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 12,
+    "기회균형특별전형": 1,
+    "합계": 13
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "심리학과",
+   "counts_by_type": {
+    "지역균형전형": 6,
+    "일반전형": 8,
+    "기회균형특별전형": 1,
+    "합계": 15
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "지리학과",
+   "counts_by_type": {
+    "지역균형전형": 6,
+    "일반전형": 9,
+    "기회균형특별전형": 1,
+    "합계": 16
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "사회복지학과",
+   "counts_by_type": {
+    "지역균형전형": 6,
+    "일반전형": 7,
+    "기회균형특별전형": 1,
+    "합계": 14
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "언론정보학과",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 8,
+    "기회균형특별전형": 1,
+    "합계": 14
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "수리과학부",
+   "counts_by_type": {
+    "지역균형전형": 7,
+    "일반전형": 16,
+    "기회균형특별전형": 2,
+    "합계": 25
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "통계학과",
+   "counts_by_type": {
+    "지역균형전형": 6,
+    "일반전형": 13,
+    "기회균형특별전형": 2,
+    "합계": 21
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "물리학전공",
+   "counts_by_type": {
+    "지역균형전형": 8,
+    "일반전형": 20,
+    "기회균형특별전형": 2,
+    "합계": 30
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "천문학전공",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 6,
+    "기회균형특별전형": 0,
+    "합계": 6
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "화학부",
+   "counts_by_type": {
+    "지역균형전형": 7,
+    "일반전형": 21,
+    "기회균형특별전형": 2,
+    "합계": 30
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "생명과학부",
+   "counts_by_type": {
+    "지역균형전형": 7,
+    "일반전형": 27,
+    "기회균형특별전형": 3,
+    "합계": 37
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "지구환경과학부",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 20,
+    "기회균형특별전형": 2,
+    "합계": 27
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "간호대학",
+   "counts_by_type": {
+    "지역균형전형": 10,
+    "일반전형": 27,
+    "기회균형특별전형": 3,
+    "합계": 40
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "경영대학",
+   "counts_by_type": {
+    "지역균형전형": 26,
+    "일반전형": 47,
+    "기회균형특별전형": 7,
+    "합계": 80
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "광역",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 0,
+    "기회균형특별전형": 0,
+    "합계": 0
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "건설환경도시공학부",
+   "counts_by_type": {
+    "지역균형전형": 8,
+    "일반전형": 26,
+    "기회균형특별전형": 2,
+    "합계": 36
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "기계공학부",
+   "counts_by_type": {
+    "지역균형전형": 16,
+    "일반전형": 54,
+    "기회균형특별전형": 6,
+    "합계": 76
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "재료공학부",
+   "counts_by_type": {
+    "지역균형전형": 18,
+    "일반전형": 44,
+    "기회균형특별전형": 6,
+    "합계": 68
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "전기·정보공학부",
+   "counts_by_type": {
+    "지역균형전형": 11,
+    "일반전형": 80,
+    "기회균형특별전형": 8,
+    "합계": 99
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "컴퓨터공학부",
+   "counts_by_type": {
+    "지역균형전형": 9,
+    "일반전형": 36,
+    "기회균형특별전형": 4,
+    "합계": 49
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "화학생물공학부",
+   "counts_by_type": {
+    "지역균형전형": 15,
+    "일반전형": 47,
+    "기회균형특별전형": 5,
+    "합계": 67
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "건축학과",
+   "counts_by_type": {
+    "지역균형전형": 8,
+    "일반전형": 25,
+    "기회균형특별전형": 2,
+    "합계": 35
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "산업공학과",
+   "counts_by_type": {
+    "지역균형전형": 4,
+    "일반전형": 18,
+    "기회균형특별전형": 2,
+    "합계": 24
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "에너지자원공학과",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 15,
+    "기회균형특별전형": 1,
+    "합계": 21
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "원자핵공학과",
+   "counts_by_type": {
+    "지역균형전형": 9,
+    "일반전형": 15,
+    "기회균형특별전형": 2,
+    "합계": 26
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "조선해양공학과",
+   "counts_by_type": {
+    "지역균형전형": 6,
+    "일반전형": 22,
+    "기회균형특별전형": 1,
+    "합계": 29
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "항공우주공학과",
+   "counts_by_type": {
+    "지역균형전형": 4,
+    "일반전형": 18,
+    "기회균형특별전형": 2,
+    "합계": 24
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "농경제사회학부",
+   "counts_by_type": {
+    "지역균형전형": 11,
+    "일반전형": 15,
+    "기회균형특별전형": 2,
+    "합계": 28
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "식물생산과학부",
+   "counts_by_type": {
+    "지역균형전형": 6,
+    "일반전형": 24,
+    "기회균형특별전형": 3,
+    "합계": 33
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "산림과학부",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 19,
+    "기회균형특별전형": 2,
+    "합계": 26
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "식품·동물생명공학부",
+   "counts_by_type": {
+    "지역균형전형": 6,
+    "일반전형": 16,
+    "기회균형특별전형": 2,
+    "합계": 24
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "응용생물화학부",
+   "counts_by_type": {
+    "지역균형전형": 9,
+    "일반전형": 15,
+    "기회균형특별전형": 2,
+    "합계": 26
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "조경·지역시스템공학부",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 14,
+    "기회균형특별전형": 2,
+    "합계": 21
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "바이오시스템·소재학부",
+   "counts_by_type": {
+    "지역균형전형": 10,
+    "일반전형": 20,
+    "기회균형특별전형": 3,
+    "합계": 33
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "스마트시스템과학과",
+   "counts_by_type": {
+    "지역균형전형": 4,
+    "일반전형": 10,
+    "기회균형특별전형": 1,
+    "합계": 15
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "동양화과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 0,
+    "기회균형특별전형": 1,
+    "합계": 1
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "서양화과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 0,
+    "기회균형특별전형": 1,
+    "합계": 1
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "조소과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 0,
+    "기회균형특별전형": 1,
+    "합계": 1
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "공예과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 0,
+    "기회균형특별전형": 1,
+    "합계": 1
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "디자인과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 7,
+    "기회균형특별전형": 1,
+    "합계": 8
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "교육학과",
+   "counts_by_type": {
+    "지역균형전형": 0,
+    "일반전형": 11,
+    "기회균형특별전형": 1,
+    "합계": 12
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "국어교육과",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 9,
+    "기회균형특별전형": 1,
+    "합계": 15
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "영어교육과",
+   "counts_by_type": {
+    "지역균형전형": 4,
+    "일반전형": 12,
+    "기회균형특별전형": 1,
+    "합계": 17
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "독어교육과",
+   "counts_by_type": {
+    "지역균형전형": 4,
+    "일반전형": 10,
+    "기회균형특별전형": 1,
+    "합계": 15
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "불어교육과",
+   "counts_by_type": {
+    "지역균형전형": 4,
+    "일반전형": 10,
+    "기회균형특별전형": 1,
+    "합계": 15
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "사회교육과",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 6,
+    "기회균형특별전형": 1,
+    "합계": 12
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "역사교육과",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 6,
+    "기회균형특별전형": 1,
+    "합계": 12
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "지리교육과",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 6,
+    "기회균형특별전형": 1,
+    "합계": 12
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "윤리교육과",
+   "counts_by_type": {
+    "지역균형전형": 3,
+    "일반전형": 9,
+    "기회균형특별전형": 1,
+    "합계": 13
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "수학교육과",
+   "counts_by_type": {
+    "지역균형전형": 4,
+    "일반전형": 11,
+    "기회균형특별전형": 1,
+    "합계": 16
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "물리교육과",
+   "counts_by_type": {
+    "지역균형전형": 3,
+    "일반전형": 7,
+    "기회균형특별전형": 1,
+    "합계": 11
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "화학교육과",
+   "counts_by_type": {
+    "지역균형전형": 6,
+    "일반전형": 7,
+    "기회균형특별전형": 1,
+    "합계": 14
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "생물교육과",
+   "counts_by_type": {
+    "지역균형전형": 5,
+    "일반전형": 7,
+    "기회균형특별전형": 1,
+    "합계": 13
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "지구과학교육과",
+   "counts_by_type": {
+    "지역균형전형": 3,
+    "일반전형": 9,
+    "기회균형특별전형": 1,
+    "합계": 13
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": "2027",
+   "department_name": "체육교육과",
+   "counts_by_type": {
+    "지역균형전형": 4,
+    "일반전형": 0,
+    "기회균형특별전형": 2,
+    "합계": 6
+   },
+   "source_document_key": "doc_snu_2027_susi",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "국어국문학과†",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 7,
+    "활동우수형": 10,
+    "기회균형": 3,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 24
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "중어중문학과†",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 7,
+    "기회균형": 2,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 18
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "영어영문학과†",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 12,
+    "활동우수형": 15,
+    "기회균형": 5,
+    "논술": 5,
+    "특기자_체육": 0,
+    "합계": 37
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "독어독문학과",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 7,
+    "기회균형": 2,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 17
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "불어불문학과",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 8,
+    "기회균형": 2,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 19
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "노어노문학과†",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 7,
+    "기회균형": 2,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 17
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "사학과†",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 7,
+    "활동우수형": 9,
+    "기회균형": 3,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 23
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "철학과",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 8,
+    "기회균형": 2,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 19
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "문헌정보학과†",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 7,
+    "기회균형": 2,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 17
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "심리학과†",
+   "college_name": "문과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 8,
+    "기회균형": 3,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 20
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "경제학부",
+   "college_name": "상경대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 25,
+    "활동우수형": 32,
+    "기회균형": 11,
+    "논술": 5,
+    "특기자_체육": 0,
+    "합계": 73
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "응용통계학과",
+   "college_name": "상경대학",
+   "track": "통합",
+   "counts_by_type": {
+    "추천형": 6,
+    "활동우수형": 11,
+    "기회균형": 4,
+    "논술": 2,
+    "특기자_체육": 0,
+    "합계": 23
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "경영학과",
+   "college_name": "경영대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 32,
+    "활동우수형": 40,
+    "기회균형": 15,
+    "논술": 15,
+    "특기자_체육": 0,
+    "합계": 102
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "수학과†",
+   "college_name": "이과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 7,
+    "기회균형": 3,
+    "논술": 7,
+    "특기자_체육": 0,
+    "합계": 22
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "물리학과",
+   "college_name": "이과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 7,
+    "기회균형": 2,
+    "논술": 7,
+    "특기자_체육": 0,
+    "합계": 20
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "화학과†",
+   "college_name": "이과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 8,
+    "활동우수형": 10,
+    "기회균형": 3,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 25
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "지구시스템과학과†",
+   "college_name": "이과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 7,
+    "기회균형": 2,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 17
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "천문우주학과",
+   "college_name": "이과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 6,
+    "기회균형": 2,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 16
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "대기과학과",
+   "college_name": "이과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 6,
+    "기회균형": 2,
+    "논술": 3,
+    "특기자_체육": 0,
+    "합계": 15
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "화공생명공학부",
+   "college_name": "공과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 13,
+    "활동우수형": 17,
+    "기회균형": 6,
+    "논술": 12,
+    "특기자_체육": 0,
+    "합계": 48
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "전기전자공학부",
+   "college_name": "공과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 27,
+    "활동우수형": 34,
+    "기회균형": 12,
+    "논술": 20,
+    "특기자_체육": 0,
+    "합계": 93
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "건축공학과",
+   "college_name": "공과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 13,
+    "활동우수형": 16,
+    "기회균형": 6,
+    "논술": 7,
+    "특기자_체육": 0,
+    "합계": 42
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "도시공학과",
+   "college_name": "공과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 7,
+    "기회균형": 3,
+    "논술": 3,
+    "특기자_체육": 0,
+    "합계": 17
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "사회환경시스템공학부",
+   "college_name": "공과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 12,
+    "활동우수형": 15,
+    "기회균형": 5,
+    "논술": 10,
+    "특기자_체육": 0,
+    "합계": 42
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "기계공학부",
+   "college_name": "공과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 18,
+    "활동우수형": 23,
+    "기회균형": 8,
+    "논술": 18,
+    "특기자_체육": 0,
+    "합계": 67
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "신소재공학부",
+   "college_name": "공과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 16,
+    "활동우수형": 19,
+    "기회균형": 8,
+    "논술": 13,
+    "특기자_체육": 0,
+    "합계": 56
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "산업공학과",
+   "college_name": "공과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 7,
+    "기회균형": 2,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 18
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "생명과학부†*",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 0,
+    "활동우수형": 6,
+    "기회균형": 0,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 6
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "시스템생물학과†",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 5,
+    "기회균형": 2,
+    "논술": 3,
+    "특기자_체육": 0,
+    "합계": 14
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "생화학과",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 3,
+    "활동우수형": 4,
+    "기회균형": 2,
+    "논술": 2,
+    "특기자_체육": 0,
+    "합계": 11
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "생명공학과",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 9,
+    "활동우수형": 11,
+    "기회균형": 4,
+    "논술": 8,
+    "특기자_체육": 0,
+    "합계": 32
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "컴퓨터과학과",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 8,
+    "활동우수형": 10,
+    "기회균형": 4,
+    "논술": 6,
+    "특기자_체육": 0,
+    "합계": 28
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "인공지능학과",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 10,
+    "활동우수형": 15,
+    "기회균형": 5,
+    "논술": 5,
+    "특기자_체육": 0,
+    "합계": 35
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "인공지능시스템학과",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 7,
+    "활동우수형": 10,
+    "기회균형": 4,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 25
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "IT융합공학전공",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 6,
+    "기회균형": 0,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 14
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "지능형반도체전공",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 6,
+    "활동우수형": 8,
+    "기회균형": 1,
+    "논술": 3,
+    "특기자_체육": 0,
+    "합계": 18
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "모빌리티시스템전공",
+   "college_name": "생명시스템대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 7,
+    "기회균형": 1,
+    "논술": 3,
+    "특기자_체육": 0,
+    "합계": 15
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "신학과",
+   "college_name": "신과대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 10,
+    "활동우수형": 12,
+    "기회균형": 3,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 25
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "정치외교학과",
+   "college_name": "사회과학대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 13,
+    "활동우수형": 16,
+    "기회균형": 6,
+    "논술": 6,
+    "특기자_체육": 0,
+    "합계": 41
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "행정학과",
+   "college_name": "사회과학대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 12,
+    "활동우수형": 16,
+    "기회균형": 6,
+    "논술": 6,
+    "특기자_체육": 0,
+    "합계": 40
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "사회복지학과",
+   "college_name": "사회과학대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 7,
+    "기회균형": 2,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 14
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "사회학과†",
+   "college_name": "사회과학대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 6,
+    "활동우수형": 8,
+    "기회균형": 3,
+    "논술": 5,
+    "특기자_체육": 0,
+    "합계": 22
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "문화인류학과",
+   "college_name": "사회과학대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 4,
+    "기회균형": 1,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 9
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "언론홍보영상학부",
+   "college_name": "사회과학대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 6,
+    "활동우수형": 8,
+    "기회균형": 3,
+    "논술": 5,
+    "특기자_체육": 0,
+    "합계": 22
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "의류환경학과",
+   "college_name": "생활과학대학",
+   "track": "통합",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 10,
+    "기회균형": 2,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 17
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "식품영양학과",
+   "college_name": "생활과학대학",
+   "track": "통합",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 9,
+    "기회균형": 2,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 16
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "실내건축학과",
+   "college_name": "생활과학대학",
+   "track": "통합",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 9,
+    "기회균형": 2,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 16
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "아동·가족학과†",
+   "college_name": "생활과학대학",
+   "track": "통합",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 10,
+    "기회균형": 2,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 17
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "통합디자인학과",
+   "college_name": "생활과학대학",
+   "track": "통합",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 9,
+    "기회균형": 2,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 16
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "교육학부†",
+   "college_name": "약학대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 9,
+    "활동우수형": 12,
+    "기회균형": 4,
+    "논술": 4,
+    "특기자_체육": 0,
+    "합계": 29
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "체육교육학과†",
+   "college_name": "약학대학",
+   "track": "체능",
+   "counts_by_type": {
+    "추천형": 0,
+    "활동우수형": 0,
+    "기회균형": 0,
+    "논술": 0,
+    "특기자_체육": 19,
+    "합계": 19
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "스포츠응용산업학과",
+   "college_name": "약학대학",
+   "track": "체능",
+   "counts_by_type": {
+    "추천형": 0,
+    "활동우수형": 0,
+    "기회균형": 0,
+    "논술": 0,
+    "특기자_체육": 19,
+    "합계": 19
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "의예과",
+   "college_name": "의과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 15,
+    "활동우수형": 45,
+    "기회균형": 3,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 63
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "치의예과",
+   "college_name": "치과대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 10,
+    "활동우수형": 21,
+    "기회균형": 2,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 33
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "간호학과†",
+   "college_name": "간호대학",
+   "track": "통합",
+   "counts_by_type": {
+    "추천형": 11,
+    "활동우수형": 24,
+    "기회균형": 3,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 38
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "약학과",
+   "college_name": "약학대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 5,
+    "활동우수형": 7,
+    "기회균형": 1,
+    "논술": 5,
+    "특기자_체육": 0,
+    "합계": 18
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "첨단약과학과**",
+   "college_name": "약학대학",
+   "track": "자연",
+   "counts_by_type": {
+    "추천형": 4,
+    "활동우수형": 6,
+    "기회균형": 0,
+    "논술": 0,
+    "특기자_체육": 0,
+    "합계": 10
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "진리자유학부***",
+   "college_name": "약학대학",
+   "track": "인문",
+   "counts_by_type": {
+    "추천형": 19,
+    "활동우수형": 24,
+    "기회균형": 0,
+    "논술": 12,
+    "특기자_체육": 0,
+    "합계": 55
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": "2027",
+   "department_name": "자연",
+   "college_name": "약학대학",
+   "track": null,
+   "counts_by_type": {
+    "추천형": 20,
+    "활동우수형": 25,
+    "기회균형": 0,
+    "논술": 12,
+    "특기자_체육": 0,
+    "합계": 57
+   },
+   "source_document_key": "doc_yon_2027_plan",
+   "verification_status": "NORMALIZED"
+  }
+ ],
+ "ipsi_admission_types": [
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(지역균형전형)",
+   "type_category": "학생부종합전형",
+   "recruitment_count": 414,
+   "eligibility": "학교장추천(고교별 2명), 동일 고교 졸업자 기준 등 요강 14쪽 지원자격",
+   "student_record_method": "1단계 서류100%(2배수) → 2단계 서류평가+면접(의·치학계열 제외 전 모집단위)",
+   "min_academic_standard": "4개 영역(국어,수학,영어,탐구) 중 3개 영역 등급 합 7 이내(탐구 2과목 평균)",
+   "source_document_key": "doc_snu_2027_susi",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "institution_name": "서울대학교 입학본부",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(일반전형)",
+   "type_category": "학생부종합전형",
+   "recruitment_count": 1169,
+   "eligibility": "고등학교 졸업(예정)자 또는 동등 학력(요강 19~28쪽)",
+   "student_record_method": "서류평가(1단계) + 면접·구술·실기(2단계, 모집단위별 상이)",
+   "min_academic_standard": "전 모집단위 미적용(미술대학 디자인과만 수능 응시영역기준·최저 적용)",
+   "source_document_key": "doc_snu_2027_susi",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "institution_name": "서울대학교 입학본부",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(기회균형특별전형(사회통합))",
+   "type_category": "학생부종합전형",
+   "recruitment_count": 140,
+   "eligibility": "기초생활수급·차상위·농어촌·북한이탈 등(요강 36~44쪽)",
+   "student_record_method": "서류평가 + 면접(사범대는 교직적성·인성면접 포함)",
+   "min_academic_standard": "미적용",
+   "source_document_key": "doc_snu_2027_susi",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "institution_name": "서울대학교 입학본부",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "실기위주전형(일반전형-음악대학 피아노·관현악)",
+   "type_category": "실기위주전형",
+   "recruitment_count": null,
+   "eligibility": "음악대학 지원자(요강)",
+   "student_record_method": "실기 위주(요강 29~36쪽)",
+   "min_academic_standard": "미적용",
+   "source_document_key": "doc_snu_2027_susi",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "institution_name": "서울대학교 입학본부",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형[추천형]",
+   "type_category": "학생부교과전형",
+   "recruitment_count": 487,
+   "eligibility": "학교장 추천자(요강 22쪽~)",
+   "student_record_method": "단계별(1단계 학생부교과100 500% → 2단계 학생부교과80+서류평가20)+수능최저",
+   "min_academic_standard": "적용(전 모집단위, 인문 또는 자연(일반) 기준 중 하나 만족)",
+   "source_document_key": "doc_yon_2027_susi",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "institution_name": "연세대학교 입학처",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형[활동우수형]",
+   "type_category": "학생부종합전형",
+   "recruitment_count": 714,
+   "eligibility": "고졸(예정)·검정고시 등(요강)",
+   "student_record_method": "1단계 서류100(4배수) → 2단계 서류60+면접40+수능최저",
+   "min_academic_standard": "적용",
+   "source_document_key": "doc_yon_2027_susi",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "institution_name": "연세대학교 입학처",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형[국제형(국내고/해외고·검정고시)]",
+   "type_category": "학생부종합전형",
+   "recruitment_count": 254,
+   "eligibility": "외국 소재 고교 등(요강 국제형)",
+   "student_record_method": "단계별 서류+면접(국내고 5배수→ 서류60+면접40+수능최저; 해외고/검정고시 3배수→서류60+면접40)",
+   "min_academic_standard": "국내고만 적용, 해외고/검정고시 미적용",
+   "source_document_key": "doc_yon_2027_susi",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "institution_name": "연세대학교 입학처",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형[국제인재]",
+   "type_category": "학생부종합전형",
+   "recruitment_count": 120,
+   "eligibility": "요강 국제인재",
+   "student_record_method": "1단계 서류(3배수)→2단계 서류60+면접40",
+   "min_academic_standard": "미적용",
+   "source_document_key": "doc_yon_2027_susi",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "institution_name": "연세대학교 입학처",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형[기회균형]",
+   "type_category": "학생부종합전형",
+   "recruitment_count": 190,
+   "eligibility": "기초생활수급·농어촌 등(요강)",
+   "student_record_method": "1단계 서류(3배수)→2단계 서류60+면접40",
+   "min_academic_standard": "미적용",
+   "source_document_key": "doc_yon_2027_susi",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "institution_name": "연세대학교 입학처",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "논술전형",
+   "type_category": "논술전형",
+   "recruitment_count": 272,
+   "eligibility": "고졸(예정) 등(요강)",
+   "student_record_method": "논술100+수능최저",
+   "min_academic_standard": "적용(전 모집단위)",
+   "source_document_key": "doc_yon_2027_susi",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "institution_name": "연세대학교 입학처",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "특기자전형[체육인재]",
+   "type_category": "특기자전형",
+   "recruitment_count": 38,
+   "eligibility": "경기실적(2024.1.1. 이후 등 요강)",
+   "student_record_method": "1단계 서류→2단계 실기/면접(요강 67쪽~)",
+   "min_academic_standard": "미적용",
+   "source_document_key": "doc_yon_2027_susi",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "institution_name": "연세대학교 입학처",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "특수교육대상자전형",
+   "type_category": "특수교육대상자전형",
+   "recruitment_count": 13,
+   "eligibility": "특수교육대상자",
+   "student_record_method": "서류+면접/실기(요강 71쪽~)",
+   "min_academic_standard": "미적용",
+   "source_document_key": "doc_yon_2027_susi",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "institution_name": "연세대학교 입학처",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부종합(서류형: 융합인재·탐구인재·기회균형·특성화고졸재직자)",
+   "type_category": "학생부종합",
+   "recruitment_count": null,
+   "eligibility": null,
+   "student_record_method": "서류100(기회균형·지역인재는 지원자격 심사 포함)",
+   "min_academic_standard": "융합인재 적용(3개 영역 등급합 6), 탐구인재·기회균형 미적용",
+   "source_document_key": "doc_skku_2027_susi",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "institution_name": "성균관대학교 입학처",
+   "published_at": "2026-08-13",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부종합(면접형: 성균인재·성균인재-지역인재·과학인재)",
+   "type_category": "학생부종합",
+   "recruitment_count": null,
+   "eligibility": null,
+   "student_record_method": "1단계 서류100(배수별) → 2단계 서류70+면접30",
+   "min_academic_standard": "미적용(성균인재 계열별 상이, 요강 확인)",
+   "source_document_key": "doc_skku_2027_susi",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "institution_name": "성균관대학교 입학처",
+   "published_at": "2026-08-13",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "학생부교과(추천인재)",
+   "type_category": "학생부교과",
+   "recruitment_count": 419,
+   "eligibility": "학교장 추천",
+   "student_record_method": "학생부100+수능최저",
+   "min_academic_standard": "인문·사회계열 합7 / 자유전공·글로벌·전자의류 등 합6(3개 영역)",
+   "source_document_key": "doc_skku_2027_susi",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "institution_name": "성균관대학교 입학처",
+   "published_at": "2026-08-13",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "논술위주(언어형·수리형)",
+   "type_category": "논술위주",
+   "recruitment_count": 376,
+   "eligibility": null,
+   "student_record_method": "논술100+수능최저",
+   "min_academic_standard": "대부분 모집단위 3개 영역 등급합 6, 첨단학과·의예과 등 합5",
+   "source_document_key": "doc_skku_2027_susi",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "institution_name": "성균관대학교 입학처",
+   "published_at": "2026-08-13",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "실기/실적(예체능특기자·실기우수자)",
+   "type_category": "실기/실적",
+   "recruitment_count": 96,
+   "eligibility": null,
+   "student_record_method": "실기·서류(요강 60쪽~)",
+   "min_academic_standard": "미적용",
+   "source_document_key": "doc_skku_2027_susi",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "institution_name": "성균관대학교 입학처",
+   "published_at": "2026-08-13",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2028,
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형[종합인재형](2028 신설)",
+   "type_category": "학생부종합",
+   "student_record_method": "서류70+면접30(4배수)",
+   "min_academic_standard": "일부 모집단위 적용(언더우드 인문·사회/생명과학공학 미적용)",
+   "source_document_key": "doc_yon_2028_plan",
+   "source_url": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
+   "institution_name": "연세대학교",
+   "published_at": "2026-04",
+   "collected_at": "2026-10-13T15:38:19+09:00",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2028,
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형[탐구인재형](2028 신설)",
+   "type_category": "학생부종합",
+   "student_record_method": "서류60+면접40(일반 4배수·국제 3배수)",
+   "min_academic_standard": "미적용",
+   "source_document_key": "doc_yon_2028_plan",
+   "source_url": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
+   "institution_name": "연세대학교",
+   "published_at": "2026-04",
+   "collected_at": "2026-10-13T15:38:19+09:00",
+   "verification_status": "NORMALIZED"
+  }
+ ],
+ "ipsi_schedules": [
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "지역균형전형",
+   "item": "지원서 접수(인터넷)",
+   "date": "2026.9.7.(월) 10:00 ~ 9.9.(수) 18:00",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "지역균형전형",
+   "item": "서류제출(온라인 업로드)",
+   "date": "2026.9.7.(월) 10:00 ~ 9.10.(목) 18:00",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "지역균형전형",
+   "item": "1단계 합격자 발표",
+   "date": "2026.11.27.(금) 18:00 이후",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "지역균형전형",
+   "item": "면접(전 모집단위, 의·치대 제외)",
+   "date": "2026.12.4.(금)",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "지역균형전형",
+   "item": "면접(수의·의과대학)",
+   "date": "2026.12.5.(토)",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "지역균형전형",
+   "item": "합격자 발표",
+   "date": "2026.12.18.(금) 18:00 이후",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SNU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "지역균형전형",
+   "item": "합격자 등록(온라인 문서등록)",
+   "date": "2026.12.21.(월) 09:00 ~ 12.23.(수) 16:00",
+   "source_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형 공통 원서접수",
+   "item": "인터넷 원서접수",
+   "date": "2026.9.7.(월) 10:00 ~ 9.9.(수) 17:00",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형 공통 원서접수",
+   "item": "서류제출 마감",
+   "date": "2026.9.10.(목) 17:00",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형 공통 원서접수",
+   "item": "논술시험",
+   "date": "2026.10.10.(토)",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형 공통 원서접수",
+   "item": "활동우수형 1단계 발표",
+   "date": "2026.11.16.(월)",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형 공통 원서접수",
+   "item": "활동우수형 면접(인문·통합/자연)",
+   "date": "2026.11.21.(토)/11.22.(일)",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형 공통 원서접수",
+   "item": "최종합격자 발표",
+   "date": "2026.12.18.(금)",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형",
+   "item": "원서접수",
+   "date": "2026.9.8.(화) 10:00 ~ 9.11.(금) 18:00",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형",
+   "item": "온라인 입력/서류제출",
+   "date": "2026.9.8.(화) 10:00 ~ 9.12.(토) 14:00",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형",
+   "item": "추천대상자 입력(학생부교과)",
+   "date": "2026.9.14.(월) ~ 9.18.(금)",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형",
+   "item": "논술시험(언어형/수리형)",
+   "date": "2026.11.21.(토) ~ 11.22.(일)",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형",
+   "item": "최초합격자 발표",
+   "date": "2026.12.18.(금) 이전",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "university_code": "SKKU",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "전 전형",
+   "item": "최초합격자 등록(온라인 문서등록)",
+   "date": "2026.12.21.(월) 10:00 ~ 12.23.(수) 16:00",
+   "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+   "verification_status": "NORMALIZED"
+  }
+ ],
+ "prior_results": [],
+ "gaps": [
+  "연세대 모집요강 Ⅱ부(수시+정시 통합 전공 테이블) 컬럼 레이아웃 자동파싱 실패 → 2027 시행계획 테이블로 전공별 수시 인원 대체 확보(정시 인원 미확보)",
+  "연세대 2027 정원외 국제형(254)/국제인재(120)의 전공별 분해 미확보(시행계획 파서 컬럼 매핑 외)",
+  "성균관대 세부전형(융합329/탐구589/성균196/지역3/과학155/기회28) 값이 소계 1,487과 재현 불일치 → PDF 육안 검증 전까지 미채택",
+  "성균관대 전공×전형 총괄표 매핑 미해결(공백 생략 레이아웃)",
+  "전년도(2026) 입시결과(경쟁률·충원·권장과의목) 3개교 미추출 — 서울대 전형결과 페이지 등 후속",
+  "인하대(admission.inha.ac.kr JS 셸)/고려대(네트워크 차단)/한양·경희(도미 넬 미확인) — 샘플 확장 시 처리",
+  "적용학년도 2028 모집요강(수시)은 각 대학 2027년 5월 발표 → 2028 시행계획만 확보 완료"
+ ],
+ "counts": {
+  "universities": 3,
+  "documents": 5,
+  "departments": 134,
+  "admission_types": 19,
+  "schedules": 19,
+  "prior_results": 0,
+  "approved": 0,
+  "verification_status_all": "NORMALIZED"
+ }
+}

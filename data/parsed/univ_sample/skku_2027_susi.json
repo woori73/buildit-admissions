@@ -1,0 +1,108 @@
+{
+ "document": {
+  "institution_name": "성균관대학교 입학처",
+  "document_name": "2027학년도 수시모집 모집요강",
+  "source_url": "https://admission.skku.edu/admission/html/rolling/guide.html",
+  "file_url": "https://admission.skku.edu/upload/guide/20260813104526BBPE44.pdf",
+  "applicable_academic_year": 2027,
+  "published_at": "2026-08-13",
+  "collected_at": "2026-10-13T15:34:16+09:00",
+  "extraction": "pymupdf text layer",
+  "verification_status": "NORMALIZED",
+  "approved": false,
+  "exposure": "HIDDEN (APPROVED-only search gate)",
+  "verification": {
+   "type_total_sum_check": "1487+419+376+96=2378 (일치)",
+   "ratio_check": "35.8+10.1+9.0+2.3=57.2%",
+   "subtype_columns": "UNRESOLVED — 요약표 세부전형 값(329/589/196/3/155/28)이 소계 1,487과 재현 불일치, PDF 육안 재확인 필요"
+  }
+ },
+ "admission_types": [
+  {
+   "name": "학생부종합(서류형: 융합인재·탐구인재·기회균형·특성화고졸재직자)",
+   "applicant_total": null,
+   "method": "서류100(기회균형·지역인재는 지원자격 심사 포함)",
+   "csat_minimum": "융합인재 적용(3개 영역 등급합 6), 탐구인재·기회균형 미적용",
+   "evidence_pages": [
+    7
+   ]
+  },
+  {
+   "name": "학생부종합(면접형: 성균인재·성균인재-지역인재·과학인재)",
+   "applicant_total": null,
+   "method": "1단계 서류100(배수별) → 2단계 서류70+면접30",
+   "csat_minimum": "미적용(성균인재 계열별 상이, 요강 확인)",
+   "evidence_pages": [
+    7
+   ]
+  },
+  {
+   "name": "학생부교과(추천인재)",
+   "applicant_total": 419,
+   "method": "학생부100+수능최저",
+   "csat_minimum": "인문·사회계열 합7 / 자유전공·글로벌·전자의류 등 합6(3개 영역)",
+   "eligibility": "학교장 추천",
+   "evidence_pages": [
+    7,
+    11
+   ]
+  },
+  {
+   "name": "논술위주(언어형·수리형)",
+   "applicant_total": 376,
+   "method": "논술100+수능최저",
+   "csat_minimum": "대부분 모집단위 3개 영역 등급합 6, 첨단학과·의예과 등 합5",
+   "evidence_pages": [
+    7,
+    11
+   ]
+  },
+  {
+   "name": "실기/실적(예체능특기자·실기우수자)",
+   "applicant_total": 96,
+   "method": "실기·서류(요강 60쪽~)",
+   "csat_minimum": "미적용",
+   "evidence_pages": [
+    8
+   ]
+  }
+ ],
+ "totals_by_category": {
+  "학생부종합": 1487,
+  "학생부교과": 419,
+  "논술위주": 376,
+  "실기/실적": 96,
+  "sum": 2378
+ },
+ "schedules": {
+  "items": [
+   {
+    "item": "원서접수",
+    "date": "2026.9.8.(화) 10:00 ~ 9.11.(금) 18:00"
+   },
+   {
+    "item": "온라인 입력/서류제출",
+    "date": "2026.9.8.(화) 10:00 ~ 9.12.(토) 14:00"
+   },
+   {
+    "item": "추천대상자 입력(학생부교과)",
+    "date": "2026.9.14.(월) ~ 9.18.(금)"
+   },
+   {
+    "item": "논술시험(언어형/수리형)",
+    "date": "2026.11.21.(토) ~ 11.22.(일)"
+   },
+   {
+    "item": "최초합격자 발표",
+    "date": "2026.12.18.(금) 이전"
+   },
+   {
+    "item": "최초합격자 등록(온라인 문서등록)",
+    "date": "2026.12.21.(월) 10:00 ~ 12.23.(수) 16:00"
+   }
+  ]
+ },
+ "unresolved": [
+  "모집인원 총괄표의 전공×전형 컬럼 매핑(공백 생략 레이아웃) 자동 파싱 불가 → 육안 검토 대상"
+ ]
+}
