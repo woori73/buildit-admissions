@@ -62,10 +62,10 @@ docs/ANALYSIS/
 
 | 산출물 | 내용 |
 |---|---|
-| `scripts/validate_official_data.py` → `data/validation/official_validation.json` | 11개 원문 대조: 480행 행합불변검사 PASS 478/FAIL 2, 전형 57(후보 48+주의 9), 일정 66 DEFER(문서 키 미연결), 결함 대장 HIGH2/MED27/LOW6/INFO8. APPROVED 승격 0 — 후보 분류만 |
-| `scripts/crosscheck_youtube_official.py` → `data/validation/youtube_crosscheck.json` | 유튜브 127항목 4분류: ①공식일치 42 / ②충돌 15 / ③전문가의견·해석 66 / ④발언·원문확인필요 4. 전 항목 speech_verified=false 오버레이, spot-check 9건(YT-A056 충돌의혹 등), 8개교 인용 32건 |
-| `docs/ANALYSIS/03_counseling_qa/knowledge_base.json` | Q1~Q6에 6개 필수 답변 필드(대학·학과·전형/적용 학년도/공식 근거 문서·위치/확인된 사실/추가 확인/유튜브 보조+검증 수준) 연결, Q7(2028 체제)·Q8(지원자격)·Q9(일정) 신설 |
-| `docs/ANALYSIS/03_counseling_qa/simulation_results.json` | 시뮬레이션 22문항 채점: PASS 19 / PARTIAL 3 / FAIL 0, 교정 기록 3건(S07 추정 폐기, S13 출처 분리, S19 DEFER 고지) |
+| `scripts/validate_official_data.py`(+`backfill_schedule_sources.py`) → `data/validation/official_validation.json` | 11개 원문 대조: 480행 행합불변검사 PASS 480/FAIL 0/DEFER 6(성균 2행 원문 대조 정정 포함), 전형 57(후보 48+주의 9), 일정 66 전 행 문서 키 연결·parsed 대조 EXACT 66/66 → 후보 66, 결함 대장 HIGH0/MED26/LOW6/INFO8. APPROVED 승격 0 — 후보 분류만 |
+| `scripts/crosscheck_youtube_official.py` → `data/validation/youtube_crosscheck.json` | 유튜브 127항목 4분류: ①공식일치 42 / ②충돌 15 / ③전문가의견·해석 66 / ④발언·원문확인필요 4. 전 항목 speech_verified=false 오버레이, spot-check 9건(YT-A056 충돌의혹 등), 8개교 인용 32건. ②15건은 충돌대장 연결 15/15·counseling_rule 15/15·resolution 분포(쟁의 7/문서대기 3/혼용 5) bucket2_audit으로 기록 |
+| `docs/ANALYSIS/03_counseling_qa/knowledge_base.json` | Q1~Q6에 6개 필수 답변 필드(대학·학과·전형/적용 학년도/공식 근거 문서·위치/확인된 사실/추가 확인/유튜브 보조+검증 수준) 연결, Q7(2028 체제)·Q8(지원자격)·Q9(일정 — 66행 소스연결·EXACT 완료, 승격 후보) 신설 |
+| `docs/ANALYSIS/03_counseling_qa/simulation_results.json` | 시뮬레이션 22문항 재채점: PASS 22 / PARTIAL 0 / FAIL 0(S09·S17·S19 해소 근거 기록), 교정 기록 3건(S07 추정 폐기, S13 출처 분리, S19 DEFER 고지) |
 | `docs/STAGE2_REPORT.md` | 검증 건수·오류·APPROVED 후보·유튜브 충돌·미검증·추가 확보 필요 공식자료·상담 AI 후속 개발 사항 |
 
 ## 4. 전제·한계 (T3 확인불가 — 전 대학 공통)

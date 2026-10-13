@@ -50,7 +50,7 @@ SPOTCHECKS = {
     'YT-A020': ('②', 'YT-C005 연결. "분리 시도/재수 불리"는 확정 제도 사실이 아닌 진영 간 해석 차이 — 양측 근거 병행 안내, 단정 답변 금지.'),
     'YT-A056': ('충돌의혹', '정정문 전제 "지역균형 1단계는 원래 3배수" ↔ 본 저장소 서울대 2027 요강: 1단계 2배수·고교별 추천 2명(snu_2027_susi admission_types). 2028 "원래"를 2027 원문이 반박: 정정 내용도 서울대 2028 시행계획 원문 재확인 전까지 미검증. 추천 2→3명·728명 확대는 2028 사안으로 대조 불가(미보유).'),
     'YT-A071': ('부분대조', '성균관대 2027 "정시" 하이브리드 주장 — 본 저장소는 성균관대 2027 수시 요강만 보유(정시 요강 미보유). 수시 문서상 성균인재(사범대 포함) 면접형 수능최저 "미적용(계열별 상이)"과 직접 충돌하지 않으나, 2027 정시 원문 없이는 일치도 확인 불가.'),
-    'YT-A072': ('부분대조', '연세대 2027 논술 재시험 여파 모집감소: 보유 문서(수시 요강 Ⅱ부)는 발표 시점 확정 인원이며 "재시험 여파 감소"의 전후 비교 대상 공지가 없음. 연세대 문서 notes에 재시험 관련记载 없음 → 확인 불가 항목으로 유지.'),
+    'YT-A072': ('부분대조', '연세대 2027 논술 재시험 여파 모집감소: 보유 문서(수시 요강 Ⅱ부)는 발표 시점 확정 인원이며 "재시험 여파 감소"의 전후 비교 대상 공지가 없음. 연세대 문서 notes에 재시험 관련기재 없음 → 확인 불가 항목으로 유지.'),
     'YT-A073': ('②-수치', 'YT-C010: "수시 80.3%" vs 대교협 공표 80.8%(YT-A001) — 같은 사안의 수치 불일치 기록. 원문(시행계획 공표) 미보유로 최종 판정 보류.'),
 }
 
@@ -92,6 +92,21 @@ def official_held_status(a, univs):
         return ' 미보유(2028 시행계획: 연세 외 각 대학 원문 필요)' if not held28 else ' 부분보유(연세만)'
     return ' 연도외'
 
+def conflict_brief(a):
+    out = []
+    for cid in (a.get('conflict_ids') or []):
+        cf = conf_by_id.get(cid)
+        if not cf:
+            continue
+        out.append({
+            'id': cid, 'type': cf.get('type'), 'resolution': cf.get('resolution'),
+            'summary': (cf.get('summary') or '')[:150],
+            'side_a': (cf.get('side_a') or {}).get('position', '')[:120],
+            'side_b': (cf.get('side_b') or {}).get('position', '')[:120],
+            'counseling_rule': cf.get('counseling_rule'),
+        })
+    return out
+
 rows = []
 tally = {}
 for a in items:
@@ -106,6 +121,8 @@ for a in items:
         'official_ref_status': orf.get('status'), 'confidence': a.get('confidence'),
         'evidence_basis': eb, 'speech_verified': bool(a.get('speech_verified')),
         'univ_codes': us,
+        'topics': a.get('topics') or [],
+        'conflicts': conflict_brief(a),
         'claim': (a.get('claim') or ''),
         'conflict_ids': a.get('conflict_ids') or [],
         'label_overlays': [
@@ -138,6 +155,20 @@ evidence_overlay = {
 }
 conflict_usage = {cid: sorted({r['id'] for r in rows if cid in r['conflict_ids']}) for cid in conf_by_id}
 
+b2 = [r for r in rows if r['bucket'] == '②_충돌']
+b2_res = {}
+for r in b2:
+    key = ','.join(sorted({c['resolution'] for c in r['conflicts']})) or 'NO_CONFLICT_ID'
+    b2_res[key] = b2_res.get(key, 0) + 1
+b2_audit = {
+    'count': len(b2),
+    'with_conflict_link': sum(1 for r in b2 if r['conflicts']),
+    'without_conflict_link': [r['id'] for r in b2 if not r['conflicts']],
+    'with_counseling_rule': sum(1 for r in b2 if any(c.get('counseling_rule') for c in r['conflicts'])),
+    'resolution_dist': b2_res,
+    'level_note': '②항목 검증 수준 = (a)충돌대장 연결 여부 (b)resolution 상태 (c)counseling_rule 보유 (d)우리 공식 원문 보유 시 수치 대조(spot_check). RESOLVED_BY_CORRECTION(YT-C009)도 보유 2027 원문과 전제 상충 시 별도 충돌의혹 기록.',
+}
+
 out = {
     'meta': {
         'task': 'stage2-2 유튜브 분석자료 vs 공식자료 4분류 대조',
@@ -157,6 +188,7 @@ out = {
     'evidence_overlay': evidence_overlay,
     'spot_checks': [{'id': k, 'verdict': v[0], 'note': v[1]} for k, v in SPOTCHECKS.items()],
     'conflict_usage': conflict_usage,
+    'bucket2_audit': b2_audit,
     'items': rows,
 }
 dst = os.path.join(BASE, 'data', 'validation', 'youtube_crosscheck.json')

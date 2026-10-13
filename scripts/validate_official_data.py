@@ -151,15 +151,21 @@ for sec in ('ipsi_departments', 'ipsi_admission_types'):
         if not k or k not in doc_keys:
             link_fail += 1
 sched_no_dockey = sum(1 for r in seed['ipsi_schedules'] if not r.get('source_document_key'))
+sched_nomatch = sum(1 for r in seed['ipsi_schedules']
+                    if r.get('source_document_key') and r.get('schedule_match') not in ('EXACT', 'FUZZY'))
 if sched_no_dockey:
     defect('MED', 'schedules', 'ALL', 'ipsi_schedules',
            f'일정 {sched_no_dockey}건에 source_document_key 없음(문서 ID 연결 누락; source_url은 존재)', 'DEFER(연결 보정 전까지 미승격)')
+if sched_nomatch:
+    defect('MED', 'schedules', 'ALL', 'ipsi_schedules',
+           f'일정 {sched_nomatch}건은 키는 있으나 parsed 일정과 항목·날짜 대조 실패(NONE)', 'DEFER(원문 육안 확인 전까지 미승격)')
 y28_rows = [r for r in seed['ipsi_admission_types'] if str(r.get('academic_year')) == '2028']
 y28_ok = all(r['source_document_key'] == 'doc_yon_2028_plan' for r in y28_rows)
 dept_2028 = [r for r in seed['ipsi_departments'] if str(r.get('academic_year')) != '2027']
 checks['D_linkage_and_year_split'] = {
     'rows_missing_doc_key_or_unknown': link_fail,
     'schedules_missing_document_key': sched_no_dockey,
+    'schedules_without_parsed_match': sched_nomatch,
     'admission_types_2028': len(y28_rows), 'admission_types_2028_all_yonsei_plan': y28_ok,
     'departments_non2027': len(dept_2028),
     'rule': '2028 행은 연세대 시행계획 기반 신설전형 2건뿐 — 2028 모집인원 추정 행 없음 확인'}
@@ -233,7 +239,12 @@ for r in seed['ipsi_admission_types']:
 
 sched_cat = Counter()
 for r in seed['ipsi_schedules']:
-    sched_cat['DEFER' if not r.get('source_document_key') else 'APPROVED_CANDIDATE'] += 1
+    if not r.get('source_document_key'):
+        sched_cat['DEFER'] += 1
+    elif r.get('schedule_match') in ('EXACT', 'FUZZY'):
+        sched_cat['APPROVED_CANDIDATE'] += 1
+    else:
+        sched_cat['DEFER'] += 1
 
 cand = {
  'departments': dict(dept_cat),
