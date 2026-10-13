@@ -1,0 +1,681 @@
+{
+ "generated_at": "2026-10-13T16:36:18+09:00",
+ "validated_at": "2026-10-13",
+ "principle": "값 수정·추정 보완 없음, APPROVED 승격 없음(후보 분류만)",
+ "checks": {
+  "A_seed_vs_parsed_departments": {
+   "SNU": {
+    "seed_rows": 75,
+    "parsed_rows": 74,
+    "match": 75,
+    "mismatch": 0,
+    "zero_rows": [
+     "광역",
+     "광역"
+    ],
+    "parsed_only": []
+   },
+   "YONSEI": {
+    "seed_rows": 67,
+    "parsed_rows": 67,
+    "match": 67,
+    "mismatch": 0,
+    "zero_rows": [],
+    "parsed_only": []
+   },
+   "SKKU": {
+    "seed_rows": 56,
+    "parsed_rows": 56,
+    "match": 56,
+    "mismatch": 0,
+    "zero_rows": [],
+    "parsed_only": []
+   },
+   "KOREA": {
+    "seed_rows": 66,
+    "parsed_rows": 66,
+    "match": 66,
+    "mismatch": 0,
+    "zero_rows": [],
+    "parsed_only": []
+   },
+   "HANYANG": {
+    "seed_rows": 65,
+    "parsed_rows": 65,
+    "match": 65,
+    "mismatch": 0,
+    "zero_rows": [
+     "성악과*",
+     "작곡과*",
+     "피아노과*",
+     "연극영화학과(연출및스탭)*"
+    ],
+    "parsed_only": []
+   },
+   "KHU": {
+    "seed_rows": 88,
+    "parsed_rows": 88,
+    "match": 88,
+    "mismatch": 0,
+    "zero_rows": [],
+    "parsed_only": []
+   },
+   "INHA": {
+    "seed_rows": 63,
+    "parsed_rows": 63,
+    "match": 63,
+    "mismatch": 0,
+    "zero_rows": [],
+    "parsed_only": []
+   }
+  },
+  "B_row_sum_invariant": {
+   "checked": 480,
+   "pass": 480,
+   "fail_by_univ": {}
+  },
+  "B2_aggregate_only_columns": {
+   "KOREA": {
+    "재직자전형": [
+     0,
+     18
+    ]
+   },
+   "HANYANG": {
+    "학생부교과추천형": [
+     346,
+     340
+    ],
+    "학생부종합서류형": [
+     518,
+     496
+    ],
+    "특성화고졸재직자정원외": [
+     158,
+     0
+    ],
+    "논술우수자": [
+     233,
+     229
+    ]
+   },
+   "KHU": {
+    "학생부종합_기회균형I_장애인등": [
+     0,
+     15
+    ]
+   },
+   "INHA": {
+    "학생부종합_서해5도지역출신자": [
+     40,
+     3
+    ]
+   }
+  },
+  "C_admission_type_coverage": {
+   "SNU": {
+    "seed": 4,
+    "parsed": 4
+   },
+   "YONSEI": {
+    "seed": 10,
+    "parsed": 8
+   },
+   "SKKU": {
+    "seed": 5,
+    "parsed": 5
+   },
+   "KOREA": {
+    "seed": 9,
+    "parsed": 9
+   },
+   "HANYANG": {
+    "seed": 9,
+    "parsed": 9
+   },
+   "KHU": {
+    "seed": 8,
+    "parsed": 8
+   },
+   "INHA": {
+    "seed": 12,
+    "parsed": 12
+   }
+  },
+  "D_linkage_and_year_split": {
+   "rows_missing_doc_key_or_unknown": 0,
+   "schedules_missing_document_key": 0,
+   "schedules_without_parsed_match": 0,
+   "admission_types_2028": 2,
+   "admission_types_2028_all_yonsei_plan": true,
+   "departments_non2027": 0,
+   "rule": "2028 행은 연세대 시행계획 기반 신설전형 2건뿐 — 2028 모집인원 추정 행 없음 확인"
+  },
+  "E_value_gaps": {
+   "SNU:실기위주전형(일반전형-음악": [
+    "recruitment_count"
+   ],
+   "SKKU:학생부종합(서류형: 융합인": [
+    "eligibility",
+    "recruitment_count"
+   ],
+   "SKKU:학생부종합(면접형: 성균인": [
+    "eligibility",
+    "recruitment_count"
+   ],
+   "SKKU:논술위주(언어형·수리형)": [
+    "eligibility"
+   ],
+   "SKKU:실기/실적(예체능특기자·실": [
+    "eligibility"
+   ],
+   "HANYANG:학생부교과(추천형)": [
+    "student_record_method",
+    "min_academic_standard",
+    "eligibility",
+    "recruitment_count"
+   ],
+   "HANYANG:학생부종합(추천형)": [
+    "student_record_method",
+    "min_academic_standard",
+    "eligibility",
+    "recruitment_count"
+   ],
+   "HANYANG:학생부종합(서류형)": [
+    "student_record_method",
+    "min_academic_standard",
+    "eligibility",
+    "recruitment_count"
+   ],
+   "HANYANG:학생부종합(면접형)": [
+    "student_record_method",
+    "min_academic_standard",
+    "eligibility",
+    "recruitment_count"
+   ],
+   "HANYANG:학생부종합(고른기회)": [
+    "student_record_method",
+    "min_academic_standard",
+    "eligibility",
+    "recruitment_count"
+   ],
+   "HANYANG:학생부종합(사회통합)": [
+    "student_record_method",
+    "min_academic_standard",
+    "eligibility",
+    "recruitment_count"
+   ],
+   "HANYANG:학생부종합(특성화고졸재직자": [
+    "student_record_method",
+    "min_academic_standard",
+    "eligibility",
+    "recruitment_count"
+   ],
+   "HANYANG:논술우수자": [
+    "student_record_method",
+    "min_academic_standard",
+    "eligibility",
+    "recruitment_count"
+   ],
+   "HANYANG:실기/실적(음악·미술·무용": [
+    "student_record_method",
+    "min_academic_standard",
+    "eligibility",
+    "recruitment_count"
+   ],
+   "INHA:학생부종합(인하미래인재 서": [
+    "eligibility"
+   ],
+   "INHA:학생부종합(고른기회)": [
+    "eligibility"
+   ],
+   "INHA:학생부종합(농어촌학생)": [
+    "eligibility"
+   ],
+   "INHA:학생부종합(서해5도지역출신": [
+    "eligibility"
+   ],
+   "INHA:논술(논술우수자)": [
+    "eligibility"
+   ],
+   "INHA:실기/실적(실기우수자)": [
+    "eligibility"
+   ],
+   "INHA:실기/실적(체육특기자)": [
+    "eligibility"
+   ],
+   "INHA:학생부종합(평생학습자)": [
+    "eligibility"
+   ],
+   "INHA:학생부종합(특성화고 등을 ": [
+    "eligibility"
+   ],
+   "YONSEI:학생부종합전형[종합인재형]": [
+    "eligibility",
+    "recruitment_count"
+   ],
+   "YONSEI:학생부종합전형[탐구인재형]": [
+    "eligibility",
+    "recruitment_count"
+   ]
+  },
+  "F_raw_text_spot": {
+   "snu_2027_susi.txt": {
+    "needles": [
+     "1169",
+     "414",
+     "2026.9.7"
+    ],
+    "found": [
+     "2026.9.7"
+    ],
+    "missed": [
+     "1169",
+     "414"
+    ]
+   },
+   "yonsei_2027_plan.txt": {
+    "needles": [
+     "1701",
+     "487",
+     "714",
+     "기회균형",
+     "추천형"
+    ],
+    "found": [
+     "487",
+     "714",
+     "기회균형",
+     "추천형"
+    ],
+    "missed": [
+     "1701"
+    ]
+   },
+   "korea_2027_susi.txt": {
+    "needles": [
+     "2731",
+     "903",
+     "650",
+     "523",
+     "09.09",
+     "12.18"
+    ],
+    "found": [
+     "2731",
+     "903",
+     "650",
+     "523",
+     "09.09",
+     "12.18"
+    ],
+    "missed": []
+   },
+   "skku_2027_susi.txt": {
+    "needles": [
+     "2378",
+     "1487",
+     "9.8"
+    ],
+    "found": [
+     "1487",
+     "9.8"
+    ],
+    "missed": [
+     "2378"
+    ]
+   }
+  },
+  "G_approved_candidates": {
+   "departments": {
+    "DEFER": 6,
+    "APPROVED_CANDIDATE": 474
+   },
+   "admission_types": {
+    "APPROVED_CANDIDATE": 48,
+    "CANDIDATE_WITH_CAVEAT": 9
+   },
+   "schedules": {
+    "APPROVED_CANDIDATE": 66
+   },
+   "fail_total": 0,
+   "rule": "후보 분류만 — 실제 승격은 육안 대조·운영자 승인 필수, 본 스크립트는 verification_status를 변경하지 않음"
+  }
+ },
+ "defects": [
+  {
+   "severity": "LOW",
+   "area": "departments",
+   "university": "SNU",
+   "item": "광역",
+   "issue": "전 전형 0행 — 원문 표의 구분/마커 행으로 추정, 모집단위 아님",
+   "disposition": "DEFER(미승격, 육안 확인 필요)"
+  },
+  {
+   "severity": "LOW",
+   "area": "departments",
+   "university": "SNU",
+   "item": "광역",
+   "issue": "전 전형 0행 — 원문 표의 구분/마커 행으로 추정, 모집단위 아님",
+   "disposition": "DEFER(미승격, 육안 확인 필요)"
+  },
+  {
+   "severity": "MED",
+   "area": "departments",
+   "university": "SNU",
+   "item": "snu_2027_susi",
+   "issue": "parsed 중복 학과명 1건(병합의)",
+   "disposition": "WARN"
+  },
+  {
+   "severity": "LOW",
+   "area": "departments",
+   "university": "HANYANG",
+   "item": "성악과*",
+   "issue": "전 전형 0행 — 원문 표의 구분/마커 행으로 추정, 모집단위 아님",
+   "disposition": "DEFER(미승격, 육안 확인 필요)"
+  },
+  {
+   "severity": "LOW",
+   "area": "departments",
+   "university": "HANYANG",
+   "item": "작곡과*",
+   "issue": "전 전형 0행 — 원문 표의 구분/마커 행으로 추정, 모집단위 아님",
+   "disposition": "DEFER(미승격, 육안 확인 필요)"
+  },
+  {
+   "severity": "LOW",
+   "area": "departments",
+   "university": "HANYANG",
+   "item": "피아노과*",
+   "issue": "전 전형 0행 — 원문 표의 구분/마커 행으로 추정, 모집단위 아님",
+   "disposition": "DEFER(미승격, 육안 확인 필요)"
+  },
+  {
+   "severity": "LOW",
+   "area": "departments",
+   "university": "HANYANG",
+   "item": "연극영화학과(연출및스탭)*",
+   "issue": "전 전형 0행 — 원문 표의 구분/마커 행으로 추정, 모집단위 아님",
+   "disposition": "DEFER(미승격, 육안 확인 필요)"
+  },
+  {
+   "severity": "INFO",
+   "area": "aggregate-column",
+   "university": "KOREA",
+   "item": "재직자전형",
+   "issue": "학과별 합 0 != 선언 총계 18 — 정원외/집계전용/미분해(요강 각주 근거, 파서 검증 통과)",
+   "disposition": "KNOWN_NOTE(결함 아님)"
+  },
+  {
+   "severity": "INFO",
+   "area": "aggregate-column",
+   "university": "HANYANG",
+   "item": "학생부교과추천형",
+   "issue": "학과별 합 346 != 선언 총계 340 — 정원외/집계전용/미분해(요강 각주 근거, 파서 검증 통과)",
+   "disposition": "KNOWN_NOTE(결함 아님)"
+  },
+  {
+   "severity": "INFO",
+   "area": "aggregate-column",
+   "university": "HANYANG",
+   "item": "학생부종합서류형",
+   "issue": "학과별 합 518 != 선언 총계 496 — 정원외/집계전용/미분해(요강 각주 근거, 파서 검증 통과)",
+   "disposition": "KNOWN_NOTE(결함 아님)"
+  },
+  {
+   "severity": "INFO",
+   "area": "aggregate-column",
+   "university": "HANYANG",
+   "item": "특성화고졸재직자정원외",
+   "issue": "학과별 합 158 != 선언 총계 0 — 정원외/집계전용/미분해(요강 각주 근거, 파서 검증 통과)",
+   "disposition": "KNOWN_NOTE(결함 아님)"
+  },
+  {
+   "severity": "INFO",
+   "area": "aggregate-column",
+   "university": "HANYANG",
+   "item": "논술우수자",
+   "issue": "학과별 합 233 != 선언 총계 229 — 정원외/집계전용/미분해(요강 각주 근거, 파서 검증 통과)",
+   "disposition": "KNOWN_NOTE(결함 아님)"
+  },
+  {
+   "severity": "INFO",
+   "area": "aggregate-column",
+   "university": "KHU",
+   "item": "학생부종합_기회균형I_장애인등",
+   "issue": "학과별 합 0 != 선언 총계 15 — 정원외/집계전용/미분해(요강 각주 근거, 파서 검증 통과)",
+   "disposition": "KNOWN_NOTE(결함 아님)"
+  },
+  {
+   "severity": "INFO",
+   "area": "aggregate-column",
+   "university": "INHA",
+   "item": "학생부종합_서해5도지역출신자",
+   "issue": "학과별 합 40 != 선언 총계 3 — 정원외/집계전용/미분해(요강 각주 근거, 파서 검증 통과)",
+   "disposition": "KNOWN_NOTE(결함 아님)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "SNU",
+   "item": "SNU:실기위주전형(일반전형-음악",
+   "issue": "필드 공백 recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "SKKU",
+   "item": "SKKU:학생부종합(서류형: 융합인",
+   "issue": "필드 공백 eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "SKKU",
+   "item": "SKKU:학생부종합(면접형: 성균인",
+   "issue": "필드 공백 eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "SKKU",
+   "item": "SKKU:논술위주(언어형·수리형)",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "SKKU",
+   "item": "SKKU:실기/실적(예체능특기자·실",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "HANYANG",
+   "item": "HANYANG:학생부교과(추천형)",
+   "issue": "필드 공백 student_record_method,min_academic_standard,eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "HANYANG",
+   "item": "HANYANG:학생부종합(추천형)",
+   "issue": "필드 공백 student_record_method,min_academic_standard,eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "HANYANG",
+   "item": "HANYANG:학생부종합(서류형)",
+   "issue": "필드 공백 student_record_method,min_academic_standard,eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "HANYANG",
+   "item": "HANYANG:학생부종합(면접형)",
+   "issue": "필드 공백 student_record_method,min_academic_standard,eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "HANYANG",
+   "item": "HANYANG:학생부종합(고른기회)",
+   "issue": "필드 공백 student_record_method,min_academic_standard,eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "HANYANG",
+   "item": "HANYANG:학생부종합(사회통합)",
+   "issue": "필드 공백 student_record_method,min_academic_standard,eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "HANYANG",
+   "item": "HANYANG:학생부종합(특성화고졸재직자",
+   "issue": "필드 공백 student_record_method,min_academic_standard,eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "HANYANG",
+   "item": "HANYANG:논술우수자",
+   "issue": "필드 공백 student_record_method,min_academic_standard,eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "HANYANG",
+   "item": "HANYANG:실기/실적(음악·미술·무용",
+   "issue": "필드 공백 student_record_method,min_academic_standard,eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "INHA",
+   "item": "INHA:학생부종합(인하미래인재 서",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "INHA",
+   "item": "INHA:학생부종합(고른기회)",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "INHA",
+   "item": "INHA:학생부종합(농어촌학생)",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "INHA",
+   "item": "INHA:학생부종합(서해5도지역출신",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "INHA",
+   "item": "INHA:논술(논술우수자)",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "INHA",
+   "item": "INHA:실기/실적(실기우수자)",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "INHA",
+   "item": "INHA:실기/실적(체육특기자)",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "INHA",
+   "item": "INHA:학생부종합(평생학습자)",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "INHA",
+   "item": "INHA:학생부종합(특성화고 등을 ",
+   "issue": "필드 공백 eligibility",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "YONSEI",
+   "item": "YONSEI:학생부종합전형[종합인재형]",
+   "issue": "필드 공백 eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "MED",
+   "area": "admission_types",
+   "university": "YONSEI",
+   "item": "YONSEI:학생부종합전형[탐구인재형]",
+   "issue": "필드 공백 eligibility,recruitment_count",
+   "disposition": "PARTIAL_CANDIDATE(수집된 필드만 승격 후보)"
+  },
+  {
+   "severity": "INFO",
+   "area": "raw_text_spot",
+   "university": "snu_2027_susi.txt",
+   "item": [
+    "1169",
+    "414",
+    "2026.9.7"
+   ],
+   "issue": "원본 텍스트레이어에서 핵심 수치 미발견 — 표가 서브셋폰트/구조화 영역이라 get_text(비표) 유실 가능; 파서는 find_tables로 확보했으므로 참고 신호",
+   "disposition": "INFO(결함 판정 제외)"
+  }
+ ],
+ "totals": {
+  "departments_checked": 480,
+  "admission_types_checked": 57,
+  "schedules_checked": 66,
+  "row_sum_pass": 480,
+  "defects_high": 0,
+  "defects_med": 26,
+  "defects_low": 6,
+  "defects_info": 8
+ }
+}
