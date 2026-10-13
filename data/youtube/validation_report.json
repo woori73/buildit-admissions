@@ -1,0 +1,103 @@
+{
+  "videos_total": 78,
+  "videos_content_analyzed": 72,
+  "videos_metadata_only": 6,
+  "videos_by_tier": {
+    "TIER_2": 30,
+    "TIER_3": 36,
+    "TIER_1": 12
+  },
+  "videos_by_channel_kind": {
+    "ENTRANCE_RESEARCH_INSTITUTE": 4,
+    "PRIVATE_CONSULTING": 19,
+    "PUBLIC_EDUCATION_BROADCAST": 8,
+    "PUBLIC_EDUCATION_AGENCY": 4,
+    "ACADEMY_NETWORK": 6,
+    "INDIVIDUAL_CREATOR": 5,
+    "EBS_ENTRANCE_ENTERPRISE": 15,
+    "INDIVIDUAL_EXPERT": 5,
+    "ENTRANCE_MEDIA": 6,
+    "AI_CONSULTING_PLATFORM": 1,
+    "EDUCATION_JOURNALISM": 1,
+    "AI_STUDY_PLATFORM": 1,
+    "BROADCAST_ENTERTAINMENT": 1,
+    "ACADEMY_LECTURER": 2
+  },
+  "videos_with_chapters": 25,
+  "videos_with_desc_timestamps": 26,
+  "videos_with_caption_tracks_listed": 78,
+  "videos_with_caption_text": 0,
+  "distinct_channels": 36,
+  "distinct_presenters": 33,
+  "topics": 10,
+  "analyses_total": 127,
+  "analyses_by_classification": {
+    "OFFICIAL_FACT": 10,
+    "EXPERT_ANALYSIS": 69,
+    "DISPUTED": 14,
+    "STRATEGY": 24,
+    "PREDICTION": 7,
+    "OUTDATED": 3
+  },
+  "analyses_by_topic": {
+    "T05": 62,
+    "T08": 21,
+    "T09": 25,
+    "T02": 19,
+    "T03": 47,
+    "T10": 12,
+    "T04": 16,
+    "T06": 19,
+    "T01": 8,
+    "T07": 14
+  },
+  "analyses_by_official_ref_status": {
+    "OFFICIAL_CONFIRMED": 10,
+    "NEEDS_OFFICIAL_DOC": 61,
+    "CONSISTENT_WITH_OFFICIAL": 32,
+    "CONFLICT": 12,
+    "UNSUPPORTED": 12
+  },
+  "analyses_by_confidence": {
+    "MEDIUM": 107,
+    "LOW": 15,
+    "HIGH": 5
+  },
+  "analyses_by_academic_year": {
+    "2028": 118,
+    "2026": 2,
+    "2027": 7
+  },
+  "analyses_by_verification_status": {
+    "NORMALIZED": 127
+  },
+  "analyses_by_evidence_basis": {
+    "INFERRED_FROM_TIMELINE_LABEL": 66,
+    "INFERRED_FROM_DESCRIPTION_SUMMARY": 46,
+    "INFERRED_FROM_CHAPTER_LABEL": 1,
+    "INFERRED_FROM_METADATA": 6,
+    "AS_PUBLISHED_TEXT": 8
+  },
+  "analyses_inferred_basis": 119,
+  "analyses_speech_verified": 0,
+  "analyses_confidence_capped": 29,
+  "analyses_with_official_url": 60,
+  "analyses_linking_conflict": 87,
+  "videos_referenced_by_analyses": 72,
+  "conflicts_total": 12,
+  "conflicts_by_type": {
+    "OFFICIAL_VS_ANALYSIS": 5,
+    "ANALYST_VS_ANALYST": 4,
+    "TEMPORAL_DRIFT": 1,
+    "SELF_CORRECTION": 1,
+    "METADATA_MISMATCH": 1
+  },
+  "conflicts_by_resolution": {
+    "UNRESOLVED_PENDING_DOC": 6,
+    "UNRESOLVED_LEGITIMATE_DISPUTE": 5,
+    "RESOLVED_BY_CORRECTION": 1
+  },
+  "videos_without_analysis_rows": [],
+  "cjk_stray_rows": [],
+  "errors": []
+}
