@@ -66,3 +66,33 @@ PDF 6종 확보(모두 gitignore, 원문 커밋 안 함 — 재배포 제한 준
 - 대입처 원문(PDF)·텍스트: `data/raw/`에만 보관, gitignore로 커밋 제외. 저장소에는 출처 URL·문서명·적용학년도·검증 상태와 파싱 산출물만 기록.
 - adiga.kr·suneung.re.kr: robots 차단 → 메타데이터·링크만 취급, 로그인 우회 없음(robots 증거 파일 `data/raw/robots/`).
 - 국가정책 문서(moe)만 OPEN, 대학 문서 redistribution=METADATA_PRIORITY·store_fulltext=False.
+
+---
+
+# 확대 분석 (2026-10-13 오후) — 7개교
+
+## 7. 오후 재분석: 연세대 Ⅱ부·성균관대 총괄표 (지시 3)
+
+- 연세대 요강 Ⅱ부: `find_tables`(13열)로 67행 파싱(`scripts/parse_yonsei_part2.py`) — 수시계 512/766(활동우수)/175/79/120/195/288/38 재현, 계약학과 25 차감 등 교차 검증 통과. `yonsei_2027_susi_part2.json`. 모집인원* 열이 수시+정시 병기(각주)임을 확인 → 수시 열만 합산.
+- 성균관대 전형별 총괄표: 15열 56행 검증 통과(`skku_2027_susi_overview.json`, 정원내 2,191+정원외 187=2,378). 오전 UNRESOLVED였던 세부전형 소계는 특별전형(정원외)187 누락이 원인으로 판명(7쪽 시각 검증).
+- 페이지별 시각 검증: `data/raw/img/*.png` 렌더 → 합계행·괄호(정원외) 표기 대조.
+
+## 8. 4개교 확대 (지시 4·5)
+
+| 대학 | 원문 경로 | 학과 행 | 검증 | 산출물 |
+|---|---|---|---|---|
+| 고려대(서울) | admission.korea.ac.kr 차단 → 공식 대체 호스트 oku.korea.ac.kr PDF (우회 아님) | 66 | 열합=합계행 2,731, 재직자 18 상한 각주 검증 | `korea_2027_susi.json` |
+| 한양대(서울) | go.hanyang.ac.kr pdfDown 공식 PDF(97p) | 65 | 행합=수시계, 정원내 1,731+정원외 190, 모집 3,020+(198) 일치. 서브셋 폰트 한글 깨짐 → find_tables+렌더(hy_p10/11/14/15.png) 시각 병행 | `hanyang_2027_susi.json` |
+| 경희대(서울) | iphak.khu.ac.kr 게시 공식 PDF(khuiphakstorage, 136p) | 88 | 8열 합 = 총계행(604/263/1,076/150/15/90/471/337=3,006). 장애인등(15)은 열 분해 없음(각주 확인) | `khu_2027_susi.json` |
+| 인하대 | 입학처 CMS 직접 다운로드 URL(admission.inha.ac.kr FileDownload.do) | 63 | 10열 합 = 합계행(939/261/6/137/140/3/438/457/57/26=2,464), 서해5도=최대모집 표기(선발 3명) 각주 반영, 자율화 전형 198 별도 검증 | `inha_2027_susi.json` |
+
+- 전형(방법·수능최저·지원자격)·일정: 고려 9전형/12일정, 경희 8/9, 인하 12/11, 한양 9(인원만; 방법·수능최저는 미추출 → null, 추정 안 함).
+- 2027 확정 요강과 2028 시행계획은 문서 키로 분리 유지. 미발표 2028 요강 추정 보충 없음.
+
+## 9. 시드 갱신 후 집계
+
+`{"universities": 7, "documents": 11, "departments": 480, "admission_types": 57, "schedules": 66, "prior_results": 0, "approved": 0, "verification_status_all": "NORMALIZED"}`
+
+- APPROVED 자동 승격 0건 — 전 행 NORMALIZED·HIDDEN 유지(지시 7).
+- 미해결: ① 전년도(2026) 입시결과 7개교 미추출 ② 한양 전형방법·수능최저 미추출 ③ 경희 기회균형I(장애인등) 학과별 미분해(총계 15만) ④ 2028 수시요강 발표 대기.
+- `data/youtube/` 영역 미변경(별도 Qoder 작업 구역).

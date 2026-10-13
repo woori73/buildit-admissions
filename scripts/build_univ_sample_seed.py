@@ -20,6 +20,10 @@ yp2 = load('yonsei_2027_susi_part2.json')
 y28 = load('yonsei_2028_plan.json')
 skku = load('skku_2027_susi.json')
 skku_ov = load('skku_2027_susi_overview.json')
+korea = load('korea_2027_susi.json')
+hanyang = load('hanyang_2027_susi.json')
+khu = load('khu_2027_susi.json')
+inha = load('inha_2027_susi.json')
 
 UNIV = {
     'snu': dict(university_code='SNU', name='서울대학교', establishment_type='국립',
@@ -28,6 +32,14 @@ UNIV = {
                 region='서울', admission_office_url='https://admission.yonsei.ac.kr/'),
     'skku': dict(university_code='SKKU', name='성균관대학교', establishment_type='사립',
                  region='서울', admission_office_url='https://admission.skku.edu/'),
+    'korea': dict(university_code='KOREA', name='고려대학교(서울)', establishment_type='사립',
+                  region='서울', admission_office_url='https://oku.korea.ac.kr/'),
+    'hanyang': dict(university_code='HANYANG', name='한양대학교(서울)', establishment_type='사립',
+                    region='서울', admission_office_url='https://go.hanyang.ac.kr/'),
+    'khu': dict(university_code='KHU', name='경희대학교(서울)', establishment_type='사립',
+                region='서울', admission_office_url='https://iphak.khu.ac.kr/'),
+    'inha': dict(university_code='INHA', name='인하대학교', establishment_type='사립',
+                 region='인천', admission_office_url='https://admission.inha.ac.kr/'),
 }
 
 def docrow(key, p):
@@ -44,7 +56,22 @@ def docrow(key, p):
 docs = [docrow(k, v['document']) for k, v in
         [('doc_snu_2027_susi', snu), ('doc_yon_2027_susi', yon), ('doc_yon_2027_plan', yplan),
          ('doc_yon_2027_susi_part2', yp2), ('doc_yon_2028_plan', y28),
-         ('doc_skku_2027_susi', skku), ('doc_skku_2027_overview', skku_ov)]]
+         ('doc_skku_2027_susi', skku), ('doc_skku_2027_overview', skku_ov),
+         ('doc_korea_2027_susi', korea)]]
+
+def docrow_new(key, p):
+    return {
+        'document_key': key,
+        'institution_name': p['university'], 'document_name': p['doc_type'],
+        'source_url': p['source_url'], 'file_url': p['source_url'],
+        'applicable_academic_year': p['academic_year'],
+        'published_at': '2026-05~09(요강별 상이)', 'collected_at': NOW,
+        'verification_status': p['verification_status'],
+        'redistribution': 'METADATA_PRIORITY', 'store_fulltext': False,
+        'note': '원문 전문은 git 미저장(data/raw). 구조화 행만 저장.'}
+
+for key, p in [('doc_hanyang_2027_susi', hanyang), ('doc_khu_2027_susi', khu), ('doc_inha_2027_susi', inha)]:
+    docs.append(docrow_new(key, p))
 
 seed = {
     'generated_at': NOW,
@@ -89,7 +116,7 @@ def types_from(u, code, dok):
             'min_academic_standard': t.get('csat_minimum'),
             'source_document_key': dok, 'source_url': u['document']['source_url'],
             'institution_name': u['document']['institution_name'],
-            'published_at': u['document']['published_at'], 'collected_at': u['document']['collected_at'],
+            'published_at': u['document']['published_at'], 'collected_at': u['document'].get('collected_at', NOW),
             'verification_status': 'NORMALIZED'})
 
 types_from(snu, 'SNU', 'doc_snu_2027_susi')
@@ -110,6 +137,46 @@ for it in skku['schedules']['items']:
         'item': it['item'], 'date': it['date'],
         'source_url': skku['document']['source_url'], 'verification_status': 'NORMALIZED'})
 
+# ---- 2026-10-13 오후 확대: 고려·한양·경희·인하 ----
+for dept in korea['departments']:
+    seed['ipsi_departments'].append({
+        'university_code': 'KOREA', 'academic_year': '2027', 'department_name': dept['department'],
+        'college_name': dept.get('college'), 'track': dept.get('track'),
+        'counts_by_type': dict(dept['counts_by_type'], 합계=dept['susi_total']),
+        'source_document_key': 'doc_korea_2027_susi', 'verification_status': 'NORMALIZED'})
+types_from(korea, 'KOREA', 'doc_korea_2027_susi')
+for it in korea['schedules']['items']:
+    seed['ipsi_schedules'].append({
+        'university_code': 'KOREA', 'academic_year': 2027, 'round_type': 'SUSI', 'type_name': '전 전형',
+        'item': it['item'], 'date': it['date'],
+        'source_url': korea['document']['source_url'], 'verification_status': 'NORMALIZED'})
+
+for u, code, dok in [(hanyang, 'HANYANG', 'doc_hanyang_2027_susi'),
+                     (khu, 'KHU', 'doc_khu_2027_susi'),
+                     (inha, 'INHA', 'doc_inha_2027_susi')]:
+    for dept in u['departments']:
+        seed['ipsi_departments'].append({
+            'university_code': code, 'academic_year': '2027', 'department_name': dept['department'],
+            'college_name': dept.get('college'), 'track': dept.get('track'),
+            'counts_by_type': dict(dept['by_type'], 합계=dept.get('susi_sum', sum(dept['by_type'].values()))),
+            'plan_total': dept.get('plan_total'),
+            'source_document_key': dok, 'verification_status': 'NORMALIZED'})
+    for t in u.get('admission_types', []):
+        seed['ipsi_admission_types'].append({
+            'university_code': code, 'academic_year': 2027, 'round_type': 'SUSI',
+            'type_name': t['name'], 'type_category': (t['name'].split('(')[0].split('[')[0]).strip(),
+            'recruitment_count': t.get('total'),
+            'eligibility': t.get('eligibility'), 'student_record_method': t.get('method'),
+            'min_academic_standard': t.get('csat_min'),
+            'source_document_key': dok, 'source_url': u['source_url'],
+            'institution_name': u['university'], 'published_at': '2026(요강별 상이)', 'collected_at': NOW,
+            'verification_status': 'NORMALIZED'})
+    for it in u.get('schedules', []):
+        seed['ipsi_schedules'].append({
+            'university_code': code, 'academic_year': 2027, 'round_type': 'SUSI', 'type_name': '전 전형',
+            'item': it.get('stage'), 'date': it.get('period'),
+            'source_url': u['source_url'], 'verification_status': 'NORMALIZED'})
+
 seed['ipsi_admission_types'].append({
     'university_code': 'YONSEI', 'academic_year': 2028, 'round_type': 'SUSI',
     'type_name': '학생부종합전형[종합인재형](2028 신설)', 'type_category': '학생부종합',
@@ -129,8 +196,8 @@ seed['gaps'] = [
     '[2026-10-13 오후 해소] 연세대 요강 Ⅱ부 → yonsei_2027_susi_part2.json(67행, 검증 통과). 잔여: 정시 세부 인원(2026.9.1. 정시요강 확인)',
     '[해소] 연세대 국제형 254/국제인재 120 전공별 분해 → part2 international_decomposition',
     '[해소] 성균관대 세부전형 소계 불일치 → 특별전형(정원외)187 포함 1,487 재현(PDF 7쪽 시각검증) + 총괄표 skku_2027_susi_overview.json(56행 검증 통과)',
-    '전년도(2026) 입시결과(경쟁률·충원·권장과의목) 3개교 미추출 — 서울대 전형결과 페이지 등 후속',
-    '고려대·한양대·경희대·인하대 확대 — 확대 작업에서 처리 예정',
+    '전년도(2026) 입시결과(경쟁률·충원·권장과의목) 7개교 미추출 — 대학별 발표 페이지 후속',
+    '[해소 2026-10-13 오후] 고려대(66행·2,731 검증)·한양대(65행·1,731+190 검증)·경희대(88행·3,006 검증)·인하대(63행·2,464 검증) — 총괄표 열합/합계행 교차 검증, 전형방법·수능최저는 경희·인하·고려 확보, 한양 method/csat 미추출(null 보존, 추정 금지)',
     '적용학년도 2028 모집요강(수시)은 각 대학 2027년 5월 발표 → 2028 시행계획만 확보 완료(추정 보충 금지)']
 
 counts = {
