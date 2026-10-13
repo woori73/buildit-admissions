@@ -55,8 +55,18 @@ docs/ANALYSIS/
 ├── 02_year_change/
 │   └── 2027_2028_changes.md                확정(2027) vs 시행계획(2028)
 └── 03_counseling_qa/
-    └── knowledge_base.json                 상담 질문 유형 × 답변 근거
+    └── knowledge_base.json                 상담 질문 유형 × 답변 근거 (Q1~Q9)
 ```
+
+## 3-1. 2단계 검증 산출물 (2026-10-13, stage-2)
+
+| 산출물 | 내용 |
+|---|---|
+| `scripts/validate_official_data.py` → `data/validation/official_validation.json` | 11개 원문 대조: 480행 행합불변검사 PASS 478/FAIL 2, 전형 57(후보 48+주의 9), 일정 66 DEFER(문서 키 미연결), 결함 대장 HIGH2/MED27/LOW6/INFO8. APPROVED 승격 0 — 후보 분류만 |
+| `scripts/crosscheck_youtube_official.py` → `data/validation/youtube_crosscheck.json` | 유튜브 127항목 4분류: ①공식일치 42 / ②충돌 15 / ③전문가의견·해석 66 / ④발언·원문확인필요 4. 전 항목 speech_verified=false 오버레이, spot-check 9건(YT-A056 충돌의혹 등), 8개교 인용 32건 |
+| `docs/ANALYSIS/03_counseling_qa/knowledge_base.json` | Q1~Q6에 6개 필수 답변 필드(대학·학과·전형/적용 학년도/공식 근거 문서·위치/확인된 사실/추가 확인/유튜브 보조+검증 수준) 연결, Q7(2028 체제)·Q8(지원자격)·Q9(일정) 신설 |
+| `docs/ANALYSIS/03_counseling_qa/simulation_results.json` | 시뮬레이션 22문항 채점: PASS 19 / PARTIAL 3 / FAIL 0, 교정 기록 3건(S07 추정 폐기, S13 출처 분리, S19 DEFER 고지) |
+| `docs/STAGE2_REPORT.md` | 검증 건수·오류·APPROVED 후보·유튜브 충돌·미검증·추가 확보 필요 공식자료·상담 AI 후속 개발 사항 |
 
 ## 4. 전제·한계 (T3 확인불가 — 전 대학 공통)
 
