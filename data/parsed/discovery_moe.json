@@ -1,0 +1,16 @@
+[
+  {
+    "source_key": "moe",
+    "board_name": "보도자료(boardID=294)",
+    "board_url": "https://www.moe.go.kr/boardCnts/listRenew.do?boardID=294&m=0204&s=moe",
+    "title": "2026년 업무계획",
+    "url": "https://www.moe.go.kr/sub/infoRenew.do?page=72762&m=031101&s=moe",
+    "url_hash": "a238640d6cb6f55c798bf3d305ad34f164eda20e3c776bf0d44b5eab1ec52e21",
+    "matched_keywords": [
+      "2026"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:18+09:00"
+  }
+]

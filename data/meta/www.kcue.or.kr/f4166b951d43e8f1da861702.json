@@ -1,0 +1,15 @@
+{
+  "url": "https://www.kcue.or.kr/news/sub02/sub01.php?pagenumber=1&at=view&idx=2765225",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.kcue.or.kr/news/sub02/sub01.php?pagenumber=1&at=view&idx=2765225",
+  "content_type": "text/html; charset=utf-8",
+  "size": 36646,
+  "sha256": "ae7a0fd0dad711933ba1843bc3aea7bc355029a355496cf04413fdf25ebf12ea",
+  "raw_path": "raw/www.kcue.or.kr/ae7a0fd0dad711933ba1843bc3aea7bc.html",
+  "collected_at": "2026-10-13T11:49:15+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

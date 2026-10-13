@@ -1,0 +1,15 @@
+{
+  "url": "https://www.kcue.or.kr/notice/sub01.php",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.kcue.or.kr/notice/sub01.php",
+  "content_type": "text/html; charset=utf-8",
+  "size": 47953,
+  "sha256": "40ae069846d80f8bdf48266ca59cece12100497659f5d91dde43272fef33d1fe",
+  "raw_path": null,
+  "collected_at": "2026-10-13T11:44:18+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

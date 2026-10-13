@@ -1,0 +1,15 @@
+{
+  "url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 263693,
+  "sha256": "1ac30b6ec7824e821ad2fc7933e1a7155e8b065f7bfe6fb996363f59c25396ca",
+  "raw_path": null,
+  "collected_at": "2026-10-13T11:44:20+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

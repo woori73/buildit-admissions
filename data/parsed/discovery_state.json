@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-10-13T11:44:20+09:00",
+  "sources_crawled": 3,
+  "total_boards_fetched": 6,
+  "total_boards_blocked": 0,
+  "total_boards_failed": 0,
+  "total_candidates": 36,
+  "total_attachments": 0,
+  "sources": [
+    {
+      "source_key": "kcue",
+      "institution_name": "한국대학교육협의회(KCUE, 대교협)",
+      "robots_our_ua_allowed": true,
+      "access_method": "HTTP_STATIC",
+      "boards_total": 2,
+      "boards_fetched": 2,
+      "boards_blocked": 0,
+      "boards_failed": 0,
+      "candidates": 16,
+      "attachments": 0,
+      "errors": [],
+      "redistribution": "METADATA_PRIORITY",
+      "content_class": "OFFICIAL_RULE",
+      "output_file": "parsed/discovery_kcue.json"
+    },
+    {
+      "source_key": "moe",
+      "institution_name": "교육부(Ministry of Education)",
+      "robots_our_ua_allowed": true,
+      "access_method": "HTTP_STATIC",
+      "boards_total": 3,
+      "boards_fetched": 3,
+      "boards_blocked": 0,
+      "boards_failed": 0,
+      "candidates": 1,
+      "attachments": 0,
+      "errors": [],
+      "redistribution": "OPEN",
+      "content_class": "OFFICIAL_RULE",
+      "output_file": "parsed/discovery_moe.json"
+    },
+    {
+      "source_key": "ebsi",
+      "institution_name": "EBSi 수능/입시(ebsi.co.kr)",
+      "robots_our_ua_allowed": true,
+      "access_method": "HTTP_STATIC",
+      "boards_total": 1,
+      "boards_fetched": 1,
+      "boards_blocked": 0,
+      "boards_failed": 0,
+      "candidates": 19,
+      "attachments": 0,
+      "errors": [],
+      "redistribution": "METADATA_PRIORITY",
+      "content_class": "NON_OFFICIAL_RULE",
+      "output_file": "parsed/discovery_ebsi.json"
+    }
+  ]
+}

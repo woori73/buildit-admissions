@@ -1,0 +1,273 @@
+[
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "학모평 사전준비",
+    "url": "https://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVPreparation.ebs?irecord=202610203&targetCd=D300&cookieGradeVal=high3",
+    "url_hash": "50a4ad1c211ee9f8522abc7deac20ef99f35574a7928a3558545af7592f16ccc",
+    "matched_keywords": [],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "2028 수능",
+    "url": "https://www.ebsi.co.kr/ebs/pot/potg/retrieveSeriesSubjectList.ebs?seriesGrpId=PKG_0370&seriesId=PRO_1881",
+    "url_hash": "fb59a0e42baf07278cfa0017385ef54f73a3bdfc1c6265244ea5bb52c110e607",
+    "matched_keywords": [
+      "2028",
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "(무제 앵커)",
+    "url": "https://www.ebsi.co.kr/ebs/xip/xipa/retrieveSCVMainInfo.ebs?irecord=202609023&targetCd=D300&cookieGradeVal=high3&recom=Y",
+    "url_hash": "75e1f697ff8ca8422e3702a1aedf9d3a278dfd4883ee2fc1e4daaa896dce834d",
+    "matched_keywords": [],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "2027학년도 대학수학능력시험 9월 모의평가 채점 결과 보도자료",
+    "url": "https://www.ebsi.co.kr/ebs/ent/enta/retrieveMoeAnncDatView.ebs?bbsCd=B122&datNo=127641",
+    "url_hash": "55d27ec44b4976f33cb53c72df36dcefa711664018b39f3511886d5d3fae26d8",
+    "matched_keywords": [
+      "2027"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "고1은 학습법 정립&middot;고2는 우선순위&middot;고3은 수능 병행&hellip;2학기 중간고사 전략",
+    "url": "https://www.ebsi.co.kr/ebs/ent/enta/retrieveEntNewsView.ebs?bbsCd=B011&datNo=143525",
+    "url_hash": "fdef7754f2345efdc574e9f67f3873c70a7c0a62714a08a0a3d57858574dcb3c",
+    "matched_keywords": [
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "[단독] [2027정시] 상위15개대 무전공(유형1) 지난해 입결.. 서울대 고대 경희대 인하대 등 4개교 &#39;평균 이상&#39;",
+    "url": "https://www.ebsi.co.kr/ebs/ent/enta/retrieveEntNewsView.ebs?bbsCd=B011&datNo=143523",
+    "url_hash": "9fd8f53cb11e0d251189ad069afc51cdf29071f4ff0721c34d683cdb90277982",
+    "matched_keywords": [
+      "2027",
+      "정시"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "#수학 최경훈 최신 기출로 짚어보는 수능 수학 출제 포인트!🔎 | [2027 파이널 체크포인트] 최경훈의 수학I+II",
+    "url": "https://u.ebsi.co.kr/ebsiapp/cms/cmsArtclTvDetailView.do?rowCount=20&playatSeq=2000&playatArtclSeq=2353&cmsType=playat&bbsId=1000013711&settingType=&pageNum=1&searchType=title&searchTxt=&_r=1615129089088&addInqryYn=Y",
+    "url_hash": "0906489225c11443774736e08d7a36df0294611399e75cb3a435eae3daef78e3",
+    "matched_keywords": [
+      "2027",
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "#문학 최서희 수능 문학, 연계 작품을 효율적으로 정리하자!📚 | [2027 파이널 체크포인트] 최서희의 문학",
+    "url": "https://u.ebsi.co.kr/ebsiapp/cms/cmsArtclTvDetailView.do?rowCount=20&playatSeq=2000&playatArtclSeq=2351&cmsType=playat&bbsId=1000013711&settingType=&pageNum=1&searchType=title&searchTxt=&_r=1615129089088&addInqryYn=Y",
+    "url_hash": "d14e203e1a36982631a865acb169958dfd0880607b73a00d0a92d2db27445bb7",
+    "matched_keywords": [
+      "2027",
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "#영어 김제희 영어 실전 연습, 제대로 해볼 시간!⏱️ | [2027 수능 직전보강 클리어 봉투모의고사] 김제희의 영어",
+    "url": "https://u.ebsi.co.kr/ebsiapp/cms/cmsArtclTvDetailView.do?rowCount=20&playatSeq=2000&playatArtclSeq=2343&cmsType=playat&bbsId=1000013711&settingType=&pageNum=1&searchType=title&searchTxt=&_r=1615129089088&addInqryYn=Y",
+    "url_hash": "50288b51580664afc4e099a750b243059c6a075031b477fcfa4ca6d12a7c022a",
+    "matched_keywords": [
+      "2027",
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "#국어 명지희 수능 국어, 제대로 풀기 위한 핵심 포인트!📌 | [2027 수능 직전보강 클리어 봉투모의고사] 명지희의 국어",
+    "url": "https://u.ebsi.co.kr/ebsiapp/cms/cmsArtclTvDetailView.do?rowCount=20&playatSeq=2000&playatArtclSeq=2341&cmsType=playat&bbsId=1000013711&settingType=&pageNum=1&searchType=title&searchTxt=&_r=1615129089088&addInqryYn=Y",
+    "url_hash": "dbf7228b5872ee3c56b25b0cfe22b61a5e6d1c1de3033e9f546de105c313f66b",
+    "matched_keywords": [
+      "2027",
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "#영어 김예령 풀이 속도와 정확도를 모두 잡자!🎯 | [2027 고난도 논스톱 봉투모의고사] 김예령의 영어",
+    "url": "https://u.ebsi.co.kr/ebsiapp/cms/cmsArtclTvDetailView.do?rowCount=20&playatSeq=2000&playatArtclSeq=2335&cmsType=playat&bbsId=1000013711&settingType=&pageNum=1&searchType=title&searchTxt=&_r=1615129089088&addInqryYn=Y",
+    "url_hash": "184ba6931d047b4b73e26680f3711a93331a1b984ee9de3a59485d05750372ba",
+    "matched_keywords": [
+      "2027"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "[2028학년도 수능 대비] EBS 연계교재 목록 및 발행 일정 안내 26.10.12",
+    "url": "https://www.ebsi.co.kr/ebs/pot/poth/retrieveNotcRmTotArtcl.ebs?bbsId=CZ_NOTICE&artclId=000000400506748&Clickz=C001",
+    "url_hash": "56094fd66d0cdb046b8fe184c0fa8cafd3c369908613ae519161123c2b6f0d98",
+    "matched_keywords": [
+      "2028",
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "[강좌/교재 오픈] 내신과 수능을 모두 잡는 보카 시리즈 &lt;E보카 고교&gt; 26.10.08",
+    "url": "https://www.ebsi.co.kr/ebs/pot/poth/retrieveNotcRmTotArtcl.ebs?bbsId=CZ_NOTICE_01&artclId=000000400505757&Clickz=C001",
+    "url_hash": "b60c04210ac2c0f119d0fb4131db11a3a8fb153f6c9958e795db7f901381ed5c",
+    "matched_keywords": [
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "[강좌/교재 오픈] 🔥수능 직전 마지막 실전 대비 &lt;수능 직전보강 클리어 봉투모의고사&gt; 26.10.08",
+    "url": "https://www.ebsi.co.kr/ebs/pot/poth/retrieveNotcRmTotArtcl.ebs?bbsId=CZ_NOTICE_01&artclId=000000400502903&Clickz=C001",
+    "url_hash": "fb11a5d7eccf9a07873c100539a7a9297eafba617c645002f23cd228b47fccf0",
+    "matched_keywords": [
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "수능 전, EBS 선생님들이 짚어주는 마지막 한 수! &lt;2027 파이널 체크포인트&gt; 26.10.08",
+    "url": "https://www.ebsi.co.kr/ebs/pot/poth/retrieveNotcRmTotArtcl.ebs?bbsId=CZ_NOTICE_01&artclId=000000400504906&Clickz=C001",
+    "url_hash": "206e356a862d01a7cebb5611a91e12af3cd2eb1e93cd7c265a93a5bf5a0607da",
+    "matched_keywords": [
+      "2027",
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "EBSe 2026 이용자 만족도 설문조사 이벤트 26.10.07",
+    "url": "https://www.ebse.co.kr/apps/event/eventView.do?event_id=216&article_id=10055054",
+    "url_hash": "fed13ef34f4dd3dd9b7544aeaaddc5a89c9aefada190b755b5382da25c5f0349",
+    "matched_keywords": [
+      "2026"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "2026년 1318 온코칭 5기 학습자 모집 26.10.07",
+    "url": "https://www.1318study.kr/youngbg/edu/recruit/learnerview?seq=20020",
+    "url_hash": "62d623f45d315a36a6acc125fb94dc4714c5b94e56485067d7dd4ced2db5387b",
+    "matched_keywords": [
+      "2026"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "2028학년도 수능특강 표지 선정 이벤트 26.10.01",
+    "url": "https://www.ebsi.co.kr/ebs/pot/evt/poster2026OctEvt.ebs",
+    "url_hash": "8ab96004452caff3777ff4569302a6fa77d4d8d6ac80539aee2be522ad8ee76c",
+    "matched_keywords": [
+      "2028",
+      "수능"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  },
+  {
+    "source_key": "ebsi",
+    "board_name": "홈",
+    "board_url": "https://www.ebsi.co.kr/ebs/pot/poti/main.ebs",
+    "title": "[북스토리] 2026년 10월 출석체크 이벤트 26.10.01",
+    "url": "https://book.ebs.co.kr/event/view?bnnrMngId=3757",
+    "url_hash": "b13970dc3e28bc1f22551bfc2b9b766192bf815881f7da1a6365605d06e928d0",
+    "matched_keywords": [
+      "2026"
+    ],
+    "is_attachment": false,
+    "verification_status": "COLLECTED",
+    "collected_at": "2026-10-13T11:44:20+09:00"
+  }
+]

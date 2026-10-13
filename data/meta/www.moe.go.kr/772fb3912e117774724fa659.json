@@ -1,0 +1,15 @@
+{
+  "url": "https://www.moe.go.kr/boardCnts/listRenew.do?boardID=294&m=0204&s=moe",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.moe.go.kr/boardCnts/listRenew.do?boardID=294&m=0204&s=moe",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 173870,
+  "sha256": "968ae7386c1d27380a8f9a419ad3943bd3ef83d715f298fd27912ae870fbb950",
+  "raw_path": "raw/www.moe.go.kr/968ae7386c1d27380a8f9a419ad3943b.html",
+  "collected_at": "2026-10-13T11:44:18+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.kcue.or.kr/notice/sub01.php?pagenumber=1&at=view&idx=2765248",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.kcue.or.kr/notice/sub01.php?pagenumber=1&at=view&idx=2765248",
+  "content_type": "text/html; charset=utf-8",
+  "size": 48320,
+  "sha256": "f9f7428737e3c5761d96e39b1ef02e67ce28fde5813afdefd4e1d7870363987a",
+  "raw_path": "raw/www.kcue.or.kr/f9f7428737e3c5761d96e39b1ef02e67.html",
+  "collected_at": "2026-10-13T11:49:17+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://library.kcue.or.kr/subhomepage1/usmn110.jsp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://library.kcue.or.kr/subhomepage1/usmn110.jsp",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 11854,
+  "sha256": "bb24c9c74a829ac1a2c368d9f2571b5b9bbaa7eed74dab1bf672dc52432f92cf",
+  "raw_path": null,
+  "collected_at": "2026-10-13T11:40:36+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

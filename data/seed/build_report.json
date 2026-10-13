@@ -1,0 +1,25 @@
+{
+ "documents": 36,
+ "unique_after_dedup": 36,
+ "versions": 36,
+ "extracted_with_body": 4,
+ "metadata_only": 32,
+ "official_rule": 17,
+ "non_official_rule": 19,
+ "missing_applicable_academic_year": 34,
+ "missing_source_url": 0,
+ "failed": {
+  "blocked_by_robots": [
+   "adiga",
+   "suneung"
+  ],
+  "js_required": [
+   "kcue_library"
+  ],
+  "pending_unexpanded": [
+   "kcue",
+   "moe",
+   "ebsi"
+  ]
+ }
+}
