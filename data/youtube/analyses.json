@@ -1,0 +1,5415 @@
+{
+  "schema_version": "yt-v1",
+  "generated_at": "2026-10-13",
+  "collector": "qoder-b",
+  "classification_definitions": {
+    "OFFICIAL_FACT": "교육부·대교협·평가원·대학 발표문으로 확인 가능한 사실(영상은 인용·해설만 수행).",
+    "EXPERT_ANALYSIS": "공개된 1차 자료를 전문가가 해석한 주장. 근거는 제시되나 제도의 확정 내용이 아니다.",
+    "PREDICTION": "아직 발표되지 않은 결과(합격선·경쟁률·입결 환산)에 대한 전망.",
+    "STRATEGY": "성적대·학년별 행동 권고. 제도 사실이 아닌 처방.",
+    "DISPUTED": "전문가 간 또는 공식 자료와 의견이 갈려 한쪽으로 확정할 수 없는 항목.",
+    "OUTDATED": "발표 시점의 시안·예고 단계 정보로 이후 확정 내용과 다르거나 갱신 확인이 필요한 항목."
+  },
+  "official_ref_status_definitions": {
+    "OFFICIAL_CONFIRMED": "1차 공식 문서에서 동일 수치·문구를 직접 확인.",
+    "CONSISTENT_WITH_OFFICIAL": "공식 자료와 모순되지 않고 방향·구조가 일치. 단 해당 항목 자체를 공식 문서가 명시하지는 않음.",
+    "NEEDS_OFFICIAL_DOC": "해당 대학·전형의 시행계획/모집요강 원문 대조가 필요한 상태.",
+    "CONFLICT": "공식 자료 또는 타 전문가 진술과 불일치가 관찰되어 conflicts.json에 기록.",
+    "UNSUPPORTED": "발표자가 근거 자료·시점을 특정하지 않아 검증 불가."
+  },
+  "usage_rules": [
+    "상담 답변은 OFFICIAL_FACT 또는 official_ref_status=OFFICIAL_CONFIRMED 항목을 우선한다.",
+    "EXPERT_ANALYSIS·PREDICTION·STRATEGY는 반드시 '전문가 해석/전망'임을 문구에 포함한다.",
+    "DISPUTED·OUTDATED·UNSUPPORTED는 단일 근거로 결론을 만들지 않고 차이와 이유를 함께 안내한다.",
+    "confidence=LOW 항목은 학생 개인 배치(합격·불합격 예측)에 사용하지 않는다."
+  ],
+  "counts_note": "항목 수는 scripts/youtube/yt_validate.py가 실제 파일에서 산출한다(수동 계상 금지).",
+  "analyses": [
+    {
+      "id": "YT-A001",
+      "video_id": "RDsxacK7uY4",
+      "anchor": {
+        "t0": 360,
+        "t1": 480,
+        "src": "desc_timestamp"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "2028학년도 전체 모집인원은 348,789명이며 수시 281,895명(80.8%), 정시 66,894명(19.2%)이다.",
+      "evidence": "어센틱마인드가 대교협 2028학년도 대학입학전형시행계획 공표(1차 자료)를 인용.",
+      "entities": {
+        "institutions": [
+          "대교협"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "교육부가 전한 대교협 2028 시행계획 발표(2026-04-30). 경향 문구(총·수시 증가, 정시 감소) 확인. 수치 348,789/80.8%/19.2%는 대교협 공표 보도(kyobit 2026-05-05)에서 교차 확인.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "수시 중심 구조임을 설명할 때 기준 수치로 사용.",
+        "caution": "시행계획 단계 수치이며 최종 모집요강에서 바뀔 수 있다."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A002",
+      "video_id": "RDsxacK7uY4",
+      "anchor": {
+        "t0": 420,
+        "t1": 480,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "비수도권 대학의 정시 비중은 10.2% 수준으로, 지역 학생은 정시보다 수시 카운트를 훨씬 적게 받는다.",
+      "evidence": "시행계획 권역별 분해(1차 자료 12종)를 자체 집계.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "권역별 집계 방식·대상 대학 정의가 발표문에 없어 재현 검증 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [],
+        "use": "비수도권 지원 학생에게 수시 비중을 크게 설계하도록 안내.",
+        "caution": "'정시 10.2%'의 분모 정의(전체/지방대)를 확인해야 한다."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A003",
+      "video_id": "RDsxacK7uY4",
+      "anchor": {
+        "t0": 1020,
+        "t1": 1440,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "수능 최저학력기준은 변별 장치가 아니라 '자격선'으로 작동하므로, 최저 통과 여부가 실질 경쟁률을 좌우한다.",
+      "evidence": "SKY 수능최저 미적용 비율 57.8%(전년 대비 +17.7%p) 등 시행계획 집계 + 충족률 논리.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "미적용 비율 57.8% 수치는 발표문에서 직접 확인되지 않음.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C005"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1.0~2.0",
+          "2.0~3.0"
+        ],
+        "use": "내신이 같은 학생에게 수능 최저 준비의 기대수익을 설명.",
+        "caution": "최저가 없는 전형 확대와 동시에 진행되므로 전형별 확인이 필요하다."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A004",
+      "video_id": "RDsxacK7uY4",
+      "anchor": {
+        "t0": 1440,
+        "t1": 1680,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "'정시도 학종화'된다 — 정시에서 학생부(서류)를 반영하는 대학이 8개교 수준에서 5년간 확산됐다.",
+      "evidence": "대학별 시행계획 비교(발표 시계열).",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "EBS뉴스·EBSi 입시의 정석(현직 교사)도 같은 방향을 설명 → 교차 정합.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "정시만 준비하는 학생에게 출결·학생부 기본 관리의 필요성 설명.",
+        "caution": "정시 학생부 반영은 정량(등급)과 정성(서류)이 대학별로 달라 개별 확인 필요."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A005",
+      "video_id": "RDsxacK7uY4",
+      "anchor": {
+        "t0": 1680,
+        "t1": 1860,
+        "src": "desc_timestamp"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T02",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "수능 변별력이 약화된다(표준점수·백분위 구조 해석). 반면 학원가 일부와 EBS 계열은 '정시가 더 중요해졌다'고 본다.",
+      "evidence": "표준점수/백분위 분포 해석과 대학별 반영비 변화 인용.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=97551",
+        "note": "선택과목 없는 통합형 수능 확정은 사실이나, '변별력 강약'은 제도 사실이 아닌 해석.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [],
+        "use": "변별력 논란을 단일 결론처럼 답하지 말고 양론을 함께 제시.",
+        "caution": "2028 수능 첫 채점 결과가 나오기 전까지 확정 불가."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A006",
+      "video_id": "RDsxacK7uY4",
+      "anchor": {
+        "t0": 2280,
+        "t1": 2400,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T03",
+        "T05",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "처방 3가지 — 수능은 최저 통과용 '자격선'으로 챙기고, 본진은 학생부(특히 세특)이며, 5등급제로 1등급 풀이 약 2.5배 넓어졌음을 전제로 준비하라는 주장.",
+      "evidence": "시행계획·입결 1차 자료 해석 + 내신 5등급제 1등급 비율 확대(4%→10%) 전제.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=97551",
+        "note": "'1등급 10%'는 교육부 2028 대입개편 발표 관련 보도(2023-10-10)로 확인되나, 5등급 전체 구간 표는 「학교생활기록 작성 및 관리지침」 원문 확인 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1.0~1.5",
+          "1.5~2.5"
+        ],
+        "use": "내신·수능·학생부 시간 배분의 우선순위를 논의하는 틀.",
+        "caution": "'수능 올인 금지' 결론은 이 채널의 해석이며 공식 지침이 아니다."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A007",
+      "video_id": "no5MxDnvrNw",
+      "anchor": {
+        "t0": 720,
+        "t1": 1080,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T08"
+      ],
+      "academic_year": "2026",
+      "claim": "수능 최저 충족률로 다시 계산한 2026년 지방 의대 실질경쟁률은 교과 1.3~3.0:1, 단계별 학종 1.0~1.6:1, 일괄합산 학종 3.9~6.8:1이다.",
+      "evidence": "충족률(교과 지원자 21.8~62.5%, 학종 1단계 통과자 40.0~72.0%, 일괄 27.9~59.8%)과 충원율을 공개 입결에서 계산(휴브레인 집계).",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "출발 수치는 대학별 2026 입시결과 공시이지만 충족률 계산 자체는 기관 고유 산출.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1.0~2.0",
+          "2.0~3.0"
+        ],
+        "use": "표면 경쟁률이 높아도 최저만 맞추면 기회가 있다는 설명(지방 의대 희망자).",
+        "caution": "2026 결과 기반이며 2028에 동일하게 적용되지 않는다."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A008",
+      "video_id": "no5MxDnvrNw",
+      "anchor": {
+        "t0": 1140,
+        "t1": 1260,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2026",
+      "claim": "대학별 사례: 경북대 일반학생(종합) 17.9→4.33:1, 충남대 교과일반 15.58→2.56:1, 순천향대 교과우수자 17.50→1.81:1, 동국대 WISE 지역인재(경북-교과) 19.40→1.30:1.",
+      "evidence": "실질경쟁률 계산(충족률·충원 반영) — 설명란에 수치 명시됨.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "원값 경쟁률·충원율은 대학 공시, 환산값은 기관 계산.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [
+          "1.0~2.0"
+        ],
+        "use": "지역인재·교과 전형의 실제 문을 사례로 설명.",
+        "caution": "2026 결과이며 전형명이 2028에 달라질 수 있다."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A009",
+      "video_id": "no5MxDnvrNw",
+      "anchor": {
+        "t0": 300,
+        "t1": 480,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 지방 의대 수능 최저는 순천향대 교과 4합6→3합4, 단국대(천안) DKU 3합5→3합4로 완화되고, 탐구 반영은 사회·과학 평균 5곳으로 바뀌며 지역의사선발이 확대된다.",
+      "evidence": "대학별 2028 시행계획 비교(설명란 명시).",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "대학별 시행계획 원문(순천향대·단국대·동국대 WISE) 직접 확인 필요. 동국대 WISE 지역인재(종합) 폐지·참사람 3·경북-종합 10도 동일.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [
+          "1.0~2.0"
+        ],
+        "use": "지방 의대 희망 고2의 최저 목표 설정.",
+        "caution": "시행계획 단계 — 최저 세부 기준은 2027년 5월 모집요강에서 확정."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A010",
+      "video_id": "no5MxDnvrNw",
+      "anchor": {
+        "t0": 600,
+        "t1": 720,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "기준이 다른 전형 간 충족률·경쟁률은 직접 비교 금지 — 일괄합산은 지원자 기준, 단계별은 1단계 통과자 기준으로나눠 봐야 한다.",
+      "evidence": "충족률 분모 정의 차이.",
+      "official_ref": {
+        "url": "",
+        "note": "방법론적 주장(검증 대상 아님).",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "배치 상담에서 경쟁률 숫자를 그대로 비교하지 않도록 경고.",
+        "caution": "출처별 수치가 다른 분모를 쓰고 있는지 먼저 확인할 것."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A011",
+      "video_id": "qxFjhfPiB_U",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 시행계획의 특징은 '변화하는 내신·수능을 고려한 전형의 다변화' — 수시 80%/정시 20% 추세는 유지되지만 서울대·연세대·한양대 등 정시 40% 선발 대학이 30%까지 줄였다.",
+      "evidence": "윤희태 교사(서울 영동일고)의 주요 대학 시행계획 분석. EBS뉴스 문자보도형 설명에 전문 수록.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "전체 수시 80.8%/정시 19.2%는 공식 확인. '40%→30%'는 개별 대학 기준 진술로 대학별 확인 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [],
+        "use": "정시 축소 인상을 과장/축소하지 않고 설명하는 기준 틀.",
+        "caution": "정시 40% 의무는 특정 대학군에 적용되는 규정이므로 대상 대학 확인 필요."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A012",
+      "video_id": "qxFjhfPiB_U",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 정시에서 서울대·연세대·한양대·건국대·동국대는 학생부 정성평가를 수능과 함께 반영하고, 고려대·서강대·경희대 등은 내신 성적을 수능과 함께 반영하며, 성균관대·중앙대는 수능 최저 + 학생부 정성평가 형태의 종합전형형 정시를 운영한다.",
+      "evidence": "EBS뉴스(현직 교사 해설)가 대학별 2028 시행계획 내용을 목록화.",
+      "official_ref": {
+        "url": "https://admission.snu.ac.kr/undergraduate/notice?md=v&bbsidx=168854",
+        "note": "서울대 2028 시행계획 공지(2026-04-30) 존재 확인. 반영 비율 수치는 첨부 파일이라 미대조.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "정시 지원 후보 대학의 학생부 반영 여부를 정리할 때.",
+        "caution": "대학별 반영 비율·방식은 모집요강에서 최종 확정."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A013",
+      "video_id": "qxFjhfPiB_U",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T02",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "대학이 학생부 정성평가를 넣는 이유는 수능 시험 범위에서 미적분Ⅱ·기하와 사회·과학의 일반/진로 선택과목이 빠지기 때문 — 고교 교육과정이 수능의 보조수단으로 평가된다.",
+      "evidence": "2028 수능 출제 범위 변화와 정시 평가 요소의 인과 연결.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=97551",
+        "note": "교육부: '심화수학(미적분Ⅱ·기하)은 수능 출제에서 제외' 명시 → 전제 사실은 확인. 인과 해석은 전문가 것.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "학교에서 배우는 과목 이수 자체가 입시 자산임을 설명.",
+        "caution": "수능 범위 밖 과목을 '불리하다'고 해석하면 안 된다."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A014",
+      "video_id": "NsHFuOsdwrw",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 대입부터 고교 내신은 3학년 2학기 때까지 반영된다.",
+      "evidence": "EBS뉴스/EBSi 입시의 정석(윤희태 교사) 설명 제목·본문.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&lev=0&statusYN=W&s=moe&m=020402&opType=N&boardSeq=97551",
+        "note": "고교학점제 체제 학생부 반영 시점 원칙과 정합. 최종 반영 학기는 대학별 확인 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [
+          "1.5~3.0"
+        ],
+        "use": "3학년 2학기까지 관리해야 함을 강조. 마지막 학기 하락의 리스크 설명.",
+        "caution": "수시 6장 접수(9월) 전에는 3학년 1학기까지만 반영된다는 전형별 차이와 혼동 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A015",
+      "video_id": "uDJMZxXVrNA",
+      "anchor": {
+        "t0": 23,
+        "t1": 180,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "순수 '교과 100%' 전형이 사라진다 — 동점자 구분과 변별 확보를 위해 원점수·세특·출결 등 서류 평가 비중이 늘고, 9등급 재수생과 비교가 어려워 교과전형을 고3 재학생으로 제한하는 대학이 늘어난다.",
+      "evidence": "전 하나고 진학부장(김학수)의 대학별 전형 변화 해석.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "재학생 지원 자격 제한은 대학 재량 사항 → 대학별 시행계획 원문 확인 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C006"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1.0~2.0"
+        ],
+        "use": "출결·교과 세특의 기본 관리 필요성과 재수 리스크 설명.",
+        "caution": "모든 교과전형이 재학생 제한은 아니다(대학별 확인)."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A016",
+      "video_id": "uDJMZxXVrNA",
+      "anchor": {
+        "t0": 360,
+        "t1": 480,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T09",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "한양대는 2028 교과전형의 서류(정성평가) 비중을 40%까지 확대했다.",
+      "evidence": "시행계획 반영비 표 해석. 갓반고(비학군 일반고) 학생에게 유리한지에 대한 질문으로 제시.",
+      "official_ref": {
+        "url": "https://www.hanyang.ac.kr/",
+        "note": "한양대 2028 시행계획 원문 미대조.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [
+          "1.0~2.0"
+        ],
+        "use": "내신 동급 학생 간 서류의 당락 영향 설명.",
+        "caution": "비중 수치는 모집요강에서 재확인 필요."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A017",
+      "video_id": "uDJMZxXVrNA",
+      "anchor": {
+        "t0": 960,
+        "t1": 1139,
+        "src": "desc_timestamp"
+      },
+      "classification": "PREDICTION",
+      "topics": [
+        "T05",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "초기 경쟁률 9.2:1이던 서강대 화학과가 수능 최저 충족 후 최종 1:1이 된 사례처럼, 최저만 맞추면 내신 불리함을 극복할 수 있다.",
+      "evidence": "단일 연도 사례 인용(발표 시점·출처 미특정).",
+      "official_ref": {
+        "url": "",
+        "note": "사례의 원 자료 특정 불가.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [
+        "YT-C007"
+      ],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [
+          "2.0~3.5"
+        ],
+        "use": "최저 준비의 기대수익을 동기로 설명할 때. 단 개별 합격 보장 진술은 금지.",
+        "caution": "One-school anecdote — 일반화 금지, confidence LOW."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A018",
+      "video_id": "ea1NUYjcX-I",
+      "anchor": {
+        "t0": 300,
+        "t1": 660,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "주요 15개 대학의 2028 정시 수능 위주 전형을 4가지 타입으로 정리 가능 — ①서울대 단계평가형 ②수능 100%와 학생부 반영 병행(고려대·서강대·이화여대·중앙대·경희대·건국대·숙명여대) ③수능 100% 없이 학생부 반영(연세대·한양대·시립대·동국대·홍익대) ④수능 100% 유지(성균관대·한국외대).",
+      "evidence": "박경진 소장(대치 IDA)이 시행계획을 타입별로 분류.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "유형 분류는 분석자의 틀. 대학별 실제 반영비는 원문 확인 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "정시 준비 학생의 지원 후보를 '학생부 반영 유무'로 1차 분류.",
+        "caution": "타입 ②·③ 경계 대학은 전형 이름별로 달라 개별 확인."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A019",
+      "video_id": "ea1NUYjcX-I",
+      "anchor": {
+        "t0": 1020,
+        "t1": 1300,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T09",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "학종 변화: 서강대 학종 수능 최저 신설, 한양대 학업형 확대·서류형 폐지, 경희대 서류형 신설, 서울시립대 수능 최저 폐지, 홍익대 최저 완화, 성균관대 융합인재 최저 신설, 고려대 계열적합형 면접 폐지→서류형 전환.",
+      "evidence": "시행계획 대비(전년 대비 증감·신설·폐지 열거).",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "전형명 단위 변경은 대학별 원문 대조 필수.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [
+          "1.0~2.5"
+        ],
+        "use": "지원 가능 대학의 최저·면접 조건 변화를 학년 초에 안내.",
+        "caution": "2026-05 시점 정보 — 2027년 발표될 모집요강에서 달라질 수 있다."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A020",
+      "video_id": "ea1NUYjcX-I",
+      "anchor": {
+        "t0": 780,
+        "t1": 840,
+        "src": "desc_timestamp"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T10",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "9등급 졸업생과 5등급 재학생의 비교 문제를 대학이 '분리 시도'(재학생 전용 전형 등)로 해소하려 한다. 반면 '재수 불리'는 오해라는 반론도 있다.",
+      "evidence": "IDA 해석 vs 정성민(전 서울대 입학사정관) 반론.",
+      "official_ref": {
+        "url": "",
+        "note": "제도 확정 사실이 아닌 대학별 처리 방식의 차이.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C005"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "재수 여부를 묻는 질문에 '전형별 지원 자격'과 '체제 환산 문제'를 구분해 설명.",
+        "caution": "재수가 유리/불리라는 단정 답변 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A021",
+      "video_id": "qKrS9kdRL2U",
+      "anchor": {
+        "t0": 60,
+        "t1": 480,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 대입의 주요 변화 3가지는 정시 비율 감소, 전형 방법의 다양화·복합화, 그리고 수능 최저 기준 적용 확대다.",
+      "evidence": "장문성 원장(대치 IDA)의 시행계획 종합.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "정시 19.2% 감소 방향은 공식 확인.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "2028 변화의 3축을 기억하기 쉬운 틀로 제시.",
+        "caution": "최저 '확대' 진술은 SKY 최저 미적용 확대 주장(A003)과 결이 달라 함께 확인 필요."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A022",
+      "video_id": "qKrS9kdRL2U",
+      "anchor": {
+        "t0": 660,
+        "t1": 960,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T03",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "5등급제에서 교과 마지노선을 해석할 때 등급 숫자 단독으로 판단하지 말고 내신과 모의고사를 함께 봐야 하며, 최종 진로 판단 시점은 고2말이 기준이 된다.",
+      "evidence": "컨설턴트 경험 기반 판단 기준.",
+      "official_ref": {
+        "url": "",
+        "note": "행동 권고.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [
+          "2.0~3.5"
+        ],
+        "use": "수시·정시 갈림길 판단 시점 안내.",
+        "caution": "개인별 편차가 커 일반화 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A023",
+      "video_id": "2l5MSTGx57k",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T05",
+        "T02"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 대입의 4대 확인 사항 — ①교과전형의 정성평가 확대 ②9등급 입결과 5등급 내신의 환산 관계 ③수능 변화 ④정시 학생부 반영.",
+      "evidence": "김병진 소장(이투스 교육평가연구소) 라이브 설명회 구성 자체.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "문의 형식 구조로 제시된 항목들.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "상담 시작 시 확인 체크리스트로 활용.",
+        "caution": "②환산은 공식 기준이 없다는 점을 반드시 함께 고지."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A024",
+      "video_id": "LyaiiweT7JM",
+      "anchor": {
+        "t0": 1920,
+        "t1": 3120,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "줄어든 내신 변별력을 보완하는 장치는 교과전형의 정성평가·면접·수능 최저이며, 9등급 기준 입결을 5등급으로 읽을 때 등급 눈금만 옮기면 안 된다.",
+      "evidence": "1부 'special tip 9등급 vs 5등급' 챕터 중심 분석.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "보완 장치 목록은 시행계획 확인 가능.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1.0~3.0"
+        ],
+        "use": "과거 입결 비교 시 등급 체제 차이를 경고.",
+        "caution": "환산표는 기관별 해석이 달라 단일표 제시 금지."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A025",
+      "video_id": "LyaiiweT7JM",
+      "anchor": {
+        "t0": 3706,
+        "t1": 4380,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T02",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "정시 수능 위주 전형에서 대학들은 '교과 정량 평가'와 통합사회·통합과학(통사/통과) 반영 방식을 각각 다르게 설계한다.",
+      "evidence": "챕터 'special tip 정시 수능 위주 전형 교과 정량 평가', '수능위주전형 통사/통과'.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "탐구 반영 방식 차이 확인은 대학별 요강 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C008"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "정시 탐구 반영(1과목/2과목/평균/합) 차이 안내.",
+        "caution": "이지영 강사의 '탐구 평균 5곳'류 집계와 교차 확인 필요."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A026",
+      "video_id": "G5vtJ0Z-hTg",
+      "anchor": {
+        "t0": 540,
+        "t1": 1440,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T03",
+        "T04",
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 정성평가의 핵심은 '전공의 이해'이며, 과목 선택과 탐구 활동이 하나로 연결돼 보여야 한다.",
+      "evidence": "김영준 센터장(이투스247학원) 2부 — 대학별 정시 학생부 반영 방법 → 정성평가 핵심 → 전공의 이해로 이어지는 논리.",
+      "official_ref": {
+        "url": "",
+        "note": "대학 평가 요소의 일반 원리 해설.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1.0~3.0"
+        ],
+        "use": "과목 선택-세특 연계 설계 상담의 근거 프레임.",
+        "caution": "'전공의 이해'의 배점·필수성은 대학별 상이."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A027",
+      "video_id": "I8mxgl7gIJY",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T10"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 시행계획의 결론은 '선발 기조 큰 변화 없음, 모집인원 증가, 수시 비율 역대 최고, 수시 학생부위주·정시 수능위주 유지, 전형 간 경계 완화'.",
+      "evidence": "진학스토리(현직 교사)가 대학별 시행계획을 대조한 해시태그 결론.",
+      "official_ref": {
+        "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=106040&lev=0&m=020402&opType=N",
+        "note": "교육부·대교협 문구('수시 학생부위주, 정시 수능위주 선발 기조 유지')와 일치.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [],
+        "use": "막연한 '완전 변경' 불안 줄이기 — 큰 틀은 유지된다는 점.",
+        "caution": "기조 유지는 '전형 내부 구성 변화'와 양립한다(A012, A019)."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A028",
+      "video_id": "Eu4Iuykea_U",
+      "anchor": {
+        "t0": 240,
+        "t1": 360,
+        "src": "desc_timestamp"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "'내신 5등급제는 사실상 학종 확대다'라는 명제에 대해 4인 전문가 패널이 O/X로 팽팽히 갈렸다.",
+      "evidence": "입시천재 펜타킬 X 대치 IDA 팩트체크 3부 Q3(04:25~06:03).",
+      "official_ref": {
+        "url": "",
+        "note": "해석의 차이이며 제도 사실 아님.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C006"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "교과전형도 서류를 본다는 방향만 확인시키고 '학종화'라는 라벨은 피하기.",
+        "caution": "정량·정성 반영 비율을 합쳐 하나의 성질로 부르지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A029",
+      "video_id": "0ynYLu8aHQw",
+      "anchor": {
+        "t0": 0,
+        "t1": 240,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "5등급제에서 '2점대 초반'은 9등급제 환산 약 3.4등급 수준의 성적이어서, 숫자만 믿으면 인서울 주요 대학 종합전형에서 불리하다는 '등급 착시' 주장.",
+      "evidence": "대치 명인 이종환 소장이 전국 1.0 내신 비율 분석과 학종 경쟁력 등급 논의를 하며 제시한 해석. 5등급 구간 정의와 9등급 환산표는 영상에서 출처를 특정하지 않음.",
+      "entities": {
+        "institutions": [
+          "KNS",
+          "대치명인"
+        ],
+        "people": [
+          "이종환"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "9등급→5등급 환산은 교육부가 단일 표로 공표한 규정이 아니라 대학·전형별 산출 방식이 다를 수 있다. 구간 비율은 「학교생활기록 작성 및 관리지침」 확인 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "2등급",
+          "3등급"
+        ],
+        "use": "'2등급이면 안전'이라는 인식을 교정할 때 해석 의견임을 명시하고 사용.",
+        "caution": "환산 수치를 확정 규정처럼 답하지 말 것. 실제 합불은 대학별 전형 산출식에 의존."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A030",
+      "video_id": "0ynYLu8aHQw",
+      "anchor": {
+        "t0": 420,
+        "t1": 780,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "대학이 학교별 진학 실적·수학 교육과정 진도·과목 이수 환경을 평가에 반영하므로, 같은 내신 등급이라도 고교 유형(정시 위주 고교, 외고, 특목자사고)에 따라 입시 결과가 달라진다.",
+      "evidence": "'주요 고교 진학 실적 분석', '주요 외고 서울대 진학률', '대학의 고교 성취도 평가', '학교별 수학 교육과정 진도' 항목에서 발표자가 전개한 논지. 인용한 원자료는 영상에 첨부됨.",
+      "entities": {
+        "institutions": [
+          "KNS"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "고교 정보(학교별 진도·진학실적)가 대학 평가에 참고 자료로 제공되는 근거는 학생부 기재·대입 제공 자료 규정을 대조해야 확인 가능하다.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C006"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "중3"
+        ],
+        "bands": [],
+        "use": "고교 선택 상담에서 '같은 등급이라도 학교 맥락이 평가된다'는 정성평가 원칙을 설명할 때 사용.",
+        "caution": "특정 고교의 진학률 수치는 개인 배치 근거로 쓰지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A031",
+      "video_id": "0ynYLu8aHQw",
+      "anchor": {
+        "t0": 1020,
+        "t1": 1245,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T03",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "내신 유리(학종·교과형)와 수능 유리(정시형) 중 어느 쪽을 택할지는 학생 성향 기준으로 결정하고, 강남·대치 밖 학교로 갈 때는 내신 산출 인원과 교육과정 진도 차를 미리 점검하라는 처방.",
+      "evidence": "'성향별 고등학교 선택 결론', '탈강남·탈대치 진학 유의점' 타임스탬프 구간.",
+      "entities": {
+        "institutions": [
+          "KNS"
+        ],
+        "people": [
+          "이종환"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "행동 권고로 제도 사실 아님. 고교학점제 아래서 과목 개설·이수 조건은 교육청 가이드라인 대조 필요.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "고교 선택 상담의 사고 프레임으로 제공(결정 대행 아님).",
+        "caution": "'어디 학교가 유리하다'단정 금지. 학생 성적대·진로가 달라 결론이 뒤집힐 수 있다."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A032",
+      "video_id": "bDQePMO_FGU",
+      "anchor": {
+        "t0": 60,
+        "t1": 540,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T04"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 개편과 선택과목 이수 인원 감소가 겹치면서 2학년 2학기부터 내신 등급이 하락하는 학생이 급격히 늘었다.",
+      "evidence": "입시왕 '고민 1'(1.5등급 학생의 등급 하락)에서 제시된 진단. '급격히 증가'의 통계 출처는 영상에 없음.",
+      "entities": {
+        "institutions": [
+          "입시왕"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "선택과목 최소 인원(통상 5명) 미달 시 석차등급·표기 예외 규정이 관련되나, 증가 폭을 뒷받침하는 전국 자료는 별도 확인 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C006"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "소인수 과목에서 등급 변동성이 크다는 점을 설명할 때 usage.",
+        "caution": "업계 상담 경험담을 전국 현황처럼 말하지 말 것."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A033",
+      "video_id": "bDQePMO_FGU",
+      "anchor": {
+        "t0": 540,
+        "t1": 776,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T03",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "1.5등급권 하락세 학생은 4등급 이하 과목을 막는 방어 중심(올리기 힘든 취약 과목보다 1등급 가능 과목 확정 + 연계 틈새 학과 발굴), 올 1등급 학생은 비교과보다 내신 방어에 90% 이상 집중하고 통합사회·통합과학으로 수능 최저를 미리 대비하라는 처방.",
+      "evidence": "설명란에 요약된 '고민 1·고민 2' 답변 골격.",
+      "entities": {
+        "institutions": [
+          "입시왕"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "행동 권고. 2028 수능에서 통합사회·통합과학이 출제되는 것은 교육부 확정안과 일치.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급",
+          "3등급"
+        ],
+        "use": "내신 방어 우선순위를 설계할 때 선택지 제시용.",
+        "caution": "'90% 집중' 같은 수치는 발표자 경험상 비율로, 공식 근거 없음."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A034",
+      "video_id": "zmfHF85oi0w",
+      "anchor": {
+        "t0": 0,
+        "t1": 360,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 개편의 최대 변화 중 하나는 수능만으로 합격이결정되던 정시에 학생부가 반영되기 시작한 것이므로, 수능과 학교생활(출결·내신)을 동시에 챙겨 선택지를 넓혀야 한다.",
+      "evidence": "입시왕 특집 2편 도입부 논지.",
+      "entities": {
+        "institutions": [
+          "입시왕"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "2028 정시에서 학생부 반영이 확대되는 방향은 교육부 확정안(선택과목 폐지·내신 5등급) 및 각 대학 2028 시행계획과 방향이 일치.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "정시 준비생에게 '수능-only' 전략의 한계를 설명.",
+        "caution": "학생부 반영 여부·비중은 대학별로 달라 단정 불가(모집요강 확인)."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A035",
+      "video_id": "zmfHF85oi0w",
+      "anchor": {
+        "t0": 360,
+        "t1": 718,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T05",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "모의고사 올 1등급·내신 2등급대 학군지 학생은 극단적 정시 올인(N수생 경쟁)을 피하고 수능:내신 50대50, 국어·통합사회·통합과학 주 3일 고정 학습을 권한다. 내신 2.5등급·진로 미정 학생은 3등급을 없애고 1~2과목 특화 등급을 만들어 이수 과목 연계 비인기 학과로 학종 역전을 노리는 전략을 권한다.",
+      "evidence": "'고민 1', '고민 2', '마무리 총평' 구간.",
+      "entities": {
+        "institutions": [
+          "입시왕"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "처방형 권고로 제도 사실 아님.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "2등급",
+          "3등급"
+        ],
+        "use": "병행형(수능+학생부) 전략 상담 시 예시 처방.",
+        "caution": "배분 비율은 발표자 개인 기준. 학생 과목별 등급 분포에 따라 조정 필요."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A036",
+      "video_id": "aV5dSsiQCmw",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T02",
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "'내신·수능 변별력이 무너져 비교과(생기부) 선행을 해야 한다'는 주장은 불안 기반 상술이며, 평가원 수능 출제 원리와 대학 정성평가 도입 이유를 알면 성립하지 않는다는 반박.",
+      "evidence": "입시천재 펜타킬 '입시막썰' 설명란. 같은 시점에 다수 채널은 변별력 약화를 전제로 비교과 준비를 강조했다.",
+      "entities": {
+        "institutions": [
+          "입시천재 펜타킬"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "양쪽 모두 1차 수치로 검증되지 않은 해석. conflicts.json에 논쟁 기록.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "비교과 선행반·사교육 상품 권유를 받은 가정에게 '전제 자체가 논쟁 중'임을 안내.",
+        "caution": "어느 한쪽 결론을 확정해 말하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A037",
+      "video_id": "aV5dSsiQCmw",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T01",
+        "T04"
+      ],
+      "academic_year": "2028",
+      "claim": "고교학점제 관련 불안 해소는 새로운 사교육이 아니라 2028 대입 변경 사항(선택과목 폐지·내신 5등급·정성평가)의 1차 자료를 직접 확인하는 것부터 시작하라는 처방.",
+      "evidence": "영상 설명란의 대응 전략 서술.",
+      "entities": {
+        "institutions": [
+          "입시천재 펜타킬"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "교육부 2022 개정 교육과정·고교학점제·2028 대입 확정 발표문으로 기본 변경 사항은 확인 가능.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "자료 읽기 우선 원칙 안내.",
+        "caution": "발표자가 지목한 특정 자료 목록은 영상에서 확인되지 않아 인용 불가."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A038",
+      "video_id": "NkPaabmc3oI",
+      "anchor": {
+        "t0": 120,
+        "t1": 300,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "과기원( KAIST·POSTECH·GIST·DGIST·UNIST·KENTECH) 입시는 ①AI대학 신설·첨단분야 정원 확대 ②정시 축소 ③면접 강화·학생부종합전형 확대라는 3대 변화 속에 있으며, 6개교의 준비 방향은 서로 다르다.",
+      "evidence": "과제탐구연구소 '3대 변화'·'6개교 차이' 장.",
+      "entities": {
+        "institutions": [
+          "KAIST",
+          "POSTECH",
+          "GIST",
+          "DGIST",
+          "UNIST",
+          "KENTECH"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "각 기관의 모집요강·정원 승인 자료가 상이하므로 대학별 원문 대조 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C007"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "과기원 관심 학생에게 학교별 전형 차이 확인을 유도.",
+        "caution": "'정시 축소' 폭은 기관별·연도별 확인 전 수치화 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A039",
+      "video_id": "NkPaabmc3oI",
+      "anchor": {
+        "t0": 300,
+        "t1": 480,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T06",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "과기원 학생부는 과목 간 연결로 구성해야 한다 — 반도체는 물리·화학·수학·정보의 흐름, AI는 코딩 경험보다 '데이터로 문제를 설명한 시도', 에너지는 물리·화학 개념과 진로·탐구 활동의 연결.",
+      "evidence": "'과기원 학생부는 어떻게 연결되어야 할까?' 장의 구체 처방.",
+      "entities": {
+        "institutions": []
+      },
+      "official_ref": {
+        "url": "",
+        "note": "정성평가 관점의 처방. 제도 규정 아님.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "세특·탐구 활동 설계 상담의 예시.",
+        "caution": "'면접에서 보는 것은 정답이 아니다'라는 서술은 평가 기준 공식화 이전 해석."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A040",
+      "video_id": "NkPaabmc3oI",
+      "anchor": {
+        "t0": 480,
+        "t1": 629,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T08",
+        "T10"
+      ],
+      "academic_year": "2027",
+      "claim": "2027 지원 예정 고3과 2028 체제로 가는 고2의 준비 내용이 달라야 하며, 지원 전 최종 체크리스트로 전형 조합을 검증하라는 처방.",
+      "evidence": "'고3과 고2의 준비 전략 차이', '과기원 지원 전 최종 체크리스트' 장.",
+      "entities": {
+        "institutions": []
+      },
+      "official_ref": {
+        "url": "",
+        "note": "2027은 현행 9등급·선택과목 체제, 2028부터 5등급·통합형 체제가 적용된다는 교육부 확정안과 부합.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "학년에 따라 다른 로드맵을 제시할 때.",
+        "caution": "2026 결과를 2028에 그대로 외삽하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A041",
+      "video_id": "dbN_KdkSK9I",
+      "anchor": {
+        "t0": 300,
+        "t1": 420,
+        "src": "desc_timestamp"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "'교과전형도 학종화된다' — 5등급제로 내신 변별력이 약해지면 교과 100% 전형이 사라지고 정성평가가 들어온다는 해석.",
+      "evidence": "바이브온 입시크릿 '교과전형도 학종화된다?' 장. 다수 채널이 동일 표현을 사용 중이나 근거(비중 수치)는 영상마다 다르다.",
+      "entities": {
+        "institutions": [
+          "바이브온"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "2028 교과전형에 정성평가를 추가한 대학은 실제로 늘었으나, '학종화'라는 명제는 교과·종합 경계 재정의 문제라 단일 규정으로 확정 불가.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C005",
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "교과전형 준비생에게 서류·면접 변동 가능성을 안내.",
+        "caution": "'학종화'를 확정 정책으로 표현하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A042",
+      "video_id": "dbN_KdkSK9I",
+      "anchor": {
+        "t0": 420,
+        "t1": 540,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T03",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "내신·생기부·수능의 우선순위를 하나씩 정하지 말고 함께 설계하되, 5등급제에서 '내신 1등급'은 경쟁력의 출발선이지 우대 사유가 아니다.",
+      "evidence": "'내신·생기부·수능, 우선순위는?', '내신 1등급은 이제 출발선' 장.",
+      "entities": {
+        "institutions": [
+          "바이브온"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "5등급제로 1등급 비율이 확대되어 등급 숫자의 상대 가치가 낮아진다는 취지는 구간 확대 방향과 일치.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "1등급 보유 학생의 방심 교정.",
+        "caution": "1등급 비율 수치는 공식 확정부호 대기(구간표 미확정)."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A043",
+      "video_id": "dbN_KdkSK9I",
+      "anchor": {
+        "t0": 840,
+        "t1": 1140,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "세특의 질이 교사 역량에 좌우되지 않도록, 학생이 스스로 기록 근거(수업 질문·탐구 주제·성과)를 만들어 제시해야 하며 생기부 강점을 점검하는 방법이 있다.",
+      "evidence": "'좋은 생기부는 어떻게 만들까?', '내 생기부 강점 확인하는 법', '세특은 선생님 역량일까?' 장.",
+      "entities": {
+        "institutions": [
+          "바이브온"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "세특 기재 주체는 교과교사이므로 학생의 '자료 제공' 수준에 대한 처방으로 이해해야 한다.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C008"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "생기부 자가 점검 안내.",
+        "caution": "외부 작성 대입 기재를 사칭하는 행위는 금지되므로 '본인 근거 준비'로 한정해 설명."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A044",
+      "video_id": "c98hNvBbo5w",
+      "anchor": {
+        "t0": 60,
+        "t1": 240,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "2025학년도부터 출결 기재가 변경되고, 등급 산출 예외 과목·소인수 과목·공동교육과정·석차등급 표기 방식이 2028 대입 학생부 해석의 핵심 변수다.",
+      "evidence": "KNS 이만기 소장 학생부 특강의 초반 장(출결사항 변경점 / 교과학습발달상황 / 등급 산출 예외 과목 / 소인수과목과 공동교육과정 / 석차등급과 성적 표기 방식).",
+      "entities": {
+        "institutions": [
+          "KNS"
+        ],
+        "people": [
+          "이만기"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "출결·성기재 방식 변경은 「학교생활기록 작성 및 관리지침」 훈령 개정 대조가 필요. 원문 미확보.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2",
+          "중3"
+        ],
+        "bands": [],
+        "use": "학생부 항목별 의미를 설명할 때 체크리스트로 사용.",
+        "caution": "기재 rule을 영상 해석만으로 확정해 말하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A045",
+      "video_id": "c98hNvBbo5w",
+      "anchor": {
+        "t0": 420,
+        "t1": 720,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "내신 변별력 무력화 우려에 대해, 고교학점제와 소인수 과목 기준 변경으로 등급 산출 인원이 줄어든 것은 사실이나 대학은 표준편차 대신 다른 자료를 받아 평가하므로 '변별력 상실'로 단정할 수 없다.",
+      "evidence": "'내신의 변별력이 무력화될까?', '고교학점제와 소인수 과목 기준 변경의 진짜 의미', '대학이 표준편차 대신 받는 자료들' 장.",
+      "entities": {
+        "institutions": [
+          "KNS"
+        ],
+        "people": [
+          "이만기"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "대학이 수령하는 통계 자료 항목은 대교협·대교협 입시 전형 자료 제공 규정 대조 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "변별력 논쟁에서 '반대 근거'를 제시할 때.",
+        "caution": "'표준편차 미제공' 같은 세부 운영 사항은 공식 문구 확인 전 단정 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A046",
+      "video_id": "c98hNvBbo5w",
+      "anchor": {
+        "t0": 720,
+        "t1": 840,
+        "src": "desc_timestamp"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "일부 고등학교의 '내신 성적 부풀리기'를 대학이 감지해 평가에 반영한다는 주장(성적 부풀리기 함정과 대학의 감지 전략).",
+      "evidence": "KNS 특강 [초중요] 장. 구체적 사례·자료 출처가 영상 설명에 제시되지 않음.",
+      "entities": {
+        "institutions": [
+          "KNS"
+        ],
+        "people": [
+          "이만기"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "고교별 성적 분포가 대입에 제공되는 구조는 알려져 있으나, '부풀리기 판별' 방법론은 대학이 공개하지 않아 검증 불가.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C006"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "학교별 등급 분포 차이에 대한 경각심 안내.",
+        "caution": "특정 학교를 '부풀리기'로 지목·확정하는 표현 금지(명예훼손 리스크)."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A047",
+      "video_id": "c98hNvBbo5w",
+      "anchor": {
+        "t0": 240,
+        "t1": 300,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T04",
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "선택과목은 학기 중에 임의로 변경하기 어렵고, 이수 시점·개설 여부가 대입 자료로 고정되므로 과목 선택은 진로 확정 전에 신중히 결정해야 한다.",
+      "evidence": "'선택과목, 중간에 바꿀 수 있을까?' 장.",
+      "entities": {
+        "institutions": [
+          "KNS"
+        ],
+        "people": [
+          "이만기"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "과목 변경은 학교별 학업편성·수업시수 운영 지침 범위에서 결정되므로 교육청 가이드 확인 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "과목 변경 문의에 대한 기본 안내.",
+        "caution": "변경 가능 여부는 학교 규칙이 우선 — 담임·교무실 확인을 반드시 병기."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A048",
+      "video_id": "c98hNvBbo5w",
+      "anchor": {
+        "t0": 840,
+        "t1": 967,
+        "src": "desc_timestamp"
+      },
+      "classification": "PREDICTION",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "'올(전과목) 1등급' 시대가 올 것이라는 전망에 대해 현실적인 근거로 반론(전국 1등급 비율은 제한적)을 제시하는 분석.",
+      "evidence": "'올 1등급 시대 올까? 현실적인 분석과 전망' 장.",
+      "entities": {
+        "institutions": [
+          "KNS"
+        ],
+        "people": [
+          "이만기"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "1등급 비율은 상대평가 구간 설정에 따라 결정되므로 확정 수치 아님(구간표 미확정).",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "'모두 1등급' 주장을 검증할 때 해석 의견으로 인용.",
+        "caution": "비율 수치를 답변에 직접 넣지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A049",
+      "video_id": "irJDnkEXIwM",
+      "anchor": {
+        "t0": 60,
+        "t1": 360,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T10"
+      ],
+      "academic_year": "2028",
+      "claim": "고1·고2가 먼저 챙길 것은 2028 대입의 일정과 전형별 모집 비율 변화이며, 발표된 2028 시행계획을 전형별로 정량 비교하면 학군지와 비학군지의 전략이 갈린다.",
+      "evidence": "목동왕언니TV 1부(강석 소장 출연)의 '2028 전형별 모집 비율 변화', '2028 대입 전형별로 꼭 알아야 할 점' 구간. 7개 대학 등 세부 표는 영상 첨부 자료로 설명란에 없음.",
+      "entities": {
+        "institutions": [
+          "분당 수이학원",
+          "괜찮은뉴스"
+        ],
+        "people": [
+          "강석"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "전형별 모집 비율의 기준치는 대교협 2028학년도 대학입학전형시행계획(1차 공표)과 동일 개념.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "시행계획 단계 변화를 일정 중심으로 안내.",
+        "caution": "시행계획은 확정 모집요강이 아니므로 최종 요강 확인을 병기."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A050",
+      "video_id": "irJDnkEXIwM",
+      "anchor": {
+        "t0": 720,
+        "t1": 840,
+        "src": "desc_timestamp"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "5등급제 도입으로 과거 9등급제 기준 입시 결과(입결)와 현재 등급의 직접 비교가 무의미해지며, 등급 눈금만 옮기면 판단을 그르친다.",
+      "evidence": "'5등급제 vs 9등급제 입결 차이' 구간.",
+      "entities": {
+        "institutions": [
+          "분당 수이학원"
+        ],
+        "people": [
+          "강석"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "환산 표를 교육부가 단일안으로 공표하지 않아 대학별·전형별 산출이 다르다.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "2등급",
+          "3등급"
+        ],
+        "use": "과거 입결을 현재 등급에적용하지 않도록 경고할 때.",
+        "caution": "임의 환산계수(예: 9등급×0.55)를 공식 기준으로 소개 금지."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A051",
+      "video_id": "EDy8CrcS0Ew",
+      "anchor": {
+        "t0": 60,
+        "t1": 180,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "실제 5등급제 성적 분포를 확인하면 내신 1.0(전과목 만점 수준) 비율은 매우 좁아 '1.0이 아니면 상위권이 불가능'이라는 전제는 성립하지 않으며, 등급 숫자만 보면 함정이 생긴다.",
+      "evidence": "과제탐구연구소 '① 내신 1.0은 반드시 필요할까?'·'1.0의 비율, 생각보다 좁은 이유' 구간. 설명란에 '실제 5등급제 성적 자료'를 사용했다고 밝히나 자료 출처는 특정하지 않음.",
+      "entities": {
+        "institutions": [
+          "과제탐구연구소"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "시도교육청·학교알리미의 등급 분포 자료와 대조 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C006"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "'1.0 아니면 끝' 불안 완화.",
+        "caution": "인용된 분포 표본의 범위(전국/지역/학교)가 미확인."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A052",
+      "video_id": "EDy8CrcS0Ew",
+      "anchor": {
+        "t0": 300,
+        "t1": 360,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "5등급제에서는 중간 성적대(3등급 주변) 학생이 두터워지는 분포 변화가 나타나고, 학기별 누적 등급과 백분위로 자신의 위치를 봐야 한다.",
+      "evidence": "'④ 왜 중간 성적대가 두터워질까?'·'③ 5등급제에서 나의 진짜 위치 찾기' 구간. 서울 전과목 1등급 1.5%, 부산 2.07% 등 실측 보도와 방향이 같은지 대조 필요.",
+      "entities": {
+        "institutions": [
+          "과제탐구연구소"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "중간층 두께 주장은 5등급 구간 설정(20% 단위)과 정합적이나, 실제 분포 수치는 미공개.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "2등급",
+          "3등급",
+          "4등급"
+        ],
+        "use": "누적 등급·백분위로 위치 진단하도록 안내.",
+        "caution": "백분위 제공 여부는 학교별 고지 정책에 따라 다름."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A053",
+      "video_id": "EDy8CrcS0Ew",
+      "anchor": {
+        "t0": 360,
+        "t1": 480,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T06",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 학생부 전략은 개념 학습 → 진로 생성 → 세특 탐구 → 진로 확장의 4단계로 구성하고, 현 고2는 학기별 체크리스트로 과목 이수와 활동 연결을 점검해야 한다.",
+      "evidence": "'⑤ 2028 대입에서 성공하는 학생부 전략', '현 고2가 반드시 확인할 체크리스트' 구간.",
+      "entities": {
+        "institutions": [
+          "과제탐구연구소"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "정성평가 관점의 처방.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "학기 단위 생기부 설계 로드맵.",
+        "caution": "활동 종류를 늘리는 것과 정성평가 점수는 별개라는 점을 함께 안내."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A054",
+      "video_id": "FATNU4ZgdAs",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T04"
+      ],
+      "academic_year": "2028",
+      "claim": "같은 내신 1등급이라도 어떤 학교에서 받았는지, 어떤 과목을 이수했는지, 수행평가·성취도 분포가 어떤지에 따라 평가가 달라지므로 '내신 따기 쉬운 학교'가 무조건 유리하지 않다.",
+      "evidence": "댓츠원 설명란. 학교알리미 공개 자료를 근거로 사용했다고 명시.",
+      "entities": {
+        "institutions": [
+          "댓츠원",
+          "학교알리미"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "학교알리미 공시는 「공시대상 정보」에 근거한 공개 자료로 접근 가능. 다만 대학이 학교알리미를 직접 평가 자료로 쓰는 구조는 확인 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C006"
+      ],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "고교 선택 시 등급 분포·과목 개설 확인 유도.",
+        "caution": "특정 학교를 '불리'로 단정하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A055",
+      "video_id": "SQd3yG1ztcE",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 입학전형 시행계획 기준 7개 대학(서·연·고·서강·한양·성균관·중앙)에서 '내신 문제는 쉬워지고 변별은 어려워지며', 정시 수능 100% 전형의 잔존 여부가 대학별로 갈린다.",
+      "evidence": "노을커피 설명란 및 첨부 블로그 정리(7개 대학). 구체 비율은 첨부 블로그에 의존.",
+      "entities": {
+        "institutions": [
+          "서울대",
+          "연세대",
+          "고려대",
+          "서강대",
+          "한양대",
+          "성균관대",
+          "중앙대"
+        ]
+      },
+      "official_ref": {
+        "url": "each 대학 입학처 2028학년도 입학전형 시행계획",
+        "note": "대학별 시행계획 원문(첨부 파일) 미확보 → 수치 직접 인용 불가.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [],
+        "use": "정시 100% 고집 전 대학별 반영 방식 확인.",
+        "caution": "'정시 수능 100%' 목록은 연도마다 바뀌므로 최신 요강 확인 필수."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A056",
+      "video_id": "TTqcGf7Qw80",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "서울대 지역균형선발의 1단계 배수는 2028에 바뀌는 것이 아니라 원래 3배수이며, 2028에 변경되는 항목은 학교당 추천 인원 2명→3명과 모집인원 확대(728명)다.",
+      "evidence": "휴브레인(신동엽 대표)이 영상 게시 후 설명란에 정정 안내를 명시(지역균형 1단계 2배수→3배수 발언이 오류였다고 자체 시정).",
+      "entities": {
+        "institutions": [
+          "서울대",
+          "휴브레인입시컨설팅"
+        ],
+        "people": [
+          "신동엽"
+        ]
+      },
+      "official_ref": {
+        "url": "서울대 2028학년도 입학전형 시행계획",
+        "note": "정정 내용은 공개된 시행계획 방향과 모순되지 않으나 원문 PDF 미확보로 최종 확인 전.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C009"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "지역균형 상담 시 '1단계 배수'와 '추천 인원'을 혼동하지 않도록 구분 안내.",
+        "caution": "발표자 오류가 포함된 영상이므로 정정문 기준으로만 인용."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A057",
+      "video_id": "TTqcGf7Qw80",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "PREDICTION",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "추천 인원 확대(2→3명)와 모집인원 증가로 서울대 지역균형 합격자의 내신 폭이 넓어질 것이라는 전망.",
+      "evidence": "휴브레인 정정 안내문에서 '예측'으로 유지한 진술.",
+      "entities": {
+        "institutions": [
+          "서울대",
+          "휴브레인입시컨설팅"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "전망 항목. 근거 데이터 미제시.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "'추천이면 안전' 인식을 교정할 때 전망임을 밝히고 사용.",
+        "caution": "합격선 예측으로 답변 생성 금지."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A058",
+      "video_id": "ZetDtkXqkQc",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T05",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "내신 2.0~2.5등급 학생은 '무조건 올리기'보다 교과전형·종합전형 중 어느 쪽이 현실적인지 계산하고, 2.3등급 예시처럼 목표 대학(중앙대·경희대)을 상정한 뒤 필요한 등급 상승분을 따져 건국대·동국대·홍익대·숙명여대 등으로 조정하라는 처방.",
+      "evidence": "프리클래스 입시센터 설명란의 예시 구성.",
+      "entities": {
+        "institutions": [
+          "프리클래스입시센터",
+          "중앙대",
+          "경희대",
+          "건국대",
+          "동국대",
+          "홍익대",
+          "숙명여대"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "등급별 가능 대학 라인은 9등급제 기준 입결에 의존 → 5등급 환산 미확정.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "2등급",
+          "3등급"
+        ],
+        "use": "목표 대학 조정 절차(계산 프레임)로만 활용.",
+        "caution": "나열된 대학 라인을 확정 합격선처럼 말하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A059",
+      "video_id": "ZetDtkXqkQc",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "5등급제 학생부종합에서는 내신 우상향(학기별 개선 추세)과 계열별 주요 과목 관리, 수능 최저 준비가 함께 중요하다.",
+      "evidence": "설명란의 '학종에서 중요한 내신 우상향, 계열별 주요 과목 관리' 서술.",
+      "entities": {
+        "institutions": [
+          "프리클래스입시센터"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "우상향 평가는 대학이 공식화한 기준이 아니라 정성평가 관행 수준 해석.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C005"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "2등급",
+          "3등급"
+        ],
+        "use": "후반기 성적 관리 동기를 부여할 때.",
+        "caution": "'우상향 가점' 같은 규정화된 혜택은 없음."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A060",
+      "video_id": "gJ4LwkOHRIo",
+      "anchor": {
+        "t0": 0,
+        "t1": 480,
+        "src": "desc_timestamp"
+      },
+      "classification": "PREDICTION",
+      "topics": [
+        "T08",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "고교 유형별 의대 수시 합격 등급과 SKY 수시 합격 등급의 '마지노선'을 2028 대입 기준으로 환산해 제시.",
+      "evidence": "KNS 대치명인학원 이종환 소장 강의. 환산 근거 표는 비공개.",
+      "entities": {
+        "institutions": [
+          "대치명인학원",
+          "KNS"
+        ],
+        "people": [
+          "이종환"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "2026~2027 결과를 5등급 체제로 환산한 전망치.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C004",
+        "YT-C006"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "'유형별 차이'라는 관점만 전달.",
+        "caution": "개인 합불 예측에 사용 금지(confidence 낮음)."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A061",
+      "video_id": "gJ4LwkOHRIo",
+      "anchor": {
+        "t0": 480,
+        "t1": 900,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T06",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "의대 목표생은 수학·과학 과목 선택에서 특정 과목(특히 화학)을 배제하는 것이 치명적 오류가 될 수 있고, 인문계 학생의 의대 진학 가능 여부도 과목 이수에 따라 갈린다.",
+      "evidence": "'의대 목표생이라면 필수! 수학, 과학 과목 선택 가이드', '화학 포기하면 의대 못 씁니다', '문과생도 의대 진학 가능할까?' 구간.",
+      "entities": {
+        "institutions": [
+          "대치명인학원"
+        ],
+        "people": [
+          "이종환"
+        ]
+      },
+      "official_ref": {
+        "url": "각 의과대학 2028학년도 권장과목·선발정보",
+        "note": "권장/필수 이수 과목은 대학별 자체 공지이므로 대학별 원문 대조 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "진로 고정형 학생의 과목 선택 리스크 설명.",
+        "caution": "'화학 필수'는 대학 공통 규정이 아니라 기관별 권장 수준."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A062",
+      "video_id": "gJ4LwkOHRIo",
+      "anchor": {
+        "t0": 1260,
+        "t1": 1443,
+        "src": "desc_timestamp"
+      },
+      "classification": "PREDICTION",
+      "topics": [
+        "T07",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 수능에서 의대 합격권에 들려면 영역별로 몇 문제까지 틀려야 하는지를 환산해 제시.",
+      "evidence": "'수능에서 몇 개 틀려야 의대 갈까?' 구간.",
+      "entities": {
+        "institutions": [
+          "대치명인학원"
+        ],
+        "people": [
+          "이종환"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "2028 수능은 응시 과목·채점 구조가 바뀌어 과거 오답 수 기준의 이식이 성립하지 않을 수 있다.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [
+        "YT-C004",
+        "YT-C007"
+      ],
+      "counseling": {
+        "grades": [
+          "고3"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "목표 설정의 참고 관점으로만.",
+        "caution": "오답 수 기준 수치를 답변에 그대로 심지 말 것."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A063",
+      "video_id": "x0gKYhh-OSY",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T02",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 수능 개편 점수체제(선택과목 폐지·통합형)를 국어·수학·영어와 통합사회·통합과학으로 나눠 분석하고 영역별 학습 전략·커리큘럼을 제시하는 예비 고1 대상 설명회.",
+      "evidence": "EBSi 라이브 설명회(2025-01-21, 한병훈·정유빈·원정의·박봄·양은혜) 진행순서. 통합 2부 구성.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ],
+        "people": [
+          "한병훈",
+          "정유빈",
+          "원정의",
+          "박봄",
+          "양은혜"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "2028 수능 체제 확정(2023-12-27 발표)과 부합하는 해설.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "중3"
+        ],
+        "bands": [],
+        "use": "영역별 학습 전략 안내의 시작점으로 활용.",
+        "caution": "커리큘럼 제안은 EBSi 강좌 연계 상업 콘텐츠일 수 있음을 구분."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A064",
+      "video_id": "x0gKYhh-OSY",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T02",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 체제에서 예비 고1은 통합형 수능에 대비한 기본개념·문해력 중심 학습과 함께 내신 5등급 환경에서의 학기별 관리 병행을 준비해야 한다.",
+      "evidence": "EBSi 설명회 취지 문구 및 1·2부 구성.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "고교학점제 첫 세대·5등급제 적용 사실과 정합.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "학습습관 전환 권고.",
+        "caution": "난이도·변별력 전망은 논쟁 중임을 함께 안내."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A065",
+      "video_id": "TnpTvofuaIU",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "description_transcript"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T01",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "2028학년도 대입은 2022 개정 교육과정과 고교학점제가 전면 적용되는 첫 해이며, 가장 눈에 띄는 변화는 내신이 9등급제에서 5등급제로 바뀐다.",
+      "evidence": "EBS뉴스 '입시의 정석'에 출연한 서울 면목고 이재영 교사의 첫 답변(설명란에 전문 게재).",
+      "entities": {
+        "institutions": [
+          "EBS",
+          "서울면목고등학교"
+        ],
+        "people": [
+          "이재영"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "교육부 2023-12-27 2028학년도 대입제도 개편 확정안과 문구 수준에서 일치.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2",
+          "고3",
+          "중3"
+        ],
+        "bands": [],
+        "use": "2028 체제 변화 설명의 기준 문장.",
+        "caution": "추가 세부(구간 비율·환산)는 별도 확인 필요."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A066",
+      "video_id": "TnpTvofuaIU",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "description_transcript"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "5등급제에서도 교과 성적만으로 변별은 가능하나 그 차이가 유의미한지 의문이 남으므로, 교과전형은 학생부 정성평가·면접을 통한 학업 역량 확인이 강화되고, 종합전형은 수능 최저를 도입하는 대학이 늘며, 정시에서도 수능 응시 과목 축소로 학생부 평가가 일부 반영될 수 있다.",
+      "evidence": "이재영 교사 답변: 5등급제 변별력 한계 → 전형 보완 장치 전망.",
+      "entities": {
+        "institutions": [
+          "EBS",
+          "서울면목고등학교"
+        ],
+        "people": [
+          "이재영"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "방향 자체는 대학 2028 시행계획에서 관측되는 변화와 일치. 개별 전형 도입 여부는 대학별 확인 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C003",
+        "YT-C005"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "내신 등급뿐 아니라 과정의 질이 평가된다는 논리의 공교육 출처.",
+        "caution": "'강화될 가능성'은 전망 표현이지 확정 지침 아님."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A067",
+      "video_id": "TnpTvofuaIU",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "description_transcript"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T04",
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "과목 선택 기준은 ①흥미·적성과 위계성(일반선택 이수 후 진로·융합선택) ②진로 연계성(전공 권장 이수과목) ③성취와 학업 과정의 질이며, 성적 부담으로 필요한 과목을 피하기보다 도전해 과정을 보여주는 것이 바람직하다.",
+      "evidence": "이재영 교사의 3단계 선택 기준 서술과 '같은 학년·학급이어도 배우는 과목이 다를 수 있다'는 전제.",
+      "entities": {
+        "institutions": [
+          "EBS",
+          "서울면목고등학교"
+        ],
+        "people": [
+          "이재영"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "고교학점제 과목 선택 원리(선택권·위계)와 정합.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "과목 선택 상담의 3축 프레임.",
+        "caution": "'도전' 권고는 등급 하락 리스크와 맞바뀌므로 학생별 성적 여력을 함께 검토."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A068",
+      "video_id": "TnpTvofuaIU",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "description_transcript"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "권장과목을 발표한 대학은 건국대·경희대·고려대·국민대·경북대·동국대·부산대·서울대·서울시립대·숙명여대·숭실대·중앙대·전남대·충남대 등이며, 대체로 일반선택 먼저 이수 후 진로·융합선택을 권장한다. 자연계열은 수학·과학에서 구체 과목을 제시하고 인문계열은 과목을 지정하지 않거나 교과군 수준에서 제시한다. 서강대는 어느 계열도 권장과목을 지정하지 않았다.",
+      "evidence": "이재영 교사 답변의 대학 목록·계열별 경향 서술.",
+      "entities": {
+        "institutions": [
+          "건국대",
+          "경희대",
+          "고려대",
+          "국민대",
+          "경북대",
+          "동국대",
+          "부산대",
+          "서울대",
+          "서울시립대",
+          "숙명여대",
+          "숭실대",
+          "중앙대",
+          "전남대",
+          "충남대",
+          "서강대"
+        ]
+      },
+      "official_ref": {
+        "url": "각 대학 입학처 권장(권고) 이수과목 공지",
+        "note": "현직 교사가 공영 방송에서 열거한 자료로 신뢰도는 높으나, 목록 시점(2025-09) 이후 추가·변경 가능성 있음.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "권장과목 자료 확인 대상을 제시할 때 우선 목록으로 사용.",
+        "caution": "권장 과목은 법적 필수 요건이 아니므로 '불합격 사유'로 오해시키지 말 것."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A069",
+      "video_id": "TnpTvofuaIU",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "description_transcript"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "수능 최저학력기준이 확대될 가능성이 있으므로 수능 대비를 소홀히 해서는 안 되고, 대학이 제시하는 권장 과목을 참고해 과목을 선택하되 성적 관리가 아니라 깊이 있는 학업 태도를 보여야 한다.",
+      "evidence": "이재영 교사 결론 멘트.",
+      "entities": {
+        "institutions": [
+          "EBS",
+          "서울면목고등학교"
+        ],
+        "people": [
+          "이재영"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "처방형 권고.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급",
+          "3등급"
+        ],
+        "use": "수시 준비생의 수능 학습 유지 필요성 설명.",
+        "caution": "최저 기준은 학교·전형별차이 — 반드시 요강 확인 유도."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A070",
+      "video_id": "zCcPLGMHW_M",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "description_transcript"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T10"
+      ],
+      "academic_year": "2027",
+      "claim": "2027학년도 수능은 2026년 11월 19일, 9월 모의평가 9월 2일, 수시 원서접수 2026년 9월 7~11일, 정시 원서접수 2027년 1월 4~7일, 6월 모의평가 6월 4일, 3월 학력평가는 3월 24일이다.",
+      "evidence": "EBS뉴스 '입시의 정석'(2026-01-27) 서울 세화여고 유태혁 교사 답변 전문.",
+      "entities": {
+        "institutions": [
+          "EBS",
+          "서울세화여자고등학교"
+        ],
+        "people": [
+          "유태혁"
+        ]
+      },
+      "official_ref": {
+        "url": "한국교육과정평가원 2027학년도 수능 시행기본계획",
+        "note": "평가원 발표문 원문 대조 전(날짜 정합성은 높음).",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "2027 로드맵 일정 기준점.",
+        "caution": "2028 일정과는 별도로, 2028 지원생은 해당 연도 시행계획 확인 필요."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A071",
+      "video_id": "zCcPLGMHW_M",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "description_transcript"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2027",
+      "claim": "2027학년도 정시에서 '하이브리드형 평가'(수능+서류)가 대세로 자리 잡았다 — 성균관대 사범대는 수능 4개 영역 3개 등급합 6을 자격 기준으로 제시하고 실제 평가는 서류 100%, 동국대 다군 학생부 10% 반영.",
+      "evidence": "유태혁 교사 답변의 대학별 사례.",
+      "entities": {
+        "institutions": [
+          "성균관대",
+          "동국대",
+          "EBS",
+          "서울세화여자고등학교"
+        ],
+        "people": [
+          "유태혁"
+        ]
+      },
+      "official_ref": {
+        "url": "성균관대·동국대 2027학년도 대학별 모집요강",
+        "note": "공영 방송에 출연한 현직 교사가 특정 전형·비중을 지목한 진술. 원문 요강 대조 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "정시-only 전략의 리스크 설명에 사례로 사용.",
+        "caution": "2027 사례를 2028에 그대로 이식 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A072",
+      "video_id": "zCcPLGMHW_M",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "description_transcript"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T08"
+      ],
+      "academic_year": "2027",
+      "claim": "수도권 대학은 정시 40% 규제 영향으로 정시 문이 넓고, 비수도권은 그 적용이 없어 수시 집중이 이어지므로 지역별 입시 방향이 유지된다. 연세대는 논술 재시험 여파로 2027 모집인원이 줄어 논술 준비생은 신중 지원이 필요하다.",
+      "evidence": "유태혁 교사 지역·연세대 답변.",
+      "entities": {
+        "institutions": [
+          "연세대"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "'정시 40%'는 대학 기본역량진단 등 재정지원 조건으로 알려진 정책 기준이나 2027 시점 적용 현황은 별도 확인 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "지원 지역·전형 선택 상담.",
+        "caution": "모집인원 감소폭은 모집단위별 체감 차이가 크므로 단정 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A073",
+      "video_id": "j4C-GLrIuKY",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T10",
+        "T05"
+      ],
+      "academic_year": "2027",
+      "claim": "2027학년도에는 현행 9등급·선택과목 체제로 치르는 마지막 입시이므로, 2028부터 체제가 바뀌는 재수생은 제도 전환 리스크를 감수해야 하며 수시 6장은 상향·적정·안정 균형 구성이 필수다.",
+      "evidence": "맘띵입시연구소 설명란.",
+      "entities": {
+        "institutions": [
+          "맘띵입시연구소"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "2028부터 5등급·통합형 전환 사실과 부합. 다만 '수시 80.3%' 수치는 대교협 2028 공표 80.8%와 집계 시점이 다르다.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C004",
+        "YT-C010"
+      ],
+      "counseling": {
+        "grades": [
+          "고3",
+          "고2"
+        ],
+        "bands": [],
+        "use": "2027 수험생의 재수 판단 상담.",
+        "caution": "재수 불리 여부는 논쟁 중(공통 규정 없음) — 확정 표현 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A074",
+      "video_id": "j4C-GLrIuKY",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T05",
+        "T10"
+      ],
+      "academic_year": "2027",
+      "claim": "2027 고3은 원서 접수 전 ①수시 6장 배분 ②수능 최저 충족 가능성 ③체제 전환 시 재수 유리·불리 체크리스트를 확인해야 한다.",
+      "evidence": "설명란의 '학부모가 원서 접수 전 반드시 확인해야 할 체크리스트'.",
+      "entities": {
+        "institutions": [
+          "맘띵입시연구소"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "처방 항목.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [
+        "YT-C008"
+      ],
+      "counseling": {
+        "grades": [
+          "고3"
+        ],
+        "bands": [
+          "2등급",
+          "3등급"
+        ],
+        "use": "원서 전략 점검 순서 제공.",
+        "caution": "체크리스트 내용은 영상에서만 확인 가능 — 인용 시 원문 확인 필요 표기."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A075",
+      "video_id": "PV-UYtU0FZQ",
+      "anchor": {
+        "t0": 60,
+        "t1": 240,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T09",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "의대 입시는 수시·정시를나눠 볼 수 없고 학종·생기부·수능 최저·면접·정시 학생부 평가까지 함께 봐야 하며, 서울권 의대(서울대·연세대·고려대·성균관대·가톨릭대·울산대)별로 선발 방식이 다르다.",
+      "evidence": "토마토스쿨 유니고 입시TV 장 구성 및 설명란 주요 내용.",
+      "entities": {
+        "institutions": [
+          "서울대",
+          "연세대",
+          "고려대",
+          "성균관대",
+          "가톨릭대",
+          "울산대"
+        ]
+      },
+      "official_ref": {
+        "url": "각 의과대학 2028학년도 모집요강",
+        "note": "세부 전형 조합·비중은 원문 미확보.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001",
+        "YT-C007"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "의대 준비생에게 대학별 확인 필요 항목 목록화.",
+        "caution": "의대 정원·지역인재 규모는 정부 발표에 따라 변동 — 최신 자료 확인."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A076",
+      "video_id": "PV-UYtU0FZQ",
+      "anchor": {
+        "t0": 0,
+        "t1": 60,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T06",
+        "T10"
+      ],
+      "academic_year": "2028",
+      "claim": "의대 선호는 반도체 산업 사이클과 비교되는 진로 인기 변수이며, 진로 인기의 기복이 과목 선택과 학생부 설계에 영향을 준다.",
+      "evidence": "'의대와 반도체 산업의 인기 비교', '반도체 산업의 사이클과 과거의 인기' 장.",
+      "entities": {
+        "institutions": [
+          "토마토스쿨"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "사회·산업 해석. 검증 대상 아님.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "진로 인기 추종 위험을 설명할 때.",
+        "caution": "산업 전망을 입시 결론의 근거로 쓰지 말 것."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A077",
+      "video_id": "tMYV0rZsVVE",
+      "anchor": {
+        "t0": 60,
+        "t1": 180,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T06",
+        "T02"
+      ],
+      "academic_year": "2028",
+      "claim": "대학 권장과목 기준으로 자연계열 학생의 '미적분·기하 필수 여부', '권장과목에 없는 수학 과목을 들어도 되는지', '학교에 개설되지 않은 과목 대응'이 실무 쟁점이다.",
+      "evidence": "진학티비 '입시시그널' 과목 선택 가이드 장 구성.",
+      "entities": {
+        "institutions": [
+          "진학티비"
+        ],
+        "people": []
+      },
+      "official_ref": {
+        "url": "경희대·숙명여대 권장과목 자료(영상 설명란에 원문 링크)",
+        "note": "설명란에 경희대 입학처 페이지와 숙명여대 권장과목 PDF 링크가 제시되어 1차 자료로 확인 가능.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1"
+        ],
+        "bands": [],
+        "use": "권장 과목 해석 시 자주 나오는 오해 3문항 처리.",
+        "caution": "'권장'과 '필수'를 혼동 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A078",
+      "video_id": "tMYV0rZsVVE",
+      "anchor": {
+        "t0": 180,
+        "t1": 360,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T04",
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "물리·화학·생명과학·지학 전 과목을 다 듣지 않아도 되며(계열별 요구 다름), 진로 방향이 바뀌어도 회복 가능한 범위를 설정하고 인문계열은 숙명여대 가이드북 등으로 과목 설계 기준을 확보하라는 처방.",
+      "evidence": "'물화생지 꼭 다 들어야 돼요?', '물리, 안 들어도 되는 학과는 없어요?', '인문계열, 숙명여대 가이드북 확인', '진로 방향 바뀌면 망하나요?' 장.",
+      "entities": {
+        "institutions": [
+          "숙명여대",
+          "경희대"
+        ]
+      },
+      "official_ref": {
+        "url": "숙명여대 권장과목 PDF(설명란 링크)",
+        "note": "계열별 요구 과목은 대학·모집단위별 공지 기준으로 상이.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1"
+        ],
+        "bands": [],
+        "use": "과목 과다 선택 부담 완화.",
+        "caution": "위 영문 혼입 표현은 정제 필요 — 답변 시 한국어로 재구성."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A079",
+      "video_id": "v1fnEY4j0SI",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T10"
+      ],
+      "academic_year": "2028",
+      "claim": "2027과 2028 대입은 수능 체제, 내신 등급, 수시·정시 전형에서 구조적으로 다르므로 학년을 넘나든 전략 이식은 위험하다.",
+      "evidence": "댓츠원 '2027 vs 2028 완전 비교' 설명란.",
+      "entities": {
+        "institutions": [
+          "댓츠원"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "2028부터 통합형 수능·5등급 적용이라는 확정 안과 정합.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "학년별 다른 규칙 적용 설명.",
+        "caution": "2027 재수생이 2028 체제에서 받는 불이익 여부는 미확정."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A080",
+      "video_id": "btH5sfpjxyc",
+      "anchor": {
+        "t0": 0,
+        "t1": 300,
+        "src": "desc_timestamp"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T02",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 수능 탐구에서 통합사회·통합과학이 부활하며 시험 시간은 40분, 문항 수는 25문항, 배점은 1.5점·2점·2.5점으로 세분화된다.",
+      "evidence": "이지영(이투스 사회탐구 강사) 2028 통합사회 전략 설명회 설명란 진술.",
+      "entities": {
+        "institutions": [
+          "이투스",
+          "Leejiyoung Official"
+        ],
+        "people": [
+          "이지영"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "교육부 2028학년도 확정안 및 이후 보도에서 통합사회·통합과학 각 25문항·40분 구조가 확인되어 수치 일치.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "통합탐구 체제 설명의 공식 수치로 사용.",
+        "caution": "배점 세분화 세부(문항별 배점 배분)는 최종 출제계획 확인 필요."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A081",
+      "video_id": "btH5sfpjxyc",
+      "anchor": {
+        "t0": 300,
+        "t1": 660,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T02",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "개정 사회탐구(통합사회)에 대한 질의응답 형식으로, 문·이과 구분 없는 통합수능에서 통합사회 대비가 최상위권 변별 요소가 될 수 있다는 해설.",
+      "evidence": "'개정 사탐 질의응답' 및 이투스 강사 토크콘서트(미미미누·정승제·김민정) 구간.",
+      "entities": {
+        "institutions": [
+          "이투스"
+        ],
+        "people": [
+          "이지영",
+          "정승제",
+          "김민정",
+          "미미미누"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "해설·전망. 정승제·김민정 발언 내용은 자막 미확보로 범위만 확인.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C003",
+        "YT-C007"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "탐구 과목을 경시하는 최상위권 학생 경각심.",
+        "caution": "다수 강사의 방송 토크는 근거 수치를 동반하지 않음."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A082",
+      "video_id": "X3G5iKZnBnA",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T08",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "중위권 학생은 지금 성적만으로 포기하지 말고 내신 흐름(추세), 수능 최저 충족 가능성, 학생부 방향성, 지원 대학 범위를 현실적으로 재설계해야 하며, 5등급제는 중위권에게 불리 지점과 기회 지점이 동시에 존재한다.",
+      "evidence": "과제탐구연구소 '중위권 학생, 지금부터 무엇을 해야 할까?' 설명란의 목차.",
+      "entities": {
+        "institutions": [
+          "과제탐구연구소"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "처방형. 5등급제에서 3등급 대에 인원이 몰리는 구조와 정합.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "3등급",
+          "4등급"
+        ],
+        "use": "중위권 상담의 4축 재설계 프레임.",
+        "caution": "'기회'라는 표현이 등급 상승의 용이함으로 오해되지 않도록 조정."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A083",
+      "video_id": "Iv0NWvvkMYo",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "PREDICTION",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "2027학년도 경쟁률 자료를 근거로 2028학년도 서·성·한(서강대·성균관대·한양대) 교과전형의 경쟁 구도를 예측한다.",
+      "evidence": "휴브레인 439편 제목·설명란(기관 자체 컨설팅 방법론 서술 포함).",
+      "entities": {
+        "institutions": [
+          "서강대",
+          "성균관대",
+          "한양대",
+          "휴브레인입시컨설팅"
+        ],
+        "people": [
+          "신동엽"
+        ]
+      },
+      "official_ref": {
+        "url": "각 대학 2027학년도입학전형 결과 공개 자료",
+        "note": "2027 경쟁률 원자료 미확보. 5등급 전환으로 비교 자체가 성립하지 않을 수 있음.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "경쟁률 추세는 참고 지표일 뿐임을 밝히고 사용.",
+        "caution": "합격선 예측 답변 금지."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A084",
+      "video_id": "4v0uAOo-my0",
+      "anchor": {
+        "t0": 0,
+        "t1": 420,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "학생부종합전형은 전체 입시에서 약 23.7%에 불과한데도 시중에 '활동이 많아야 한다', '생기부 글자 수가 중요하다'는 속설이 팽배해 있어, 2028 세대 수험생의 불안이 과대하다.",
+      "evidence": "입시탐탐 이해웅 소장의 학종 총정리 도입부. 23.7% 수치의 산출 기준(전국 모집인원 대비 학종 비중)은 영상에서 특정되지 않음.",
+      "entities": {
+        "institutions": [
+          "입시탐탐"
+        ],
+        "people": [
+          "이해웅"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "대교협 2028 시행계획의 전형별 인원 구성과 같은 개념이나, 학종 분류 범위(교과·종합 구분)에 따라 비율이 달라질 수 있어 원자료 확인 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C007",
+        "YT-C006"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "학종 과열 준비를 완화할 때 비중 숫자는 '개략치'임을 밝히고 사용.",
+        "caution": "23.7%를 확정 통계로 인용하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A085",
+      "video_id": "4v0uAOo-my0",
+      "anchor": {
+        "t0": 720,
+        "t1": 1723,
+        "src": "desc_timestamp"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T03",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "연세대 학생부종합전형의 평가 기준은 학업역량·진로역량·공동체역량의 3가지이며, 발표자는 각 기준별 세부 평가 내용을 대학 공개 자료 순서대로 해설했다.",
+      "evidence": "장 제목이 '학종 평가기준 세 가지 → 연세대 학종 살펴보기 → 1.학업역량 → 2.진로역량 → 3.공동체역량'으로 대학 공개 평가 요소 체계와 동일.",
+      "entities": {
+        "institutions": [
+          "연세대",
+          "입시탐탐"
+        ],
+        "people": [
+          "이해웅"
+        ]
+      },
+      "official_ref": {
+        "url": "연세대 입학처 학생부종합전형 평가기준(공통평가사항) 공개 자료",
+        "note": "3역량 체계는 대학이 공개한 평가 프레임으로 확인 가능. 원문 URL 미확보로 문서 대조 전.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "학종 준비 항목을 대학 공개 기준 명칭으로 정렬할 때.",
+        "caution": "역량별 배점·가중치는 대학이 공개하지 않는다."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A086",
+      "video_id": "Xonr89xU-L8",
+      "anchor": {
+        "t0": 1080,
+        "t1": 1920,
+        "src": "desc_timestamp"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T01",
+        "T04"
+      ],
+      "academic_year": "2028",
+      "claim": "고교학점제는 학생에게 실질적 선택권을 주기보다 과목 개설 격차·수업 운영 부담·내신 산출 문제를 만들므로, 2028 대입에서 '선택과목 지옥'이라는 허상이 드러난다는 비판.",
+      "evidence": "입시탐탐 2편의 '고교학점제의 문제점' 장(약 14분 분량으로 가장 길게 할당).",
+      "entities": {
+        "institutions": [
+          "입시탐탐"
+        ],
+        "people": [
+          "이해웅"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "교육부는 고교학점제를 2025년부터 전면 적용되는 제도로 확정 발표했으므로, 비판은 제도 취지에 대한 전문가 의견이다.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C011"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "학교 과목 개설 현황 점검 필요성을 설명할 때.",
+        "caution": "제도 폐지·축소 전망으로 확대 해석 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A087",
+      "video_id": "Xonr89xU-L8",
+      "anchor": {
+        "t0": 0,
+        "t1": 540,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 계획안에서 중앙대는 학생부종합전형과 정시 전형이 바뀌고, 경희대는 이른바 '서류형'이 신설되며, 동국대는 교과전형 비중을 확대한다.",
+      "evidence": "'중앙대 학생부종합전형 변화', '중앙대 정시 전형 분석 및 컷라인 예측', '경희대 2028 전형 분석: 서류형의 정체', '동국대 교과 전형 확대' 장 구성.",
+      "entities": {
+        "institutions": [
+          "중앙대",
+          "경희대",
+          "동국대"
+        ],
+        "people": [
+          "이해웅"
+        ]
+      },
+      "official_ref": {
+        "url": "중앙대·경희대·동국대 2028학년도 입학전형 시행계획",
+        "note": "발표자 해석의 세부 명칭(서류형 등)은 대학 자료의 용어와 대조 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "2등급",
+          "3등급"
+        ],
+        "use": "해당 대학 지원 예정자에게 전형 구조 변화 지점 안내.",
+        "caution": "'컷라인 예측'은 제외하고 전형 구조만 전달."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A088",
+      "video_id": "Xonr89xU-L8",
+      "anchor": {
+        "t0": 780,
+        "t1": 1080,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T09",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "동국대 경주 캠퍼스는 감점 방식, 인하대·경기대는 각각 다른 기준을 쓰므로 수도권 중위권 대학의 '기준점'을 대학별로각각 확인해야 한다.",
+      "evidence": "'동국대 경주 캠퍼스의 감점 방식', '인하대 입시 분석', '경기대 분석: 수도권 중위권 대학의 기준점' 장.",
+      "entities": {
+        "institutions": [
+          "동국대",
+          "인하대",
+          "경기대"
+        ],
+        "people": [
+          "이해웅"
+        ]
+      },
+      "official_ref": {
+        "url": "해당 대학 2028학년도 입학전형 시행계획",
+        "note": "감점·가산 방식은 시행계획·수시 모집요강 원문 확인 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001",
+        "YT-C007"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "3등급",
+          "4등급"
+        ],
+        "use": "중위권 지원 후보군의 산출 방식 차이 설명.",
+        "caution": "2027 입결 기반 컷은 5등급 전환 후 재작성 필요."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A089",
+      "video_id": "QiJI0RXM6SU",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "OUTDATED",
+      "topics": [
+        "T01",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "2024년 11월 시점에서 2022 개정 교육과정 변화를 '내신 5등급제 도입, 생기부 중요성 강화, 상대평가 확대'로 정리하고 예비고1의 과학 학습 전략·고급 과목 선택을 조언한다.",
+      "evidence": "HHKC상위1%교육(뉴파인 과학팀) 3222초 강의. 게시 시점이 확정 발표 이후이나 각 시·도 시행 세부 지침 확정 전.",
+      "entities": {
+        "institutions": [
+          "뉴파인 과학팀"
+        ],
+        "people": [
+          "김훈희"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "2023-12-27 확정안과 큰 틀은 같으나 '상대평가 확대' 표현 등 이후 고지 내용과 정제 필요. 고급 과목(예: 고급물리학) 수능 미출제 등 나중에 확인 사항 존재.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "2022 개정 교육과정 개요 설명의 참고 자료로만 사용.",
+        "caution": "2024년 시안 단계 표현을 2028 확정 내용으로 쓰지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A090",
+      "video_id": "QiJI0RXM6SU",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T07",
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "예비 고1은 과학 학습에서 학교별 커리큘럼 차이를 전제로 진도를 설계하고, 고급 과목 선택 이유를 대입 요구(대학별 평가)에 연결해 판단하라는 처방.",
+      "evidence": "설명란 '예비고1 학생들을 위한 과학 학습 전략, 고급 과목 선택의 이유, 학교별 커리큘럼 차이'.",
+      "entities": {
+        "institutions": [
+          "뉴파인 과학팀"
+        ]
+      },
+      "official_ref": {
+        "url": "각 대학 2028 권장과목 안내",
+        "note": "고급 과목 이수 요구는 자연계열 상위권 일부 모집단위에 한정.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "과학 과목 위계 설계 상담.",
+        "caution": "사교육 업체 콘텐츠 기반임을 구분해서 안내."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A091",
+      "video_id": "npcWLvR-04M",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03",
+        "T04"
+      ],
+      "academic_year": "2028",
+      "claim": "내신 5등급제는 등급 획득 자체를 쉽게 만들지만, 고교학점제와 결합해 과목 선택·수행평가·학생부 관리 부담을 키우므로 '쉬워진다'는 인식은 위험하다.",
+      "evidence": "생각루트 설명란: 5등급제·통합형 수능 시행으로 경쟁 방식 변화, 고교학점제·과목 선택·수행평가·학생부 관리 쟁점.",
+      "entities": {
+        "institutions": [
+          "생각루트"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "등급 구간 확대 사실과 변별 장치 이동 해석은 공교육 전문가들 사이에서도 공통적으로 나타나는 관점.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "학부모 대상 '5등급제=완화' 오해 교정.",
+        "caution": "부담 증가의 정도는 학교별 편성 차이에 좌우."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A092",
+      "video_id": "YCauyl7CywI",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T06",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 입시에서는 학종뿐 아니라 교과전형에서도 학생부 내용을 일부 반영하므로, 단순히 등급만 보는 것이 아니라 어떤 과목을 선택해 어떻게 이수했는지를 본다. 따라서 모집단위별 권장과목의 정확한 이수가 생각보다 중요하다.",
+      "evidence": "입시정성민(정성민) 설명란 논지.",
+      "entities": {
+        "institutions": [
+          "입시정성민"
+        ],
+        "people": [
+          "정성민"
+        ]
+      },
+      "official_ref": {
+        "url": "각 대학 2028학년도 입학전형 시행계획 및 권장과목 공지",
+        "note": "교과전형에 서류·정성평가를 반영한 대학은 시행계획에서 확인 가능. 다만 '일부 반영' 폭은 대학별 상이.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C005",
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "권장과목을 '선택 가이드'가 아닌 평가 연계 요소로 설명.",
+        "caution": "권장과목 미이수가 감점 사유라는 식의 단정 금지."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A093",
+      "video_id": "YCauyl7CywI",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T06",
+        "T04"
+      ],
+      "academic_year": "2028",
+      "claim": "지원하려는 학과와 연결되는 과목을 선택했는지가 평가에 영향을 줄 수 있으므로, 모집단위별 권장과목을 먼저 정리하고 자기 학교 개설 여부·이수 시점을 대조하라는 처방.",
+      "evidence": "영상 목적 서술('모집단위별 권장과목을 정리하고, 왜 지금 이 시점에 중요한지').",
+      "entities": {
+        "institutions": [
+          "입시정성민"
+        ],
+        "people": [
+          "정성민"
+        ]
+      },
+      "official_ref": {
+        "url": "대학별 권장과목 공지(예: 숙명여대 PDF, 경희대 입학처)",
+        "note": "1차 자료 링크는 다른 영상 설명란에서 확인 가능하며 개별 대학 원문 대조 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1"
+        ],
+        "bands": [],
+        "use": "과목 선택 시기(1월~2월) 상담의 실무 절차.",
+        "caution": "학교에 미개설 과목은 공동교육과정·온라인수업 등 대체 경로를 함께 안내."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A094",
+      "video_id": "u0XbM_rPJEw",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T04",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "서울시교육청(서울교육연구정보원) 진로진학설명회 자료로, 2028 대입 변화에 맞춘 고1·고2의 진로·학업 설계와 학생부 관리 로드맵을 공교육 관점에서 제시한다.",
+      "evidence": "2026 고1·2 진로진학설명회(동국대 본관 남산홀) 강의 영상. 학생·학부모·교사용 공용 자료.",
+      "entities": {
+        "institutions": [
+          "서울특별시교육청교육연구정보원",
+          "서울진로진학정보센터"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "교육청 산하 공공 기관 자료로, 유튜브 원본과 동일한 공적 배포물이 존재.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "공교육 표준 설명을 우선 인용해야 할 때 출처로 사용.",
+        "caution": "개별 대학 전형 수치는 포함되지 않음 — 요강과 병행."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A095",
+      "video_id": "8_sP4eMTweg",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T10"
+      ],
+      "academic_year": "2028",
+      "claim": "같은 설명회 시리즈의 '2028 대입 전형의 이해와 대비' 강의로, 전형 유형별 반영 요소(교과·비교과·수능최저·면접)를 공교육 기준 용어로 정리한다.",
+      "evidence": "서울교육연구정보원 2026 진로진학설명회 2강.",
+      "entities": {
+        "institutions": [
+          "서울특별시교육청교육연구정보원"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "공교육 제공 자료. 대입 일반 용어가 공식 용어와 부합하는지 사전 대조 권고.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "전형 용어·구조 설명의 중립 기준 자료.",
+        "caution": "발표자 개인 경험이 섞인 예시는 일반화 금지."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A096",
+      "video_id": "jQamVq7EPc8",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T09",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "경희대가 발표한 2028 입시 전형 분석을 통해 2028 입시의 초점과 우선순위를 정리한다.",
+      "evidence": "스터디코드 '2028 대입 변화 핵심 요약' 설명란(경희대 발표 분석).",
+      "entities": {
+        "institutions": [
+          "경희대",
+          "스터디코드"
+        ]
+      },
+      "official_ref": {
+        "url": "경희대 2028학년도 입학전형 시행계획",
+        "note": "특정 대학 하나를 사례로 한 일반화. '요즘 합격 패턴' 류의 결론과 함께 주의 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C006",
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "경희대 지원 예정자 사례 안내.",
+        "caution": "타 대학에 전이 적용 금지."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A097",
+      "video_id": "gy5YTq_7jRc",
+      "anchor": {
+        "t0": 60,
+        "t1": 360,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05",
+        "T08"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 대입 개편으로 합격 패턴이 바뀌었다며, 부모가 공통적으로 놓치는 입시 포인트를 '합격 트렌드' 개념으로 정리한다.",
+      "evidence": "교육대기자TV 인터뷰(윤여정 입시컨설턴트, 20년 경력).",
+      "entities": {
+        "institutions": [
+          "교육대기자TV"
+        ],
+        "people": [
+          "윤여정"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "경험 기반 진술. 근거 자료·시점 미특정.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [
+        "YT-C006",
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "학부모 인지도 낮은 체크 항목 안내.",
+        "caution": "'트렌드'를 확정 경향으로 말하지 말 것."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A098",
+      "video_id": "gy5YTq_7jRc",
+      "anchor": {
+        "t0": 540,
+        "t1": 1080,
+        "src": "desc_timestamp"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T08",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "학군지와 비학군지 학생의 준비 비중이 달라야 하며(학군지는 수능·정시, 비학군지는 학생부·수시 중심), 입시 불안이 큰 학부모는 제도가 아닌 학생별 데이터로 판단하라는 처방.",
+      "evidence": "'학군지 VS 비학군지 입시전략', '입시 불안이 큰 부모 위한 조언' 구간.",
+      "entities": {
+        "institutions": [
+          "교육대기자TV"
+        ],
+        "people": [
+          "윤여정"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "처방형. 지역별 정시 비중 차이는 시행계획 통계로 확인 가능한 방향.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1등급",
+          "2등급",
+          "3등급"
+        ],
+        "use": "거주 지역·학교 유형별 전략 프레임.",
+        "caution": "'학군지=정시' 단순화 위험 — 학생 내신·모의고사 분포를 함께 봐야 함."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A099",
+      "video_id": "O4gD4WtbhpE",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "OFFICIAL_FACT",
+      "topics": [
+        "T02",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 수능부터 통합사회가 정식 출제 과목이 된다.",
+      "evidence": "대치동 통합사회 강사(배인영) 영상 설명란 진술 및 단원별 커리큘럼 안내.",
+      "entities": {
+        "institutions": [
+          "배인영T의 통합사회"
+        ],
+        "people": [
+          "배인영"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "교육부 2028학년도 확정안(통합사회·통합과학 출제)과 일치.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "통합사회 출제 여부 확인.",
+        "caution": "발표자가 '자료 부족'을 이유로자기 홍보하는 상업 콘텐츠임을 구분."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A100",
+      "video_id": "FICQ3_r5rFY",
+      "anchor": {
+        "t0": 0,
+        "t1": 240,
+        "src": "desc_timestamp"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "내신 5등급제에서 '가장 손해보는 학생'이 있다는 주장과, 이를 둘러싼 방송 강사들의 논쟁(팩폭)이 콘텐츠의 중심이다.",
+      "evidence": "채널A 티처스2 12회 하이라이트 구성(조정식·정승제).",
+      "entities": {
+        "institutions": [
+          "채널A"
+        ],
+        "people": [
+          "조정식",
+          "정승제"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "예능·상담 방송 편집본으로, 손해보는 집단에 대한 데이터 제시가 확인되지 않는다.",
+        "status": "UNSUPPORTED"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고1"
+        ],
+        "bands": [
+          "2등급",
+          "3등급"
+        ],
+        "use": "등급제 변화의 이해충돌 지점을 소개할 때.",
+        "caution": "방송 문구를 제도의 공식 해석처럼 인용 금지."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A101",
+      "video_id": "FICQ3_r5rFY",
+      "anchor": {
+        "t0": 420,
+        "t1": 525,
+        "src": "desc_timestamp"
+      },
+      "classification": "PREDICTION",
+      "topics": [
+        "T05",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "고려대 정외과 등 최상위 학과를 예로 들어 5등급제 환경에서의 수시 내신 등급 눈높이를 제시한다.",
+      "evidence": "'고려대 정외과 수시 내신 등급' 구간(하이라이트).",
+      "entities": {
+        "institutions": [
+          "고려대"
+        ],
+        "people": [
+          "조정식",
+          "정승제"
+        ]
+      },
+      "official_ref": {
+        "url": "고려대 입학처 최종등록자 성적 공개 자료",
+        "note": "공개 입결은 9등급제 기준이므로 5등급 체제로의 환산은 미확정.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C002",
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "최상위권 지원 검토 시 '눈금'이 바뀐다는 경고.",
+        "caution": "방송에서 언급된 등급 수치는 답변에 직접 사용 금지."
+      },
+      "confidence": "LOW",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A102",
+      "video_id": "gETq7gXv4VE",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T09",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 고려대 서울캠퍼스 입학전형 시행계획은 '모집인원 변동'보다 '어떤 평가 방식을 강화했는지'를 읽어야 하며, 전형별 세부사항에서 고려대의 선발 방향이 드러난다.",
+      "evidence": "입시정성민 고려대 편 설명란.",
+      "entities": {
+        "institutions": [
+          "고려대",
+          "입시정성민"
+        ],
+        "people": [
+          "정성민"
+        ]
+      },
+      "official_ref": {
+        "url": "고려대 2028학년도 입학전형 시행계획",
+        "note": "시행계획 원문에 대한 정밀독해로, 인용 수치 원문 대조 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "고려대 지원군에게 전형 설계 변화 해석 제공.",
+        "caution": "발표자 해석과 대학 공식 문구를 구분해 전달."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A103",
+      "video_id": "-YjeAAWwCZU",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T02",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 수능의 국어·수학·영어는 선택과목 없는 통합형 체제로 개편되며, 이에 맞춘 영역별 학습 전략·커리큘럼이 필요하다.",
+      "evidence": "EBSi 2025-01-21 설명회 1부(한병훈 국어·정유빈 수학·원정의 영어) 진행순서. 발언 세부 내용은 자막 미확보로 확인 불가.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ],
+        "people": [
+          "한병훈",
+          "정유빈",
+          "원정의"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "선택과목 폐지·공통 과목 체계는 교육부 2028 확정안과 일치.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "영역별 학습 전략 안내 출처.",
+        "caution": "커리큘럼 제안은 EBSi 강좌 연계 콘텐츠."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A104",
+      "video_id": "ucHmFjaOIUs",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T02",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 수능의 통합사회·통합과학은 새로 도입되는 탐구 체제로, 기존 사탐·과탐 선택과목 학습법과 다른 대비가 필요하다.",
+      "evidence": "EBSi 설명회 2부(박봄 통합사회·양은혜 통합과학) 진행순서. 세부 발언 미검증.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ],
+        "people": [
+          "박봄",
+          "양은혜"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "통합사회·통합과학 정식 출제는 확정안과 일치.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [
+        "YT-C007"
+      ],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "탐구영역 학습 방향 전환 설명.",
+        "caution": "문항 수·배점 등 세부 운영은 출제계획 확인."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A105",
+      "video_id": "BELjVqV7zB4",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T09",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 연세대 서울캠퍼스 시행계획은 논술·수시·정시에서 모집인원 변화보다 평가 방식 강화(학생부 반영·전형 복합화)를 읽어야 하며, 5등급제와 2022 개정 교육과정이 본격 반영되는 첫 입시다.",
+      "evidence": "입시정성민 연세대 편 설명란.",
+      "entities": {
+        "institutions": [
+          "연세대",
+          "입시정성민"
+        ],
+        "people": [
+          "정성민"
+        ]
+      },
+      "official_ref": {
+        "url": "연세대 2028학년도 입학전형 시행계획",
+        "note": "시행계획 정밀독해 계열로, 수치 원문 대조 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "연세대 지원 후보에게 전형 설계 관점 제공.",
+        "caution": "논술 전형 인원 변동은 최신 요강 확인."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A106",
+      "video_id": "m_s6G9wQ6cQ",
+      "anchor": {
+        "t0": 60,
+        "t1": 300,
+        "src": "desc_timestamp"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "'학종은 이제 소설이다 / 성적순'이라는 표현처럼, 2028 전형안에서 학생부종합의 정성평가 공간이 축소되고 내신 정량이 사실상 우위에 놓인다는 해석.",
+      "evidence": "입시탐탐(이해웅)이 주요 대학 2028 계획안을 분석하며 제시한 문제의식.",
+      "entities": {
+        "institutions": [
+          "입시탐탐"
+        ],
+        "people": [
+          "이해웅"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "종합전형의 정성평가 원칙은 대교협·대학이 유지한다고 밝힌 사안이라 '성적순'으로의 환원은 과장될 수 있다.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C003",
+        "YT-C005"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "2등급",
+          "3등급"
+        ],
+        "use": "정성평가 과신 교정.",
+        "caution": "한쪽 결론으로 확정하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A107",
+      "video_id": "m_s6G9wQ6cQ",
+      "anchor": {
+        "t0": 540,
+        "t1": 720,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "일부 대학(예: 중앙대)이 출결을 평가 요소로 보는 것은, 5등급제에서 변별 자료가 부족해지자 기본 학습 태도 항목을 활용하기 때문이다.",
+      "evidence": "'중앙대가 출결을 보는 진짜 이유?' 라는 설명란 문구.",
+      "entities": {
+        "institutions": [
+          "중앙대",
+          "입시탐탐"
+        ],
+        "people": [
+          "이해웅"
+        ]
+      },
+      "official_ref": {
+        "url": "중앙대 2028학년도 입학전형 시행계획 및 평가요소 공개 자료",
+        "note": "출결 반영 여부는 대학·전형별 규정이므로 원문 확인 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "학교생활 기본 항목(결석·지각) 관리 필요성 설명.",
+        "caution": "'출결 1일이 등급 몇 개와 같다' 식 환산은 근거 없음."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A108",
+      "video_id": "cREI4_PSq_M",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "OUTDATED",
+      "topics": [
+        "T02",
+        "T01"
+      ],
+      "academic_year": "2028",
+      "claim": "2023년 10월 시안 단계에서 통합형·융합형 수능 과목체제 개편을 교육부 장관과 전문가 토의로 소개한 프로그램으로, 이후 2023-12-27 확정안과 비교해 확정 여부를 다시 확인해야 한다.",
+      "evidence": "EBS 필통톡(교육부 제작지원) 설명란.",
+      "entities": {
+        "institutions": [
+          "EBS",
+          "교육부"
+        ],
+        "people": [
+          "이주호"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "시안 → 확정 과정에서 반영 여부·적용 시점이 조정되었을 수 있다.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C012"
+      ],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "제도 변경의 역사적 과정 설명에만 사용.",
+        "caution": "시안 수치를 2028 확정 내용으로 인용 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A109",
+      "video_id": "pvgPSsXOWw8",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T10",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "'수능 체제가 바뀌니 재수하면 불리하다'는 말은 오해이며, 재수 자체가 불가능하거나 구조적으로 불리해지는 것은 아니고 체제 전환 시 전략 설계가 문제다.",
+      "evidence": "입시정성민 재수 편 설명란.",
+      "entities": {
+        "institutions": [
+          "입시정성민"
+        ],
+        "people": [
+          "정성민"
+        ]
+      },
+      "official_ref": {
+        "url": "",
+        "note": "반대로 '9등급 졸업생과 5등급 재학생 비교 문제'를 들어 재수 리스크를 강조하는 채널도 있다.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C008",
+        "YT-C004"
+      ],
+      "counseling": {
+        "grades": [
+          "고3",
+          "고2"
+        ],
+        "bands": [],
+        "use": "재수 고민 상담에서 양쪽 논거를 함께 제시.",
+        "caution": "응시 과목·성적 반영 규칙 변경은 졸업연도별 상이 — 재수 지원 조건은 해당 연도 요강 확인."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A110",
+      "video_id": "XOgxCtjTMTs",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T06",
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "서울대의 2028 권장과목 발표는 서울대 지원자만의 문제가 아니라, 다른 주요 대학의 선택과목 반영 방향과 입시 전략에 영향을 주는 기준점으로 작동한다.",
+      "evidence": "입시정성민 서울대 권장과목 편 설명란.",
+      "entities": {
+        "institutions": [
+          "서울대",
+          "입시정성민"
+        ],
+        "people": [
+          "정성민"
+        ]
+      },
+      "official_ref": {
+        "url": "서울대 2028학년도 권장과목 안내",
+        "note": "권장 과목의 구체 목록은 대학 공지 원문 확인 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "상위권 목표 학생의 과목 선택 기준 설명.",
+        "caution": "'사실상 필수'라는 표현은 해석 — 대학이 요구 요건으로 공지한 것은 아님."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A111",
+      "video_id": "ip0PWOIXkuE",
+      "anchor": {
+        "t0": 0,
+        "t1": 240,
+        "src": "desc_timestamp"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T01",
+        "T02",
+        "T04"
+      ],
+      "academic_year": "2028",
+      "claim": "고1 눈높이에서 2028 변화는 ①고교학점제 전면 시행(학교 생활·과목 선택 변화) ②수능 체제 변화 ③대학 선발 방식 변화의 3장으로 정리된다.",
+      "evidence": "진학티비 '입시시그널' 2028 대입 개편 정리 장 구성(고교학점제란?/고등학교 변화/수능 변화/대학 변화/고1 학교생활).",
+      "entities": {
+        "institutions": [
+          "진학티비"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "3장 구조는 교육부 발표(2022 개정 교육과정·고교학점제·2028 대입 확정)와 부합.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "입문 설명의 목차 프레임.",
+        "caution": "각 항목의 세부 수치는 이 영상 출처로는 사용 불가."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A112",
+      "video_id": "7eX6tJajx50",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T10",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "내신 5등급제·고교학점제·통합수능을 '사용설명서' 형태로 묶어 2028 이후 입시의 체크 포인트를 제시한다.",
+      "evidence": "EBSi 10분입시(윤윤구) 설명란.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ],
+        "people": [
+          "윤윤구"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "3축 통합 설명은 확정안과 정합.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "초단시간 개요 자료로 활용.",
+        "caution": "세부 결론은 자막 미확보로 인용 불가."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A113",
+      "video_id": "-yw3lq5Cblk",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T01",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "고교학점제 체계에서는 성적 숫자보다 학업의 '깊이'(선택 과목의 위계와 탐구 과정)를 증명해야 한다.",
+      "evidence": "EBSi 10분입시 '고교학점제의 모든 것' 설명란 문구.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "2028 대입에서 과정 평가·정성평가가 강조되는 방향과 일치.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C005"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "탐구·세특 활동 설계 동기 설명.",
+        "caution": "'깊이'의 평가 기준은 대학이 공개하지 않음."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A114",
+      "video_id": "35SXMjOGJ3o",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T04",
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "선택과목이 더 중요해진 2028 대입에서는 우선순위를 정하는 기준(진로 연계·위계·개설 여건)을 세운 뒤 과목을 고르고, 대학별 권장과목으로 학생부를 설계해야 한다.",
+      "evidence": "EBSi/EBS뉴스 '입시의 정석' 서울 면목고 이재영 교사 출연분.",
+      "entities": {
+        "institutions": [
+          "EBS",
+          "서울면목고등학교"
+        ],
+        "people": [
+          "이재영"
+        ]
+      },
+      "official_ref": {
+        "url": "각 대학 권장과목 안내",
+        "note": "같은 출연자의 상세 발언은 TnpTvofuaIU 항목에 전문 기준으로 기록.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "과목 선택 우선순위 상담.",
+        "caution": "학교 과목 개설 여부에 따라 실행 가능성이 달라짐."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A115",
+      "video_id": "UwvIsK7OIAs",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 대입은 수시·정시의 경계가 무너져 수능·내신·논술을 모두 다루는 '올라운더'형 준비가 필요해졌다.",
+      "evidence": "EBS뉴스 '입시의 정석' 서울 영동고 윤상형 교사 출연분(설명란 주제·해시태그).",
+      "entities": {
+        "institutions": [
+          "EBS",
+          "서울영동고등학교"
+        ],
+        "people": [
+          "윤상형"
+        ]
+      },
+      "official_ref": {
+        "url": "각 대학 2028학년도 입학전형 시행계획",
+        "note": "정시에 학생부·수시에 최저가 확산되는 현상은 시행계획에서 관측된다.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C001",
+        "YT-C005"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "전형 간 준비 통합 필요성 설명.",
+        "caution": "모든 전형을 다 준비하라는 처방은 시간 제약과 충돌 — 우선순위 설계 병행."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A116",
+      "video_id": "JYa1tBBiS3g",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T09",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "서울 주요 대학의 2028 정시는 수능 위주 전형에서도 학생부·교과 정량 요소를 섞는 방향으로 변화하고 있다.",
+      "evidence": "EBSi 10분입시(윤윤구) '서울 주요대 정시 변화 총정리' 설명란 주제.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ],
+        "people": [
+          "윤윤구"
+        ]
+      },
+      "official_ref": {
+        "url": "서울 주요 대학 2028학년도 시행계획",
+        "note": "대학별 반영 비율 원문 대조 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [
+          "1등급",
+          "2등급"
+        ],
+        "use": "정시 준비생에게 서류 변수 안내.",
+        "caution": "'주요대' 범위가 특정되지 않았으므로 대학명 확정 전 인용 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A117",
+      "video_id": "STa_uExYsXo",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T09",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "'서울대는 그냥 수능을 싫어해요'라는 표현으로, 서울대 2028 전형계획이 수능 정량 반영을 낮추고 학생부 평가를 강화한 방향을 비판적으로 리뷰했다.",
+      "evidence": "미미미누 영상 설명란·제목. 경희대 시행계획을 함께 다룸.",
+      "entities": {
+        "institutions": [
+          "서울대",
+          "경희대",
+          "미미미누"
+        ]
+      },
+      "official_ref": {
+        "url": "서울대 2028학년도 입학전형 시행계획",
+        "note": "수능 반영 축소 여부는 단계별 비율을 원문으로 확인해야 하는 사안. 감정적 수사로 일반화 위험.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001",
+        "YT-C003"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [
+          "1등급"
+        ],
+        "use": "서울대형 전제(정성평가) 이해.",
+        "caution": "표현을 대학 정책의 의도로 확정해 말하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A118",
+      "video_id": "IGXh_rWLEuc",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T04",
+        "T06"
+      ],
+      "academic_year": "2028",
+      "claim": "개편되는 2028 수능에서도 결국 성패는 과목 선택에서 갈리며, '위계가 있는 과목 선택'(기초 → 심화 순서 준수)이 핵심이다.",
+      "evidence": "EBSi 김성길의 입시사이다 설명란 제목·주제.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ],
+        "people": [
+          "김성길"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "일반선택 → 진로·융합선택 위계는 2022 개정 교육과정 편성 방향과 일치.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "과목 선택 순서 설계.",
+        "caution": "위계와 등급 안전(소인수 리스크) 간 상충은 별도 상담 필요."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A119",
+      "video_id": "vZxkVqzioVo",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "OUTDATED",
+      "topics": [
+        "T02",
+        "T07"
+      ],
+      "academic_year": "2027",
+      "claim": "EBS 겨울방학 학습전략설명회의 '2027학년도 수능 대비 전략 《통합사회》' 표제는 현행 2027 수능 과목명과 맞지 않아, 대상 학년(2028 세대를 위한 예시) 또는 라벨 표기 확인이 필요하다.",
+      "evidence": "설명란은 2027·2028 로드맵을 함께 안내하며, '통합사회'를 2027 수능 대비로 표기.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "통합사회 수능 출제는 2028학년도부터 적용되므로, 제목과 제도의 적용 연도를 정합성 있게 재확인 필요.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C012"
+      ],
+      "counseling": {
+        "grades": [
+          "고2",
+          "고3"
+        ],
+        "bands": [],
+        "use": "자료 소급 시 적용 연도 검증을 권장하는 사례.",
+        "caution": "제목만 근거로 '2027 수능에 통합사회 출제'라고 답하면 오답."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A120",
+      "video_id": "2KrOPWG1Rnk",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T02",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "EBS는 2028학년도 수능 대비 전략으로 통합과학 학습 로드맵(겨울방학 학습전략설명회)을 제시한다.",
+      "evidence": "EBSi 겨울방학 학습전략설명회 '2028학년도 수능 대비 전략 《통합과학》'.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "2028 수능에 통합과학 출제 — 확정안과 일치. 자료집 링크는 EBS 공식 제공.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "공공 학습 전략 자료로 우선 권유 가능.",
+        "caution": "강사별 커리큘럼 제안은 상품 연계 가능성 구분."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A121",
+      "video_id": "GBkQGejpRTY",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T02",
+        "T07"
+      ],
+      "academic_year": "2028",
+      "claim": "2028 수능 대비는 통합형 과목(통합사회·통합과학)과 국어·수학·영어 공통 체제를 전제로 학기별 로드맵을 짜야 한다.",
+      "evidence": "EBSi 겨울방학 학습전략설명회 2028 편(설명란에 2027·2028 통합 안내).",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "확정 체제와 정합. 세부 발언은 자막 미확보.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "방학 기간 학습 계획.",
+        "caution": "동일 제목의 다른 편(2KrOPWG1Rnk)과 내용이 겹칠 수 있어 중복 인용 주의."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A122",
+      "video_id": "XICpj0wJ8kw",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T09"
+      ],
+      "academic_year": "2028",
+      "claim": "이투스교육평가연구소는 2028 대입전형계획을 대학별로 상세 분석하며, 연세대 편에서 전형 구조 변화를 정리한다.",
+      "evidence": "이투스교육평가연구소 공식 분석 시리즈(설명란 메타데이터).",
+      "entities": {
+        "institutions": [
+          "이투스교육평가연구소",
+          "연세대"
+        ]
+      },
+      "official_ref": {
+        "url": "연세대 2028학년도 입학전형 시행계획",
+        "note": "기관 분석 보고서 원문 대조 필요.",
+        "status": "NEEDS_OFFICIAL_DOC"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "대학별 시행계획 분석 자료 목록 제공.",
+        "caution": "사교육 기관 자료로, 대학 공식 문서와 구분 표기."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A123",
+      "video_id": "iuB_TnNRyi0",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T02",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "EBSi 윤윤구는 '2028 통합형 수능의 난이도가 평이해질 것'이라는 전제 위에서 내신 5등급 체제의 대응 전략을 제시한다.",
+      "evidence": "EBSi 입시설명회 제목·설명란('난이도 평이해질 2028 통합형 수능').",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ],
+        "people": [
+          "윤윤구"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "난이도 전제는 사후 확정될 수능 출제경향과 무관하게 사전 전망이며, 다른 전문가들은 '오히려 변별된다'고 본다.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C003",
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "난이도 가정과 전략을 분리해 설명.",
+        "caution": "'평이해진다'를 사실로 답하지 말 것."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A124",
+      "video_id": "6E5R_rdDcJA",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "STRATEGY",
+      "topics": [
+        "T04",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "고교학점제 첫 세대인 예비 고1은 선택과목 고르기 전에 내신·수능에 유리한 조합과 대입 개편 내용을 먼저 확인해야 한다.",
+      "evidence": "EBSi 입시설명회 설명란('선택과목 고르기 전에 제발 꼭 알아두세요').",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ],
+        "people": [
+          "윤윤구"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "과목 선택 시점의 제도 이해 필요성은 공교육 자료와도 부합.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "선택 전 점검 순서 제공.",
+        "caution": "'유리한 과목'이라는 표현이 특정 과목을 지목하는 결론으로 읽히지 않도록 주의."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A125",
+      "video_id": "ynp2pwjxZis",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T01",
+        "T04"
+      ],
+      "academic_year": "2028",
+      "claim": "2009년생(예비 고1)부터 고교학점제가 적용되므로, 제도 자체에 대한 이해가 입시 준비의 출발점이다.",
+      "evidence": "EBSi '고교학점제 쉽게 이해되는 영상' 설명란.",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "고교학점제 전면 적용 시점(2025년 도입, 2028 대입 첫 세대)과 부합.",
+        "status": "OFFICIAL_CONFIRMED"
+      },
+      "conflict_ids": [],
+      "counseling": {
+        "grades": [
+          "중3",
+          "고1"
+        ],
+        "bands": [],
+        "use": "입문 개념 설명.",
+        "caution": "제도 개요 이상은 다른 출처 필요."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A126",
+      "video_id": "dOqh4HYHtUM",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "DISPUTED",
+      "topics": [
+        "T03",
+        "T05"
+      ],
+      "academic_year": "2028",
+      "claim": "EBSi 윤윤구는 2028 대입을 '수능 변별력과 내신 변별력이 동시에 하락'하는 조건으로 전제하고, 따라서 대학이 다른 자료로 학생을 뽑게 된다고 해석한다.",
+      "evidence": "EBSi 10분입시 설명란 제목·해시태그(2028 대입제도·고교학점제·수능 및 내신 체계 개편).",
+      "entities": {
+        "institutions": [
+          "EBSi"
+        ],
+        "people": [
+          "윤윤구"
+        ]
+      },
+      "official_ref": {
+        "url": "https://www.moe.go.kr/",
+        "note": "변별력 약화 진단은 학원가·일부 교사도 동의하나, '충분하다'는 반론(등급 분포 실측)도 존재.",
+        "status": "CONFLICT"
+      },
+      "conflict_ids": [
+        "YT-C003",
+        "YT-C002"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "정성평가 강화 논리의 전제 제시.",
+        "caution": "전제 자체를 확정으로 안내 금지."
+      },
+      "confidence": "MEDIUM",
+      "verification_status": "NORMALIZED"
+    },
+    {
+      "id": "YT-A127",
+      "video_id": "7SXzyGMDQFU",
+      "anchor": {
+        "t0": null,
+        "t1": null,
+        "src": "video_level"
+      },
+      "classification": "EXPERT_ANALYSIS",
+      "topics": [
+        "T06",
+        "T03"
+      ],
+      "academic_year": "2028",
+      "claim": "내신 5등급제 시대에는 선택과목의 중요성이 커지므로, 대학별 권장과목을 기준으로 학생부를 설계하는 것이 현실적이다.",
+      "evidence": "EBSi/EBS뉴스 '입시의 정석' 서울 소명여고 김진석 교사 출연분.",
+      "entities": {
+        "institutions": [
+          "EBS",
+          "서울소명여자고등학교"
+        ],
+        "people": [
+          "김진석"
+        ]
+      },
+      "official_ref": {
+        "url": "각 대학 권장과목 안내",
+        "note": "현직 교사의 공영 방송 해설로 출처 신뢰도 높음. 다만 대학별 목록 원문 대조 필요.",
+        "status": "CONSISTENT_WITH_OFFICIAL"
+      },
+      "conflict_ids": [
+        "YT-C001"
+      ],
+      "counseling": {
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "bands": [],
+        "use": "권장과목 활용 절차 안내.",
+        "caution": "권장과목 이수가 합격 요건은 아니다."
+      },
+      "confidence": "HIGH",
+      "verification_status": "NORMALIZED"
+    }
+  ]
+}
