@@ -1,0 +1,32 @@
+{
+ "document": {
+  "institution_name": "연세대학교",
+  "document_name": "2028학년도 연세대학교 서울캠퍼스 입학전형 시행계획",
+  "source_url": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
+  "file_url": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
+  "applicable_academic_year": 2028,
+  "published_at": "2026-04",
+  "collected_at": "2026-10-13T15:34:16+09:00",
+  "extraction": "pymupdf text layer",
+  "verification_status": "NORMALIZED",
+  "approved": false,
+  "exposure": "HIDDEN (APPROVED-only search gate)",
+  "verification": {
+   "underwood_table_rowsum_check": "144=114+30, 15=10+5, 143=120+23, 70=50+20, 합계 392=314+78 (일치)",
+   "underwood_2027_check": "364=175+69+120 (일치)"
+  }
+ },
+ "summary_2028": {
+  "changes": [
+   "학생부교과전형[추천형]: 일괄합산(교과100) → 단계별 전형(1단계 500%, 2단계 교과80+서류20)",
+   "학생부종합전형 세부전형 개편: 활동우수형+국제인재 통합→ 종합인재형(서류70+면접30+수능최저*), 일반/국제→ 탐구인재형(서류60+면접40)",
+   "논술전형 전 모집단위 수능최저 적용",
+   "언더우드국제대학 선발 전형 변경(2028: 종합인재형 314 + 탐구인재형(국제) 78)"
+  ],
+  "admission_type_totals": {
+   "종합인재형_underwood": 314,
+   "탐구인재형국제_underwood": 78
+  },
+  "csat_minimum_notes": "종합인재형 일부 모집단위(언더우드학부 인문·사회, 생명과학공학) 미적용"
+ }
+}

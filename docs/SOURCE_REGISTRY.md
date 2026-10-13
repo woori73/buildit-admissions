@@ -30,3 +30,13 @@
 
 - `redistribution=METADATA_PRIORITY`또는`RESTRICTED`인 자료는 **원문 전문·본문을 DB에 저장하지 않고**, 메타데이터(기관명·문서명·발표일·적용학년도)+**공식 원문 링크**만 `ipsi_documents`/`ipsi_document_versions`에 보관한다. `search_text`/`raw_storage_key`는 `redistribution=OPEN`(교육부)일 때만 채운다(시드에서 검증됨).
 - `robots=BLOCK`(adiga·suneung)인 사이트는 자동 요청 자체가 금지되며, 필요 시 사람이 공식 페이지를 직접 확인한 뒤 **링크·서지정보만** 수기 등록한다.
+
+## 4. 분석 산출물 (2026-10-13, 저장 자료 재분석 — 신규 수집 없음)
+
+- `docs/ANALYSIS/ANALYSIS_INDEX.md` — 근거 티어(T0 공식사실/T1 계산된비교/T2 분석적해석/T3 확인불가), 11문서 앵커, 전제·한계.
+- `docs/ANALYSIS/00_universities/*.md` — 7개교 입시 구조(전형 비중·방법·수능최저·일정·표본 모집단위). 한양 method/csat는 T3(null).
+- `docs/ANALYSIS/01_cross_university/department_strategy.md` — 유사 학과(경영·컴퓨터·반도체·의약학·인문) 교차 대조[T1] + 수능최저 매트릭스 기반 유불리[T2].
+- `docs/ANALYSIS/02_year_change/2027_2028_changes.md` — 2027 확정 vs 2028 시행계획(연세만 확보), 정책(2022 개정·5등급제·통합수능) 정량 영향은 T3.
+- `docs/ANALYSIS/03_counseling_qa/knowledge_base.json` — 상담 6 질문유형×답변, 항목별 source_document_key·학년도·티어 연결.
+- 파생 스크립트: `scripts/digest_for_analysis.py`, `scripts/compare_for_analysis.py` (저장 JSON 읽기 전용, PDF 재파싱 없음).
+- 상태: 전 행 NORMALIZED 유지, APPROVED 승격 0건. `data/youtube/`(Qoder B) 미변경·미합침.

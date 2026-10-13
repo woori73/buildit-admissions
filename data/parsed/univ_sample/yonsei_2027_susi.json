@@ -1,0 +1,149 @@
+{
+ "document": {
+  "institution_name": "연세대학교 입학처",
+  "document_name": "2027학년도 수시모집 모집요강",
+  "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+  "file_url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
+  "applicable_academic_year": 2027,
+  "published_at": "2026-05-29",
+  "collected_at": "2026-10-13T15:34:16+09:00",
+  "extraction": "pymupdf text layer",
+  "verification_status": "NORMALIZED",
+  "approved": false,
+  "exposure": "HIDDEN (APPROVED-only search gate)",
+  "verification": {
+   "type_totals_from_yoyang_summary": {
+    "추천형": "487명(25명)",
+    "활동우수형": "714명(52명)",
+    "국제형": "254명",
+    "국제인재": "120명",
+    "기회균형": "190명(5명)",
+    "논술전형": "272명(16명)",
+    "특기자_체육인재": "38명",
+    "특수교육대상자": "13명"
+   },
+   "cross_check_vs_plan": "see yonsei_2027_plan.json columns"
+  }
+ },
+ "admission_types": [
+  {
+   "name": "학생부교과전형[추천형]",
+   "applicant_total": 487,
+   "outside_quota_contract": 25,
+   "method": "단계별(1단계 학생부교과100 500% → 2단계 학생부교과80+서류평가20)+수능최저",
+   "csat_minimum": "적용(전 모집단위, 인문 또는 자연(일반) 기준 중 하나 만족)",
+   "eligibility": "학교장 추천자(요강 22쪽~)",
+   "evidence_pages": [
+    1,
+    22
+   ]
+  },
+  {
+   "name": "학생부종합전형[활동우수형]",
+   "applicant_total": 714,
+   "outside_quota_contract": 52,
+   "method": "1단계 서류100(4배수) → 2단계 서류60+면접40+수능최저",
+   "csat_minimum": "적용",
+   "eligibility": "고졸(예정)·검정고시 등(요강)",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "name": "학생부종합전형[국제형(국내고/해외고·검정고시)]",
+   "applicant_total": 254,
+   "method": "단계별 서류+면접(국내고 5배수→ 서류60+면접40+수능최저; 해외고/검정고시 3배수→서류60+면접40)",
+   "csat_minimum": "국내고만 적용, 해외고/검정고시 미적용",
+   "eligibility": "외국 소재 고교 등(요강 국제형)",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "name": "학생부종합전형[국제인재]",
+   "applicant_total": 120,
+   "method": "1단계 서류(3배수)→2단계 서류60+면접40",
+   "csat_minimum": "미적용",
+   "eligibility": "요강 국제인재",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "name": "학생부종합전형[기회균형]",
+   "applicant_total": 190,
+   "outside_quota_contract": 5,
+   "method": "1단계 서류(3배수)→2단계 서류60+면접40",
+   "csat_minimum": "미적용",
+   "eligibility": "기초생활수급·농어촌 등(요강)",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "name": "논술전형",
+   "applicant_total": 272,
+   "outside_quota_contract": 16,
+   "method": "논술100+수능최저",
+   "csat_minimum": "적용(전 모집단위)",
+   "eligibility": "고졸(예정) 등(요강)",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "name": "특기자전형[체육인재]",
+   "applicant_total": 38,
+   "method": "1단계 서류→2단계 실기/면접(요강 67쪽~)",
+   "csat_minimum": "미적용",
+   "eligibility": "경기실적(2024.1.1. 이후 등 요강)",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "name": "특수교육대상자전형",
+   "applicant_total": 13,
+   "method": "서류+면접/실기(요강 71쪽~)",
+   "csat_minimum": "미적용",
+   "eligibility": "특수교육대상자",
+   "evidence_pages": [
+    3
+   ]
+  }
+ ],
+ "schedules_sample": {
+  "type": "전 전형 공통 원서접수",
+  "items": [
+   {
+    "item": "인터넷 원서접수",
+    "date": "2026.9.7.(월) 10:00 ~ 9.9.(수) 17:00"
+   },
+   {
+    "item": "서류제출 마감",
+    "date": "2026.9.10.(목) 17:00"
+   },
+   {
+    "item": "논술시험",
+    "date": "2026.10.10.(토)"
+   },
+   {
+    "item": "활동우수형 1단계 발표",
+    "date": "2026.11.16.(월)"
+   },
+   {
+    "item": "활동우수형 면접(인문·통합/자연)",
+    "date": "2026.11.21.(토)/11.22.(일)"
+   },
+   {
+    "item": "최종합격자 발표",
+    "date": "2026.12.18.(금)"
+   }
+  ]
+ },
+ "unresolved": [],
+ "resolved_2026-10-13_pm": [
+  "Ⅱ부 전형별 모집단위·모집인원 테이블: find_tables 기반 재파싱 성공 → yonsei_2027_susi_part2.json (67행, 8컬럼 합계=합계행 일치). 실패 원인은 모집인원*가 수시+정시 합산이었던 것(각주 확인). 정시 세부는 2026.9.1. 발표 정시모집요강 확인 필요",
+  "국제형 254/국제인재 120 전공별 분해 확보: 국내고 175(아시아학20/HASS110/ISE45), 해외고 79(언더우드인문사회29/언더우드생명공학5/HASS20/ISE15/글로벌인재10), 국제인재 120(언더우드인문사회110/언더우드생명공학10)"
+ ]
+}
