@@ -7,7 +7,11 @@
 """
 import json, os, sys, time, urllib.request
 
-KEY = "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+KEY = os.environ.get("YOUTUBE_API_KEY", "")
+if not KEY:
+    print("ERROR: YOUTUBE_API_KEY 환경변수가 설정되지 않았습니다.", file=sys.stderr)
+    print("  .env 파일 또는 환경변수로 YOUTUBE_API_KEY를 설정하세요.", file=sys.stderr)
+    sys.exit(1)
 EP = "https://www.youtube.com/youtubei/v1/search?key=" + KEY
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 
