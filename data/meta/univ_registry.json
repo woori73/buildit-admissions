@@ -3,56 +3,6 @@
  "collected_at": "2026-11-02T11:45:42+09:00",
  "universities": [
   {
-   "key": "catholicsg",
-   "name": "가톨릭대학교(성의교정)",
-   "establishment_type": "사립",
-   "region": "서울",
-   "admission_office_url": null,
-   "adiga_unvCd": "0000048",
-   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000048&searchSyr=2027",
-   "files_2027": [
-    {
-     "kind": "수시",
-     "label": "수시 모집요강",
-     "file_name": "☆ 2027학년도 가톨릭대학교_수시모집요강(최종).pdf",
-     "fileId": "00000000000000257284",
-     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257284&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000048&searchSyr=2027"
-    },
-    {
-     "kind": "정시",
-     "label": "정시 모집요강",
-     "file_name": "2027학년도 가톨릭대학교 정시모집요강_최종 (PDF).pdf",
-     "fileId": "00000000000000257285",
-     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257285&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000048&searchSyr=2027"
-    }
-   ]
-  },
-  {
-   "key": "catholicss",
-   "name": "가톨릭대학교(성신교정)",
-   "establishment_type": "사립",
-   "region": "서울",
-   "admission_office_url": null,
-   "adiga_unvCd": "0000049",
-   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000049&searchSyr=2027",
-   "files_2027": [
-    {
-     "kind": "수시",
-     "label": "수시 모집요강",
-     "file_name": "2027학년도 가톨릭대학교 수시모집요강 0611(최종).pdf",
-     "fileId": "00000000000000257174",
-     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257174&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000049&searchSyr=2027"
-    },
-    {
-     "kind": "정시",
-     "label": "정시 모집요강",
-     "file_name": "2027학년도 가톨릭대학교 정시모집요강_최종 (PDF).pdf",
-     "fileId": "00000000000000257175",
-     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257175&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000049&searchSyr=2027"
-    }
-   ]
-  },
-  {
    "key": "mtu",
    "name": "감리교신학대학교",
    "establishment_type": "사립",
@@ -901,6 +851,57 @@
      "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257510&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000212&searchSyr=2027"
     }
    ]
+  },
+  {
+   "key": "catholic",
+   "name": "가톨릭대학교(서울)",
+   "establishment_type": "사립",
+   "region": "서울",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000048,0000049",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000048&searchSyr=2027",
+   "adiga_detail_url_2": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000049&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "☆ 2027학년도 가톨릭대학교_수시모집요강(최종).pdf",
+     "fileId": "00000000000000257284",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257284&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000048&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 가톨릭대학교 정시모집요강_최종 (PDF).pdf",
+     "fileId": "00000000000000257285",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257285&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000048&searchSyr=2027"
+    },
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 가톨릭대학교 수시모집요강 0611(최종).pdf",
+     "fileId": "00000000000000257174",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257174&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000049&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 가톨릭대학교 정시모집요강_최종 (PDF).pdf",
+     "fileId": "00000000000000257175",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257175&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000049&searchSyr=2027"
+    }
+   ],
+   "note": "성의교정(서초 반포, 의·간호)·성신교정(종로 혜화, 신학)을 한 대학으로 묶음. 부천 성심교정(본교)은 서울이 아니라 제외."
+  },
+  {
+   "key": "karts",
+   "name": "한국예술종합학교",
+   "establishment_type": "국립",
+   "region": "서울",
+   "admission_office_url": "https://www.karts.ac.kr/",
+   "adiga_unvCd": null,
+   "files_2027": [],
+   "note": "adiga 일반대학 목록에 없음(고등교육법 외 설치). 학교 입학처 공식 모집요강 사용."
   }
  ]
 }
