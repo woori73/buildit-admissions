@@ -248,14 +248,21 @@ MERGED = set()  # 같은 이름의 학과(예: 서울대 '광역' 2개)는 원�
 def merge_department(code, year, dept, dok, label='정시'):
     counts = {k: v for k, v in dept['counts_by_type'].items()}
     counts[label + ' 합계'] = dept.get('total', sum(v for v in counts.values() if isinstance(v, int)))
-    for idx, row in enumerate(seed['ipsi_departments']):
-        if idx in MERGED:
-            continue
-        if row.get('college_name') and dept.get('college') and row['college_name'] != dept['college']:
-            continue
-        if row['university_code'] == code and str(row['academic_year']) == str(year) \
-                and row['department_name'] == dept['department']:
+    # 같은 이름의 아직 짝 없는 행. 하나뿐이면 단과대 표기가 달라도(예: "휴먼서비스" vs "휴먼서비스학부") 합치고,
+    # 여러 개면 단과대가 같은 행을 먼저, 없으면 원문 순서대로 짝짓는다.
+    cands = [idx for idx, row in enumerate(seed['ipsi_departments'])
+             if idx not in MERGED and row['university_code'] == code and str(row['academic_year']) == str(year)
+             and row['department_name'] == dept['department']]
+    if len(cands) > 1 and dept.get('college'):
+        same = [i for i in cands if seed['ipsi_departments'][i].get('college_name') == dept['college']]
+        unknown = [i for i in cands if not seed['ipsi_departments'][i].get('college_name')]
+        cands = same or unknown or cands
+    for idx in cands[:1]:
+        row = seed['ipsi_departments'][idx]
+        if True:
             MERGED.add(idx)
+            if not row.get('college_name') and dept.get('college'):
+                row['college_name'] = dept['college']
             old = row['counts_by_type']
             if '합계' in old:
                 old['수시 합계'] = old.pop('합계')
@@ -376,6 +383,23 @@ if too_long:
 
 # 이 시드가 다루는 대학은 시드가 최신본이다(적재기가 같은 대학의 예전 행을 보관 처리). 수시·정시 원문을 모두 정리한 대학만.
 seed['authoritative_universities'] = sorted({u['university_code'] for u in seed['ipsi_universities']})
+
+# 한 대학·학년도 안에 같은 학과명이 남으면(예: 서울대 '광역' — 학부대학·공과대학) 적재기가 이름으로 한 행에 합쳐
+# 한쪽 인원이 사라진다. 단과대가 있으면 이름 뒤에 붙여 구분하고, 그래도 겹치면 빌드를 멈춘다.
+_name_count = {}
+for r in seed['ipsi_departments']:
+    k = (r['university_code'], str(r['academic_year']), r['department_name'])
+    _name_count[k] = _name_count.get(k, 0) + 1
+for r in seed['ipsi_departments']:
+    k = (r['university_code'], str(r['academic_year']), r['department_name'])
+    if _name_count[k] > 1 and r.get('college_name'):
+        r['department_name'] = '%s(%s)' % (r['department_name'], r['college_name'])
+_seen = set()
+for r in seed['ipsi_departments']:
+    k = (r['university_code'], str(r['academic_year']), r['department_name'])
+    if k in _seen:
+        raise SystemExit('같은 대학·학년도에 학과명이 겹침(단과대로도 구분 불가): %s' % (k,))
+    _seen.add(k)
 
 # 유튜브 영상 분석(data/youtube) → youtube_knowledge. 공식 사실이 아닌 전문가 해석이라 적재기가 sourceClass=YOUTUBE로
 # 따로 두고, 상담 답변은 "참고 — 유튜브 전문가 해석(공식 자료 아님)" 단락으로만 쓴다(analyses.json usage_rules).
