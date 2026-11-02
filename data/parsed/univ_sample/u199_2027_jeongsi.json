@@ -1,0 +1,1071 @@
+{
+ "document": {
+  "institution_name": "한서대학교 입학관리처",
+  "document_name": "2027학년도 정시모집 모집요강",
+  "source_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000199&searchSyr=2027",
+  "file_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257262&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000199&searchSyr=2027",
+  "file_name": "2027학년도 한서대학교 정시 모집요강.pdf",
+  "official_publisher_url": "http://helper.hanseo.ac.kr",
+  "applicable_academic_year": 2027,
+  "published_at": null,
+  "collected_at": "2026-11-02T20:40:00+09:00",
+  "extraction": "pymupdf text layer + 단어 좌표 열 매핑(3·4쪽 모집인원 표), 렌더링 이미지 시각 대조",
+  "verification_status": "NORMALIZED",
+  "verification": {
+   "department_rows": 46,
+   "row_sum_failures": 0,
+   "checks": [
+    "일반전형 학과별 합 83 = 모집인원 표 합계행 83 (일치)",
+    "군별: 가 18(항공운항 18) + 나 15(경호비서 5, 레저해양스포츠 10) + 다 50 = 83",
+    "군 배정은 2쪽 안내(가군 항공운항학과 / 나군 경호비서·레저해양스포츠·(계열별)전공자율학과·충남형 계약학과 / 다군 그 외 전 학과)와 표 비고란('가'군·'나'군 표시) 대조",
+    "학과별 정시 일반전형 인원 = 수시 표 '모집인원' 열(학과 정원) − 수시 정원내 인원 합과 전 학과 일치(합 83 = 1,521 − 1,438)",
+    "모집인원 표(3·4쪽)는 단어 x좌표로 열 매핑 후 렌더링 이미지와 시각 대조; 수능 반영비율 표(9쪽)·전형유형별 반영비율(8쪽)도 렌더링 이미지로 확인"
+   ]
+  }
+ },
+ "admission_types": [
+  {
+   "name": "정시 일반전형(가군)",
+   "category": "수능위주",
+   "group": "가",
+   "recruitment_count": 18,
+   "eligibility": "졸업자 및 2027년 2월 졸업예정자로 2027학년도 대학수학능력시험 응시자; 검정고시 출신자 및 외국 고등학교 과정 이수자 등 법령에 따라 고교 졸업자와 동등 이상의 학력이 인정되는 자로 2027학년도 수능 응시자",
+   "method": "항공운항학과: 수능 100%, 총점 500점, 일괄합산",
+   "csat_reflection": "수능 백분위 활용. 국어 20% + 수학 30% + 영어 30% + 탐구(백분위 높은 1과목) 20%. 영어 등급별 백분위 환산(1등급 100 ~ 9등급 40). 한국사 필수 응시. 수학 미적분/기하 응시자 수학영역 취득점수 10% 가산",
+   "csat_minimum": null,
+   "submission_documents": [
+    "학교생활기록부 1부(온라인 제공 미동의자만)",
+    "검정고시 합격증명서(대입전형용) 1부(온라인 제공 미동의자만; 고교 재학사실이 있으면 학교생활기록부 1부 추가)",
+    "항공운항학과·헬리콥터조종학과 지원자: 항공신체검사증명 신청서 1부, 항공종사자 1종 신체검사 증명서 1부(2027.1.14(목)까지)"
+   ],
+   "evidence_pages": [
+    2,
+    3,
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "name": "정시 일반전형(나군)",
+   "category": "수능위주",
+   "group": "나",
+   "recruitment_count": 15,
+   "eligibility": "졸업자 및 2027년 2월 졸업예정자로 2027학년도 대학수학능력시험 응시자; 검정고시 출신자 및 외국 고등학교 과정 이수자 등 법령에 따라 고교 졸업자와 동등 이상의 학력이 인정되는 자로 2027학년도 수능 응시자",
+   "method": "(계열별)전공자율학과: 수능 100%(500점). 경호비서학과: 수능 20% + 면접 30% + 실기 50%(1,000점). 레저해양스포츠학과: 수능 10% + 실기 90%(1,000점). 일괄합산. 모집인원 표 기준 인원은 경호비서학과 5, 레저해양스포츠학과 10(전공자율학과는 '-')",
+   "csat_reflection": "(계열별)전공자율학과: 수능 백분위 활용. 국어·수학·영어 중 택 2영역 각 35% + 탐구(사탐/과탐/직탐 중 백분위 높은 1과목) 30%. 영어는 등급별 백분위 환산(1등급 100, 2등급 95, 3등급 90, 4등급 84, 5등급 78, 6등급 70, 7등급 62, 8등급 52, 9등급 40). 한국사 필수 응시. 수학 미적분/기하 응시자 수학영역 취득점수 10% 가산. 일부 영역 미응시자는 해당 영역 0점, 전 영역 미응시자 지원 불가. 경호비서학과·레저해양스포츠학과: 실기고사 실시학과: 국어·수학·영어 중 백분위 높은 1개 영역 50% + 탐구(백분위 높은 1과목) 50%. 한국사 필수 응시, 수학 미적분/기하 취득점수 10% 가산",
+   "csat_minimum": null,
+   "submission_documents": [
+    "학교생활기록부 1부(온라인 제공 미동의자만)",
+    "검정고시 합격증명서(대입전형용) 1부(온라인 제공 미동의자만; 고교 재학사실이 있으면 학교생활기록부 1부 추가)"
+   ],
+   "evidence_pages": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "name": "정시 일반전형(다군)",
+   "category": "수능위주",
+   "group": "다",
+   "recruitment_count": 50,
+   "eligibility": "졸업자 및 2027년 2월 졸업예정자로 2027학년도 대학수학능력시험 응시자; 검정고시 출신자 및 외국 고등학교 과정 이수자 등 법령에 따라 고교 졸업자와 동등 이상의 학력이 인정되는 자로 2027학년도 수능 응시자",
+   "method": "전 학과: 수능 100%(500점). 뮤직프로덕션학과·시각디자인학과·영상애니메이션학과: 수능 10% + 실기 90%(1,000점). 항공관광학과는 수시 이월 인원 발생 시 수능 60% + 면접 40%. 일괄합산",
+   "csat_reflection": "전 학과: 수능 백분위 활용. 국어·수학·영어 중 택 2영역 각 35% + 탐구(사탐/과탐/직탐 중 백분위 높은 1과목) 30%. 영어는 등급별 백분위 환산(1등급 100, 2등급 95, 3등급 90, 4등급 84, 5등급 78, 6등급 70, 7등급 62, 8등급 52, 9등급 40). 한국사 필수 응시. 수학 미적분/기하 응시자 수학영역 취득점수 10% 가산. 일부 영역 미응시자는 해당 영역 0점, 전 영역 미응시자 지원 불가. 뮤직프로덕션·시각디자인·영상애니메이션학과: 실기고사 실시학과: 국어·수학·영어 중 백분위 높은 1개 영역 50% + 탐구(백분위 높은 1과목) 50%. 한국사 필수 응시, 수학 미적분/기하 취득점수 10% 가산",
+   "csat_minimum": null,
+   "submission_documents": [
+    "학교생활기록부 1부(온라인 제공 미동의자만)",
+    "검정고시 합격증명서(대입전형용) 1부(온라인 제공 미동의자만; 고교 재학사실이 있으면 학교생활기록부 1부 추가)",
+    "항공운항학과·헬리콥터조종학과 지원자: 항공신체검사증명 신청서 1부, 항공종사자 1종 신체검사 증명서 1부(2027.1.14(목)까지)"
+   ],
+   "evidence_pages": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    11
+   ]
+  },
+  {
+   "name": "정시 충남형 계약학과 전형(나군)",
+   "category": "학생부교과",
+   "group": "나",
+   "recruitment_count": null,
+   "eligibility": "각 전형별 지원자격은 2027학년도 수시 모집요강에 준함",
+   "method": "학생부 60% + 면접 40%, 총점 1,000점(수능 미반영). 수시 미충원 인원 발생 시 '나'군 모집. 정원 외 모집인원은 수시모집 등록 결과에 따라 결정되며 2026년 12월 30일(수) 이후 입학홈페이지 '2027학년도 정시 모집요강'에서 공지. 학과별 정원은 수시합격자 포함 학과 정원의 최대 10% 이내. 항공운항학과·경호비서학과·레저해양스포츠학과는 정원외 특별전형 미모집",
+   "csat_reflection": "수능 미반영(전형요소 수능 '-')",
+   "csat_minimum": null,
+   "submission_documents": [
+    "수시 모집요강에 준함"
+   ],
+   "evidence_pages": [
+    6,
+    7,
+    8,
+    10
+   ]
+  },
+  {
+   "name": "정시 농·어촌학생 특별전형(다군)",
+   "category": "학생부교과",
+   "group": "다",
+   "recruitment_count": null,
+   "eligibility": "각 전형별 지원자격은 2027학년도 수시 모집요강에 준함",
+   "method": "학생부 100%, 총점 500점(수능 미반영). 항공관광학과는 학생부 60% + 면접 40%(이월 시). 수시 미충원 인원을 정시 '다'군 모집학과로 충원. 정원 외 모집인원은 수시모집 등록 결과에 따라 결정되며 2026년 12월 30일(수) 이후 입학홈페이지 '2027학년도 정시 모집요강'에서 공지. 학과별 정원은 수시합격자 포함 학과 정원의 최대 10% 이내. 항공운항학과·경호비서학과·레저해양스포츠학과는 정원외 특별전형 미모집",
+   "csat_reflection": "수능 미반영(전형요소 수능 '-')",
+   "csat_minimum": null,
+   "submission_documents": [
+    "수시 모집요강에 준함"
+   ],
+   "evidence_pages": [
+    4,
+    6,
+    7,
+    8,
+    16
+   ]
+  },
+  {
+   "name": "정시 특성화고교출신자 특별전형(다군)",
+   "category": "학생부교과",
+   "group": "다",
+   "recruitment_count": null,
+   "eligibility": "각 전형별 지원자격은 2027학년도 수시 모집요강에 준함",
+   "method": "학생부 100%, 총점 500점(수능 미반영). 항공관광학과는 학생부 60% + 면접 40%(이월 시). 수시 미충원 인원을 정시 '다'군 모집학과로 충원. 정원 외 모집인원은 수시모집 등록 결과에 따라 결정되며 2026년 12월 30일(수) 이후 입학홈페이지 '2027학년도 정시 모집요강'에서 공지. 학과별 정원은 수시합격자 포함 학과 정원의 최대 10% 이내. 항공운항학과·경호비서학과·레저해양스포츠학과는 정원외 특별전형 미모집",
+   "csat_reflection": "수능 미반영(전형요소 수능 '-')",
+   "csat_minimum": null,
+   "submission_documents": [
+    "수시 모집요강에 준함"
+   ],
+   "evidence_pages": [
+    4,
+    6,
+    7,
+    8,
+    16
+   ]
+  },
+  {
+   "name": "정시 기회균형선발 특별전형(다군)",
+   "category": "학생부교과",
+   "group": "다",
+   "recruitment_count": null,
+   "eligibility": "각 전형별 지원자격은 2027학년도 수시 모집요강에 준함",
+   "method": "학생부 100%, 총점 500점(수능 미반영). 항공관광학과는 학생부 60% + 면접 40%(이월 시). 수시 미충원 인원을 정시 '다'군 모집학과로 충원. 정원 외 모집인원은 수시모집 등록 결과에 따라 결정되며 2026년 12월 30일(수) 이후 입학홈페이지 '2027학년도 정시 모집요강'에서 공지. 학과별 정원은 수시합격자 포함 학과 정원의 최대 10% 이내. 항공운항학과·경호비서학과·레저해양스포츠학과는 정원외 특별전형 미모집",
+   "csat_reflection": "수능 미반영(전형요소 수능 '-')",
+   "csat_minimum": null,
+   "submission_documents": [
+    "수시 모집요강에 준함"
+   ],
+   "evidence_pages": [
+    4,
+    6,
+    7,
+    8,
+    16
+   ]
+  },
+  {
+   "name": "정시 서해5도 특별전형(다군)",
+   "category": "학생부교과",
+   "group": "다",
+   "recruitment_count": null,
+   "eligibility": "각 전형별 지원자격은 2027학년도 수시 모집요강에 준함",
+   "method": "학생부 100%, 총점 500점(수능 미반영). 항공관광학과는 학생부 60% + 면접 40%(이월 시). 수시 미충원 인원을 정시 '다'군 모집학과로 충원. 정원 외 모집인원은 수시모집 등록 결과에 따라 결정되며 2026년 12월 30일(수) 이후 입학홈페이지 '2027학년도 정시 모집요강'에서 공지. 학과별 정원은 수시합격자 포함 학과 정원의 최대 10% 이내. 항공운항학과·경호비서학과·레저해양스포츠학과는 정원외 특별전형 미모집",
+   "csat_reflection": "수능 미반영(전형요소 수능 '-')",
+   "csat_minimum": null,
+   "submission_documents": [
+    "수시 모집요강에 준함"
+   ],
+   "evidence_pages": [
+    4,
+    6,
+    7,
+    8,
+    16
+   ]
+  },
+  {
+   "name": "정시 만학도 특별전형(다군)",
+   "category": "학생부교과",
+   "group": "다",
+   "recruitment_count": null,
+   "eligibility": "각 전형별 지원자격은 2027학년도 수시 모집요강에 준함",
+   "method": "학생부 100%, 총점 500점(수능 미반영). 항공관광학과는 학생부 60% + 면접 40%(이월 시). 수시 미충원 인원을 정시 '다'군 모집학과로 충원. 정원 외 모집인원은 수시모집 등록 결과에 따라 결정되며 2026년 12월 30일(수) 이후 입학홈페이지 '2027학년도 정시 모집요강'에서 공지. 학과별 정원은 수시합격자 포함 학과 정원의 최대 10% 이내. 항공운항학과·경호비서학과·레저해양스포츠학과는 정원외 특별전형 미모집",
+   "csat_reflection": "수능 미반영(전형요소 수능 '-')",
+   "csat_minimum": null,
+   "submission_documents": [
+    "수시 모집요강에 준함"
+   ],
+   "evidence_pages": [
+    4,
+    6,
+    7,
+    8,
+    16
+   ]
+  }
+ ],
+ "departments": [
+  {
+   "department": "항공교통물류학과",
+   "college": "항공 School",
+   "group": "다",
+   "track": "인문사회계열",
+   "counts_by_type": {
+    "정시 일반전형(다군)": 5
+   },
+   "total": 5,
+   "table_quota_column": 50,
+   "majors": [
+    "항공교통학전공",
+    "물류학전공"
+   ],
+   "evidence_pages": [
+    2,
+    3,
+    8
+   ]
+  },
+  {
+   "department": "공항행정학과",
+   "college": "항공 School",
+   "group": "다",
+   "track": "인문사회계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 30,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "항공관광학과",
+   "college": "항공관광 School",
+   "group": "다",
+   "track": "인문사회계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 80,
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "항공외국어학과",
+   "college": "항공관광 School",
+   "group": "다",
+   "track": "인문사회계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 37,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "호텔카지노관광학과",
+   "college": "항공관광 School",
+   "group": "다",
+   "track": "인문사회계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 20,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "미디어문예창작학과",
+   "college": "문화콘텐츠학부",
+   "group": "다",
+   "track": "인문사회계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 15,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "사회복지학과",
+   "college": "보건학부",
+   "group": "다",
+   "track": "인문사회계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 20,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "해양경찰학과",
+   "college": "해양·스포츠학부",
+   "group": "다",
+   "track": "인문사회계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 20,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "인문사회전공자율학과",
+   "college": "자유전공학부",
+   "group": "나",
+   "track": "인문사회계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 60,
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "항공운항학과",
+   "college": "항공 School",
+   "group": "가",
+   "track": "자연과학계열",
+   "counts_by_type": {
+    "정시 일반전형(가군)": 18
+   },
+   "total": 18,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    3,
+    8
+   ]
+  },
+  {
+   "department": "헬리콥터조종학과",
+   "college": "항공 School",
+   "group": "다",
+   "track": "자연과학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "간호학과",
+   "college": "보건학부",
+   "group": "다",
+   "track": "자연과학계열",
+   "counts_by_type": {
+    "정시 일반전형(다군)": 5
+   },
+   "total": 5,
+   "table_quota_column": 80,
+   "evidence_pages": [
+    2,
+    3,
+    8
+   ]
+  },
+  {
+   "department": "물리치료학과",
+   "college": "보건학부",
+   "group": "다",
+   "track": "자연과학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 41,
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "작업치료학과",
+   "college": "보건학부",
+   "group": "다",
+   "track": "자연과학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "방사선학과",
+   "college": "보건학부",
+   "group": "다",
+   "track": "자연과학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "치위생학과",
+   "college": "보건학부",
+   "group": "다",
+   "track": "자연과학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "의료재활학과",
+   "college": "보건학부",
+   "group": "다",
+   "track": "자연과학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 20,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "수산생명의학과",
+   "college": "보건학부",
+   "group": "다",
+   "track": "자연과학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 15,
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "자연과학전공자율학과",
+   "college": "자유전공학부",
+   "group": "나",
+   "track": "자연과학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    3
+   ]
+  },
+  {
+   "department": "항공정비학과",
+   "college": "항공 School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {
+    "정시 일반전형(다군)": 5
+   },
+   "total": 5,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    4,
+    8
+   ]
+  },
+  {
+   "department": "항공보안학과",
+   "college": "항공 School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 25,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "항공기계공학과",
+   "college": "항공우주공학 School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {
+    "정시 일반전형(다군)": 5
+   },
+   "total": 5,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    4,
+    8
+   ]
+  },
+  {
+   "department": "항공전자공학과",
+   "college": "항공우주공학 School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {
+    "정시 일반전형(다군)": 5
+   },
+   "total": 5,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    4,
+    8
+   ]
+  },
+  {
+   "department": "무인항공기학과",
+   "college": "항공우주공학 School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {
+    "정시 일반전형(다군)": 5
+   },
+   "total": 5,
+   "table_quota_column": 45,
+   "evidence_pages": [
+    2,
+    4,
+    8
+   ]
+  },
+  {
+   "department": "항공산업공학과",
+   "college": "항공우주공학 School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 30,
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "신소재화학공학과",
+   "college": "항공우주공학 School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 30,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "majors": [
+    "신소재공학전공",
+    "화학공학전공"
+   ],
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "환경·토목·건축학과",
+   "college": "항공우주공학 School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 27,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "majors": [
+    "건축전공",
+    "토목공학전공",
+    "환경공학전공"
+   ],
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "항공AI소프트웨어학과",
+   "college": "AI·SW School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "AI로보틱스학과",
+   "college": "AI·SW School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 25,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "AI모빌리티학과",
+   "college": "AI·SW School",
+   "group": "다",
+   "track": "공학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 30,
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "공학전공자율학과",
+   "college": "자유전공학부",
+   "group": "나",
+   "track": "공학계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 80,
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "문화유산보존학과",
+   "college": "문화콘텐츠학부",
+   "group": "다",
+   "track": "예체능계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 15,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "뮤직프로덕션학과",
+   "college": "문화콘텐츠학부",
+   "group": "다",
+   "track": "예체능계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 11,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "영화영상학과",
+   "college": "문화콘텐츠학부",
+   "group": "다",
+   "track": "예체능계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 15,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "영상애니메이션학과",
+   "college": "디자인융합학부",
+   "group": "다",
+   "track": "예체능계열",
+   "counts_by_type": {
+    "정시 일반전형(다군)": 5
+   },
+   "total": 5,
+   "table_quota_column": 35,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    4,
+    8
+   ]
+  },
+  {
+   "department": "공간디자인학과",
+   "college": "디자인융합학부",
+   "group": "다",
+   "track": "예체능계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 30,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "디지털산업디자인학과",
+   "college": "디자인융합학부",
+   "group": "다",
+   "track": "예체능계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 30,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "시각디자인학과",
+   "college": "디자인융합학부",
+   "group": "다",
+   "track": "예체능계열",
+   "counts_by_type": {
+    "정시 일반전형(다군)": 5
+   },
+   "total": 5,
+   "table_quota_column": 40,
+   "pooled_quota": {
+    "정시 만학도 특별전형(다군)": "모집(정원 외, 수시 미충원 시에만 선발, 인원 미지정)"
+   },
+   "evidence_pages": [
+    2,
+    4,
+    8
+   ]
+  },
+  {
+   "department": "경호비서학과",
+   "college": "해양·스포츠학부",
+   "group": "나",
+   "track": "예체능계열",
+   "counts_by_type": {
+    "정시 일반전형(나군)": 5
+   },
+   "total": 5,
+   "table_quota_column": 35,
+   "evidence_pages": [
+    2,
+    4,
+    8
+   ]
+  },
+  {
+   "department": "레저해양스포츠학과",
+   "college": "해양·스포츠학부",
+   "group": "나",
+   "track": "예체능계열",
+   "counts_by_type": {
+    "정시 일반전형(나군)": 10
+   },
+   "total": 10,
+   "table_quota_column": 60,
+   "evidence_pages": [
+    2,
+    4,
+    8
+   ]
+  },
+  {
+   "department": "예체능전공자율학과",
+   "college": "자유전공학부",
+   "group": "나",
+   "track": "예체능계열",
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 30,
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "자유전공학과",
+   "college": "자유전공학부",
+   "group": "다",
+   "track": null,
+   "counts_by_type": {
+    "정시 일반전형(다군)": 10
+   },
+   "total": 10,
+   "table_quota_column": 40,
+   "evidence_pages": [
+    2,
+    4,
+    8
+   ]
+  },
+  {
+   "department": "첨단항공학과",
+   "college": "충남RISE융합학부",
+   "group": "나",
+   "track": null,
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 20,
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "항공서비스경영학과",
+   "college": "충남RISE융합학부",
+   "group": "나",
+   "track": null,
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 20,
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "모빌리티융합디자인학과",
+   "college": "충남RISE융합학부",
+   "group": "나",
+   "track": null,
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 20,
+   "evidence_pages": [
+    2,
+    4
+   ]
+  },
+  {
+   "department": "디지털융합학과(야간)",
+   "college": "충남RISE융합학부",
+   "group": "다",
+   "track": null,
+   "counts_by_type": {},
+   "total": 0,
+   "table_quota_column": 20,
+   "evidence_pages": [
+    2,
+    4
+   ]
+  }
+ ],
+ "schedules": [
+  {
+   "type_name": "정시 전 전형",
+   "item": "원서접수",
+   "date": "2027. 01. 04(월) ~ 07(목), 마감일 18시까지 (www.jinhakapply.com)",
+   "evidence_pages": [
+    5,
+    14
+   ]
+  },
+  {
+   "type_name": "정시 전 전형",
+   "item": "구비서류 제출마감",
+   "date": "2027. 01. 14(목) 17시까지 도착·제출",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "type_name": "항공운항학과·헬리콥터조종학과 지원자",
+   "item": "항공종사자 1종 신체검사 신청서 및 증명서 제출",
+   "date": "1월 14일(목)까지",
+   "evidence_pages": [
+    5,
+    6,
+    18
+   ]
+  },
+  {
+   "type_name": "정시 전 전형",
+   "item": "면접·실기고사 수험표 출력",
+   "date": "2027년 1월 18일(월) 17시~",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "type_name": "정시 충남형 계약학과 전형(나군)",
+   "item": "면접고사 - 전 학과",
+   "date": "2027. 01. 21(목) (이월 인원 발생 시)",
+   "evidence_pages": [
+    5,
+    10
+   ]
+  },
+  {
+   "type_name": "정시 일반전형(나군)",
+   "item": "면접고사 - 경호비서학과",
+   "date": "2027. 01. 22(금)",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "type_name": "정시 일반전형(나군)",
+   "item": "실기고사 - 경호비서학과, 레저해양스포츠학과",
+   "date": "2027. 01. 22(금)",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "type_name": "모든 전형 항공관광학과",
+   "item": "면접고사",
+   "date": "2027. 01. 26(화) (이월 인원 발생 시)",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "type_name": "정시 일반전형(다군)",
+   "item": "실기고사 - 뮤직프로덕션학과, 시각디자인학과, 영상애니메이션학과",
+   "date": "2027. 01. 26(화)",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "type_name": "정시 전 전형",
+   "item": "합격자 발표",
+   "date": "2027. 02. 05(금) 17시 (입학홈페이지)",
+   "evidence_pages": [
+    5,
+    15
+   ]
+  },
+  {
+   "type_name": "정시 전 전형",
+   "item": "등록기간",
+   "date": "2027. 02. 10(수) ~ 12(금) 16시까지 (국민은행 전국 지점)",
+   "evidence_pages": [
+    5,
+    15
+   ]
+  },
+  {
+   "type_name": "정시 전 전형",
+   "item": "1차 추가합격자 발표",
+   "date": "2027년 2월 10일(수) 20시 이후 (2차 이후는 입학홈페이지 별도 공지)",
+   "evidence_pages": [
+    15
+   ]
+  },
+  {
+   "type_name": "정시 전 전형",
+   "item": "미등록 충원기간",
+   "date": "2027. 02. 13(토) ~ 17(수)",
+   "evidence_pages": [
+    5,
+    15
+   ]
+  },
+  {
+   "type_name": "정시 전 전형",
+   "item": "미등록 충원 등록마감",
+   "date": "2027. 02. 18(목)",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "type_name": "정시 정원 외 전형",
+   "item": "정원 외 전형 실시 여부·모집인원 공지",
+   "date": "2026년 12월 30일(수) 이후 입학홈페이지 확인",
+   "evidence_pages": [
+    4,
+    6
+   ]
+  }
+ ],
+ "notes": [
+  "모집인원은 수시모집 결과(미충원 이월)에 따라 변경될 수 있음(3·4쪽). 표의 '-' 학과는 요강 기준 정시 일반전형 인원 0이며 수시 이월 시 선발 가능",
+  "모집인원 표의 '모집인원' 열은 학과 정원 값(수시 요강 표와 동일)으로 table_quota_column에 원문 그대로 기재, total은 정시 일반전형 인원",
+  "문화유산보존학과·공간디자인학과·디지털산업디자인학과는 일반전형 칸이 '-'가 아닌 빈칸(4쪽) — 인원 없음으로 처리",
+  "정원 외 특별전형(농·어촌학생, 특성화고교출신자, 기회균형선발, 서해5도, 만학도, 충남형 계약학과)은 수시모집 등록 결과에 따라 실시 여부·인원이 결정되어 학과별 인원 없음(표 '-' 또는 '모집'). 만학도 '모집' 표시 학과는 pooled_quota에 기재. recruitment_count null",
+  "정원 외 미충원 인원은 정시 '다'군 모집학과로 충원(충남형 계약학과 전형은 '나'군)(7·16쪽) — 이에 따라 정원 외 전형 이름에 군 표기",
+  "8쪽 반영비율표 원문 표기는 '시각디지인학과'이나 4·5·9·11·13쪽은 모두 '시각디자인학과' — departments는 시각디자인학과로 기재",
+  "자유전공학과는 표 비고에 군 표시가 없고 2쪽 '나'군 목록((계열별)전공자율학과)에도 없어 '다'군으로 분류",
+  "학교폭력 조치사항 감점(모든 전형): 1호 없음, 2·3호 1%, 4·5호 2.5%, 6·7호 5%, 8·9호 10% 전형 총점에서 감점(9쪽)",
+  "동점자: 실기 미실시 학과는 수능 영어→국어→수학 백분위 순, 실기 실시 학과는 실기고사→수능 성적 순(7쪽)",
+  "전형료: 40,000원(일반·정원외), 면접 대상 60,000원(충남형 계약학과, 항공관광학과), 실기 대상 75,000원, 기회균형선발 2,000원(13쪽)",
+  "학과명 표기는 수시 파일과 동일하게 맞춤(충남RISE융합학부 계약학과는 수시 표의 '(계약)' 표시 없이 기재)"
+ ],
+ "gaps": [
+  "published_at: 원문·adiga 상세 페이지에 게시일 표기 없음",
+  "정원 외 특별전형 정시 모집인원·실시 여부는 2026년 12월 30일 이후 공지 예정이라 미확정(null)",
+  "수시 이월 반영 최종 정시 모집인원은 아직 미공고(요강 기준 인원만 수록)",
+  "정시 일반전형(나군)의 (계열별)전공자율학과는 반영비율이 제시되었으나 표 기준 인원 '-'— 정시 선발 인원은 수시 이월 결과에 따름(3쪽 주석), 확정 인원 미공고",
+  "실기 종목 배점표(12쪽)는 구조화하지 않음"
+ ]
+}
