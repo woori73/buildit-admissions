@@ -200,12 +200,128 @@ seed['gaps'] = [
     '[해소 2026-10-13 오후] 고려대(66행·2,731 검증)·한양대(65행·1,731+190 검증)·경희대(88행·3,006 검증)·인하대(63행·2,464 검증) — 총괄표 열합/합계행 교차 검증, 전형방법·수능최저는 경희·인하·고려 확보, 한양 method/csat 미추출(null 보존, 추정 금지)',
     '적용학년도 2028 모집요강(수시)은 각 대학 2027년 5월 발표 → 2028 시행계획만 확보 완료(추정 보충 금지)']
 
+# ---- 2026-11-02 확대: 2027 정시 모집요강 + 수시 빈칸 보완(파일이 있는 대학만) ----
+import glob
+
+CODE_BY_KEY = {'snu': 'SNU', 'yonsei': 'YONSEI', 'skku': 'SKKU', 'korea': 'KOREA',
+               'hanyang': 'HANYANG', 'khu': 'KHU', 'inha': 'INHA'}
+
+
+def jeongsi_files():
+    for path in sorted(glob.glob(os.path.join(S, '*_jeongsi*.json'))):
+        name = os.path.basename(path)
+        key = name.split('_')[0]
+        if key in CODE_BY_KEY:
+            yield key, name, json.load(io.open(path, encoding='utf-8'))
+
+
+def method_text(t):
+    parts = [t.get('method'), ('수능 반영: ' + t['csat_reflection']) if t.get('csat_reflection') else None]
+    joined = ' / '.join(p for p in parts if p)
+    return joined or None
+
+
+MERGED = set()  # 같은 이름의 학과(예: 서울대 '광역' 2개)는 원문 순서대로 하나씩 짝짓는다.
+
+
+def merge_department(code, year, dept, dok):
+    counts = {k: v for k, v in dept['counts_by_type'].items()}
+    counts['정시 합계'] = dept.get('total', sum(v for v in counts.values() if isinstance(v, int)))
+    for idx, row in enumerate(seed['ipsi_departments']):
+        if idx in MERGED:
+            continue
+        if row.get('college_name') and dept.get('college') and row['college_name'] != dept['college']:
+            continue
+        if row['university_code'] == code and str(row['academic_year']) == str(year) \
+                and row['department_name'] == dept['department']:
+            MERGED.add(idx)
+            old = row['counts_by_type']
+            if '합계' in old:
+                old['수시 합계'] = old.pop('합계')
+            old.update(counts)
+            row.setdefault('jeongsi_source_document_key', dok)
+            return
+    seed['ipsi_departments'].append({
+        'university_code': code, 'academic_year': str(year), 'department_name': dept['department'],
+        'college_name': dept.get('college'), 'jeongsi_group': dept.get('group'),
+        'counts_by_type': counts, 'source_document_key': dok, 'verification_status': 'NORMALIZED'})
+
+
+FILL_FIELDS = ('recruitment_count', 'eligibility', 'student_record_method', 'min_academic_standard')
+for path in sorted(glob.glob(os.path.join(S, '*_fill.json'))):
+    f = json.load(io.open(path, encoding='utf-8'))
+    key = os.path.basename(path).split('_')[0]
+    code = CODE_BY_KEY.get(key)
+    for fill in f.get('fills', []):
+        rows = [r for r in seed['ipsi_admission_types']
+                if r['university_code'] == code and r['type_name'] == fill['type_name']]
+        if len(rows) != 1:
+            raise SystemExit('fill 대상 전형을 찾지 못함(또는 중복): %s %s' % (code, fill['type_name']))
+        for k in FILL_FIELDS:
+            if fill.get(k) not in (None, ''):
+                rows[0][k] = fill[k]
+    if f.get('schedules_replace'):  # 원문과 다른 기존 수시 일정을 통째로 교체하고, 빠지는 행은 운영 DB에서 보관 처리
+        keep, removed = [], []
+        for r in seed['ipsi_schedules']:
+            (removed if r['university_code'] == code and r.get('round_type') == 'SUSI' else keep).append(r)
+        new_rows = [{'university_code': code, 'academic_year': 2027, 'round_type': 'SUSI',
+                     'type_name': it.get('type_name') or '전 전형', 'item': it['item'], 'date': it['date'],
+                     'source_document_key': f['document_key'], 'source_url': f.get('file_url'),
+                     'verification_status': 'NORMALIZED'} for it in f['schedules_replace']]
+        new_keys = {(n['item'] + ' (' + n['type_name'] + ')', n['date']) for n in new_rows}
+        seed['ipsi_schedules'] = keep + new_rows
+        seed.setdefault('archive_schedules', []).extend(
+            {'university_code': code, 'academic_year': r['academic_year'],
+             'title': r['item'] + ' (' + r['type_name'] + ')', 'note': r['date'],
+             'reason': '원문 대조 결과 불일치로 교체(%s)' % os.path.basename(path)}
+            for r in removed if (r['item'] + ' (' + r['type_name'] + ')', r['date']) not in new_keys)
+    for dept in f.get('departments_add', []):  # 기존 수시 파싱에서 빠진 학과 행(원문 쪽수 근거)
+        seed['ipsi_departments'].append({
+            'university_code': code, 'academic_year': '2027', 'department_name': dept['department'],
+            'college_name': dept.get('college'), 'counts_by_type': dept['counts_by_type'],
+            'source_document_key': f['document_key'], 'verification_status': 'NORMALIZED'})
+    for g in f.get('gaps', []):
+        seed['gaps'].append('[%s 수시 보완] %s' % (code, g))
+
+for key, name, j in jeongsi_files():
+    code = CODE_BY_KEY[key]
+    d = j['document']
+    year = d['applicable_academic_year']
+    dok = 'doc_' + name[:-5]
+    docs.append({
+        'document_key': dok, 'institution_name': d['institution_name'], 'document_name': d['document_name'],
+        'source_url': d.get('source_url'), 'file_url': d.get('file_url'), 'applicable_academic_year': year,
+        'published_at': d.get('published_at'), 'collected_at': d.get('collected_at', NOW),
+        'verification_status': d.get('verification_status', 'NORMALIZED'),
+        'redistribution': 'METADATA_PRIORITY', 'store_fulltext': False,
+        'note': '원문 전문은 git 미저장(data/raw). 구조화 행만 저장.'})
+    for t in j.get('admission_types', []):
+        seed['ipsi_admission_types'].append({
+            'university_code': code, 'academic_year': year, 'round_type': 'JEONGSI',
+            'type_name': t['name'], 'type_category': '정시' + ('(' + t['group'] + '군)' if t.get('group') else ''),
+            'recruitment_count': t.get('recruitment_count'), 'eligibility': t.get('eligibility'),
+            'student_record_method': method_text(t), 'min_academic_standard': t.get('csat_minimum'),
+            'submission_documents': t.get('submission_documents') or None,
+            'source_document_key': dok, 'source_url': d.get('source_url'),
+            'institution_name': d['institution_name'], 'published_at': d.get('published_at'),
+            'collected_at': d.get('collected_at', NOW), 'verification_status': 'NORMALIZED'})
+    for dept in j.get('departments', []):
+        merge_department(code, year, dept, dok)
+    for it in j.get('schedules', []):
+        seed['ipsi_schedules'].append({
+            'university_code': code, 'academic_year': year, 'round_type': 'JEONGSI',
+            'type_name': it.get('type_name') or '정시 전 전형', 'item': it['item'], 'date': it['date'],
+            'source_document_key': dok, 'source_url': d.get('source_url'), 'verification_status': 'NORMALIZED'})
+    for g in j.get('gaps', []):
+        seed['gaps'].append('[%s 정시] %s' % (code, g))
+
 counts = {
     'universities': len(seed['ipsi_universities']),
-    'documents': len(seed['ipsi_documents']),
+    'documents': len(docs),
     'departments': len(seed['ipsi_departments']),
     'admission_types': len(seed['ipsi_admission_types']),
     'schedules': len(seed['ipsi_schedules']),
+    'archive_schedules': len(seed.get('archive_schedules', [])),
     'prior_results': 0,
     'approved': 0,
     'verification_status_all': 'NORMALIZED'}
