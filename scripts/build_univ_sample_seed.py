@@ -206,6 +206,8 @@ import glob
 CODE_BY_KEY = {'snu': 'SNU', 'yonsei': 'YONSEI', 'skku': 'SKKU', 'korea': 'KOREA',
                'hanyang': 'HANYANG', 'khu': 'KHU', 'inha': 'INHA'}
 
+import glob
+
 # 확대 대학 등록부: data/meta/univ_registry.json {"universities":[{"key","name","establishment_type","region","admission_office_url","adiga_unvCd"}]}
 # 대학 코드는 key 대문자(적재기가 자료 키 doc_<key>_... 에서 대학을 찾는 규칙과 같다).
 REG_PATH = os.path.join(ROOT, 'data', 'meta', 'univ_registry.json')
@@ -213,6 +215,8 @@ if os.path.exists(REG_PATH):
     for u in json.load(io.open(REG_PATH, encoding='utf-8'))['universities']:
         if u['key'] in CODE_BY_KEY:
             continue
+        if not glob.glob(os.path.join(S, u['key'] + '_*.json')):
+            continue  # 자료가 아직 없는 대학은 등록하지 않는다(빈 대학이 '등록된 대학'으로 보이지 않게)
         code = u['key'].upper()
         CODE_BY_KEY[u['key']] = code
         seed['ipsi_universities'].append(dict(
@@ -256,7 +260,10 @@ def merge_department(code, year, dept, dok, label='정시'):
             if '합계' in old:
                 old['수시 합계'] = old.pop('합계')
             old.update(counts)
-            row.setdefault('jeongsi_source_document_key', dok)
+            if label == '정시':
+                row.setdefault('jeongsi_source_document_key', dok)
+                if dept.get('group') and not row.get('jeongsi_group'):
+                    row['jeongsi_group'] = dept['group']
             return
     seed['ipsi_departments'].append({
         'university_code': code, 'academic_year': str(year), 'department_name': dept['department'],
@@ -336,6 +343,20 @@ for key, name, j in jeongsi_files():
     for g in j.get('gaps', []):
         seed['gaps'].append('[%s %s] %s' % (code, '수시' if susi else '정시', g))
 
+# 처음 7개 대학의 원래 수시 일정 행에는 출처 자료 키가 없었다(검색은 승인된 출처가 있는 행만 쓴다). 그 대학 수시 요강을 출처로 단다.
+SUSI_DOC = {'SNU': 'doc_snu_2027_susi', 'YONSEI': 'doc_yon_2027_susi', 'SKKU': 'doc_skku_2027_susi', 'KOREA': 'doc_korea_2027_susi',
+            'HANYANG': 'doc_hanyang_2027_susi', 'KHU': 'doc_khu_2027_susi', 'INHA': 'doc_inha_2027_susi'}
+doc_keys = {d['document_key'] for d in docs}
+for r in seed['ipsi_schedules']:
+    if not r.get('source_document_key') and r.get('round_type') == 'SUSI' and SUSI_DOC.get(r['university_code']) in doc_keys:
+        r['source_document_key'] = SUSI_DOC[r['university_code']]
+missing = [r for r in seed['ipsi_schedules'] if not r.get('source_document_key')]
+if missing:
+    raise SystemExit('출처 자료 키가 없는 일정 %d건: %s' % (len(missing), missing[0]))
+
+# 이 시드가 다루는 대학은 시드가 최신본이다(적재기가 같은 대학의 예전 행을 보관 처리). 수시·정시 원문을 모두 정리한 대학만.
+seed['authoritative_universities'] = sorted({u['university_code'] for u in seed['ipsi_universities']})
+
 counts = {
     'universities': len(seed['ipsi_universities']),
     'documents': len(docs),
@@ -343,6 +364,7 @@ counts = {
     'admission_types': len(seed['ipsi_admission_types']),
     'schedules': len(seed['ipsi_schedules']),
     'archive_schedules': len(seed.get('archive_schedules', [])),
+    'authoritative_universities': len(seed['authoritative_universities']),
     'prior_results': 0,
     'approved': 0,
     'verification_status_all': 'NORMALIZED'}
