@@ -4,7 +4,7 @@
 스키마(docs/schema V1064~V1067) 컬럼명을 따른다. 검증状态는 전부 NORMALIZED —
 REVIEW/APPROVED 승격은 육안 대조·승인 절차通过后에야 가능(상담 검색 게이트 유지).
 """
-import io, json, os, datetime
+import io, json, os, datetime, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOW = datetime.datetime.now().astimezone().isoformat(timespec='seconds')
@@ -353,6 +353,26 @@ for r in seed['ipsi_schedules']:
 missing = [r for r in seed['ipsi_schedules'] if not r.get('source_document_key')]
 if missing:
     raise SystemExit('출처 자료 키가 없는 일정 %d건: %s' % (len(missing), missing[0]))
+# 자료 제목에 대학 이름을 넣는다. "2027학년도 수시모집 모집요강"처럼 흔한 제목은 대학끼리 겹쳐 출처가 헷갈리고,
+# 예전 적재기는 제목만으로 같은 자료를 찾아 다른 대학 자료에 연결했다.
+_univ_name = {u['university_code']: u['name'] for u in seed['ipsi_universities']}
+for d in seed['ipsi_documents']:
+    code = d['document_key'].split('_')[1].upper()
+    name = _univ_name.get(code) or _univ_name.get({'YON': 'YONSEI'}.get(code, code))
+    if not name:
+        raise SystemExit('자료 키의 대학 코드를 찾지 못함: %s' % d['document_key'])
+    base = re.sub(r'\(.*?\)', '', name).strip()
+    if base not in d['document_name'] and base.replace('학교', '') not in d['document_name']:
+        d['document_name'] = base + ' ' + d['document_name']
+_titles = [(d['document_key'].split('_')[1].upper(), d['document_name']) for d in seed['ipsi_documents']]
+_dup_titles = sorted({t for c, t in _titles if sum(1 for c2, t2 in _titles if t2 == t and c2 != c)})
+if _dup_titles:
+    raise SystemExit('여러 대학이 같은 자료 제목을 씀: %s' % _dup_titles[0])
+
+# 적재기는 일정 제목을 "item (type_name)"으로 만들고 DB 열은 200자다. 넘으면 적재 전체가 실패하므로 여기서 막는다.
+too_long = [r for r in seed['ipsi_schedules'] if len('%s (%s)' % (r.get('item') or '', r.get('type_name') or '')) > 200]
+if too_long:
+    raise SystemExit('일정 제목(item + type_name)이 200자를 넘는 행 %d건: %s %s' % (len(too_long), too_long[0]['university_code'], too_long[0]['item'][:60]))
 
 # 이 시드가 다루는 대학은 시드가 최신본이다(적재기가 같은 대학의 예전 행을 보관 처리). 수시·정시 원문을 모두 정리한 대학만.
 seed['authoritative_universities'] = sorted({u['university_code'] for u in seed['ipsi_universities']})
