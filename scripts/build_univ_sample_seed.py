@@ -4,7 +4,7 @@
 스키마(docs/schema V1064~V1067) 컬럼명을 따른다. 검증状态는 전부 NORMALIZED —
 REVIEW/APPROVED 승격은 육안 대조·승인 절차通过后에야 가능(상담 검색 게이트 유지).
 """
-import io, json, os, datetime
+import io, json, os, datetime, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOW = datetime.datetime.now().astimezone().isoformat(timespec='seconds')
@@ -353,14 +353,82 @@ for r in seed['ipsi_schedules']:
 missing = [r for r in seed['ipsi_schedules'] if not r.get('source_document_key')]
 if missing:
     raise SystemExit('출처 자료 키가 없는 일정 %d건: %s' % (len(missing), missing[0]))
+# 자료 제목에 대학 이름을 넣는다. "2027학년도 수시모집 모집요강"처럼 흔한 제목은 대학끼리 겹쳐 출처가 헷갈리고,
+# 예전 적재기는 제목만으로 같은 자료를 찾아 다른 대학 자료에 연결했다.
+_univ_name = {u['university_code']: u['name'] for u in seed['ipsi_universities']}
+for d in seed['ipsi_documents']:
+    code = d['document_key'].split('_')[1].upper()
+    name = _univ_name.get(code) or _univ_name.get({'YON': 'YONSEI'}.get(code, code))
+    if not name:
+        raise SystemExit('자료 키의 대학 코드를 찾지 못함: %s' % d['document_key'])
+    base = re.sub(r'\(.*?\)', '', name).strip()
+    if base not in d['document_name'] and base.replace('학교', '') not in d['document_name']:
+        d['document_name'] = base + ' ' + d['document_name']
+_titles = [(d['document_key'].split('_')[1].upper(), d['document_name']) for d in seed['ipsi_documents']]
+_dup_titles = sorted({t for c, t in _titles if sum(1 for c2, t2 in _titles if t2 == t and c2 != c)})
+if _dup_titles:
+    raise SystemExit('여러 대학이 같은 자료 제목을 씀: %s' % _dup_titles[0])
+
+# 적재기는 일정 제목을 "item (type_name)"으로 만들고 DB 열은 200자다. 넘으면 적재 전체가 실패하므로 여기서 막는다.
+too_long = [r for r in seed['ipsi_schedules'] if len('%s (%s)' % (r.get('item') or '', r.get('type_name') or '')) > 200]
+if too_long:
+    raise SystemExit('일정 제목(item + type_name)이 200자를 넘는 행 %d건: %s %s' % (len(too_long), too_long[0]['university_code'], too_long[0]['item'][:60]))
 
 # 이 시드가 다루는 대학은 시드가 최신본이다(적재기가 같은 대학의 예전 행을 보관 처리). 수시·정시 원문을 모두 정리한 대학만.
 seed['authoritative_universities'] = sorted({u['university_code'] for u in seed['ipsi_universities']})
+
+# 유튜브 영상 분석(data/youtube) → youtube_knowledge. 공식 사실이 아닌 전문가 해석이라 적재기가 sourceClass=YOUTUBE로
+# 따로 두고, 상담 답변은 "참고 — 유튜브 전문가 해석(공식 자료 아님)" 단락으로만 쓴다(analyses.json usage_rules).
+# - OUTDATED(시안·예고 단계 정보)는 넣지 않는다.
+# - confidence=LOW는 개인 배치(합격 판단)에 쓰지 않는 규칙이라 넣지 않는다.
+# - 모든 항목이 영상 설명·챕터 라벨 기반 복원(speech_verified=false)임을 본문에 밝힌다.
+YT_DIR = os.path.join(ROOT, 'data', 'youtube')
+YT_LABEL = {'EXPERT_ANALYSIS': '전문가 해석', 'STRATEGY': '전략', 'PREDICTION': '전망', 'DISPUTED': '의견 갈림',
+            'OFFICIAL_FACT': '공식 발표 해설'}
+YT_BASIS = {'AS_PUBLISHED_TEXT': '채널이 공개한 글 그대로', 'INFERRED_FROM_TIMELINE_LABEL': '영상 타임라인 라벨 기반 복원',
+            'INFERRED_FROM_DESCRIPTION_SUMMARY': '영상 설명란 요약 기반 복원', 'INFERRED_FROM_METADATA': '영상 메타데이터 기반 복원',
+            'INFERRED_FROM_CHAPTER_LABEL': '챕터 라벨 기반 복원'}
+youtube_items = []
+if os.path.isdir(YT_DIR):
+    _videos = {v['video_id']: v for v in json.load(io.open(os.path.join(YT_DIR, 'videos.json'), encoding='utf-8'))['videos']}
+    _topics = {t['topic_id']: t['name'] for t in json.load(io.open(os.path.join(YT_DIR, 'topics.json'), encoding='utf-8'))['topics']}
+    for a in json.load(io.open(os.path.join(YT_DIR, 'analyses.json'), encoding='utf-8'))['analyses']:
+        cls = a.get('classification')
+        if cls not in YT_LABEL or a.get('confidence') == 'LOW':
+            continue
+        v = _videos.get(a['video_id'], {})
+        label = YT_LABEL[cls]
+        channel = v.get('channel') or '채널 미상'
+        claim = a['claim'].strip()
+        couns = a.get('counseling') or {}
+        ref = a.get('official_ref') or {}
+        lines = ['분류: %s — 공식 모집요강·발표가 아닌 유튜브 채널의 해석' % label,
+                 '대상 학년도: %s학년도' % a['academic_year'],
+                 '주장: ' + claim]
+        if a.get('evidence'): lines.append('채널이 든 근거: ' + a['evidence'])
+        if couns.get('use'): lines.append('상담 활용: ' + couns['use'])
+        if couns.get('caution'): lines.append('주의: ' + couns['caution'])
+        if ref.get('status'): lines.append('공식 자료 대조: %s%s' % (ref['status'], (' — ' + ref['note']) if ref.get('note') else ''))
+        presenter = ' / '.join(x for x in [v.get('presenter'), v.get('presenter_role')] if x)
+        lines.append('출처 영상: %s「%s」(%s)%s' % (channel, v.get('title', ''), v.get('published_at') or '게시일 미상',
+                                              (' 진행 ' + presenter) if presenter else ''))
+        lines.append('확인 수준: %s, 발언 직접 확인 안 함, 신뢰도 %s' % (YT_BASIS.get(a.get('evidence_basis'), a.get('evidence_basis') or '미상'), a.get('confidence')))
+        tags = [_topics.get(t, t) for t in a.get('topics', [])] + (a.get('entities') or {}).get('institutions', []) \
+               + couns.get('grades', []) + couns.get('bands', [])
+        url = v.get('url')
+        t0 = (a.get('anchor') or {}).get('t0')
+        if url and isinstance(t0, int):
+            url = url + '&t=%d' % t0
+        youtube_items.append({'id': a['id'], 'academic_year': a['academic_year'],
+                              'title': ('[%s] %s: %s' % (label, channel, claim))[:290],
+                              'content': '\n'.join(lines), 'tags': ' '.join(tags), 'source_url': url})
+seed['youtube_knowledge'] = youtube_items
 
 counts = {
     'universities': len(seed['ipsi_universities']),
     'documents': len(docs),
     'departments': len(seed['ipsi_departments']),
+    'youtube_knowledge': len(youtube_items),
     'admission_types': len(seed['ipsi_admission_types']),
     'schedules': len(seed['ipsi_schedules']),
     'archive_schedules': len(seed.get('archive_schedules', [])),
