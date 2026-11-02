@@ -206,13 +206,30 @@ import glob
 CODE_BY_KEY = {'snu': 'SNU', 'yonsei': 'YONSEI', 'skku': 'SKKU', 'korea': 'KOREA',
                'hanyang': 'HANYANG', 'khu': 'KHU', 'inha': 'INHA'}
 
+# 확대 대학 등록부: data/meta/univ_registry.json {"universities":[{"key","name","establishment_type","region","admission_office_url","adiga_unvCd"}]}
+# 대학 코드는 key 대문자(적재기가 자료 키 doc_<key>_... 에서 대학을 찾는 규칙과 같다).
+REG_PATH = os.path.join(ROOT, 'data', 'meta', 'univ_registry.json')
+if os.path.exists(REG_PATH):
+    for u in json.load(io.open(REG_PATH, encoding='utf-8'))['universities']:
+        if u['key'] in CODE_BY_KEY:
+            continue
+        code = u['key'].upper()
+        CODE_BY_KEY[u['key']] = code
+        seed['ipsi_universities'].append(dict(
+            code=u['key'], university_code=code, name=u['name'], establishment_type=u.get('establishment_type'),
+            region=u.get('region', '서울'), admission_office_url=u.get('admission_office_url'),
+            adiga_unvCd=u.get('adiga_unvCd'), verification_status='NORMALIZED'))
+
 
 def jeongsi_files():
-    for path in sorted(glob.glob(os.path.join(S, '*_jeongsi*.json'))):
+    # 신규 대학 수시 전체(*_susi_full.json)를 먼저 넣어야 정시 학과 인원이 같은 학과 행에 합쳐진다.
+    paths = sorted(glob.glob(os.path.join(S, '*_susi_full.json'))) + sorted(glob.glob(os.path.join(S, '*_jeongsi*.json')))
+    for path in paths:
         name = os.path.basename(path)
         key = name.split('_')[0]
-        if key in CODE_BY_KEY:
-            yield key, name, json.load(io.open(path, encoding='utf-8'))
+        if key not in CODE_BY_KEY:
+            raise SystemExit('등록부에 없는 대학 파일: %s (data/meta/univ_registry.json에 추가 필요)' % name)
+        yield key, name, json.load(io.open(path, encoding='utf-8'))
 
 
 def method_text(t):
@@ -224,9 +241,9 @@ def method_text(t):
 MERGED = set()  # 같은 이름의 학과(예: 서울대 '광역' 2개)는 원문 순서대로 하나씩 짝짓는다.
 
 
-def merge_department(code, year, dept, dok):
+def merge_department(code, year, dept, dok, label='정시'):
     counts = {k: v for k, v in dept['counts_by_type'].items()}
-    counts['정시 합계'] = dept.get('total', sum(v for v in counts.values() if isinstance(v, int)))
+    counts[label + ' 합계'] = dept.get('total', sum(v for v in counts.values() if isinstance(v, int)))
     for idx, row in enumerate(seed['ipsi_departments']):
         if idx in MERGED:
             continue
@@ -288,6 +305,8 @@ for key, name, j in jeongsi_files():
     d = j['document']
     year = d['applicable_academic_year']
     dok = 'doc_' + name[:-5]
+    susi = name.endswith('_susi_full.json')
+    round_type = 'SUSI' if susi else 'JEONGSI'
     docs.append({
         'document_key': dok, 'institution_name': d['institution_name'], 'document_name': d['document_name'],
         'source_url': d.get('source_url'), 'file_url': d.get('file_url'), 'applicable_academic_year': year,
@@ -297,8 +316,10 @@ for key, name, j in jeongsi_files():
         'note': '원문 전문은 git 미저장(data/raw). 구조화 행만 저장.'})
     for t in j.get('admission_types', []):
         seed['ipsi_admission_types'].append({
-            'university_code': code, 'academic_year': year, 'round_type': 'JEONGSI',
-            'type_name': t['name'], 'type_category': '정시' + ('(' + t['group'] + '군)' if t.get('group') else ''),
+            'university_code': code, 'academic_year': year, 'round_type': round_type,
+            'type_name': t['name'],
+            'type_category': (t.get('category') or t['name'].split('(')[0].strip()) if susi
+            else '정시' + ('(' + t['group'] + '군)' if t.get('group') else ''),
             'recruitment_count': t.get('recruitment_count'), 'eligibility': t.get('eligibility'),
             'student_record_method': method_text(t), 'min_academic_standard': t.get('csat_minimum'),
             'submission_documents': t.get('submission_documents') or None,
@@ -306,14 +327,14 @@ for key, name, j in jeongsi_files():
             'institution_name': d['institution_name'], 'published_at': d.get('published_at'),
             'collected_at': d.get('collected_at', NOW), 'verification_status': 'NORMALIZED'})
     for dept in j.get('departments', []):
-        merge_department(code, year, dept, dok)
+        merge_department(code, year, dept, dok, '수시' if susi else '정시')
     for it in j.get('schedules', []):
         seed['ipsi_schedules'].append({
-            'university_code': code, 'academic_year': year, 'round_type': 'JEONGSI',
-            'type_name': it.get('type_name') or '정시 전 전형', 'item': it['item'], 'date': it['date'],
+            'university_code': code, 'academic_year': year, 'round_type': round_type,
+            'type_name': it.get('type_name') or ('전 전형' if susi else '정시 전 전형'), 'item': it['item'], 'date': it['date'],
             'source_document_key': dok, 'source_url': d.get('source_url'), 'verification_status': 'NORMALIZED'})
     for g in j.get('gaps', []):
-        seed['gaps'].append('[%s 정시] %s' % (code, g))
+        seed['gaps'].append('[%s %s] %s' % (code, '수시' if susi else '정시', g))
 
 counts = {
     'universities': len(seed['ipsi_universities']),

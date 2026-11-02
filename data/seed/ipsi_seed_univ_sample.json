@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T02:27:31+00:00",
+ "generated_at": "2026-11-02T02:41:04+00:00",
  "gate": "verification_status=NORMALIZED — APPROVED전까지 상담 검색 미노출",
  "ipsi_universities": [
   {
@@ -117,7 +117,7 @@
    "file_url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
    "applicable_academic_year": 2027,
    "published_at": "2026-05-29",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED",
    "redistribution": "METADATA_PRIORITY",
    "store_fulltext": false,
@@ -159,7 +159,7 @@
    "file_url": "https://admission.skku.edu/upload/guide/20260813104526BBPE44.pdf",
    "applicable_academic_year": 2027,
    "published_at": "2026-08-13",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED",
    "redistribution": "METADATA_PRIORITY",
    "store_fulltext": false,
@@ -173,7 +173,7 @@
    "file_url": "https://oku.korea.ac.kr/attach/202605/1780023076409_0.pdf",
    "applicable_academic_year": 2027,
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED",
    "redistribution": "METADATA_PRIORITY",
    "store_fulltext": false,
@@ -187,7 +187,7 @@
    "file_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "applicable_academic_year": 2027,
    "published_at": "2026-05~09(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED",
    "redistribution": "METADATA_PRIORITY",
    "store_fulltext": false,
@@ -201,7 +201,7 @@
    "file_url": "https://iphak.khu.ac.kr (khuiphakstorage 공식 PDF, 2026.5.13 게시 최종본)",
    "applicable_academic_year": 2027,
    "published_at": "2026-05~09(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED",
    "redistribution": "METADATA_PRIORITY",
    "store_fulltext": false,
@@ -215,7 +215,7 @@
    "file_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "applicable_academic_year": 2027,
    "published_at": "2026-05~09(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED",
    "redistribution": "METADATA_PRIORITY",
    "store_fulltext": false,
@@ -14210,7 +14210,7 @@
    "source_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
    "institution_name": "고려대학교 입학처",
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14227,7 +14227,7 @@
    "source_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
    "institution_name": "고려대학교 입학처",
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14244,7 +14244,7 @@
    "source_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
    "institution_name": "고려대학교 입학처",
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14261,7 +14261,7 @@
    "source_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
    "institution_name": "고려대학교 입학처",
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14278,7 +14278,7 @@
    "source_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
    "institution_name": "고려대학교 입학처",
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14295,7 +14295,7 @@
    "source_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
    "institution_name": "고려대학교 입학처",
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14312,7 +14312,7 @@
    "source_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
    "institution_name": "고려대학교 입학처",
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14329,7 +14329,7 @@
    "source_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
    "institution_name": "고려대학교 입학처",
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14346,7 +14346,7 @@
    "source_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
    "institution_name": "고려대학교 입학처",
    "published_at": "2026-05",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14363,7 +14363,7 @@
    "source_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "institution_name": "한양대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14380,7 +14380,7 @@
    "source_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "institution_name": "한양대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14397,7 +14397,7 @@
    "source_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "institution_name": "한양대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14414,7 +14414,7 @@
    "source_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "institution_name": "한양대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14431,7 +14431,7 @@
    "source_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "institution_name": "한양대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14448,7 +14448,7 @@
    "source_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "institution_name": "한양대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14465,7 +14465,7 @@
    "source_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "institution_name": "한양대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14482,7 +14482,7 @@
    "source_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "institution_name": "한양대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14499,7 +14499,7 @@
    "source_url": "https://go.hanyang.ac.kr (pdfDown.do?menu=mojib&file_no=502&type=pdf)",
    "institution_name": "한양대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14516,7 +14516,7 @@
    "source_url": "https://iphak.khu.ac.kr (khuiphakstorage 공식 PDF, 2026.5.13 게시 최종본)",
    "institution_name": "경희대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14533,7 +14533,7 @@
    "source_url": "https://iphak.khu.ac.kr (khuiphakstorage 공식 PDF, 2026.5.13 게시 최종본)",
    "institution_name": "경희대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14550,7 +14550,7 @@
    "source_url": "https://iphak.khu.ac.kr (khuiphakstorage 공식 PDF, 2026.5.13 게시 최종본)",
    "institution_name": "경희대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14567,7 +14567,7 @@
    "source_url": "https://iphak.khu.ac.kr (khuiphakstorage 공식 PDF, 2026.5.13 게시 최종본)",
    "institution_name": "경희대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14584,7 +14584,7 @@
    "source_url": "https://iphak.khu.ac.kr (khuiphakstorage 공식 PDF, 2026.5.13 게시 최종본)",
    "institution_name": "경희대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14601,7 +14601,7 @@
    "source_url": "https://iphak.khu.ac.kr (khuiphakstorage 공식 PDF, 2026.5.13 게시 최종본)",
    "institution_name": "경희대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14618,7 +14618,7 @@
    "source_url": "https://iphak.khu.ac.kr (khuiphakstorage 공식 PDF, 2026.5.13 게시 최종본)",
    "institution_name": "경희대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14635,7 +14635,7 @@
    "source_url": "https://iphak.khu.ac.kr (khuiphakstorage 공식 PDF, 2026.5.13 게시 최종본)",
    "institution_name": "경희대학교(서울)",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14652,7 +14652,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14669,7 +14669,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14686,7 +14686,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14703,7 +14703,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14720,7 +14720,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14737,7 +14737,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14754,7 +14754,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14771,7 +14771,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14788,7 +14788,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14805,7 +14805,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14822,7 +14822,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14839,7 +14839,7 @@
    "source_url": "https://admission.inha.ac.kr (FR_SVC/FileDownload.do 202609/1789105136637_0.pdf)",
    "institution_name": "인하대학교",
    "published_at": "2026(요강별 상이)",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED"
   },
   {
@@ -14854,7 +14854,7 @@
    "source_url": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
    "institution_name": "연세대학교",
    "published_at": "2026-04",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED",
    "recruitment_count": 981,
    "eligibility": "국내·외 고등학교 졸업자(2028년 2월 졸업예정자 포함) 또는 법령에 의하여 고등학교 졸업 이상의 학력이 있다고 인정된 자(고등학교 졸업학력 검정고시 합격자 포함). 국내 고교 출신자가 언더우드국제대학에 지원하려면 종합인재형으로 지원"
@@ -14871,7 +14871,7 @@
    "source_url": "https://www2.yonsei.ac.kr/entrance/plan/2028_plan.pdf",
    "institution_name": "연세대학교",
    "published_at": "2026-04",
-   "collected_at": "2026-11-02T02:27:31+00:00",
+   "collected_at": "2026-11-02T02:41:04+00:00",
    "verification_status": "NORMALIZED",
    "recruitment_count": 375,
    "eligibility": "일반 트랙과 국제 트랙으로 구분 선발. [일반] 국내·외 고등학교 졸업자(2028년 2월 졸업예정자 포함) 또는 법령에 의하여 고등학교 졸업 이상의 학력이 있다고 인정된 자(검정고시 합격자 포함). [국제] 외국 소재 고등학교 졸업자(2028년 3월 이전 졸업예정자 포함) / 특별법에 의한 국제학교 졸업자로서 국내 고교 학력 인정을 받은 자 / 국내 소재 외국교육기관·외국인학교·특별법에 의한 국제학교 졸업자(2028년 2월 졸업예정자 포함)로서 국내 고교 졸업학력 검정고시 합격자 / 국내 고교 졸업학력 검정고시 합격자. 글로벌인재학부는 외국 소재 고교 졸업(예정)자만 지원 가능. 국내 고교 출신자의 언더우드국제대학 지원은 종합인재형으로"
