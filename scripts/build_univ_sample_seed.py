@@ -377,10 +377,58 @@ if too_long:
 # 이 시드가 다루는 대학은 시드가 최신본이다(적재기가 같은 대학의 예전 행을 보관 처리). 수시·정시 원문을 모두 정리한 대학만.
 seed['authoritative_universities'] = sorted({u['university_code'] for u in seed['ipsi_universities']})
 
+# 유튜브 영상 분석(data/youtube) → youtube_knowledge. 공식 사실이 아닌 전문가 해석이라 적재기가 sourceClass=YOUTUBE로
+# 따로 두고, 상담 답변은 "참고 — 유튜브 전문가 해석(공식 자료 아님)" 단락으로만 쓴다(analyses.json usage_rules).
+# - OUTDATED(시안·예고 단계 정보)는 넣지 않는다.
+# - confidence=LOW는 개인 배치(합격 판단)에 쓰지 않는 규칙이라 넣지 않는다.
+# - 모든 항목이 영상 설명·챕터 라벨 기반 복원(speech_verified=false)임을 본문에 밝힌다.
+YT_DIR = os.path.join(ROOT, 'data', 'youtube')
+YT_LABEL = {'EXPERT_ANALYSIS': '전문가 해석', 'STRATEGY': '전략', 'PREDICTION': '전망', 'DISPUTED': '의견 갈림',
+            'OFFICIAL_FACT': '공식 발표 해설'}
+YT_BASIS = {'AS_PUBLISHED_TEXT': '채널이 공개한 글 그대로', 'INFERRED_FROM_TIMELINE_LABEL': '영상 타임라인 라벨 기반 복원',
+            'INFERRED_FROM_DESCRIPTION_SUMMARY': '영상 설명란 요약 기반 복원', 'INFERRED_FROM_METADATA': '영상 메타데이터 기반 복원',
+            'INFERRED_FROM_CHAPTER_LABEL': '챕터 라벨 기반 복원'}
+youtube_items = []
+if os.path.isdir(YT_DIR):
+    _videos = {v['video_id']: v for v in json.load(io.open(os.path.join(YT_DIR, 'videos.json'), encoding='utf-8'))['videos']}
+    _topics = {t['topic_id']: t['name'] for t in json.load(io.open(os.path.join(YT_DIR, 'topics.json'), encoding='utf-8'))['topics']}
+    for a in json.load(io.open(os.path.join(YT_DIR, 'analyses.json'), encoding='utf-8'))['analyses']:
+        cls = a.get('classification')
+        if cls not in YT_LABEL or a.get('confidence') == 'LOW':
+            continue
+        v = _videos.get(a['video_id'], {})
+        label = YT_LABEL[cls]
+        channel = v.get('channel') or '채널 미상'
+        claim = a['claim'].strip()
+        couns = a.get('counseling') or {}
+        ref = a.get('official_ref') or {}
+        lines = ['분류: %s — 공식 모집요강·발표가 아닌 유튜브 채널의 해석' % label,
+                 '대상 학년도: %s학년도' % a['academic_year'],
+                 '주장: ' + claim]
+        if a.get('evidence'): lines.append('채널이 든 근거: ' + a['evidence'])
+        if couns.get('use'): lines.append('상담 활용: ' + couns['use'])
+        if couns.get('caution'): lines.append('주의: ' + couns['caution'])
+        if ref.get('status'): lines.append('공식 자료 대조: %s%s' % (ref['status'], (' — ' + ref['note']) if ref.get('note') else ''))
+        presenter = ' / '.join(x for x in [v.get('presenter'), v.get('presenter_role')] if x)
+        lines.append('출처 영상: %s「%s」(%s)%s' % (channel, v.get('title', ''), v.get('published_at') or '게시일 미상',
+                                              (' 진행 ' + presenter) if presenter else ''))
+        lines.append('확인 수준: %s, 발언 직접 확인 안 함, 신뢰도 %s' % (YT_BASIS.get(a.get('evidence_basis'), a.get('evidence_basis') or '미상'), a.get('confidence')))
+        tags = [_topics.get(t, t) for t in a.get('topics', [])] + (a.get('entities') or {}).get('institutions', []) \
+               + couns.get('grades', []) + couns.get('bands', [])
+        url = v.get('url')
+        t0 = (a.get('anchor') or {}).get('t0')
+        if url and isinstance(t0, int):
+            url = url + '&t=%d' % t0
+        youtube_items.append({'id': a['id'], 'academic_year': a['academic_year'],
+                              'title': ('[%s] %s: %s' % (label, channel, claim))[:290],
+                              'content': '\n'.join(lines), 'tags': ' '.join(tags), 'source_url': url})
+seed['youtube_knowledge'] = youtube_items
+
 counts = {
     'universities': len(seed['ipsi_universities']),
     'documents': len(docs),
     'departments': len(seed['ipsi_departments']),
+    'youtube_knowledge': len(youtube_items),
     'admission_types': len(seed['ipsi_admission_types']),
     'schedules': len(seed['ipsi_schedules']),
     'archive_schedules': len(seed.get('archive_schedules', [])),
