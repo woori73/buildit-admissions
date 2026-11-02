@@ -242,7 +242,7 @@ def method_text(t):
     return joined or None
 
 
-MERGED = set()  # 같은 이름의 학과(예: 서울대 '광역' 2개)는 원문 순서대로 하나씩 짝짓는다.
+MERGED = set()  # 지금 읽는 파일에서 이미 쓴 학과 행(파일마다 비운다). 같은 이름 학과(서울대 '광역', 을지대 캠퍼스별 학과)는 한 행씩 짝짓는다.
 
 
 def merge_department(code, year, dept, dok, label='정시'):
@@ -276,6 +276,7 @@ def merge_department(code, year, dept, dok, label='정시'):
         'university_code': code, 'academic_year': str(year), 'department_name': dept['department'],
         'college_name': dept.get('college'), 'jeongsi_group': dept.get('group'),
         'counts_by_type': counts, 'source_document_key': dok, 'verification_status': 'NORMALIZED'})
+    MERGED.add(len(seed['ipsi_departments']) - 1)
 
 
 FILL_FIELDS = ('recruitment_count', 'eligibility', 'student_record_method', 'min_academic_standard')
@@ -315,6 +316,7 @@ for path in sorted(glob.glob(os.path.join(S, '*_fill.json'))):
         seed['gaps'].append('[%s 수시 보완] %s' % (code, g))
 
 for key, name, j in jeongsi_files():
+    MERGED.clear()
     code = CODE_BY_KEY[key]
     d = j['document']
     year = d['applicable_academic_year']
@@ -383,6 +385,15 @@ if too_long:
 
 # 이 시드가 다루는 대학은 시드가 최신본이다(적재기가 같은 대학의 예전 행을 보관 처리). 수시·정시 원문을 모두 정리한 대학만.
 seed['authoritative_universities'] = sorted({u['university_code'] for u in seed['ipsi_universities']})
+
+# 전국 확대(u+adiga 코드 키) 대학은 학과명에 붙은 표 주석 기호(★·☆·◆·*·[교직] 등)를 뺀다. 뜻은 각 파일 notes에 있다.
+# (예전에 적재한 대학은 이름이 바뀌면 운영 행이 새로 생기므로 건드리지 않는다.)
+_MARKS = re.compile(r'\s*\[교직\]\s*|[★☆◆◇※●◎○]+|\*+')
+for r in seed['ipsi_departments']:
+    if re.match(r'U\d+$', r['university_code']):
+        cleaned = _MARKS.sub('', r['department_name']).strip()
+        if cleaned and cleaned != r['department_name']:
+            r['department_name'] = cleaned
 
 # 한 대학·학년도 안에 같은 학과명이 남으면(예: 서울대 '광역' — 학부대학·공과대학) 적재기가 이름으로 한 행에 합쳐
 # 한쪽 인원이 사라진다. 단과대가 있으면 이름 뒤에 붙여 구분하고, 그래도 겹치면 빌드를 멈춘다.
