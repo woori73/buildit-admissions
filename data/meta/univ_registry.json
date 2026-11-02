@@ -1855,6 +1855,2854 @@
      "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256530&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000167&searchSyr=2027"
     }
    ]
+  },
+  {
+   "key": "u3",
+   "name": "강원대학교",
+   "establishment_type": "국립",
+   "region": "강원",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000003",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000003&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 강원대학교 춘천·삼척(도계포함)캠퍼스 수시모집요강(안)_업로드용.pdf",
+     "fileId": "00000000000000243390",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243390&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000003&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 강원대학교 춘천·삼척(도계포함)캠퍼스 정시모집요강(안)_업로드용.pdf",
+     "fileId": "00000000000000243391",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243391&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000003&searchSyr=2027"
+    },
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 강원대학교 춘천·삼척(도계포함)캠퍼스 수시모집요강(안).pdf",
+     "fileId": "00000000000000244305",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244305&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000004&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 강원대학교 춘천·삼척(도계포함)캠퍼스 정시모집요강(안)_결재용.pdf",
+     "fileId": "00000000000000244306",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244306&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000004&searchSyr=2027"
+    },
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 강원대학교(강릉캠퍼스·원주캠퍼스) 수시모집요강_게시용.pdf",
+     "fileId": "00000000000000248008",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000248008&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003363&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 강원대학교(강릉캠퍼스·원주캠퍼스) 정시모집요강(심의완료).pdf",
+     "fileId": "00000000000000248009",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000248009&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003363&searchSyr=2027"
+    },
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 강원대학교(강릉캠퍼스·원주캠퍼스) 수시모집요강_게시용.pdf",
+     "fileId": "00000000000000248012",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000248012&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003364&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 강원대학교(강릉캠퍼스·원주캠퍼스) 정시모집요강(심의완료).pdf",
+     "fileId": "00000000000000248013",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000248013&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003364&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u5",
+   "name": "경북대학교",
+   "establishment_type": "국립",
+   "region": "대구",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000005",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000005&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "★ 2027학년도 대학 신입생 수시모집 요강_ 3차수정공고.pdf",
+     "fileId": "00000000000000242989",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242989&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000005&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "★ 2027학년도 대학 정시 모집요강_배포용.pdf",
+     "fileId": "00000000000000242990",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242990&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000005&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u8",
+   "name": "국립공주대학교",
+   "establishment_type": "국립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000008",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000008&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 신입생 모집요강(국립공주대)_26.06.pdf",
+     "fileId": "00000000000000256748",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256748&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000008&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 신입생 모집요강.pdf",
+     "fileId": "00000000000000256749",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256749&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000008&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u9",
+   "name": "국립군산대학교",
+   "establishment_type": "국립",
+   "region": "전북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000009",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000009&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "국립군산대학교 2027학년도 수시모집요강(단면).pdf",
+     "fileId": "00000000000000242949",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242949&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000009&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "국립군산대_2027 정시모집요강-20261002.pdf",
+     "fileId": "00000000000000242950",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242950&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000009&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u10",
+   "name": "국립금오공과대학교",
+   "establishment_type": "국립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000010",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000010&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 모집요강.pdf",
+     "fileId": "00000000000000256927",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256927&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000010&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집 요강.pdf",
+     "fileId": "00000000000000256928",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256928&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000010&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u11",
+   "name": "국립목포대학교",
+   "establishment_type": "국립",
+   "region": "전남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000011",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000011&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 국립목포대학교 신입생 수시모집요강(공지).pdf",
+     "fileId": "00000000000000244173",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244173&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000011&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2. 2027학년도 국립목포대학교 신입생 정시모집요강(안).pdf",
+     "fileId": "00000000000000244174",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244174&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000011&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u12",
+   "name": "국립목포해양대학교",
+   "establishment_type": "국립",
+   "region": "전남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000012",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000012&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 신입생 모집요강.pdf",
+     "fileId": "00000000000000242838",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242838&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000012&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 신입생 모집요강.pdf",
+     "fileId": "00000000000000242839",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242839&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000012&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u13",
+   "name": "국립부경대학교",
+   "establishment_type": "국립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000013",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000013&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 신입생 모집요강 최종본(20260619)업로드.pdf",
+     "fileId": "00000000000000243308",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243308&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000013&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 국립부경대학교 정시 신입생 모집요강(배포용).pdf",
+     "fileId": "00000000000000243309",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243309&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000013&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u14",
+   "name": "부산대학교",
+   "establishment_type": "국립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000014",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000014&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 대학입학전형 부산대학교 수시모집요강(통합).pdf",
+     "fileId": "00000000000000257099",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257099&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000014&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "★2027학년도 대학입학전형 정시모집 요강 1부(통합)_수정_(20261002).pdf",
+     "fileId": "00000000000000257100",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257100&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000014&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u20",
+   "name": "국립순천대학교",
+   "establishment_type": "국립",
+   "region": "전남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000020",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000020&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 모집요강 수정(안)-학폭수정.pdf",
+     "fileId": "00000000000000243016",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243016&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000020&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입생 정시모집 요강(최종).pdf",
+     "fileId": "00000000000000243017",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243017&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000020&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u21",
+   "name": "국립경국대학교",
+   "establishment_type": "국립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000021",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000021&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 수시모집 요강.pdf",
+     "fileId": "00000000000000257807",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257807&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000021&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집 요강 1부.pdf",
+     "fileId": "00000000000000257808",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257808&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000021&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u23",
+   "name": "전남대학교",
+   "establishment_type": "국립",
+   "region": "광주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000023",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000023&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 전남대학교 수시 모집요강_배포용.pdf",
+     "fileId": "00000000000000257031",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257031&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000023&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 전남대학교 정시모집요강(배포용).pdf",
+     "fileId": "00000000000000257032",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257032&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000023&searchSyr=2027"
+    },
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 전남대학교 수시 모집요강_배포용.pdf",
+     "fileId": "00000000000000257406",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257406&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000024&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 전남대학교 정시모집요강(배포용).pdf",
+     "fileId": "00000000000000257407",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257407&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000024&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u29",
+   "name": "충남대학교",
+   "establishment_type": "국립",
+   "region": "대전",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000029",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000029&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 충남대학교 대학입학전형 수시모집요강.pdf",
+     "fileId": "00000000000000237615",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000237615&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000029&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 충남대학교 대학입학전형 정시모집요강.pdf",
+     "fileId": "00000000000000237616",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000237616&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000029&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u30",
+   "name": "충북대학교",
+   "establishment_type": "국립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000030",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000030&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 대학입학전형 수시 신입생 모집요강.pdf",
+     "fileId": "00000000000000242855",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242855&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000030&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 대학입학전형 정시모집 신입생 모집요강(20260910)_수정.pdf",
+     "fileId": "00000000000000242856",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242856&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000030&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u31",
+   "name": "한국교원대학교",
+   "establishment_type": "국립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000031",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000031&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 신입생 모집요강_최종.pdf",
+     "fileId": "00000000000000252047",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000252047&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000031&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(한국교원대학교) 2027학년도 정시 신입생 모집요강.pdf",
+     "fileId": "00000000000000252048",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000252048&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000031&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u33",
+   "name": "국립한국해양대학교",
+   "establishment_type": "국립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000033",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000033&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 수시 모집요강(최종).pdf",
+     "fileId": "00000000000000255136",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255136&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000033&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입생 정시모집 요강.pdf",
+     "fileId": "00000000000000255137",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255137&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000033&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u34",
+   "name": "국립한국교통대학교",
+   "establishment_type": "국립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000034",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000034&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 신입학 모집요강.pdf",
+     "fileId": "00000000000000243055",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243055&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000034&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "★2027학년도 정시 신입학 모집요강.pdf",
+     "fileId": "00000000000000243056",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243056&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000034&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u39",
+   "name": "국립한밭대학교",
+   "establishment_type": "국립",
+   "region": "대전",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000039",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000039&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 수시모집요강.pdf",
+     "fileId": "00000000000000257177",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257177&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000039&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 국립한밭대학교 신입생 정시 모집요강.pdf",
+     "fileId": "00000000000000257178",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257178&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000039&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u53",
+   "name": "건국대학교(글로컬캠퍼스)",
+   "establishment_type": "사립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000053",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000053&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 건국대학교 글로컬캠퍼스 수시모집요강.pdf",
+     "fileId": "00000000000000247758",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000247758&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000053&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 건국대학교 글로컬캠퍼스 정시모집요강(공지).pdf",
+     "fileId": "00000000000000247759",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000247759&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000053&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u54",
+   "name": "건양대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000055",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000055&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 건양대학교 수시전형 모집요강_심의반영.pdf",
+     "fileId": "00000000000000257545",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257545&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000055&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 건양대학교 정시전형 모집요강.pdf",
+     "fileId": "00000000000000257546",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257546&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000055&searchSyr=2027"
+    },
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 건양대학교 수시전형 모집요강_심의반영.pdf",
+     "fileId": "00000000000000257542",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257542&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000054&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 건양대학교 정시전형 모집요강.pdf",
+     "fileId": "00000000000000257543",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257543&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000054&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u61",
+   "name": "대구한의대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000061",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000061&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "붙임. 2027학년도 신입생 수시 모집요강(260901최종).pdf",
+     "fileId": "00000000000000257996",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257996&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000061&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "붙임1. 2027학년도 정시모집 신입생 모집요강 (최종본).pdf",
+     "fileId": "00000000000000257997",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257997&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000061&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u62",
+   "name": "경성대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000062",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000062&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도_경성대학교_수시_모집요강.pdf",
+     "fileId": "00000000000000257303",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257303&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000062&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 경성대학교 정시 모집요강.pdf",
+     "fileId": "00000000000000257304",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257304&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000062&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u64",
+   "name": "경일대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000064",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000064&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "★ 2027 수시 모집요강_업로드형.pdf",
+     "fileId": "00000000000000255226",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255226&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000064&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027_정시_모집요강_업로드형_수정_최종.pdf",
+     "fileId": "00000000000000255227",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255227&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000064&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u65",
+   "name": "신경주대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000065",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000065&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집요강.pdf",
+     "fileId": "00000000000000242935",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242935&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000065&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집요강.pdf",
+     "fileId": "00000000000000242936",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242936&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000065&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u68",
+   "name": "계명대학교",
+   "establishment_type": "사립",
+   "region": "대구",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000068",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000068&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "붙임.  2027학년도 수시모집요강_20260708_최종.pdf",
+     "fileId": "00000000000000243040",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243040&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000068&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "붙임. 2027학년도 정시모집요강(배포용 문서).pdf",
+     "fileId": "00000000000000243041",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243041&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000068&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u70",
+   "name": "고려대학교(세종캠퍼스)",
+   "establishment_type": "사립",
+   "region": "세종",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000070",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000070&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 고려대학교 세종캠퍼스 수시모집요강.pdf",
+     "fileId": "00000000000000257700",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257700&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000070&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 고려대학교 세종캠퍼스 정시모집요강_최종.pdf",
+     "fileId": "00000000000000257701",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257701&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000070&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u71",
+   "name": "고신대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000071",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000071&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 모집요강.pdf",
+     "fileId": "00000000000000243095",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243095&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000071&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집 모집요강.pdf",
+     "fileId": "00000000000000243096",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243096&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000071&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u72",
+   "name": "가톨릭관동대학교",
+   "establishment_type": "사립",
+   "region": "강원",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000072",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000072&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "(가톨릭관동대)2027학년도 수시모집요강_260529_ASSIST업로드용_.pdf",
+     "fileId": "00000000000000245719",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000245719&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000072&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(가톨릭관동대)2027학년도 정시모집요강_260831.pdf",
+     "fileId": "00000000000000245720",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000245720&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000072&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u73",
+   "name": "광신대학교",
+   "establishment_type": "사립",
+   "region": "광주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000073",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000073&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 모집요강(안).pdf",
+     "fileId": "00000000000000237435",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000237435&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000073&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집 모집요강(안).pdf",
+     "fileId": "00000000000000237436",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000237436&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000073&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u75",
+   "name": "광주가톨릭대학교",
+   "establishment_type": "사립",
+   "region": "전남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000075",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000075&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 요강.pdf",
+     "fileId": "00000000000000256258",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256258&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000075&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u76",
+   "name": "광주여자대학교",
+   "establishment_type": "사립",
+   "region": "광주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000076",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000076&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 모집요강(안).pdf",
+     "fileId": "00000000000000247286",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000247286&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000076&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강(안).pdf",
+     "fileId": "00000000000000247287",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000247287&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000076&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u80",
+   "name": "극동대학교",
+   "establishment_type": "사립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000080",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000080&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 모집요강-최종.pdf",
+     "fileId": "00000000000000252398",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000252398&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000080&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강.pdf",
+     "fileId": "00000000000000252399",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000252399&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000080&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u81",
+   "name": "나사렛대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000081",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000081&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 모집요강_v11.pdf",
+     "fileId": "00000000000000254716",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000254716&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000081&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강_ver6.pdf",
+     "fileId": "00000000000000254717",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000254717&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000081&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u87",
+   "name": "대구예술대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000087",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000087&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도수시모집요강초안-대교협업로드.pdf",
+     "fileId": "00000000000000256702",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256702&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000087&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도정시모집요강초안.pdf",
+     "fileId": "00000000000000256703",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256703&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000087&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u92",
+   "name": "세한대학교",
+   "establishment_type": "사립",
+   "region": "전남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000092",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000092&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 세한대학교 수시모집 모집요강.pdf",
+     "fileId": "00000000000000242922",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242922&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000092&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 세한대학교 정시 모집요강.pdf",
+     "fileId": "00000000000000242923",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242923&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000092&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u93",
+   "name": "대신대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000093",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000093&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027 수시모집요강.pdf",
+     "fileId": "00000000000000243052",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243052&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000093&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027 정시모집요강.pdf",
+     "fileId": "00000000000000243053",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243053&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000093&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u94",
+   "name": "대전가톨릭대학교",
+   "establishment_type": "사립",
+   "region": "세종",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000094",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000094&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027 수시 모집요강-수정본.pdf",
+     "fileId": "00000000000000256547",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256547&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000094&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027 정시 모집요강.pdf",
+     "fileId": "00000000000000256548",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256548&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000094&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u95",
+   "name": "대전대학교",
+   "establishment_type": "사립",
+   "region": "대전",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000095",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000095&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입학 수시모집 모집요강(홈페이지 게시용).pdf",
+     "fileId": "00000000000000257691",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257691&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000095&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입학 정시모집 모집요강(최종).pdf",
+     "fileId": "00000000000000257692",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257692&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000095&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u103",
+   "name": "동서대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000103",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000103&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027 동서대 수시모집요강(최종).pdf",
+     "fileId": "00000000000000244507",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244507&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000103&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027 동서대 정시모집요강-0901.pdf",
+     "fileId": "00000000000000244508",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244508&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000103&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u104",
+   "name": "동신대학교",
+   "establishment_type": "사립",
+   "region": "전남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000104",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000104&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 모집요강(안)_20260530.pdf",
+     "fileId": "00000000000000257694",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257694&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000104&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강(안)_20260831★.pdf",
+     "fileId": "00000000000000257695",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257695&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000104&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u105",
+   "name": "동아대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000105",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000105&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 동아대학교 수시모집 신입생 모집요강.pdf",
+     "fileId": "00000000000000242892",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242892&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000105&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 동아대학교 정시모집 신입생 모집요강.pdf",
+     "fileId": "00000000000000242893",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242893&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000105&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u107",
+   "name": "동의대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000107",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000107&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 모집요강(동의대).pdf",
+     "fileId": "00000000000000252168",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000252168&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000107&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 동의대 정시 신입생 모집요강(최종).pdf",
+     "fileId": "00000000000000252169",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000252169&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000107&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u112",
+   "name": "목원대학교",
+   "establishment_type": "사립",
+   "region": "대전",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000112",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000112&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 목원대학교 수시 모집요강.pdf",
+     "fileId": "00000000000000239967",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000239967&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000112&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 목원대학교 정시 모집요강(이월인원 미포함).pdf",
+     "fileId": "00000000000000239968",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000239968&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000112&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u113",
+   "name": "배재대학교",
+   "establishment_type": "사립",
+   "region": "대전",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000113",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000113&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027 배재대학교 수시 모집요강_압축.pdf",
+     "fileId": "00000000000000243046",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243046&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000113&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027 배재대학교 정시 모집요강.pdf",
+     "fileId": "00000000000000243047",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243047&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000113&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u114",
+   "name": "부산가톨릭대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000114",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000114&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입학 수시모집요강.pdf",
+     "fileId": "00000000000000245025",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000245025&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000114&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입학 정시모집요강.pdf",
+     "fileId": "00000000000000245026",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000245026&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000114&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u115",
+   "name": "부산외국어대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000115",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000115&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "(부산외국어대학교)2027학년도 수시 신입생 모집요강.pdf",
+     "fileId": "00000000000000253081",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000253081&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000115&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(부산외국어대학교)2027학년도 정시 신입생 모집요강.pdf",
+     "fileId": "00000000000000253082",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000253082&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000115&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u119",
+   "name": "상지대학교",
+   "establishment_type": "사립",
+   "region": "강원",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000119",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000119&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "붙임1_2027학년도 수시모집 모집요강_최종.pdf",
+     "fileId": "00000000000000256680",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256680&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000119&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(최종)2027학년도 정시모집요강.pdf",
+     "fileId": "00000000000000256681",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256681&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000119&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u128",
+   "name": "서원대학교",
+   "establishment_type": "사립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000128",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000128&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 신입생 모집요강(공시용).pdf",
+     "fileId": "00000000000000242932",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242932&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000128&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집 신입생 모집요강_수정(공시용).pdf",
+     "fileId": "00000000000000242933",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242933&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000128&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u129",
+   "name": "선문대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000129",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000129&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "★2027 선문대학교 수시모집요강 전체본 - 단면.pdf",
+     "fileId": "00000000000000255105",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255105&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000129&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집요강 원고 최종(0831).pdf",
+     "fileId": "00000000000000255106",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255106&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000129&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u137",
+   "name": "세명대학교",
+   "establishment_type": "사립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000137",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000137&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "세명대학교_2027학년도 수시모집요강(0529).pdf",
+     "fileId": "00000000000000251737",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000251737&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000137&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "세명대학교_2027학년도 정시모집요강_260831.pdf",
+     "fileId": "00000000000000251738",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000251738&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000137&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u142",
+   "name": "순천향대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000142",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000142&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입학 수시모집 모집요강.pdf",
+     "fileId": "00000000000000256618",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256618&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000142&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입학 정시모집 모집요강.pdf",
+     "fileId": "00000000000000256619",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256619&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000142&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u144",
+   "name": "신라대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000144",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000144&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "(최종) 27학년도 신라대학교 모집요강.pdf",
+     "fileId": "00000000000000257624",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257624&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000144&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(업로드) 2027 정시모집요강(최초모집인원).pdf",
+     "fileId": "00000000000000257625",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257625&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000144&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u150",
+   "name": "연세대학교(미래캠퍼스)",
+   "establishment_type": "사립",
+   "region": "강원",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000150",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000150&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "[배포용]2027학년도 연세대학교 미래캠퍼스 수시모집요강.pdf",
+     "fileId": "00000000000000242927",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242927&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000150&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 미래캠퍼스 정시모집 요강_최종.pdf",
+     "fileId": "00000000000000242928",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242928&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000150&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u153",
+   "name": "영남신학대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000153",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000153&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집요강.pdf",
+     "fileId": "00000000000000257933",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257933&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000153&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집요강(전형기간자율모집포함).pdf",
+     "fileId": "00000000000000257934",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257934&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000153&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u154",
+   "name": "유원대학교",
+   "establishment_type": "사립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000154",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000154&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "유원대학교 2027학년도 수시모집요강.pdf",
+     "fileId": "00000000000000256846",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256846&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000154&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "유원대학교 2027학년도 정시모집요강.pdf",
+     "fileId": "00000000000000256847",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256847&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000154&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u155",
+   "name": "영산선학대학교",
+   "establishment_type": "사립",
+   "region": "전남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000155",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000155&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도수시모집요강.pdf",
+     "fileId": "00000000000000256222",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256222&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000155&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도_정시모집_모집요강.pdf",
+     "fileId": "00000000000000256223",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256223&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000155&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u157",
+   "name": "우석대학교",
+   "establishment_type": "사립",
+   "region": "전북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000157",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000157&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 모집요강_홈페이지 업로드용.pdf",
+     "fileId": "00000000000000255210",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255210&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000157&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강(안)_최종.pdf",
+     "fileId": "00000000000000255211",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255211&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000157&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u158",
+   "name": "울산대학교",
+   "establishment_type": "사립",
+   "region": "울산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000158",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000158&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도+수시+모집요강 0609.pdf",
+     "fileId": "00000000000000242895",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242895&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000158&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도_정시모집요강_1014.pdf",
+     "fileId": "00000000000000242896",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242896&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000158&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u159",
+   "name": "원광대학교",
+   "establishment_type": "사립",
+   "region": "전북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000159",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000159&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 원광대학교 수시모집요강_low.pdf",
+     "fileId": "00000000000000256240",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256240&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000159&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입학 정시모집 모집요강.pdf",
+     "fileId": "00000000000000256241",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256241&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000159&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u171",
+   "name": "전주대학교",
+   "establishment_type": "사립",
+   "region": "전북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000171",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000171&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 전주대학교 수시 모집요강_assist 업로드.pdf",
+     "fileId": "00000000000000257344",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257344&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000171&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 전주대학교 정시 모집요강.pdf",
+     "fileId": "00000000000000257345",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257345&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000171&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u172",
+   "name": "조선대학교",
+   "establishment_type": "사립",
+   "region": "광주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000172",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000172&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "(최종)2027학년도 조선대학교 수시모집요강.pdf",
+     "fileId": "00000000000000258244",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000258244&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000172&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(최종) 2027학년도 조선대학교 정시모집요강.pdf",
+     "fileId": "00000000000000258245",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000258245&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000172&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u173",
+   "name": "중부대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000173",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000173&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 모집요강_홈페이지 업로드.pdf",
+     "fileId": "00000000000000257248",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257248&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000173&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강(최종)_오탈자 수정 본.pdf",
+     "fileId": "00000000000000257249",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257249&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000173&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u178",
+   "name": "백석대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000178",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000178&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027 수시모집요강.pdf",
+     "fileId": "00000000000000244401",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244401&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000178&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강.pdf",
+     "fileId": "00000000000000244402",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244402&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000178&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u179",
+   "name": "청주대학교",
+   "establishment_type": "사립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000179",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000179&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입학전형 수시모집요강.pdf",
+     "fileId": "00000000000000256989",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256989&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000179&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입학 정시 모집요강(단면).pdf",
+     "fileId": "00000000000000256990",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256990&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000179&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u182",
+   "name": "한국침례신학대학교",
+   "establishment_type": "사립",
+   "region": "대전",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000182",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000182&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 신입생 모집요강.pdf",
+     "fileId": "00000000000000256838",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256838&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000182&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시(다군) 신입생 모집요강.pdf",
+     "fileId": "00000000000000256839",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256839&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000182&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u188",
+   "name": "포항공과대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000188",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000188&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도_POSTECH_모집요강_web.pdf",
+     "fileId": "00000000000000256199",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256199&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000188&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u189",
+   "name": "한국기술교육대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000189",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000189&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 한국기술교육대힉교 수시모집요강.pdf",
+     "fileId": "00000000000000255080",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255080&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000189&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 한국기술교육대학교 정시모집요강.pdf",
+     "fileId": "00000000000000255081",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255081&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000189&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u195",
+   "name": "한남대학교",
+   "establishment_type": "사립",
+   "region": "대전",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000195",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000195&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 한남대학교 수시모집요강_최종.pdf",
+     "fileId": "00000000000000256580",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256580&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000195&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 한남대학교 정시모집요강.pdf",
+     "fileId": "00000000000000256581",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256581&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000195&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u197",
+   "name": "한라대학교",
+   "establishment_type": "사립",
+   "region": "강원",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000197",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000197&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "한라대학교_2027학년도 수시모집 모집요강.pdf",
+     "fileId": "00000000000000252027",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000252027&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000197&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "한라대학교 2027학년도 정시모집 모집요강.pdf",
+     "fileId": "00000000000000252028",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000252028&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000197&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u198",
+   "name": "한림대학교",
+   "establishment_type": "사립",
+   "region": "강원",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000198",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000198&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 한림대학교 수시모집요강(최종)_opt.pdf",
+     "fileId": "00000000000000256533",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256533&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000198&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "최종-한림대학교_2027 정시모집요강 단면_compressed (1).pdf",
+     "fileId": "00000000000000256534",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256534&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000198&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u199",
+   "name": "한서대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000199",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000199&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "한서대학교 2027학년도 수시모집요강.pdf",
+     "fileId": "00000000000000257261",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257261&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000199&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 한서대학교 정시 모집요강.pdf",
+     "fileId": "00000000000000257262",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257262&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000199&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u206",
+   "name": "한일장신대학교",
+   "establishment_type": "사립",
+   "region": "전북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000206",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000206&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 모집요강(260825).pdf",
+     "fileId": "00000000000000258020",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000258020&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000206&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집 모집요강(260915)-수정.pdf",
+     "fileId": "00000000000000258021",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000258021&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000206&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u208",
+   "name": "호남대학교",
+   "establishment_type": "사립",
+   "region": "광주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000208",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000208&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027 신입생 수시 모집요강.pdf",
+     "fileId": "00000000000000256621",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256621&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000208&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027 신입생 정시 모집요강.pdf",
+     "fileId": "00000000000000256622",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256622&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000208&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u209",
+   "name": "호남신학대학교",
+   "establishment_type": "사립",
+   "region": "광주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000209",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000209&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "1.2027학년도수시,전형기간자율(1차)신입생모집요강.pdf",
+     "fileId": "00000000000000245186",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000245186&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000209&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도정시,전형기간자율(2차)신입생모집요강(0825).pdf",
+     "fileId": "00000000000000245187",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000245187&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000209&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u211",
+   "name": "호서대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000211",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000211&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "0. 2027 호서대학교 수시모집 요강(최종).pdf",
+     "fileId": "00000000000000256550",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256550&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000211&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강.pdf",
+     "fileId": "00000000000000256551",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256551&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000211&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u215",
+   "name": "가톨릭꽃동네대학교",
+   "establishment_type": "사립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000215",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000215&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "가톨릭꽃동네대학교 2027학년도 수시 모집요강.pdf",
+     "fileId": "00000000000000257911",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257911&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000215&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "가톨릭꽃동네대학교 2027학년도 정시 모집요강.pdf",
+     "fileId": "00000000000000257912",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257912&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000215&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u216",
+   "name": "남부대학교",
+   "establishment_type": "사립",
+   "region": "광주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000216",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000216&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집요강.pdf",
+     "fileId": "00000000000000257179",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257179&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000216&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집요강.pdf",
+     "fileId": "00000000000000257180",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257180&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000216&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u221",
+   "name": "목포가톨릭대학교",
+   "establishment_type": "사립",
+   "region": "전남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000221",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000221&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 모집요강(수시모집).pdf",
+     "fileId": "00000000000000256894",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256894&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000221&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입생 모집요강(정시모집).pdf",
+     "fileId": "00000000000000256895",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256895&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000221&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u224",
+   "name": "금강대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000224",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000224&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "금강대학교[충남][본교] 2027 수시모집.pdf",
+     "fileId": "00000000000000257878",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257878&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000224&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "금강대학교[충남][본교] 2027학년도 정시모집요강.pdf",
+     "fileId": "00000000000000257879",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257879&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000224&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u228",
+   "name": "예수대학교",
+   "establishment_type": "사립",
+   "region": "전북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000228",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000228&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도_예수대학교_신입학(수시) 모집요강(안)_공지.pdf",
+     "fileId": "00000000000000256761",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256761&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000228&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도_예수대학교_신입학(정시) 모집요강(안)_대교협 업로드.pdf",
+     "fileId": "00000000000000256762",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256762&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000228&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u231",
+   "name": "광주대학교",
+   "establishment_type": "사립",
+   "region": "광주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000231",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000231&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 광주대학교 수시모집요강-최종(공지).pdf",
+     "fileId": "00000000000000247025",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000247025&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000231&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집요강(최종-공지).pdf",
+     "fileId": "00000000000000247026",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000247026&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000231&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u235",
+   "name": "동명대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000235",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000235&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027 동명대학교 수시모집요강_게시용.pdf",
+     "fileId": "00000000000000255198",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255198&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000235&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 동명대학교 정시모집요강(게시용).pdf",
+     "fileId": "00000000000000255199",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255199&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000235&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u238",
+   "name": "대전신학대학교",
+   "establishment_type": "사립",
+   "region": "대전",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000238",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000238&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027입시요강(수시최종).pdf",
+     "fileId": "00000000000000256612",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256612&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000238&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027입시요강(정시).pdf",
+     "fileId": "00000000000000256613",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256613&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000238&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u239",
+   "name": "중원대학교",
+   "establishment_type": "사립",
+   "region": "충북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000239",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000239&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 중원대학교 신입학 수시 모집요강(홈페이지용).pdf",
+     "fileId": "00000000000000258148",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000258148&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000239&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입학 정시모집 요강.pdf",
+     "fileId": "00000000000000258149",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000258149&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000239&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u240",
+   "name": "우송대학교",
+   "establishment_type": "사립",
+   "region": "대전",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000240",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000240&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "(수시)2027학년도 신입학 수시 모집요강(2026.05.23.).pdf",
+     "fileId": "00000000000000256801",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256801&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000240&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(정시)2027학년도 정시모집요강v4_20260831.pdf",
+     "fileId": "00000000000000256802",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256802&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000240&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u241",
+   "name": "김천대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000241",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000241&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 수시·전형기간자율모집 요강(김천대).pdf",
+     "fileId": "00000000000000255155",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255155&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000241&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 가군(전형기간자율모집) 모집요강.pdf",
+     "fileId": "00000000000000255156",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255156&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000241&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u243",
+   "name": "송원대학교",
+   "establishment_type": "사립",
+   "region": "광주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000243",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000243&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 송원대학교 수시모집요강.pdf",
+     "fileId": "00000000000000257444",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257444&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000243&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강.pdf",
+     "fileId": "00000000000000257445",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257445&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000243&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u244",
+   "name": "경운대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000244",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000244&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "경운대학교 2027학년도 수시모집 요강.pdf",
+     "fileId": "00000000000000245581",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000245581&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000244&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집요강(경운대학교).pdf",
+     "fileId": "00000000000000245582",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000245582&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000244&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u245",
+   "name": "남서울대학교",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000245",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000245&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "[남서울대학교]2027학년도 수시모집요강.pdf",
+     "fileId": "00000000000000257687",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257687&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000245&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "[남서울대학교]2027학년도 정시모집요강.pdf",
+     "fileId": "00000000000000257688",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257688&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000245&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u246",
+   "name": "초당대학교",
+   "establishment_type": "사립",
+   "region": "전남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000246",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000246&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 수시 모집요강(최종).pdf",
+     "fileId": "00000000000000256656",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256656&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000246&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입생 정시 모집요강.pdf",
+     "fileId": "00000000000000256657",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256657&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000246&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u2949",
+   "name": "홍익대학교(세종캠퍼스)",
+   "establishment_type": "사립",
+   "region": "세종",
+   "admission_office_url": null,
+   "adiga_unvCd": "0002949",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0002949&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 홍익대학교 수시모집요강F.pdf",
+     "fileId": "00000000000000257512",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257512&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0002949&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 홍익대학교 정시모집요강_260827.pdf",
+     "fileId": "00000000000000257513",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257513&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0002949&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u2959",
+   "name": "상명대학교(천안캠퍼스)",
+   "establishment_type": "사립",
+   "region": "충남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0002959",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0002959&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "천안캠퍼스 2027학년도 수시모집요강.pdf",
+     "fileId": "00000000000000242868",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242868&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0002959&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "천안캠퍼스 2027학년도 정시모집요강.pdf",
+     "fileId": "00000000000000242869",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242869&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0002959&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u3193",
+   "name": "영산대학교",
+   "establishment_type": "사립",
+   "region": "부산",
+   "admission_office_url": null,
+   "adiga_unvCd": "0003193",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0003193&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 모집요강_영산대.pdf",
+     "fileId": "00000000000000257062",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257062&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003193&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집 모집요강_영산대.pdf",
+     "fileId": "00000000000000257063",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257063&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003193&searchSyr=2027"
+    },
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 모집요강_영산대.pdf",
+     "fileId": "00000000000000257085",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257085&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003194&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집 모집요강_영산대.pdf",
+     "fileId": "00000000000000257086",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257086&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003194&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u7",
+   "name": "경상국립대학교",
+   "establishment_type": "국립",
+   "region": "경남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000007",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000007&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "(경상국립대)2027학년도 신입생 수시 모집요강(배포용).pdf",
+     "fileId": "00000000000000243097",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243097&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000007&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(붙임2) 2027학년도 신입생 정시 모집요강.pdf",
+     "fileId": "00000000000000243098",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243098&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000007&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u25",
+   "name": "전북대학교",
+   "establishment_type": "국립",
+   "region": "전북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000025",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000025&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "전북대학교 2027학년도 대입전형 수시 모집요강(안)_26년 8월 수정.pdf",
+     "fileId": "00000000000000257039",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257039&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000025&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "1. 2027학년도 정시 가·나군 대학 신입생 모집요강.pdf",
+     "fileId": "00000000000000257040",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257040&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000025&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u27",
+   "name": "제주대학교",
+   "establishment_type": "국립",
+   "region": "제주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000027",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000027&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집요강(제주대학교)_2026.9.2..pdf",
+     "fileId": "00000000000000243121",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243121&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000027&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집요강(20260901).pdf",
+     "fileId": "00000000000000243122",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243122&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000027&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u28",
+   "name": "국립창원대학교",
+   "establishment_type": "국립",
+   "region": "경남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000028",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000028&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "(창원캠퍼스) 2027학년도 대학입학전형 수시모집 신입생 모집요강(변경7.6).pdf",
+     "fileId": "00000000000000244252",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244252&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000028&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(창원캠퍼스)2027학년도 대학입학전형 정시모집 신입생 모집요강.pdf",
+     "fileId": "00000000000000244253",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244253&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000028&searchSyr=2027"
+    },
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 거창캠퍼스 수시모집 신입생 모집요강(최총_6.25).pdf",
+     "fileId": "00000000000000257385",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257385&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003297&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(거창캠퍼스) 2027학년도 대학입학전형 정시모집 신입생 모집요강.pdf",
+     "fileId": "00000000000000257386",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257386&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003297&searchSyr=2027"
+    },
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "국립창원대학교[경남][제3캠퍼스]_2027_수시모집(1차수).pdf",
+     "fileId": "00000000000000256338",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256338&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003298&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "(남해캠퍼스)2027학년도 대학입학전형 정시모집 신입생 모집요강(8.25)_최종내부결재용.pdf",
+     "fileId": "00000000000000256339",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256339&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0003298&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u59",
+   "name": "경남대학교",
+   "establishment_type": "사립",
+   "region": "경남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000059",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000059&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도_수시모집요강.pdf",
+     "fileId": "00000000000000257833",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257833&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000059&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도_정시모집요강.pdf",
+     "fileId": "00000000000000257834",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000257834&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000059&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u84",
+   "name": "대구대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000084",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000084&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "27학년도 대구대_수시모집요강_V9_웹용단면.pdf",
+     "fileId": "00000000000000242852",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242852&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000084&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "대구대학교[경북][본교] 2027 정시모집요강(0901)_.pdf",
+     "fileId": "00000000000000242853",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242853&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000084&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u88",
+   "name": "대구가톨릭대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000088",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000088&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 대구가톨릭대학교 신입생 수시모집요강(공개).pdf",
+     "fileId": "00000000000000243207",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243207&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000088&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "★ 2027학년도 대구가톨릭대학교 신입생 정시모집요강(대교협 업로드용).pdf",
+     "fileId": "00000000000000243208",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243208&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000088&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u101",
+   "name": "동국대학교(WISE캠퍼스)",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000101",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000101&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 요강(안)_0824.pdf",
+     "fileId": "00000000000000242986",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242986&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000101&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입학 정시 모집요강(안)-2026.08.27..pdf",
+     "fileId": "00000000000000242987",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242987&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000101&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u106",
+   "name": "동양대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000106",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000106&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 동양대학교 수시모집 요강(최종).pdf",
+     "fileId": "00000000000000244728",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244728&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000106&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 동양대학교 정시모집 모집요강.pdf",
+     "fileId": "00000000000000244729",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000244729&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000106&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u151",
+   "name": "영남대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000151",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000151&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집 신입생 모집요강_게시용.pdf",
+     "fileId": "00000000000000243058",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243058&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000151&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집 신입생 모집요강_게시용.pdf",
+     "fileId": "00000000000000243059",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243059&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000151&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u160",
+   "name": "위덕대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000160",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000160&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 수시모집 모집요강.pdf",
+     "fileId": "00000000000000256764",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256764&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000160&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입생 정시모집 모집요강.pdf",
+     "fileId": "00000000000000256765",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256765&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000160&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u164",
+   "name": "인제대학교",
+   "establishment_type": "사립",
+   "region": "경남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000164",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000164&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 수시모집요강_20260529.pdf",
+     "fileId": "00000000000000242958",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242958&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000164&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강공고(20260901).pdf",
+     "fileId": "00000000000000242959",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000242959&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000164&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u196",
+   "name": "한동대학교",
+   "establishment_type": "사립",
+   "region": "경북",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000196",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000196&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 모집요강(2026.05.26).pdf",
+     "fileId": "00000000000000256115",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256115&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000196&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강(2026.09.01).pdf",
+     "fileId": "00000000000000256116",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256116&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000196&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u222",
+   "name": "부산장신대학교",
+   "establishment_type": "사립",
+   "region": "경남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000222",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000222&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시모집요강.pdf",
+     "fileId": "00000000000000243067",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243067&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000222&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시모집요강.pdf",
+     "fileId": "00000000000000243068",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243068&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000222&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u248",
+   "name": "제주국제대학교",
+   "establishment_type": "사립",
+   "region": "제주",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000248",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000248&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 신입생 수시모집요강.pdf",
+     "fileId": "00000000000000256480",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256480&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000248&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 신입생 정시(가군) 모집요강.pdf",
+     "fileId": "00000000000000256481",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000256481&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000248&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u249",
+   "name": "창신대학교",
+   "establishment_type": "사립",
+   "region": "경남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0000249",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000249&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 창신대학교 수시 모집요강(260530).pdf",
+     "fileId": "00000000000000254999",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000254999&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000249&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 창신대학교 정시 모집요강(260824).pdf",
+     "fileId": "00000000000000255000",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255000&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000249&searchSyr=2027"
+    }
+   ]
+  },
+  {
+   "key": "u2748",
+   "name": "가야대학교",
+   "establishment_type": "사립",
+   "region": "경남",
+   "admission_office_url": null,
+   "adiga_unvCd": "0002748",
+   "adiga_detail_url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0002748&searchSyr=2027",
+   "files_2027": [
+    {
+     "kind": "수시",
+     "label": "수시 모집요강",
+     "file_name": "2027학년도 수시 모집요강(안).pdf",
+     "fileId": "00000000000000255224",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255224&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0002748&searchSyr=2027"
+    },
+    {
+     "kind": "정시",
+     "label": "정시 모집요강",
+     "file_name": "2027학년도 정시 모집요강(안).pdf",
+     "fileId": "00000000000000255225",
+     "download_url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000255225&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0002748&searchSyr=2027"
+    }
+   ]
   }
  ]
 }
