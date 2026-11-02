@@ -892,6 +892,16 @@
     }
    ],
    "note": "성의교정(서초 반포, 의·간호)·성신교정(종로 혜화, 신학)을 한 대학으로 묶음. 부천 성심교정(본교)은 서울이 아니라 제외."
+  },
+  {
+   "key": "karts",
+   "name": "한국예술종합학교",
+   "establishment_type": "국립",
+   "region": "서울",
+   "admission_office_url": "https://www.karts.ac.kr/",
+   "adiga_unvCd": null,
+   "files_2027": [],
+   "note": "adiga 일반대학 목록에 없음(고등교육법 외 설치). 학교 입학처 공식 모집요강 사용."
   }
  ]
 }
