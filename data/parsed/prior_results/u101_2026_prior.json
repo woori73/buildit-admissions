@@ -1,0 +1,28 @@
+{
+  "university_key": "u101",
+  "university_name": "동국대학교(WISE캠퍼스)",
+  "university_code": "U101",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {"scope": "해당 없음(수집 문서 없음)", "sum_of_rows": 0, "source_total": null, "source_page": null, "match": null}
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {"item": "2026학년도 수시 입시결과", "reason": "WISE캠퍼스 입학처 사이트(ipsi.dongguk.ac.kr) 접속 불가: robots.txt 확인 단계부터 매번 'Connection reset by peer'(프록시 기록: tunnel closed code 1006, 약 10초 뒤 39B 수신). 2026-11-03 06:06~06:23(UTC)에 별도 프로세스로 15회 이상 다시 시도했으나 모두 실패. robots 판정을 못 했으므로 brief §0-3에 따라 수집하지 않음", "url": "https://ipsi.dongguk.ac.kr/"},
+    {"item": "2026학년도 정시 입시결과", "reason": "위와 같음(입학처 사이트 접속 불가, robots 판정 불가로 수집 안 함)", "url": "https://ipsi.dongguk.ac.kr/"},
+    {"item": "WISE캠퍼스 대표 홈페이지에서 대체 출처 확인", "reason": "wise.dongguk.ac.kr(robots.txt HTTP 404 = 규칙 없음)은 접속됨. 메인 페이지의 '입학안내/입학처' 링크는 모두 ipsi.dongguk.ac.kr(http/https)로만 연결되고, 대표 홈페이지 안에는 입시결과 게시판이 없음. entrynotice·generalnotice 목록의 정적 HTML에서 '입시결과' 문자열 없음(게시글 목록은 JS로 불러와 정적 HTML로 확인 불가)", "url": "https://wise.dongguk.ac.kr/main"},
+    {"item": "대학어디가(adiga.kr) 공개 자료", "reason": "brief 규칙상 자동 요청 금지. 요청하지 않았고 URL만 기록(저장소의 2027 요강 파일에 적힌 WISE캠퍼스 대학 상세 페이지, unvCd=0000101)", "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000101&searchSyr=2027"}
+  ],
+  "notes": [
+    "맡은 범위는 동국대학교 WISE캠퍼스(경주)만이다. 서울캠퍼스 입학처(ipsi.dongguk.edu)는 범위 밖이라 조회하지 않았다.",
+    "WISE캠퍼스 입학처 주소는 WISE 대표 홈페이지(https://wise.dongguk.ac.kr/main)의 '입학안내'·'입학처' 링크로 확인했다: https://ipsi.dongguk.ac.kr/",
+    "IpsiFetcher의 RobotsGate는 robots.txt를 받다가 네트워크 오류가 나면 '허용'으로 판정하지만, brief §0-3에 따라 판정을 못 한 사이트로 보고 수집하지 않았다(요청 자체도 실패했다).",
+    "rows가 비어 있으므로 합계 대조와 원문 직접 대조(spot_checks)는 할 수 없다. 추측해 넣은 값은 없다.",
+    "다음 단계: 국내 네트워크 등 ipsi.dongguk.ac.kr에 접속되는 환경에서 다시 시도해야 한다. 또는 사람이 공식 입시결과 PDF를 내려받아 data/raw에 넣어 주면 그 파일로 처리할 수 있다."
+  ]
+}

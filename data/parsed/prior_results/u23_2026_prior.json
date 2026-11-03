@@ -1,0 +1,55 @@
+{
+  "university_key": "u23",
+  "university_name": "전남대학교",
+  "university_code": "U23",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "수시·정시 전체",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null,
+        "note": "수집 문서 없음(입학처 robots.txt 전체 차단) — 원문 합계 없음"
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과(광주·여수 캠퍼스 포함 대학 전체)",
+      "reason": "robots 차단 — 전남대학교 입학처(admission.jnu.ac.kr) robots.txt가 'User-agent: * / Disallow: /'(주석 '전체 차단'; Googlebot·Yeti·Daumoa만 Allow)로 우리 UA를 전면 차단. 게시판·첨부 어느 경로도 요청하지 않음.",
+      "url": "https://admission.jnu.ac.kr/robots.txt"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과(광주·여수 캠퍼스 포함 대학 전체)",
+      "reason": "robots 차단 — 위와 동일(입학처 게시판 https://admission.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx 포함 전 경로 Disallow).",
+      "url": "https://admission.jnu.ac.kr/robots.txt"
+    },
+    {
+      "item": "대학 본부 사이트(www.jnu.ac.kr) 입학 메뉴",
+      "reason": "robots 차단 — www.jnu.ac.kr robots.txt가 'User-agent: * / Disallow: /'(Allow는 '/$', '/Common/', '/css/'뿐)로 입학안내 페이지(/MainAdmission/Adm_University/Adm_Uni01) 포함 하위 경로 차단. 해당 페이지는 IpsiFetcher가 robots_allowed=False로 거부.",
+      "url": "https://www.jnu.ac.kr/robots.txt"
+    },
+    {
+      "item": "ipsi.jnu.ac.kr(대체 입학 도메인 후보)",
+      "reason": "접속 불가 — 프록시 'Tunnel connection failed: 502 Bad Gateway'로 robots.txt 확인 자체 실패. 판정 못 한 사이트로 보고 수집하지 않음(공식 입학처 도메인인지도 확인 안 됨).",
+      "url": "https://ipsi.jnu.ac.kr/"
+    },
+    {
+      "item": "대학어디가(참고 링크만, 요청 안 함)",
+      "reason": "규칙상 자동 요청 금지. 기존 data/parsed/univ_sample/u23_2027_*.json에 기재된 전남대 대학별 페이지 주소(searchSyr=2027)만 옮겨 적음 — 2026학년도 입시결과 공개 여부·정확한 주소는 사람이 확인 필요.",
+      "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000023&searchSyr=2027"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 전남대 본부 메인(www.jnu.ac.kr) '학부입학' 링크로 https://admission.jnu.ac.kr 임을 확인함. 여수캠퍼스도 별도 입학처 도메인 없이 같은 입학처 링크만 노출됨.",
+    "admission.jnu.ac.kr robots.txt: 첫 확인에서 HTTP 200 + 차단 판정, 이후 연결 리셋(ConnectionResetError)이 반복되어 재시도 끝에 원문(text/plain) 'User-agent: * Disallow: /'를 재확인함. 입학처 페이지·첨부는 한 건도 요청하지 않음.",
+    "투명성 기록: 첫 요청 시 www.jnu.ac.kr robots.txt 확인이 네트워크 오류(ConnectionReset)로 실패했는데 IpsiFetcher가 판정불가를 허용으로 처리해 메인 페이지(https://www.jnu.ac.kr/ → /jnumain.aspx) 1건이 받아졌음. 이후 재시도로 robots.txt를 확인한 결과 '/'(Allow: /$)만 허용, /jnumain.aspx는 차단 경로였음. 이 페이지에서는 입학처 링크 주소만 확인했고 수치는 전혀 쓰지 않았으며, 저장된 원문 HTML(data/raw/www.jnu.ac.kr/9f210e48….html)은 삭제함(메타 기록만 data/raw/_meta에 남음).",
+    "공식 입학처 자료를 하나도 받을 수 없어 rows는 빈 배열이며 추측·외부(학원·언론·블로그·배치표) 수치는 쓰지 않음."
+  ]
+}

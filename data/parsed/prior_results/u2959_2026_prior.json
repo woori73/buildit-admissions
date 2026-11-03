@@ -1,0 +1,25 @@
+{
+  "university_key": "u2959",
+  "university_name": "상명대학교(천안캠퍼스)",
+  "university_code": "U2959",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {"scope": "수시·정시 전체", "sum_of_rows": 0, "source_total": null, "source_page": null, "match": null, "note": "수집 문서 없음(입학처 사이트 robots 차단) — 대조 대상 없음"}
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {"item": "2026학년도 수시 입시결과(천안캠퍼스)", "reason": "robots 차단: 상명대 입학처 사이트 robots.txt가 'User-agent: * / Disallow: /'로 전체 경로를 막아 수집하지 않음. 상명대 대표 홈페이지(www.smu.ac.kr) 및 천안캠퍼스 안내 페이지의 '대학 입학' 링크도 모두 이 사이트로만 연결됨", "url": "https://admission.smu.ac.kr/"},
+    {"item": "2026학년도 정시 입시결과(천안캠퍼스)", "reason": "robots 차단(위와 같은 입학처 사이트, Disallow: /)", "url": "https://admission.smu.ac.kr/"},
+    {"item": "천안캠퍼스 전용 입학 경로 탐색", "reason": "admission.smu.ac.kr/cheonan/ 경로도 같은 robots 규칙으로 차단. 후보 호스트 ipsi.smu.ac.kr·ipsic.smu.ac.kr(연결 리셋), cheonan.smu.ac.kr·admission-c.smu.ac.kr·ipsi-c.smu.ac.kr(프록시 502 — 호스트 미존재 추정)는 robots.txt 확인 자체가 재시도 후에도 실패해 판정 불가 → 수집하지 않음", "url": "https://admission.smu.ac.kr/cheonan/"},
+    {"item": "대표 홈페이지 내 입시결과 게시 여부", "reason": "www.smu.ac.kr(robots 허용) 메인·천안캠퍼스 안내(/kor/edu/cheonan01.do)·통합 공지 게시판 제목 검색('입시결과','경쟁률','입시')에서 입시결과/경쟁률 게시글·첨부를 찾지 못함", "url": "https://www.smu.ac.kr/kor/life/notice.do?srSearchKey=article_title&srSearchVal=%EC%9E%85%EC%8B%9C%EA%B2%B0%EA%B3%BC"}
+  ],
+  "notes": [
+    "모든 요청은 scripts/ipsi_fetch.py의 IpsiFetcher로 수행했다. admission.smu.ac.kr의 robots.txt(HTTP 200) 원문: 'User-agent: *\\nDisallow: /'.",
+    "adiga.kr 등 제3자 출처는 요청하지 않았다(기존 univ_sample/u2959_2027_*.json은 adiga 첨부를 출처로 썼으나 이번 작업 규칙상 사용 불가). 수치 추측 없음 — rows는 빈 배열."
+  ]
+}

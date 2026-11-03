@@ -1,0 +1,39 @@
+{
+  "university_key": "korea",
+  "university_name": "고려대학교(서울)",
+  "university_code": "KOREA",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {"scope": "해당 없음(수집 문서 0건)", "sum_of_rows": 0, "source_total": null, "source_page": null, "match": null}
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {"item": "2026학년도 수시모집 입시결과/경쟁률",
+     "reason": "서울캠퍼스 입학처 '수시 > 지원율통계' 게시판(BOARD_SEQ=1)은 목록·본문·첨부를 모두 JS(AJAX POST: /oku/ajaxf/FR_BBS_SVC/BBSViewGalleryList.do, BoardViewData.do)로만 불러온다. 정적 HTML 목록은 '총 0건'으로 비어 있고, 정적 상세(BoardView.do) 페이지에는 제목·첨부 링크가 없으며 PDF 영역(view_pdf)도 비어 있다(BBS_SEQ 50~82 확인, 최신글 82). 목록 템플릿상 게시글은 LINK_URL로 이동하는 링크형으로 보이며 그 주소는 정적 HTML로 확인 불가. 공개 첨부 다운로드 패턴(/ajaxfile/FR_SVC/FileDown.do?GBN=X01&BOARD_SEQ=1&SITE_NO=2&BBS_SEQ=81|82&FILE_SEQ=1)은 0바이트 응답. 지시서 규칙(JS 전용 게시판은 정적 HTML·공개 첨부 범위만, POST 우회 금지)에 따라 수집 중단.",
+     "url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=1720"},
+    {"item": "2026학년도 정시모집 입시결과/경쟁률",
+     "reason": "'정시 > 지원율통계'(MENU_ID=710)도 같은 BOARD_SEQ=1 JS 전용 게시판(SEARCH_SEQ=2)으로 정적 HTML에서 게시글·첨부 확인 불가. 사유 동일.",
+     "url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=710"},
+    {"item": "2026학년도 등록자 성적(교과등급·수능 백분위 등) 입시결과",
+     "reason": "서울캠퍼스 입학처 메뉴(수시/정시/특별전형/편입학/입학도우미/입학자료실/신청 및 조회/학교안내)에 별도 '입시결과' 메뉴 없음. 입학자료실(MENU_ID=590: 기출문제·전년도 모집요강·입시 관련 영상·입학처 규정·동영상 강의)에도 입시결과 항목 없음.",
+     "url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=590"},
+    {"item": "통합 공지사항 내 2026학년도 경쟁률/결과 공지",
+     "reason": "통합 공지사항(BOARD_SEQ=5) 정적 상세 페이지의 이전/다음글 체인을 끝까지 순회(BBS_SEQ 1816→1794, 24건)했으나 모두 2027학년도 전형 안내 등이며 경쟁률·입시결과 공지 없음. 이전 연도 글(BBS_SEQ 1500~1790 표본 7건)은 '해당글이 존재하지 않습니다'로 비공개/삭제 상태.",
+     "url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=750"},
+    {"item": "대학어디가(adiga.kr) 대학별 입시결과",
+     "reason": "지시서상 자동 요청 금지 사이트이므로 요청하지 않음. 고려대 입시결과가 그곳에 게시되어 있을 가능성은 있으나 확인하지 않았음(구체 URL 미확인).",
+     "url": "https://www.adiga.kr/"}
+  ],
+  "notes": [
+    "범위: 서울캠퍼스(oku.korea.ac.kr/oku/)만 조사. 세종캠퍼스(/sejong/) 미조사.",
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행. https://oku.korea.ac.kr/robots.txt는 HTTP 200이지만 HTML 오류 페이지('요청하신 페이지를 찾을 수 없습니다')를 반환해 RobotsGate가 '규칙 없음=허용'으로 판정함(판정 실패 ERROR 아님).",
+    "AJAX(POST) 목록/본문 엔드포인트는 호출하지 않았다. BBS_SEQ는 정적 상세 HTML의 PREV_IDX/NEXT_IDX hidden 값으로만 따라갔다.",
+    "첨부 다운로드 패턴 확인용으로 공지 BBS_SEQ=1810(2027 정시 수능-교과우수전형 점수 산출 예시) FILE_SEQ=1 파일 1건이 data/raw/oku.korea.ac.kr/에 저장됨 — 입시결과 자료 아님, 사용하지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}
