@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.inha.ac.kr/cms/FR_CON/index.do?MENU_ID=110",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.inha.ac.kr/cms/FR_CON/index.do?MENU_ID=110",
+  "content_type": "text/html;charset=utf-8",
+  "size": 38745,
+  "sha256": "671110ae7415076d4acd0abbca3a11faa676d07bf58a2f18a0c5f99e3d3bb47d",
+  "raw_path": "raw/admission.inha.ac.kr/671110ae7415076d4acd0abbca3a11fa.html",
+  "collected_at": "2026-11-04T00:46:59+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
