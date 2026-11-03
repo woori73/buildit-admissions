@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.yonsei.ac.kr/mirae/upload/info/20261013151032WWAV86.PDF",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.yonsei.ac.kr/mirae/upload/info/20261013151032WWAV86.PDF",
+  "content_type": "application/pdf",
+  "size": 14158017,
+  "sha256": "c213ebb5caa02f46bb024d93ae7ddafda55fdeb9b13ee2cb48362ccc3c0ff7dd",
+  "raw_path": "raw/admission.yonsei.ac.kr/c213ebb5caa02f46bb024d93ae7ddafd.pdf",
+  "collected_at": "2026-11-04T01:30:30+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

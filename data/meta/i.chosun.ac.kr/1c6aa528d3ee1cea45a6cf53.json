@@ -1,0 +1,15 @@
+{
+  "url": "https://i.chosun.ac.kr/main/menu?gc=1072PLFW",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://i.chosun.ac.kr/main/menu?gc=1072PLFW",
+  "content_type": "text/html; charset=utf-8",
+  "size": 46814,
+  "sha256": "9f225dcf6c06a6fb387fad68013eb36275096752beb6d8f5865b8c97fa1ec197",
+  "raw_path": "raw/i.chosun.ac.kr/9f225dcf6c06a6fb387fad68013eb362.html",
+  "collected_at": "2026-11-04T01:31:53+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

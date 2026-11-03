@@ -1,0 +1,40 @@
+{
+ "university_key": "u150",
+ "university_name": "연세대학교(미래캠퍼스)",
+ "university_code": "U150",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과(미래캠퍼스)",
+   "reason": "미래캠퍼스 입학처 통합자료실(1~6쪽, 2021~2026 게시물), 수시 공지사항(1~4쪽), 통합 공지사항, 입학정보지 목록을 확인했으나 2026학년도 수시 입시결과(선발결과·입결) 게시물이 없음. 가장 가까운 자료는 수시 공지 '[수시모집] 2024, 2025학년도 수시모집 충원인원 현황'(2025/12/12, BBS_NO=3115)으로 2026학년도가 아님.",
+   "url": "https://admission.yonsei.ac.kr/mirae/admission/html/counsel/data.asp"
+  },
+  {
+   "item": "2026학년도 정시 입시결과(미래캠퍼스)",
+   "reason": "정시 공지사항(1~3쪽)과 통합자료실에 2026학년도 정시 입시결과 게시물이 없음(2026학년도 추가모집·충원합격 안내, 정시모집 인원 최종안내만 있음).",
+   "url": "https://admission.yonsei.ac.kr/mirae/admission/html/regular/notice.asp"
+  },
+  {
+   "item": "2026학년도 수시모집 최종 지원 현황(경쟁률)",
+   "reason": "입학처 경쟁률 게시판의 링크가 외부 원서접수 대행사 도메인(ratio.uwayapply.com)으로만 연결됨. 대학 공식 도메인 자료가 아니므로 요청·사용하지 않음.",
+   "url": "https://admission.yonsei.ac.kr/mirae/admission/html/rolling/competition.asp"
+  },
+  {
+   "item": "2026학년도 정시모집 지원현황(경쟁률)",
+   "reason": "위와 같음(ratio.uwayapply.com 외부 도메인 링크만). 요청·사용하지 않음.",
+   "url": "https://admission.yonsei.ac.kr/mirae/admission/html/regular/competition.asp"
+  }
+ ],
+ "notes": [
+  "미래캠퍼스 입학처 주소: admission.yonsei.ac.kr/ (meta refresh → /seoul/admission/html/main/main.asp) 상단 '미래캠퍼스' 링크 → /mirae/admission/html/main/main.asp. robots.txt HTTP 404(규칙 없음)로 IpsiFetcher 게이트 통과. 서울캠퍼스 자료(시범 yon)는 범위 밖이라 쓰지 않음.",
+  "입학정보지 '2027학년도 수시모집'(2026/10/13 게시, /mirae/upload/info/20261013151032WWAV86.PDF, 68쪽)을 받아 확인했으나 전형 안내 책자로 2026학년도 입시결과 표가 없음 → 문서로 등록하지 않음(raw는 data/raw에만 있음).",
+  "자료를 얻지 못해 rows는 빈 배열(추정·외부 수치 없음)."
+ ]
+}

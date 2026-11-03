@@ -8,7 +8,7 @@
   "size": 0,
   "sha256": null,
   "raw_path": null,
-  "collected_at": "2026-11-04T01:29:37+09:00",
+  "collected_at": "2026-11-04T01:30:54+09:00",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
   "error": "robots.txt disallows our UA: https://www.kmu.ac.kr/robots.txt -> ERROR HTTPSConnectionPool(host='www.kmu.ac.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1035)')))",
   "verification_status": "COLLECTED"
