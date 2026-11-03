@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.daegu.ac.kr/intro.html",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.daegu.ac.kr/intro.html",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 5662,
+  "sha256": "005793736d9716ce894c3678cd67c28f8bc2e2a2b9de5359828eef05975e9a86",
+  "raw_path": "raw/ipsi.daegu.ac.kr/005793736d9716ce894c3678cd67c28f.html",
+  "collected_at": "2026-11-04T01:24:51+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

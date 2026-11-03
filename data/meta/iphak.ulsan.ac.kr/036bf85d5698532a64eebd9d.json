@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.ulsan.ac.kr/board/download.do?no=680",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.ulsan.ac.kr/board/download.do?no=680",
+  "content_type": "application/octet-stream;charset=UTF-8",
+  "size": 8358,
+  "sha256": "f8746e5942b7dcd1b296bb5b0d342791970f35be1c628bba040a94de30c400e7",
+  "raw_path": "raw/iphak.ulsan.ac.kr/f8746e5942b7dcd1b296bb5b0d342791.do",
+  "collected_at": "2026-11-04T01:25:42+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

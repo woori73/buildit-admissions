@@ -1,0 +1,26 @@
+{
+  "university_key": "u7",
+  "university_name": "경상국립대학교",
+  "university_code": "U7",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {"scope": "수시·정시 전체", "sum_of_rows": 0, "source_total": null, "source_page": null, "match": null, "note": "수집 문서 없음(입시결과 파일 경로가 robots.txt Disallow) — 대조 대상 없음"}
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {"item": "2026학년도 수시 입시결과", "reason": "robots 차단: 입학처 입학결과 페이지(HTML)는 허용이나 결과 자체는 첨부 파일뿐 — 첨부 '2026학년도 수시모집 결과 (다운로드 )'는 /common/fileDownload.do?fileKey=65036, 화면 미리보기 PDF는 /upload/cntntsFile/new/doc_c74d0456-d3d7-488e-984c-30ca51c9c4721775205531893.pdf 로, www.gnu.ac.kr/robots.txt가 'Disallow: /common/', 'Disallow: /upload/', 'Disallow: /pdfview/'로 막음 — 수집하지 않음", "url": "https://www.gnu.ac.kr/new/cm/cntnts/cntntsView.do?mi=48029&cntntsId=21841"},
+    {"item": "2026학년도 정시 입시결과", "reason": "robots 차단: 첨부 '2026학년도 정시모집 입학결과 (Down)'는 /common/fileDownload.do?fileKey=64918, 미리보기 PDF는 /upload/cntntsFile/new/doc_b36707a6-7601-4efa-bf14-21b7b2ba8e621775203257918.pdf — 둘 다 robots.txt Disallow(/common/, /upload/) — 수집하지 않음", "url": "https://www.gnu.ac.kr/new/cm/cntnts/cntntsView.do?mi=47853&cntntsId=21717"},
+    {"item": "입학처 별도 도메인 ipsi.gnu.ac.kr", "reason": "robots 판정 불가: ipsi.gnu.ac.kr/robots.txt 요청이 연결 재설정(ConnectionResetError 104)으로 실패 — 요청하지 않음. 실제 입학처는 www.gnu.ac.kr/new/ 아래에서 운영됨", "url": "https://ipsi.gnu.ac.kr/robots.txt"},
+    {"item": "대학어디가 등 외부 출처", "reason": "규칙상 adiga.kr 자동 요청 금지 — 요청하지 않음", "url": "https://www.adiga.kr/"}
+  ],
+  "notes": [
+    "입학처 주소는 www.gnu.ac.kr 사이트맵(mi=4914)의 '입학안내' 메뉴로 확인: https://www.gnu.ac.kr/new/main.do (수시 입학결과 2026학년도 mi=48029, 정시 입학결과 2026학년도 mi=47853).",
+    "두 입학결과 페이지 본문에는 HTML 표가 없고(table 0개) 다운로드 링크와 PDF 뷰어 iframe만 있음. 페이지 안내문: '최종등록자(입학생) 성적 기준', '80컷은 80%에 위치(10명중 8등)한 학생의 성적', '모집인원이 소수인 전형 및 모집단위는 개인정보보호를 위해 성적을 공개하지 않음', 최근 업데이트 2026/06/18(수시).",
+    "추측·외부 수치 사용 없음. 원문 문서를 얻지 못해 rows는 빈 배열. 사람이 위 두 페이지에서 PDF를 직접 내려받으면 수집 가능."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://enter.jbnu.ac.kr/robots.txt",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://enter.jbnu.ac.kr/robots.txt",
+  "content_type": "text/plain",
+  "size": 26,
+  "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+  "raw_path": "raw/enter.jbnu.ac.kr/331ea9090db0c9f6f597bd9840fd5b17.txt",
+  "collected_at": "2026-11-04T01:22:47+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

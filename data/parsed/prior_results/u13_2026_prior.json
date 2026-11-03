@@ -1,0 +1,26 @@
+{
+  "university_key": "u13",
+  "university_name": "국립부경대학교",
+  "university_code": "U13",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {"scope": "수시·정시 전체", "sum_of_rows": 0, "source_total": null, "source_page": null, "match": null, "note": "수집 문서 없음(입학본부 사이트 robots 전면 차단) — 대조 대상 없음"}
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {"item": "2026학년도 수시 입시결과", "reason": "robots 차단: 학부 입학본부 사이트 iphak.pknu.ac.kr의 robots.txt가 'User-agent: * / Disallow: /'(HTTP 200, text/plain)로 전체 수집을 금지 — 입학본부 첫 화면부터 요청하지 않음", "url": "https://iphak.pknu.ac.kr/robots.txt"},
+    {"item": "2026학년도 정시 입시결과", "reason": "robots 차단: 동일(iphak.pknu.ac.kr 전체 Disallow)", "url": "https://iphak.pknu.ac.kr/pknu/index.htm"},
+    {"item": "입학처 다른 주소 ipsi.pknu.ac.kr", "reason": "robots 판정 불가: robots.txt 요청이 프록시 502(Tunnel connection failed)로 실패 — 요청하지 않음", "url": "https://ipsi.pknu.ac.kr/robots.txt"},
+    {"item": "대학 본부 사이트(www.pknu.ac.kr) 대체 출처", "reason": "www.pknu.ac.kr은 robots 허용(Disallow /cm, /up)이나 입학처 자료가 아님. 메인·'입학/취업'(/main/3) 화면에 2026 학부 입시결과 링크 없음(정시모집 링크는 대학원 irumi.pknu.ac.kr)", "url": "https://www.pknu.ac.kr/main/3"},
+    {"item": "대학어디가 등 외부 출처", "reason": "규칙상 adiga.kr 자동 요청 금지 — 요청하지 않음", "url": "https://www.adiga.kr/"}
+  ],
+  "notes": [
+    "입학처 주소는 www.pknu.ac.kr 첫 화면(intro.html)의 스크립트에 그대로 적힌 이동 주소 /main 으로 들어가 메인 메뉴의 '학부 입학정보'(http://iphak.pknu.ac.kr/)·'입학본부'(https://iphak.pknu.ac.kr/pknu/index.htm) 링크로 확인.",
+    "추측·외부 수치 사용 없음. 원문 문서를 얻지 못해 rows는 빈 배열."
+  ]
+}

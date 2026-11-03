@@ -1,0 +1,15 @@
+{
+  "url": "https://adm-u.postech.ac.kr/wp-content/uploads/2025/05/2027학년도_POSTECH_모집요강_web.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://adm-u.postech.ac.kr/wp-content/uploads/2025/05/2027%ED%95%99%EB%85%84%EB%8F%84_POSTECH_%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95_web.pdf",
+  "content_type": "application/pdf",
+  "size": 20601501,
+  "sha256": "f8fbe108fca21ae7ec6e7141e2c1794e56ac0b86c688777dbcffc117a679b524",
+  "raw_path": "raw/adm-u.postech.ac.kr/f8fbe108fca21ae7ec6e7141e2c1794e.pdf",
+  "collected_at": "2026-11-04T01:25:18+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

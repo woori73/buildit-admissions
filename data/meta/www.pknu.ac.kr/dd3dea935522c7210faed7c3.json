@@ -1,0 +1,15 @@
+{
+  "url": "https://www.pknu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.pknu.ac.kr/intro.html",
+  "content_type": "text/html",
+  "size": 997,
+  "sha256": "6591242cf9ade8b5bd33e1521acb00edb32ef95197b61c89299223408d8af528",
+  "raw_path": "raw/www.pknu.ac.kr/6591242cf9ade8b5bd33e1521acb00ed.html",
+  "collected_at": "2026-11-04T01:24:43+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

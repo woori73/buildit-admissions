@@ -1,0 +1,15 @@
+{
+  "url": "https://www.yu.ac.kr/main/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.yu.ac.kr/main/index.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 384190,
+  "sha256": "846f14110dd5726afae21dafa51294e3c80757d9b097ca078b9b69edb1357f1b",
+  "raw_path": "raw/www.yu.ac.kr/846f14110dd5726afae21dafa51294e3.html",
+  "collected_at": "2026-11-04T01:27:26+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

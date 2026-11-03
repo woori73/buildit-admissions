@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.ulsan.ac.kr/main/47?action=view&no=15916",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.ulsan.ac.kr/main/47?action=view&no=15916",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 116388,
+  "sha256": "c38f593b1bbc86bc03c39a422d118a2c12e5ea4d24a512767413b48a9049eb57",
+  "raw_path": "raw/iphak.ulsan.ac.kr/c38f593b1bbc86bc03c39a422d118a2c.html",
+  "collected_at": "2026-11-04T01:25:07+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

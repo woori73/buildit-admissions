@@ -1,0 +1,50 @@
+{
+ "university_key": "u30",
+ "university_name": "충북대학교",
+ "university_code": "U30",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "수시·정시 전체",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "수집 문서 없음(첨부가 javascript 링크뿐) — 원문 합계 없음"
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 학생부종합(학생부종합I, 학생부종합II, sw우수인재전형) 입시결과 — 첨부 '01. 2026학년도 충북대학교 대학입학전형결과 현황표(수시 학생부종합I 전형).pdf', '02. 2026학년도 충북대학교 대학입학전형결과 현황표(수시 학생부종합II 전형).pdf', '03. 2026학년도 충북대학교 대학입학전형결과 현황표(수시 sw우수인재 전형).pdf'",
+   "reason": "첨부 링크가 javascript:fn_egov_downFile('FILE_000000000003237SxAbe','0~2') 함수 호출뿐(HTML에 실제 파일 주소 없음). JS 안의 주소 형식으로 조립해 요청하지 않는 규칙에 따라 받지 않음.",
+   "url": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000011/23599/view.do"
+  },
+  {
+   "item": "2026학년도 수시 학생부교과(학생부교과전형, 지역인재전형) 입시결과 — 첨부 '04. 2026학년도 충북대학교 대학입학전형결과 현황표(수시 학생부교과전형).pdf', '05. 2026학년도 충북대학교 대학입학전형결과 현황표(수시 지역인재전형).pdf'",
+   "reason": "첨부 링크가 javascript:fn_egov_downFile('FILE_000000000003227XyCjE','0~1') 함수 호출뿐 — 받지 않음(사유 위와 같음).",
+   "url": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000011/23606/view.do"
+  },
+  {
+   "item": "2026학년도 정시 수능(일반, 지역인재전형) 입시결과 — 첨부 '06. 2026학년도 충북대학교 대학입학전형결과 현황표(정시 일반전형).pdf', '07. 2026학년도 충북대학교 대학입학전형결과 현황표(정시 지역인재전형).pdf'",
+   "reason": "첨부 링크가 javascript:fn_egov_downFile('FILE_000000000003228YBtoQ','0~1') 함수 호출뿐 — 받지 않음(사유 위와 같음). 본문은 안내 문구뿐이고 표·수치 없음.",
+   "url": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000015/23607/view.do"
+  },
+  {
+   "item": "2026학년도 수시 기타 전형(실기·기회균형·농어촌 등) 입시결과",
+   "reason": "수시 입시결과 게시판(BBSMSTR_000000000011) 목록에 2026학년도 게시물은 학생부종합·학생부교과 2건뿐 — 그 밖의 전형 결과 게시물 없음.",
+   "url": "https://ipsi.chungbuk.ac.kr/kor/bbs/BBSMSTR_000000000011/lst.do"
+  }
+ ],
+ "notes": [
+  "입학처: https://ipsi.chungbuk.ac.kr (robots.txt HTTP 404 = 규칙 없음, 허용). 학부 첫 화면 /kor.do의 '수시모집 > 입시결과'(BBSMSTR_000000000011), '정시모집 > 입시결과'(BBSMSTR_000000000015) 게시판에서 2026학년도 게시물 3건을 확인함(모두 '관리자' 작성; 정시 게시물 작성일 2026-04-22).",
+  "정시 게시물 본문 원문: '※ 본 공개자료와 추후 발표되는 대입정보포털(한국대학교육협의회) 공개표준안은 산출기준이 상이하므로, 환산점수 및 평균 점수(또는 등급)에 차이가 있을 수 있습니다.'",
+  "게시판 목록·게시글은 정적 HTML로 열렸으나 첨부 7개(PDF) 모두 javascript 함수 호출 링크라 파일을 받지 못함. 함수 본문의 다운로드 주소 형식(/cmm/fms/FileDown.do?…)은 조립하지 않았음.",
+  "rows는 빈 배열이며 외부 수치는 쓰지 않음. 다음 단계: 사람이 gaps의 3개 게시글에서 PDF 7개를 내려받아 data/raw에 넣어 주면 처리 가능."
+ ]
+}

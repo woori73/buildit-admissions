@@ -1,0 +1,15 @@
+{
+  "url": "https://sejong.korea.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://sejong.korea.ac.kr/",
+  "content_type": "text/html;charset=utf-8",
+  "size": 268,
+  "sha256": "b57428253c08d3e10bf67cc1257596ec30c5f56119516b9135330710d3281271",
+  "raw_path": "raw/sejong.korea.ac.kr/b57428253c08d3e10bf67cc1257596ec.html",
+  "collected_at": "2026-11-04T01:27:03+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

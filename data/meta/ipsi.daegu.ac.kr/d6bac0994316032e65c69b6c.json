@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.daegu.ac.kr/kor/article/ATCL7079a7800",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.daegu.ac.kr/kor/article/ATCL7079a7800",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 61700,
+  "sha256": "259712c6e0c927fc1f2185764f03eb8f07614782183d1c4fefdcc686d6eb5190",
+  "raw_path": "raw/ipsi.daegu.ac.kr/259712c6e0c927fc1f2185764f03eb8f.html",
+  "collected_at": "2026-11-04T01:25:44+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

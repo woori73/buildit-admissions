@@ -1,0 +1,15 @@
+{
+  "url": "https://oku.korea.ac.kr/sejong/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://oku.korea.ac.kr/sejong/index.do",
+  "content_type": "text/html;charset=utf-8",
+  "size": 74843,
+  "sha256": "cb544753e07e6b65937a971bc78677693a1bae914d16d04abdcddc0ffb017a2d",
+  "raw_path": "raw/oku.korea.ac.kr/cb544753e07e6b65937a971bc7867769.html",
+  "collected_at": "2026-11-04T01:27:26+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

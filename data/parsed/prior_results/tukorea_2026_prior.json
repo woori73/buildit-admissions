@@ -1,0 +1,46 @@
+{
+ "university_key": "tukorea",
+ "university_name": "한국공학대학교",
+ "university_code": "TUKOREA",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "수시·정시 전체",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "수집 문서 없음(입학처 robots.txt 전체 차단) — 원문 합계 없음"
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 차단 — 학부 입학처(iphak.tukorea.ac.kr) robots.txt가 'User-agent: * / Disallow: /'(Googlebot·Yeti·bingbot·Daum 등만 Allow)로 우리 UA를 전면 차단. 입학처 첫 화면(https://iphak.tukorea.ac.kr/intro.html)을 포함해 어떤 경로도 요청하지 않음.",
+   "url": "https://iphak.tukorea.ac.kr/robots.txt"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "robots 차단 — 위와 같음(입학처 iphak.tukorea.ac.kr 전 경로 Disallow).",
+   "url": "https://iphak.tukorea.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학 본부 사이트(tukorea.ac.kr) 입학안내",
+   "reason": "본부 '입학안내'(/tukorea/1020/subview.do) 페이지는 학부 입학안내를 iphak.tukorea.ac.kr 링크로만 연결하고 입시결과 파일이 없음. 본부 메인의 [입학관리팀] 공지도 2027학년도 아르바이트 모집 등이며 입시결과 게시물 없음.",
+   "url": "https://tukorea.ac.kr/tukorea/1020/subview.do"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 본부 소개 페이지(https://www.tukorea.ac.kr/intro/index.html)의 '입학 홈페이지' 링크와 본부 메인(https://tukorea.ac.kr/tukorea/index.do)의 '입학종합정보/학부 입학안내 바로가기' 링크로 https://iphak.tukorea.ac.kr 임을 확인함.",
+  "iphak.tukorea.ac.kr robots.txt 확인은 연결 재설정(ConnectionResetError)이 섞여 나왔으나, 재시도에서 HTTP 200 text/plain 원문 'User-agent: * / Disallow: /'를 두 번 확인함.",
+  "처음에 추정한 주소 ipsi.tukorea.ac.kr(robots.txt 404 = 허용)는 'EDU 시스템'(Nexacro 앱, window.location='/nx' 이동) 화면으로 입학처 게시판이 아니었음. 첫 화면과 /nx 2건만 받았고 수치는 없음.",
+  "공식 입학처 자료를 받을 수 없어 rows는 빈 배열이며 외부(학원·언론·배치표·대학어디가) 수치는 쓰지 않음. WebSearch 결과에 나온 제3자 CDN(negagea.net) PDF는 공식 도메인이 아니어서 요청하지 않음.",
+  "다음 단계: 사람이 브라우저로 iphak.tukorea.ac.kr 입시결과 게시물을 확인해 파일을 data/raw에 넣어 주면 처리 가능."
+ ]
+}

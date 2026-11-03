@@ -1,0 +1,15 @@
+{
+  "url": "https://ent.donga.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ent.donga.ac.kr/admission/html/main/intro.asp",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 13063,
+  "sha256": "e51782b257fa612c79f76701d0903cddceb70041f0d658e108be2385f04b0214",
+  "raw_path": "raw/ent.donga.ac.kr/e51782b257fa612c79f76701d0903cdd.html",
+  "collected_at": "2026-11-04T01:22:50+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

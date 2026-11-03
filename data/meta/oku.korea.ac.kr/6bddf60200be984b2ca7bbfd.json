@@ -1,0 +1,15 @@
+{
+  "url": "https://oku.korea.ac.kr/robots.txt",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://oku.korea.ac.kr/error.html",
+  "content_type": "text/html",
+  "size": 1206,
+  "sha256": "799d50cd17a2670303f1db9938ccce10f07c31dfeb40f751cd33a8ec023d6600",
+  "raw_path": "raw/oku.korea.ac.kr/799d50cd17a2670303f1db9938ccce10.html",
+  "collected_at": "2026-11-04T01:27:39+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

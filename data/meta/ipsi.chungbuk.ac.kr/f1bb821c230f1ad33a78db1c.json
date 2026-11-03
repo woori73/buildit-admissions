@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000011/23599/view.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000011/23599/view.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 23075,
+  "sha256": "a6a8a5237edd821292ae7b2ca03ee281792da8e2788faf20acc84dc72dd3ff1f",
+  "raw_path": "raw/ipsi.chungbuk.ac.kr/a6a8a5237edd821292ae7b2ca03ee281.html",
+  "collected_at": "2026-11-04T01:26:28+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
