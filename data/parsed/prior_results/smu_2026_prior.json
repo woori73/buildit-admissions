@@ -1,0 +1,43 @@
+{
+ "university_key": "smu",
+ "university_name": "상명대학교",
+ "university_code": "SMU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "수시·정시 전체",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "수집 문서 없음(입학처 사이트 robots 차단) — 대조 대상 없음"
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과(서울캠퍼스)",
+   "reason": "robots 차단: 상명대 입학처 사이트(admission.smu.ac.kr) robots.txt가 'User-agent: * / Disallow: /'로 전체 경로를 막아 수집하지 않음. 대표 홈페이지(www.smu.ac.kr)의 '대학 입학' 링크도 이 사이트로만 연결됨",
+   "url": "https://admission.smu.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시 입시결과(서울캠퍼스)",
+   "reason": "robots 차단(위와 같은 입학처 사이트, Disallow: /)",
+   "url": "https://admission.smu.ac.kr/"
+  },
+  {
+   "item": "대표 홈페이지 내 입시결과 게시 여부",
+   "reason": "www.smu.ac.kr(robots 허용) 메인의 입학 관련 링크는 admission.smu.ac.kr과 대학원·외국인 입학 안내뿐. 1차(천안캠퍼스, u2959) 작업에서 통합 공지 게시판 제목 검색('입시결과','경쟁률','입시')도 결과 없음을 확인함",
+   "url": "https://www.smu.ac.kr/kor/index.do"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 했다. admission.smu.ac.kr robots.txt(HTTP 200)는 전체 차단 — 1차 상명대(천안캠퍼스) 결과와 같음. 서울·천안 입학처가 같은 사이트라 서울캠퍼스도 수집 불가.",
+  "adiga.kr 등 제3자 출처는 요청하지 않았다. 수치 추측 없음 — rows는 빈 배열."
+ ]
+}

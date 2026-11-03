@@ -1,0 +1,43 @@
+{
+ "university_key": "seoultech",
+ "university_name": "서울과학기술대학교",
+ "university_code": "SEOULTECH",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "수시·정시 전체",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "수집 문서 없음(입학처 robots 차단) — 대조 대상 없음"
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과",
+   "reason": "robots 차단: 입학처 사이트(admission.seoultech.ac.kr, http·https 모두) robots.txt가 'User-agent: * / Disallow: /'로 전체 경로를 막아 수집하지 않음",
+   "url": "https://admission.seoultech.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시 입시결과",
+   "reason": "robots 차단(위와 같은 입학처 사이트, Disallow: /)",
+   "url": "https://admission.seoultech.ac.kr/"
+  },
+  {
+   "item": "대표 홈페이지 경유 탐색",
+   "reason": "www.seoultech.ac.kr·seoultech.ac.kr의 robots.txt 요청이 TLS 인증서 검증 실패(unable to get local issuer certificate)로 판정 불가 → 요청하지 않음. ipsi.seoultech.ac.kr은 프록시 502(호스트 미존재 추정)로 판정 불가",
+   "url": "https://www.seoultech.ac.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 했다(robots.txt 확인 포함). admission.seoultech.ac.kr/robots.txt(HTTP 200, text/plain) 원문: 'User-agent: *\\nDisallow: /'.",
+  "TLS 검증을 끄거나 다른 도구로 우회하지 않았다. adiga.kr 등 제3자 출처는 요청하지 않았다. 수치 추측 없음 — rows는 빈 배열."
+ ]
+}

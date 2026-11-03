@@ -1,0 +1,15 @@
+{
+  "url": "https://www.iajou.ac.kr/main/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.iajou.ac.kr/main/",
+  "content_type": "text/html; charset=utf-8",
+  "size": 78300,
+  "sha256": "802e0c1766f4a94c5981b4ef69dcea4730539892aee817d8f973620321187b23",
+  "raw_path": "raw/www.iajou.ac.kr/802e0c1766f4a94c5981b4ef69dcea47.html",
+  "collected_at": "2026-11-04T01:12:47+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

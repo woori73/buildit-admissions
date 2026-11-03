@@ -1,0 +1,15 @@
+{
+  "url": "https://www.iajou.ac.kr/rate/?m_type=JEONGSI",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.iajou.ac.kr/rate/?m_type=JEONGSI",
+  "content_type": "text/html; charset=utf-8",
+  "size": 43011,
+  "sha256": "e4c022421bf289d9b6520871f0a8bc2c50fd2dfbba80fc3a7ac9b58031ae61a2",
+  "raw_path": "raw/www.iajou.ac.kr/e4c022421bf289d9b6520871f0a8bc2c.html",
+  "collected_at": "2026-11-04T01:12:54+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
