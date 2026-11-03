@@ -1,0 +1,49 @@
+{
+ "university_key": "u30",
+ "university_name": "충북대학교",
+ "university_code": "U30",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 학생부교과(학생부교과전형, 지역인재전형) 입시결과 (첨부 04·05 PDF)",
+   "reason": "JS 전용. 입학처 '수시모집 > 입시결과' 게시글(작성일 2026-04-22)은 IpsiFetcher로 받았으나 첨부 2건('04. 2026학년도 충북대학교 대학입학전형결과 현황표(수시 학생부교과전형).pdf', '05. …(수시 지역인재전형).pdf')의 링크가 javascript:fn_egov_downFile('FILE_000000000003227XyCjE','0'|'1')뿐이고 실제 주소는 JS 함수 안 문자열 조립(window.open('/cmm/fms/FileDown.do?atchFileId='+…))으로만 만들어진다. 지시서 규칙(JS 주소 조립 금지)에 따라 첨부를 받지 않음. 본문에는 안내문만 있고 표·이미지 없음. WebSearch로도 첨부 직접 주소 확인 안 됨.",
+   "url": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000011/23606/view.do"
+  },
+  {
+   "item": "2026학년도 수시 학생부종합(학생부종합I, 학생부종합II, sw우수인재전형) 입시결과 (첨부 01·02·03 PDF)",
+   "reason": "JS 전용. 게시글(작성일 2026-04-22) 첨부 3건('01. …(수시 학생부종합I 전형).pdf', '02. …(수시 학생부종합II 전형).pdf', '03. …(수시 sw우수인재 전형).pdf')이 javascript:fn_egov_downFile('FILE_000000000003237SxAbe',…) 링크뿐. 사유 동일.",
+   "url": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000011/23599/view.do"
+  },
+  {
+   "item": "2026학년도 정시 수능(일반, 지역인재전형) 입시결과 (첨부 06·07 PDF)",
+   "reason": "JS 전용. 입학처 '정시모집 > 입시결과' 게시글(작성일 2026-04-22) 첨부 2건('06. …(정시 일반전형).pdf', '07. …(정시 지역인재전형).pdf')이 javascript:fn_egov_downFile('FILE_000000000003228YBtoQ','0'|'1') 링크뿐. 사유 동일.",
+   "url": "https://ipsi.chungbuk.ac.kr/kor/BBSMSTR_000000000015/23607/view.do"
+  },
+  {
+   "item": "입시결과 게시판 목록의 정적 첨부 링크",
+   "reason": "수시(BBSMSTR_000000000011)·정시(…015)·통합(…053) 입시결과 목록 페이지의 게시글 링크는 href='#' + onclick bbsMstrView(…)(JS)이며 첨부 다운로드 정적 링크 없음. 게시글 상세 주소는 입학처 첫 화면(/kor.do)의 '입시결과' 최신글 정적 링크로 확인함.",
+   "url": "https://ipsi.chungbuk.ac.kr/kor/bbs/BBSMSTR_000000000053/lst.do"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch 결과(기사)에 나온 ipsi.chungbuk.ac.kr로 확인 → 첫 화면 '대학 홈페이지 바로가기' 링크(/kor.do). 모든 요청은 IpsiFetcher로 수행. robots: https://ipsi.chungbuk.ac.kr/robots.txt HTTP 404(규칙 없음=허용).",
+  "2026학년도 수시·정시 입시결과 게시글 3건과 첨부 PDF 7건(01~07)이 입학처에 공식 게시되어 있음을 확인했으나, 첨부는 JS 함수로만 열리므로 받지 않았다. 따라서 documents=[]·rows=[].",
+  "게시글 안내문: 교과 '내신등급은 우리대학 기준으로 산출된 내신점수를 등급으로 환산하여 제공', 종합 '학생부종합은 교과성적을 정량적으로 반영하지 않음', 공통 '대입정보포털 공개표준안과 산출기준이 상이'.",
+  "adiga.kr·suneung.re.kr 및 사설·언론 수치는 요청·사용하지 않음."
+ ]
+}

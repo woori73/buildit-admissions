@@ -1,0 +1,38 @@
+{
+  "university_key": "u248",
+  "university_name": "제주국제대학교",
+  "university_code": "U248",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과",
+      "reason": "robots 판정 불가: WebSearch로 확인한 공식 홈페이지 https://www.jeju.ac.kr/ (위키백과 등 검색 결과에 공식 사이트로 표기)의 robots.txt 확인이 1차 SSL 핸드셰이크 실패(SSLV3_ALERT_HANDSHAKE_FAILURE), 잠시 뒤 새 IpsiFetcher로 1회 재시도 시 ConnectionResetError로 실패해 IpsiFetcher가 요청을 막음. 본문 미요청, 입시결과 게시 여부 미확인.",
+      "url": "https://www.jeju.ac.kr/"
+    },
+    {
+      "item": "WebSearch 결과",
+      "reason": "'제주국제대학교 입학처 입시결과', '\"jeju.ac.kr\" 제주국제대학교 입학안내' 검색에서 입학처 입시결과 페이지·파일 링크는 나오지 않음(검색 결과에 대학원 공시 가공 사이트 등만 있음, 수치 미사용).",
+      "url": null
+    }
+  ],
+  "notes": [
+    "제주국제대학교(www.jeju.ac.kr)는 제주대학교(jejunu.ac.kr)와 다른 기관이므로 jejunu.ac.kr 자료는 조사·사용하지 않았다.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음). adiga.kr·사설 자료·언론 수치는 요청·사용하지 않았다.",
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행했고 robots.txt는 직접 읽지 않았다."
+  ]
+}
