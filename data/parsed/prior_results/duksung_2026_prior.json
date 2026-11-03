@@ -1,0 +1,37 @@
+{
+ "university_key": "duksung",
+ "university_name": "덕성여자대학교",
+ "university_code": "DUKSUNG",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "학부 입학처(enter.duksung.ac.kr — 본교 www.duksung.ac.kr 첫 화면 '입학' 링크로 확인) robots.txt가 'User-agent: * / Disallow: /'로 전면 차단(Yeti·Googlebot 등만 허용). 입학처 페이지를 하나도 요청하지 않음. ipsi.duksung.ac.kr은 robots.txt 요청이 연결 재설정으로 판정 불가, iphak.duksung.ac.kr은 접속 불가.",
+   "url": "https://enter.duksung.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 대학별 입시결과",
+   "reason": "지시서상 요청 금지 사이트라 요청하지 않음. 입학처 자료를 확보하지 못했으므로 그곳 게시 여부도 확인하지 않음.",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "본교 www.duksung.ac.kr은 robots상 루트 허용이라 첫 화면 1건만 받아 입학처 주소를 확인함(입시결과 자료 없음, 수치 미사용).",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음."
+ ]
+}
