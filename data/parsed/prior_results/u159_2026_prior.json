@@ -1,0 +1,45 @@
+{
+  "university_key": "u159",
+  "university_name": "원광대학교",
+  "university_code": "U159",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "수시·정시 전체",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null,
+        "note": "수집 문서 없음(입학처 robots 차단) — 대조 대상 없음"
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시 입시결과",
+      "reason": "robots 차단: 입학처 ipsi.wku.ac.kr의 robots.txt가 'User-agent: * / Disallow: /'(HTTP 200) — 수집하지 않음",
+      "url": "https://ipsi.wku.ac.kr/robots.txt"
+    },
+    {
+      "item": "2026학년도 정시 입시결과",
+      "reason": "위와 같음(입학처 전체 Disallow)",
+      "url": "https://ipsi.wku.ac.kr/robots.txt"
+    },
+    {
+      "item": "입학처 첫 화면이 넘기는 intro.uway.com/wku/",
+      "reason": "ipsi.wku.ac.kr 첫 화면 스크립트가 self.location = 'http://intro.uway.com/wku/'로 이동시킴. 원서접수 대행사(유웨이) 도메인이라 출처로 쓸 수 없고, robots.txt도 'Disallow: /'(HTTP 200)라 요청하지 않음",
+      "url": "http://intro.uway.com/robots.txt"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 대학 본부 사이트 www.wku.ac.kr(robots.txt 'Allow: /') 첫 화면의 '입학안내' 링크(https://ipsi.wku.ac.kr/)로 확인했다.",
+    "같은 날 첫 조회(별도 프로세스) 때는 ipsi.wku.ac.kr/robots.txt가 HTTP 404(규칙 없음 = 허용)로 판정되어 첫 화면 1건(1,086바이트, 위 이동 스크립트뿐, 수치 없음)을 받았다. 이후 다시 확인할 때는 HTTP 200 'Disallow: /'가 와서 그 뒤 요청은 하지 않았다. 보수적으로 차단으로 처리했고, 받은 첫 화면(data/raw/ipsi.wku.ac.kr/3ebcd850….html)은 주소 확인에만 썼다.",
+    "사람이 확인할 곳: https://ipsi.wku.ac.kr/ (또는 이동 주소 intro.uway.com/wku/)의 전년도 입시결과 게시판.",
+    "rows가 비어 있어 합계·원문 대조를 하지 못했다. 추측해 넣은 값은 없다."
+  ]
+}
