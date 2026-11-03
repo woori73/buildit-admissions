@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.kw.ac.kr/result/result.php?m_type=JEONGSI",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.kw.ac.kr/result/result.php?m_type=JEONGSI",
+  "content_type": "text/html; charset=utf-8",
+  "size": 38787,
+  "sha256": "3b002bce9abcb0bf1bc9f6ddbcfecf3eac5d123e7a5d36c811ac4c91e6f6f628",
+  "raw_path": "raw/iphak.kw.ac.kr/3b002bce9abcb0bf1bc9f6ddbcfecf3e.html",
+  "collected_at": "2026-11-04T00:49:53+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

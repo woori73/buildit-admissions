@@ -1,0 +1,15 @@
+{
+  "url": "https://www.gangseo.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.gangseo.ac.kr/",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 652,
+  "sha256": "7ab41542ff6a025e49463a0398ea643974bc8617431c3c8bbdcb18be54829908",
+  "raw_path": "raw/www.gangseo.ac.kr/7ab41542ff6a025e49463a0398ea6439.html",
+  "collected_at": "2026-11-04T00:50:15+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

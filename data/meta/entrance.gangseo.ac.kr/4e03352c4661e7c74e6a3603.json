@@ -1,0 +1,15 @@
+{
+  "url": "http://entrance.gangseo.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://entrance.gangseo.ac.kr/kcui/mainService",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 55377,
+  "sha256": "d608655f860a9ee82f2f0080c45df62ed792eda98a6e616ab503bfd4f0d3c820",
+  "raw_path": "raw/entrance.gangseo.ac.kr/d608655f860a9ee82f2f0080c45df62e.html",
+  "collected_at": "2026-11-04T00:50:36+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
