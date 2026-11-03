@@ -90,6 +90,7 @@ class RobotsGate:
         self._timeout = timeout
         self._cache: dict[str, Optional[robotparser.RobotFileParser]] = {}
         self._robots_url_cache: dict[str, str] = {}
+        self._undetermined: set[str] = set()
 
     def _robots_url(self, url: str) -> str:
         p = urlparse(url)
@@ -113,20 +114,27 @@ class RobotsGate:
                     rp = None
                 else:
                     rp.parse(resp.text.splitlines())
+            elif resp.status_code >= 500:
+                # 서버 오류(5xx) → robots.txt를 확인하지 못함 = 판정불가(RFC 9309: 전체 불허로 본다)
+                rp = None
+                self._undetermined.add(host)
             else:
                 # 404 등 → robots 없음 = 허용(단, 기록)
                 rp = None
             self._robots_url_cache[host] = f"{rurl} -> HTTP {resp.status_code}"
-        except Exception as e:  # 네트워크 실패 시 보수적으로 '판정불가'
+        except Exception as e:  # 네트워크 실패 시 보수적으로 '판정불가' → 요청하지 않는다
             self._robots_url_cache[host] = f"{rurl} -> ERROR {e}"
             rp = None
+            self._undetermined.add(host)
         self._cache[host] = rp
         return rp
 
     def allowed(self, url: str) -> bool:
         rp = self._parser(url)
         if rp is None:
-            return True  # robots 없음/판정불가 → 허용(기록은 남김)
+            # robots.txt가 없으면(404 등) 규칙 없음 = 허용. robots.txt 확인 자체가 실패(네트워크 오류·잘못된 리다이렉트)하면
+            # 판정하지 못한 것이므로 요청하지 않는다(판정불가를 허용으로 간주하지 않음).
+            return urlparse(url).netloc not in self._undetermined
         return rp.can_fetch(USER_AGENT, url)
 
     def note(self, url: str) -> str:

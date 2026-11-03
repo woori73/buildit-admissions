@@ -1,0 +1,29 @@
+{
+  "university_key": "u5",
+  "university_name": "경북대학교",
+  "university_code": "U5",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {"scope": "수시·정시 전체", "sum_of_rows": 0, "source_total": null, "source_page": null, "match": null, "note": "수집 문서 없음(입학처 사이트 robots 차단) — 대조 대상 없음"}
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {"item": "2026학년도 수시 입시결과", "reason": "robots 차단: 학부 입학처 사이트 ipsi1.knu.ac.kr의 robots.txt가 'User-agent: * / Disallow: /'(HTTP 200)로 전체 수집을 금지 — 수집하지 않음", "url": "https://ipsi1.knu.ac.kr/robots.txt"},
+    {"item": "2026학년도 정시 입시결과", "reason": "robots 차단: 동일(ipsi1.knu.ac.kr 전체 Disallow). 정시모집 메뉴 https://ipsi1.knu.ac.kr/mojib/?m_type=JEONGSI 도 차단 범위", "url": "https://ipsi1.knu.ac.kr/robots.txt"},
+    {"item": "입학처 대표 주소 ipsi.knu.ac.kr", "reason": "robots 판정 불가: ipsi.knu.ac.kr/robots.txt 요청이 잘못된 리다이렉트(host 'ipsi1.knu.ac.krrobots.txt')로 ERROR, 3회 재시도 모두 실패. 본문도 ipsi1.knu.ac.kr로 이동하는 리다이렉트 스텁뿐 → 판정 못 한 사이트로 보고 수집하지 않음", "url": "https://ipsi.knu.ac.kr/robots.txt"},
+    {"item": "상주캠퍼스 입시결과", "reason": "상주캠퍼스 학부 모집은 통합 입학처(ipsi1.knu.ac.kr)에서 안내되어 동일하게 robots 차단. sangju.knu.ac.kr은 robots.txt 확인 자체가 프록시 502 오류로 실패해 수집하지 않음", "url": "https://sangju.knu.ac.kr/robots.txt"},
+    {"item": "대학 본부 사이트(www.knu.ac.kr) 대체 출처", "reason": "www.knu.ac.kr은 robots.txt 404(허용)이나 입학처 자료가 아니며, 메인·통합공지 목록(GET)에서 2026 입시결과 게시를 찾지 못함. 게시판 검색은 POST 폼이라 사용하지 않음(우회 금지)", "url": "https://www.knu.ac.kr/wbbs/wbbs/bbs/btin/list.action?bbs_cde=1&menu_idx=67"},
+    {"item": "대학어디가 등 외부 출처", "reason": "규칙상 adiga.kr 자동 요청 금지 — 요청하지 않음. 필요 시 사람이 adiga.kr 대학별 입시결과에서 수동 확인", "url": "https://www.adiga.kr/"},
+    {"item": "대학원 입학처 ipsi2.knu.ac.kr", "reason": "학부 범위 밖이며 robots.txt 역시 'Disallow: /' — 미수집", "url": "https://ipsi2.knu.ac.kr/robots.txt"}
+  ],
+  "notes": [
+    "입학처 주소는 www.knu.ac.kr 메인 페이지의 '입학/대학입학/수시모집/정시모집' 링크로 확인: https://ipsi1.knu.ac.kr/ (수시 /mojib/?m_type=SUSI, 정시 /mojib/?m_type=JEONGSI, 공지 /notice/).",
+    "최초 ipsi.knu.ac.kr/ 요청 1건은 RobotsGate가 robots 판정 오류를 '허용'으로 처리해 리다이렉트 스텁(본문 540바이트, 데이터 없음)을 받았으나, 지시서 규칙(판정 못 한 사이트를 허용으로 간주 금지)에 따라 해당 raw 파일을 삭제하고 사용하지 않음.",
+    "추측·외부 수치 사용 없음. 원문 문서를 얻지 못해 rows는 빈 배열(지시서상 정상 결과)."
+  ]
+}
