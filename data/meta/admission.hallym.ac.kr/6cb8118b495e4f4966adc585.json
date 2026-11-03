@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.hallym.ac.kr/sites/admission/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.hallym.ac.kr/sites/admission/index.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 50208,
+  "sha256": "81219b6436f49c412e683816471680a7933f14c1ce92e9d3233eadbf60d89aa4",
+  "raw_path": "raw/admission.hallym.ac.kr/81219b6436f49c412e683816471680a7.html",
+  "collected_at": "2026-11-04T01:22:12+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
