@@ -1,0 +1,54 @@
+{
+ "university_key": "u179",
+ "university_name": "청주대학교",
+ "university_code": "U179",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입학결과",
+   "reason": "robots 차단. 입학처 메뉴 '수시모집 > 입학결과'는 게시판(selectBbsNttList.do?bbsNo=87)이며 www.cju.ac.kr/robots.txt의 'User-agent: *' 규칙 'Disallow: *Ntt*'(게시판 목록·본문), 'Disallow: *download*', 'Disallow: /DATA/'(첨부)에 걸려 IpsiFetcher가 요청을 거부함(f.fetch → robots_allowed=False). 게시판 목록·본문·첨부 모두 받지 않음.",
+   "url": "https://www.cju.ac.kr/ipsi/selectBbsNttList.do?bbsNo=87&key=790&searchCtgry=%EC%88%98%EC%8B%9C&"
+  },
+  {
+   "item": "2026학년도 정시모집 입학결과",
+   "reason": "robots 차단. '정시모집 > 입학결과'도 같은 게시판(bbsNo=87, key=800)이라 'Disallow: *Ntt*'로 거부됨. 입학도우미 > 입학결과(key=840, 전체/수시/정시)도 동일.",
+   "url": "https://www.cju.ac.kr/ipsi/selectBbsNttList.do?bbsNo=87&key=800&searchCtgry=%EC%A0%95%EC%8B%9C&"
+  },
+  {
+   "item": "공지사항 '2026학년도 정시모집 모집단위별 모집인원(2026.02.05. 18:00기준)' 등 결과성 공지",
+   "reason": "입학처 첫 화면에 링크된 공지 본문(selectBbsNttView.do)도 'Disallow: *Ntt*'로 robots 차단. 입시결과 자료 여부 확인 불가.",
+   "url": "https://www.cju.ac.kr/ipsi/selectBbsNttView.do?bbsNo=84&nttNo=146702&key=820&searchCtgry=정시"
+  },
+  {
+   "item": "경쟁률 확인(외부 대행사)",
+   "reason": "입학처 첫 화면의 '경쟁률 확인' 링크는 외부 대행사(uwayapply.com) 도메인이라 지시서 규칙상 수치를 쓰지 않고 요청하지 않음(URL만 기록). 수시/정시/편입/추가 링크 중 수시·정시 2건.",
+   "url": "https://ratio.uwayapply.com/Sl5KOi9yV2FgfExKZiUmOiZKLWZUZg== ; https://ratio.uwayapply.com/Sl5KOi9yV2FgfExKclc6L0otZlRm"
+  },
+  {
+   "item": "입학설명회 사이트",
+   "reason": "입학처 메뉴 링크(iphakpg.cju.ac.kr)는 DNS 조회 실패로 robots 판정 불가(IpsiFetcher 거부).",
+   "url": "http://iphakpg.cju.ac.kr/sub/sub04.html"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch로 확인한 공식 도메인 cju.ac.kr → 첫 화면 메뉴 '입학안내' 링크(https://www.cju.ac.kr/ipsi/index.do)로 확인. 모든 요청은 IpsiFetcher로 수행.",
+  "robots 판정: https://www.cju.ac.kr/robots.txt HTTP 200. 'User-agent: *'에 Disallow /DATA/, /search/, *download*, *Ntt*. 따라서 index.do·contents.do·sitemap.do는 허용, 게시판 목록·본문(selectBbsNttList/selectBbsNttView)·첨부는 불허. 사이트맵의 '입학결과' 항목 4개(key=790, 800, 840, 7757)는 모두 게시판 링크라 불허.",
+  "허용된 contents.do 메뉴 중 입시결과 페이지는 사이트맵에 없음(입학결과는 게시판으로만 운영).",
+  "adiga.kr·suneung.re.kr 및 사설 자료는 요청·사용하지 않음. 수치 없음(rows=[])."
+ ]
+}
