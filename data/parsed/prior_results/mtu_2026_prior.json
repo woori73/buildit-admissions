@@ -1,0 +1,40 @@
+{
+  "university_key": "mtu",
+  "university_name": "감리교신학대학교",
+  "university_code": "MTU",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 없음)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과",
+      "reason": "대표 홈페이지의 입학 게시판('입시도우미' mId=402, '입학공지' mId=516) 첫 쪽 22건(2025-08-28 ~ 현재)에 2026학년도 입시결과 게시물이 없음(합격자 안내·면접 안내·모집요강·선행학습 영향평가 결과 등만 있음). 직전 해 '2025학년도 입시결과(대입정보포털) 및 대입정보 안내'(brdIdx=19697) 게시글은 결과를 대입정보포털(어디가)에서 확인하라고 안내하고 adiga 링크만 둠 — 2026학년도도 입학처 파일 게시가 없는 것으로 보임",
+      "url": "https://www.mtu.ac.kr/mtu/board/list.do?mId=402"
+    },
+    {
+      "item": "대학어디가(adiga.kr) 공개 입시결과",
+      "reason": "지시서 규칙상 자동 요청 금지. 요청하지 않고 2025학년도 안내 게시글에 있던 링크만 기록",
+      "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?&menuId=PCUVTINF2000&searchSyr=2026&unvCd=0000050"
+    }
+  ],
+  "notes": [
+    "별도 입학처 도메인은 확인하지 못했다(ipsi.mtu.ac.kr은 HTTP 503 + /NRLogin.do 로 이동). 입학 안내는 대표 홈페이지 www.mtu.ac.kr 안에 있다(메인 페이지의 '입학안내' 메뉴 링크).",
+    "www.mtu.ac.kr 루트는 location.href='/mtu/main/main.do?mId=1' 이동만 하는 HTML이라 그 주소를 따라갔다(HTML에 그대로 적힌 페이지 이동 주소) — 판단이 들어간 처리.",
+    "robots.txt 판정 주의: https://www.mtu.ac.kr/robots.txt 는 HTTP 200, text/html 로 '웹 보안 정책에 위배되어 차단되었습니다. 자세한 사항은 전산부로 연락 주시기 바랍니다.'(cp949) 문구를 돌려준다. 규칙 파일이 아니라 RobotsGate는 '규칙 없음=허용'으로 판정했다. robots.txt 자체가 방화벽에 막힌 것이라 '판정 불가'로 볼 여지가 있으므로 결정이 필요하다. 이 판정으로 받은 것은 게시판 목록·게시글 HTML 몇 건뿐이고 수치는 없다.",
+    "조사 중 IpsiFetcher 밖에서 나간 요청이 있다: robots.txt 내용 확인용 curl 1회(이 대학 입학처 robots.txt). 수치 수집에는 쓰지 않았다.",
+    "rows가 비어 있어 합계 대조·원문 대조는 하지 못했다. 추측해 넣은 값은 없다."
+  ]
+}

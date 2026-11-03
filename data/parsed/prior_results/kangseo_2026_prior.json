@@ -1,0 +1,323 @@
+{
+  "university_key": "kangseo",
+  "university_name": "강서대학교",
+  "university_code": "KANGSEO",
+  "result_year": 2026,
+  "documents": [
+    {
+      "document_key": "kangseo_2026_jeongsi_result",
+      "document_name": "2026학년도 정시 경쟁률 (게시글 본문 이미지 '2026학년도 정시모집 경쟁률 현황', 2025.12.31.(수) 18:30 기준)",
+      "round_type": "JEONGSI",
+      "institution_name": "강서대학교 입학처",
+      "source_page_url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0402&boardNum=1517",
+      "source_url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0402&boardNum=1517",
+      "file_name": null,
+      "file_sha256": "56321db22682ef8ac9adb7052d9e8b1e8abc056a37765c84350f01ca77c66cdc",
+      "published_at": "2026-02-12",
+      "pages": 1
+    }
+  ],
+  "rows": [
+    {
+      "round_type": "JEONGSI",
+      "type_name": "일반학생",
+      "department_name": "신학과",
+      "group": null,
+      "metric_label": null,
+      "metric_unit": null,
+      "metric_value": null,
+      "raw_value_text": "6.25",
+      "recruit_count": 4,
+      "applicant_count": 25,
+      "competition_rate": 6.25,
+      "extra_admitted_count": null,
+      "source_document_key": "kangseo_2026_jeongsi_result",
+      "evidence_pages": [
+        1
+      ]
+    },
+    {
+      "round_type": "JEONGSI",
+      "type_name": "일반학생",
+      "department_name": "G2빅데이터경영학과",
+      "group": null,
+      "metric_label": null,
+      "metric_unit": null,
+      "metric_value": null,
+      "raw_value_text": "11.00",
+      "recruit_count": 6,
+      "applicant_count": 66,
+      "competition_rate": 11.0,
+      "extra_admitted_count": null,
+      "source_document_key": "kangseo_2026_jeongsi_result",
+      "evidence_pages": [
+        1
+      ]
+    },
+    {
+      "round_type": "JEONGSI",
+      "type_name": "일반학생",
+      "department_name": "사회복지학과",
+      "group": null,
+      "metric_label": null,
+      "metric_unit": null,
+      "metric_value": null,
+      "raw_value_text": "12.00",
+      "recruit_count": 4,
+      "applicant_count": 48,
+      "competition_rate": 12.0,
+      "extra_admitted_count": null,
+      "source_document_key": "kangseo_2026_jeongsi_result",
+      "evidence_pages": [
+        1
+      ]
+    },
+    {
+      "round_type": "JEONGSI",
+      "type_name": "일반학생",
+      "department_name": "상담심리학과",
+      "group": null,
+      "metric_label": null,
+      "metric_unit": null,
+      "metric_value": null,
+      "raw_value_text": "13.50",
+      "recruit_count": 4,
+      "applicant_count": 54,
+      "competition_rate": 13.5,
+      "extra_admitted_count": null,
+      "source_document_key": "kangseo_2026_jeongsi_result",
+      "evidence_pages": [
+        1
+      ]
+    },
+    {
+      "round_type": "JEONGSI",
+      "type_name": "일반학생",
+      "department_name": "간호학과",
+      "group": null,
+      "metric_label": null,
+      "metric_unit": null,
+      "metric_value": null,
+      "raw_value_text": "9.29",
+      "recruit_count": 7,
+      "applicant_count": 65,
+      "competition_rate": 9.29,
+      "extra_admitted_count": null,
+      "source_document_key": "kangseo_2026_jeongsi_result",
+      "evidence_pages": [
+        1
+      ]
+    },
+    {
+      "round_type": "JEONGSI",
+      "type_name": "일반학생",
+      "department_name": "식품영양학과",
+      "group": null,
+      "metric_label": null,
+      "metric_unit": null,
+      "metric_value": null,
+      "raw_value_text": "10.67",
+      "recruit_count": 6,
+      "applicant_count": 64,
+      "competition_rate": 10.67,
+      "extra_admitted_count": null,
+      "source_document_key": "kangseo_2026_jeongsi_result",
+      "evidence_pages": [
+        1
+      ]
+    },
+    {
+      "round_type": "JEONGSI",
+      "type_name": "일반학생",
+      "department_name": "실용음악학과",
+      "group": null,
+      "metric_label": null,
+      "metric_unit": null,
+      "metric_value": null,
+      "raw_value_text": "12.83",
+      "recruit_count": 6,
+      "applicant_count": 77,
+      "competition_rate": 12.83,
+      "extra_admitted_count": null,
+      "source_document_key": "kangseo_2026_jeongsi_result",
+      "evidence_pages": [
+        1
+      ]
+    }
+  ],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "정시 일반학생 모집인원",
+        "sum_of_rows": 37,
+        "source_total": 37,
+        "source_page": 1,
+        "match": true,
+        "note": "원문 '일반학생 경쟁률 현황' 표 총계 행 '총계 37 399 10.78' 및 '전형별 경쟁률 현황' 표 '일반학생 37 399 10.78'과 대조"
+      },
+      {
+        "scope": "정시 일반학생 지원인원",
+        "sum_of_rows": 399,
+        "source_total": 399,
+        "source_page": 1,
+        "match": true,
+        "note": "총계 경쟁률 399÷37=10.784 → 원문 10.78과 일치"
+      }
+    ],
+    "spot_checks": [
+      {
+        "row_index": 0,
+        "page": 1,
+        "cell": "본문 이미지 '일반학생 경쟁률 현황' 표 1번째 행",
+        "field": "recruit_count+applicant_count+competition_rate",
+        "source_text": "신학과 4 25 6.25",
+        "value": [
+          4,
+          25,
+          6.25
+        ],
+        "department_name": "신학과",
+        "type_name": "일반학생",
+        "metric_label": null,
+        "competition_check": "25÷4=6.2500 → 6.25",
+        "match": true
+      },
+      {
+        "row_index": 1,
+        "page": 1,
+        "cell": "본문 이미지 '일반학생 경쟁률 현황' 표 2번째 행",
+        "field": "recruit_count+applicant_count+competition_rate",
+        "source_text": "G2빅데이터경영학과 6 66 11.00",
+        "value": [
+          6,
+          66,
+          11.0
+        ],
+        "department_name": "G2빅데이터경영학과",
+        "type_name": "일반학생",
+        "metric_label": null,
+        "competition_check": "66÷6=11.0000 → 11.00",
+        "match": true
+      },
+      {
+        "row_index": 2,
+        "page": 1,
+        "cell": "본문 이미지 '일반학생 경쟁률 현황' 표 3번째 행",
+        "field": "recruit_count+applicant_count+competition_rate",
+        "source_text": "사회복지학과 4 48 12.00",
+        "value": [
+          4,
+          48,
+          12.0
+        ],
+        "department_name": "사회복지학과",
+        "type_name": "일반학생",
+        "metric_label": null,
+        "competition_check": "48÷4=12.0000 → 12.00",
+        "match": true
+      },
+      {
+        "row_index": 3,
+        "page": 1,
+        "cell": "본문 이미지 '일반학생 경쟁률 현황' 표 4번째 행",
+        "field": "recruit_count+applicant_count+competition_rate",
+        "source_text": "상담심리학과 4 54 13.50",
+        "value": [
+          4,
+          54,
+          13.5
+        ],
+        "department_name": "상담심리학과",
+        "type_name": "일반학생",
+        "metric_label": null,
+        "competition_check": "54÷4=13.5000 → 13.50",
+        "match": true
+      },
+      {
+        "row_index": 4,
+        "page": 1,
+        "cell": "본문 이미지 '일반학생 경쟁률 현황' 표 5번째 행",
+        "field": "recruit_count+applicant_count+competition_rate",
+        "source_text": "간호학과 7 65 9.29",
+        "value": [
+          7,
+          65,
+          9.29
+        ],
+        "department_name": "간호학과",
+        "type_name": "일반학생",
+        "metric_label": null,
+        "competition_check": "65÷7=9.2857 → 9.29",
+        "match": true
+      },
+      {
+        "row_index": 5,
+        "page": 1,
+        "cell": "본문 이미지 '일반학생 경쟁률 현황' 표 6번째 행",
+        "field": "recruit_count+applicant_count+competition_rate",
+        "source_text": "식품영양학과 6 64 10.67",
+        "value": [
+          6,
+          64,
+          10.67
+        ],
+        "department_name": "식품영양학과",
+        "type_name": "일반학생",
+        "metric_label": null,
+        "competition_check": "64÷6=10.6667 → 10.67",
+        "match": true
+      },
+      {
+        "row_index": 6,
+        "page": 1,
+        "cell": "본문 이미지 '일반학생 경쟁률 현황' 표 7번째 행",
+        "field": "recruit_count+applicant_count+competition_rate",
+        "source_text": "실용음악학과 6 77 12.83",
+        "value": [
+          6,
+          77,
+          12.83
+        ],
+        "department_name": "실용음악학과",
+        "type_name": "일반학생",
+        "metric_label": null,
+        "competition_check": "77÷6=12.8333 → 12.83",
+        "match": true
+      }
+    ],
+    "range_failures": 0,
+    "competition_rate_consistency": "7개 행 모두 지원인원÷모집인원을 소수 둘째 자리로 반올림한 값이 원문 경쟁률과 같음(불일치 0)",
+    "method": "원문이 게시글 HTML 안의 PNG 이미지(data URI)라 텍스트층이 없다. 이미지를 눈으로 읽어 옮기고(확대 확인), 합계·경쟁률 검산으로 숫자를 확인했다. tesseract OCR은 숫자 일부를 잘못 읽어(예: 25→B) 교차 확인 보조로만 썼다."
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시 경쟁률",
+      "reason": "'수시 > 역대경쟁률' 게시글(boardNum=1482)에 첨부 '2026_수시_경쟁률_엑셀.xlsx'·'2026_수시_경쟁률_pdf.pdf'가 있으나 링크가 javascript:downloadFile('1429'/'1430') 형식이라 실제 주소가 HTML에 없음. JS 주소 조립 금지 규칙에 따라 요청하지 않음",
+      "url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0302&boardNum=1482"
+    },
+    {
+      "item": "2026학년도 수시 최종등록자 점수현황(80% cut)",
+      "reason": "'수시 > 지원(점수)현황' 게시글(boardNum=1526, 2026-03-10)에 첨부 '2026학년도 최종등록자 점수현황(수시)_공지용.pdf'가 있으나 javascript:downloadFile(...) 링크뿐이라 요청하지 않음",
+      "url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0301&boardNum=1526"
+    },
+    {
+      "item": "2026학년도 정시 최종등록자 점수현황(80% cut)",
+      "reason": "'정시 > 지원(점수)현황' 게시글(boardNum=1527, 2026-03-10) 첨부 '2026학년도 최종등록자 점수현황(정시)_공지용.pdf'가 javascript:downloadFile('1477') 링크뿐이라 요청하지 않음",
+      "url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0401&boardNum=1527"
+    },
+    {
+      "item": "2026학년도 정시 정원외(특수교육대상자 등) 경쟁률·충원 인원",
+      "reason": "정시 경쟁률 이미지에는 '일반학생' 전형만 있음. 충원(추가합격) 인원은 입학처에 게시된 자료에서 찾지 못함",
+      "url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0402&boardNum=1517"
+    }
+  ],
+  "notes": [
+    "강서대학교(옛 KC대학교) 공식 도메인은 gangseo.ac.kr 이다(시드의 '(모름)' 대신 확인). 대표 홈페이지 https://gangseo.ac.kr/kcua/mainService 의 '입학안내' 링크가 입학처 http://entrance.gangseo.ac.kr 로 연결된다. 처음 시도한 kangseo.ac.kr 계열 주소는 프록시 502(접속 불가)였다.",
+    "robots.txt는 www.gangseo.ac.kr·gangseo.ac.kr·entrance.gangseo.ac.kr 모두 HTTP 404(규칙 없음) — IpsiFetcher 게이트 통과.",
+    "수집한 자료는 '정시 > 역대경쟁률'의 '2026학년도 정시 경쟁률' 게시글(2026-02-12 등록) 본문에 data URI로 박힌 PNG 이미지 1장이다. 첨부 파일이 아니므로 file_name은 null, file_sha256은 그 이미지(디코드한 PNG 598×434)의 sha256이다. 원문 HTML은 data/raw/entrance.gangseo.ac.kr/04437696ced2b59c21b681b1f4ce7c35.html(sha256 04437696…81caad7, 조회수 칸이 바뀌므로 파일 해시는 매번 달라질 수 있음), 이미지는 같은 폴더의 inline_2026_jeongsi_1_56321db22682ef8a.png 로 따로 풀어 두었다(data/raw 안).",
+    "이미지 머리글 시각 '2025.12.31.(수) 18:30'은 정시 원서접수 마감 시점 경쟁률로 보이며, 게시판 이름은 '역대경쟁률'이다. 합격자 성적·충원 인원은 이 자료에 없다.",
+    "type_name '일반학생'은 이미지의 전형명 그대로. 군(가/나/다) 표기가 원문에 없어 group은 null. 모집단위명은 원문 그대로(예: 'G2빅데이터경영학과').",
+    "행 7개는 모두 기본 행(recruit_count·applicant_count·competition_rate)이고 지표 행은 없다. raw_value_text는 원문 경쟁률 문자열.",
+    "이 대학 조사에서는 모든 요청을 IpsiFetcher로 했다(IpsiFetcher 밖 요청 없음)."
+  ]
+}

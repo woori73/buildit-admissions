@@ -1,0 +1,15 @@
+{
+  "url": "https://www.duksung.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.duksung.ac.kr/main.do?isMaster=N&isLogined=N&viewPrefix=%2FWEB-INF%2Fjsp%2Fcms&urlRootPath=&siteResourcePath=%2Fsite%2Fduksung",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 491123,
+  "sha256": "78a949516102839e1d76251b8a29d6621a97e73f3da3dcb2af53d6170a846db6",
+  "raw_path": "raw/www.duksung.ac.kr/78a949516102839e1d76251b8a29d662.html",
+  "collected_at": "2026-11-04T00:55:21+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

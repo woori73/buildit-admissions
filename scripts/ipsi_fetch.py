@@ -82,6 +82,11 @@ class FetchResult:
         return d
 
 
+# robots.txt 자리에 HTML 차단 안내가 올 때 쓰이는 문구(소문자 비교).
+BLOCK_PAGE_MARKERS = ("차단되었습니다", "차단 되었습니다", "접근이 차단", "보안 정책에 위배", "access denied",
+                      "request blocked", "has been blocked", "forbidden")
+
+
 class RobotsGate:
     """호스트별 robots.txt 파싱·캐싱. 우리 UA 기준 allow/disallow 판정."""
 
@@ -112,6 +117,11 @@ class RobotsGate:
                 body = (resp.text or "")[:200].lower()
                 if "<html" in body or "<!doctype" in body:
                     rp = None
+                    # 방화벽·보안장비의 차단 안내가 HTTP 200 HTML로 오는 경우는 robots를 확인하지 못한 것 = 판정불가.
+                    # (예: "웹 보안 정책에 위배되어 차단되었습니다") — 규칙 없음(허용)으로 보지 않는다.
+                    full = (resp.text or "")[:4000].lower()
+                    if any(k in full for k in BLOCK_PAGE_MARKERS):
+                        self._undetermined.add(host)
                 else:
                     rp.parse(resp.text.splitlines())
             elif resp.status_code >= 500:

@@ -48,6 +48,18 @@ class RobotsGateTest(unittest.TestCase):
         # when / then
         self.assertTrue(gate.allowed("https://admission.example.ac.kr/data"))
 
+    def test_given_firewall_block_page_as_robots_when_checked_then_request_is_denied(self):
+        # given: robots.txt 자리에 HTTP 200 HTML 차단 안내
+        gate = self.gate(FakeResp(200, "<html><body>웹 보안 정책에 위배되어 차단되었습니다.</body></html>", "text/html"))
+        # when / then
+        self.assertFalse(gate.allowed("https://ipsi.example.ac.kr/board"))
+
+    def test_given_soft_404_html_as_robots_when_checked_then_request_is_allowed(self):
+        # given: robots.txt 자리에 일반 HTML(없는 페이지 안내)
+        gate = self.gate(FakeResp(200, "<!doctype html><html><body>페이지를 찾을 수 없습니다</body></html>", "text/html"))
+        # when / then
+        self.assertTrue(gate.allowed("https://admission.example.ac.kr/data"))
+
     def test_given_disallow_all_when_checked_then_request_is_denied(self):
         # given
         gate = self.gate(FakeResp(200, "User-agent: *\nDisallow: /\n"))
