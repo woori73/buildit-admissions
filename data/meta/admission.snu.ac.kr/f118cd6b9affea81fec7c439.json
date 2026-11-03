@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.snu.ac.kr/materials/stats/result?md=v&bbsidx=165212",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.snu.ac.kr/materials/stats/result?md=v&bbsidx=165212",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 112845,
+  "sha256": "44af3e45600ce22123c17a5ddb5a988a0cafdd4964899c32ce8b32f4d72548f3",
+  "raw_path": "raw/admission.snu.ac.kr/44af3e45600ce22123c17a5ddb5a988a.html",
+  "collected_at": "2026-11-04T00:43:59+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

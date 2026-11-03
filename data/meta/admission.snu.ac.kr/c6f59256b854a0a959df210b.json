@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.snu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.snu.ac.kr/index.html",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 135261,
+  "sha256": "26fdc69fb349dd8aef5c2929dd8453338aed801b309af96f19c3ea98243cf194",
+  "raw_path": "raw/admission.snu.ac.kr/26fdc69fb349dd8aef5c2929dd845333.html",
+  "collected_at": "2026-11-04T00:43:24+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

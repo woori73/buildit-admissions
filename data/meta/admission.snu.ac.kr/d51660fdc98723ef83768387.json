@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.snu.ac.kr/materials/stats/competition_rate?md=v&bbsidx=163729",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.snu.ac.kr/materials/stats/competition_rate?md=v&bbsidx=163729",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 112827,
+  "sha256": "75ac0184b69889f47ab6756325b8fdc6fdd3c5744577326eaa2b147f1bdf986d",
+  "raw_path": "raw/admission.snu.ac.kr/75ac0184b69889f47ab6756325b8fdc6.html",
+  "collected_at": "2026-11-04T00:44:36+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

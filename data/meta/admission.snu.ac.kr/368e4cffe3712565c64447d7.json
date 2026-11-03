@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.snu.ac.kr/materials/downloads/press?md=v&bbsidx=163032",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.snu.ac.kr/materials/downloads/press?md=v&bbsidx=163032",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 113143,
+  "sha256": "95af2dbeeea69f243c39280c9800e40d1f0ee0583134939476a690a0f1515b3c",
+  "raw_path": "raw/admission.snu.ac.kr/95af2dbeeea69f243c39280c9800e40d.html",
+  "collected_at": "2026-11-04T00:44:27+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

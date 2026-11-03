@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.konkuk.ac.kr/enterIntro/admission/intro.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.konkuk.ac.kr/admission/index.do;jsessionid=92A138E4E70C30947A81FE7E6422162D",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 113381,
+  "sha256": "f591982211bafdab3ec51d0308dff58e240aaf9ad5ed4c2906867674bd39df69",
+  "raw_path": "raw/admission.konkuk.ac.kr/f591982211bafdab3ec51d0308dff58e.html",
+  "collected_at": "2026-11-04T00:45:02+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
