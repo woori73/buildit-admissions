@@ -1,0 +1,15 @@
+{
+  "url": "https://www.knue.ac.kr/ipsi_intro/index.jsp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.knue.ac.kr/ipsi_intro/index.jsp",
+  "content_type": "text/html;charset=utf-8",
+  "size": 13707,
+  "sha256": "e7509da6d806fd1c22ead8b33091833e1b9f269362132055081bca85232d5ae9",
+  "raw_path": "raw/www.knue.ac.kr/e7509da6d806fd1c22ead8b33091833e.html",
+  "collected_at": "2026-11-04T01:22:22+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

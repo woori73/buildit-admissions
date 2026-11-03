@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.hallym.ac.kr/bbs/admission/999/230253/download.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.hallym.ac.kr/bbs/admission/999/230253/download.do",
+  "content_type": "application/pdf;=;charset=UTF-8",
+  "size": 130965,
+  "sha256": "83b4554d1b1330346e74ed8eb29434a0c6cc14b68e12f9cd968f55aecc0a2717",
+  "raw_path": "raw/admission.hallym.ac.kr/83b4554d1b1330346e74ed8eb29434a0.pdf",
+  "collected_at": "2026-11-04T01:22:36+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

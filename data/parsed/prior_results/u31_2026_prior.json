@@ -1,0 +1,35 @@
+{
+ "university_key": "u31",
+ "university_name": "한국교원대학교",
+ "university_code": "U31",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입학전형 결과",
+   "reason": "robots 차단 — 입학안내 '입학전형결과' 게시글에 첨부 '[한국교원대] 2026학년도 입학전형 결과 자료(수시).pdf'(./downloadBbsFile.do?atchmnflNo=83674)가 있으나 www.knue.ac.kr robots.txt가 'User-agent: * / Disallow: /*downloadBbsFile.do'(미리보기 /*previewBbsFile.do도 Disallow)로 첨부 다운로드를 막아 IpsiFetcher가 거부. 게시글 본문에는 표 없음('붙임과 같이 공개')",
+   "url": "https://www.knue.ac.kr/ipsi/selectBbsNttView.do?key=1835&bbsNo=271&nttNo=80973"
+  },
+  {
+   "item": "2026학년도 정시 입학전형 결과",
+   "reason": "robots 차단 — 같은 게시글 첨부 '[한국교원대] 2026학년도 입학전형 결과 자료(정시).pdf'(./downloadBbsFile.do?atchmnflNo=83675), 사유 위와 같음",
+   "url": "https://www.knue.ac.kr/ipsi/selectBbsNttView.do?key=1835&bbsNo=271&nttNo=80973"
+  },
+  {
+   "item": "입학처 별도 도메인(admission.knue.ac.kr)",
+   "reason": "robots.txt 확인 단계에서 프록시 502(Tunnel connection failed)로 판정 불가 → 요청하지 않음. 실제 입학안내는 www.knue.ac.kr/ipsi/ 로 확인되어 영향 없음",
+   "url": "https://admission.knue.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학안내 사이트: https://www.knue.ac.kr/ipsi/index.do (대표 홈페이지 입학안내 → /ipsi_intro/index.jsp → 입학전형결과 게시판 bbsNo=271&key=1835). 게시판 목록과 게시글 HTML은 robots 허용으로 받았다.",
+  "게시판에 '2026학년도 신입생 입학전형 결과(수시, 정시) 공개'(nttNo=80973)와 '2026학년도 대학 편입학 전형 결과'(nttNo=81111, 편입학이라 범위 밖)가 있다. 신입생 결과는 PDF 첨부 2개뿐이고 다운로드·미리보기 경로가 모두 robots Disallow라 수치를 하나도 받지 못했다.",
+  "입학안내 첫 화면의 경쟁률 링크는 원서접수 대행사(addon.jinhakapply.com) 도메인이라 요청하지 않았다."
+ ]
+}

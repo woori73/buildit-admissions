@@ -1,0 +1,15 @@
+{
+  "url": "https://www.sungshin.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.sungshin.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 198,
+  "sha256": "dcce33ea63cf6a2be29d06c60f4135be1bcf20e00c3aa9fa7e8a29958f557a9b",
+  "raw_path": "raw/www.sungshin.ac.kr/dcce33ea63cf6a2be29d06c60f4135be.html",
+  "collected_at": "2026-11-04T01:07:48+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

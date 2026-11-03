@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.yonsei.ac.kr/mirae/admission/html/counsel/notice.asp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.yonsei.ac.kr/mirae/admission/html/counsel/notice.asp",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 26919,
+  "sha256": "c959a48afce460f7a60bc7df0b15fc9dd38106f56e05d963be19615990bc3634",
+  "raw_path": "raw/admission.yonsei.ac.kr/c959a48afce460f7a60bc7df0b15fc9d.html",
+  "collected_at": "2026-11-04T01:29:30+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

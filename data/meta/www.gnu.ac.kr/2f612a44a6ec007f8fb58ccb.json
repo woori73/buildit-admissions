@@ -1,0 +1,15 @@
+{
+  "url": "https://www.gnu.ac.kr/new/cm/cntnts/cntntsView.do?mi=48029&cntntsId=21841",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.gnu.ac.kr/new/cm/cntnts/cntntsView.do?mi=48029&cntntsId=21841",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 52995,
+  "sha256": "ecff3e1615af1d2f52c765c4f57f8e19790e4def8c02452e77e2c46d038172a6",
+  "raw_path": "raw/www.gnu.ac.kr/ecff3e1615af1d2f52c765c4f57f8e19.html",
+  "collected_at": "2026-11-04T01:22:41+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

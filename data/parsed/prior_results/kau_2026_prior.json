@@ -1,0 +1,35 @@
+{
+ "university_key": "kau",
+ "university_name": "한국항공대학교",
+ "university_code": "KAU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "입학처 '지난입시결과' 수시 게시판에 게시글 '2026학년도 수시모집 입시결과'(2026.04.24, 첨부 있음 표시, 글번호 idx 6123)가 있으나 글 링크가 javascript:void(0) + onclick viewBoardProcess('6123')(POST 폼 → resultView.asp)뿐이라 열지 않음. 첨부 파일명은 게시글을 열어야 보여 확인 못함.",
+   "url": "https://ibhak.kau.ac.kr/admission/html/rolling/result.asp"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "정시 게시판의 게시글 '2026학년도 정시모집 입시결과'(2026.04.24, 글번호 idx 6124)도 같은 javascript/POST 방식이라 열지 않음. 첨부 파일명 미확인.",
+   "url": "https://ibhak.kau.ac.kr/admission/html/regular/result.asp"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처(ibhak.kau.ac.kr) robots.txt: 'User-agent: * / Disallow: / / Allow: /admission/html, /admission/html2'. 허용 경로의 수시·정시 입시결과 게시판 목록만 IpsiFetcher로 받음(게시글 본문·첨부는 POST로만 열려 미수집).",
+  "참고: 탐색 중 https://ibhak.kau.ac.kr/admission/html/ (허용 경로) 요청이 서버 리다이렉트로 http://ibhak.kau.ac.kr/error_new/error.html(오류 안내 페이지)로 넘어감 — 내용 없음, 사용하지 않음.",
+  "게시판 목록상 게시일: 2026학년도 수시·정시 입시결과 모두 2026.04.24."
+ ]
+}

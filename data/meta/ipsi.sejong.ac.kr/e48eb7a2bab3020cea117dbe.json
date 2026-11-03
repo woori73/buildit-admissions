@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sejong.ac.kr/ipsi/assistant/entrance.do?mode=view&articleNo=2796&article.offset=0&articleLimit=10",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sejong.ac.kr/ipsi/assistant/entrance.do?mode=view&articleNo=2796&article.offset=0&articleLimit=10",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 63663,
+  "sha256": "8bf43092e072c44bb22fefe888b8ad3ab0f005edcc3372709df288cb6c95c4cc",
+  "raw_path": "raw/ipsi.sejong.ac.kr/8bf43092e072c44bb22fefe888b8ad3a.html",
+  "collected_at": "2026-11-04T01:07:22+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

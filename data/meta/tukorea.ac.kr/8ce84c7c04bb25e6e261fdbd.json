@@ -1,0 +1,15 @@
+{
+  "url": "https://tukorea.ac.kr/tukorea/1020/subview.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://tukorea.ac.kr/tukorea/1020/subview.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 185364,
+  "sha256": "c8d0970d25509d2ecab1f123bb245db86e5d68fb2734c61f8972516bdf2eaf7c",
+  "raw_path": "raw/tukorea.ac.kr/c8d0970d25509d2ecab1f123bb245db8.html",
+  "collected_at": "2026-11-04T01:24:51+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

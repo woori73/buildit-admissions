@@ -1,0 +1,44 @@
+{
+ "university_key": "swu",
+ "university_name": "서울여자대학교",
+ "university_code": "SWU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "학부 입학처(admission.swu.ac.kr — 본교 www.swu.ac.kr/swu/index.do의 '입학처'·'입학정보' 링크로 확인) robots.txt가 'User-agent: * / Disallow: /'로 전면 차단. 입학처 페이지는 하나도 요청하지 않음.",
+   "url": "https://admission.swu.ac.kr/robots.txt"
+  },
+  {
+   "item": "본교 홈페이지 입학정보 메뉴",
+   "reason": "본교 www.swu.ac.kr의 '입학정보'(/swu/547/subview.do)는 입학처(admission.swu.ac.kr) 링크만 있고 입시결과 파일 링크 없음.",
+   "url": "https://www.swu.ac.kr/swu/547/subview.do"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 대학별 입시결과",
+   "reason": "지시서상 요청 금지 사이트라 요청하지 않음.",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "www.swu.ac.kr 첫 화면(597바이트)은 JS(domains.js의 getMoveUri)로 이동만 한다. domains.js에 적힌 기본 이동 주소 '/swu/index.do'(페이지 주소, 첨부 아님)를 따라가 본교 첫 화면을 받았다 — 판단이 들어간 처리(인하대 location.href 사례와 같은 성격). domains.js 안의 AJAX(POST) 주소는 요청하지 않았다.",
+  "ipsi.swu.ac.kr·iphak.swu.ac.kr는 주소 확인용으로 시도했으나 연결 불가(프록시 502)로 robots 판정 불가 — 요청 없음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음.",
+  "다음 단계: 사람이 브라우저로 admission.swu.ac.kr 자료실에서 2026학년도 입시결과 파일을 받아 data/raw에 넣어 주면 처리할 수 있다."
+ ]
+}

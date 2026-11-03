@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=K7",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=K7",
+  "content_type": "text/html; charset=utf-8",
+  "size": 25024,
+  "sha256": "79027239012105f66ebbc0645938d05abf91c3a67be83573425a8428fbddefe7",
+  "raw_path": "raw/admission.uos.ac.kr/79027239012105f66ebbc0645938d05a.html",
+  "collected_at": "2026-11-04T01:05:36+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

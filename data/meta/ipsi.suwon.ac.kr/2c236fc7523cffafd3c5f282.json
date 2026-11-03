@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.suwon.ac.kr/board/jungsi_result/read/5520",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.suwon.ac.kr/board/jungsi_result/read/5520",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 22885,
+  "sha256": "83def7cbc566d5eb65ebe9271149faea6f030ba8b32ed6458506b577ef26c137",
+  "raw_path": "raw/ipsi.suwon.ac.kr/83def7cbc566d5eb65ebe9271149faea.html",
+  "collected_at": "2026-11-04T01:25:22+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.jcoresystem.kr/_common/new_download_file.php?menu=board&b_code=B_1_8&b_no=44580&field=file_nm",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.kw.ac.kr/_common/new_download_file.php?menu=board&b_code=B_1_8&b_no=44580&field=file_nm",
+  "content_type": "application/octet-stream",
+  "size": 88096,
+  "sha256": "71304cdf16845df8366c3ab3fe5e94660aa1e182923f79aad781f9fc2f475c66",
+  "raw_path": "raw/iphak.jcoresystem.kr/71304cdf16845df8366c3ab3fe5e9466.php",
+  "collected_at": "2026-11-04T00:50:29+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

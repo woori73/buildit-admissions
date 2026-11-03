@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.kongju.ac.kr/kor/pdfWebViewer?atchFileId=35&fileSn=1",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.kongju.ac.kr/kor/pdfWebViewer?atchFileId=35&fileSn=1",
+  "content_type": "application/pdf",
+  "size": 17519787,
+  "sha256": "9ef2fe99779a02761619d107801f6deb228d22abc4950c70934cbb76db17874b",
+  "raw_path": "raw/ipsi.kongju.ac.kr/9ef2fe99779a02761619d107801f6deb.pdf",
+  "collected_at": "2026-11-04T01:28:56+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

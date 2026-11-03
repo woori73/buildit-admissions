@@ -1,0 +1,15 @@
+{
+  "url": "https://www.swu.ac.kr/domains/js/domains.js",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.swu.ac.kr/domains/js/domains.js",
+  "content_type": "application/javascript",
+  "size": 800,
+  "sha256": "db9570f30c256a53011b5759b78c6be52b28cf14246aaac07341eb96800279c5",
+  "raw_path": "raw/www.swu.ac.kr/db9570f30c256a53011b5759b78c6be5.js",
+  "collected_at": "2026-11-04T01:04:13+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,55 @@
+{
+  "university_key": "u105",
+  "university_name": "동아대학교",
+  "university_code": "U105",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "수시·정시 전체",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null,
+        "note": "수집 문서 없음(게시글이 POST 폼으로만 열림) — 대조 대상 없음"
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시 입시결과",
+      "reason": "입학처(ent.donga.ac.kr, robots.txt 'Allow: /') 수시모집 > 입시전형결과 게시판에 '2026학년도 동아대학교 수시모집 입시전형결과'(작성일 2026.05.19, 첨부 '2026학년도 학생부종합 입시결과.pdf')가 있으나, 게시글 링크가 javascript viewData('30600') 호출뿐이고 그 함수는 POST 폼(frmData → resultView.asp)을 제출한다. HTML에 실제 GET 링크가 없어(POST·JS 주소 조립 금지) 받지 않음",
+      "url": "https://ent.donga.ac.kr/admission/html/rolling/result.asp"
+    },
+    {
+      "item": "2026학년도 정시 입시결과",
+      "reason": "정시모집 > 입시전형결과 게시판의 '2026학년도 동아대학교 정시모집 입시전형결과'(작성일 2026.05.19, 첨부 '2026학년도 정시모집 입시결과.pdf')도 javascript viewData('30601') → POST 폼 제출뿐이라 받지 않음",
+      "url": "https://ent.donga.ac.kr/admission/html/regular/result.asp"
+    },
+    {
+      "item": "입학처 공지 '2022~2026학년도 입시전형결과'",
+      "reason": "공지(BOARD_IDX=29537, 작성일 2026.05.19, GET 링크)는 본문에 위 두 게시판으로 가는 이미지 링크만 있고 첨부·표가 없음",
+      "url": "https://ent.donga.ac.kr/admission/html/counsel/noticeView.asp?BOARD_IDX=29537"
+    },
+    {
+      "item": "입학처 옛 주소 ipsi.donga.ac.kr",
+      "reason": "https robots.txt 요청이 HTTP 502(서버 오류)로 판정 불가 → 요청하지 않음. 현재 입학처 주소는 ent.donga.ac.kr로 확인",
+      "url": "https://ipsi.donga.ac.kr/robots.txt"
+    },
+    {
+      "item": "대학어디가 성적산출 링크",
+      "reason": "입학처 메뉴의 '성적산출'은 adiga.kr로 연결 — 규칙상 요청하지 않음",
+      "url": "https://www.adiga.kr/man/inf/mainView.do?menuId=PCMANINF1000"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch 결과의 ent.donga.ac.kr 첨부 주소로 찾았고, 첫 화면(intro.asp)의 '동아대학교 대표 홈페이지' 링크 등으로 공식 입학처임을 확인했다. 모든 요청은 IpsiFetcher(robots.txt HTTP 200, Allow: /).",
+    "사람이 확인할 목록: 수시 입시전형결과 게시판 첫 글 '2026학년도 동아대학교 수시모집 입시전형결과'(첨부 2026학년도 학생부종합 입시결과.pdf), 정시 입시전형결과 게시판 첫 글 '2026학년도 동아대학교 정시모집 입시전형결과'(첨부 2026학년도 정시모집 입시결과.pdf). 수시 첨부 파일명으로 보면 학생부종합 외 전형 자료가 별도로 있는지도 확인이 필요하다.",
+    "ipsi.donga.ac.kr의 http robots.txt는 HTTP 400을 돌려줬지만 https 쪽이 502(판정 불가)라 그 호스트에는 요청하지 않았다.",
+    "rows가 비어 있어 합계·원문 대조를 하지 못했다. 추측해 넣은 값은 없다."
+  ]
+}

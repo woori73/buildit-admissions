@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.yonsei.ac.kr/mirae/admission/html/rolling/notice.asp?s_type=TYPE1&s_code=BBS_SUBJECT&s_data=&s_page=2",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.yonsei.ac.kr/mirae/admission/html/rolling/notice.asp?s_type=TYPE1&s_code=BBS_SUBJECT&s_data=&s_page=2",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 24928,
+  "sha256": "a54ad2d6f9c48c67af9ff9bb7d324ff6c39ce0458c70e52c33e43248fb3e9d81",
+  "raw_path": "raw/admission.yonsei.ac.kr/a54ad2d6f9c48c67af9ff9bb7d324ff6.html",
+  "collected_at": "2026-11-04T01:29:41+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

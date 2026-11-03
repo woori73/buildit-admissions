@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.suwon.ac.kr/download/48724c2b5950546e676c72646c32714e72483269725a65694a36526e674c574d4c33735458716878782b70626d48454a757774715142584761744837366c4a4d",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-04T01:25:41+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: https://ipsi.suwon.ac.kr/robots.txt -> HTTP 200",
+  "verification_status": "COLLECTED"
+}

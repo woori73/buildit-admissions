@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.mju.ac.kr/pages/?p=31&b=B_1_2",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.mju.ac.kr/pages/?p=31&b=B_1_2",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 29240,
+  "sha256": "d35e26f8ea2412fce657123e35946d06167b636f1f8f09ea90ab8b1eab4e08fa",
+  "raw_path": "raw/iphak.mju.ac.kr/d35e26f8ea2412fce657123e35946d06.html",
+  "collected_at": "2026-11-04T01:04:40+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

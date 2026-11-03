@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.ewha.ac.kr/admission/html/ewharo/notice.asp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.ewha.ac.kr/admission/html/ewharo/notice.asp",
+  "content_type": "text/html; Charset=UTF-8",
+  "size": 39138,
+  "sha256": "ac62952a0628102dc64d6a6c0763e0f5954c2446cf9e2e0920f0c193b9117ad0",
+  "raw_path": "raw/admission.ewha.ac.kr/ac62952a0628102dc64d6a6c0763e0f5.html",
+  "collected_at": "2026-11-04T01:09:30+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

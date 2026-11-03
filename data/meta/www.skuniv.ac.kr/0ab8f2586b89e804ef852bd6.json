@@ -1,0 +1,15 @@
+{
+  "url": "https://www.skuniv.ac.kr/",
+  "ok": false,
+  "robots_allowed": true,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-04T01:07:19+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "request failed: HTTPSConnectionPool(host='www.skuniv.ac.kr', port=443): Read timed out. (read timeout=30)",
+  "verification_status": "COLLECTED"
+}

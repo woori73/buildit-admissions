@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.yonsei.ac.kr/mirae/admission/html/regular/competition.asp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.yonsei.ac.kr/mirae/admission/html/regular/competition.asp",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 23221,
+  "sha256": "f84d298e3a061b53618d51e608fe778eadbeaff1bea804c917ceba739638e468",
+  "raw_path": "raw/admission.yonsei.ac.kr/f84d298e3a061b53618d51e608fe778e.html",
+  "collected_at": "2026-11-04T01:31:06+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

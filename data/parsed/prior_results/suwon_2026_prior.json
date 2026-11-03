@@ -1,0 +1,62 @@
+{
+ "university_key": "suwon",
+ "university_name": "수원대학교",
+ "university_code": "SUWON",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "수시·정시 전체",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "수집 문서 없음(첨부 다운로드 경로 robots 차단) — 원문 합계는 지원현황 게시글 본문에만 있음(notes 참고)"
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 결과자료(최종등록자 입시 성적) — 첨부 '2026학년도 수시모집 결과자료 (수원대).pdf', '2026학년도 수시모집 결과자료 (수원대).hwp'",
+   "reason": "robots 차단 — 게시글(/board/…)은 robots Allow지만 첨부 다운로드 경로 /download/…는 robots.txt 'Disallow: /'(Allow 목록: /$, /main, /guide/susi·jungsi·transfer·oversea, /supporters/…, /promotion/info, /board)에 걸려 IpsiFetcher가 거부함. 같은 첨부가 '전년도 입시결과' 게시판(https://ipsi.suwon.ac.kr/board/pre_result/read/5502)에도 있으나 역시 /download/ 경로.",
+   "url": "https://ipsi.suwon.ac.kr/board/susi_result/read/5517"
+  },
+  {
+   "item": "2026학년도 정시모집 결과자료 — 첨부 '2026학년도 정시모집 결과자료 (수원대).pdf', '2026학년도 정시모집 결과자료 (수원대).hwp'",
+   "reason": "robots 차단 — 첨부 /download/… 경로 Disallow(위와 같음). 같은 첨부가 https://ipsi.suwon.ac.kr/board/pre_result/read/5503 에도 있음.",
+   "url": "https://ipsi.suwon.ac.kr/board/jungsi_result/read/5520"
+  },
+  {
+   "item": "2026학년도 수시모집 차순위표 — 첨부 '2026학년도 수시모집 차순위표 (수원대).pdf', '2026학년도 수시모집 차순위표 (수원대).hwp'",
+   "reason": "robots 차단 — 첨부 /download/… 경로 Disallow.",
+   "url": "https://ipsi.suwon.ac.kr/board/susi_result/read/5516"
+  },
+  {
+   "item": "2026학년도 정시모집 차순위표 — 첨부 '2026학년도 정시모집 차순위표 (수원대).pdf', '2026학년도 정시모집 차순위표 (수원대).hwp'",
+   "reason": "robots 차단 — 첨부 /download/… 경로 Disallow.",
+   "url": "https://ipsi.suwon.ac.kr/board/jungsi_result/read/5519"
+  },
+  {
+   "item": "2026학년도 수시모집 전형별 최종 지원현황(경쟁률)",
+   "reason": "게시글은 전체 합계만 본문에 적고 전형별 최종 경쟁률은 외부 원서접수 대행사 도메인(addon.jinhakapply.com) 링크로만 제공 — 대학 공식 도메인 자료가 아니어서 요청하지 않음.",
+   "url": "https://ipsi.suwon.ac.kr/board/susi_result/read/4543"
+  },
+  {
+   "item": "2026학년도 정시모집 전형별 최종 지원현황(경쟁률)",
+   "reason": "위와 같음 — 전형별 경쟁률은 addon.jinhakapply.com 링크로만 제공(요청 안 함).",
+   "url": "https://ipsi.suwon.ac.kr/board/jungsi_result/read/5518"
+  }
+ ],
+ "notes": [
+  "입학처: https://ipsi.suwon.ac.kr (입학처 메인 메뉴 '수시모집/정시모집 > 입시결과', '입시자료실 > 전년도 입시결과'). robots.txt는 HTTP 200 text/plain으로 'Disallow: /' + Allow(/$, /main, /guide/…, /supporters/…, /promotion/info, /board).",
+  "입시결과 게시판: 수시 https://ipsi.suwon.ac.kr/board/susi_result, 정시 https://ipsi.suwon.ac.kr/board/jungsi_result, 전년도 입시결과 https://ipsi.suwon.ac.kr/board/pre_result. 2026학년도 결과자료·차순위표는 모두 2026.03.18 '입학처' 작성. 수시 결과자료 본문: '2026학년도 수시모집 최종등록자 입시 성적 자료입니다.'",
+  "첨부 링크는 HTML <a href>에 완성된 주소(/download/<토큰>)로 적혀 있으나 그 경로가 robots Disallow라 받지 않음(IpsiFetcher 거부 1건 확인: 수시 결과자료 PDF).",
+  "지원현황 게시글 본문(HTML)의 전체 합계(행으로 넣지 않음 — 원문에 전형·모집단위 이름이 없음): 수시(2025.09.12 게시) 모집인원 1,525명 / 지원인원 24,629명 / 경쟁률 '16.16 : 1'; 정시(2026.03.18 게시) 모집인원 809명 / 지원인원 6,436명 / 경쟁률 '7.96 : 1'. 검산: 6,436÷809=7.955→7.96 일치, 24,629÷1,525=16.150→16.15로 원문 16.16과 0.01 차이(원문 자체 불일치 가능성, 원문 값 그대로 기록).",
+  "공식 입학처 첨부를 받을 수 없어 rows는 빈 배열이며 외부 수치는 쓰지 않음. 대학어디가(adiga.kr) 링크는 요청하지 않음.",
+  "다음 단계: 사람이 위 4개 게시글의 PDF를 내려받아 data/raw에 넣어 주면 처리 가능(HWP는 같은 내용으로 보이며 변환 도구 없음)."
+ ]
+}

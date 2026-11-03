@@ -1,0 +1,46 @@
+{
+  "university_key": "u172",
+  "university_name": "조선대학교",
+  "university_code": "U172",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "수시·정시 전체",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null,
+        "note": "수집 문서 없음(첨부 링크가 경고 페이지를 돌려줌) — 대조 대상 없음"
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시 입시결과",
+      "reason": "입학처(i.chosun.ac.kr) 입시결과(통합) 게시글 '2026학년도 신입학 입시결과'(분류 수시, 작성일 2026-04-22) 첨부 '조선대학교 2026학년도 신입학 입시결과(홈페이지 게시용).xlsx(96.7 KB)'의 HTML 실제 링크(do=download&file_id=VU1kbhVJIZq7)를 IpsiFetcher로 GET하면 HTTP 200이지만 xlsx가 아니라 206바이트 경고 페이지('경고: 잘못된 접근입니다!')가 옴. 요청을 바꿔 다시 시도하지 않음",
+      "url": "https://i.chosun.ac.kr/main/menu?gc=1044IOKR&do=view&bwrite_id=VU1kbhU6cxrC"
+    },
+    {
+      "item": "2026학년도 정시 입시결과",
+      "reason": "정시 게시글 '2026학년도 신입학 입시결과'(2026-04-22) 첨부 '조선대학교 2026학년도 신입학 입시결과(홈페이지 게시용).xlsx(96.7 KB)'(file_id=VU1kbhcUZgvZ)도 같은 경고 페이지(206바이트)가 옴",
+      "url": "https://i.chosun.ac.kr/main/menu?gc=1044IOKR&do=view&bwrite_id=VU1kbhbeDcYB"
+    },
+    {
+      "item": "대학 본부 사이트 www.chosun.ac.kr",
+      "reason": "robots.txt 'User-agent: * / Disallow: /' — 요청하지 않음. 입학처 주소는 robots가 허용하는 www3.chosun.ac.kr 첫 화면의 '입학처' 링크로 확인",
+      "url": "https://www.chosun.ac.kr/robots.txt"
+    }
+  ],
+  "notes": [
+    "입학처 주소: www3.chosun.ac.kr(robots.txt HTTP 200, 우리 UA 허용)의 meta refresh 주소(/sites/chosun/index.do) 화면에 있는 '조선대학교 입학처' 링크 https://i.chosun.ac.kr. ipsi.chosun.ac.kr·admission.chosun.ac.kr은 robots.txt 확인 단계에서 프록시 502(판정 불가)라 요청하지 않았다.",
+    "i.chosun.ac.kr robots.txt는 'User-agent: * / Allow: /'(Bingbot만 Disallow). 이 호스트는 연결이 불안정해 robots.txt 요청이 가끔 연결 재설정·SSL EOF로 실패했고, 그때는 RobotsGate가 판정 불가로 막았다(요청 안 나감). 다시 실행해 robots가 확인된 뒤에만 요청했다.",
+    "게시글 본문에는 '입시결과: 최종등록자 기준', '등록인원 3명 이하인 전형별 입시결과는 공개하지 않음' 안내만 있고 표는 없다. 수시·정시 게시글에 같은 이름의 xlsx(96.7 KB)가 각각 붙어 있으며 file_id가 다르다.",
+    "사람이 확인할 목록: 위 두 게시글의 첨부 xlsx를 브라우저로 내려받아 data/raw에 넣어 주면 처리할 수 있다. 받은 경고 페이지(data/raw/i.chosun.ac.kr/102e3440….html)는 수치가 없어 쓰지 않았다.",
+    "rows가 비어 있어 합계·원문 대조를 하지 못했다. 추측해 넣은 값은 없다."
+  ]
+}

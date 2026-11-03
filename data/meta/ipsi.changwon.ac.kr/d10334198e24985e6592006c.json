@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.changwon.ac.kr/ipsi/main.do?intro=OFF",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "http://www.changwon.ac.kr/ipsi/main.do?intro=OFF",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 53073,
+  "sha256": "24550709ea3cef61076c7fcbfd4f38ae74eb4bf3ccaed2a3a4ee28608f66ac2e",
+  "raw_path": "raw/ipsi.changwon.ac.kr/24550709ea3cef61076c7fcbfd4f38ae.html",
+  "collected_at": "2026-11-04T01:26:28+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.kongju.ac.kr/kor",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.kongju.ac.kr/kor",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 67006,
+  "sha256": "8cc59ce58558702960439e1e0a9e58dc9eefc994d3ab6efc76b1740505c99ae9",
+  "raw_path": "raw/ipsi.kongju.ac.kr/8cc59ce58558702960439e1e0a9e58dc.html",
+  "collected_at": "2026-11-04T01:27:51+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.skku.edu/skku/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.skku.edu/skku/index.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 165712,
+  "sha256": "acc440adbbff8de9f69c5abd10c1b26bcfbf4c3bb99e941345c66f8b97aefe54",
+  "raw_path": "raw/www.skku.edu/acc440adbbff8de9f69c5abd10c1b26b.html",
+  "collected_at": "2026-11-04T00:46:04+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

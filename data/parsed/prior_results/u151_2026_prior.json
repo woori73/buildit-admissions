@@ -1,0 +1,34 @@
+{
+ "university_key": "u151",
+ "university_name": "영남대학교",
+ "university_code": "U151",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과",
+   "reason": "robots 차단 — 대표 홈페이지(www.yu.ac.kr) '입학' 메뉴가 연결하는 입학처 사이트 enter.yu.ac.kr의 robots.txt가 'User-agent: * / Disallow: /'로 전면 차단. 첫 화면·게시판 어느 경로도 요청하지 않음",
+   "url": "https://enter.yu.ac.kr/robots.txt"
+  },
+  {
+   "item": "2026학년도 정시 입시결과",
+   "reason": "robots 차단 — 위와 같음(enter.yu.ac.kr 전 경로 Disallow)",
+   "url": "https://enter.yu.ac.kr/robots.txt"
+  },
+  {
+   "item": "입학처 별칭 도메인(ipsi.yu.ac.kr)",
+   "reason": "DNS 조회 실패(Name or service not known) — 존재하지 않는 주소로 보임. 실제 입학처는 enter.yu.ac.kr",
+   "url": "https://ipsi.yu.ac.kr/"
+  }
+ ],
+ "notes": [
+  "대표 홈페이지 https://www.yu.ac.kr/main/index.do (robots 허용)의 '입학/입학안내' 링크는 모두 https://enter.yu.ac.kr/ 로 간다. 대표 홈페이지 첫 화면에는 입시결과·경쟁률 게시물이 없다.",
+  "isa.yu.ac.kr(외국인 입학)·대학원 입학 사이트는 학부 신입학 입시결과 범위가 아니라 확인하지 않았다."
+ ]
+}

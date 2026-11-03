@@ -1,0 +1,15 @@
+{
+  "url": "https://www.mtu.ac.kr/mtu/board/list.do?mId=402",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.mtu.ac.kr/mtu/board/list.do?mId=402",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 204613,
+  "sha256": "9c625d3ae1ab21de0b1dc8a41b29f7d453abb9d5fabb97e0e009446c91f8b2b7",
+  "raw_path": "raw/www.mtu.ac.kr/9c625d3ae1ab21de0b1dc8a41b29f7d4.html",
+  "collected_at": "2026-11-04T00:49:26+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

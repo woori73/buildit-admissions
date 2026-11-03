@@ -1,0 +1,43 @@
+{
+ "university_key": "kyonggi",
+ "university_name": "경기대학교",
+ "university_code": "KYONGGI",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 전형결과(입시결과) PDF",
+   "reason": "입학처 첫 화면의 실제 링크 '2024~2026학년도 신입학 입학통계'(자료실 > 입학통계, BOARD_SEQ=18, BBS_SEQ=298) 상세 페이지에 첨부 '(경기대) 2026~2024학년도 전형결과(수시,정시).pdf'가 있으나, 링크가 href='#;' + onclick=fileDown(this)이고 다운로드 주소는 JS가 data-* 값을 이어 붙여 만든다(/ajaxfile/FR_SVC/FileDown.do?...). HTML에 실제 다운로드 링크가 없어 지시서 규칙(JS 주소 조립 금지)에 따라 요청하지 않음. 사람이 브라우저로 받으면 수집 가능.",
+   "url": "https://enter.kyonggi.ac.kr/cms/FR_BBS_CON/BoardView.do?pageNo=1&pagePerCnt=15&MENU_ID=570&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=18&BBS_SEQ=298&P_BBS_SEQ=&SEARCH_SEQ=3&PWD=&SEARCH_FLD=&SEARCH="
+  },
+  {
+   "item": "'[수시] 2026학년도 수시모집 지원현황 및 합격자 평균성적' 게시물",
+   "reason": "같은 게시판 상세 페이지의 다음글로 제목만 보이며 링크가 JS(next())뿐이라 열지 않음. 수시/정시 '전년도 입학통계(2026~2024)'(MENU_ID=130/150)와 자료실 '성적현황'(MENU_ID=580) 화면은 정적 HTML에 본문·목록이 없음(목록 'TOTAL 건'이 JS로 채워짐).",
+   "url": "https://enter.kyonggi.ac.kr/cms/FR_CON/index.do?MENU_ID=580"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 대학별 입시결과",
+   "reason": "지시서상 요청 금지 사이트라 요청하지 않음. 입학처 자료를 확보하지 못했으므로 그곳 게시 여부도 확인하지 않음.",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처: enter.kyonggi.ac.kr (robots.txt: 'Disallow: /admin/'만, 나머지 허용). ipsi.kyonggi.ac.kr·admission.kyonggi.ac.kr은 접속 불가(프록시 502), www.kyonggi.ac.kr은 robots.txt 요청이 연결 재설정 — 판정 불가로 요청하지 않음.",
+  "enter.kyonggi.ac.kr 첫 응답은 JS(TControl.setHref('/intro.do'))로만 넘어가며, 그 경로 문자열 '/intro.do'를 그대로 요청함(주소 조립 아님).",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음."
+ ]
+}

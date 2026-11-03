@@ -1,0 +1,15 @@
+{
+  "url": "https://www.sookmyung.ac.kr/kr/admission/admission-guide.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.sookmyung.ac.kr/kr/admission/admission-guide.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 108952,
+  "sha256": "20f94a63cd98d9e8c878f2888c7942c814a00feb75d6fb154e7ed48c02241d2d",
+  "raw_path": "raw/www.sookmyung.ac.kr/20f94a63cd98d9e8c878f2888c7942c8.html",
+  "collected_at": "2026-11-04T01:06:00+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

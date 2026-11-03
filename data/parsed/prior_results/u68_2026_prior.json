@@ -1,0 +1,33 @@
+{
+ "university_key": "u68",
+ "university_name": "계명대학교",
+ "university_code": "U68",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과",
+   "reason": "robots 판정 불가 — 대표 홈페이지 www.kmu.ac.kr(및 kmu.ac.kr, 입학처 바로가기 페이지가 있는 cms.kmu.ac.kr)의 robots.txt 요청이 TLS 인증서 검증 실패(CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate)로 끝나 판정하지 못함. TLS 검증을 끄지 않았으므로 수집하지 않음. 3회 다시 시도(01:29~01:31 KST) 모두 같음",
+   "url": "https://www.kmu.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시 입시결과",
+   "reason": "위와 같음(robots 판정 불가로 수집 안 함)",
+   "url": "https://cms.kmu.ac.kr/templet_dept_06/1058/subview.do"
+  },
+  {
+   "item": "입학처 전용 도메인",
+   "reason": "입학처 주소를 확인하지 못함: ipsi.kmu.ac.kr은 DNS 조회 실패(http)·프록시 502(https), iphak/enter/admission.kmu.ac.kr도 프록시 502. 검색으로 확인된 '입학처 바로가기'(cms.kmu.ac.kr/templet_dept_06/1058/subview.do)는 위 TLS 오류로 열지 못함",
+   "url": "https://cms.kmu.ac.kr/templet_dept_06/1058/subview.do"
+  }
+ ],
+ "notes": [
+  "TLS 오류는 서버가 중간 인증서를 보내지 않는 경우에 흔하다. 검증을 끄거나 인증서 묶음을 바꾸는 우회는 하지 않았다. 사람이 브라우저로 입학처 '입시결과' 게시판을 확인할 대상이다."
+ ]
+}

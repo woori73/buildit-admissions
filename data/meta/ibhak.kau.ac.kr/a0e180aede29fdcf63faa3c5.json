@@ -1,0 +1,15 @@
+{
+  "url": "https://ibhak.kau.ac.kr/admission/html/rolling/result.asp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ibhak.kau.ac.kr/admission/html/rolling/result.asp",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 18078,
+  "sha256": "db1dc07501b0271659b4ed4804ac60027f567a0668602c7eaad88b7fe756b21e",
+  "raw_path": "raw/ibhak.kau.ac.kr/db1dc07501b0271659b4ed4804ac6002.html",
+  "collected_at": "2026-11-04T01:08:50+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

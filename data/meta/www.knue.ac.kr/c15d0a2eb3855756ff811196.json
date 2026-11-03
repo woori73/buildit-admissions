@@ -1,0 +1,15 @@
+{
+  "url": "https://www.knue.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.knue.ac.kr/",
+  "content_type": "text/html",
+  "size": 1799,
+  "sha256": "073ba90d5b0a2805eb6350c4848018d273b30ee006301295e2add3d1740ad8a4",
+  "raw_path": "raw/www.knue.ac.kr/073ba90d5b0a2805eb6350c4848018d2.html",
+  "collected_at": "2026-11-04T01:22:05+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.ssu.ac.kr/board/statistics_view.asp?number=242&srchoption=&keyword=&flag=2&page_no=1_3_4&page=1",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.ssu.ac.kr/board/statistics_view.asp?number=242&srchoption=&keyword=&flag=2&page_no=1_3_4&page=1",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 45912,
+  "sha256": "e14d573c39e6380c9b4a0858bb9ea2da130f373b64ccdd7878bfae5bb668c81b",
+  "raw_path": "raw/iphak.ssu.ac.kr/e14d573c39e6380c9b4a0858bb9ea2da.html",
+  "collected_at": "2026-11-04T01:03:45+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

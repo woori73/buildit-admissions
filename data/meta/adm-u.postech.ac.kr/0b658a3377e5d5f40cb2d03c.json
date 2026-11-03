@@ -1,0 +1,15 @@
+{
+  "url": "https://adm-u.postech.ac.kr/admission-helper/notices",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://adm-u.postech.ac.kr/admission-helper/notices/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 44424,
+  "sha256": "5297b4b21991b9cd36f60054cc95d7c4bc5a15baaba8217528aeb52a3c5deabd",
+  "raw_path": "raw/adm-u.postech.ac.kr/5297b4b21991b9cd36f60054cc95d7c4.html",
+  "collected_at": "2026-11-04T01:24:30+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

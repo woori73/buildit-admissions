@@ -19,6 +19,29 @@ class FakeResp:
         self.headers = {"Content-Type": ctype}
 
 
+class RedirectGateTest(unittest.TestCase):
+    def test_given_allowed_url_redirecting_to_disallowed_path_when_fetched_then_redirect_is_not_followed(self):
+        # given: /admission/html/ 은 허용, /error_new/ 는 robots 비허용
+        robots = FakeResp(200, "User-agent: *\nDisallow: /error_new/\n")
+        redirect = FakeResp(302, "", "text/html")
+        redirect.headers["Location"] = "/error_new/error.html"
+        redirect.url = "https://ibhak.example.ac.kr/admission/html/"
+        redirect.content = b""
+        session = mock.Mock()
+        session.get.side_effect = [robots, redirect]
+        with tempfile.TemporaryDirectory() as d:
+            fetcher = ipsi_fetch.IpsiFetcher(store_raw=False, delay=0, raw_dir=d, meta_dir=d)
+            fetcher._session = session
+            fetcher.gate = ipsi_fetch.RobotsGate(session)
+            # when
+            res = fetcher.fetch("https://ibhak.example.ac.kr/admission/html/", save_meta=False)
+        # then: 비허용 경로는 요청하지 않는다(robots 1회 + 첫 요청 1회만)
+        self.assertFalse(res.ok)
+        self.assertFalse(res.robots_allowed)
+        self.assertIn("redirect to robots-disallowed", res.error)
+        self.assertEqual(session.get.call_count, 2)
+
+
 class RobotsGateTest(unittest.TestCase):
     def gate(self, resp_or_exc):
         session = mock.Mock()
@@ -47,6 +70,31 @@ class RobotsGateTest(unittest.TestCase):
         gate = self.gate(FakeResp(404, "not found", "text/html"))
         # when / then
         self.assertTrue(gate.allowed("https://admission.example.ac.kr/data"))
+
+    def test_given_firewall_block_page_as_robots_when_checked_then_request_is_denied(self):
+        # given: robots.txt 자리에 HTTP 200 HTML 차단 안내
+        gate = self.gate(FakeResp(200, "<html><body>웹 보안 정책에 위배되어 차단되었습니다.</body></html>", "text/html"))
+        # when / then
+        self.assertFalse(gate.allowed("https://ipsi.example.ac.kr/board"))
+
+    def test_given_soft_404_html_as_robots_when_checked_then_request_is_allowed(self):
+        # given: robots.txt 자리에 일반 HTML(없는 페이지 안내)
+        gate = self.gate(FakeResp(200, "<!doctype html><html><body>페이지를 찾을 수 없습니다</body></html>", "text/html"))
+        # when / then
+        self.assertTrue(gate.allowed("https://admission.example.ac.kr/data"))
+
+    def test_given_http_allowed_but_https_blocked_when_checked_then_each_scheme_is_judged_separately(self):
+        # given: http robots는 400(규칙 없음 취급), https robots는 전면 차단
+        session = mock.Mock()
+        session.get.side_effect = [FakeResp(400, "bad request", "text/html"), FakeResp(200, "User-agent: *\nDisallow: /\n")]
+        gate = ipsi_fetch.RobotsGate(session)
+        # when
+        http_ok = gate.allowed("http://ipsi.example.ac.kr/board")
+        https_ok = gate.allowed("https://ipsi.example.ac.kr/board")
+        # then: 같은 호스트라도 스킴마다 robots를 따로 확인한다
+        self.assertTrue(http_ok)
+        self.assertFalse(https_ok)
+        self.assertEqual(session.get.call_count, 2)
 
     def test_given_disallow_all_when_checked_then_request_is_denied(self):
         # given

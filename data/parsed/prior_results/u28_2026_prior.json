@@ -1,0 +1,26 @@
+{
+  "university_key": "u28",
+  "university_name": "국립창원대학교",
+  "university_code": "U28",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {"scope": "수시·정시 전체", "sum_of_rows": 0, "source_total": null, "source_page": null, "match": null, "note": "수집 문서 없음('전년도 입학결과' 메뉴가 JS 함수 호출뿐, 첨부 다운로드 경로는 robots Disallow) — 대조 대상 없음"}
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {"item": "2026학년도 수시·정시 입학결과('전년도 입학결과' 메뉴)", "reason": "입학처 메뉴 '입학자료실 > 전년도 입학결과'가 href='#check' + onclick=\"menuAccessCheck('15140', 'ipsi')\" JS 함수 호출뿐이고 HTML에 실제 링크가 없음(메인·공지·자료실·사이트맵 모두 동일) — 주소를 조립하지 않고 수집하지 않음", "url": "https://www.changwon.ac.kr/ipsi/sitemap.do"},
+    {"item": "입학처 게시판 첨부 파일 전반", "reason": "robots 차단: www.changwon.ac.kr·ipsi.changwon.ac.kr robots.txt가 'Disallow: /common/nttFileDownload.do', 'Disallow: /upload/', 'Disallow: /viewer/'로 게시판 첨부 다운로드 경로를 막음. 자료실(bbsId=1621) 목록에도 2026 입학결과 게시물은 없음(모집요강·학과 소개만), 목록 링크도 href='javascript:' + data-id 형식", "url": "https://www.changwon.ac.kr/ipsi/na/ntt/selectNttList.do?mi=4245&bbsId=1621"},
+    {"item": "캠퍼스별(창원·거창·남해) 입학결과", "reason": "위와 같은 이유로 어느 캠퍼스 자료도 얻지 못함", "url": "https://www.changwon.ac.kr/ipsi/main.do?intro=OFF"},
+    {"item": "대학어디가 등 외부 출처", "reason": "규칙상 adiga.kr 자동 요청 금지 — 요청하지 않음", "url": "https://www.adiga.kr/"}
+  ],
+  "notes": [
+    "입학처 주소: https://ipsi.changwon.ac.kr/ → 스크립트에 그대로 적힌 location.href '/ipsi/index.html' → 같은 파일 스크립트의 상시노출 주소 '/ipsi/main.do?intro=OFF' (응답은 http://www.changwon.ac.kr/ipsi/main.do?intro=OFF 로 리다이렉트, 단계마다 robots 허용 확인).",
+    "공지사항(bbsId=1624) 목록 1쪽에도 2026 입학결과 게시물 없음('2027학년도 수시모집 원서접수 및 서류제출 안내(경쟁률 포함)'은 2027학년도 지원 현황이라 대상 아님).",
+    "추측·외부 수치 사용 없음. 원문 문서를 얻지 못해 rows는 빈 배열. 사람이 입학처 '전년도 입학결과' 메뉴를 브라우저로 열어 확인 필요."
+  ]
+}

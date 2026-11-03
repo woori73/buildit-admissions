@@ -82,6 +82,13 @@ class FetchResult:
         return d
 
 
+MAX_REDIRECTS = 10
+
+# robots.txt 자리에 HTML 차단 안내가 올 때 쓰이는 문구(소문자 비교).
+BLOCK_PAGE_MARKERS = ("차단되었습니다", "차단 되었습니다", "접근이 차단", "보안 정책에 위배", "access denied",
+                      "request blocked", "has been blocked", "forbidden")
+
+
 class RobotsGate:
     """호스트별 robots.txt 파싱·캐싱. 우리 UA 기준 allow/disallow 판정."""
 
@@ -92,13 +99,19 @@ class RobotsGate:
         self._robots_url_cache: dict[str, str] = {}
         self._undetermined: set[str] = set()
 
+    @staticmethod
+    def _origin(url: str) -> str:
+        p = urlparse(url)
+        return f"{p.scheme}://{p.netloc}"
+
     def _robots_url(self, url: str) -> str:
         p = urlparse(url)
         return f"{p.scheme}://{p.netloc}/robots.txt"
 
     def _parser(self, url: str) -> Optional[robotparser.RobotFileParser]:
         rurl = self._robots_url(url)
-        host = urlparse(url).netloc
+        # http와 https는 robots.txt가 다를 수 있어 스킴까지 포함한 출처 단위로 캐시한다.
+        host = self._origin(url)
         if host in self._cache:
             return self._cache[host]
         rp = robotparser.RobotFileParser()
@@ -112,6 +125,11 @@ class RobotsGate:
                 body = (resp.text or "")[:200].lower()
                 if "<html" in body or "<!doctype" in body:
                     rp = None
+                    # 방화벽·보안장비의 차단 안내가 HTTP 200 HTML로 오는 경우는 robots를 확인하지 못한 것 = 판정불가.
+                    # (예: "웹 보안 정책에 위배되어 차단되었습니다") — 규칙 없음(허용)으로 보지 않는다.
+                    full = (resp.text or "")[:4000].lower()
+                    if any(k in full for k in BLOCK_PAGE_MARKERS):
+                        self._undetermined.add(host)
                 else:
                     rp.parse(resp.text.splitlines())
             elif resp.status_code >= 500:
@@ -134,11 +152,11 @@ class RobotsGate:
         if rp is None:
             # robots.txt가 없으면(404 등) 규칙 없음 = 허용. robots.txt 확인 자체가 실패(네트워크 오류·잘못된 리다이렉트)하면
             # 판정하지 못한 것이므로 요청하지 않는다(판정불가를 허용으로 간주하지 않음).
-            return urlparse(url).netloc not in self._undetermined
+            return self._origin(url) not in self._undetermined
         return rp.can_fetch(USER_AGENT, url)
 
     def note(self, url: str) -> str:
-        host = urlparse(url).netloc
+        host = self._origin(url)
         self._parser(url)  # 캐시 확보
         return self._robots_url_cache.get(host, "")
 
@@ -187,7 +205,22 @@ class IpsiFetcher:
 
         self._throttle(url)
         try:
-            resp = self._session.get(url, timeout=DEFAULT_TIMEOUT, allow_redirects=allow_redirects)
+            # 리다이렉트는 직접 따라가며 단계마다 robots를 다시 확인한다(허용 경로가 비허용 경로로 넘기는 경우를 막음).
+            resp = self._session.get(url, timeout=DEFAULT_TIMEOUT, allow_redirects=False)
+            hops = 0
+            while allow_redirects and resp.status_code in (301, 302, 303, 307, 308) and resp.headers.get("Location"):
+                hops += 1
+                nxt = urljoin(str(resp.url or url), resp.headers["Location"])
+                if hops > MAX_REDIRECTS:
+                    raise RuntimeError(f"too many redirects (>{MAX_REDIRECTS})")
+                if not self.gate.allowed(nxt):
+                    res = FetchResult(url=url, ok=False, robots_allowed=False, final_url=nxt,
+                                      error=f"redirect to robots-disallowed URL: {nxt} ({self.gate.note(nxt)})")
+                    if save_meta:
+                        self._write_meta(res)
+                    return res
+                self._throttle(nxt)
+                resp = self._session.get(nxt, timeout=DEFAULT_TIMEOUT, allow_redirects=False)
         except Exception as e:
             res = FetchResult(url=url, ok=False, robots_allowed=True, error=f"request failed: {e}")
             if save_meta:

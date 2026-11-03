@@ -1,0 +1,15 @@
+{
+  "url": "https://www.koreatech.ac.kr/robots.txt",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.koreatech.ac.kr/robots.txt",
+  "content_type": "text/plain",
+  "size": 112,
+  "sha256": "0d8afe9a9bc4654fa7c5679863854a2b680db1e418b40803150548102f961ddb",
+  "raw_path": null,
+  "collected_at": "2026-11-04T01:26:29+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hongik.ac.kr/kr/admission/entrance-point.do?mode=download&articleNo=152832&attachNo=89148",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hongik.ac.kr/kr/admission/entrance-point.do?mode=download&articleNo=152832&attachNo=89148",
+  "content_type": "application/zip;charset=utf-8",
+  "size": 1031454,
+  "sha256": "1b4baab8d36ffce7927b6a5f8ae0067f0f1591c34fa91df7bd36fa52d08cd265",
+  "raw_path": "raw/www.hongik.ac.kr/1b4baab8d36ffce7927b6a5f8ae0067f.do",
+  "collected_at": "2026-11-04T01:12:12+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

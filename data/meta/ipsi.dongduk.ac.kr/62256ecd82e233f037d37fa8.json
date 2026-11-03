@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dongduk.ac.kr/ipsi/main/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dongduk.ac.kr/ipsi/main/index.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 56447,
+  "sha256": "a6c3cd74dc3948f5a69a4f69bef5b1be389272f808b8e929de1418d0e8af3872",
+  "raw_path": "raw/ipsi.dongduk.ac.kr/a6c3cd74dc3948f5a69a4f69bef5b1be.html",
+  "collected_at": "2026-11-04T01:06:02+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

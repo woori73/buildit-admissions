@@ -1,0 +1,15 @@
+{
+  "url": "https://oku.korea.ac.kr/sejong/cms/FR_CON/index.do?MENU_ID=550",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://oku.korea.ac.kr/sejong/cms/FR_CON/index.do?MENU_ID=550",
+  "content_type": "text/html;charset=utf-8",
+  "size": 44570,
+  "sha256": "5d9b76f8c45e0833f3109301b9411410e51cd97afcf7160b3fe2e29f76090cc1",
+  "raw_path": "raw/oku.korea.ac.kr/5d9b76f8c45e0833f3109301b9411410.html",
+  "collected_at": "2026-11-04T01:27:42+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

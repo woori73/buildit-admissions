@@ -1,0 +1,15 @@
+{
+  "url": "https://tukorea.ac.kr/tukorea/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://tukorea.ac.kr/tukorea/index.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 307862,
+  "sha256": "3d6404ed9e8f466c80c8b73daeeaf8e6e7725dbc19342ca6b080465004101460",
+  "raw_path": "raw/tukorea.ac.kr/3d6404ed9e8f466c80c8b73daeeaf8e6.html",
+  "collected_at": "2026-11-04T01:24:43+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

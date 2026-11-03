@@ -1,0 +1,37 @@
+{
+ "university_key": "sookmyung",
+ "university_name": "숙명여자대학교",
+ "university_code": "SOOKMYUNG",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "입학처(admission.sookmyung.ac.kr — 본교 www.sookmyung.ac.kr '입학안내' 페이지의 링크로 확인) robots.txt가 HTTP 500(서버 오류)을 돌려줘 판정불가로 막힘(http·https 모두, 다시 요청해도 같음). ipsi.sookmyung.ac.kr은 robots.txt 요청이 연결 재설정으로 판정불가. 입학처 페이지를 하나도 요청하지 못함.",
+   "url": "https://admission.sookmyung.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 대학별 입시결과",
+   "reason": "지시서상 요청 금지 사이트라 요청하지 않음.",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "본교 www.sookmyung.ac.kr은 robots 허용이라 첫 화면과 입학안내 페이지 2건만 받아 입학처 주소를 확인함(입시결과 자료 없음, 수치 미사용).",
+  "원문 자료를 확보하지 못해 rows는 빈 배열. 사람이 확인할 곳: https://admission.sookmyung.ac.kr/ 자료실(수시·정시)."
+ ]
+}

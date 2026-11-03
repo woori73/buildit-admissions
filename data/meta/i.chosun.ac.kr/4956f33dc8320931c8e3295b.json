@@ -1,0 +1,15 @@
+{
+  "url": "https://i.chosun.ac.kr/main/menu?gc=1063UYGG",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://i.chosun.ac.kr/main/menu?gc=1063UYGG",
+  "content_type": "text/html; charset=utf-8",
+  "size": 46819,
+  "sha256": "84070849ce970d1e742ae66792643bc59e50ae0f3b12de73bef97e833efbd282",
+  "raw_path": "raw/i.chosun.ac.kr/84070849ce970d1e742ae66792643bc5.html",
+  "collected_at": "2026-11-04T01:31:51+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

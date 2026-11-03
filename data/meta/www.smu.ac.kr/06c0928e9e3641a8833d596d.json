@@ -1,0 +1,15 @@
+{
+  "url": "https://www.smu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.smu.ac.kr/kor/index.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 125001,
+  "sha256": "0751eaccfed4fef5022d44ab0ba282a00a0d4a46d7d021e273f369c17da42818",
+  "raw_path": "raw/www.smu.ac.kr/0751eaccfed4fef5022d44ab0ba282a0.html",
+  "collected_at": "2026-11-04T01:02:51+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://adm-u.postech.ac.kr/entrance-exam/guide/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://adm-u.postech.ac.kr/entrance-exam/guide/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 160600,
+  "sha256": "be9abce8d73affd2efaaeb4003033b2f52b00b97d0f3d87ddc026117c72edc71",
+  "raw_path": "raw/adm-u.postech.ac.kr/be9abce8d73affd2efaaeb4003033b2f.html",
+  "collected_at": "2026-11-04T01:24:31+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

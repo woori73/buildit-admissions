@@ -1,0 +1,15 @@
+{
+  "url": "https://www.catholic.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.catholic.ac.kr:443/ko/index.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 244188,
+  "sha256": "8a6f0e51ce7f9f8518d0280d72a54506f3a93a0e7d3530684849e4913bf68830",
+  "raw_path": "raw/www.catholic.ac.kr/8a6f0e51ce7f9f8518d0280d72a54506.html",
+  "collected_at": "2026-11-04T01:06:18+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

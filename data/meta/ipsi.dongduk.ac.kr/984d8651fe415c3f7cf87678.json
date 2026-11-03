@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dongduk.ac.kr/ipsi/contents/transfer-viewer.do?gotoMenuNo=transfer-viewer",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dongduk.ac.kr/ipsi/contents/transfer-viewer.do?gotoMenuNo=transfer-viewer",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 47085,
+  "sha256": "e009dc6e4f326490f129cb41023672285f6734b76b7756e68082af746df94b62",
+  "raw_path": "raw/ipsi.dongduk.ac.kr/e009dc6e4f326490f129cb4102367228.html",
+  "collected_at": "2026-11-04T01:05:37+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

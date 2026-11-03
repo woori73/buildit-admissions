@@ -1,0 +1,44 @@
+{
+ "university_key": "u25",
+ "university_name": "전북대학교",
+ "university_code": "U25",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "수시·정시 전체",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "수집 문서 없음(입학처 robots.txt 전체 차단) — 원문 합계 없음"
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 차단 — 입학본부(enter.jbnu.ac.kr) robots.txt가 'User-agent: * / Disallow: /'로 우리 UA를 전면 차단. 입학처 첫 화면(https://enter.jbnu.ac.kr/)도 IpsiFetcher가 거부했고 게시판·첨부를 한 건도 요청하지 않음.",
+   "url": "https://enter.jbnu.ac.kr/robots.txt"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "robots 차단 — 위와 같음.",
+   "url": "https://enter.jbnu.ac.kr/robots.txt"
+  },
+  {
+   "item": "ipsi.jbnu.ac.kr",
+   "reason": "robots.txt 확인 단계에서 접속 실패(프록시 502)로 판정 불가 → 요청하지 않음. 본부 사이트가 입학처로 연결하는 주소는 enter.jbnu.ac.kr이라 영향 없음.",
+   "url": "https://ipsi.jbnu.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 본부 메인(https://www.jbnu.ac.kr/web/index.do)의 '입학정보 홈페이지'·'입학안내'·'수시모집/정시모집' 링크로 https://enter.jbnu.ac.kr 임을 확인함(본부 www.jbnu.ac.kr은 robots 허용).",
+  "WebSearch에 전북대 모집요강 PDF가 제3자 CDN(negagea.net)에 보였으나 공식 도메인이 아니고 입시결과도 아니어서 요청하지 않음.",
+  "rows는 빈 배열. 다음 단계: 사람이 enter.jbnu.ac.kr 입시결과 게시물을 브라우저로 확인해 파일을 넣어 주면 처리 가능."
+ ]
+}

@@ -1,0 +1,61 @@
+{
+  "university_key": "snu",
+  "university_name": "서울대학교",
+  "university_code": "SNU",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 없음)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 접수현황(모집단위별 모집인원·지원자·경쟁률)",
+      "reason": "입학본부 '전형결과 > 경쟁률' 게시글(bbsidx=160920, 첨부 '2026S_SNUrate_최종.pdf')은 찾았으나, HTML에 있는 첨부 링크를 IpsiFetcher로 GET하면 HTTP 404(오류 페이지 2,281B)가 온다. 같은 세션에서 게시글을 먼저 연 뒤 다시 받아도 404. Referer 등 헤더를 바꾸는 우회는 하지 않음(지시서 규칙). robots.txt는 우리 UA를 막지 않음",
+      "url": "https://admission.snu.ac.kr/materials/stats/competition_rate?md=down&bbsidx=160920&fileidx=44040"
+    },
+    {
+      "item": "2026학년도 정시모집 접수현황",
+      "reason": "게시글(bbsidx=163729, 첨부 '2026정시_접수현황_최종.pdf') 첨부 링크가 같은 이유로 HTTP 404",
+      "url": "https://admission.snu.ac.kr/materials/stats/competition_rate?md=down&bbsidx=163729&fileidx=46612"
+    },
+    {
+      "item": "2026학년도 수시모집 충원합격자 선발현황(1차·2차)",
+      "reason": "'전형결과 > 선발현황' 게시판에 1차(bbsidx=163375)·2차(bbsidx=163453, 첨부 '2026수시_충원선발현황_2차.pdf') 게시글이 있음. 2차 첨부를 받으려 했으나 HTTP 404. 1차는 같은 방식이라 요청하지 않음",
+      "url": "https://admission.snu.ac.kr/materials/stats/result?md=down&bbsidx=163453&fileidx=46363"
+    },
+    {
+      "item": "2026학년도 정시모집 충원합격자 선발현황(1~3차, 3차=최종)",
+      "reason": "3차(최종) 게시글(bbsidx=165212, 첨부 '2026정시_충원선발현황_3차(최종).pdf') 첨부가 HTTP 404. 1·2차(bbsidx=164990, 165062)는 요청하지 않음",
+      "url": "https://admission.snu.ac.kr/materials/stats/result?md=down&bbsidx=165212&fileidx=47849"
+    },
+    {
+      "item": "2026학년도 수시·정시 선발 결과 보도자료",
+      "reason": "'입학자료실 > 보도자료'에 수시(bbsidx=163032)·정시(bbsidx=164740) 선발 결과 보도자료가 있음. 수시 첨부를 요청했으나 HTTP 404. 보도자료는 전체 집계 성격이라 모집단위 자료가 아닐 가능성이 크지만 내용은 확인하지 못함",
+      "url": "https://admission.snu.ac.kr/materials/downloads/press?md=down&bbsidx=163032&fileidx=46023"
+    },
+    {
+      "item": "등록자 성적(교과등급·수능 점수 등) 입시결과",
+      "reason": "입학본부 '전형결과' 메뉴는 '경쟁률'·'선발현황'(충원합격자) 두 게시판뿐이고, 등록자 성적을 담은 게시물은 목록에서 찾지 못함",
+      "url": "https://admission.snu.ac.kr/materials/stats/competition_rate"
+    }
+  ],
+  "notes": [
+    "출처 후보는 모두 서울대학교 입학본부(admission.snu.ac.kr) 공식 게시판의 2026학년도 게시글이다. 게시글 HTML·목록은 IpsiFetcher로 받았고(robots.txt HTTP 200, 우리 UA에 대한 Disallow 없음) data/raw/admission.snu.ac.kr/ 에 있다.",
+    "모든 첨부(md=down) 링크가 IpsiFetcher의 일반 GET에 404를 돌려준다. 게시글 HTML의 <a href>에 실제로 있는 주소 그대로이며 JS로 조립한 주소가 아니다. 브라우저에서는 Referer 확인 등으로 내려받아질 가능성이 있으나 헤더 변경은 금지라 시도하지 않았다.",
+    "404 원인 확인 중 IpsiFetcher의 세션 객체로 같은 첨부 주소에 GET 1회를 더 보냈다(직전에 같은 주소가 RobotsGate를 통과함, UA 동일, 응답 404). 수치는 받지 못했다.",
+    "조사 중 IpsiFetcher 밖에서 나간 요청이 있다: robots.txt 내용 확인용 curl 1회(이 대학 입학처 robots.txt). 수치 수집에는 쓰지 않았다.",
+    "rows가 비어 있어 합계 대조·원문 대조는 하지 못했다. 추측해 넣은 값은 없다.",
+    "다음 단계: 사람이 위 gaps의 4개 PDF(수시·정시 접수현황, 수시 2차·정시 3차 충원 선발현황)를 브라우저로 내려받아 data/raw에 넣어 주면 그 파일로 처리할 수 있다."
+  ]
+}

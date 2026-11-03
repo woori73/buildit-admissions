@@ -1,0 +1,15 @@
+{
+  "url": "https://www.iajou.ac.kr/_common/new_download_file.php?menu=guidebook&m_no=60&field=m_pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.iajou.ac.kr/_common/new_download_file.php?menu=guidebook&m_no=60&field=m_pdf",
+  "content_type": "application/octet-stream",
+  "size": 6806337,
+  "sha256": "4cf59715a1a075f4c80638079ae2ffd38c67ac9b88af26b5b3622450e5cfed91",
+  "raw_path": "raw/www.iajou.ac.kr/4cf59715a1a075f4c80638079ae2ffd3.php",
+  "collected_at": "2026-11-04T01:14:43+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

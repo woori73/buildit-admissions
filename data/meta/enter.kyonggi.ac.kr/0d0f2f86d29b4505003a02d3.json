@@ -1,0 +1,15 @@
+{
+  "url": "https://enter.kyonggi.ac.kr/cms/FR_BBS_CON/BoardView.do?pageNo=1&pagePerCnt=15&MENU_ID=570&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=18&BBS_SEQ=298&P_BBS_SEQ=&SEARCH_SEQ=3&PWD=&SEARCH_FLD=&SEARCH=",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://enter.kyonggi.ac.kr/cms/FR_BBS_CON/BoardView.do?pageNo=1&pagePerCnt=15&MENU_ID=570&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=18&BBS_SEQ=298&P_BBS_SEQ=&SEARCH_SEQ=3&PWD=&SEARCH_FLD=&SEARCH=",
+  "content_type": "text/html;charset=utf-8",
+  "size": 85003,
+  "sha256": "19f68dd2c72c6789d301b2f661aba3f478ce92e1b2681ad89d38e7572ffbe1d5",
+  "raw_path": "raw/enter.kyonggi.ac.kr/19f68dd2c72c6789d301b2f661aba3f4.html",
+  "collected_at": "2026-11-04T00:54:03+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

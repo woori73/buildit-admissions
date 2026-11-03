@@ -1,0 +1,15 @@
+{
+  "url": "https://www.kcu.ac.kr/",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-04T00:48:35+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: https://www.kcu.ac.kr/robots.txt -> ERROR HTTPSConnectionPool(host='www.kcu.ac.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.kcu.ac.kr'. (_ssl.c:1035)\")))",
+  "verification_status": "COLLECTED"
+}

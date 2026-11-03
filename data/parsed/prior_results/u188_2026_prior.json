@@ -1,0 +1,35 @@
+{
+ "university_key": "u188",
+ "university_name": "포항공과대학교",
+ "university_code": "U188",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과",
+   "reason": "입학팀 사이트(adm-u.postech.ac.kr)에 입시결과 게시물·첨부 없음 — 공지사항 게시판 전체 7건(쪽 나눔 없음), '서식 및 참고자료' 6건(모집요강·시행계획·서식), FAQ 어디에도 2026학년도 모집결과/입시결과/경쟁률 파일이 없다. 첫 화면 '대입정보포털' 메뉴는 adiga.kr 링크라 요청하지 않음",
+   "url": "https://adm-u.postech.ac.kr/admission-helper/notices/"
+  },
+  {
+   "item": "2026학년도 정시 입시결과",
+   "reason": "POSTECH은 수시 위주 선발이며 입학팀 사이트에 정시 결과 게시물도 없음(위와 같은 범위 확인)",
+   "url": "https://adm-u.postech.ac.kr/entrance-exam/form/"
+  },
+  {
+   "item": "2026학년도 전형별 경쟁률",
+   "reason": "입학팀 게시 '2027학년도_POSTECH_모집요강_web.pdf' p.50에 '▶ 2026학년도 전형별 경쟁률 확인하기' 문구만 있고 PDF 안에 링크 주소(하이퍼링크 주석)가 없다(QR 이미지로 보임). 이미지 속 주소는 따라가지 않음. 수치 없음",
+   "url": "https://adm-u.postech.ac.kr/wp-content/uploads/2025/05/2027학년도_POSTECH_모집요강_web.pdf"
+  }
+ ],
+ "notes": [
+  "robots.txt(https://adm-u.postech.ac.kr/robots.txt) HTTP 200, 첫 화면·공지·서식·FAQ·모집요강 PDF 모두 허용 판정으로 받았다.",
+  "확인한 페이지: 첫 화면, /entrance-exam/form/, /entrance-exam/guide/, /admission-helper/notices/(전체 7건), /admission-helper/faq/, 공지 '23~26학년도 POSTECH 입학전형 선행학습 영향평가 결과'(pi=3138, 입시결과 아님).",
+  "공지 게시판의 GET 검색(kw=)은 쓰지 않았다(게시글 전체가 한 쪽에 보여 필요 없음)."
+ ]
+}

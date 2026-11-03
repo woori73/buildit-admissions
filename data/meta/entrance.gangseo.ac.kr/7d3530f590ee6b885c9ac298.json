@@ -1,0 +1,15 @@
+{
+  "url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0402&boardNum=1517",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0402&boardNum=1517",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 34943,
+  "sha256": "04437696ced2b59c21b681b1f4ce7c35d1ea830f520106e8309892b0c81caad7",
+  "raw_path": "raw/entrance.gangseo.ac.kr/04437696ced2b59c21b681b1f4ce7c35.html",
+  "collected_at": "2026-11-04T00:51:05+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

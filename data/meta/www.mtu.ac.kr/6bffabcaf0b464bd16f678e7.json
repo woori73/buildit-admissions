@@ -1,0 +1,15 @@
+{
+  "url": "https://www.mtu.ac.kr/mtu/main/main.do?mId=1",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.mtu.ac.kr/mtu/main/main.do?mId=1",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 463312,
+  "sha256": "f4c83c0d1b6b2e4ee3cce696b03dc7fe0b6fdd228dcc6a2ad387bc062092dfe3",
+  "raw_path": "raw/www.mtu.ac.kr/f4c83c0d1b6b2e4ee3cce696b03dc7fe.html",
+  "collected_at": "2026-11-04T00:48:56+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

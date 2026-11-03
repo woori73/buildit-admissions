@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.tukorea.ac.kr/nx",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.tukorea.ac.kr:443/nx/",
+  "content_type": "text/html",
+  "size": 9439,
+  "sha256": "16b997e9f9bbfc9b9b8b24ce408cafc681d0775a1cfc9caa041057e554a7616b",
+  "raw_path": "raw/ipsi.tukorea.ac.kr/16b997e9f9bbfc9b9b8b24ce408cafc6.html",
+  "collected_at": "2026-11-04T01:22:29+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

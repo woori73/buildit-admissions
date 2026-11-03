@@ -1,0 +1,15 @@
+{
+  "url": "https://www.changwon.ac.kr/ipsi/na/ntt/selectNttList.do?mi=4252&bbsId=1624",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.changwon.ac.kr/ipsi/na/ntt/selectNttList.do?mi=4252&bbsId=1624",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 83702,
+  "sha256": "67f2810d4919e8efc45cb30a69ef12b28beafe54e59d17855327efe31992a002",
+  "raw_path": "raw/www.changwon.ac.kr/67f2810d4919e8efc45cb30a69ef12b2.html",
+  "collected_at": "2026-11-04T01:26:48+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dongguk.edu/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dongguk.edu/admission/html/main/main.asp",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 43694,
+  "sha256": "bc86fd77e4bb7a63a048875e6887dff798daf504583d8fd4fe79839443becab6",
+  "raw_path": "raw/ipsi.dongguk.edu/bc86fd77e4bb7a63a048875e6887dff7.html",
+  "collected_at": "2026-11-04T01:02:42+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

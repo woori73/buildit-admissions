@@ -1,0 +1,45 @@
+{
+ "university_key": "u29",
+ "university_name": "충남대학교",
+ "university_code": "U29",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "수시·정시 전체",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "수집 문서 없음(입학처 robots.txt 전체 차단) — 원문 합계 없음"
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 차단 — 입학본부(ipsi.cnu.ac.kr) robots.txt가 'User-agent: * / Disallow : /'(그리고 'Disallow : /_hamTool/')로 우리 UA를 전면 차단. 입학처 페이지·게시판·첨부를 한 건도 요청하지 않음.",
+   "url": "https://ipsi.cnu.ac.kr/robots.txt"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "robots 차단 — 위와 같음.",
+   "url": "https://ipsi.cnu.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학 본부 사이트(plus.cnu.ac.kr) 입학 메뉴",
+   "reason": "robots 차단 — plus.cnu.ac.kr robots.txt가 우리 UA의 첫 화면(/html/kr/) 요청을 거부(IpsiFetcher robots_allowed=False).",
+   "url": "https://plus.cnu.ac.kr/robots.txt"
+  }
+ ],
+ "notes": [
+  "입학처 주소 https://ipsi.cnu.ac.kr 는 WebSearch 결과(제목 '충남대 입학처 홈페이지 바로가기 (https://ipsi.cnu.ac.kr)')로 찾음. 검색 결과의 수치는 쓰지 않음.",
+  "ipsi.cnu.ac.kr robots.txt: 처음 4회는 연결 재설정(ConnectionResetError)으로 판정 불가(요청 안 함), 이후 HTTP 200 text/plain 원문 'User-agent: * / Disallow : /'를 확인함. 콜론 앞 공백이 있으나 표준 파서(urllib.robotparser)도 차단으로 판정함(can_fetch=False).",
+  "WebSearch에 '충남대학교_2026학년도_정시입시결과.pdf'가 제3자 CDN(cdn013.negagea.net)에 올라온 것이 보였으나 공식 입학처 도메인이 아니어서 요청하지 않음.",
+  "rows는 빈 배열. 다음 단계: 사람이 입학본부 입시결과 게시물을 브라우저로 확인해 파일을 넣어 주면 처리 가능."
+ ]
+}

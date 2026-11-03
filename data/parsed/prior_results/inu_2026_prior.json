@@ -1,0 +1,33 @@
+{
+ "university_key": "inu",
+ "university_name": "인천대학교",
+ "university_code": "INU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(admission.inu.ac.kr) robots.txt가 'User-agent: * / Disallow: /'(주요 검색봇도 /main.do·/mainIntro/intro.do 외 전면 차단) — 요청하지 않음.",
+   "url": "https://admission.inu.ac.kr/robots.txt"
+  },
+  {
+   "item": "옛 입학처 주소 ipsi.inu.ac.kr",
+   "reason": "robots.txt 요청이 프록시 연결 실패(502)로 판정 불가 — 요청하지 않음.",
+   "url": "https://ipsi.inu.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 사이트 robots 전면 차단으로 페이지·첨부를 한 건도 받지 않음. 본부(www.inu.ac.kr)는 robots 허용이지만 입시결과 게시 위치가 아니라 조사하지 않음. 검색 결과에 보인 사설 사이트(negagea.net)의 '인천대학교_2026학년도_정시입시결과.pdf'는 입학처 자료가 아니라 요청·사용하지 않음."
+ ]
+}

@@ -1,0 +1,583 @@
+{
+ "university_key": "dongduk",
+ "university_name": "동덕여자대학교",
+ "university_code": "DONGDUK",
+ "result_year": 2026,
+ "documents": [
+  {
+   "document_key": "dongduk_2026_susi_result",
+   "document_name": "2027학년도 수시모집 논술우수자전형 논술가이드북 — 02 논술우수자전형 경쟁률(2026학년도 열, 6쪽)",
+   "round_type": "SUSI",
+   "institution_name": "동덕여자대학교 입학처(입학관리팀)",
+   "source_page_url": "https://ipsi.dongduk.ac.kr/ipsi/contents/nontime-doc.do?schM=view&page=1&viewCount=10&id=91947&schBdcode=_ipsi_admdoc01&schGroupCode=&etc1=78",
+   "source_url": "https://ipsi.dongduk.ac.kr/afile/fileDownload/jxrmn",
+   "file_name": "2027학년도_신입학_수시_논술가이드북(인쇄본).pdf",
+   "file_sha256": "83bf67e8f55e07c3f327e0151f13e13327013debed87fe342fc5bb4441effbd1",
+   "published_at": "2026-06-26",
+   "pages": 56
+  }
+ ],
+ "rows": [
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "국어국문학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8 / 105 / 13.1",
+   "recruit_count": 8,
+   "applicant_count": 105,
+   "competition_rate": 13.1,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "국사학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7 / 99 / 14.1",
+   "recruit_count": 7,
+   "applicant_count": 99,
+   "competition_rate": 14.1,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "문예창작전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7 / 90 / 12.9",
+   "recruit_count": 7,
+   "applicant_count": 90,
+   "competition_rate": 12.9,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "영어전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "12 / 188 / 15.7",
+   "recruit_count": 12,
+   "applicant_count": 188,
+   "competition_rate": 15.7,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "일어일본학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9 / 129 / 14.3",
+   "recruit_count": 9,
+   "applicant_count": 129,
+   "competition_rate": 14.3,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "유러피언스터디즈전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "11 / 167 / 15.2",
+   "recruit_count": 11,
+   "applicant_count": 167,
+   "competition_rate": 15.2,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "중어중국학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "11 / 187 / 17.0",
+   "recruit_count": 11,
+   "applicant_count": 187,
+   "competition_rate": 17.0,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "문헌정보학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7 / 108 / 15.4",
+   "recruit_count": 7,
+   "applicant_count": 108,
+   "competition_rate": 15.4,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "사회복지학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7 / 105 / 15.0",
+   "recruit_count": 7,
+   "applicant_count": 105,
+   "competition_rate": 15.0,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "아동학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "10 / 154 / 15.4",
+   "recruit_count": 10,
+   "applicant_count": 154,
+   "competition_rate": 15.4,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "경영융합학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "32 / 499 / 15.6",
+   "recruit_count": 32,
+   "applicant_count": 499,
+   "competition_rate": 15.6,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "식품영양학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9 / 55 / 6.1",
+   "recruit_count": 9,
+   "applicant_count": 55,
+   "competition_rate": 6.1,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "보건관리학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8 / 48 / 6.0",
+   "recruit_count": 8,
+   "applicant_count": 48,
+   "competition_rate": 6.0,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "응용화학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7 / 38 / 5.4",
+   "recruit_count": 7,
+   "applicant_count": 38,
+   "competition_rate": 5.4,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "화장품학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7 / 45 / 6.4",
+   "recruit_count": 7,
+   "applicant_count": 45,
+   "competition_rate": 6.4,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "컴퓨터학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "16 / 97 / 6.1",
+   "recruit_count": 16,
+   "applicant_count": 97,
+   "competition_rate": 6.1,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "정보통계학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9 / 55 / 6.1",
+   "recruit_count": 9,
+   "applicant_count": 55,
+   "competition_rate": 6.1,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "큐레이터학전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4 / 52 / 13.0",
+   "recruit_count": 4,
+   "applicant_count": 52,
+   "competition_rate": 13.0,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "커뮤니케이션콘텐츠전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9 / 134 / 14.9",
+   "recruit_count": 9,
+   "applicant_count": 134,
+   "competition_rate": 14.9,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "HCI사이언스전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9 / 66 / 7.3",
+   "recruit_count": 9,
+   "applicant_count": 66,
+   "competition_rate": 7.3,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "데이터사이언스전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7 / 36 / 5.1",
+   "recruit_count": 7,
+   "applicant_count": 36,
+   "competition_rate": 5.1,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "문화예술경영전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9 / 115 / 12.8",
+   "recruit_count": 9,
+   "applicant_count": 115,
+   "competition_rate": 12.8,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "글로벌MICE융합전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9 / 103 / 11.4",
+   "recruit_count": 9,
+   "applicant_count": 103,
+   "competition_rate": 11.4,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "논술우수자전형",
+   "department_name": "앙트러프러너십전공",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5 / 57 / 11.4",
+   "recruit_count": 5,
+   "applicant_count": 57,
+   "competition_rate": 11.4,
+   "extra_admitted_count": null,
+   "source_document_key": "dongduk_2026_susi_result",
+   "evidence_pages": [
+    6
+   ]
+  }
+ ],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "논술우수자전형 2026학년도(가이드북 6쪽 표)",
+    "sum_of_rows": 229,
+    "source_total": 229,
+    "source_page": 6,
+    "match": true,
+    "note": "지원인원 합계도 대조: 행 합 2732 / 원문 총계 2732 → 일치. 원문 총계 줄: '총 계 229 2,732 11.9 200 5,840 29.2'. 경쟁률 검산(지원÷모집, 소수 첫째 자리) 24행 전부 일치. 총계 행은 rows에 넣지 않음"
+   }
+  ],
+  "spot_checks": [
+   {
+    "row_index": 0,
+    "page": 6,
+    "field": "recruit_count/applicant_count/competition_rate",
+    "row": "SUSI 논술우수자전형 국어국문학전공",
+    "source_text": "국어국문학전공 8 105 13.1 7 192 27.4",
+    "extracted": [
+     8,
+     105,
+     13.1
+    ],
+    "method": "pdfplumber extract_text(6쪽) 원문 줄의 앞 3개 값(2026학년도 열)을 pdftotext -layout 같은 쪽 숫자 열과 대조",
+    "match": true
+   },
+   {
+    "row_index": 3,
+    "page": 6,
+    "field": "recruit_count/applicant_count/competition_rate",
+    "row": "SUSI 논술우수자전형 영어전공",
+    "source_text": "영어전공 12 188 15.7 13 400 30.8",
+    "extracted": [
+     12,
+     188,
+     15.7
+    ],
+    "method": "pdfplumber extract_text(6쪽) 원문 줄의 앞 3개 값(2026학년도 열)을 pdftotext -layout 같은 쪽 숫자 열과 대조",
+    "match": true
+   },
+   {
+    "row_index": 10,
+    "page": 6,
+    "field": "recruit_count/applicant_count/competition_rate",
+    "row": "SUSI 논술우수자전형 경영융합학부",
+    "source_text": "경영융합학부 32 499 15.6 28 939 33.5",
+    "extracted": [
+     32,
+     499,
+     15.6
+    ],
+    "method": "pdfplumber extract_text(6쪽) 원문 줄의 앞 3개 값(2026학년도 열)을 pdftotext -layout 같은 쪽 숫자 열과 대조",
+    "match": true
+   },
+   {
+    "row_index": 11,
+    "page": 6,
+    "field": "recruit_count/applicant_count/competition_rate",
+    "row": "SUSI 논술우수자전형 식품영양학전공",
+    "source_text": "식품영양학전공 9 55 6.1 8 222 27.8",
+    "extracted": [
+     9,
+     55,
+     6.1
+    ],
+    "method": "pdfplumber extract_text(6쪽) 원문 줄의 앞 3개 값(2026학년도 열)을 pdftotext -layout 같은 쪽 숫자 열과 대조",
+    "match": true
+   },
+   {
+    "row_index": 15,
+    "page": 6,
+    "field": "recruit_count/applicant_count/competition_rate",
+    "row": "SUSI 논술우수자전형 컴퓨터학전공",
+    "source_text": "컴퓨터학전공 16 97 6.1 14 405 28.9",
+    "extracted": [
+     16,
+     97,
+     6.1
+    ],
+    "method": "pdfplumber extract_text(6쪽) 원문 줄의 앞 3개 값(2026학년도 열)을 pdftotext -layout 같은 쪽 숫자 열과 대조",
+    "match": true
+   },
+   {
+    "row_index": 23,
+    "page": 6,
+    "field": "recruit_count/applicant_count/competition_rate",
+    "row": "SUSI 논술우수자전형 앙트러프러너십전공",
+    "source_text": "앙트러프러너십전공 5 57 11.4 5 145 29.0",
+    "extracted": [
+     5,
+     57,
+     11.4
+    ],
+    "method": "pdfplumber extract_text(6쪽) 원문 줄의 앞 3개 값(2026학년도 열)을 pdftotext -layout 같은 쪽 숫자 열과 대조",
+    "match": true
+   }
+  ],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과(입시결과 게시판 전체 — 학생부교과·학생부종합·실기·특기자 등)",
+   "reason": "입학처 '입시결과' 메뉴가 javascript:void(0) + onclick gotoMenu('ipsi','3','0','nontime-result','list_ipsi_result.do?schBdcode=_ipsi_result01') 함수 호출뿐이고 HTML에 실제 링크가 없어 게시판을 열지 않음(주소 조립 금지). 따라서 게시글·첨부 파일명 미확인",
+   "url": "https://ipsi.dongduk.ac.kr/ipsi/main/index.do"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "입학처 정시 '입시결과' 메뉴도 gotoMenu('ipsi','3','0','fxdtime-result','list_ipsi_result.do?schBdcode=_ipsi_result02') 함수 호출뿐(실제 링크 없음) — 게시글·첨부 파일명 미확인",
+   "url": "https://ipsi.dongduk.ac.kr/ipsi/main/index.do"
+  },
+  {
+   "item": "2027 수시 학생부종합전형 가이드(2026 결과 수록 여부 미확인)",
+   "reason": "입시자료실 논술가이드북 게시글의 '다음글 [2027 수시] 학생부종합전형 가이드' 링크가 onclick fn_goView(91946) 함수 호출뿐이라 열지 않음 — 첨부 파일명 미확인",
+   "url": "https://ipsi.dongduk.ac.kr/ipsi/contents/nontime-doc.do?schM=view&page=1&viewCount=10&id=91947&schBdcode=_ipsi_admdoc01&schGroupCode=&etc1=78"
+  },
+  {
+   "item": "논술우수자전형 외 2026학년도 성적(합격자 평균 등) 지표",
+   "reason": "수집한 논술가이드북에는 2026학년도 논술우수자전형 모집인원·지원인원·경쟁률만 있고 합격자 성적·충원 인원은 없음",
+   "url": "https://ipsi.dongduk.ac.kr/ipsi/contents/nontime-doc.do?schM=view&page=1&viewCount=10&id=91947&schBdcode=_ipsi_admdoc01&schGroupCode=&etc1=78"
+  }
+ ],
+ "notes": [
+  "출처: 동덕여자대학교 입학처 입시자료실(수시) 게시글 '[2027 수시] 논술가이드북'(작성 입학관리팀, 2026-06-26) 첨부 PDF '2027학년도_신입학_수시_논술가이드북(인쇄본).pdf'(56쪽). 게시글 주소는 입학처 화면의 실제 링크(href)에서, 첨부는 게시글 본문의 실제 다운로드 링크(/afile/fileDownload/jxrmn)에서 받음. robots.txt('Disallow: /www/search/'만)는 IpsiFetcher 게이트 통과(첫 요청 때 1회 연결 재설정 → 판정불가로 막혔다가 다음 실행에서 HTTP 200으로 확인).",
+  "입시결과 전용 파일이 아니라 2027 논술가이드북 안의 '02 논술우수자전형 경쟁률' 표(PDF 6쪽, 인쇄 쪽번호 2)에서 2026학년도 열(모집인원·지원인원·경쟁률)만 뽑았다(한양대 3개년 가이드북에서 2026 열만 뽑은 방식과 같음). 2025학년도 열은 넣지 않음.",
+  "type_name은 표 제목 그대로 '논술우수자전형'(2027 시드 전형명과 같음). 모집단위명은 표의 모집단위 칸 그대로.",
+  "표 머리글에 최초/최종 구분이 없어 경쟁률이 원서접수 마감 기준인지 원문으로 확인할 수 없다. 충원 인원·합격자 성적은 원문에 없어 null.",
+  "pdftotext -layout은 이 PDF의 모집단위명 글꼴(Adobe-KR)을 읽지 못해 이름 칸이 비므로 pdfplumber 텍스트를 기준으로 하고 숫자 열을 pdftotext와 대조함.",
+  "원문 PDF: data/raw/ipsi.dongduk.ac.kr/83bf67e8f55e07c3f327e0151f13e133.bin (Content-Type application/octet-stream이라 확장자 .bin으로 저장됨, 실제 PDF)."
+ ]
+}

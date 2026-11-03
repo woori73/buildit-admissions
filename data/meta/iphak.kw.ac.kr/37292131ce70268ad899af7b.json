@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.kw.ac.kr/result/result.php?m_type=SUSI",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.kw.ac.kr/result/result.php?m_type=SUSI",
+  "content_type": "text/html; charset=utf-8",
+  "size": 38781,
+  "sha256": "83975b9b88d71f71eae7115f6e45e0fecbe0806ebed29193770e356fd7e88c10",
+  "raw_path": "raw/iphak.kw.ac.kr/83975b9b88d71f71eae7115f6e45e0fe.html",
+  "collected_at": "2026-11-04T00:50:25+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

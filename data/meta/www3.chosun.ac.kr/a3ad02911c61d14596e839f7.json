@@ -1,0 +1,15 @@
+{
+  "url": "https://www3.chosun.ac.kr/sites/chosun/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www3.chosun.ac.kr/sites/chosun/index.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 524164,
+  "sha256": "bbfa110fb4fefc64bb8f5d7b57edbc9419d05400aa36d5f8c1561ccd12c17c17",
+  "raw_path": "raw/www3.chosun.ac.kr/bbfa110fb4fefc64bb8f5d7b57edbc94.html",
+  "collected_at": "2026-11-04T01:30:44+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.yonsei.ac.kr/mirae/admission/html/counsel/ebookGallery.asp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.yonsei.ac.kr/mirae/admission/html/counsel/ebookGallery.asp",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 24054,
+  "sha256": "f0a3c044aa3885787c355f32fca342c4cb10582b941fb7573a400f2aec187d77",
+  "raw_path": "raw/admission.yonsei.ac.kr/f0a3c044aa3885787c355f32fca342c4.html",
+  "collected_at": "2026-11-04T01:29:31+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

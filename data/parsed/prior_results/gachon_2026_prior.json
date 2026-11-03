@@ -1,0 +1,29 @@
+{
+ "university_key": "gachon",
+ "university_name": "가천대학교",
+ "university_code": "GACHON",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(admission.gachon.ac.kr) robots.txt 요청이 TLS 인증서 검증 실패(SSLCertVerificationError: unable to get local issuer certificate)로 판정 불가 — RobotsGate가 막아 입학처 사이트를 요청하지 않음. 본부(www.gachon.ac.kr)도 TLS 핸드셰이크 실패(SSLV3_ALERT_HANDSHAKE_FAILURE)로 판정 불가. 검증을 끄거나 http로 바꿔 시도하지 않음.",
+   "url": "https://admission.gachon.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "robots 판정 불가로 페이지·첨부를 한 건도 받지 않음. 사람이 입학처 '입시결과' 자료를 직접 내려받아 확인해야 함.",
+  "공식 입학처 주소는 WebSearch로 찾으려 했으나 검색 결과는 언론·사설 사이트뿐이었고(수치 미사용), 알려진 입학처 주소 admission.gachon.ac.kr로 시도함."
+ ]
+}
