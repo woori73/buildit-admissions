@@ -1,0 +1,48 @@
+{
+ "university_key": "u128",
+ "university_name": "서원대학교",
+ "university_code": "U128",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 전형결과",
+   "reason": "robots 차단: 입학안내 메인(https://www.seowon.ac.kr/iphak/index.do, 허용)의 정적 링크 \"2026학년도 수시모집 전형결과 안내 작성일 2026.06.04\"(/bbs/iphak/602/93042/artclView.do?layout=unknown)를 IpsiFetcher로 요청했으나 robots.txt가 우리 UA에 불허. 다른 주소 형식(쿼리 제거 등)으로 바꿔 부르지 않음. 같은 사이트의 첨부 다운로드 주소(/bbs/iphak/597/127720/download.do)도 robots 불허로 판정되어, 게시글에 접근하더라도 첨부를 받을 수 없음.",
+   "url": "https://www.seowon.ac.kr/bbs/iphak/602/93042/artclView.do?layout=unknown"
+  },
+  {
+   "item": "전형결과 게시판 목록(수시/정시)",
+   "reason": "robots 차단: 입학안내 메뉴의 \"전형결과\" 링크(/iphak/1162/subview.do?enc=…, 수시 bbsClSeq 652·정시 653)와 /iphak/1162/subview.do, /bbs/iphak/602/artclList.do 모두 robots.txt 불허.",
+   "url": "https://www.seowon.ac.kr/iphak/1162/subview.do"
+  },
+  {
+   "item": "2026학년도 정시모집 전형결과",
+   "reason": "입학안내 메인의 전형결과 최신글 목록(2026.06.04 수시 결과, 2025.11.04 \"2025학년도 정시모집 전형결과 공지\" 등)에 2026학년도 정시 결과 게시물이 없음(미게시로 보임). 목록 게시판 자체는 robots 불허라 전체 확인 불가.",
+   "url": "https://www.seowon.ac.kr/iphak/index.do"
+  },
+  {
+   "item": "2026학년도 수시 경쟁률(외부)",
+   "reason": "WebSearch 결과에 진학어플라이 경쟁률 페이지가 있으나 외부 대행사 도메인이라 사용하지 않음.",
+   "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10880521.html"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch로 확인(https://www.seowon.ac.kr/iphak/index.do). robots.txt(https://www.seowon.ac.kr/robots.txt) HTTP 200, IpsiFetcher RobotsGate 판정으로만 허용/불허를 확인(직접 읽지 않음).",
+  "참고: WebSearch로 찾은 /bbs/iphak/597/90793/artclView.do(2025학년도 정시모집 전형결과 공지)는 robots 허용이라 열람했으나 2025학년도 자료이므로 사용하지 않음.",
+  "수치를 하나도 기재하지 않음(추측 없음)."
+ ]
+}
