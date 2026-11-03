@@ -1,0 +1,15 @@
+{
+  "url": "https://www.wku.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.wku.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 829016,
+  "sha256": "f2aa6ffff45618109213004c798acbba629e894a2db49a6ed4b33fb3cb7455ad",
+  "raw_path": "raw/www.wku.ac.kr/f2aa6ffff45618109213004c798acbba.html",
+  "collected_at": "2026-11-04T01:29:25+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
