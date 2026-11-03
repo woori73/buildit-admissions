@@ -1,0 +1,37 @@
+{
+ "university_key": "u211",
+ "university_name": "호서대학교",
+ "university_code": "U211",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(입학 홈페이지 ipsi.hoseo.ac.kr)",
+   "reason": "robots 차단: 대학 홈페이지(https://www.hoseo.ac.kr/, WebSearch로 확인) 메뉴의 정적 링크 '입학안내/입시안내'가 가리키는 입학 홈페이지 https://ipsi.hoseo.ac.kr/mainIntro/intro.do 요청 시 IpsiFetcher가 'robots.txt disallows our UA: https://ipsi.hoseo.ac.kr/robots.txt -> HTTP 200'으로 거부. 이후 같은 호스트 robots.txt 재확인은 Connection reset(판정 불가)로 역시 불허. 입학 홈페이지 전체를 수집하지 않음.",
+   "url": "https://ipsi.hoseo.ac.kr/mainIntro/intro.do"
+  },
+  {
+   "item": "대학 홈페이지(www.hoseo.ac.kr) 내 입시결과",
+   "reason": "www.hoseo.ac.kr 메인(robots 허용, HTTP 200) HTML에는 '입시결과/전형결과/경쟁률' 링크가 없고 입학 관련 메뉴는 모두 ipsi.hoseo.ac.kr로 연결됨.",
+   "url": "https://www.hoseo.ac.kr/Home/Main.mbz"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher. robots.txt를 직접 읽지 않았고 IpsiFetcher 판정만 사용. 원문 자료를 확보하지 못해 rows 빈 배열(추측 없음).",
+  "검색 결과의 언론 기사 경쟁률(2017·2023학년도 등)은 입학처 원문이 아니고 연도도 달라 사용하지 않음."
+ ]
+}
