@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hongik.ac.kr/kr/admission/competition-rate-regular.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hongik.ac.kr/kr/admission/competition-rate-regular.do",
+  "content_type": "text/html; charset=utf-8",
+  "size": 184898,
+  "sha256": "4b80d58d85749e8d39e7d09b5ce00d5f7e99aef1ca3ff3543574d0b1c668b164",
+  "raw_path": "raw/www.hongik.ac.kr/4b80d58d85749e8d39e7d09b5ce00d5f.html",
+  "collected_at": "2026-11-04T01:11:31+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
