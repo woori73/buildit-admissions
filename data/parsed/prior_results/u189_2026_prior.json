@@ -1,0 +1,33 @@
+{
+ "university_key": "u189",
+ "university_name": "한국기술교육대학교",
+ "university_code": "U189",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과",
+   "reason": "입학처 사이트(ipsi.koreatech.ac.kr) 접속 불가 — robots.txt 확인 단계에서 매번 'Connection reset by peer'(https·http 모두). 2026-11-04 01:24~01:31(KST) 사이 6회 이상 다시 시도했으나 모두 실패. robots 판정을 못 했으므로 수집하지 않음",
+   "url": "https://ipsi.koreatech.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시 입시결과",
+   "reason": "위와 같음(입학처 사이트 접속 불가, robots 판정 불가로 수집 안 함)",
+   "url": "https://ipsi.koreatech.ac.kr/"
+  },
+  {
+   "item": "대표 홈페이지(www.koreatech.ac.kr)에서 대체 경로 확인",
+   "reason": "www.koreatech.ac.kr robots.txt(HTTP 200, Googlebot만 Disallow)는 허용이나 첫 화면이 /kor/ 로 넘어간 뒤 통합인증 tsso.koreatech.ac.kr(Auth.do 세션 확인)로 리다이렉트되고, 그 호스트는 robots 확인 단계에서 연결 재설정으로 판정 불가 → IpsiFetcher가 거부. 대표 홈페이지 메뉴를 볼 수 없었음",
+   "url": "https://www.koreatech.ac.kr/kor/"
+  }
+ ],
+ "notes": [
+  "입학처 주소 ipsi.koreatech.ac.kr는 이름 조회는 되고(연결 재설정 응답) 접속 단계에서 끊긴다. 해외 접속 차단 또는 보안장비로 보이며, 사람이 국내 망에서 확인할 대상이다."
+ ]
+}
