@@ -1,0 +1,43 @@
+{
+  "university_key": "u106",
+  "university_name": "동양대학교",
+  "university_code": "U106",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과(대표 홈페이지 입학 메뉴)",
+      "reason": "robots 판정 불가: 대표 홈페이지(www.dyu.ac.kr, WebSearch로 확인) robots.txt 요청이 연결 재설정(ConnectionResetError 104)으로 실패 → IpsiFetcher가 요청 차단. 잠시 뒤 새 IpsiFetcher로 1회 재시도했으나 동일 실패.",
+      "url": "https://www.dyu.ac.kr/"
+    },
+    {
+      "item": "2026학년도 수시모집 경쟁률현황(학사 시스템 페이지)",
+      "reason": "robots 차단: WebSearch로 찾은 'haksa.dyu.ac.kr/manager/m_ibsi/ib_inweon/m_susi_inweon.jsp?nyeondo=2026'(동양대학교 수시모집 경쟁률현황)은 첫 시도 시 robots.txt 연결 재설정으로 판정 불가, 재시도 시 robots.txt(HTTP 200)가 우리 UA를 Disallow로 판정 → 요청하지 않음.",
+      "url": "https://haksa.dyu.ac.kr/manager/m_ibsi/ib_inweon/m_susi_inweon.jsp?nyeondo=2026"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과/경쟁률",
+      "reason": "입학처 페이지 접근 불가(위 robots 판정 불가/차단)로 확인하지 못함. WebSearch 결과의 어디가·진학사 수치는 지시서 규칙상 사용·요청하지 않음.",
+      "url": "https://www.dyu.ac.kr/"
+    }
+  ],
+  "notes": [
+    "캠퍼스 범위: 동양대학교(영주·동두천)만 해당. 동양미래대학교는 별개 대학이라 제외.",
+    "입학처 전용 하위 도메인은 WebSearch·링크로 확인되지 않아 추측해 요청하지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 기재하지 않음(추측 없음)."
+  ]
+}

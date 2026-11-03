@@ -1,0 +1,33 @@
+{
+ "university_key": "u139",
+ "university_name": "수원가톨릭대학교",
+ "university_code": "U139",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시/정시 입시결과(경쟁률 포함) 전체",
+   "reason": "robots 판정 불가. 공식 홈페이지 https://www.suwoncatholic.ac.kr/ 의 robots.txt 확인이 1차, 약 1분 뒤 새 IpsiFetcher 2차 모두 ConnectionResetError(104)로 실패해 IpsiFetcher가 요청을 막음. https://suwoncatholic.ac.kr/ 도 같은 오류. 입학 안내 페이지 자체를 열지 못해 자료 존재 여부 미확인.",
+   "url": "https://www.suwoncatholic.ac.kr/"
+  }
+ ],
+ "notes": [
+  "홈페이지 주소 www.suwoncatholic.ac.kr 은 WebSearch('수원가톨릭대학교 입학 안내 홈페이지') 결과의 학교 정보에서 확인(수치는 사용하지 않음). 별도 입학처 도메인은 찾지 못함.",
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 시도. 판정 불가 상태에서 우회 요청 없음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

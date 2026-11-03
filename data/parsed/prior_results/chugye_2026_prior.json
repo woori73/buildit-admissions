@@ -1,0 +1,44 @@
+{
+  "university_key": "chugye",
+  "university_name": "추계예술대학교",
+  "university_code": "CHUGYE",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 신편입학전형 경쟁률 현황(수시·정시 포함 추정 게시글)",
+      "reason": "입학홈페이지 '입시정보 > 입시결과' 게시판 목록(정적 HTML, HTTP 200)에 게시글 '2026학년도 신편입학전형 경쟁률 현황'(data-itsp-view-link=1396642153)이 보이나, 제목 링크가 href=\"#\" + JS(data-itsp-view-link 속성 → 스크립트가 상세 주소 생성)로만 열린다. JS 속 주소 조립 금지 규칙에 따라 상세·첨부를 열지 않았다. WebSearch로도 해당 게시글 주소를 찾지 못함. → JS 전용",
+      "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=128&dataSeq=497"
+    },
+    {
+      "item": "2026학년도 신편입학전형 충원합격 현황",
+      "reason": "같은 게시판의 '2026학년도 신편입학전형 충원합격 현황'(data-itsp-view-link=1602484228)도 동일하게 JS 전용 링크. 사유 동일.",
+      "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=128&dataSeq=497"
+    },
+    {
+      "item": "2026학년도 등록자 성적(실기·내신·수능) 입시결과",
+      "reason": "입시결과 게시판 목록 1쪽(총 18건)의 게시글 제목은 연도별 '경쟁률 현황'·'충원합격 현황'뿐이며 등록자 성적 자료는 제목상 보이지 않음(2쪽 이후는 페이지 링크도 JS라 확인 불가).",
+      "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=128&dataSeq=497"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 대학 대표 홈페이지(https://www.chugye.ac.kr/ → meta refresh → /mbs/university/index.jsp)의 '입학안내' 링크(https://enter.chugye.ac.kr)로 확인. 모든 요청은 IpsiFetcher, robots 허용·HTTP 200.",
+    "입시결과 게시판 목록 원문: data/raw/enter.chugye.ac.kr/63bf2f938cc39cf424894cec27621890.html.",
+    "대표 홈페이지 메인에는 입학 공지(menuSeq=114) 게시글의 정적 BoardView.do 링크가 있지만 입시결과 게시판(menuSeq=128) 게시글의 정적 링크는 없어, 주소 형식을 본떠 만들지 않았다(주소 조립·추측 금지).",
+    "원문 수치를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

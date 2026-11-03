@@ -1,0 +1,38 @@
+{
+  "university_key": "u75",
+  "university_name": "광주가톨릭대학교",
+  "university_code": "U75",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "입학처(admission.gjc.ac.kr, 대학 홈페이지 \"입학안내\" 링크) 신입학 메뉴는 전형 시행계획·입시요강·원서접수·선행학습영향평가뿐이며 신입학 \"입시전형결과\" 메뉴가 없다. 공지사항(6건: 2025~2028 모집요강·기본계획·수정사항) 및 자료실(추천서 양식 2건)에도 입시결과·경쟁률 게시물 없음. \"입시전형결과\" 메뉴는 편입학(mode=transresult, 본문 비어 있음)·대학원(mode=gradresult)에만 있음.",
+      "url": "https://admission.gjc.ac.kr/"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "입학처에 정시 입시결과 게시물 없음. 대학 홈페이지 메인에 \"2027학년도 정시입시(실시하지않음)\" 표기가 있음(2026학년도 정시 시행 여부는 확인한 페이지에 없음).",
+      "url": "https://www.gjc.ac.kr/"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch로 찾은 대학 홈페이지 www.gjc.ac.kr의 \"입학안내\" 링크(https://admission.gjc.ac.kr)로 확인.",
+    "모든 요청은 IpsiFetcher로 수행. www.gjc.ac.kr robots.txt 첫 확인은 ConnectionReset(판정 불가) → 새 IpsiFetcher로 한 번 재시도해 허용·HTTP 200. admission.gjc.ac.kr 허용·HTTP 200.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 기재하지 않음."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+ "university_key": "u104",
+ "university_name": "동신대학교",
+ "university_code": "U104",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과/경쟁률",
+   "reason": "robots 차단: 입학처 사이트 ipsi.dsu.ac.kr의 robots.txt(HTTP 200)가 IpsiFetcher UA의 수집을 불허(RobotsGate 판정 False: /ipsi/?pCode=ocguide, /ipsi/index.php?pCode=deptweb, 루트 모두). 입학처 페이지·'전년도 입시결과' 메뉴를 열지 않음.",
+   "url": "https://ipsi.dsu.ac.kr/ipsi/?pCode=ocguide"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과/경쟁률",
+   "reason": "robots 차단(사유 동일). 대학 본 사이트 www.dsu.ac.kr도 robots.txt(HTTP 200)가 불허.",
+   "url": "https://www.dsu.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소: WebSearch('동신대학교 입학처', dsu.ac.kr 한정) 결과의 ipsi.dsu.ac.kr 페이지들(모집요강 ?pCode=ocguide 등). 검색 결과 요약에 입학정보 메뉴로 '전년도 입시결과'가 있다고 나오나 robots 불허라 확인·수집하지 않음. 검색 결과·언론 기사 수치는 사용하지 않음.",
+  "처음 검색 결과 블로그 안내 주소 http://ipsi.dsu.ac.kr/는 robots.txt 조회 단계에서 DNS 해석 실패(본문 요청 없음). 이후 dsu.ac.kr 한정 검색으로 확인한 https 주소로 판정했으며 robots.txt는 HTTP 200으로 받아져 '불허' 판정(판정 불가 아님).",
+  "adiga.kr·suneung.re.kr·사설 자료는 요청·사용하지 않음."
+ ]
+}

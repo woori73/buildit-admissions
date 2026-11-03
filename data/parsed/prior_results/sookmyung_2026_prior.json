@@ -1,0 +1,38 @@
+{
+ "university_key": "sookmyung",
+ "university_name": "숙명여자대학교",
+ "university_code": "SOOKMYUNG",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 판정 불가: 입학처 https://admission.sookmyung.ac.kr/robots.txt 가 HTTP 500을 반환해 IpsiFetcher가 요청을 막음. 잠시 뒤 새 IpsiFetcher로 한 번 재시도했으나 다시 HTTP 500 → 지시서에 따라 수집하지 않음.",
+   "url": "https://admission.sookmyung.ac.kr/robots.txt"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "robots 판정 불가(사유 동일). 입학처 페이지·첨부를 열지 않음.",
+   "url": "https://admission.sookmyung.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 숙명여대 본교 메인(https://www.sookmyung.ac.kr/, robots 허용) 페이지의 \"입학안내(대학)\" 링크(https://admission.sookmyung.ac.kr/)로 확인. WebSearch 결과의 수치(언론·학원 자료)는 사용하지 않음.",
+  "본교 도메인(www.sookmyung.ac.kr)은 입학처 페이지가 아니므로 입시결과 수집 대상에서 제외.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+ ]
+}

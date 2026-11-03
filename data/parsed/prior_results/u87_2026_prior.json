@@ -1,0 +1,43 @@
+{
+  "university_key": "u87",
+  "university_name": "대구예술대학교",
+  "university_code": "U87",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시 입시결과",
+      "reason": "입학처 '전년도 입시결과' 게시판(전체 1쪽)에는 [수시]2021·2022학년도, [정시]2020·2021학년도 마감현황 4건만 있고 2026학년도 자료 없음. 수시 공지사항(1~2쪽)·수시 입시자료실(양식류만)에도 2026학년도 경쟁률/결과 게시물 없음.",
+      "url": "https://ipsi.dgau.ac.kr/result"
+    },
+    {
+      "item": "2026학년도 정시 입시결과",
+      "reason": "정시 공지사항(1~2쪽: 2026 정시 모집요강·인원·전형일·합격자 유의사항·추가모집 등)과 정시 입시자료실(등록포기 신청서 양식만)에 2026학년도 결과/경쟁률 게시물 없음.",
+      "url": "https://ipsi.dgau.ac.kr/notice_reg"
+    },
+    {
+      "item": "원서접수 경쟁률(대행사)",
+      "reason": "원서접수는 외부 대행사(uwayapply.com) 링크 — 지시서상 수치 사용 금지, 요청하지 않음.",
+      "url": "http://ipsi5.uwayapply.com/susi2/tau/?CHA=1"
+    }
+  ],
+  "notes": [
+    "입학처 주소(ipsi.dgau.ac.kr)와 '전년도 입시결과' 게시판 주소는 WebSearch(allowed_domains dgau.ac.kr)로 확인, 이후 페이지 내 정적 링크만 IpsiFetcher로 따라감(robots 허용).",
+    "확인 범위: /result, /notice_ear(1~2쪽), /notice_reg(1~2쪽), /data_ear, /data_reg. 3쪽 이후는 2025학년도 이전 글이라 보지 않음.",
+    "원문 자료를 찾지 못해 rows는 빈 배열이며 수치는 기재하지 않음(추측 없음)."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+ "university_key": "u157",
+ "university_name": "우석대학교",
+ "university_code": "U157",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 판정 불가: WebSearch로 확인한 대학 공식 주소 woosuk.ac.kr — https://www.woosuk.ac.kr/robots.txt 요청이 TLS 핸드셰이크 실패(SSLV3_ALERT_HANDSHAKE_FAILURE), https://woosuk.ac.kr/robots.txt 요청은 연결 재설정(Connection reset)으로 IpsiFetcher가 판정 불가=차단 처리. 잠시 뒤 새 IpsiFetcher로 www.woosuk.ac.kr를 한 번 다시 시도했으나 같은 TLS 오류. 홈페이지·입학 메뉴를 하나도 열지 못함. http://는 이 환경에서 이름 해석 실패.",
+   "url": "https://www.woosuk.ac.kr"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "위와 같은 사유(robots 판정 불가)로 확인 불가.",
+   "url": "https://www.woosuk.ac.kr"
+  },
+  {
+   "item": "별도 입학처 사이트 / 외부 경쟁률",
+   "reason": "WebSearch(\"우석대학교 입학처 입시결과\" 등 4회)에서 별도 입학처 도메인은 확인되지 않음(주소 추측 금지로 하위 도메인 짐작 요청 안 함). 검색에 나온 진학어플라이 2026 수시 경쟁률 페이지는 외부 대행사 도메인이라 수치를 쓰지 않음.",
+   "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11150541.html"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행. robots.txt 확인 실패로 본문 요청 없음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

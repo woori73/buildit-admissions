@@ -1,0 +1,38 @@
+{
+  "university_key": "u11",
+  "university_name": "국립목포대학교",
+  "university_code": "U11",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 판정 불가: 대학 홈페이지 https://www.mokpo.ac.kr/ (WebSearch 결과의 공식 주소 mokpo.ac.kr) robots.txt 확인이 SSL 인증서 검증 실패(CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate)로 실패해 IpsiFetcher가 요청을 막음. 새 IpsiFetcher로 한 번 재시도했으나 같은 오류. 입학 메뉴·게시판을 열지 못함.",
+      "url": "https://www.mokpo.ac.kr/"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 판정 불가(위와 같은 사이트). 2020년 기사에 나온 입학안내 주소 http://ipsi.mokpo.ac.kr 는 DNS 조회 실패(Name or service not known)로 robots 판정 불가.",
+      "url": "http://ipsi.mokpo.ac.kr"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch로 찾음: 대학 홈페이지 mokpo.ac.kr(검색 요약·위키백과 표기), 입학안내 ipsi.mokpo.ac.kr(2020년 기사). 다른 하위 도메인은 추측하지 않음.",
+    "SSL 검증 실패는 인증서를 무시하는 방식으로 우회하지 않음(TLS 검증 끄지 않음).",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 기재하지 않음."
+  ]
+}

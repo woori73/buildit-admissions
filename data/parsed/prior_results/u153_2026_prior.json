@@ -1,0 +1,43 @@
+{
+  "university_key": "u153",
+  "university_name": "영남신학대학교",
+  "university_code": "U153",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과/경쟁률",
+      "reason": "입학처 사이트(entra.ytus.ac.kr) 메뉴(대학입학전형 주요사항·수시모집·정시(가)군 모집·추가모집·편입학·재외국민·공지사항·입시도우미)에 입시결과/경쟁률 메뉴 없음. '수시모집' 게시판(/content/12, 6건)은 모집요강 안내뿐이며 2026 수시 입시결과·경쟁률 게시물 없음.",
+      "url": "https://entra.ytus.ac.kr/content/12"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과/경쟁률",
+      "reason": "'정시 (가)군 모집' 게시판(/content/13, 5건)은 모집요강 안내뿐. '추가모집'(/content/14) 4건도 추가모집 안내뿐이며 결과 자료 없음.",
+      "url": "https://entra.ytus.ac.kr/content/13"
+    },
+    {
+      "item": "입학처 공지·대학입학전형 주요사항 내 입시결과",
+      "reason": "'대학입학전형 주요사항'(/content/11 = /board/admissions_notice, 9건)은 시행계획·선행학습 영향평가 결과뿐, '공지사항'(/content/18, 1건)은 2027 모집요강 안내뿐. 입시결과 게시물 없음.",
+      "url": "https://entra.ytus.ac.kr/content/11"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch로 찾은 대표 홈페이지(www.ytus.ac.kr)의 '영남신학대학교 입학처 홈페이지 바로가기' 링크(https://entra.ytus.ac.kr/)로 확인.",
+    "모든 요청은 IpsiFetcher로 수행. www.ytus.ac.kr·entra.ytus.ac.kr robots.txt는 HTTP 404(규칙 없음=허용).",
+    "원문 입시결과 자료를 찾지 못해 rows는 빈 배열이며 수치는 기재하지 않음(추측 없음)."
+  ]
+}

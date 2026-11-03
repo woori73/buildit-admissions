@@ -1,0 +1,38 @@
+{
+  "university_key": "u59",
+  "university_name": "경남대학교",
+  "university_code": "U59",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과/경쟁률 전체",
+      "reason": "robots 차단: WebSearch로 확인된 대학 공식 홈페이지 https://www.kyungnam.ac.kr/ 의 robots.txt(HTTP 200)가 우리 UA를 불허(RobotsGate allowed=False; /, /ipsi/main.do, /sites/ipsi/index.do 경로 모두 불허). 입학처 페이지를 열 수 없어 수집하지 않음.",
+      "url": "https://www.kyungnam.ac.kr/"
+    },
+    {
+      "item": "입학처 주소",
+      "reason": "WebSearch 결과에 경남대 입학처 전용 주소가 나오지 않음(검색 결과의 gnu.ac.kr은 경상국립대학교). 공식 홈페이지가 robots 차단이라 메뉴 링크로도 확인 불가.",
+      "url": "https://www.kyungnam.ac.kr/"
+    }
+  ],
+  "notes": [
+    "WebSearch로 입학처 주소를 찾지 못해 검색 결과에 소개된 공식 홈페이지 www.kyungnam.ac.kr 만 RobotsGate로 판정했다(본문 요청 없음).",
+    "규칙 확인 필요: 판정 과정에서 하위 도메인 ipsi.kyungnam.ac.kr 을 짐작해 RobotsGate(f.gate.allowed)로 한 번 확인했다(그 호스트의 robots.txt 1회 요청, 불허 판정, 본문 요청 없음). 갱신된 지시서의 '하위 도메인 짐작 금지'에 해당하므로 이 결과는 근거로 쓰지 않는다.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}

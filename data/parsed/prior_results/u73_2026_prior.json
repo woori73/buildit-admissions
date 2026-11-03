@@ -1,0 +1,32 @@
+{
+  "university_key": "u73",
+  "university_name": "광신대학교",
+  "university_code": "U73",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과",
+      "reason": "robots 판정 불가: https://www.kwangshin.ac.kr/robots.txt 확인이 2회 모두 실패(ProxyError: Tunnel connection failed: 502 Bad Gateway). 대학 홈페이지·입학 메뉴를 열지 못해 입학처 페이지·입시결과 자료 존재 여부 미확인.",
+      "url": "https://www.kwangshin.ac.kr/"
+    }
+  ],
+  "notes": [
+    "대학 홈페이지 주소 www.kwangshin.ac.kr 는 WebSearch(\"광신대학교 입학처\")로 확인(별도 입학처 하위 사이트 주소는 검색으로 확인 안 됨, 추측하지 않음).",
+    "모든 요청은 IpsiFetcher. 첫 요청에서 robots.txt 확인이 실패(판정 불가 → IpsiFetcher가 요청 차단)했고, 지시서대로 잠시 뒤 새 IpsiFetcher로 한 번만 재시도했으나 같은 오류로 실패. 다른 주소 형식(http 등)으로 바꿔 부르지 않음. 원문 자료가 없어 rows는 빈 배열(추측 없음)."
+  ]
+}

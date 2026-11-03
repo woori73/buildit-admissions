@@ -1,0 +1,40 @@
+{
+  "university_key": "catholic",
+  "university_name": "가톨릭대학교",
+  "university_code": "CATHOLIC",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과(입시결과자료집 포함)",
+      "reason": "robots 차단 — https://ipsi.catholic.ac.kr/robots.txt(HTTP 200, text/plain)가 'User-agent: * / Disallow: /'로 입학처 사이트 전체를 막음. IpsiFetcher가 요청을 거부했고 수집하지 않음. 입학처 주소·'전년도 입시결과' 메뉴 주소는 WebSearch로만 확인(수치 미사용).",
+      "url": "https://ipsi.catholic.ac.kr/submenu.do?menuurl=LxZUaTFmmSi27DgQxWKW1A%3D%3D"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 차단 — 정시모집 메뉴도 같은 호스트(ipsi.catholic.ac.kr)로 전체 Disallow.",
+      "url": "https://ipsi.catholic.ac.kr/submenu.do?menuurl=fpotGuatDnhsqjCnl16KOw%3D%3D"
+    }
+  ],
+  "notes": [
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로만 시도했다(robots.txt 외 페이지 요청 없음).",
+    "WebSearch 요약에 정시 경쟁률 등 수치가 언급되었으나 규칙상 검색 결과 수치는 쓰지 않았다.",
+    "대학 본부(www.catholic.ac.kr) 뉴스·의과대학(medicine.catholic.ac.kr) 페이지는 입학처 공식 입시결과 자료가 아니므로 조사 대상에서 제외했다.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이다.",
+    "robots 판정은 URL 단위로 f.gate.allowed()로 확인: '전년도 입시결과' 메뉴 URL과 main.do 모두 False(robots.txt 'Disallow: /'). robots.txt 내용은 f.fetch()로만 확인."
+  ]
+}

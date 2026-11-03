@@ -1,0 +1,38 @@
+{
+  "university_key": "u2748",
+  "university_name": "가야대학교",
+  "university_code": "U2748",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과/경쟁률 전체",
+      "reason": "robots 판정 불가: 대학 공식 홈페이지 https://www.kaya.ac.kr/ 의 robots.txt 요청이 연결 재설정(ConnectionResetError 104)으로 실패해 IpsiFetcher가 요청을 막음. 잠시 뒤 새 IpsiFetcher로 한 번 더 시도했으나 동일 오류. 지시서 규칙상 수집하지 않음(다른 주소 형식으로 바꿔 부르지 않음).",
+      "url": "https://www.kaya.ac.kr/"
+    },
+    {
+      "item": "2025·2024학년도 수시 경쟁률(외부 대행사)",
+      "reason": "WebSearch 결과에 외부 대행사(jinhakapply.com) 경쟁률 페이지만 보임. 2026학년도 여부 미확인, 외부 대행사 수치는 쓰지 않음(요청하지 않음).",
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10010591.html"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch로 확인되지 않아 검색 결과에 소개된 공식 홈페이지 www.kaya.ac.kr 만 IpsiFetcher로 시도했다.",
+    "robots.txt -> ERROR ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')) 2회(서로 다른 IpsiFetcher 인스턴스). 본문 요청은 한 건도 나가지 않았다.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}

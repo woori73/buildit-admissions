@@ -1,0 +1,37 @@
+{
+  "university_key": "u71",
+  "university_name": "고신대학교",
+  "university_code": "U71",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 차단: 대학 공식 홈페이지 https://www.kosin.ac.kr/robots.txt(HTTP 200)가 우리 UA에 대해 사이트 전체(/, /kr/, /kr/index.php?pCode=main)를 불허. 입학처 페이지를 열지 못함. WebSearch(3회)로는 별도 입학처 도메인 주소를 찾지 못함.",
+      "url": "https://www.kosin.ac.kr/kr/index.php?pCode=main"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 차단(사유 동일).",
+      "url": "https://www.kosin.ac.kr/"
+    }
+  ],
+  "notes": [
+    "입학처 주소: WebSearch 결과(영문 위키백과 표기)로 www.kosin.ac.kr/kr/index.php?pCode=main 만 확인. 검색 결과 수치는 사용하지 않음. 하위 도메인은 짐작해 요청하지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

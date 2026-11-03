@@ -1,0 +1,43 @@
+{
+ "university_key": "u238",
+ "university_name": "대전신학대학교",
+ "university_code": "U238",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(경쟁률·충원·등록자 성적)",
+   "reason": "대학 홈페이지 '입학안내 > 대학' 페이지(contents_200~206: 수시 일반·수시 특별·정시·공통사항·수험생 유의사항·편입학)에는 2027학년도 모집 안내만 있고 2026학년도 경쟁률·입시결과 표나 첨부가 없음.",
+   "url": "https://www.daejeon.ac.kr/contents_new/contents_200.php"
+  },
+  {
+   "item": "입시 홈페이지(인터넷 원서접수) ipsi.daejeon.ac.kr",
+   "reason": "robots 판정 불가: robots.txt 요청이 Connection reset으로 실패해 IpsiFetcher가 요청을 막음. 새 IpsiFetcher로 한 번 재시도했으나 동일 → 수집하지 않음. (WebSearch 결과 제목 '대전신학대학교 입학처', 대학 입학안내 페이지에 링크됨)",
+   "url": "https://ipsi.daejeon.ac.kr/"
+  },
+  {
+   "item": "대학 게시판(공지·대신소식·학부 입학서식, /bbs/board.php)",
+   "reason": "robots 차단(https://www.daejeon.ac.kr/robots.txt가 /bbs/ 경로를 우리 UA에 대해 불허). 게시판의 경쟁률·결과 공지 여부는 확인하지 못함.",
+   "url": "https://www.daejeon.ac.kr/bbs/board.php?bo_table=B01_01"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch('대전신학대학교 입학안내 수시모집')로 www.daejeon.ac.kr 및 ipsi.daejeon.ac.kr을 확인했다(검색 결과의 수치는 쓰지 않음). 모든 요청은 IpsiFetcher로 수행.",
+  "대전신학대학교는 신학과 단일 학부(2027 모집 신입생 13명: 수시 8·만학도 3·정시 2) 규모이며, 공개 접근 가능한 공식 페이지에서 2026학년도 결과 자료를 찾지 못해 rows는 빈 배열이다(추측 없음).",
+  "adiga.kr는 지시서상 요청 금지이므로 요청하지 않았다."
+ ]
+}

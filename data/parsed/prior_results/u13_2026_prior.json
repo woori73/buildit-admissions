@@ -1,0 +1,43 @@
+{
+  "university_key": "u13",
+  "university_name": "국립부경대학교",
+  "university_code": "U13",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 차단: 입학안내 홈페이지 https://iphak.pknu.ac.kr/robots.txt(HTTP 200)가 우리 UA에 대해 사이트 루트(/, /index.do)부터 불허. 입학처 게시판·자료를 열지 못함.",
+      "url": "https://iphak.pknu.ac.kr/"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 차단(사유 동일).",
+      "url": "https://iphak.pknu.ac.kr/"
+    },
+    {
+      "item": "대학 대표 홈페이지 경유 탐색",
+      "reason": "JS 전용: https://www.pknu.ac.kr/ (robots 허용)은 /intro.html로 리다이렉트되며, 이 페이지는 본문 없이 JS(NetFunnel_Action)로만 메인으로 이동해 정적 링크가 없음. JS 속 주소로는 요청하지 않음.",
+      "url": "https://www.pknu.ac.kr/intro.html"
+    }
+  ],
+  "notes": [
+    "입학처 주소: WebSearch 결과(대학저널 dhnews 2021 수시 기사)에 실린 입학안내 홈페이지 주소 http://iphak.pknu.ac.kr 확인. http는 프록시 환경에서 이름 해석 실패(robots 판정 불가)라 같은 호스트를 https로 확인 → robots.txt HTTP 200, 불허. 검색 결과 수치(언론 경쟁률 등)는 사용하지 않음.",
+    "https://www.pknu.ac.kr/ 요청은 http://www.pknu.ac.kr/intro.html 로 리다이렉트되어 이름 해석 실패 → 같은 경로를 https로 요청(robots 허용). 본문은 JS 리다이렉트뿐이며 수치 없음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

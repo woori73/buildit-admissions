@@ -1,0 +1,44 @@
+{
+  "university_key": "u195",
+  "university_name": "한남대학교",
+  "university_code": "U195",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "JS 전용: 입학처 수시 > 전년도입시결과 게시판 목록에 \"2026학년도 수시모집 입시결과\"(게시일 2026.05.29, 첨부 아이콘 alt \"2026학년도 수시모집 입시결과.pdf\") 글이 있으나 링크가 href=\"javascript://\" onclick=\"viewBoardProcess(...)\"로만 열림. 정적 HTML·공개 링크에 해당 글 본문/첨부 주소가 없어 JS 코드로 주소를 조립하지 않는 규칙에 따라 수집하지 않음. 공지사항 목록(5_1.asp)·입학처 메인에도 이 글의 정적 링크 없음.",
+      "url": "https://ibsi.hannam.ac.kr/adms5/occasional/1_3.asp"
+    },
+    {
+      "item": "2026학년도 정시모집 일반전형 입시결과",
+      "reason": "JS 전용: 정시 > 전년도입시결과 게시판 목록에 \"2026학년도 정시모집 일반전형 입시결과\"(첨부 alt \"2026학년도 정시모집 일반전형 입시결과.pdf\") 글이 있으나 href=\"#\" onclick=\"viewBoardProcess(...)\"로만 열림. 사유 동일.",
+      "url": "https://ibsi.hannam.ac.kr/adms5/procedure/3_3.asp"
+    },
+    {
+      "item": "고교별 합격자 조회(외부 대행사)",
+      "reason": "입학처 메인에 jinhakapply.com 링크가 있으나 외부 대행사 도메인이라 요청하지 않음.",
+      "url": "https://pims.jinhakapply.com/Pass/pubHSchoolLogin.aspx?UnivId=1156&UnivServiceId=115603"
+    }
+  ],
+  "notes": [
+    "입학처 주소: WebSearch 결과(제3자 교육정보 사이트)에서 대학 도메인 hnu.kr 확인 → https://hnu.kr/ (meta refresh) → https://hnu.kr/kor/main/ 의 정적 링크 \"입학정보\"로 https://ibsi.hannam.ac.kr/adms5/intro/index.asp 확인 → 입학처 메인 /adms5/main/index.asp의 \"전년도입시결과\" 정적 링크(/adms5/occasional/1_3.asp, /adms5/procedure/3_3.asp)로 게시판 확인. 검색 결과 수치는 사용하지 않음.",
+    "hnu.kr robots.txt 첫 확인은 연결 리셋으로 판정 불가였고, 새 IpsiFetcher로 한 번 재시도해 HTTP 200 확인. ibsi.hannam.ac.kr robots.txt HTTP 200, 위 페이지들 허용 판정.",
+    "같은 게시판의 통합검색은 POST 폼이라 사용하지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

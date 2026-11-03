@@ -1,0 +1,43 @@
+{
+  "university_key": "u182",
+  "university_name": "한국침례신학대학교",
+  "university_code": "U182",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 차단: 입학처 사이트 https://ipsi.kbtus.ac.kr/ 의 robots.txt(HTTP 200)가 우리 UA에 대해 /ipsi/ 경로(입학처 메인 /ipsi/Main.do, 모집요강 /ipsi/CMS/Contents/Contents.do?mCode=MN020 등)를 불허. 루트(/)는 허용이나 302 리다이렉트만 반환(본문 0바이트, 리다이렉트 따라가지 않음). 입학처 게시판·자료를 열지 못함.",
+      "url": "https://ipsi.kbtus.ac.kr/ipsi/Main.do"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 차단(사유 동일).",
+      "url": "https://ipsi.kbtus.ac.kr/ipsi/Main.do"
+    },
+    {
+      "item": "대학 대표 홈페이지 내 입시 관련 게시판",
+      "reason": "robots 차단: https://www.kbtus.ac.kr/robots.txt(HTTP 200)가 /kor/ 하위(Main.do, CMS/Board 등)를 불허.",
+      "url": "https://www.kbtus.ac.kr/kor/Main.do"
+    }
+  ],
+  "notes": [
+    "입학처 주소: WebSearch 결과(제3자 교육정보 사이트)에서 대학 홈페이지 www.kbtus.ac.kr만 확인. 검색 결과 수치는 사용하지 않음.",
+    "https://www.kbtus.ac.kr/ (robots 허용 판정) 요청 시 IpsiFetcher가 리다이렉트를 자동으로 따라가 /kor/intro.do(이후 robots 불허로 확인된 경로) 본문을 받았음. 그 본문에서는 입학처 링크 주소(https://ipsi.kbtus.ac.kr/ipsi/Main.do)만 확인했고 수치는 없음·사용하지 않음. 첫 robots 확인은 연결 리셋으로 판정 불가였고, 새 IpsiFetcher로 한 번 재시도해 HTTP 200 확인.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

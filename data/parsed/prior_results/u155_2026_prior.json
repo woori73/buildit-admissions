@@ -1,0 +1,38 @@
+{
+ "university_key": "u155",
+ "university_name": "영산선학대학교",
+ "university_code": "U155",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과/경쟁률",
+   "reason": "대학 홈페이지(youngsan.ac.kr, 별도 입학처 사이트 없음: 검색상 메뉴 '입학안내 > 입학자료실')가 IpsiFetcher 요청에 HTTP 403(접근 거부)을 반환. robots.txt는 허용 판정이나 루트와 게시판 페이지 모두 403이라 메뉴·게시글을 확인할 수 없음. 차단 우회(UA 변경 등)는 하지 않음.",
+   "url": "https://youngsan.ac.kr/"
+  },
+  {
+   "item": "입학자료실 등 게시판",
+   "reason": "WebSearch(youngsan.ac.kr 한정)로 찾은 게시판 주소(/bbs/board.php?bo_table=3_2)도 HTTP 403. 입학자료실 게시판 주소는 정적 링크로 확인하지 못해 요청하지 않음.",
+   "url": "https://youngsan.ac.kr/bbs/board.php?bo_table=3_2"
+  }
+ ],
+ "notes": [
+  "입학처 주소: WebSearch('영산선학대학교 신입생 모집 입학안내', youngsan.ac.kr 한정) 결과의 https://youngsan.ac.kr/ (검색 결과 요약상 메뉴에 '입학안내 > 입학자료실'). 검색 결과의 회원가입·비밀번호 찾기 주소는 로그인 관련이라 요청하지 않음.",
+  "모든 요청 IpsiFetcher. HTTP 403으로 원문 파일 저장 없음.",
+  "adiga.kr·suneung.re.kr·사설 자료는 요청·사용하지 않음."
+ ]
+}

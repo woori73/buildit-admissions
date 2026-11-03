@@ -1,0 +1,38 @@
+{
+  "university_key": "bible",
+  "university_name": "한국성서대학교",
+  "university_code": "BIBLE",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 차단: 입학처 사이트 ipsi.bible.ac.kr의 robots.txt(HTTP 200)가 우리 UA를 불허(RobotsGate allowed=False, 루트 '/' 포함). 입학처 사이트 전체를 수집하지 않음.",
+      "url": "https://ipsi.bible.ac.kr/"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 차단(사유 동일).",
+      "url": "https://ipsi.bible.ac.kr/"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch(2027학년도 정시모집요강 언급) 및 대학 대표 홈페이지(https://www.bible.ac.kr/, robots 허용·HTTP 200)의 '입학안내/학부' 링크(https://ipsi.bible.ac.kr/#IM_blank)로 확인.",
+    "대표 홈페이지(www.bible.ac.kr)의 정적 링크에는 입시결과 게시물이 없음(학사·장학·일반 공지만). 대표 홈페이지의 다른 '입학안내' 링크 http://www.bible.coursemos.work/ko/entrance 는 대학 공식 ac.kr 도메인이 아니어서 열지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

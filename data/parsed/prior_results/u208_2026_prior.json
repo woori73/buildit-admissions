@@ -1,0 +1,42 @@
+{
+ "university_key": "u208",
+ "university_name": "호남대학교",
+ "university_code": "U208",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과/경쟁률",
+   "reason": "입학안내 홈페이지 robots 판정 불가 — IpsiFetcher의 robots.txt 요청이 TLS 핸드셰이크 실패(SSLError: SSLV3_ALERT_HANDSHAKE_FAILURE)로 실패해 RobotsGate가 요청을 막음. 새 IpsiFetcher로 한 번 다시 시도했으나 동일. 지시서에 따라 수집하지 않음(http:// 등 다른 주소 형식으로 바꿔 부르지 않음).",
+   "url": "https://enter.honam.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과/경쟁률",
+   "reason": "입학안내 홈페이지 robots 판정 불가 — IpsiFetcher의 robots.txt 요청이 TLS 핸드셰이크 실패(SSLError: SSLV3_ALERT_HANDSHAKE_FAILURE)로 실패해 RobotsGate가 요청을 막음. 새 IpsiFetcher로 한 번 다시 시도했으나 동일. 지시서에 따라 수집하지 않음(http:// 등 다른 주소 형식으로 바꿔 부르지 않음).",
+   "url": "https://enter.honam.ac.kr/"
+  },
+  {
+   "item": "대학 본부 홈페이지 경유 입시결과 확인",
+   "reason": "본부 홈페이지(www.honam.ac.kr)도 robots 판정 불가 — IpsiFetcher의 robots.txt 요청이 TLS 핸드셰이크 실패(SSLError: SSLV3_ALERT_HANDSHAKE_FAILURE)로 실패해 RobotsGate가 요청을 막음. 새 IpsiFetcher로 한 번 다시 시도했으나 동일. 지시서에 따라 수집하지 않음(http:// 등 다른 주소 형식으로 바꿔 부르지 않음).",
+   "url": "https://www.honam.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch로 찾음: enter.honam.ac.kr(언론 기사에 실린 입학안내 홈페이지 주소), www.honam.ac.kr(대학 공식 홈페이지). 검색 결과에 나온 경쟁률 수치(언론 보도)는 쓰지 않음.",
+  "두 호스트 모두 robots.txt 확인 단계의 TLS 오류로 판정 불가 → 페이지 본문 요청 0건. 원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+ ]
+}

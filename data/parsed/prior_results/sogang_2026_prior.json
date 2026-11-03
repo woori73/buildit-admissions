@@ -1,0 +1,48 @@
+{
+ "university_key": "sogang",
+ "university_name": "서강대학교",
+ "university_code": "SOGANG",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과",
+   "reason": "robots 판정 불가: 입학처 admission.sogang.ac.kr robots.txt 요청이 TLS 인증서 검증 실패(SSLCertVerificationError: unable to get local issuer certificate)로 실패 → IpsiFetcher가 '판정 불가 = 차단'으로 요청을 막음. 2026-11-03 새 IpsiFetcher로 한 번 재시도했으나 같은 오류.",
+   "url": "https://admission.sogang.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시 입시결과",
+   "reason": "robots 판정 불가(위와 같은 입학처 사이트).",
+   "url": "https://admission.sogang.ac.kr/"
+  },
+  {
+   "item": "대표 홈페이지 경유 탐색",
+   "reason": "robots 판정 불가: www.sogang.ac.kr도 같은 TLS 오류로 robots.txt 확인 실패(재시도 1회 포함).",
+   "url": "https://www.sogang.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 대학별 입시결과",
+   "reason": "지시서상 요청 금지 사이트라 요청하지 않음(게시 여부 미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소 admission.sogang.ac.kr은 WebSearch 결과 링크(admission.sogang.ac.kr/upload/... PDF)의 호스트로 확인. 검색 결과의 수치(언론·학원 분석)는 쓰지 않음.",
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로만 시도. TLS 검증을 끄거나 다른 경로로 우회하지 않음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

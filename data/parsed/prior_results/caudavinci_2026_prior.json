@@ -1,0 +1,39 @@
+{
+ "university_key": "caudavinci",
+ "university_name": "중앙대학교(다빈치캠퍼스)",
+ "university_code": "CAUDAVINCI",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과(다빈치캠퍼스)",
+   "reason": "robots 차단: 중앙대학교 입학처 https://admission.cau.ac.kr/robots.txt (HTTP 200)가 'User-agent: * / Disallow: /'로 우리 UA의 모든 경로를 막음(Googlebot 등 지정 봇만 허용). IpsiFetcher가 요청을 거부했으므로 입학처 페이지·첨부를 열지 않음. 검색 결과에 입학처 도메인의 PDF 주소(admission.cau.ac.kr/files/2026/...)가 보였으나 같은 robots 규칙으로 차단되어 열지 않았고 수치도 쓰지 않음.",
+   "url": "https://admission.cau.ac.kr/robots.txt"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과(다빈치캠퍼스)",
+   "reason": "robots 차단(사유 동일, 입학처 admission.cau.ac.kr 전체 Disallow).",
+   "url": "https://admission.cau.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch로 확인(admission.cau.ac.kr, 서울·다빈치 통합 입학처). 검색 결과 요약의 수치는 사용하지 않음.",
+  "중앙대 본교 도메인 https://www.cau.ac.kr/robots.txt는 허용이지만 입학처 페이지가 아니므로 조사 대상에서 제외(지시서: 입학처 공식 게시 자료만).",
+  "외부 사이트(negagea.net 등 사설 CDN, 언론) 자료는 요청하지 않음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+ ]
+}

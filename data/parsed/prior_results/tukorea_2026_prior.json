@@ -1,0 +1,43 @@
+{
+ "university_key": "tukorea",
+ "university_name": "한국공학대학교",
+ "university_code": "TUKOREA",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과/경쟁률",
+   "reason": "robots 차단: 학부 입학처(입학종합정보) https://iphak.tukorea.ac.kr/robots.txt 가 'User-agent: * / Disallow: /'(Googlebot 등 특정 검색봇만 Allow)로 우리 UA의 모든 경로를 금지. IpsiFetcher가 요청을 거부하여 입학처 페이지·게시판·첨부를 열지 않음.",
+   "url": "https://iphak.tukorea.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과/경쟁률",
+   "reason": "robots 차단(사유 동일). 입학처 사이트 전체 Disallow.",
+   "url": "https://iphak.tukorea.ac.kr/intro.html"
+  },
+  {
+   "item": "대학 본 홈페이지 내 입시결과",
+   "reason": "본 홈페이지(robots 허용)의 '입학안내'(/tukorea/1020/subview.do)·'입학홍보처'(/tukorea/2513/subview.do) 페이지는 학부 입시 정보를 모두 iphak.tukorea.ac.kr 링크로만 안내하며 입시결과 자료·첨부 없음.",
+   "url": "https://tukorea.ac.kr/tukorea/1020/subview.do"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행. 입학처 주소는 대학 본 홈페이지(https://www.tukorea.ac.kr/intro/index.html)의 '입학 홈페이지' 링크로 확인.",
+  "robots.txt(https://iphak.tukorea.ac.kr/robots.txt) HTTP 200, text/plain. 'User-agent: *' 그룹에 'Disallow: /'. RobotsGate 판정 False(차단) — 지시서 §0-3에 따라 수집하지 않음.",
+  "외부 대행사·adiga 등 다른 출처는 규칙상 사용하지 않음."
+ ]
+}

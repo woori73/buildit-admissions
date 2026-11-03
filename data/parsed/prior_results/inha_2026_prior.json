@@ -1,0 +1,44 @@
+{
+  "university_key": "inha",
+  "university_name": "인하대학교",
+  "university_code": "INHA",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "JS 전용: 입학처 수시 자료실(MENU_ID=110)·통합자료실(MENU_ID=250, CONTENTS_NO=1~3 수시/정시 분류 포함)·전형책자 열람(MENU_ID=260) 정적 HTML 목록이 모두 \"총 0건\"이며 게시글·첨부 링크가 없다(목록을 JS로 불러옴). 메인에 링크된 정적 상세(BoardView.do, 통합자료실 BBS_SEQ=209)에도 본문·첨부가 정적 HTML에 없다. JS 속 주소 조립·AJAX/POST 호출·BBS_SEQ 추측 순회는 하지 않음.",
+      "url": "https://admission.inha.ac.kr/cms/FR_CON/index.do?MENU_ID=110"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "JS 전용: 정시 자료실(MENU_ID=150) 정적 목록 \"총 0건\". 정시 메뉴(MENU_ID=20)·모집요강(MENU_ID=120)·입시도우미(MENU_ID=50) 정적 본문에도 입시결과 링크 없음.",
+      "url": "https://admission.inha.ac.kr/cms/FR_CON/index.do?MENU_ID=150"
+    },
+    {
+      "item": "외부 도메인 경쟁률 페이지",
+      "reason": "WebSearch 결과에 외부 대행사(addon.jinhakapply.com) 2026 수시 경쟁률 페이지가 보이나 인하대 것인지 확인하지 않았고 지시서 규칙상 요청·사용하지 않음.",
+      "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10720321.html"
+    }
+  ],
+  "notes": [
+    "입학처 주소 https://admission.inha.ac.kr/ 은 시드 파일(admission_office_url)에 있는 주소.",
+    "첫 페이지는 uway TControl 대기열 스텁이며 이동 대상이 스크립트에 문자열로 적혀 있음(\"/index.jsp\" → 그 페이지도 location.href=\"/intro.do\" 한 줄). 이 두 리다이렉트 대상만 그대로 따라갔고(주소 조립 아님), 이후 메뉴 주소는 모두 intro.do·index.do의 정적 <a href> 링크에서 얻음. 이 처리는 판단이 들어간 부분임.",
+    "모든 요청은 IpsiFetcher로 수행, admission.inha.ac.kr robots 허용·HTTP 200.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 기재하지 않음."
+  ]
+}

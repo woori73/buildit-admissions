@@ -1,0 +1,38 @@
+{
+  "university_key": "u151",
+  "university_name": "영남대학교",
+  "university_code": "U151",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과(입학자 성적·충원합격 현황)",
+      "reason": "robots 차단: 영남대 입학처 사이트(enter.yu.ac.kr)의 robots.txt(HTTP 200)가 우리 UA에 대해 사이트 전체(/, /page/main/index.php 등)를 Disallow로 판정 → IpsiFetcher가 요청 거부. WebSearch 요약에 입학처 '입학 자료실'에 '2026학년도 수시모집 입학자 성적 및 충원합격 현황(2026.04.30)' 게시물이 있다고 나오나, 확인·수집하지 않았고 수치도 쓰지 않음.",
+      "url": "https://enter.yu.ac.kr/page/main/index.php"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 차단(enter.yu.ac.kr 전체). 입학처 외 다른 공식 경로는 지시서 규칙(입학처 게시 자료만, 주소 추측 금지)상 시도하지 않음.",
+      "url": "https://enter.yu.ac.kr/"
+    }
+  ],
+  "notes": [
+    "입학처 주소(enter.yu.ac.kr)는 WebSearch 결과로 확인. robots 판정은 f.gate.allowed()로만 했다: enter.yu.ac.kr의 /, /index.php, /page/main/index.php, /page/board/ 모두 False.",
+    "robots가 막은 URL을 다른 주소 형식으로 바꿔 부르지 않았다. 대학 대표 홈페이지(www.yu.ac.kr)는 입학처 게시 자료가 아니며 링크로 확인된 주소도 아니어서 조사하지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 기재하지 않음(추측 없음)."
+  ]
+}

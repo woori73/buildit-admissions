@@ -1,0 +1,43 @@
+{
+  "university_key": "u76",
+  "university_name": "광주여자대학교",
+  "university_code": "U76",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과",
+      "reason": "입학안내 홈페이지(https://ipsi.kwu.ac.kr, 대학 소개 페이지 www.kwu.ac.kr/intro.do의 \"입학안내 홈페이지\" 링크)를 IpsiFetcher로 열면 index.do가 본문 없이 SSO 확인용 iframe(/sso/login_post_proc.jsp?ty=url)과 location.reload() 스크립트만 있는 969바이트 페이지를 반환(재요청해도 동일). iframe 주소를 한 번 GET했으나 연결 재설정(Connection reset)으로 실패. 메뉴·게시판·첨부가 정적 HTML로 보이지 않아 JS 전용/정적 접근 불가로 수집 중단.",
+      "url": "https://ipsi.kwu.ac.kr/index.do"
+    },
+    {
+      "item": "대학 본 홈페이지 내 입시결과",
+      "reason": "www.kwu.ac.kr/index.do도 같은 SSO 확인 페이지만 반환. intro.do 정적 링크는 합격자 조회(uwayapply.com, 외부 대행사)·수험번호 확인·합격자 등록/예비합격자 안내/장학제도 PDF·교사용 고교별 입시 현황 조회(portal.kwu.ac.kr, 로그인 시스템)뿐이고 입시결과 자료 링크 없음.",
+      "url": "https://www.kwu.ac.kr/intro.do"
+    },
+    {
+      "item": "외부 대행사 링크(수치 미사용)",
+      "reason": "합격자 조회 등이 uwayapply.com으로 연결됨 — 규칙상 외부 대행사 도메인 수치 미사용, URL만 기록.",
+      "url": "https://ipsi1.uwayapply.com/2027/susi2/kwu/1/service/applyer_print.htm"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch(기사에 언급된 www.kwu.ac.kr)로 찾은 대학 도메인에서 링크로 확인. 모든 요청은 IpsiFetcher, robots 허용.",
+    "SSO iframe 주소는 HTML에 정적으로 적힌 src(JS 조립 아님)라 한 번만 GET 시도했고 실패해 더 진행하지 않음. 로그인·우회 시도 없음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음). 언론 기사 수치(등록률 등)는 사용하지 않음."
+  ]
+}

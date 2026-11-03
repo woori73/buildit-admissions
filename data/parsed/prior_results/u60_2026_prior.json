@@ -1,0 +1,43 @@
+{
+ "university_key": "u60",
+ "university_name": "경동대학교",
+ "university_code": "U60",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(입학처 \"입시결과\"/\"전년도 입시결과\" 게시판)",
+   "reason": "robots 차단: https://www.kduniv.ac.kr/robots.txt 가 'Disallow: /*Board.do'(게시판 전체)와 'Disallow: /downloadRun.do'(첨부 다운로드)를 지정해 RobotsGate가 입시결과 게시판(mCode=MN027·MN032·MN071)을 거부. 요청하지 않음.",
+   "url": "https://www.kduniv.ac.kr/iphak/CMS/Board/Board.do?mCode=MN071"
+  },
+  {
+   "item": "2026학년도 경쟁률(입학처 \"경쟁률조회\" 메뉴)",
+   "reason": "경쟁률조회 페이지(Contents.do?mCode=MN050, robots 허용)는 외부 대행사 도메인(ratio.uwayapply.com) 링크만 제공. 대학 공식 도메인 자료가 아니라 수집하지 않음.",
+   "url": "https://ratio.uwayapply.com/Sl5KRCVXOlY5SmYlJjomSjdmVGY="
+  },
+  {
+   "item": "입학처 robots 원문",
+   "reason": "robots.txt 전문: Disallow /_Admin, /_UPLOAD, /resources, /downloadRun.do, /*Board.do, /*delete*, /*Update* 등. 사람이 직접 내려받아 넣을지 결정 필요.",
+   "url": "https://www.kduniv.ac.kr/robots.txt"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 대학 메인(www.kduniv.ac.kr)의 \"입학처\" 링크로 확인: https://www.kduniv.ac.kr/iphak/Main.do (robots 허용, 수집). 메인 메뉴에 입시결과 게시판(MN027 수시, MN032 정시, MN071 전년도 입시결과)이 있으나 모두 Board.do 경로라 robots 차단.",
+  "첫 시도 때 robots.txt 확인이 연결 재설정으로 판정 불가였고, 새 IpsiFetcher로 다시 확인한 결과 HTTP 200·Board.do Disallow로 판정됨(차단 확정).",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

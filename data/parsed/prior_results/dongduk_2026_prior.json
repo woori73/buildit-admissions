@@ -1,0 +1,48 @@
+{
+ "university_key": "dongduk",
+ "university_name": "동덕여자대학교",
+ "university_code": "DONGDUK",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과 (입학처 '수시 > 입시결과' 게시판, schBdcode=_ipsi_result01)",
+   "reason": "JS 전용: 입학처 메뉴의 '입시결과' 링크가 href=\"javascript:void(0);\" + onClick=\"gotoMenu('ipsi','3','0','nontime-result','list_ipsi_result.do?schBdcode=_ipsi_result01')\"뿐이며, 정적 HTML(입학처 메인 /ipsi/main/index.do, 수시 모집요강 페이지, 대학 메인 www.dongduk.ac.kr)에 이 게시판으로 가는 정적 링크가 없음. 지시서 규칙(JS 코드 속 주소 조립 금지)에 따라 열지 않음.",
+   "url": "https://ipsi.dongduk.ac.kr/ipsi/contents/nontime-viewer.do?gotoMenuNo=nontime-viewer"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과 (입학처 '정시 > 입시결과' 게시판, schBdcode=_ipsi_result02)",
+   "reason": "JS 전용(사유 동일, gotoMenu('ipsi','3','0','fxdtime-result','list_ipsi_result.do?schBdcode=_ipsi_result02')).",
+   "url": "https://ipsi.dongduk.ac.kr/ipsi/contents/fxdtime-viewer.do?gotoMenuNo=fxdtime-viewer"
+  },
+  {
+   "item": "입학도우미 공지사항 내 2026학년도 수시/정시 경쟁률·결과 공지",
+   "reason": "공지 목록은 JS(fn_goList)로만 열리고, 정적으로 열 수 있는 공지 상세 페이지의 이전글/다음글도 onclick=\"fn_goView(id)\" JS 링크뿐이라 순회 불가. 입학처 메인에 정적 링크로 걸린 공지(최근 글) 중 2026학년도 수시·정시 경쟁률/입시결과 공지는 없음.",
+   "url": "https://ipsi.dongduk.ac.kr/ipsi/main/index.do"
+  },
+  {
+   "item": "2026학년도 추가모집 최종 지원현황(참고, 범위 밖)",
+   "reason": "입학처 메인 정적 링크 공지(id=91492, 2026-02-26)에 '2026학년도_신입학_추가모집_지원현황.pdf'가 있으나 추가모집은 수시·정시 입시결과가 아니므로 받지 않음.",
+   "url": "https://ipsi.dongduk.ac.kr/ipsi/contents/admhelper-notice.do?schM=view&id=91492"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 대학 메인(https://www.dongduk.ac.kr/ → /www/main/index.do, robots 허용)의 '대학입학'·'입학안내' 링크(https://ipsi.dongduk.ac.kr)로 확인. https://ipsi.dongduk.ac.kr/ 는 NetFUNNEL 대기 페이지(JS)라 정적 링크로 걸린 /ipsi/main/index.do 와 /ipsi/contents/nontime-viewer.do?gotoMenuNo=nontime-viewer 로 확인.",
+  "robots: ipsi.dongduk.ac.kr/robots.txt HTTP 200, IpsiFetcher가 위 페이지들을 허용 판정. 모든 요청은 IpsiFetcher로 수행.",
+  "입학처 메인·하단에 대학어디가(adiga.kr) 링크가 있으나 지시서상 요청 금지라 열지 않음. 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

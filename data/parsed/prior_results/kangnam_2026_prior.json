@@ -1,0 +1,39 @@
+{
+  "university_key": "kangnam",
+  "university_name": "강남대학교",
+  "university_code": "KANGNAM",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과(입학자료실 '대입전형결과 안내' 및 '2026학년도 입시결과' 메뉴)",
+      "reason": "robots 차단 — https://admission.kangnam.ac.kr/robots.txt가 요청에 따라 HTTP 200 'User-agent: * / Disallow: /'(전체 차단) 또는 HTTP 404를 번갈아 반환함(새 IpsiFetcher로 5회 확인: 200+Disallow 3회, 404 2회). 운영자가 전체 차단 robots를 게시하고 있으므로 보수적으로 차단으로 보고, 404 응답이 나올 때를 골라 요청하는 것은 차단 우회로 보아 하지 않음. 입학처 주소는 WebSearch로만 확인(수치 미사용).",
+      "url": "https://admission.kangnam.ac.kr/iphak/jaryo.htm?bbsid=data_prev_year"
+    },
+    {
+      "item": "ipsi.kangnam.ac.kr",
+      "reason": "robots 판정 불가 — robots.txt 요청이 프록시 502(Tunnel connection failed)로 실패. 현행 입학처는 admission.kangnam.ac.kr로 확인되어 추가 시도하지 않음.",
+      "url": "https://ipsi.kangnam.ac.kr/"
+    }
+  ],
+  "notes": [
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로만 시도했다. 입학처 페이지 본문은 한 건도 받지 않았다(robots.txt만 확인).",
+    "WebSearch 요약에 2021학년도 정시 경쟁률 예시 등이 있었으나 규칙상 사용하지 않았다.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이다.",
+    "robots 판정은 URL 단위로 f.gate.allowed()로 확인: 입학자료실(jaryo.htm?bbsid=data_prev_year) URL False(HTTP 200 + 'Disallow: /' 판정 시). robots.txt 내용은 f.fetch()/IpsiFetcher의 gate 파싱 결과로만 확인."
+  ]
+}

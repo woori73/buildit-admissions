@@ -1,0 +1,45 @@
+{
+  "university_key": "u61",
+  "university_name": "대구한의대학교",
+  "university_code": "U61",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 신입학 수시모집 입시결과 공지(2026/04/27, 첨부: 붙임1. 2026학년도 입시결과(수시공지용).pdf)",
+      "reason": "robots 차단: 게시글 본문(www.dhu.ac.kr/admission/sub.htm, 허용)은 받았으나 첨부 다운로드 주소(www.dhu.ac.kr/cmsware/bbs_download.php)는 robots.txt(HTTP 200)가 우리 UA에 불허(IpsiFetcher 판정 False). 본문에 표·이미지 없음(안내문만).",
+      "url": "https://www.dhu.ac.kr/cmsware/bbs_download.php?mv_data=aWR4PTE1MDIwMjUmc3RhcnRQYWdlPTAmbGlzdE5vPTE0JnRhYmxlPWNzX2Jic19kYXRhJmNvZGU9bm90aWNlMDE4Jm5hdl9jb2RlPWliczE2MzY1MjAzMDcmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0=||&download=h&seq=0"
+    },
+    {
+      "item": "2026학년도 신입학 정시모집 입시결과 공지(2026/04/27, 첨부: 붙임2. 2026학년도 입시결과(정시공지용).xlsx)",
+      "reason": "robots 차단: 수시와 같이 첨부 다운로드 경로(/cmsware/bbs_download.php)가 robots 불허. 본문에 표·이미지 없음.",
+      "url": "https://www.dhu.ac.kr/cmsware/bbs_download.php?mv_data=aWR4PTE1MDIwMjYmc3RhcnRQYWdlPTAmbGlzdE5vPTE0JnRhYmxlPWNzX2Jic19kYXRhJmNvZGU9bm90aWNlMDE5Jm5hdl9jb2RlPWliczE2MzY1MjAzNTcmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0=||&download=h&seq=0"
+    },
+    {
+      "item": "입학 사이트(ibsi.dhu.ac.kr)",
+      "reason": "robots 차단: WebSearch로 나온 ibsi.dhu.ac.kr도 robots 판정 False라 요청하지 않음(www.dhu.ac.kr/admission 경로로 게시글 확인).",
+      "url": "https://ibsi.dhu.ac.kr/index.htm"
+    }
+  ],
+  "notes": [
+    "입학처 '전년도 입시결과'(수시 nav_code=ibs1636520307, 정시 nav_code=ibs1636520357) 주소는 WebSearch(allowed_domains dhu.ac.kr)와 페이지 내 정적 링크로 확인, IpsiFetcher로 받음(robots 허용).",
+    "수시 게시글: https://www.dhu.ac.kr/admission/sub.htm?mode=view&mv_data=aWR4PTE1MDIwMjUmc3RhcnRQYWdlPTAmbGlzdE5vPTE0JnRhYmxlPWNzX2Jic19kYXRhJmNvZGU9bm90aWNlMDE4Jm5hdl9jb2RlPWliczE2MzY1MjAzMDcmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0mdmlld19sZXZlbD0mdmlld19jYXRlPSZ2aWV3X2NhdGUyPQ==||",
+    "정시 게시글: https://www.dhu.ac.kr/admission/sub.htm?mode=view&mv_data=aWR4PTE1MDIwMjYmc3RhcnRQYWdlPTAmbGlzdE5vPTE0JnRhYmxlPWNzX2Jic19kYXRhJmNvZGU9bm90aWNlMDE5Jm5hdl9jb2RlPWliczE2MzY1MjAzNTcmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0mdmlld19sZXZlbD0mdmlld19jYXRlPSZ2aWV3X2NhdGUyPQ==||",
+    "게시글 본문 안내: '2026학년도 수시/정시모집 전형별 입시결과 및 모집단위별 추가합격 후보순번', 등급·대학총점 지표는 최종등록자 기준(참고, 수치 아님).",
+    "첨부 다운로드가 robots 불허여서 다른 주소 형식으로 바꿔 부르지 않았다. rows는 빈 배열이며 수치는 기재하지 않음(추측 없음)."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "university_key": "hansung",
+  "university_name": "한성대학교",
+  "university_code": "HANSUNG",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시 입시결과",
+      "reason": "입학처(enter.hansung.ac.kr) 메뉴 '입시자료 > 입시결과'는 <span m1=\"menu08\" m2=\"sub02\" board=\"entrance_data/result\"> 형태의 JS 메뉴로만 열리며 정적 href가 없다. 정적 링크로 확인된 공지사항 게시판 주소(?m1=menu07%25&m2=sub04%25&board=entrance_helper%2Fnotice%25)도 메인과 같은 25KB 껍데기 HTML만 돌려주고 목록은 JS로 불러온다. 지시서 규칙(JS 코드 속 주소 조립 금지, 주소 추측 금지)에 따라 게시판 주소를 조립하지 않았고 WebSearch로도 입시결과 게시판/첨부 주소를 찾지 못함 → JS 전용.",
+      "url": "https://enter.hansung.ac.kr/?m1=home"
+    },
+    {
+      "item": "2026학년도 정시 입시결과",
+      "reason": "수시와 같은 '입시자료 > 입시결과' JS 전용 메뉴. 정적 HTML·검색 결과로 확인된 공개 주소 없음 → JS 전용.",
+      "url": "https://enter.hansung.ac.kr/?m1=home"
+    },
+    {
+      "item": "2026학년도 경쟁률",
+      "reason": "'입시자료 > 경쟁률'(board=\"entrance_data/competition_rate\")도 JS 전용 메뉴로 정적 주소 없음.",
+      "url": "https://enter.hansung.ac.kr/?m1=home"
+    },
+    {
+      "item": "입학처 루트 리다이렉트(외부 대행사)",
+      "reason": "https://enter.hansung.ac.kr/ 루트는 JS location.href로 intro.uway.com/hansung/res/index.html(외부 대행사 도메인)로 넘긴다. 대행사 도메인이므로 요청·사용하지 않음.",
+      "url": "https://intro.uway.com/hansung/res/index.html"
+    },
+    {
+      "item": "외부 입시정보 사이트 게시 정보",
+      "reason": "WebSearch 결과에 진학사(jinhak.com)의 '2026학년도 한성대학교 수시 입시결과(충원번호)' 목록이 보였으나 외부 사설 도메인이므로 요청·사용하지 않음.",
+      "url": "https://www.jinhak.com/jh/high3/univ-entrance-info/ipsi-archive/admission/result"
+    }
+  ],
+  "notes": [
+    "모든 요청은 IpsiFetcher로 수행. enter.hansung.ac.kr/robots.txt -> HTTP 404(규칙 없음=허용), www.hansung.ac.kr/robots.txt -> HTTP 200 허용 판정.",
+    "입학처 주소 enter.hansung.ac.kr은 WebSearch 결과(기사)와 대표 홈페이지(www.hansung.ac.kr) '입학안내' 링크(https://enter.hansung.ac.kr/?m1=home)로 확인.",
+    "대표 홈페이지 모집요강 게시판(bbs/hansung/2173)은 국제학생 모집요강만 있어 입시결과 없음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}

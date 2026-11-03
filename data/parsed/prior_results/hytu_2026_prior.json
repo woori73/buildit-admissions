@@ -1,0 +1,48 @@
+{
+  "university_key": "hytu",
+  "university_name": "서울한영대학교",
+  "university_code": "HYTU",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 판정 불가: WebSearch로 확인한 서울한영대학교 공식 홈페이지 https://www.hytu.ac.kr/ 의 robots.txt 확인이 ConnectionResetError(Connection reset by peer)로 실패 → IpsiFetcher가 요청 차단. 약 25초 뒤 새 IpsiFetcher로 한 번 재시도했으나 같은 오류. 입학 메뉴·게시판을 열지 못함.",
+      "url": "https://www.hytu.ac.kr/"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 판정 불가(사유 동일).",
+      "url": "https://www.hytu.ac.kr/"
+    },
+    {
+      "item": "별도 입학처 사이트",
+      "reason": "WebSearch('서울한영대학교 입학처 입시결과', '…입학 홈페이지', '…모집요강 2026 입학 사이트 주소', 'shyu.ac.kr …')에서 대학 공식 도메인의 입학처/입학 홈페이지 주소를 찾지 못함(검색 결과는 언론·블로그·대학원 공시 가공 사이트·제3자 CDN 모집요강 PDF뿐). shyu.ac.kr 계열 입학 주소는 검색 결과에 링크로 나오지 않아 추측 요청하지 않음.",
+      "url": null
+    },
+    {
+      "item": "원서접수 대행사",
+      "reason": "검색 요약상 2026 수시모집요강에 원서접수처로 jinhakapply.com이 표기됨 — 외부 대행사 도메인이라 수치 사용·요청하지 않음.",
+      "url": "http://www.jinhakapply.com"
+    }
+  ],
+  "notes": [
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행. www.hytu.ac.kr robots.txt 확인 실패(네트워크 오류)는 지시서에 따라 차단으로 보고 1회만 재시도.",
+    "검색 결과의 블로그(bherald.kr)·대학원 공시 가공 사이트(phdkim.net)·언론(dhnews) 수치는 사용하지 않음. 제3자 CDN(negagea.net)의 모집요강 PDF도 입학처 공식 도메인이 아니어서 요청하지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

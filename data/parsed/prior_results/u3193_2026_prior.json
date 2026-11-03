@@ -1,0 +1,43 @@
+{
+  "university_key": "u3193",
+  "university_name": "영산대학교",
+  "university_code": "U3193",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입학전형결과",
+      "reason": "robots 차단: 입학안내 메인(https://www.ysu.ac.kr/ipsi/Main.do)의 '입학전형결과' 링크가 게시판 /ipsi/CMS/Board/Board.do?mCode=MN023 인데 www.ysu.ac.kr/robots.txt(HTTP 200)가 우리 UA에 대해 /ipsi/CMS/Board/Board.do 경로를 불허(IpsiFetcher 판정 False). 페이지에 링크된 ipsi.ysu.ac.kr 호스트의 같은 경로도 robots 불허. 요청하지 않음.",
+      "url": "https://www.ysu.ac.kr/ipsi/CMS/Board/Board.do?mCode=MN023"
+    },
+    {
+      "item": "지원·합격·등록조회(수험생용/진학교사용)",
+      "reason": "JS 전용: entr.ysu.ac.kr/ysu_enter/ 페이지는 정적 HTML에 \"JavaScript enabled\" 안내만 있고 내용 없음.",
+      "url": "https://entr.ysu.ac.kr/ysu_enter/?mode=G"
+    },
+    {
+      "item": "수시·정시 안내 콘텐츠 페이지 내 입시결과",
+      "reason": "robots 허용된 Contents.do 페이지(수시 MN015, 정시 MN016, 학과안내 2026학년도 MN042)에 2026학년도 입시결과 표·첨부 없음(메뉴명만 있음).",
+      "url": "https://www.ysu.ac.kr/ipsi/CMS/Contents/Contents.do?mCode=MN015"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch(allowed_domains=ysu.ac.kr)로 찾은 https://www.ysu.ac.kr/ipsi/Main.do 사용. 모든 요청은 IpsiFetcher.",
+    "메인에 http:// 절대 링크로 표시된 게시판 주소는 http 요청이 이름 해석 실패(robots 판정 불가)여서, 같은 페이지의 상대 링크(/ipsi/CMS/Board/Board.do?mCode=MN023)를 https 기준 주소로 풀어 판정했으며 robots 불허로 본문 요청 없음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열, 수치 기재 없음."
+  ]
+}

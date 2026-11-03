@@ -1,0 +1,55 @@
+{
+  "university_key": "u233",
+  "university_name": "화성의과학대학교",
+  "university_code": "U233",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 경쟁률",
+      "reason": "입학홈페이지 '수시 > 경쟁률' 게시판의 '2026학년도 화성의과학대학교 수시모집 경쟁률'(등록일 2025-09-08) 항목은 외부 대행사(jinhakapply.com) 경쟁률 페이지로 이동하는 버튼만 있다. 외부 대행사 수치는 쓰지 않음(요청하지 않음).",
+      "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio11880401.html"
+    },
+    {
+      "item": "2026학년도 정시모집 경쟁률",
+      "reason": "입학홈페이지 '정시 > 경쟁률' 게시판의 '2026학년도 화성의과학대학교 정시모집 경쟁률'(등록일 2025-12-29) 항목도 외부 대행사(jinhakapply.com) 페이지 링크뿐. 외부 대행사 수치는 쓰지 않음(요청하지 않음).",
+      "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio11880411.html"
+    },
+    {
+      "item": "2026학년도 수시모집 입시결과(등록자 성적 등)",
+      "reason": "입학처 공지사항에 2025-05-19 '최근 3개년(2025-2023) 수시모집 입시결과'(xlsx) 게시글은 있으나 2025~2023학년도 자료라 사용하지 않음. 공지사항 목록 1쪽(정적 HTML)에 2026-01~2026-09 입학 공지(id 3176~3719)가 모두 보이는데 2026학년도 입시결과 게시글은 없음. 2027 수시·정시 모집요강 PDF(모집요강 메뉴 첨부)에도 입시결과 항목 없음. 공지 목록 2쪽 이후·이전/다음글은 JS(onclick fn_egov_link_page/fn_goView)로만 열려 확인하지 않음.",
+      "url": "https://www.hsmu.ac.kr/admission/contents/AMS40100000.do"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "정시 입시결과 게시글·첨부를 입학홈페이지(정시 메뉴: 모집요강/경쟁률/원서접수/합격자발표, 인포 메뉴)에서 찾지 못함.",
+      "url": "https://www.hsmu.ac.kr/admission/main/index.do"
+    },
+    {
+      "item": "대학어디가(adiga.kr) 링크",
+      "reason": "입학 메인에 '대학어디가' 링크가 있으나 지시서상 요청 금지 사이트라 요청하지 않음.",
+      "url": "https://www.adiga.kr/EgovPageLink.do?link=EipMain"
+    }
+  ],
+  "notes": [
+    "입학처 주소: WebSearch 결과(한국민족문화대백과 출처 표기)로 공식 사이트 hsmu.ac.kr 확인 후 https://www.hsmu.ac.kr/ 을 IpsiFetcher로 열어 메인 메뉴의 정적 링크 '입학홈페이지'(/admission/main/index.do)로 들어갔다.",
+    "robots.txt(https://www.hsmu.ac.kr/robots.txt) HTTP 200, RobotsGate 허용 판정. 모든 요청은 IpsiFetcher로 했다.",
+    "확인 경로(정적 href): 입학 메인, 수시/정시 경쟁률(AMS10200000/AMS20200000), 수시/정시 모집요강(AMS10100000/AMS20100000, 2027 요강 PDF 2건 다운로드해 텍스트 검색), 공지사항 목록(AMS40100000), 공지 id=2197(입학 메인의 정적 링크), 입학설명회(AMS40200000).",
+    "규칙 확인 필요: 공지 id=3476(2027 수시모집요강 안내) 본문은 공지 목록의 onclick fn_goView('3476') 값으로 주소를 만들어 한 번 열었다(입학 메인에 같은 형식의 정적 링크가 있어 형식을 따름). 입시결과 자료가 아니며 수치는 쓰지 않았다. 이후 JS 값 기반 요청은 하지 않았다.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}

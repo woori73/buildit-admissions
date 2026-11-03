@@ -1,0 +1,44 @@
+{
+ "university_key": "kau",
+ "university_name": "한국항공대학교",
+ "university_code": "KAU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과(성적현황) / 지원현황",
+   "reason": "JS 전용: 입학처 '수시 입시결과' 게시판 목록(정적 HTML)에 '2026학년도 수시모집 입시결과'(2026.04.24 게시) 및 '2026학년도 수시모집 지원현황'(2025.09.15) 글이 보이나, 제목 링크가 href='javascript:void(0);' + onclick=viewBoardProcess('6123'/'6078')이며, 이 함수는 hidden 값을 채워 boardForm을 method=post로 resultView.asp에 제출한다. POST 폼 제출·JS 속 주소 조립 금지 규칙에 따라 본문·첨부를 열지 않음. 정적 HTML·메인 페이지에 이 글들의 공개 링크 없음, WebSearch로도 공개 링크 확인 안 됨.",
+   "url": "https://ibhak.kau.ac.kr/admission/html/rolling/result.asp"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과(성적현황) / 지원현황",
+   "reason": "JS 전용(사유 동일): '정시 입시결과' 게시판에 '2026학년도 정시모집 입시결과'(viewBoardProcess('6124')) 및 '2026학년도 정시 지원현황'(viewBoardProcess('6104')) 글이 있으나 POST 폼 제출로만 열림.",
+   "url": "https://ibhak.kau.ac.kr/admission/html/regular/result.asp"
+  },
+  {
+   "item": "공지사항 내 2026학년도 원서접수 결과(경쟁률)",
+   "reason": "공지사항 목록(guide/notice.asp)도 같은 viewBoardProcess(POST) 방식. 메인 페이지에 정적 링크(noticeView.asp?p_board_idx=…)로 노출된 글은 2027·2028학년도 자료뿐이고 2026학년도 원서접수 결과 글의 정적 링크는 없음.",
+   "url": "https://ibhak.kau.ac.kr/admission/html/guide/notice.asp"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. 입학처 주소는 본 홈페이지(https://kau.ac.kr/index/main.php)의 '입학안내' 링크(https://ibhak.kau.ac.kr/admission/html/main/main.asp)로 확인.",
+  "robots.txt(https://ibhak.kau.ac.kr/robots.txt): 'User-agent: * / Disallow: / / Allow: /admission/html / Allow: /admission/html2'. 루트(/)는 차단, /admission/html/ 이하는 RobotsGate 허용 판정 → 허용 경로만 요청함.",
+  "입시결과 게시판(BBS0007)에 2026학년도 수시·정시 입시결과 게시글이 존재함은 목록 정적 HTML로 확인(게시 2026.04.24 등)했지만, 본문 열람이 POST 폼 제출로만 가능해 규칙상 수집 불가로 처리. 게시글 번호(6123/6124/6078/6104)로 GET 주소를 만들어 요청하지 않았다.",
+  "메인 페이지 하단 '고교별 합격자 조회'·'성적산출 프로그램'은 jinhakapply.com(외부 대행사)이라 사용하지 않음."
+ ]
+}

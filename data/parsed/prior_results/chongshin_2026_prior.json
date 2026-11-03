@@ -1,0 +1,43 @@
+{
+  "university_key": "chongshin",
+  "university_name": "총신대학교",
+  "university_code": "CHONGSHIN",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "입학정보 홈페이지(admission.csu.ac.kr)의 '수시모집 > 연도별 입시결과'(메뉴 id 2073)는 HTML 안의 JS 변수(MENU_LIST)로만 메뉴가 그려지고 정적 <a href> 링크가 없다(정적 HTML의 링크는 tel:/fax:뿐). JS 코드 속 주소 조립 금지 규칙에 따라 게시판을 열지 않았다. WebSearch로도 해당 게시판 주소를 찾지 못함. → JS 전용",
+      "url": "https://admission.csu.ac.kr/"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "'정시모집 > 연도별 입시결과'(메뉴 id 2074)도 같은 JS 전용 메뉴. 사유 동일(JS 전용).",
+      "url": "https://admission.csu.ac.kr/"
+    },
+    {
+      "item": "구 입학 도메인(www.chongshin.ac.kr / admission.chongshin.ac.kr)",
+      "reason": "두 주소 모두 http://www.csu.ac.kr/, http://admission.csu.ac.kr/(http)로 리다이렉트되며, 이 환경에서 http 주소의 robots.txt 확인이 이름 해석 실패(NameResolutionError)로 ERROR → IpsiFetcher가 차단(robots 판정 불가). WebSearch로 확인한 입학정보 홈페이지 도메인 admission.csu.ac.kr(2027학년도 정시모집요강에 명시된 주소)을 https로 열어 조사함.",
+      "url": "https://admission.chongshin.ac.kr/"
+    }
+  ],
+  "notes": [
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행. https://admission.csu.ac.kr/ 는 HTTP 200(robots 허용 판정)으로 받았다(raw/admission.csu.ac.kr/188a6932d2c34f183525910cd8269eba.html).",
+    "입학처 페이지 HTML의 MENU_LIST에 '수시모집/정시모집/편입학 > 연도별 입시결과' 메뉴가 존재함을 확인했으나 게시판 주소는 JS(page 이동 스크립트)로만 만들어지므로 요청하지 않았다.",
+    "외부 사이트(블로그·언론·adiga 등) 수치는 사용하지 않았다. 원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

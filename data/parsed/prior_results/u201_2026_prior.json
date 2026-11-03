@@ -1,0 +1,48 @@
+{
+ "university_key": "u201",
+ "university_name": "한세대학교",
+ "university_code": "U201",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과('[수시] 2026학년도 수시모집 지원현황, 교과성적, 충원현황')",
+   "reason": "JS 전용: 입학처 '전년도 입시결과' 게시판(view.do?no=1098) 정적 HTML 목록에 글 제목은 보이나 링크가 href='#none' + javascript:show(28616)이며, show()는 hidden 폼(pst_form)에 게시글 번호를 넣어 제출하는 JS 함수다. JS 속 값으로 주소를 조립하지 않는다는 규칙에 따라 본문·첨부를 열지 않음. 정적 HTML 및 WebSearch에서 이 글의 공개 링크 확인 안 됨.",
+   "url": "https://ipsi.hansei.ac.kr/view.do?no=1098&pgMode=index&sv1=수시"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과('[정시] 2026학년도 정시모집 지원현황, 수능성적, 충원현황')",
+   "reason": "JS 전용(사유 동일, javascript:show(28456)).",
+   "url": "https://ipsi.hansei.ac.kr/view.do?no=1098&pgMode=index&sv1=정시"
+  },
+  {
+   "item": "입학처 '정시모집 경쟁률' 페이지",
+   "reason": "'경쟁률 조회기간이 아닙니다.'만 표시되어 2026학년도 정시 경쟁률 표 없음.",
+   "url": "https://ipsi.hansei.ac.kr/view.do?no=1079"
+  },
+  {
+   "item": "입학처 메인 '수시모집 경쟁률' 링크",
+   "reason": "외부 대행사 도메인(uwayapply.com)이라 사용하지 않음(URL만 기록).",
+   "url": "http://ratio.uwayapply.com/Sl5KJWAmVzh8SmYlJjomSjdmVGY="
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. 입학처 https://ipsi.hansei.ac.kr/ 는 location.replace('/index.do') 리다이렉트만 있는 페이지라 /index.do(메인)를 열었음.",
+  "robots.txt 판정 허용. 입시결과 게시판에 2026학년도 수시·정시 결과 글(수시: 지원현황·교과성적·충원현황, 정시: 지원현황·수능성적·충원현황)이 존재함은 정적 목록으로 확인했지만, 열람이 JS show(pstSn)로만 가능해 수집 불가로 처리. 같은 사이트에 정적 링크로 노출된 글(view.do?no=1096&pgMode=show&pstSn=30748)이 있어 주소 형식은 추정 가능하나, 규칙(§0-3 JS 주소 조립 금지)에 따라 게시글 번호로 주소를 만들지 않았다.",
+  "입학자료실(view.do?no=1100)·공지사항(view.do?no=1096)도 같은 JS 방식이며 2026학년도 입시결과 관련 정적 링크 없음."
+ ]
+}

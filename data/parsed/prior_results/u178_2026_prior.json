@@ -1,0 +1,48 @@
+{
+ "university_key": "u178",
+ "university_name": "백석대학교",
+ "university_code": "U178",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(입학처 '전년도 입시결과' 페이지)",
+   "reason": "robots 차단 — WebSearch로 찾은 입학처 '전년도 입시결과' 페이지(2026·2025·2024학년도 구분) 요청이 IpsiFetcher에서 robots.txt(HTTP 200) Disallow로 거부됨.",
+   "url": "https://ipsi.bu.ac.kr/10000020"
+  },
+  {
+   "item": "2026학년도 수시모집 입시결과(수시 모집요강 부록)",
+   "reason": "robots 차단 — WebSearch로 찾은 '수시 모집요강' 페이지(검색 요약상 2026학년도 수시모집 입시결과 부록 포함)도 같은 robots.txt Disallow로 거부됨(입학처 메인 https://ipsi.bu.ac.kr/main 도 거부).",
+   "url": "https://ipsi.bu.ac.kr/10000015"
+  },
+  {
+   "item": "대학 대표 홈페이지 경유 탐색",
+   "reason": "WebSearch로 확인한 대표 주소 http://www.bu.ac.kr 은 이 환경에서 robots.txt 확인 실패(이름 해석 오류)로 IpsiFetcher가 요청을 막음 = robots 판정 불가. 입학처 주소는 이미 검색으로 확인돼 추가 시도하지 않음.",
+   "url": "http://www.bu.ac.kr"
+  },
+  {
+   "item": "외부 사이트 게시 입시결과",
+   "reason": "WebSearch 결과의 대입닷컴(daeyip.com)·hakjum.school·sano.co.kr 수치는 입학처 공식 자료가 아니므로 요청·사용하지 않음.",
+   "url": "https://daeyip.com/university/bu/susi"
+  }
+ ],
+ "notes": [
+  "입학처 주소(ipsi.bu.ac.kr/10000020, /10000015, /main)는 WebSearch 결과에 나온 그대로만 판정했다. robots 거부 후 다른 주소 형식으로 바꿔 요청하지 않았다.",
+  "검색 결과 요약에 나온 경쟁률·등급 수치는 사용하지 않았다.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+ ]
+}

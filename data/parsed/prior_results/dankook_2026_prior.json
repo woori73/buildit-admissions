@@ -1,0 +1,39 @@
+{
+  "university_key": "dankook",
+  "university_name": "단국대학교",
+  "university_code": "DANKOOK",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과(죽전·천안 캠퍼스 자료실)",
+      "reason": "robots 차단 — https://ipsi.dankook.ac.kr/robots.txt(HTTP 200, text/plain)가 'User-agent: *'에 'Disallow: /'(검색엔진 일부만 Allow)로 우리 UA를 전체 차단. IpsiFetcher가 요청을 거부했고 수집하지 않음. 입학처 주소·자료실 주소는 WebSearch로만 확인(수치 미사용).",
+      "url": "https://ipsi.dankook.ac.kr/jukjeon/doumi/result_list.html?bbsid=juk_info"
+    },
+    {
+      "item": "2026학년도 천안캠퍼스 입시결과",
+      "reason": "robots 차단 — 같은 호스트(ipsi.dankook.ac.kr) 전체 Disallow.",
+      "url": "https://ipsi.dankook.ac.kr/cheonan/search/search.html?keyword=%EC%9E%85%EC%8B%9C%EA%B2%B0%EA%B3%BC"
+    }
+  ],
+  "notes": [
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로만 시도했다(robots.txt만 확인, 본문 요청 없음).",
+    "캠퍼스 범위: 시드상 dankook은 adiga 코드 2개(죽전·천안)를 가진 단일 키라 두 캠퍼스 모두를 대상으로 보았으나 둘 다 같은 입학처 호스트로 차단됨.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이다.",
+    "robots 판정은 URL 단위로 f.gate.allowed()로 확인: 죽전 자료실 URL, intro.html 모두 False. robots.txt 내용은 f.fetch()로만 확인."
+  ]
+}

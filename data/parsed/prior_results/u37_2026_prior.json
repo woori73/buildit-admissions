@@ -1,0 +1,38 @@
+{
+ "university_key": "u37",
+ "university_name": "한경국립대학교",
+ "university_code": "U37",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 판정 불가: 대학 홈페이지(www.hknu.ac.kr/kor/index.do)가 안내하는 입시 홈페이지 ipsi.hknu.ac.kr의 https://ipsi.hknu.ac.kr/robots.txt 확인이 SSL EOF 오류로 반복 실패(첫 시도, 30초 뒤 새 IpsiFetcher 재시도, 약 3분 뒤 별도 세션에서 재시도 + 30초 뒤 재시도 모두 실패). 홈페이지 링크는 http://ipsi.hknu.ac.kr/ (평문 HTTP)인데 이 환경의 프록시는 HTTPS만 지원해 HTTP로는 열 수 없음. 입학처 페이지를 하나도 열지 못함.",
+   "url": "https://ipsi.hknu.ac.kr/robots.txt"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "robots 판정 불가(사유 동일).",
+   "url": "http://ipsi.hknu.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch 결과 대신 대학 공식 홈페이지 https://www.hknu.ac.kr/kor/index.do (robots 허용, IpsiFetcher로 열람)의 '입시 홈페이지(학부, 대학원)' 링크에서 확인.",
+  "www.hknu.ac.kr 메인(포털형 페이지)에는 입시결과 게시판·첨부가 없음. 외부 대행사 링크(enter.jinhakapply.com, 대학원·외국인 원서접수)는 열지 않음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+ ]
+}

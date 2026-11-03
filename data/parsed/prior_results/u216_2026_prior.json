@@ -1,0 +1,42 @@
+{
+  "university_key": "u216",
+  "university_name": "남부대학교",
+  "university_code": "U216",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과(수시모집 > 전년도 입시결과, menuCd=ipsi001006)",
+      "reason": "JS 전용: 입학처 메인·사이트맵(정적 HTML)의 '전년도 입시결과' 메뉴 링크가 href=\"javascript:goLink('html', '', 'ipsi001006', '_self')\"뿐이라(주소 인자 비어 있음, 주소는 JS가 만듦) 정적 공개 링크가 없다. JS 속 주소 조립 금지 규칙에 따라 열지 않음. WebSearch로도 공개 링크 확인 안 됨.",
+      "url": "https://ipsi.nambu.ac.kr/ipsi/index.do"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과(정시모집 > 전년도 입시결과, menuCd=ipsi002006)",
+      "reason": "JS 전용(사유 동일, goLink('html', '', 'ipsi002006')). 메인 퀵메뉴에 javascript:notice(2,'/content/view.do?menuCd=ipsi002006','') 형태의 JS 함수 인자 문자열이 있으나 정적 <a href> 링크가 아니므로 규칙상 요청하지 않음.",
+      "url": "https://ipsi.nambu.ac.kr/ipsi/index.do"
+    },
+    {
+      "item": "입학공지사항 게시판 내 경쟁률/결과 공지",
+      "reason": "입학공지사항 목록 1쪽(정적 HTML) 제목 10건에 2026학년도 경쟁률·입시결과 글 없음(2026학년도 선행학습영향평가 결과 공지 1건은 입시결과 아님). 목록 글 링크(goBdView)·쪽 이동(goBdPage)도 JS 전용이라 2쪽 이후 미확인.",
+      "url": "https://ipsi.nambu.ac.kr/board/IPSI_BOARD_007/boardList.do?menuCd=ipsi005001"
+    }
+  ],
+  "notes": [
+    "입학처 주소 https://ipsi.nambu.ac.kr 는 WebSearch 결과(ipsi.nambu.ac.kr 업로드 PDF 주소)로 확인. 모든 요청은 IpsiFetcher. 첫 요청 때 robots.txt 확인이 연결 재설정으로 실패(판정 불가 → 요청 차단)해, 새 IpsiFetcher로 한 번 재시도하여 robots 허용·HTTP 200 확인 후 진행.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

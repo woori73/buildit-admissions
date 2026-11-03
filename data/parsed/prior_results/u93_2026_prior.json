@@ -1,0 +1,37 @@
+{
+  "university_key": "u93",
+  "university_name": "대신대학교",
+  "university_code": "U93",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과",
+      "reason": "robots 판정 불가: 입학사이트(www.daeshin.ac.kr/html/02_admission/, WebSearch로 확인)의 robots.txt 확인이 네트워크 오류(프록시 터널 502 Bad Gateway)로 실패해 IpsiFetcher가 요청을 막음. 약 20초 뒤 새 IpsiFetcher로 1회 재시도했으나 같은 오류.",
+      "url": "https://www.daeshin.ac.kr/html/02_admission/"
+    },
+    {
+      "item": "같은 대학의 다른 공식 호스트(WebSearch 결과)",
+      "reason": "robots 판정 불가: 2011.daeshin.ac.kr, daeshin.ac.kr도 robots.txt 확인 단계에서 같은 네트워크 오류(502)로 요청 불가. 따라서 입시결과 게시 여부 자체를 확인하지 못함.",
+      "url": "https://2011.daeshin.ac.kr/html/02_admission/03.php?AT=V&b_id=0000038199999999"
+    }
+  ],
+  "notes": [
+    "입학 사이트 주소는 WebSearch(allowed_domains daeshin.ac.kr)로만 확인했다. WebSearch 결과에도 대신대 입학처의 2026학년도 입시결과 게시물은 보이지 않았다(검색 결과 수치는 사용하지 않음).",
+    "어떤 페이지도 받지 못해 rows는 빈 배열이며 수치는 기재하지 않음(추측 없음). 네트워크 사정이 바뀌면 재수집 필요."
+  ]
+}

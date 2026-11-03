@@ -1,0 +1,49 @@
+{
+  "university_key": "uos",
+  "university_name": "서울시립대학교",
+  "university_code": "UOS",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "JS 전용: 입학처 주소 https://admission.uos.ac.kr (WebSearch로 확인, 재외국민 모집요강에 '서울시립대학교 입학처 홈페이지' 주소로 기재)는 robots 허용·HTTP 200이지만 본문이 비어 있고 onload에서 NetFunnel_Action(대기열) 콜백으로만 메인(/admissionNew/main.do)으로 이동함. 정적 링크가 하나도 없어 게시판·첨부를 확인할 수 없음. JS 속 주소로는 요청하지 않음(부산대 pknu NetFunnel 사례와 동일 처리).",
+      "url": "https://admission.uos.ac.kr/"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "사유 동일(입학처 사이트가 NetFunnel JS 리다이렉트로만 열림, 정적 HTML에 메뉴·게시판 링크 없음).",
+      "url": "https://admission.uos.ac.kr/"
+    },
+    {
+      "item": "대학 대표 홈페이지 경유 탐색",
+      "reason": "JS 전용: https://www.uos.ac.kr/ 도 같은 NetFunnel JS 리다이렉트(/main.do) 페이지뿐이라 정적 링크 없음.",
+      "url": "https://www.uos.ac.kr/"
+    },
+    {
+      "item": "oia.uos.ac.kr(국제처) 경유",
+      "reason": "WebSearch로 나온 oia.uos.ac.kr는 국제처(외국인·재외국민 전형) 사이트. 'For UOS Domestic Students'(/koia/web/main) 링크는 SSO 로그인(sso.uos.ac.kr/svc/tk/Auth.eps) POST 자동 제출 폼으로만 이동 → 로그인/SSO·POST 금지로 요청하지 않음. 입학처 입시결과 자료 아님.",
+      "url": "https://oia.uos.ac.kr/koia/web/main"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch('서울시립대학교 입학처 …')로 확인한 https://admission.uos.ac.kr 만 사용. 검색 결과의 언론 수치(경쟁률·평균등급 등)는 사용하지 않음.",
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(admission.uos.ac.kr, www.uos.ac.kr, oia.uos.ac.kr 모두 robots 허용).",
+    "admission.uos.ac.kr 루트 HTML은 '<body onload=goLogin()>' + NetFunnel_Action 콜백 안의 location.href 이동뿐이다. 트래픽 대기열(NetFunnel)을 거치는 JS 이동이라 정적 링크로 보지 않고 따라가지 않았다(대기열 우회로 해석될 수 있어 보수적으로 처리).",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

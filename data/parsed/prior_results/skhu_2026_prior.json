@@ -1,0 +1,44 @@
+{
+  "university_key": "skhu",
+  "university_name": "성공회대학교",
+  "university_code": "SKHU",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 판정 불가: 성공회대학교 대표 홈페이지 https://www.skhu.ac.kr/ (WebSearch로 확인)는 첫 요청 때 robots 허용·HTTP 200이었으나 본문은 meta refresh(./index.jsp)뿐. 이어 https://www.skhu.ac.kr/index.jsp 요청 시 새 IpsiFetcher의 robots.txt 확인이 ConnectionResetError로 실패해 차단됨. 약 25초 뒤 새 IpsiFetcher로 한 번 재시도했으나 같은 오류. 입학 메뉴·게시판을 열지 못함.",
+      "url": "https://www.skhu.ac.kr/index.jsp"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 판정 불가(사유 동일).",
+      "url": "https://www.skhu.ac.kr/index.jsp"
+    },
+    {
+      "item": "별도 입학처 사이트",
+      "reason": "WebSearch('성공회대학교 입학처 입시결과 2026학년도', '…입학처 홈페이지 skhu.ac.kr 입학', '…모집요강 다운로드 입학 홈페이지 주소')에서 학부 입학처 전용 사이트 주소를 찾지 못함(언론·대학원 가공 사이트만). 하위 도메인을 추측해 요청하지 않음.",
+      "url": null
+    }
+  ],
+  "notes": [
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행. www.skhu.ac.kr robots.txt 확인 실패(네트워크 오류)는 지시서에 따라 차단으로 보고 1회만 재시도.",
+    "meta refresh(HTML 태그, JS 아님) 대상 ./index.jsp만 따라가려 했고 JS 속 주소는 사용하지 않음.",
+    "검색 결과의 언론(dhnews) 경쟁률 수치는 사용하지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

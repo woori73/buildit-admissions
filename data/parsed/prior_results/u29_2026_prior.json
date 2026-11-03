@@ -1,0 +1,38 @@
+{
+ "university_key": "u29",
+ "university_name": "충남대학교",
+ "university_code": "U29",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(입학정보 홈페이지)",
+   "reason": "robots 차단: https://ipsi.cnu.ac.kr/robots.txt(HTTP 200)가 우리 UA의 https://ipsi.cnu.ac.kr/ 요청을 불허. 첫 시도는 robots.txt 요청이 Connection reset으로 판정 불가였고, 약 25초 뒤 새 IpsiFetcher로 재시도하자 robots.txt를 받아 '불허'로 판정됨 → 수집하지 않음. (WebSearch 결과에서 입학처 주소 ipsi.cnu.ac.kr 확인)",
+   "url": "https://ipsi.cnu.ac.kr/"
+  },
+  {
+   "item": "대학 대표 홈페이지 경유 자료",
+   "reason": "robots 차단: https://www.cnu.ac.kr/robots.txt(HTTP 200)가 메인 페이지 요청을 불허 → 수집하지 않음.",
+   "url": "https://www.cnu.ac.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. 원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음).",
+  "규칙 위반 자진 기록: 대학 메인 주소를 찾는 과정에서 검색 결과·페이지 링크로 확인하지 않은 주소 https://plus.cnu.ac.kr/html/kr/ 를 IpsiFetcher로 한 번 요청했다. robots.txt 확인 단계에서 Connection reset(판정 불가)으로 막혀 본문 요청은 나가지 않았고 수치도 쓰지 않았다.",
+  "adiga.kr는 지시서상 요청 금지이므로 요청하지 않았다."
+ ]
+}

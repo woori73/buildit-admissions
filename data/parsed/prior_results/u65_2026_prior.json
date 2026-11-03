@@ -1,0 +1,43 @@
+{
+  "university_key": "u65",
+  "university_name": "신경주대학교",
+  "university_code": "U65",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과/경쟁률",
+      "reason": "신경주대 대표 홈페이지(sgu.ac.kr) 입학 메뉴(입학 허브·신입생 공지사항·정시/수시 모집요강·입시자료실·합격자 조회 등)에 입시결과/경쟁률 메뉴 없음. 신입생 공지사항 전체 4쪽(40건)을 확인했으나 2026 수시는 모집 안내·면접고사·합격자 발표·등록 안내뿐이고 입시결과/경쟁률 게시물 없음. 입학처 페이지·사이트맵 텍스트에도 '경쟁률/입시결과/전형결과/모집결과' 단어 없음.",
+      "url": "https://sgu.ac.kr/admissions/notices/freshmen"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과/경쟁률",
+      "reason": "신입생 공지사항 내 2026 정시 게시물은 모집 안내·면접고사·합격자/추가합격자 발표뿐. 입시자료실(/admissions/resources, 4건)은 2027 모집안내 책자·입학원서·농어촌추천서·수시 모집요강뿐.",
+      "url": "https://sgu.ac.kr/admissions/resources"
+    },
+    {
+      "item": "구 경주대학교 도메인(www.gju.ac.kr)",
+      "reason": "WebSearch에서 나온 구 주소 www.gju.ac.kr는 robots.txt 확인 단계에서 SSL 인증서 호스트명 불일치 오류 → IpsiFetcher가 판정불가로 요청 차단. 대표 홈페이지는 대학원 사이트(graduate.sgu.ac.kr)의 '대표 홈페이지' 링크로 확인한 sgu.ac.kr를 사용.",
+      "url": "https://www.gju.ac.kr/"
+    }
+  ],
+  "notes": [
+    "입학 정보 주소: WebSearch에서 나온 graduate.sgu.ac.kr의 '대표 홈페이지' 링크(https://sgu.ac.kr)로 확인. 입학처(입학홍보처)는 대표 홈페이지의 /admissions 메뉴로 운영됨.",
+    "모든 요청은 IpsiFetcher로 수행. sgu.ac.kr robots.txt HTTP 200, 해당 경로 허용.",
+    "원문 입시결과 자료를 찾지 못해 rows는 빈 배열이며 수치는 기재하지 않음(추측 없음)."
+  ]
+}

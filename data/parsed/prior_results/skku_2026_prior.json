@@ -1,0 +1,44 @@
+{
+  "university_key": "skku",
+  "university_name": "성균관대학교",
+  "university_code": "SKKU",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 대입전형 결과(입시결과) — 수시·정시",
+      "reason": "입학처 '입학전형결과' 게시판 주소(WebSearch로 확인: 검색 요약상 2026-04-13 게시 '2026학년도 대입전형 결과' 첨부 게시물이 있다고 나옴)를 IpsiFetcher로 열었으나 HTTP 404·본문 0바이트. 약 20초 뒤 새 IpsiFetcher로 한 번 재시도해도 동일. 입학처 메인(/admission/html/main/main.html), 루트(/), 검색으로 나온 모집요강 PDF(/upload/guide/20250710145541Q5X58D.pdf)까지 모든 경로가 같은 0바이트 404 → 서버가 우리 요청(UA)에 응답하지 않는 것으로 보이나 원인 확인 불가. UA 변경·우회 금지로 수집 중단. 검색 요약의 내용은 수치로 사용하지 않음.",
+      "url": "https://admission.skku.edu/admission/html/ipsi/result.html"
+    },
+    {
+      "item": "2026학년도 정시 최종 경쟁률",
+      "reason": "정시 '경쟁률' 게시판(WebSearch로 확인: 검색 요약상 2025-12-31 '2026학년도 정시 최종 경쟁률' 게시물 존재)도 HTTP 404·0바이트(재시도 동일). 수집 불가.",
+      "url": "https://admission.skku.edu/admission/html/regular/competition.html"
+    },
+    {
+      "item": "2026학년도 수시 경쟁률",
+      "reason": "수시 경쟁률 게시판 주소는 검색 결과에 링크로 나오지 않았고, 같은 호스트가 모든 요청에 404를 반환해 메뉴에서도 찾을 수 없음. 주소 추측 요청하지 않음.",
+      "url": "https://admission.skku.edu/"
+    }
+  ],
+  "notes": [
+    "입학처 주소: seed(ipsi_seed_univ_sample.json)의 admission_office_url https://admission.skku.edu/ 및 WebSearch 결과로 확인. 성균관대 공식 도메인은 skku.edu(…ac.kr 아님)이며, 대학 공식 입학처 도메인으로 보고 접근했다(다른 대학 dongguk.edu·handong.edu 선례와 같음).",
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행. admission.skku.edu robots.txt는 HTTP 404(규칙 없음=허용) 판정. 요청한 5개 URL 모두 HTTP 404·0바이트(sha256 e3b0c442… = 빈 응답).",
+    "검색 결과 요약에 나온 언론 수치(경쟁률·70% 컷 등)와 제3자 CDN(negagea.net) 모집요강은 사용하지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+ "university_key": "mju",
+ "university_name": "명지대학교(인문캠퍼스)",
+ "university_code": "MJU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과(인문캠퍼스)",
+   "reason": "robots 판정 불가: 대학 홈페이지(www.mju.ac.kr)에 걸린 입학처 링크가 모두 http 주소(http://iphak.mju.ac.kr/, http://ipsi.mju.ac.kr)이며, 이 환경에서 http 요청이 이름 해석 실패(NameResolutionError)로 robots.txt 확인이 안 돼 IpsiFetcher가 요청을 막음. 약 20초 뒤 새 IpsiFetcher로 한 번 다시 시도했으나 동일. 링크에 없는 https 주소로 바꿔 부르지 않음.",
+   "url": "http://iphak.mju.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과(인문캠퍼스)",
+   "reason": "robots 판정 불가(사유 동일).",
+   "url": "http://ipsi.mju.ac.kr"
+  },
+  {
+   "item": "인문캠퍼스(서울) 한정 분리",
+   "reason": "자료를 열지 못해 인문캠퍼스 모집단위만 분리할 수 있는지 확인 불가.",
+   "url": "http://iphak.mju.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소 확인 경로: WebSearch로 대학 대표 도메인 www.mju.ac.kr 확인 → https://www.mju.ac.kr/(→ /sites/mjukr/intro/intro.html, robots 허용) '대학입시 홈페이지' 링크 http://iphak.mju.ac.kr/, https://www.mju.ac.kr/mjukr/index.do '입학안내'·'대학' 링크 http://iphak.mju.ac.kr/, https://www.mju.ac.kr/mjukr/2701/subview.do '입학처 바로가기' 링크 http://ipsi.mju.ac.kr.",
+  "WebSearch 결과에 명지대 '2026학년도 정시입시결과' PDF가 있었으나 제3자 호스트(cdn013.negagea.net)라 열지 않았고 수치도 쓰지 않음.",
+  "참고: 같은 입학처를 다룬 mjunat_2026_prior.json(자연캠퍼스, 다른 에이전트)은 입학처 '입시결과' 게시판(B_1_2) 게시글이 javascript:js_board_view(...) 링크뿐이라 JS 전용이라고 기록함(본 작업에서는 직접 확인하지 못함).",
+  "수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

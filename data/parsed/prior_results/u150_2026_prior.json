@@ -1,0 +1,48 @@
+{
+ "university_key": "u150",
+ "university_name": "연세대학교(미래캠퍼스)",
+ "university_code": "U150",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 최종 경쟁률",
+   "reason": "미래캠퍼스 입학처 '수시 > 경쟁률' 게시물('2026학년도 수시모집 최종 지원 현황', 2025/09/22)이 외부 대행사 도메인(ratio.uwayapply.com) 링크만 제공. 대학 공식 도메인 자료가 아니라 수집하지 않음.",
+   "url": "https://ratio.uwayapply.com/Sl5KZiVgJldhYkpmJSY6JkotZlRm"
+  },
+  {
+   "item": "2026학년도 정시모집 경쟁률",
+   "reason": "'정시 > 경쟁률' 게시물('2026학년도 정시모집 지원현황', 2025/12/31)도 ratio.uwayapply.com 링크만 제공. 수집하지 않음.",
+   "url": "https://ratio.uwayapply.com/Sl5KZiVgJldhYkpyVzovSi1mVGY="
+  },
+  {
+   "item": "2026학년도 수시·정시 입시결과(등록자 성적·충원 등)",
+   "reason": "미래캠퍼스 입학처 사이트(수시/정시/입학도우미 메뉴·통합자료실 1~4쪽·공지사항·입학정보지 목록)에 2026학년도 입시결과 파일·표 게시물이 없음. 메인의 '입시통계' 항목은 유튜브 영상 링크뿐(영상 수치는 사용 금지). 2027학년도 수시모집 입학정보지 PDF(68쪽)에도 입시결과 표 없음.",
+   "url": "https://admission.yonsei.ac.kr/mirae/admission/html/main/main.asp"
+  },
+  {
+   "item": "입시통계 영상",
+   "reason": "메인 '2026학년도 연세대학교 미래캠퍼스 입시통계분석'(2025.06.02)은 youtu.be 링크 — 공식 문서 자료가 아니고 게시 시점상 2026학년도 결과도 아님. 수집하지 않음.",
+   "url": "https://youtu.be/Zbd7rMffm0E?si=9nSsOdhQPWUL-HOH"
+  }
+ ],
+ "notes": [
+  "범위: 연세대학교 미래캠퍼스(원주) 입학처 https://admission.yonsei.ac.kr/mirae/ 만 조사. 서울캠퍼스(/seoul/) 자료는 보지 않음.",
+  "확인한 페이지(모두 IpsiFetcher, robots 허용): mirae/admission/html/main/main.asp, rolling/competition.asp, regular/competition.asp, counsel/data.asp(1~4쪽), counsel/notice.asp, rolling/notice.asp, regular/notice.asp, counsel/ebookGallery.asp, 그리고 입학정보지 PDF https://admission.yonsei.ac.kr/mirae/upload/info/20261013151032WWAV86.PDF(2027학년도 수시모집, 입시결과 없음 — 수치 미사용).",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

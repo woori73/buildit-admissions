@@ -187,7 +187,20 @@ class IpsiFetcher:
 
         self._throttle(url)
         try:
-            resp = self._session.get(url, timeout=DEFAULT_TIMEOUT, allow_redirects=allow_redirects)
+            # 리다이렉트는 직접 따라가며 도착 주소마다 robots를 다시 확인한다(허용 주소가 불허 주소로 넘겨도 받지 않게).
+            resp = self._session.get(url, timeout=DEFAULT_TIMEOUT, allow_redirects=False)
+            hops = 0
+            while allow_redirects and resp.is_redirect and hops < 5:
+                nxt = urljoin(str(resp.url), resp.headers.get("Location", ""))
+                if not self.gate.allowed(nxt):
+                    res = FetchResult(url=url, ok=False, robots_allowed=False,
+                                      error=f"redirect target disallowed by robots.txt: {nxt} ({self.gate.note(nxt)})")
+                    if save_meta:
+                        self._write_meta(res)
+                    return res
+                self._throttle(nxt)
+                resp = self._session.get(nxt, timeout=DEFAULT_TIMEOUT, allow_redirects=False)
+                hops += 1
         except Exception as e:
             res = FetchResult(url=url, ok=False, robots_allowed=True, error=f"request failed: {e}")
             if save_meta:

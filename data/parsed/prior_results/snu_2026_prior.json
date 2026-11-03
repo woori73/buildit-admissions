@@ -1,0 +1,58 @@
+{
+ "university_key": "snu",
+ "university_name": "서울대학교",
+ "university_code": "SNU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 접수현황(경쟁률)",
+   "reason": "게시글은 정적 HTML로 확인(입학도우미>전형결과>경쟁률, 2025.9.10. 게시, 첨부 '2026S_SNUrate_최종.pdf'). 그러나 게시글의 정적 첨부 링크(md=down)를 같은 IpsiFetcher 세션(게시글을 먼저 연 뒤)으로 요청해도 HTTP 404. 헤더 변경 등 우회 없이 수집 중단.",
+   "url": "https://admission.snu.ac.kr/materials/stats/competition_rate?md=v&bbsidx=160920"
+  },
+  {
+   "item": "2026학년도 정시모집 접수현황(경쟁률)",
+   "reason": "게시글(2025.12.31., 첨부 '2026정시_접수현황_최종.pdf') 첨부 링크 HTTP 404(사유 같음).",
+   "url": "https://admission.snu.ac.kr/materials/stats/competition_rate?md=v&bbsidx=163729"
+  },
+  {
+   "item": "2026학년도 수시·정시 충원합격자 선발현황(충원 인원)",
+   "reason": "입학도우미>전형결과>선발현황 게시판에 2026 수시 1·2차, 정시 1·2·3차(최종) 충원합격자 선발현황 PDF가 있으나 첨부 링크 모두 HTTP 404(정시 3차는 시간 두고 재시도 1회 포함).",
+   "url": "https://admission.snu.ac.kr/materials/stats/result?md=v&bbsidx=165212"
+  },
+  {
+   "item": "2026학년도 수시·정시 선발 결과 보도자료",
+   "reason": "입학자료실 게시글(bbsidx=163032 수시, 164740 정시) 첨부 PDF 링크도 HTTP 404. (보도자료는 모집단위별 입시결과가 아닐 가능성이 높으나 확인 못 함)",
+   "url": "https://admission.snu.ac.kr/materials/downloads/press?md=v&bbsidx=164740"
+  },
+  {
+   "item": "등록자 성적(교과등급·수능 백분위 등) 입시결과",
+   "reason": "입학처 '전형결과' 메뉴는 경쟁률·선발현황 두 탭뿐이고 성적 입시결과 게시판은 없음.",
+   "url": "https://admission.snu.ac.kr/materials/stats/competition_rate"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 대학별 입시결과",
+   "reason": "지시서상 요청 금지 사이트라 요청하지 않음(게시 여부 미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처: admission.snu.ac.kr(robots 허용). 게시글 본문은 '아래 첨부파일을 확인하시기 바랍니다'뿐이고 본문 표·이미지 없음.",
+  "모든 요청은 IpsiFetcher로만. 404 첨부는 Referer/쿠키 조작 등 우회 없이 gaps로 남김.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

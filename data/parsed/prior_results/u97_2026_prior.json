@@ -1,0 +1,39 @@
+{
+  "university_key": "u97",
+  "university_name": "대진대학교",
+  "university_code": "U97",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과(자료실 › 전형자료_입시결과)",
+      "reason": "robots 차단 — https://admission.daejin.ac.kr/robots.txt(HTTP 200)가 'User-agent: * / Disallow: /'로 입학처 사이트 전체를 막음. IpsiFetcher가 요청을 거부했고 수집하지 않음. 게시판 주소는 WebSearch로만 확인(수치 미사용).",
+      "url": "https://admission.daejin.ac.kr/submenu.do?menuurl=%2Fmq%2FU0WEhNKXwwuOjFncFg%3D%3D"
+    },
+    {
+      "item": "ipsi.daejin.ac.kr",
+      "reason": "robots 판정 불가 — robots.txt 요청이 프록시 502(Tunnel connection failed)로 실패. 현행 입학처는 admission.daejin.ac.kr로 확인되어 추가 시도하지 않음.",
+      "url": "https://ipsi.daejin.ac.kr/"
+    }
+  ],
+  "notes": [
+    "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로만 시도했다(robots.txt만 확인, 본문 요청 없음).",
+    "학과 홈페이지(www.daejin.ac.kr 하위 학과 사이트)는 입학처 공식 입시결과 자료가 아니므로 조사 대상에서 제외했다.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이다.",
+    "robots 판정은 URL 단위로 f.gate.allowed()로 확인: 전형자료_입시결과 게시판 URL, main.do 모두 False. robots.txt 내용은 f.fetch()로만 확인."
+  ]
+}

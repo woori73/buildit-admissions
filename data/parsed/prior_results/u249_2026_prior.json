@@ -1,0 +1,37 @@
+{
+ "university_key": "u249",
+ "university_name": "창신대학교",
+ "university_code": "U249",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "robots 판정 불가: 입학안내 사이트 admission.cs.ac.kr의 robots.txt 요청이 TLS 핸드셰이크 실패(SSLV3_ALERT_HANDSHAKE_FAILURE)로 2회(새 IpsiFetcher로 재시도 포함) 실패 → IpsiFetcher가 요청 차단, 수집하지 않음",
+   "url": "https://admission.cs.ac.kr/"
+  },
+  {
+   "item": "대학 메인(www.cs.ac.kr) 입학 관련 페이지",
+   "reason": "robots 판정 불가: www.cs.ac.kr robots.txt 요청이 인증서 검증 실패(unable to get local issuer certificate)로 2회 실패",
+   "url": "https://www.cs.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch('창신대학교 입학처', cs.ac.kr 한정) 결과에서 찾음(admission.cs.ac.kr, www.cs.ac.kr). TLS 검증 해제·우회는 하지 않음.",
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로만 시도. adiga.kr·suneung.re.kr·외부 대행사·언론 수치는 요청/사용하지 않음. 원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

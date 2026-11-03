@@ -1,0 +1,42 @@
+{
+  "university_key": "u241",
+  "university_name": "김천대학교",
+  "university_code": "U241",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시 입시결과",
+      "reason": "robots 차단: 입학처(ibhak.gimcheon.ac.kr) robots.txt(HTTP 200)가 우리 UA에 대해 사이트 전체를 불허(IpsiFetcher RobotsGate 판정 False: /index.html, /site/ibhak/, /site/ibhak/html/sub1/0106.html 모두). '전년도입시결과' 메뉴(sub1/0106.html)는 WebSearch로 확인했으나 요청하지 않음.",
+      "url": "https://ibhak.gimcheon.ac.kr/site/ibhak/html/sub1/0106.html"
+    },
+    {
+      "item": "2026학년도 정시 입시결과",
+      "reason": "robots 차단: 수시와 같은 '전년도입시결과' 메뉴에 게시되는 것으로 보이나 입학처 사이트 전체가 robots 불허라 확인 불가.",
+      "url": "https://ibhak.gimcheon.ac.kr/site/ibhak/html/sub1/0106.html"
+    },
+    {
+      "item": "대표 홈페이지 경유 확인",
+      "reason": "robots 차단: www.gimcheon.ac.kr robots.txt(HTTP 200)도 우리 UA에 대해 불허(/ 및 /site/gimcheon/... 판정 False).",
+      "url": "https://www.gimcheon.ac.kr/"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch(allowed_domains gimcheon.ac.kr)로 확인한 ibhak.gimcheon.ac.kr. 모든 판정은 IpsiFetcher의 f.fetch()/f.gate.allowed()로만 수행했고 robots.txt를 직접 읽지 않았다.",
+    "robots 불허로 어떤 페이지도 받지 않았으므로 rows는 빈 배열이며 수치는 기재하지 않음(추측 없음)."
+  ]
+}

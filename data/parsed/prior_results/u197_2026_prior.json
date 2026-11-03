@@ -1,0 +1,1303 @@
+{
+ "university_key": "u197",
+ "university_name": "한라대학교",
+ "university_code": "U197",
+ "result_year": 2026,
+ "documents": [
+  {
+   "document_key": "u197_2026_susi_result",
+   "document_name": "2026학년도 수시 입시결과 안내(최종등록자 75%컷) — 입학처 통합공지사항 \"2026학년도 입시결과\" 첨부 \"2026 수시 입시 결과 안내.pdf\"",
+   "round_type": "SUSI",
+   "institution_name": "한라대학교 입학처(입학전략실)",
+   "source_page_url": "https://ipsi.halla.ac.kr/community/data01.php?sub=1&admin_mode=read&no=8230229",
+   "source_url": "https://ipsi.halla.ac.kr/lib/download.php?file_name=2026+%EC%88%98%EC%8B%9C+%EC%9E%85%EC%8B%9C+%EA%B2%B0%EA%B3%BC+%EC%95%88%EB%82%B4.pdf&save_file=a_202606010949400.pdf&meta=free",
+   "file_name": "2026 수시 입시 결과 안내.pdf",
+   "file_sha256": "1c26a1dbdc76f73083ef8ee4843f6954eb827548bedadfd108815e68ed64175f",
+   "published_at": "2026-04-01",
+   "pages": 1
+  }
+ ],
+ "rows": [
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "기계자동차공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.57,
+   "raw_value_text": "4.57",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "미래모빌리티공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.52,
+   "raw_value_text": "4.52",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "도시인프라공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.38,
+   "raw_value_text": "5.38",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.57,
+   "raw_value_text": "4.57",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "IT소프트웨어학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.92,
+   "raw_value_text": "4.92",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "전기전자공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.48,
+   "raw_value_text": "4.48",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "AI정보보안학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.43,
+   "raw_value_text": "5.43",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "철도운전시스템전공",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 3.46,
+   "raw_value_text": "3.46",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "미디어광고콘텐츠학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 3.83,
+   "raw_value_text": "3.83",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "영상제작학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 3.44,
+   "raw_value_text": "3.44",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "건축학과(4년제/5년제)",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.39,
+   "raw_value_text": "4.39",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "소방안전학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.86,
+   "raw_value_text": "4.86",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.76,
+   "raw_value_text": "4.76",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "경찰행정학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.64,
+   "raw_value_text": "4.64",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.83,
+   "raw_value_text": "4.83",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "호텔항공외식경영학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.13,
+   "raw_value_text": "5.13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "문화관광경영학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.54,
+   "raw_value_text": "5.54",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "뷰티디자인학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.99,
+   "raw_value_text": "4.99",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "스포츠학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.85,
+   "raw_value_text": "5.85",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 교과중심",
+   "department_name": "자유전공학부",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.57,
+   "raw_value_text": "4.57",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 면접중심",
+   "department_name": "미래모빌리티공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.57,
+   "raw_value_text": "5.57",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 면접중심",
+   "department_name": "미디어광고콘텐츠학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.93,
+   "raw_value_text": "4.93",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 면접중심",
+   "department_name": "영상제작학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.72,
+   "raw_value_text": "4.72",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 면접중심",
+   "department_name": "뷰티디자인학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.66,
+   "raw_value_text": "5.66",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 면접중심",
+   "department_name": "스포츠학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.91,
+   "raw_value_text": "4.91",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "기계자동차공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.38,
+   "raw_value_text": "4.38",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "미래모빌리티공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 6.25,
+   "raw_value_text": "6.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "도시인프라공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.61,
+   "raw_value_text": "5.61",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.75,
+   "raw_value_text": "4.75",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "IT소프트웨어학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 3.17,
+   "raw_value_text": "3.17",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "전기전자공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.22,
+   "raw_value_text": "4.22",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "AI정보보안학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.91,
+   "raw_value_text": "4.91",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "철도운전시스템전공",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 3.64,
+   "raw_value_text": "3.64",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "미디어광고콘텐츠학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 3.68,
+   "raw_value_text": "3.68",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "영상제작학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 3.73,
+   "raw_value_text": "3.73",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "건축학과(4년제/5년제)",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.42,
+   "raw_value_text": "4.42",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "소방안전학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.5,
+   "raw_value_text": "4.50",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.66,
+   "raw_value_text": "4.66",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "경찰행정학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 3.54,
+   "raw_value_text": "3.54",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.17,
+   "raw_value_text": "4.17",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "호텔항공외식경영학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.55,
+   "raw_value_text": "5.55",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "문화관광경영학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 6.06,
+   "raw_value_text": "6.06",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "뷰티디자인학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.23,
+   "raw_value_text": "5.23",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "스포츠학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.0,
+   "raw_value_text": "4.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 교과 지역인재",
+   "department_name": "자유전공학부",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 3.88,
+   "raw_value_text": "3.88",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "기계자동차공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.32,
+   "raw_value_text": "5.32",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "미래모빌리티공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.95,
+   "raw_value_text": "4.95",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "도시인프라공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 6.25,
+   "raw_value_text": "6.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.95,
+   "raw_value_text": "4.95",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "IT소프트웨어학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 6.07,
+   "raw_value_text": "6.07",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "전기전자공학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 6.35,
+   "raw_value_text": "6.35",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "AI정보보안학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 7.28,
+   "raw_value_text": "7.28",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "철도운전시스템전공",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.46,
+   "raw_value_text": "4.46",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "미디어광고콘텐츠학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.23,
+   "raw_value_text": "5.23",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "영상제작학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.17,
+   "raw_value_text": "5.17",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "건축학과(4년제/5년제)",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.18,
+   "raw_value_text": "5.18",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "소방안전학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.42,
+   "raw_value_text": "5.42",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.5,
+   "raw_value_text": "5.50",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "경찰행정학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 4.37,
+   "raw_value_text": "4.37",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 6.25,
+   "raw_value_text": "6.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "호텔항공외식경영학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 6.88,
+   "raw_value_text": "6.88",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "문화관광경영학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 6.46,
+   "raw_value_text": "6.46",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "뷰티디자인학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 6.0,
+   "raw_value_text": "6.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "스포츠학과",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.86,
+   "raw_value_text": "5.86",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부 종합 운곡인재",
+   "department_name": "자유전공학부",
+   "group": null,
+   "metric_label": "최종등록자 75%컷",
+   "metric_unit": "GRADE",
+   "metric_value": 5.38,
+   "raw_value_text": "5.38",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u197_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  }
+ ],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "SUSI 전체",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 열이 없고 최종등록자 75%컷만 있어 기본 행 없음(모집인원 합계·경쟁률 검산 불가)."
+   }
+  ],
+  "spot_checks": [
+   {
+    "row_index": 0,
+    "page": 1,
+    "field": "metric_value",
+    "source_text": "4.57",
+    "value": 4.57,
+    "type_name": "학생부 교과 교과중심",
+    "department_name": "기계자동차공학과",
+    "metric_label": "최종등록자 75%컷",
+    "match": true,
+    "method": "300dpi 스캔 쪽 이미지(200dpi 렌더) 셀 육안 대조"
+   },
+   {
+    "row_index": 20,
+    "page": 1,
+    "field": "metric_value",
+    "source_text": "5.57",
+    "value": 5.57,
+    "type_name": "학생부 교과 면접중심",
+    "department_name": "미래모빌리티공학과",
+    "metric_label": "최종등록자 75%컷",
+    "match": true,
+    "method": "300dpi 스캔 쪽 이미지(200dpi 렌더) 셀 육안 대조"
+   },
+   {
+    "row_index": 29,
+    "page": 1,
+    "field": "metric_value",
+    "source_text": "3.17",
+    "value": 3.17,
+    "type_name": "학생부 교과 지역인재",
+    "department_name": "IT소프트웨어학과",
+    "metric_label": "최종등록자 75%컷",
+    "match": true,
+    "method": "300dpi 스캔 쪽 이미지(200dpi 렌더) 셀 육안 대조"
+   },
+   {
+    "row_index": 51,
+    "page": 1,
+    "field": "metric_value",
+    "source_text": "7.28",
+    "value": 7.28,
+    "type_name": "학생부 종합 운곡인재",
+    "department_name": "AI정보보안학과",
+    "metric_label": "최종등록자 75%컷",
+    "match": true,
+    "method": "300dpi 스캔 쪽 이미지(200dpi 렌더) 셀 육안 대조"
+   },
+   {
+    "row_index": 60,
+    "page": 1,
+    "field": "metric_value",
+    "source_text": "6.88",
+    "value": 6.88,
+    "type_name": "학생부 종합 운곡인재",
+    "department_name": "호텔항공외식경영학과",
+    "metric_label": "최종등록자 75%컷",
+    "match": true,
+    "method": "300dpi 스캔 쪽 이미지(200dpi 렌더) 셀 육안 대조"
+   },
+   {
+    "row_index": 24,
+    "page": 1,
+    "field": "metric_value",
+    "source_text": "4.91",
+    "value": 4.91,
+    "type_name": "학생부 교과 면접중심",
+    "department_name": "스포츠학과",
+    "metric_label": "최종등록자 75%컷",
+    "match": true,
+    "method": "300dpi 스캔 쪽 이미지(200dpi 렌더) 셀 육안 대조"
+   }
+  ],
+  "range_failures": 0,
+  "transcription_check": "원문 PDF는 텍스트층 없는 스캔 이미지(Canon 복합기, 1쪽). 표 20개 모집단위×4개 전형 칸을 쪽 이미지에서 직접 옮겨 적었고, 옮긴 뒤 이미지를 다시 확대(상·하 2분할)해 전 칸(값 65개, \"-\" 15개)을 한 번 더 대조함."
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 모집인원·지원인원·경쟁률·충원",
+   "reason": "입학처 게시 2026 입시결과 PDF에는 최종등록자 75%컷 등급만 있음. 입학처 메인·수시 메뉴에서 대학 도메인의 2026 경쟁률·충원 자료를 찾지 못함.",
+   "url": "https://ipsi.halla.ac.kr/community/data01.php?sub=1&admin_mode=read&no=8230229"
+  },
+  {
+   "item": "2026학년도 정시 입시결과",
+   "reason": "입학처 '정시모집 > 전년도 입시결과' 페이지는 2025학년도 파일(ipsi_regular_before_2025.pdf) 뷰어만 연결. 2026학년도 정시 결과 게시물 없음.",
+   "url": "https://ipsi.halla.ac.kr/regular/regular02.php?sub=2"
+  },
+  {
+   "item": "수시 '전년도 입시결과' 메뉴의 PDF 뷰어(ipsi_rolling_before_2026.pdf)",
+   "reason": "페이지 iframe(/pdf/index.php?file=…)이 다시 pdf.js 뷰어(lib/web/viewer.html?file=ipsi_rolling_before_2026.pdf)만 띄움. 실제 PDF 주소는 뷰어 JS가 상대경로로 만들어 부르는 것이라 '공개 링크'로 보지 않고 받지 않음(JS 전용). 내용이 게시판 첨부와 같은지 확인 못함 — 사람 확인 필요.",
+   "url": "https://ipsi.halla.ac.kr/rolling/rolling03.php?sub=3"
+  }
+ ],
+ "notes": [
+  "입학처: https://ipsi.halla.ac.kr/ (www.halla.ac.kr 첫 화면은 JS 리다이렉트뿐이라 WebSearch로 입학처 주소만 확인 후 IpsiFetcher로 접속). 메인 \"입학자료실\" 최신글 \"2026학년도 입시결과\"(작성일 2026.04.01, 통합공지사항 no=8230229)의 첨부 PDF 1건을 사용.",
+  "원문은 스캔 이미지 1쪽: 제목 \"2026학년도 수시 입시결과 안내(최종등록자 75%컷)\". 열 머리글 학생부 교과(교과중심/면접중심/지역인재), 학생부 종합(운곡인재). type_name은 상위·하위 머리글을 이어 \"학생부 교과 교과중심\" 등으로 적음. metric_label은 제목의 \"최종등록자 75%컷\", 값은 학생부 등급으로 보아 GRADE(1~9 범위 안).",
+  "원문 \"-\" 칸(면접중심 미운영 모집단위 15곳)은 행을 만들지 않음. 원문에 모집·지원·경쟁률이 없어 기본 행(metric_label=null)은 만들지 않음(값 없는 빈 행을 두지 않음).",
+  "비고: 철도운전시스템전공 '학과->전공 변경', 건축학과(4년제/5년제) '5년제 과정 추가' — department_name은 원문 그대로('건축학과(4년제/5년제)')."
+ ]
+}

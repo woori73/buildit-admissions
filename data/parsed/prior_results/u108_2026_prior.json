@@ -1,0 +1,37 @@
+{
+ "university_key": "u108",
+ "university_name": "루터대학교",
+ "university_code": "U108",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시/정시 입시결과(경쟁률 포함) 전체",
+   "reason": "robots 판정 불가. 공식 홈페이지 https://www.ltu.ac.kr/ 의 robots.txt 확인이 1차(ConnectionResetError 104, 연결 중단)·새 IpsiFetcher로 수 분 뒤 2차(SSL TLSV1_ALERT_INTERNAL_ERROR) 모두 실패해 IpsiFetcher가 요청을 막음. https://ltu.ac.kr/ 도 SSL 오류, http://www.ltu.ac.kr/ 은 이름 해석 실패. 입학처 페이지 자체를 열지 못해 자료 존재 여부 미확인.",
+   "url": "https://www.ltu.ac.kr/"
+  },
+  {
+   "item": "별도 입학처 도메인",
+   "reason": "WebSearch('루터대학교 입학처' 등 2회)에서 www.ltu.ac.kr 외 별도 입학처 주소를 찾지 못함.",
+   "url": null
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 시도. 판정 불가 상태에서 우회 요청은 하지 않았다.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

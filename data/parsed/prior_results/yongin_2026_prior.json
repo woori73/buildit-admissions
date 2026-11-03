@@ -1,0 +1,38 @@
+{
+  "university_key": "yongin",
+  "university_name": "용인대학교",
+  "university_code": "YONGIN",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과('2026학년도 신입학 성적결과', 2026.05.29 등록)",
+      "reason": "JS 전용: 수시 '경쟁률 및 입시결과' 목록(/susi/prev_result_list.do)에 게시글이 보이지만 제목 링크가 href=\"#\"이고, 클릭 시 jQuery가 data-value(6637)를 숨은 폼(id)에 넣어 /susi/prev_result_view.do로 제출하는 방식이라 정적 HTML에 본문·첨부 주소가 없음(목록의 첨부파일 칸도 비어 있음). 지시서 규칙(JS 코드 속 주소 조립 금지)에 따라 본문을 열지 않음.",
+      "url": "https://ipsi.yongin.ac.kr/susi/prev_result_list.do"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과('2026학년도 신입학 성적결과')",
+      "reason": "JS 전용: 정시 목록(/jungsi/prev_result_list.do)도 같은 구조(data-value=6638, /jungsi/prev_result_view.do로 JS 폼 제출). 정적 링크 없음.",
+      "url": "https://ipsi.yongin.ac.kr/jungsi/prev_result_list.do"
+    }
+  ],
+  "notes": [
+    "입학처 https://ipsi.yongin.ac.kr/ (WebSearch로 주소 확인). robots.txt 주소는 HTML 페이지를 반환해 IpsiFetcher가 '규칙 없음=허용'으로 판정. 한 번 robots 확인 단계에서 ConnectionReset(판정 불가)이 났고, 새 IpsiFetcher로 재시도해 정상 열람함.",
+    "메인(index.do) '경쟁률 및 입시결과' 메뉴와 수시/정시 목록 페이지에서 2026학년도 게시글의 정적 링크를 찾지 못함(메인 페이지에도 해당 글 링크 없음).",
+    "adiga.kr·suneung.re.kr·사설 자료는 요청·사용하지 않음. 수치 추측 없음."
+  ]
+}

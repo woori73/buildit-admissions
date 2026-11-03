@@ -1,0 +1,43 @@
+{
+ "university_key": "u224",
+ "university_name": "금강대학교",
+ "university_code": "U224",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "입학안내 > 입학자료실 > 입시결과 게시판(13건) 최신 글이 '2025학년도 신입학 입시결과'(25/03/11, 첨부 2025학년도_신입학_입시_결과표.pdf)이며 2026학년도 입시결과 게시글 없음(2026-11-03 확인). 2025학년도 자료는 규칙상 사용하지 않음.",
+   "url": "https://ggu.ac.kr/matriculation/sub030101"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "위와 동일 — 입시결과 게시판에 2026학년도 게시글 없음.",
+   "url": "https://ggu.ac.kr/matriculation/sub030101"
+  },
+  {
+   "item": "2026학년도 경쟁률/결과 공지",
+   "reason": "입학도우미 > 공지사항 게시판 목록에는 2026학년도 모집요강·추가모집요강·편입학 안내와 2027·2028학년도 안내만 있고 2026학년도 경쟁률·입시결과 공지 없음.",
+   "url": "https://ggu.ac.kr/matriculation/sub0401"
+  }
+ ],
+ "notes": [
+  "입학안내 사이트 주소(https://ggu.ac.kr/matriculation/…)는 WebSearch 결과에 나온 ggu.ac.kr/matriculation 경로에서 시작해 페이지 메뉴 링크로만 이동했다. 모든 요청은 IpsiFetcher로 수행(robots 허용, HTTP 200).",
+  "입시결과 게시판 2025학년도 게시글(https://ggu.ac.kr/matriculation/sub030101/view/id/55788)은 2025학년도 자료이므로 첨부를 받지 않았고 수치를 기재하지 않았다.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+ ]
+}

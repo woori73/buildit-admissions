@@ -1,0 +1,44 @@
+{
+ "university_key": "u92",
+ "university_name": "세한대학교",
+ "university_code": "U92",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(입학처 '전년도 입시결과' 메뉴)",
+   "reason": "robots 판정 불가: WebSearch(sehan.ac.kr 한정)로 찾은 입학처 '전년도 입시결과' 페이지의 robots.txt 조회가 프록시 연결 실패(Tunnel connection failed: 502 Bad Gateway)로 2회(약 20초 간격, 새 IpsiFetcher) 모두 실패해 IpsiFetcher가 요청을 막음. 본문 미수집.",
+   "url": "https://house.sehan.ac.kr/html/iphak1/data/resu.html?sub_node=3_0"
+  },
+  {
+   "item": "세한대학교 입학정보 사이트",
+   "reason": "robots 판정 불가: 검색 결과 주소 http://iphak.sehan.ac.kr/iphak/main.do는 robots.txt 조회 단계에서 DNS 해석 실패(이 환경은 http 직접 연결 불가), 같은 주소의 https 형식은 robots.txt 조회가 프록시 502로 2회 실패. 본문 미수집.",
+   "url": "http://iphak.sehan.ac.kr/iphak/main.do"
+  },
+  {
+   "item": "세한대학교 입학안내시스템(apply.sehan.ac.kr/apply)",
+   "reason": "JS 전용: robots 허용·HTTP 200이나 페이지가 frameset으로 WebSquare 앱(/apply/websquare/websquare.jsp?w2xPath=...)만 불러오며 정적 HTML에 게시판·첨부 링크가 없음. JS 주소 조립 금지 규칙에 따라 더 열지 않음.",
+   "url": "https://apply.sehan.ac.kr/apply"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch('세한대학교 입학 모집요강 입시결과', '세한대학교 2026학년도 입시결과 경쟁률', sehan.ac.kr 한정)로만 찾음. 검색 결과 요약의 수치는 사용하지 않음.",
+  "요청 기록(모두 IpsiFetcher): iphak.sehan.ac.kr(http: DNS 실패, https: robots 조회 프록시 502 ×2), house.sehan.ac.kr 전년도 입시결과(robots 조회 프록시 502 ×2), mainold.sehan.ac.kr(검색 결과, robots 조회 연결 reset), apply.sehan.ac.kr/apply(HTTP 200, WebSquare 프레임만).",
+  "참고·자기 신고: 입학처 탐색 중 2025학년도 정시 모집요강 PDF(검색 결과 주소 https://apply.sehan.ac.kr/apply/resource/data/2025_sehan_jungsi_web_1.pdf) 1건을 받았으나 입시결과 자료가 아니므로 사용하지 않음. 또 검색·링크로 확인하지 않은 https://www.sehan.ac.kr/ 의 robots 판정(gate.allowed)을 1회 호출함(robots.txt만 조회, 본문 요청 없음, 수치 없음).",
+  "adiga.kr·suneung.re.kr·사설 자료는 요청·사용하지 않음."
+ ]
+}

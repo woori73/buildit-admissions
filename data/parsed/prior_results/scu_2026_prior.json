@@ -1,0 +1,48 @@
+{
+ "university_key": "scu",
+ "university_name": "서울기독대학교",
+ "university_code": "SCU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과",
+   "reason": "JS 전용: 대표 홈페이지 www.scu.ac.kr(robots 허용)은 정적 HTML이 791바이트 React 앱 껍데기(<div id=\"root\"></div> + /static/js/main.*.js)뿐이라 메뉴·게시판·입학 페이지 링크가 정적 HTML에 없음. JS 코드 속 주소 조립 금지 규칙에 따라 더 진행하지 않음.",
+   "url": "https://www.scu.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시 입시결과",
+   "reason": "JS 전용(위와 같음).",
+   "url": "https://www.scu.ac.kr/"
+  },
+  {
+   "item": "별도 입학처 사이트",
+   "reason": "WebSearch('서울기독대학교 입학처 입시결과')에서 입학처 공식 페이지 링크가 나오지 않음(대학원 공시 가공 사이트 등만). 하위 도메인 추측 금지로 요청하지 않음.",
+   "url": null
+  },
+  {
+   "item": "대학어디가(adiga.kr) 대학별 입시결과",
+   "reason": "지시서상 요청 금지 사이트라 요청하지 않음(게시 여부 미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "첫 robots 확인은 허용(HTTP 200), 두 번째 시도에서 robots.txt 연결 리셋으로 판정 불가, 세 번째(새 IpsiFetcher)에서 허용되어 메인 HTML만 받음.",
+  "스크래치패드에 있던 다른 작업(scu/build_scu.py, adiga 출처)의 파일은 보지도 쓰지도 않음 — adiga 금지 규칙.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

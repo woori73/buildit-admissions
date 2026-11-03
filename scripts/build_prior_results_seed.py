@@ -144,13 +144,18 @@ def build(keys: list[str] | None):
             base = {
                 "university_code": code, "academic_year": COUNSEL_YEAR, "result_year": RESULT_YEAR,
                 "round_type": r["round_type"], "group": r.get("group"),
-                "type_name": r["type_name"].strip(), "department_name": r["department_name"].strip(),
+                "type_name": (r.get("type_name") or "").strip(),
+                # 원문에 모집단위 열이 없는 표(전형 단위 결과)는 "전형 전체"로 둔다(빈 이름은 적재기가 건너뛰므로).
+                "department_name": (r.get("department_name") or "").strip() or "전형 전체",
                 "source_document_key": new_key,
                 "source_url": d.get("source_url") or d.get("source_page_url"),
                 "institution_name": d.get("institution_name") or f"{name} 입학처",
                 "published_at": d.get("published_at"),
                 "evidence_pages": r.get("evidence_pages") or [],
             }
+            if r.get("round_type") not in ("SUSI", "JEONGSI") or not base["type_name"]:
+                failures.append({"row_index": i, "reason": f"round_type/type_name 이상: {r.get('round_type')!r}/{r.get('type_name')!r}"})
+                continue
             if not base["source_url"]:
                 failures.append({"row_index": i, "reason": "source_url 없음"})
                 continue
@@ -183,8 +188,15 @@ def build(keys: list[str] | None):
                 nk = natural_key(e)
                 if nk in seen:
                     prev = seen[nk]
-                    if prev != e:
-                        failures.append({"row_index": i, "reason": "같은 자연키에 다른 값(중복)"})
+                    # 같은 단위가 두 문서(예: 결과표·성적분석표)에 나오면: 값이 겹치지 않는 칸만 채우고, 다른 값이면 앞 문서 값을 둔다.
+                    value_keys = ("metric_value", "raw_value_text", "recruit_count", "applicant_count",
+                                  "competition_rate", "extra_admitted_count")
+                    conflict = [k for k in value_keys if prev.get(k) is not None and e.get(k) is not None and prev[k] != e[k]]
+                    for k in value_keys:
+                        if prev.get(k) is None and e.get(k) is not None:
+                            prev[k] = e[k]
+                    if conflict:
+                        failures.append({"row_index": i, "reason": f"같은 자연키에 다른 값 {conflict} — 앞 문서 값 유지"})
                     continue
                 seen[nk] = e
                 out_rows.append(e)

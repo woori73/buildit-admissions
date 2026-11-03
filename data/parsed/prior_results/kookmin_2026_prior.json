@@ -1,0 +1,43 @@
+{
+ "university_key": "kookmin",
+ "university_name": "국민대학교",
+ "university_code": "KOOKMIN",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과/경쟁률",
+   "reason": "robots 차단: 입학처 admission.kookmin.ac.kr의 robots.txt(HTTP 200)가 우리 UA에 대해 메인(/)·대학입학공지(/helper/notice.php) 등 확인한 모든 URL을 불허(IpsiFetcher RobotsGate 판정 False). 입학처 페이지를 열지 않았음.",
+   "url": "https://admission.kookmin.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과/경쟁률",
+   "reason": "robots 차단(사유 동일). 입학처 게시판·첨부를 확인할 수 없음.",
+   "url": "https://admission.kookmin.ac.kr/helper/notice.php"
+  },
+  {
+   "item": "2026학년도 등록자 성적(교과등급·수능 백분위 등)",
+   "reason": "robots 차단(사유 동일).",
+   "url": "https://admission.kookmin.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch(2028학년도 대학입학전형계획 PDF의 '국민대학교 입학안내 https://admission.kookmin.ac.kr' 표기)와 대학 메인(https://www.kookmin.ac.kr/user/index.do, robots 허용)의 '대학입학안내'·'입학처'·'대학입학공지' 링크로 확인.",
+  "IpsiFetcher의 gate.allowed()로 판정한 결과 http://admission.kookmin.ac.kr, /helper/notice.php, /helper/kookhee.php, /solution/campustour.php 모두 불허. 다른 주소 형식으로 우회하지 않았음.",
+  "대학 본부 사이트(www.kookmin.ac.kr) 보도자료 등은 입학처 공식 입시결과 자료가 아니므로 사용하지 않음. 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

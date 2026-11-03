@@ -1,0 +1,43 @@
+{
+  "university_key": "u94",
+  "university_name": "대전가톨릭대학교",
+  "university_code": "U94",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시 입시결과(경쟁률·충원·등록자 성적)",
+      "reason": "대학 홈페이지에 별도 입학처 사이트 없음. 입학 게시판(bo_table=admissions, 1~4쪽 전체 확인)은 대학입학전형 시행계획·모집요강·교리시험 문제 위주이며 입시결과 게시물은 '2010~2013년도 정시 평균성적'이 마지막. 2026학년도 수시 입시결과·경쟁률 게시물 없음.",
+      "url": "https://www.dcatholic.ac.kr/bbs/board.php?bo_table=admissions"
+    },
+    {
+      "item": "2026학년도 정시 입시결과",
+      "reason": "같은 입학 게시판·공지사항(bo_table=notice 1쪽: 입시 관련은 '2026학년도 선행학습 영향평가 결과 공개'뿐)·자료실(data1~3: 학보·간행물)·공시(announcement: 예결산·업무추진비)에 2026학년도 정시 결과 자료 없음.",
+      "url": "https://www.dcatholic.ac.kr/bbs/board.php?bo_table=notice"
+    },
+    {
+      "item": "대학알리미 공시 링크",
+      "reason": "홈페이지 하단에 대학알리미(academyinfo.go.kr) 공시 링크가 있으나 입학처 공식 게시 '입시결과' 자료가 아니므로 요청하지 않음.",
+      "url": "http://www.academyinfo.go.kr/pubinfo/pubinfo1600/doInit.do?schlId=0000094"
+    }
+  ],
+  "notes": [
+    "대학 주소는 WebSearch 결과(www.dcatholic.ac.kr 표기)로 확인. 검색 요약에 나온 https://dcatholic.ac.kr/ 은 TLS 인증서 호스트 불일치로 robots 판정 불가(ERROR)여서 요청되지 않았고, https://www.dcatholic.ac.kr/ 로 열었다. robots.txt -> HTTP 404(규칙 없음=허용).",
+    "모든 요청은 IpsiFetcher로 수행. 사이트맵(univ/s8/sitemap.php)에 입학 관련 메뉴는 입학 게시판(bo_table=admissions) 하나뿐.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}

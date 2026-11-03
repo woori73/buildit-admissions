@@ -1,0 +1,43 @@
+{
+ "university_key": "u68",
+ "university_name": "계명대학교",
+ "university_code": "U68",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과/경쟁률",
+   "reason": "robots 차단 — 입학처 홈페이지(www.gokmu.ac.kr) robots.txt(HTTP 200)가 'User-agent: * / Disallow: /'로 전면 차단(IpsiFetcher RobotsGate 판정). 사이트 전체를 수집하지 않음.",
+   "url": "https://www.gokmu.ac.kr/main.htm"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과/경쟁률",
+   "reason": "robots 차단 — 입학처 홈페이지(www.gokmu.ac.kr) robots.txt(HTTP 200)가 'User-agent: * / Disallow: /'로 전면 차단(IpsiFetcher RobotsGate 판정). 사이트 전체를 수집하지 않음.",
+   "url": "https://www.gokmu.ac.kr/main.htm"
+  },
+  {
+   "item": "대학 본부 홈페이지 공지사항 > 입시 게시판",
+   "reason": "robots 판정 불가 — 대학 본부 홈페이지(www.kmu.ac.kr, kmu.ac.kr) robots.txt 요청이 TLS 인증서 검증 실패(CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate)로 실패해 RobotsGate가 요청을 막음. 새 IpsiFetcher로 한 번 다시 시도했으나 동일.",
+   "url": "https://kmu.ac.kr/uni/main/page.jsp?mnu_uid=146"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch(ac.kr 한정) 결과로 찾음: www.gokmu.ac.kr(계명대학교 입학처), 본부 공지사항 > 입시(kmu.ac.kr/uni/main/page.jsp?mnu_uid=146). 검색 결과 요약의 수치는 쓰지 않음.",
+  "gokmu.ac.kr 첫 robots 요청은 연결 재설정으로 실패, 재시도에서 HTTP 200 + 전면 Disallow로 판정됨. 페이지 본문 요청 0건.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+ ]
+}

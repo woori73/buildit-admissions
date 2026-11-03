@@ -1,0 +1,38 @@
+{
+  "university_key": "u168",
+  "university_name": "인천가톨릭대학교",
+  "university_code": "U168",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 판정 불가 후 재시도 결과 robots 차단: 대학 공식 홈페이지 www.iccu.ac.kr의 robots.txt가 첫 시도에서 연결 재설정(판정 불가), 새 IpsiFetcher로 한 번 재시도하자 HTTP 200 robots.txt가 우리 UA에 대해 메인(/) 요청을 불허. 입학 안내 메뉴·게시판에 접근하지 않음.",
+      "url": "https://www.iccu.ac.kr/"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 차단(위와 같은 사이트). WebSearch로 별도 입학처 도메인을 찾지 못함(검색 결과는 블로그·언론·외부 CDN 모집요강 PDF뿐, 수치 미사용).",
+      "url": "https://www.iccu.ac.kr/robots.txt"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch로 찾음: 공식 홈페이지 www.iccu.ac.kr(별도 입학처 하위 도메인은 검색으로 확인되지 않아 추측하지 않음).",
+    "모든 요청은 IpsiFetcher로 수행. robots.txt 판정: 1차 ERROR(Connection reset) → 재시도 HTTP 200, 메인 페이지 Disallow.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 기재하지 않음."
+  ]
+}

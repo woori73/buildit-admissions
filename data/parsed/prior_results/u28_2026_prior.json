@@ -1,0 +1,44 @@
+{
+  "university_key": "u28",
+  "university_name": "국립창원대학교",
+  "university_code": "U28",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입학결과('전년도 입학결과' 메뉴)",
+      "reason": "JS 전용: 입학홈페이지 메뉴 '입학자료실 > 전년도 입학결과'는 href='#check' + onclick=\"menuAccessCheck('15140', 'ipsi')\"(접근 확인 JS)로만 열리고 정적 주소가 없음. 지시서 규칙상 JS 속 주소를 조립하지 않아 열지 않음.",
+      "url": "https://www.changwon.ac.kr/ipsi/main.do"
+    },
+    {
+      "item": "입학자료실 '자료실'·'공지사항' 게시판 내 2026학년도 입시결과 게시글",
+      "reason": "JS 전용: 두 게시판 목록(정적 HTML) 제목 링크가 모두 href='javascript:'라 본문·첨부 주소를 정적으로 확인할 수 없음. 목록 1쪽 제목에는 2026학년도 입시결과/입학결과 게시글이 보이지 않음(자료실: 모집요강·학과소개, 공지사항: 2027 수시 안내·입학식 등).",
+      "url": "https://www.changwon.ac.kr/ipsi/na/ntt/selectNttList.do?mi=4245&bbsId=1621"
+    },
+    {
+      "item": "2026학년도 수시·정시 경쟁률",
+      "reason": "입학홈페이지에서 2026학년도 경쟁률 정적 자료를 찾지 못함(2027학년도 수시 원서접수 공지 '경쟁률 포함'만 정적 링크로 보이며 대상 연도 아님).",
+      "url": "https://www.changwon.ac.kr/ipsi/na/ntt/selectNttInfo.do?nttSn=1428728&mi=4252"
+    }
+  ],
+  "notes": [
+    "입학처 주소: WebSearch 결과(기사)에 나온 ipsi.changwon.ac.kr 를 IpsiFetcher로 열었으나 스크립트 리다이렉트 페이지(/ipsi/index.html, 시각별 location.href 분기)만 있어 따라가지 않았다. 대학 대표 도메인 www.changwon.ac.kr (WebSearch 결과의 공식 사이트)의 메인(/kor/main.do)에 있는 정적 링크 '입학홈페이지' https://www.changwon.ac.kr/ipsi/main.do 로 들어갔다.",
+    "규칙 확인 필요: www.changwon.ac.kr/ 루트는 location.href='/kor/index.html' 스크립트 리다이렉트만 있어, 그 경로 대신 /kor/main.do 를 직접 한 번 요청했다(경로 짐작). 입학홈페이지 링크 확인 용도이며 수치는 없음.",
+    "robots: www.changwon.ac.kr, ipsi.changwon.ac.kr 모두 RobotsGate 허용. 모든 요청은 IpsiFetcher.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}

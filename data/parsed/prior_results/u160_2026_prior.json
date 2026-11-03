@@ -1,0 +1,43 @@
+{
+  "university_key": "u160",
+  "university_name": "위덕대학교",
+  "university_code": "U160",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과(입학처 사이트)",
+      "reason": "robots 판정 불가: WebSearch로 찾은 입학처 사이트 ipsi.uu.ac.kr(/bbs/faq.php 등) robots.txt 요청이 연결 재설정(ConnectionResetError 104)으로 실패 → IpsiFetcher가 요청 차단. 잠시 뒤 새 IpsiFetcher로 1회 재시도했으나 동일. WebSearch 요약상 FAQ에 '2025학년도 수시모집 합격성적' 링크가 있다고 하나 2025학년도 자료이며 확인·사용하지 않음.",
+      "url": "https://ipsi.uu.ac.kr/bbs/faq.php"
+    },
+    {
+      "item": "정시모집 경쟁률 페이지(포털)",
+      "reason": "robots 판정 불가: WebSearch로 찾은 portal.uu.ac.kr/ext/competition.jsp(위덕대학교 정시모집 경쟁률, 학년도 표기 불명) robots.txt 요청이 연결 재설정으로 실패, 재시도 동일 → 요청하지 않음.",
+      "url": "https://portal.uu.ac.kr/ext/competition.jsp"
+    },
+    {
+      "item": "대표 홈페이지",
+      "reason": "robots 판정 불가: www.uu.ac.kr robots.txt 요청이 연결 재설정으로 실패, 재시도 동일.",
+      "url": "https://www.uu.ac.kr/"
+    }
+  ],
+  "notes": [
+    "WebSearch 결과에 나온 어디가·진학사·메가스터디·에듀진 수치는 지시서 규칙상 사용·요청하지 않음.",
+    "uu.ac.kr 계열 호스트 3곳(www/ipsi/portal) 모두 TCP 연결 재설정으로 robots 판정 불가. 네트워크(해외 접속 차단 등) 문제일 가능성 있음 — 다른 환경에서 재수집 필요.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 기재하지 않음(추측 없음)."
+  ]
+}

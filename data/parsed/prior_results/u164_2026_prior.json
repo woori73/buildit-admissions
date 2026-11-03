@@ -1,0 +1,42 @@
+{
+ "university_key": "u164",
+ "university_name": "인제대학교",
+ "university_code": "U164",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "robots 판정 불가: 입학홈페이지 iphak.inje.ac.kr의 robots.txt 요청이 인증서 검증 실패(unable to get local issuer certificate)로 2회(새 IpsiFetcher 재시도 포함) 실패 → 요청 차단",
+   "url": "https://iphak.inje.ac.kr/"
+  },
+  {
+   "item": "입학홈페이지 다른 호스트(admission.inje.ac.kr)",
+   "reason": "robots 판정 불가: robots.txt 요청 시 프록시 CONNECT 502(Tunnel connection failed) 2회 → 요청 차단",
+   "url": "https://admission.inje.ac.kr/board/list.asp?m=1&m2=3&part=1&page=2"
+  },
+  {
+   "item": "입학홈페이지 다른 호스트(ipsi2.inje.ac.kr)·대학 메인(inje.ac.kr)",
+   "reason": "robots 판정 불가: 두 호스트 모두 robots.txt 요청이 인증서 검증 실패로 2회 실패",
+   "url": "https://ipsi2.inje.ac.kr/intro.asp"
+  }
+ ],
+ "notes": [
+  "입학처 주소: iphak.inje.ac.kr은 저장소의 2027 모집요강 파싱본(data/parsed/univ_sample/u164_2027_*.json, 대학 공식 모집요강 본문)에 적힌 주소, admission.inje.ac.kr·ipsi2.inje.ac.kr·inje.ac.kr은 WebSearch(inje.ac.kr 한정) 결과 주소. TLS 검증 해제·우회는 하지 않음.",
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로만 시도. adiga.kr·suneung.re.kr·외부 대행사·언론 수치는 요청/사용하지 않음. 원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

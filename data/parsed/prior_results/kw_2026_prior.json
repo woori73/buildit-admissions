@@ -1,0 +1,48 @@
+{
+  "university_key": "kw",
+  "university_name": "광운대학교",
+  "university_code": "KW",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 최종등록자 평균성적 및 충원합격 비율",
+      "reason": "입학처 '수시 > 입시결과' 목록(iphak.kw.ac.kr/result/result.php?m_type=SUSI)에 게시돼 있으나 다운로드 링크가 대학 공식 도메인(…ac.kr)이 아닌 외부 호스팅 도메인 iphak.jcoresystem.kr을 가리킴. 지시서 출처 규칙(공식 ac.kr 첨부만, 외부 도메인은 URL만 기록)에 따라 요청하지 않음. 같은 파일을 ac.kr 주소로 바꿔 부르는 것은 주소 변경 금지라 시도하지 않음.",
+      "url": "https://iphak.jcoresystem.kr/_common/new_download_file.php?menu=board&b_code=B_1_8&b_no=44580&field=file_nm"
+    },
+    {
+      "item": "2026학년도 정시모집 최종등록자 평균성적 및 충원합격 비율",
+      "reason": "'정시 > 입시결과' 목록 링크가 외부 호스팅 도메인 iphak.jcoresystem.kr. 사유 동일, 요청하지 않음.",
+      "url": "https://iphak.jcoresystem.kr/_common/new_download_file.php?menu=board&b_code=B_1_8&b_no=44581&field=file_nm"
+    },
+    {
+      "item": "2027학년도 학생부종합전형 가이드북 부록1(2026학년도 수시 입시결과(그 외 전형)) / 논술우수자전형 가이드북 Ⅲ(2026학년도 논술우수자전형 입시결과)",
+      "reason": "가이드북 페이지(guide.php, guide.php?m_type=ESSAY)의 PDF 다운로드·확대보기 링크도 모두 iphak.jcoresystem.kr(외부 호스팅)이라 요청하지 않음. 페이지 HTML에는 목차만 있고 수치 없음.",
+      "url": "https://iphak.jcoresystem.kr/upload_data/mojib/20260611171008_25.pdf"
+    },
+    {
+      "item": "2026학년도 수시·정시 경쟁률",
+      "reason": "입학처 경쟁률 메뉴(rate.php)의 2026학년도 수시/정시 항목은 외부 대행사(유웨이어플라이) 링크뿐. 요청·사용하지 않음. 정시: https://ratio.uwayapply.com/Sl5KTjlKclc6L0otZlRm",
+      "url": "http://ratio.uwayapply.com/Sl5KTjlKZiUmOiZKLWZUZg=="
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch(allowed_domains=kw.ac.kr)로 찾은 https://iphak.kw.ac.kr/ 사용. robots.txt HTTP 200, 입학처 페이지 허용. 모든 요청은 IpsiFetcher.",
+    "판단: iphak.jcoresystem.kr은 입학처 홈페이지 게시판의 첨부 저장 호스트로 보이나 ac.kr 공식 도메인이 아니어서 지시서 §0-1에 따라 외부 도메인으로 취급하고 URL만 gaps에 기록. 상위에서 허용 판단 시 위 b_no=44580(수시)/44581(정시) 파일로 바로 수집 가능.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열, 수치 기재 없음."
+  ]
+}

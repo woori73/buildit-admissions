@@ -1,0 +1,54 @@
+{
+ "university_key": "u105",
+ "university_name": "동아대학교",
+ "university_code": "U105",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시전형결과",
+   "reason": "입학처 '수시모집 > 입시전형결과' 목록(https 정적 HTML)에 '2026학년도 동아대학교 수시모집 입시전형결과'(작성일 2026.05.19) 게시글이 있으나 제목 링크가 href='#' + onclick=viewData('30600')이고, viewData는 숨은 폼(frmData)에 BOARD_IDX를 넣어 resultView.asp로 submit하는 JS. 정적 링크·공개 첨부 주소가 없어 'JS 전용'으로 수집 중단(JS 주소 조립·폼 제출 금지).",
+   "url": "https://ent.donga.ac.kr/admission/html/rolling/result.asp"
+  },
+  {
+   "item": "2026학년도 정시모집 입시전형결과",
+   "reason": "'정시모집 > 입시전형결과' 목록의 '2026학년도 동아대학교 정시모집 입시전형결과'(작성일 2026.05.19)도 viewData('30601') JS 전용. 사유 동일.",
+   "url": "https://ent.donga.ac.kr/admission/html/regular/result.asp"
+  },
+  {
+   "item": "2026학년도 수시·정시·추가모집 경쟁률 안내",
+   "reason": "'경쟁률안내' 게시판의 2026학년도 수시(viewData('30225')), 정시(viewData('30529')), 추가모집(viewData('30530')) 게시글도 모두 JS 전용 목록이라 열지 않음.",
+   "url": "https://ent.donga.ac.kr/admission/html/regular/competition.asp"
+  },
+  {
+   "item": "입학처 메인 '2022~2026학년도 입시전형결과' 바로가기(정적 링크)",
+   "reason": "입학처 인트로 페이지의 정적 링크가 http:// 주소(http://ent.donga.ac.kr/admission/html/counsel/noticeView.asp?BOARD_IDX=29537)인데, 이 환경에서 http://ent.donga.ac.kr/robots.txt 요청이 실패(이름 해석 실패)해 IpsiFetcher가 'robots 판정 불가'로 차단. 잠시 뒤 새 IpsiFetcher로 1회 재시도했으나 같은 결과. 지시서 규칙(막힌 URL을 다른 주소 형식으로 바꿔 부르기 금지)에 따라 https로 바꿔 요청하지 않음 — robots 판정 불가.",
+   "url": "http://ent.donga.ac.kr/admission/html/counsel/noticeView.asp?BOARD_IDX=29537"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 링크",
+   "reason": "입학처 인트로 페이지에 '대입정보포털 어디가' 링크가 있으나 지시서상 요청 금지 사이트라 요청하지 않음.",
+   "url": "https://www.adiga.kr/man/inf/mainView.do?menuId=PCMANINF1000"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch 결과의 ent.donga.ac.kr 첨부 주소로 확인 후 https://ent.donga.ac.kr/ 를 IpsiFetcher로 열었음(robots 허용, 인트로 페이지로 이동).",
+  "WebSearch에서 찾은 ent.donga.ac.kr/upload/BBS0021/ PDF 2건(20250701104047LUYAVJ.PDF = 2026학년도 수시 모집요강, 202512051425597NL9RR.PDF = 2026학년도 편입생 모집요강)을 받아 확인했으나 입시결과 자료가 아니라 사용하지 않음(data/raw/ent.donga.ac.kr/에 저장됨).",
+  "모든 요청은 IpsiFetcher로 수행. JS(viewData) 폼 제출이나 resultView.asp 주소 조립 요청은 하지 않음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

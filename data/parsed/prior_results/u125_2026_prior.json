@@ -1,0 +1,38 @@
+{
+ "university_key": "u125",
+ "university_name": "서울신학대학교",
+ "university_code": "U125",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 차단. 입학처(ipsi.stu.ac.kr) 메뉴 '수시모집 > 전년도 입시결과'(/CmsHome/susi_03.eznic)가 있으나 robots.txt(HTTP 200)가 'User-agent: * / Disallow: /Cm / Disallow: /dbimage/'로 /CmsHome/ 이하 전체를 막아 IpsiFetcher가 요청을 거부함. 게시 여부·내용 미확인.",
+   "url": "https://ipsi.stu.ac.kr/CmsHome/susi_03.eznic"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "robots 차단. '정시모집 > 전년도 입시결과'(/CmsHome/jungsi_03.eznic)도 Disallow: /Cm 대상.",
+   "url": "https://ipsi.stu.ac.kr/CmsHome/jungsi_03.eznic"
+  }
+ ],
+ "notes": [
+  "입학처 메인 https://ipsi.stu.ac.kr/ (robots 허용)만 열어 메뉴 구조를 확인함. 메인의 공지 목록은 javascript:void(0) 링크라 열지 않음. 메인에 /CmsHome/ 밖의 입시결과 링크 없음.",
+  "대학 메인 https://www.stu.ac.kr/ 은 1차 robots 확인이 ConnectionResetError로 판정 불가였고, 새 IpsiFetcher 재시도에서 robots HTTP 200·허용으로 열림. 메인의 '대학 입학안내'는 ipsi.stu.ac.kr로 연결될 뿐 별도 입시결과 메뉴 없음(메뉴 텍스트 기준).",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

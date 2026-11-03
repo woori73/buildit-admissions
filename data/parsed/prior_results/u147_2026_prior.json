@@ -1,0 +1,44 @@
+{
+  "university_key": "u147",
+  "university_name": "안양대학교",
+  "university_code": "U147",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 차단: 현행 입학처 사이트 enter.anyang.ac.kr의 robots.txt가 'User-agent: * / Disallow: /'(특정 검색봇만 별도 허용)라 IpsiFetcher가 모든 페이지 요청을 막음. 수시 입시결과 게시판(검색 결과상 /10000015, 2025학년도 신입학 수시 입시결과 게시글 존재)을 열지 못해 2026학년도 게시 여부 확인 불가.",
+      "url": "https://enter.anyang.ac.kr/10000015"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 차단(위와 같은 enter.anyang.ac.kr 전체 Disallow). 정시 입시결과 메뉴 주소도 확인 불가.",
+      "url": "https://enter.anyang.ac.kr/main/"
+    },
+    {
+      "item": "대학 홈페이지 내 구 입학처 메뉴(www.anyang.ac.kr/enter/)",
+      "reason": "robots 허용(Disallow는 /_fox, /_attach, /_custom, /_res)이라 열람했으나 수시·정시 '입시결과' 게시판은 2024학년도까지만 있음(수시 최신 '2024학년도 신입학 수시 입시결과' articleNo=31240, 정시 최신 '2024학년도 신입학 정시 입시결과' articleNo=31241). '경쟁률' 메뉴도 2024학년도까지이며 모두 외부 대행사(ratio.uwayapply.com) 링크라 요청하지 않음. 2026학년도 자료 없음.",
+      "url": "https://www.anyang.ac.kr/enter/early/as-a-result-of-the-last-entrance-exam.do"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch로 확인(enter.anyang.ac.kr). 모든 요청은 IpsiFetcher로 했고 robots.txt 판정도 f.fetch()로만 확인.",
+    "www.anyang.ac.kr/enter/ 메뉴(수시/정시 입시결과·경쟁률) 확인 URL: /enter/early/as-a-result-of-the-last-entrance-exam.do, /enter/regular/as-a-result-of-the-last-entrance-exam.do, /enter/early/lets-see-the-competition-rate.do, /enter/regular/lets-see-the-competition-rate.do. 2025·2026학년도 게시물 없음.",
+    "안양캠퍼스·강화캠퍼스 구분 자료는 확인하지 못함(수집 문서 0건).",
+    "adiga.kr·suneung.re.kr·사설 자료는 요청·사용하지 않음. 수치 추측 없음."
+  ]
+}

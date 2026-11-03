@@ -1,0 +1,49 @@
+{
+ "university_key": "mjunat",
+ "university_name": "명지대학교(자연캠퍼스)",
+ "university_code": "MJUNAT",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과 (게시글 '2026학년도 수시모집 입시결과', 첨부 있음 표시, 게시일 2026.05.04)",
+   "reason": "입학처 '수시 > 입시결과' 게시판(b=B_1_2) 목록은 정적 HTML로 보이나 게시글 링크가 href=\"javascript:js_board_view(30097);\"뿐이고 정적 상세 주소·첨부 링크가 페이지에 없다. js_board_view 함수는 외부 JS에 정의됨. 지시서 규칙(JS 코드 속 주소 조립 금지)에 따라 상세·첨부를 열지 않음 = JS 전용.",
+   "url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&cate=수시"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과 (게시글 '2026학년도 정시모집 입시결과', 첨부 있음 표시)",
+   "reason": "같은 B_1_2 게시판 정시 분류. 게시글 링크가 javascript:js_board_view(30098);뿐이라 JS 전용. 수집하지 않음.",
+   "url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&cate=정시"
+  },
+  {
+   "item": "2026학년도 수시/정시/추가모집 경쟁률 게시글",
+   "reason": "'2026학년도 수시모집 경쟁률'(js_board_view(29535)), '2026학년도 정시모집 경쟁률'(js_board_view(29837)), '2026학년도 추가모집 경쟁률'(js_board_view(30024)) 모두 JS 링크뿐이라 JS 전용.",
+   "url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&cate=수시"
+  },
+  {
+   "item": "자연캠퍼스(용인) 한정 여부",
+   "reason": "입학처(iphak.mju.ac.kr)는 인문·자연캠퍼스 통합 입학처이며 게시글 제목에 캠퍼스 구분 없음. 첨부를 열지 못해 자연캠퍼스 분리 가능 여부 확인 불가.",
+   "url": "https://iphak.mju.ac.kr/main/"
+  }
+ ],
+ "notes": [
+  "입학처 주소 https://ipsi.mju.ac.kr/main 은 https://iphak.mju.ac.kr/main/ 으로 리다이렉트됨. 모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행.",
+  "robots.txt(ipsi.mju.ac.kr, iphak.mju.ac.kr 모두 HTTP 200, text/plain): 'User-agent: * / Disallow: / / Allow: /main / Allow: /pages'. IpsiFetcher의 RobotsGate가 /main, /pages 목록 페이지를 허용으로 판정한 범위에서만 요청함.",
+  "게시판 목록 정적 HTML에서 게시글 제목·게시일(2026 수시 입시결과 2026.05.04)만 확인. 상세/첨부 주소는 정적 HTML에 없어 요청하지 않음. 수치는 하나도 기재하지 않음(추측 없음).",
+  "입학처 메인에 대학어디가(adiga.kr) 링크가 있으나 지시서상 요청 금지라 열지 않음."
+ ]
+}

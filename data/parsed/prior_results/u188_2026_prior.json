@@ -1,0 +1,43 @@
+{
+  "university_key": "u188",
+  "university_name": "포항공과대학교",
+  "university_code": "U188",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과/경쟁률",
+      "reason": "학부 입학팀 사이트(adm-u.postech.ac.kr) 메뉴(입시: 모집요강·서식 및 참고자료·장학혜택·대입정보포털·신입생 학사 안내 / 입학도우미: 공지사항·온라인Q&A·FAQ 등)에 입시결과/경쟁률 메뉴 없음. 공지사항 게시판 전체 7건은 시행계획·선행학습 영향평가·전형 안내 영상·면접 가이드 등뿐이며 입시결과 게시물 없음. 모집요강·서식 및 참고자료·입시·FAQ 페이지 본문에도 입시결과/통계/충원 자료 없음.",
+      "url": "https://adm-u.postech.ac.kr/admission-helper/notices/"
+    },
+    {
+      "item": "2026학년도 수시 실시간/최종 경쟁률(외부 대행사)",
+      "reason": "모집요강 페이지의 '[링크: 경쟁률 확인]'은 외부 원서접수 대행사(uwayapply.com) 도메인으로, 지시서 규칙상 수치를 쓰지 않고 요청하지 않음.",
+      "url": "http://ratio.uwayapply.com/Sl5KfExgMCZhaUpmJSY6JkpmZlRm"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "입학팀 사이트에 정시 입시결과 자료 없음(공지·모집요강·서식 페이지 확인). 사이트의 '대입정보포털' 메뉴는 adiga.kr로 연결되어 지시서상 요청 금지.",
+      "url": "https://www.adiga.kr/man/inf/mainView.do?menuId=PCMANINF1000"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch 결과에 나온 adm-u.postech.ac.kr(학부 입학팀) 문서 링크로 확인. 대학원(adm-g)·국제(adm-iu) 사이트는 범위 외.",
+    "모든 요청은 IpsiFetcher로 수행. adm-u.postech.ac.kr robots.txt HTTP 200, 해당 경로 허용.",
+    "원문 입시결과 자료를 찾지 못해 rows는 빈 배열이며 수치는 기재하지 않음(추측 없음)."
+  ]
+}

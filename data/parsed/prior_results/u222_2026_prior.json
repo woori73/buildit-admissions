@@ -1,0 +1,48 @@
+{
+  "university_key": "u222",
+  "university_name": "부산장신대학교",
+  "university_code": "U222",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과/경쟁률",
+      "reason": "입시 홈페이지 메뉴(사이트맵: 수시모집·정시모집·추가모집·편입학·재외국민, 공지사항·입시자료실·입시FAQ·입시Q&A·홍보동영상 등)에 입시결과/경쟁률 메뉴가 없음. 공지사항(BoardMstNo=1) 1~3쪽(정적 페이지 링크, 2023~2028학년도 게시글)에는 모집요강·전형시행계획·선행학습 영향평가 결과만 있고 입시결과·경쟁률 게시글 없음. 수시모집(Pages.aspx?id=1)·정시모집(id=2) 안내 페이지 본문에도 결과·경쟁률 항목 없음.",
+      "url": "https://ipsi.bpu.ac.kr/Board/BoardList.aspx?BoardMstNo=1"
+    },
+    {
+      "item": "입시자료실(BoardMstNo=4) 게시글",
+      "reason": "1쪽 게시글은 2025~2027학년도 입학원서·면접 예상문제뿐이며 입시결과 자료 없음.",
+      "url": "https://ipsi.bpu.ac.kr/Board/BoardList.aspx?BoardMstNo=4"
+    },
+    {
+      "item": "게시글 첨부파일",
+      "reason": "게시판 첨부 링크는 javascript:__doPostBack(POST)로만 내려받게 되어 있어 열지 않음(입시결과 첨부로 보이는 게시글은 없었음).",
+      "url": "https://ipsi.bpu.ac.kr/Board/BoardView.aspx?CategoryNo=0&PageNo=1&KeyWord=&KeyField=TITLE&CategoryYN=N&BoardNo=4911&BoardMstNo=1"
+    },
+    {
+      "item": "대학어디가(adiga.kr) 링크",
+      "reason": "입시 홈페이지 하단에 대학어디가 링크가 있으나 지시서상 요청 금지 사이트라 요청하지 않음.",
+      "url": "http://www.adiga.kr/EgovPageLink.do?link=EipMain"
+    }
+  ],
+  "notes": [
+    "입학처 주소: WebSearch 결과에 대학 공식 홈페이지 www.bpu.ac.kr 이 나와 IpsiFetcher로 열었고, 메인의 정적 링크 '입시 홈페이지 바로가기' https://ipsi.bpu.ac.kr/Default.aspx 로 들어갔다(하위 도메인 짐작 아님).",
+    "robots: www.bpu.ac.kr, ipsi.bpu.ac.kr 모두 RobotsGate 허용. 모든 요청은 IpsiFetcher. 공지사항 2·3쪽은 목록 HTML의 정적 href(BoardList.aspx?PageNo=2…)로 열었다.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}

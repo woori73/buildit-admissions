@@ -1,0 +1,54 @@
+{
+  "university_key": "u7",
+  "university_name": "경상국립대학교",
+  "university_code": "U7",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 결과(첨부 다운로드)",
+      "reason": "robots 차단: 입학처 '수시모집 > 입학결과 > 2026학년도'(mi=48029, 최근 업데이트 2026/06/18) 페이지에 '2026학년도 수시모집 결과' 다운로드 링크가 있으나 /common/fileDownload.do 경로를 robots.txt(HTTP 200)가 우리 UA에 불허. 페이지 본문에는 HTML 표가 없음(참고사항 문구만).",
+      "url": "https://www.gnu.ac.kr/common/fileDownload.do?fileKey=65036"
+    },
+    {
+      "item": "2026학년도 정시모집 입학결과(인원 및 경쟁률)",
+      "reason": "robots 차단: 입학처 '정시모집 > 입학결과 > 2026학년도 > 1. 인원 및 경쟁률'(mi=47853) 페이지의 다운로드(/common/fileDownload.do?fileKey=64918)와 본문 iframe PDF 뷰어(/pdfview/web/viewer.html?file=/upload/cntntsFile/new/doc_b36707a6-…pdf) 모두 robots.txt가 불허(/common/, /pdfview/, /upload/ 경로). HTML 표 없음.",
+      "url": "https://www.gnu.ac.kr/new/cm/cntnts/cntntsView.do?mi=47853&cntntsId=21717"
+    },
+    {
+      "item": "2026학년도 정시모집 입학결과(2. 환산총점 및 등급)",
+      "reason": "robots 차단: 다운로드(fileKey=71696)·iframe PDF(/upload/cntntsFile/new/doc_fc560ea2-…pdf) 모두 robots 불허. HTML 표 없음.",
+      "url": "https://www.gnu.ac.kr/new/cm/cntnts/cntntsView.do?mi=47909&cntntsId=21776"
+    },
+    {
+      "item": "2026학년도 정시모집 입학결과(3. 표준점수)",
+      "reason": "robots 차단: 다운로드(fileKey=64924)·iframe PDF(/upload/cntntsFile/new/doc_906e67d5-…pdf) 모두 robots 불허. HTML 표 없음.",
+      "url": "https://www.gnu.ac.kr/new/cm/cntnts/cntntsView.do?mi=47971&cntntsId=21835"
+    },
+    {
+      "item": "2026학년도 정시모집 입학결과(4. 백분위)",
+      "reason": "robots 차단: 다운로드(fileKey=66237)·iframe PDF(/upload/cntntsFile/new/doc_894d5538-…pdf) 모두 robots 불허. HTML 표 없음.",
+      "url": "https://www.gnu.ac.kr/new/cm/cntnts/cntntsView.do?mi=47974&cntntsId=21838"
+    }
+  ],
+  "notes": [
+    "입학처는 https://www.gnu.ac.kr/new/main.do (WebSearch 결과의 사이트맵 https://www.gnu.ac.kr/new/sitemap.do?mi=4914 에서 '입학결과' 메뉴 확인). 사이트맵·입학결과 HTML 페이지는 RobotsGate 허용(robots.txt HTTP 200)으로 IpsiFetcher로 받았다.",
+    "입학결과 자료 자체는 모두 PDF 첨부/뷰어로만 제공되고, 그 경로(/common/fileDownload.do, /upload/cntntsFile/, /pdfview/)는 robots.txt가 불허한다(f.gate.allowed=False 확인, 다운로드 2건은 IpsiFetcher가 요청 전에 차단). 다른 주소 형식으로 바꿔 부르지 않았다.",
+    "범위: 경상국립대학교 입학처 단일 자료(캠퍼스 구분 없음). 수시 입학결과 기본 메뉴(mi=4995)에 2021학년도 자료 링크도 있으나 대상 연도가 아니어서 무시.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}

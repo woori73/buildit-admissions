@@ -1,0 +1,49 @@
+{
+  "university_key": "karts",
+  "university_name": "한국예술종합학교",
+  "university_code": "KARTS",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(행 0건 — 수시/정시 구분 불가로 행 미생성)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 예술사(대학)과정 정원내 일반/특별 전형 지원-합격자 현황(공식 원문 확보함, 행 미생성)",
+      "reason": "입학정보 '입시도우미 > 통계자료' 게시판 게시글 '2026학년도 신입생 모집 지원-합격자 현황 안내'(등록일 2026.04.08) 첨부 '2026 신입생 모집 지원 및 합격 현황(에술사 정원내).pdf'(2쪽, sha256 1449ec05a22bc06a0914b5bc57cf998af84d8ccd869cf90acdeb7a58896b1b22)를 IpsiFetcher로 받음. 원문은 소속·학과·세부모집·전형구분(일반/특별)·정원·지원자·최종(합격)·예비합격 설정인원·추가합격 인원을 담고 있으나, 한국예술종합학교는 자체 일정(예: '11월입시')으로 선발하며 원문에 수시/정시 구분이 전혀 없다. 산출물 round_type은 SUSI|JEONGSI만 허용되므로 추측하지 않고 행을 만들지 않음(u196 한동대 선례와 동일 처리). 원문 총계: 정원 558, 지원자 14,541, 최종 552, 예비합격 설정인원 164, 추가합격 인원 69. round_type 처리 방침이 정해지면 이 파일로 바로 파싱 가능.",
+      "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=2&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956"
+    },
+    {
+      "item": "2026학년도 예술사(대학)과정 정원외 전형(교육기회균등·특수교육대상자·재외국민/외국인) 지원-합격자 현황(공식 원문 확보함, 행 미생성)",
+      "reason": "같은 게시글 첨부 '2026 신입생 모집 지원-합격 현황(정원외 진형).pdf'(3쪽, sha256 dc74a2ba9c65113e8ad4ecb283a120c2aba969b02d72ba1e463c39967e102470). 지원자·최종합격자만 있고 수시/정시 구분 없음 → 사유 동일. 원문 예술사 과정 총계: 지원자 297, 최종합격자 23. (같은 PDF 3쪽의 예술전문사 과정은 대학원이라 범위 밖)",
+      "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=0&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956"
+    },
+    {
+      "item": "예술전문사(대학원) 과정 정원내 현황",
+      "reason": "대학원 과정이라 범위 밖 — 받지 않음(첨부 '2026 신입생 모집 지원 및 합격 현황(예술전문사 정원내).pdf').",
+      "url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1"
+    },
+    {
+      "item": "등록자 성적(실기·내신·수능) 입시결과",
+      "reason": "통계자료 게시판 1쪽 목록은 연도별 '신입생 모집 지원-합격자 현황'뿐이며 성적 자료 없음.",
+      "url": "https://www.karts.ac.kr/cop/bbs/selectBoardList.do?bbsId=BBSMSTR_000000000008"
+    }
+  ],
+  "notes": [
+    "입학처 경로: 시드 admission_office_url https://www.karts.ac.kr/ → 메인 '입학정보'(/main/appl.do) → '통계자료'(/cop/bbs/selectBoardList.do?bbsId=BBSMSTR_000000000008) → 게시글(nttNo=69956). 첨부 링크는 <a href>에 정적으로 실린 FileDown.do 주소(onclick은 this.href를 그대로 사용)이므로 주소 조립 없음. robots 허용·HTTP 200.",
+    "원문 PDF: data/raw/www.karts.ac.kr/1449ec05a22bc06a0914b5bc57cf998a.pdf(예술사 정원내), data/raw/www.karts.ac.kr/dc74a2ba9c65113e8ad4ecb283a120c2.pdf(정원외).",
+    "round_type을 정할 수 없어 documents/rows를 비웠다(documents 항목도 round_type SUSI|JEONGSI 필수). 판단 필요 사항으로 보고함.",
+    "추측 없음: 수치는 하나도 행으로 기재하지 않았고, gaps의 총계는 원문 '총 계' 행을 그대로 옮긴 참고값이다."
+  ]
+}

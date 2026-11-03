@@ -1,0 +1,39 @@
+{
+ "university_key": "cau",
+ "university_name": "중앙대학교",
+ "university_code": "CAU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과(서울캠퍼스)",
+   "reason": "robots 차단: 중앙대학교 입학처 https://admission.cau.ac.kr/robots.txt (HTTP 200)가 우리 UA를 막아 IpsiFetcher가 https://admission.cau.ac.kr/ 요청을 거부함. 입학처 페이지·첨부를 열지 않음.",
+   "url": "https://admission.cau.ac.kr/robots.txt"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과(서울캠퍼스)",
+   "reason": "robots 차단(사유 동일, 입학처 admission.cau.ac.kr).",
+   "url": "https://admission.cau.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소(admission.cau.ac.kr, 서울·다빈치 통합 입학처)는 WebSearch \"중앙대학교 입학처\"로 확인. IpsiFetcher 판정이 robots 차단(robots.txt HTTP 200, 우리 UA 불허)으로 나와 요청하지 않음. 검색 결과에 보인 입학처 PDF(admission.cau.ac.kr/files/...)도 같은 호스트라 열지 않았고 수치도 쓰지 않음.",
+  "범위: 서울캠퍼스 모집단위만(다빈치캠퍼스 제외) 대상이었으나 자료를 열 수 없었음.",
+  "본교 도메인(www.cau.ac.kr)은 입학처 페이지가 아니므로 조사하지 않음. 외부 사이트 수치 사용하지 않음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+ ]
+}

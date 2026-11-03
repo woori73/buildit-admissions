@@ -1,0 +1,33 @@
+{
+  "university_key": "u231",
+  "university_name": "광주대학교",
+  "university_code": "U231",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시·정시 입시결과(입학정보 > 전년도 입시결과)",
+      "reason": "robots 판정 불가: 대학 홈페이지(www.gwangju.ac.kr, robots 허용) 정적 링크 \"전년도 입시결과\"(https://iphak.gwangju.ac.kr/index?d=early_decision03)를 열려 했으나 iphak.gwangju.ac.kr/robots.txt 확인이 2회 모두 Connection reset by peer로 실패해 요청하지 않음.",
+      "url": "https://iphak.gwangju.ac.kr/index?d=early_decision03"
+    }
+  ],
+  "notes": [
+    "대학 홈페이지 www.gwangju.ac.kr 는 WebSearch로 확인, 입학 사이트 iphak.gwangju.ac.kr 는 그 홈페이지의 정적 링크(\"입학정보\", \"전년도 입시결과\")로 확인(추측 아님). www.gwangju.ac.kr 첫 화면은 robots 허용·HTTP 200으로 받음.",
+    "모든 요청은 IpsiFetcher. 첫 요청에서 robots.txt 확인이 실패(판정 불가 → IpsiFetcher가 요청 차단)했고, 지시서대로 잠시 뒤 새 IpsiFetcher로 한 번만 재시도했으나 같은 오류로 실패. 다른 주소 형식(http 등)으로 바꿔 부르지 않음. 원문 자료가 없어 rows는 빈 배열(추측 없음).",
+    "언론 기사(수시 경쟁률 5.34대 1 등) 수치는 규칙상 사용하지 않음."
+  ]
+}

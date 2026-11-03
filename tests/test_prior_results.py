@@ -55,6 +55,29 @@ class RobotsGateTest(unittest.TestCase):
         self.assertFalse(gate.allowed("https://admission.example.ac.kr/data"))
 
 
+class RedirectGateTest(unittest.TestCase):
+    def test_given_redirect_to_disallowed_path_when_fetched_then_target_is_not_requested(self):
+        # given: robots가 /private 를 막고, 허용된 / 가 /private 로 넘긴다
+        tmp = tempfile.mkdtemp()
+        f = ipsi_fetch.IpsiFetcher(store_raw=False, raw_dir=tmp, meta_dir=tmp)
+        robots = FakeResp(200, "User-agent: *\nDisallow: /private\n")
+        redirect = mock.Mock(is_redirect=True, url="https://u.example.ac.kr/", headers={"Location": "/private/x"},
+                             status_code=302, content=b"")
+        calls = []
+
+        def get(url, **kw):
+            calls.append(url)
+            return robots if url.endswith("/robots.txt") else redirect
+        f._session = mock.Mock(get=get)
+        f.gate._session = f._session
+        f._throttle = lambda u: None
+        # when
+        r = f.fetch("https://u.example.ac.kr/", save_meta=False)
+        # then
+        self.assertFalse(r.robots_allowed)
+        self.assertNotIn("https://u.example.ac.kr/private/x", calls)
+
+
 class RangeAndKeyTest(unittest.TestCase):
     def row(self, **kw):
         base = {"result_year": 2026, "round_type": "SUSI", "group": None, "type_name": "교과", "department_name": "국어국문학과",

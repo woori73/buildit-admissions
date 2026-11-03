@@ -1,0 +1,44 @@
+{
+  "university_key": "u88",
+  "university_name": "대구가톨릭대학교",
+  "university_code": "U88",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 경쟁률 및 성적자료(입학자료실 게시글 16219, 2026-06-01, 첨부: 대구가톨릭대학교 2026학년도 신입생 수시모집 입시결과(성적자료)_홈페이지공개용.pdf / .xlsx)",
+      "reason": "JS 전용: 게시글 본문(정적 HTML)은 IpsiFetcher로 받았으나 첨부 2건의 링크가 javascript:fn_egov_downFile('FILE_000000000004342','0'|'1')뿐이고, 실제 다운로드 주소는 JS 함수 안에서 문자열 조립(window.open('/cmm/fms/FileDown.do?atchFileId='+...))으로만 만들어진다. 지시서 규칙(JS 코드 속 주소 조립 금지)에 따라 첨부를 받지 않음. 본문에 표·이미지 없음.",
+      "url": "https://ibsi.cu.ac.kr/kor/BBSMSTR_000000000001/16219/view.do"
+    },
+    {
+      "item": "2026학년도 정시모집 경쟁률 및 성적자료(정시 입학자료실 공지, 2026-06-01, 첨부 1건 atchFileId=FILE_000000000004343)",
+      "reason": "JS 전용: 정시 입학자료실 목록(정적 HTML)에 제목은 보이나 게시글 링크가 onclick=bbsMstrView('16220')(form action을 JS로 조립)뿐이고 정적 href가 없다. WebSearch로도 2026 정시 게시글 주소를 찾지 못함(2025 이전 연도 글만 검색됨). 첨부도 수시와 같은 JS 다운로드 방식. 규칙상 요청하지 않음.",
+      "url": "https://ibsi.cu.ac.kr/kor/bbs/BBSMSTR_000000000046/lst.do"
+    },
+    {
+      "item": "수시 학생부 성적산출·수능성적산출",
+      "reason": "외부 대행사 도메인(jinhakapply.com) 링크 — 사용하지 않음(입시결과 자료도 아님).",
+      "url": "https://addon.jinhakapply.com/nesin/1046/2027/susi.html"
+    }
+  ],
+  "notes": [
+    "입학처 주소(ibsi.cu.ac.kr)는 WebSearch(allowed_domains cu.ac.kr)로 확인. robots 판정은 IpsiFetcher로 허용(HTTP 200 페이지 수신).",
+    "수시 게시글 주소는 입학처 첫 화면(intro.html)의 정적 링크 '수시모집 전년도 입시결과 공개'에서 얻었다.",
+    "게시글 본문 안내문: 성적자료는 2026학년도 수시 최종 등록자의 성적을 2027학년도 학생부 반영방법으로 산출한 결과이며, 지역기회균형·실기/실적·정원외(농어촌·기회균형) 전형은 성적 비공개라고 적혀 있음(참고, 수치 아님).",
+    "첨부를 받지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+  ]
+}

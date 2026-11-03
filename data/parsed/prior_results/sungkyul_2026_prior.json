@@ -1,0 +1,38 @@
+{
+ "university_key": "sungkyul",
+ "university_name": "성결대학교",
+ "university_code": "SUNGKYUL",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시/정시 입시결과(경쟁률 포함) 전체 — 입학처 사이트",
+   "reason": "robots 차단. 입학처 도메인 https://ipsi.sungkyul.ac.kr/ 의 robots.txt(HTTP 200)가 'User-agent: * / Disallow: /'(Yeti·Googlebot·Daum·bingbot 등 지정 봇만 Allow: /)라 IpsiFetcher가 메인부터 요청을 거부함. 게시 여부·내용 미확인.",
+   "url": "https://ipsi.sungkyul.ac.kr/"
+  },
+  {
+   "item": "대학 대표 홈페이지 경유 확인",
+   "reason": "robots 판정 불가. https://www.sungkyul.ac.kr/ robots.txt 확인이 1차·2차(새 IpsiFetcher, 수 분 간격) 모두 ConnectionResetError(104)로 실패해 요청하지 않음.",
+   "url": "https://www.sungkyul.ac.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 시도. robots 차단·판정 불가 상태에서 우회 요청 없음.",
+  "입학처 주소 ipsi.sungkyul.ac.kr 은 해당 호스트의 robots.txt 응답(HTTP 200)으로 존재만 확인. WebSearch('성결대학교 입학처')에서는 공식 입학처 페이지 주소가 나오지 않았다.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

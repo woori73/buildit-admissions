@@ -1,0 +1,49 @@
+{
+  "university_key": "u33",
+  "university_name": "국립한국해양대학교",
+  "university_code": "U33",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집(전체) 지원현황(입학정보 > 수시모집 > 입시결과 > 지원현황)",
+      "reason": "robots 차단: 입학정보 페이지에 2026학년도 파일 다운로드 링크가 정적으로 있으나 다운로드 경로 /common/nttFileDownload.do 를 www.kmou.ac.kr/robots.txt(HTTP 200)가 우리 UA에 대해 불허(게시물 이미지 경로 /upload/ 도 불허). 파일을 받지 못함. 페이지: https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3312&cntntsId=2248",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=c702e17824003a12b9c25b7b29268cf2"
+    },
+    {
+      "item": "2026학년도 수시모집 성적현황(입학정보 > 수시모집 > 입시결과 > 성적현황)",
+      "reason": "robots 차단: 입학정보 페이지에 2026학년도 파일 다운로드 링크가 정적으로 있으나 다운로드 경로 /common/nttFileDownload.do 를 www.kmou.ac.kr/robots.txt(HTTP 200)가 우리 UA에 대해 불허(게시물 이미지 경로 /upload/ 도 불허). 파일을 받지 못함. 페이지: https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3313&cntntsId=2249",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=d174c2ad385986b34d7955cc787bf0a6"
+    },
+    {
+      "item": "2026학년도 정시모집(전체) 지원현황(입학정보 > 정시모집 > 입시결과 > 지원현황)",
+      "reason": "robots 차단: 입학정보 페이지에 2026학년도 파일 다운로드 링크가 정적으로 있으나 다운로드 경로 /common/nttFileDownload.do 를 www.kmou.ac.kr/robots.txt(HTTP 200)가 우리 UA에 대해 불허(게시물 이미지 경로 /upload/ 도 불허). 파일을 받지 못함. 페이지: https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3328&cntntsId=2250",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=5c4b24f5bea0703b8ecfb69ad92469c2"
+    },
+    {
+      "item": "2026학년도 정시모집 성적현황(입학정보 > 정시모집 > 입시결과 > 성적현황)",
+      "reason": "robots 차단: 입학정보 페이지에 2026학년도 파일 다운로드 링크가 정적으로 있으나 다운로드 경로 /common/nttFileDownload.do 를 www.kmou.ac.kr/robots.txt(HTTP 200)가 우리 UA에 대해 불허(게시물 이미지 경로 /upload/ 도 불허). 파일을 받지 못함. 페이지: https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3329&cntntsId=2251",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=59980d359ca9f6d9c066f18a7713c9de"
+    }
+  ],
+  "notes": [
+    "입학처 주소: WebSearch 결과(www.kmou.ac.kr 첨부 PDF 주소)로 대학 도메인 확인 → https://www.kmou.ac.kr/ (robots 허용) 정적 링크 \"면접고사 유의사항 안내\"(입학정보 /ipsi/ 게시글) → 그 페이지 메뉴의 정적 링크 \"입시결과\"(mi=3312·3328) 및 사이트맵(/ipsi/sitemap.do)의 \"성적현황\"(mi=3313·3329)으로 이동. 검색 결과 수치는 사용하지 않음.",
+    "입학정보 콘텐츠 페이지(cntntsView.do)는 robots 허용이지만 서버가 정상 본문(메뉴·다운로드 표 포함)을 HTTP 404 상태로 반환함(모집요강 페이지 등 다른 콘텐츠 페이지도 동일). IpsiFetcher는 비200 본문을 보관하지 않으므로, IpsiFetcher.fetch()로 같은 GET 요청을 하면서 응답 훅으로 본문만 읽어 data/raw/www.kmou.ac.kr/non200/ 에 저장해 다운로드 링크를 확인함(요청 방식·UA 변경 없음, robots 게이트 통과). 판단이 필요한 처리라 기록함.",
+    "페이지 설명: 지원현황 = \"2026학년도 수시모집(전체)/정시모집(전체) 지원현황\", 성적현황 = \"2026학년도 수시모집/정시모집 성적현황\"(연도별 합격점수). 파일 형식·내용은 다운로드가 막혀 확인하지 못함.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

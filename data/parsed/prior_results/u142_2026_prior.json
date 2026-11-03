@@ -1,0 +1,43 @@
+{
+ "university_key": "u142",
+ "university_name": "순천향대학교",
+ "university_code": "U142",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 차단 — WebSearch로 확인한 입학처 사이트(ipsi.sch.ac.kr) 첫 화면 요청이 IpsiFetcher에서 robots.txt(HTTP 200) Disallow로 거부되어 입시결과 메뉴·첨부를 확인할 수 없음.",
+   "url": "https://ipsi.sch.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "robots 차단 — 위와 동일.",
+   "url": "https://ipsi.sch.ac.kr/"
+  },
+  {
+   "item": "외부 사이트 게시 입시결과",
+   "reason": "WebSearch 결과의 대입닷컴·hakjum.school·진학사·bherald.kr·내일교육 CDN(negagea.net) 자료는 입학처 공식 도메인이 아니므로 요청·사용하지 않음.",
+   "url": "https://daeyip.com/university/sch/susi"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 WebSearch 결과로만 확인했다(ipsi.sch.ac.kr). robots 거부 후 다른 주소 형식이나 하위 경로를 추측해 요청하지 않았다.",
+  "검색 결과 요약에 나온 경쟁률·등급 수치는 사용하지 않았다.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+ ]
+}

@@ -1,0 +1,47 @@
+{
+  "university_key": "mtu",
+  "university_name": "감리교신학대학교",
+  "university_code": "MTU",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 경쟁률",
+      "reason": "입학 '경쟁률' 게시판(mId=378)의 '2026학년도 수시모집 경쟁률' 글(brdIdx=18962, 2025-09-03, 학부교무처)은 본문·첨부 없이 외부 대행사(유웨이어플라이) 경쟁률 페이지 링크만 있음. 외부 대행사 도메인이라 요청·사용하지 않음.",
+      "url": "http://ratio.uwayapply.com/Sl5KJjBNSmYlJjomSi1mVGY="
+    },
+    {
+      "item": "2026학년도 수시 입시결과(등록자 성적·충원)",
+      "reason": "경쟁률 게시판(2017~2027학년도 글) 중 성적 자료 첨부는 2023학년도 글뿐이며, 입시도우미(mId=402)·입학공지(mId=516) 목록 1쪽에 2026학년도 입시결과 게시물 없음.",
+      "url": "https://www.mtu.ac.kr/mtu/board/view.do?mId=378&brdIdx=18962"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과/경쟁률",
+      "reason": "입학공지·입시도우미 게시판에 2026학년도 정시 경쟁률·입시결과 게시물 없음(합격자 안내·면접 안내만). 2027학년도 신입학 모집요강 PDF(/mtu/file/2027_hakbu_info.pdf, 25쪽)에도 전년도 입시결과 없음.",
+      "url": "https://www.mtu.ac.kr/mtu/board/list.do?mId=402"
+    },
+    {
+      "item": "대입정보포털 입시결과",
+      "reason": "입학공지 '2025학년도 입시결과(대입정보포털) 및 대입정보 안내'(brdIdx=19697)는 2025학년도이며 대입정보포털(adiga.kr)은 요청 금지라 확인하지 않음.",
+      "url": "https://www.mtu.ac.kr/mtu/board/view.do?mId=516&brdIdx=19697"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch(allowed_domains=mtu.ac.kr)로 찾은 https://www.mtu.ac.kr/mtu/board/list.do?mId=378 등 사용. robots.txt HTTP 200, 대상 URL 모두 허용. 모든 요청은 IpsiFetcher.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열, 수치 기재 없음."
+  ]
+}

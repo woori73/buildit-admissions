@@ -1,0 +1,43 @@
+{
+  "university_key": "swu",
+  "university_name": "서울여자대학교",
+  "university_code": "SWU",
+  "result_year": 2026,
+  "documents": [],
+  "rows": [],
+  "verification": {
+    "recruit_total_checks": [
+      {
+        "scope": "해당 없음(수집 문서 0건)",
+        "sum_of_rows": 0,
+        "source_total": null,
+        "source_page": null,
+        "match": null
+      }
+    ],
+    "spot_checks": [],
+    "range_failures": 0
+  },
+  "gaps": [
+    {
+      "item": "2026학년도 수시모집 입시결과",
+      "reason": "robots 차단: 서울여자대학교 입학처 사이트 admission.swu.ac.kr(WebSearch 및 대표 홈페이지 www.swu.ac.kr 메뉴 '입학처'·'입학정보' 링크 https://admission.swu.ac.kr/main.php로 확인)의 robots.txt(HTTP 200)가 우리 UA를 불허함(/, /main.php 등 모두 불허 판정). 입학처 게시판·첨부를 열지 않음.",
+      "url": "https://admission.swu.ac.kr/main.php"
+    },
+    {
+      "item": "2026학년도 정시모집 입시결과",
+      "reason": "robots 차단(사유 동일).",
+      "url": "https://admission.swu.ac.kr/main.php"
+    },
+    {
+      "item": "대표 홈페이지(www.swu.ac.kr) 경유 탐색",
+      "reason": "www.swu.ac.kr는 robots 허용이나 '입학정보'(/swu/547/subview.do) 페이지 본문에 입시결과·경쟁률 자료나 첨부 없음(입학처 사이트 링크만). 입학처 공식 입시결과 자료를 대표 홈페이지에서 찾지 못함.",
+      "url": "https://www.swu.ac.kr/swu/547/subview.do"
+    }
+  ],
+  "notes": [
+    "입학처 주소는 WebSearch('서울여자대학교 입학처 입시결과')에 나온 admission.swu.ac.kr와 www.swu.ac.kr 메뉴 링크로 확인. 검색 결과의 언론 수치(합격선·경쟁률)는 사용하지 않음.",
+    "모든 요청·robots 판정은 scripts/ipsi_fetch.py IpsiFetcher(f.fetch / f.gate.allowed)로 수행. admission.swu.ac.kr robots 판정은 HTTP 200 파싱 결과 '불허'(판정 실패 아님)이므로 재시도하지 않음.",
+    "원문 자료를 확보하지 못해 rows는 빈 배열(추측 없음)."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+ "university_key": "u107",
+ "university_name": "동의대학교",
+ "university_code": "U107",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 전형결과",
+   "reason": "입학처 '입시 전형결과'(수시) 게시판 정적 목록에 '2026학년도 수시모집 전형결과'(게시판 번호 14)가 있으나 제목 링크가 href='javascript:' + onclick=pop_pass_open('9725',…)이고, 이 함수는 숨은 폼(frm)을 POST로 submit해 본문을 연다(비밀글이면 비밀번호 입력). 정적 링크·공개 첨부 주소가 없고 WebSearch로도 본문/첨부 주소를 찾지 못함 → 'JS 전용(POST 폼)'으로 수집 중단.",
+   "url": "https://ipsi.deu.ac.kr/submenu.do?menuUrl=2Yx5AdyROxyzbsACUoXUCQ%3d%3d&"
+  },
+  {
+   "item": "2026학년도 정시모집 전형결과",
+   "reason": "'입시 전형결과'(정시) 게시판의 '2026학년도 정시모집 전형결과'도 pop_pass_open('9726',…) POST 폼 전용. 사유 동일.",
+   "url": "https://ipsi.deu.ac.kr/submenu.do?menuUrl=D0Lb4Mk2mKJBZuJJDzIzEw%3D%3D"
+  },
+  {
+   "item": "2026학년도 수시모집 경쟁률",
+   "reason": "게시판의 경쟁률 글은 외부 대행사 도메인(ratio.uwayapply.com)으로 연결되는 링크라 요청·수치 사용하지 않음.",
+   "url": "https://ratio.uwayapply.com/Sl5KOmBWSmYlJjomSi1mVGY="
+  },
+  {
+   "item": "2026학년도 정시 <가><나><다>군 경쟁률",
+   "reason": "외부 대행사 도메인(ratio.uwayapply.com) 링크라 요청·수치 사용하지 않음.",
+   "url": "https://ratio.uwayapply.com/Sl5KOmBWSnJXOi9KLWZUZg=="
+  },
+  {
+   "item": "대학 본 홈페이지",
+   "reason": "https://www.deu.ac.kr/robots.txt가 우리 UA를 불허(robots 차단) — 본 홈페이지는 수집하지 않음.",
+   "url": "https://www.deu.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소: 처음 WebSearch(대학저널 2020 기사)에서 http://ipsi.deu.ac.kr 를 찾았으나 이 환경에서 http(80) robots.txt 확인이 이름 해석 실패(robots 판정 불가)로 막혀 요청하지 않음. 이후 WebSearch 결과에 실린 https://ipsi.deu.ac.kr/… 주소(입시 전형결과 게시판, 모집요강 PDF 등)를 그대로 IpsiFetcher로 열었음(robots 허용).",
+  "확인한 게시판: 수시 입시 전형결과(menuUrl=2Yx5AdyROxyzbsACUoXUCQ==), 정시(D0Lb4Mk2mKJBZuJJDzIzEw==), 편입학(Cpat8s71FjlAdfevJKfIDw==). 모두 게시글 제목이 JS(pop_pass_open → POST 폼 submit)로만 열림. detail.do 주소를 board_seq로 조립해 부르지 않음.",
+  "대학 홍보 게시판(biotech.deu.ac.kr 'deu-today')의 2026 정시 경쟁률 보도 글은 입학처 입시결과 자료가 아니고 언론성 보도라 수치를 쓰지 않음(요청도 하지 않음).",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}
