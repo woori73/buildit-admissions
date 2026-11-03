@@ -1,0 +1,28 @@
+{
+ "university_key": "dankook",
+ "university_name": "단국대학교",
+ "university_code": "DANKOOK",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체(죽전·천안캠퍼스)",
+   "reason": "입학처(ipsi.dankook.ac.kr) robots.txt가 'User-agent: * / Disallow: /'(Googlebot·Yeti 등 지정 봇만 허용, python-requests·curl 등 명시 차단) — 요청하지 않음.",
+   "url": "https://ipsi.dankook.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 robots 전면 차단으로 페이지·첨부를 한 건도 받지 않음. 본부(www.dankook.ac.kr)는 robots 허용이지만 입시결과 게시 위치가 아니라 조사하지 않음. 시드 대학이 '단국대학교'(캠퍼스 미지정, 대학어디가 코드 2개)라 자료가 생기면 죽전/천안 캠퍼스를 모집단위명 앞에 붙여야 함."
+ ]
+}

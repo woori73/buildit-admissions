@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sejong.ac.kr/ipsi/assistant/entrance.do?mode=download&articleNo=2742&attachNo=2850",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sejong.ac.kr/ipsi/assistant/entrance.do?mode=download&articleNo=2742&attachNo=2850",
+  "content_type": "application/pdf;charset=ISO-8859-1",
+  "size": 1408202,
+  "sha256": "028f40790b6e51544f72b4b894ba27d2cf4aade1d64fc2e4c62a7ee317418321",
+  "raw_path": "raw/ipsi.sejong.ac.kr/028f40790b6e51544f72b4b894ba27d2.pdf",
+  "collected_at": "2026-11-04T01:07:45+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

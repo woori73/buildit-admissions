@@ -82,6 +82,8 @@ class FetchResult:
         return d
 
 
+MAX_REDIRECTS = 10
+
 # robots.txt 자리에 HTML 차단 안내가 올 때 쓰이는 문구(소문자 비교).
 BLOCK_PAGE_MARKERS = ("차단되었습니다", "차단 되었습니다", "접근이 차단", "보안 정책에 위배", "access denied",
                       "request blocked", "has been blocked", "forbidden")
@@ -197,7 +199,22 @@ class IpsiFetcher:
 
         self._throttle(url)
         try:
-            resp = self._session.get(url, timeout=DEFAULT_TIMEOUT, allow_redirects=allow_redirects)
+            # 리다이렉트는 직접 따라가며 단계마다 robots를 다시 확인한다(허용 경로가 비허용 경로로 넘기는 경우를 막음).
+            resp = self._session.get(url, timeout=DEFAULT_TIMEOUT, allow_redirects=False)
+            hops = 0
+            while allow_redirects and resp.status_code in (301, 302, 303, 307, 308) and resp.headers.get("Location"):
+                hops += 1
+                nxt = urljoin(str(resp.url or url), resp.headers["Location"])
+                if hops > MAX_REDIRECTS:
+                    raise RuntimeError(f"too many redirects (>{MAX_REDIRECTS})")
+                if not self.gate.allowed(nxt):
+                    res = FetchResult(url=url, ok=False, robots_allowed=False, final_url=nxt,
+                                      error=f"redirect to robots-disallowed URL: {nxt} ({self.gate.note(nxt)})")
+                    if save_meta:
+                        self._write_meta(res)
+                    return res
+                self._throttle(nxt)
+                resp = self._session.get(nxt, timeout=DEFAULT_TIMEOUT, allow_redirects=False)
         except Exception as e:
             res = FetchResult(url=url, ok=False, robots_allowed=True, error=f"request failed: {e}")
             if save_meta:

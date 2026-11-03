@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.ewha.ac.kr/common/download.File.asp?strFileName=이화여대 2027학년도 학생부위주전형안내서(홈페이지게시용)(양면).pdf&strRealFileName=/upload/BBS0012/20260424152600Z5YN4V.PDF",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.ewha.ac.kr/common/download.File.asp?strFileName=%EC%9D%B4%ED%99%94%EC%97%AC%EB%8C%80%202027%ED%95%99%EB%85%84%EB%8F%84%20%ED%95%99%EC%83%9D%EB%B6%80%EC%9C%84%EC%A3%BC%EC%A0%84%ED%98%95%EC%95%88%EB%82%B4%EC%84%9C(%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B2%8C%EC%8B%9C%EC%9A%A9)(%EC%96%91%EB%A9%B4).pdf&strRealFileName=/upload/BBS0012/20260424152600Z5YN4V.PDF",
+  "content_type": "file/unknown; Charset=UTF-8",
+  "size": 18690460,
+  "sha256": "b09e61db4e9f8ab2ee999ee76111b83e432462a4cc86178158ab002e66416979",
+  "raw_path": "raw/admission.ewha.ac.kr/b09e61db4e9f8ab2ee999ee76111b83e.pdf",
+  "collected_at": "2026-11-04T01:09:02+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

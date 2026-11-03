@@ -1,0 +1,15 @@
+{
+  "url": "https://goerica.hanyang.ac.kr/admission/intro.asp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://goerica.hanyang.ac.kr/admission/intro.asp",
+  "content_type": "text/html; Charset=UTF-8",
+  "size": 17200,
+  "sha256": "a4e52a4a89d50713adf7b7face23ffa507c9f48aa049b5bb793b83ebab60a7b6",
+  "raw_path": "raw/goerica.hanyang.ac.kr/a4e52a4a89d50713adf7b7face23ffa5.html",
+  "collected_at": "2026-11-04T01:04:39+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

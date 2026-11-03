@@ -1,0 +1,15 @@
+{
+  "url": "https://www.dongduk.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.dongduk.ac.kr/www/main/index.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 1308481,
+  "sha256": "0a8217ac164a75b54e4e5c981f9d7afd0dde072cc6a5c6168a0c29d524a048ad",
+  "raw_path": "raw/www.dongduk.ac.kr/0a8217ac164a75b54e4e5c981f9d7afd.html",
+  "collected_at": "2026-11-04T01:04:56+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

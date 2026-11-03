@@ -1,0 +1,15 @@
+{
+  "url": "https://go.skuniv.ac.kr/index.php?mid=previous_result&category=177&document_srl=226870",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://go.skuniv.ac.kr/index.php?mid=previous_result&category=177&document_srl=226870",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 91937,
+  "sha256": "95079c37ab2f20125e32751e5da31742a9642ea68f09c532efe43e83ff2080e4",
+  "raw_path": "raw/go.skuniv.ac.kr/95079c37ab2f20125e32751e5da31742.html",
+  "collected_at": "2026-11-04T01:08:00+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

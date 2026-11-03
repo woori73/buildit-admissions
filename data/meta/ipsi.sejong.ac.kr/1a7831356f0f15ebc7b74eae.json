@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sejong.ac.kr/ipsi/assistant/entrance.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sejong.ac.kr/ipsi/assistant/entrance.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 76006,
+  "sha256": "50f02e8bdf0f8c0267d135336e86d4b4785772ded87f0c41ba4e7117d55e6440",
+  "raw_path": "raw/ipsi.sejong.ac.kr/50f02e8bdf0f8c0267d135336e86d4b4.html",
+  "collected_at": "2026-11-04T01:06:59+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

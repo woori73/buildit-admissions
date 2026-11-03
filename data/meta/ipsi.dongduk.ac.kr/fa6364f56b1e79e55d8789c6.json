@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dongduk.ac.kr/robots.txt",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dongduk.ac.kr/robots.txt",
+  "content_type": "text/plain;charset=UTF-8",
+  "size": 37,
+  "sha256": "215502e79b6af7f52c4e9a21c38874aba889b56c54b9a892f58855458ec1b4d3",
+  "raw_path": null,
+  "collected_at": "2026-11-04T01:05:28+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

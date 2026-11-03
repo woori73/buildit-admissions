@@ -1,0 +1,15 @@
+{
+  "url": "https://ibhak.kau.ac.kr/admission/html/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "http://ibhak.kau.ac.kr/error_new/error.html",
+  "content_type": "text/html",
+  "size": 3238,
+  "sha256": "25003176a86c3204d2df61d60e387be551c98c0351eed78f8e9380d1065692a0",
+  "raw_path": "raw/ibhak.kau.ac.kr/25003176a86c3204d2df61d60e387be5.html",
+  "collected_at": "2026-11-04T01:04:21+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

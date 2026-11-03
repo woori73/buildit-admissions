@@ -19,6 +19,29 @@ class FakeResp:
         self.headers = {"Content-Type": ctype}
 
 
+class RedirectGateTest(unittest.TestCase):
+    def test_given_allowed_url_redirecting_to_disallowed_path_when_fetched_then_redirect_is_not_followed(self):
+        # given: /admission/html/ 은 허용, /error_new/ 는 robots 비허용
+        robots = FakeResp(200, "User-agent: *\nDisallow: /error_new/\n")
+        redirect = FakeResp(302, "", "text/html")
+        redirect.headers["Location"] = "/error_new/error.html"
+        redirect.url = "https://ibhak.example.ac.kr/admission/html/"
+        redirect.content = b""
+        session = mock.Mock()
+        session.get.side_effect = [robots, redirect]
+        with tempfile.TemporaryDirectory() as d:
+            fetcher = ipsi_fetch.IpsiFetcher(store_raw=False, delay=0, raw_dir=d, meta_dir=d)
+            fetcher._session = session
+            fetcher.gate = ipsi_fetch.RobotsGate(session)
+            # when
+            res = fetcher.fetch("https://ibhak.example.ac.kr/admission/html/", save_meta=False)
+        # then: 비허용 경로는 요청하지 않는다(robots 1회 + 첫 요청 1회만)
+        self.assertFalse(res.ok)
+        self.assertFalse(res.robots_allowed)
+        self.assertIn("redirect to robots-disallowed", res.error)
+        self.assertEqual(session.get.call_count, 2)
+
+
 class RobotsGateTest(unittest.TestCase):
     def gate(self, resp_or_exc):
         session = mock.Mock()

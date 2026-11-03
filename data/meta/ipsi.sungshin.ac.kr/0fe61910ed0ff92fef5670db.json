@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sungshin.ac.kr/main/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sungshin.ac.kr/main/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 79793,
+  "sha256": "8290eb4c579c857c61809a205a8bd22930feaa8666431cc1bcc55c525e452db2",
+  "raw_path": "raw/ipsi.sungshin.ac.kr/8290eb4c579c857c61809a205a8bd229.html",
+  "collected_at": "2026-11-04T01:08:14+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

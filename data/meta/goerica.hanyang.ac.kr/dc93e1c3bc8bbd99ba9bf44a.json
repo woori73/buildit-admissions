@@ -1,0 +1,15 @@
+{
+  "url": "https://goerica.hanyang.ac.kr/admission/html/regular/counsel_result.asp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://goerica.hanyang.ac.kr/admission/html/regular/counsel_result.asp",
+  "content_type": "text/html; Charset=UTF-8",
+  "size": 59928,
+  "sha256": "ed60cd3acf01e01946a8ff9a43f8b4e04f641b3da1c5146b00c9b19783d91f54",
+  "raw_path": "raw/goerica.hanyang.ac.kr/ed60cd3acf01e01946a8ff9a43f8b4e0.html",
+  "collected_at": "2026-11-04T01:05:01+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

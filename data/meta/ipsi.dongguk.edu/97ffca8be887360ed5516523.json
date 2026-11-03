@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dongguk.edu/common/downLoad.asp?strFileName=2026%B5%BF%B1%B9%5F%C0%D4%C7%D0%C0%FC%C7%FC%B0%E1%B0%FA%5F%B4%DC%B8%E9%5F260918%BC%F6%C1%A4%2Epdf&strRealFileName=/upload/file/202609181646284P926C.PDF",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dongguk.edu/common/downLoad.asp?strFileName=2026%B5%BF%B1%B9_%C0%D4%C7%D0%C0%FC%C7%FC%B0%E1%B0%FA_%B4%DC%B8%E9_260918%BC%F6%C1%A4.pdf&strRealFileName=/upload/file/202609181646284P926C.PDF",
+  "content_type": "file/unknown; Charset=euc-kr",
+  "size": 883803,
+  "sha256": "270a509d7e2f2754f8b3871d1006a509ca016833808644593b893c714e8b970a",
+  "raw_path": "raw/ipsi.dongguk.edu/270a509d7e2f2754f8b3871d1006a509.pdf",
+  "collected_at": "2026-11-04T01:03:28+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

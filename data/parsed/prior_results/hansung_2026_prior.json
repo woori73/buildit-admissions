@@ -1,0 +1,44 @@
+{
+ "university_key": "hansung",
+ "university_name": "한성대학교",
+ "university_code": "HANSUNG",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "입학처(enter.hansung.ac.kr — 본교 www.hansung.ac.kr/hansung/index.do의 '입학안내' 링크로 확인, robots.txt 404=규칙 없음)에는 '입시자료 > 입시결과'(m1=menu08, m2=sub02, board=entrance_data/result) 메뉴가 있으나 <a href> 링크가 아니라 <span> 속성으로만 있고 JS(lia 프레임워크)가 주소를 만들어 게시판을 불러옴. 실제 링크로 있던 공지사항 페이지도 정적 HTML은 첫 화면과 같은 껍데기(게시글 목록 없음)라 게시판 목록·첨부를 정적으로 얻을 수 없음. 지시서 규칙(JS 주소 조립 금지)에 따라 더 요청하지 않음",
+   "url": "https://enter.hansung.ac.kr/?m1=home"
+  },
+  {
+   "item": "2026학년도 경쟁률(입시자료 > 경쟁률)",
+   "reason": "같은 사유(board=entrance_data/competition_rate 메뉴가 JS 전용)",
+   "url": "https://enter.hansung.ac.kr/?m1=home"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 공개 자료",
+   "reason": "입학처 하단에 adiga.kr 링크만 있음. 지시서 규칙상 요청하지 않음",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "www.hansung.ac.kr 첫 화면(343바이트)은 JS(domains.js)로 이동만 한다. 웹검색 결과에 보이던 본교 경로(/hansung/…)에 맞춰 /hansung/index.do를 받아 입학처 주소를 확인했다 — 판단이 들어간 처리. 입시결과 수치는 받지 않았다.",
+  "입학처 메뉴 주소(?m1=menu08%25&m2=sub02%25&board=entrance_data%2Fresult%25)는 HTML의 다른 실제 링크와 같은 모양으로 만들 수 있지만, 메뉴 자체가 span 속성이고 목록도 JS로 불러오므로 조립해 요청하지 않았다.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음.",
+  "다음 단계: 사람이 브라우저로 입학처 '입시자료 > 입시결과'를 열어 2026학년도 파일을 받아 data/raw에 넣어 주면 처리할 수 있다."
+ ]
+}

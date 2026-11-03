@@ -1,0 +1,29 @@
+{
+ "university_key": "hufs",
+ "university_name": "한국외국어대학교",
+ "university_code": "HUFS",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(서울·글로벌캠퍼스)",
+   "reason": "입학처(adms.hufs.ac.kr) robots.txt가 'User-agent: * / Disallow: /' — 전면 차단이라 IpsiFetcher가 요청을 막음. 입학처 게시판·첨부 모두 미수집.",
+   "url": "https://adms.hufs.ac.kr/robots.txt"
+  },
+  {
+   "item": "다른 입학 호스트 admission.hufs.ac.kr",
+   "reason": "robots.txt 요청이 연결 실패(프록시 502)로 판정 불가 → 요청하지 않음.",
+   "url": "https://admission.hufs.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 robots 전면 차단으로 수집 없음. 본부 www.hufs.ac.kr은 robots 허용이나 입시결과는 입학처 소관이라 본부 사이트에서 대체 출처를 찾지 않음.",
+  "웹 검색에는 언론·학원 자료만 보였고 요청·사용하지 않음. 대학어디가(adiga.kr) 요청 안 함."
+ ]
+}

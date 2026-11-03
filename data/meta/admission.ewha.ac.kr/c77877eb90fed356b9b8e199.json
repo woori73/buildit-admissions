@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.ewha.ac.kr/common/download.File.asp?strFileName=이화여자대학교 이화로49(웹용).pdf&strRealFileName=/upload/BBS0014/202604171508522FWA56.PDF",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.ewha.ac.kr/common/download.File.asp?strFileName=%EC%9D%B4%ED%99%94%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90%20%EC%9D%B4%ED%99%94%EB%A1%9C49(%EC%9B%B9%EC%9A%A9).pdf&strRealFileName=/upload/BBS0014/202604171508522FWA56.PDF",
+  "content_type": "file/unknown; Charset=UTF-8",
+  "size": 14604459,
+  "sha256": "bdad1e86bf423dcff5c9cbbd4c65b1e3679e9e1b5e7d4142125c5ccdd6abd1ff",
+  "raw_path": "raw/admission.ewha.ac.kr/bdad1e86bf423dcff5c9cbbd4c65b1e3.pdf",
+  "collected_at": "2026-11-04T01:08:56+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

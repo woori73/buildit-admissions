@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sungshin.ac.kr/guide/dataroom.htm?bbsid=prev_result&ctg_cd=all&page=1&skey=&keyword=&mode=view&bltn_seq=35943",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sungshin.ac.kr/guide/dataroom.htm?bbsid=prev_result&ctg_cd=all&page=1&skey=&keyword=&mode=view&bltn_seq=35943",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 20422,
+  "sha256": "4d90e6c0fe8d21986d94b897b7be5d7b3101f7f0ca0510d156c88b1732227de0",
+  "raw_path": "raw/ipsi.sungshin.ac.kr/4d90e6c0fe8d21986d94b897b7be5d7b.html",
+  "collected_at": "2026-11-04T01:08:25+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

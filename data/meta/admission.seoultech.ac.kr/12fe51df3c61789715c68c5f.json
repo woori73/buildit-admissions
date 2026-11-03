@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.seoultech.ac.kr/robots.txt",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.seoultech.ac.kr/robots.txt",
+  "content_type": "text/plain",
+  "size": 27,
+  "sha256": "32403248dc764535c87140955fc9451f9ebc9702f3e298d1c24fe84e558a53a9",
+  "raw_path": null,
+  "collected_at": "2026-11-04T01:03:06+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

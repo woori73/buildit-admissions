@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hongik.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hongik.ac.kr/kr/index.do",
+  "content_type": "text/html; charset=utf-8",
+  "size": 461658,
+  "sha256": "ae1a6e45a88c58070bd431445e8feddc9706337bee3423452fff67aaba7b4190",
+  "raw_path": "raw/www.hongik.ac.kr/ae1a6e45a88c58070bd431445e8feddc.html",
+  "collected_at": "2026-11-04T01:10:59+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

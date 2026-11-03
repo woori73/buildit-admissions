@@ -1,0 +1,15 @@
+{
+  "url": "https://goerica.hanyang.ac.kr/upload/BBS0062/20260423200437SMTJ7P.PDF",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://goerica.hanyang.ac.kr/upload/BBS0062/20260423200437SMTJ7P.PDF",
+  "content_type": "application/pdf",
+  "size": 3255197,
+  "sha256": "4e87d8db9f7281102c7e81bdab7619d969c21641723dda1e451a068abe501a71",
+  "raw_path": "raw/goerica.hanyang.ac.kr/4e87d8db9f7281102c7e81bdab7619d9.pdf",
+  "collected_at": "2026-11-04T01:05:45+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
