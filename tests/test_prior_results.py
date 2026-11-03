@@ -206,6 +206,40 @@ class BuildTest(unittest.TestCase):
         self.assertTrue(all(v is not None for r in rows for v in r.values()))
         self.assertTrue(all(p["ipsi_documents"] for p in parts))
 
+    def test_given_same_unit_in_two_documents_when_built_then_empty_cells_are_filled_and_conflict_is_a_warning(self):
+        # given: 같은 기본 행이 두 번째 문서에도 있고, 한쪽에만 지원자 수가 있으며 경쟁률은 서로 다르다
+        path = os.path.join(builder.PRIOR_DIR, "u14_2026_prior.json")
+        with open(path, encoding="utf-8") as f:
+            src = json.load(f)
+        dup = dict(src["rows"][0], applicant_count=None, competition_rate=19.4, extra_admitted_count=None)
+        src["rows"][0]["applicant_count"] = None
+        dup["applicant_count"] = 156
+        src["rows"].append(dup)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(src, f, ensure_ascii=False)
+        # when
+        seed, per = builder.build(None)
+        # then
+        base = [r for r in seed["prior_results"] if r["metric_label"] is None]
+        self.assertEqual(len(base), 1)
+        self.assertEqual(base[0]["applicant_count"], 156)
+        self.assertEqual(base[0]["competition_rate"], 19.5)
+        self.assertEqual(per[0]["build_failures"], [])
+        self.assertEqual(len(per[0]["build_warnings"]), 1)
+
+    def test_given_row_without_department_when_built_then_department_is_whole_type(self):
+        # given: 원문에 모집단위 열이 없는 전형 단위 결과
+        path = os.path.join(builder.PRIOR_DIR, "u14_2026_prior.json")
+        with open(path, encoding="utf-8") as f:
+            src = json.load(f)
+        src["rows"][0]["department_name"] = None
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(src, f, ensure_ascii=False)
+        # when
+        seed, _ = builder.build(None)
+        # then
+        self.assertIn("전형 전체", {r["department_name"] for r in seed["prior_results"]})
+
 
 if __name__ == "__main__":
     unittest.main()

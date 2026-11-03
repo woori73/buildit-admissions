@@ -5513,5 +5513,5414 @@
         "gaps": 4
       }
     ]
+  },
+  "prior_results_batch3": {
+    "seed_files": [
+      {
+        "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_01_hanshin_knsu_kyonggi_syu.json",
+        "prior_results": 5879,
+        "documents": 8,
+        "chars": 3163115
+      },
+      {
+        "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_02_u10_u103_u113_u114_u115_u119_u12_u127.json",
+        "prior_results": 9198,
+        "documents": 19,
+        "chars": 4339590
+      },
+      {
+        "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_03_u144_u145_u154_u161_u171_u172.json",
+        "prior_results": 8692,
+        "documents": 10,
+        "chars": 4203352
+      },
+      {
+        "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_04_u172_u173_u186_u187_u196_u197_u199_u20_u21_u218_u221_u235_u239_u240_u244_u2712_u2949_u31.json",
+        "prior_results": 8453,
+        "documents": 39,
+        "chars": 4435573
+      },
+      {
+        "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_05_u34_u39_u53_u62_u72_u80.json",
+        "prior_results": 9212,
+        "documents": 11,
+        "chars": 4496883
+      },
+      {
+        "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_06_u80_u84_u9_u95.json",
+        "prior_results": 1721,
+        "documents": 6,
+        "chars": 955500
+      }
+    ],
+    "result_year": 2026,
+    "academic_year": 2027,
+    "count": 43155,
+    "documents": 93,
+    "universities_with_rows": 44,
+    "gaps": [
+      {
+        "university_code": "HANSHIN",
+        "university_name": "한신대학교",
+        "item": "2026학년도 수시·정시 경쟁률 '바로가기' 링크",
+        "reason": "게시글 본문의 경쟁률 바로가기는 외부 대행사 도메인(jinhakapply.com)이라 수치를 쓰지 않음. 모집·지원·경쟁률은 입학처 첨부 PDF 원문 값만 사용.",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11630391.html"
+      },
+      {
+        "university_code": "HANSHIN",
+        "university_name": "한신대학교",
+        "item": "정시 경쟁률 바로가기(외부)",
+        "reason": "외부 대행사 도메인이라 사용하지 않음.",
+        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio11630411.html"
+      },
+      {
+        "university_code": "HANSHIN",
+        "university_name": "한신대학교",
+        "item": "충원(추가합격) 인원",
+        "reason": "원문은 '최종 예비순위'만 제공하고 충원 인원 열이 없어 extra_admitted_count는 모두 null. 예비순위는 지표 행(최종예비순위, OTHER)으로 저장.",
+        "url": "https://ent.hs.ac.kr/_common/new_download_file.asp?menu=boardfile&file_no=893"
+      },
+      {
+        "university_code": "HANSHIN",
+        "university_name": "한신대학교",
+        "item": "재외국민·편입학 등 기타 2026 결과",
+        "reason": "수시·정시 신입학 입시결과만 수집 범위. 수시 PDF에 재외국민 전형 표 없음.",
+        "url": "https://ent.hs.ac.kr/ipsi/pages/?p=43&b=b_1_8&cate=수시"
+      },
+      {
+        "university_code": "KNSU",
+        "university_name": "한국체육대학교",
+        "item": "2026학년도 수시·정시 모집인원·지원자·경쟁률",
+        "reason": "입학 사이트(www.knsu.ac.kr/ipsi/) 메뉴의 '경쟁률' 링크가 외부 대행사 도메인(addon.jinhakapply.com)으로 연결됨 — 지시서상 외부 대행사 수치는 쓰지 않음(요청하지 않음). 입학 사이트 자료실·공지사항(1~4쪽 확인)에 2026 경쟁률·모집결과 게시물 없음.",
+        "url": "http://addon.jinhakApply.com/RatioV1/RatioH/Ratio11530431.html"
+      },
+      {
+        "university_code": "KNSU",
+        "university_name": "한국체육대학교",
+        "item": "2026학년도 정시 경쟁률",
+        "reason": "정시 메뉴 '경쟁률' 링크도 외부 대행사 도메인(사유 동일).",
+        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio11530401.html"
+      },
+      {
+        "university_code": "KNSU",
+        "university_name": "한국체육대학교",
+        "item": "충원합격(추가합격) 인원",
+        "reason": "공지사항의 2026 수시·정시 충원합격자 발표 글은 개인별 조회 안내뿐이며 인원 집계 없음.",
+        "url": "https://www.knsu.ac.kr/ipsi/notice/notice.do"
+      },
+      {
+        "university_code": "KYONGGI",
+        "university_name": "경기대학교",
+        "item": "실기/실적 체육특기자전형 평균석차등급(최초합격자·최종등록자 평균값)",
+        "reason": "원문 p.43 표의 성적 칸은 전형 전체를 하나로 합친 셀(최초합격자 최고 5.343/평균 5.765/최저 6.164, 최종등록자 5.643/5.922/6.186)이고 각주가 '해당 전형은 모집단위 개별성적을 공개하지 않음'이라 모집단위별 행에 붙일 수 없어 저장하지 않음(기본행·충원인원만 저장).",
+        "url": "https://enter.kyonggi.ac.kr/ajaxfile/CMN_SVC/FileView.do?GBN=X12&SITE_NO=2&MENU_NO=130&CONTENTS_NO=2&TYPE_CODE=C0601"
+      },
+      {
+        "university_code": "KYONGGI",
+        "university_name": "경기대학교",
+        "item": "학생부종합(특수교육대상자전형) 휴먼서비스학부 2026 최종등록자 성적",
+        "reason": "원문 내부 불일치: p.36 9-2(3개년 전형결과)의 2026학년도 최종등록자 칸에는 5.760/5.799/5.760/5.760/5.838이 있으나 같은 쪽 9-3(2026학년도 전형결과 상세)의 최종등록자 칸은 '최종등록자 1명으로 미공개'. 어느 쪽이 맞는지 판단할 수 없어 최종등록자 지표는 저장하지 않음(최초·최종합격자, 1단계합격자 지표와 기본행은 저장).",
+        "url": "https://enter.kyonggi.ac.kr/ajaxfile/CMN_SVC/FileView.do?GBN=X12&SITE_NO=2&MENU_NO=130&CONTENTS_NO=2&TYPE_CODE=C0601"
+      },
+      {
+        "university_code": "KYONGGI",
+        "university_name": "경기대학교",
+        "item": "전형별 학생부성적 분포도(지원자·합격자 산점도)",
+        "reason": "PDF 11·15·19·23·27·28·30·34·37·39·42·47·51·53·55쪽 등은 이미지(분포도)로 숫자 표가 아니어서 수집하지 않음.",
+        "url": "https://enter.kyonggi.ac.kr/ajaxfile/CMN_SVC/FileView.do?GBN=X12&SITE_NO=2&MENU_NO=150&CONTENTS_NO=1&TYPE_CODE=C0601"
+      },
+      {
+        "university_code": "KYONGGI",
+        "university_name": "경기대학교",
+        "item": "자료실 '입학통계'·'성적현황' 게시판",
+        "reason": "정적 HTML 목록이 '총 0 건'(JS로만 목록을 불러옴) — JS 전용. 2026 결과는 수시·정시 '전년도 입학통계(2026~2024)' 페이지의 PDF로 확보했으므로 추가 조사하지 않음.",
+        "url": "https://enter.kyonggi.ac.kr/cms/FR_CON/index.do?MENU_ID=300"
+      },
+      {
+        "university_code": "KYONGGI",
+        "university_name": "경기대학교",
+        "item": "PDF 다운로드 버튼 주소(FileDownload.do)",
+        "reason": "다운로드 버튼 주소는 JS에서 encodeURIComponent로 파일명을 조립하는 방식이라 사용하지 않음. 같은 PDF를 페이지 HTML에 완성된 문자열로 들어 있는 보기 주소(FileView.do)로 받음.",
+        "url": "https://enter.kyonggi.ac.kr/cms/FR_CON/index.do?MENU_ID=150"
+      },
+      {
+        "university_code": "SYU",
+        "university_name": "삼육대학교",
+        "item": "2026학년도 수시 논술·실기·기회균형 등 그 밖의 전형 모집/지원/경쟁률",
+        "reason": "입시결과 표에는 학교장추천·세움인재·S/W인재 3개 전형 행만 있음(모집인원 합 406). 논술은 모집단위별 \"논술 정답개수 평균\"만 병합 셀로 있고 모집·지원·경쟁률이 없음. 그 밖의 전형은 원문 표에 없음.",
+        "url": "https://ipsi.syu.ac.kr/2016_syu/pages/index.asp?p=10&b=B_1_7&cate=%BC%F6%BD%C3"
+      },
+      {
+        "university_code": "SYU",
+        "university_name": "삼육대학교",
+        "item": "2026학년도 수시 최종 경쟁률(전체 전형)",
+        "reason": "입학처 메인의 \"경쟁률\" 링크는 외부 대행사(진학어플라이) 주소이고 2027학년도 접수용으로 보여 열지 않음.",
+        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio10760741.html"
+      },
+      {
+        "university_code": "SYU",
+        "university_name": "삼육대학교",
+        "item": "충원 합격 인원",
+        "reason": "원문은 \"예비번호\"만 제공. extra_admitted_count는 null, 예비번호는 지표 행(OTHER)으로 기재.",
+        "url": "https://ipsi.syu.ac.kr/2016_syu/pages/index.asp?p=10&b=B_1_7&cate=%BC%F6%BD%C3"
+      },
+      {
+        "university_code": "SYU",
+        "university_name": "삼육대학교",
+        "item": "게시일",
+        "reason": "입시결과/경쟁률 페이지는 게시판형이 아니라 연도 탭 페이지로 게시일 표기가 없음 → published_at null.",
+        "url": "https://ipsi.syu.ac.kr/2016_syu/pages/index.asp?p=10&b=B_1_7&cate=%BC%F6%BD%C3"
+      },
+      {
+        "university_code": "U103",
+        "university_name": "동서대학교",
+        "item": "학생부종합 국제통상물류학부(학부통합모집) 교과전과목 등급 평균등급",
+        "reason": "원문 셀(학생부종합!H30) 값이 '4..1'로 숫자가 아님(오기로 보이나 추측하지 않음). 지표 행을 만들지 않음.",
+        "url": "https://ipsi.dongseo.ac.kr/ipsi/index.php?pCode=1721701513&mode=fdn&idx=1649&num=1"
+      },
+      {
+        "university_code": "U103",
+        "university_name": "동서대학교",
+        "item": "2026학년도 최종 경쟁률(외부 대행사)",
+        "reason": "입학처 메뉴의 정시·편입 최종경쟁률은 외부 대행사 도메인(addon.jinhakapply.com) 자료로 보이며 요청·수치 사용하지 않음. 입시결과 xlsx에 모집인원·지원자수·경쟁률이 있어 대체됨.",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10570671.html"
+      },
+      {
+        "university_code": "U103",
+        "university_name": "동서대학교",
+        "item": "등록자/추가합격 인원",
+        "reason": "원문에 '후보순위(최초합격/후보/합계)'만 있고 충원(추가합격) 인원 열 이름이 없어 extra_admitted_count는 비움(후보순위 값은 원문 이름 지표 행 OTHER로).",
+        "url": "https://ipsi.dongseo.ac.kr/ipsi/index.php?pCode=1721701513&mode=fdn&idx=1649&num=1"
+      },
+      {
+        "university_code": "U10",
+        "university_name": "국립금오공과대학교",
+        "item": "2026학년도 수시 학생부교과(특수교육대상자) 성적",
+        "reason": "3개년 입시결과 xlsx에 특수교육대상자 표가 없음. 원서접수·최종등록 현황 xlsx의 모집·지원·지원율·최종등록만 있음(성적 지표 없음)",
+        "url": "https://www.kumoh.ac.kr/ipsi/sub010202.do?mode=view&articleNo=558040&article.offset=0&articleLimit=10"
+      },
+      {
+        "university_code": "U10",
+        "university_name": "국립금오공과대학교",
+        "item": "2026학년도 정시 농어촌학생(정원외) 성적·추합",
+        "reason": "3개년 입시결과 xlsx 정시 시트는 일반학생전형만 있음. 농어촌학생은 정시 원서접수·최종등록 현황 xlsx의 모집·지원·지원율·최종등록만 있음",
+        "url": "https://www.kumoh.ac.kr/ipsi/sub020202.do?mode=view&articleNo=558065&article.offset=0&articleLimit=10"
+      },
+      {
+        "university_code": "U10",
+        "university_name": "국립금오공과대학교",
+        "item": "입학처 하위 사이트 iphak.kumoh.ac.kr",
+        "reason": "대학 메인 페이지 링크(http://iphak.kumoh.ac.kr)는 robots.txt 확인 단계에서 이름 해석 실패(판정 불가) → 요청하지 않음. 같은 입학 메뉴가 www.kumoh.ac.kr/ipsi/ 에 있어 그쪽 게시판만 사용",
+        "url": "http://iphak.kumoh.ac.kr/"
+      },
+      {
+        "university_code": "U113",
+        "university_name": "배재대학교",
+        "item": "2026학년도 수시/정시모집 입시결과 안내(후보합격순위 포함) PDF 첨부",
+        "reason": "'입시결과(다운로드)' 게시판 목록에 2026-06-24 게시글(pdf 첨부)이 있으나 게시글 링크가 href='#' + onclick=article.view('1455475229') JS로만 열림. JS 속 값으로 주소를 조립하지 않는다는 규칙에 따라 요청하지 않음(JS 전용). 같은 대학 입학처의 정적 HTML 페이지 '2026 전형별 결과'로 수집.",
+        "url": "https://www.pcu.ac.kr/enter/article/ATCL83b8b386a"
+      },
+      {
+        "university_code": "U113",
+        "university_name": "배재대학교",
+        "item": "정원외 통합모집 전형(농어촌학생·특성화고교졸업자·기초생활수급자및차상위) 모집단위별 값",
+        "reason": "원문 표에 모집단위별 행 없이 '계' 행만 있음(통합모집). 모집단위별 값은 없음.",
+        "url": "https://www.pcu.ac.kr/enter/contents/508"
+      },
+      {
+        "university_code": "U113",
+        "university_name": "배재대학교",
+        "item": "정시 추가모집·재외국민 등 기타 전형",
+        "reason": "원문 페이지에 수시 13개 전형 + 정시 일반전형 표만 있음.",
+        "url": "https://www.pcu.ac.kr/enter/contents/508"
+      },
+      {
+        "university_code": "U114",
+        "university_name": "부산가톨릭대학교",
+        "item": "2026학년도 수시 실기/기타 전형 입시결과",
+        "reason": "입학처 '지난입시결과 > 수시모집'에는 학생부교과전형·학생부종합전형 탭만 있고 그 밖의 수시 전형 결과는 게시되지 않음.",
+        "url": "https://ext.cup.ac.kr/cup/ipsi/front/pdfView083000000000000.do"
+      },
+      {
+        "university_code": "U114",
+        "university_name": "부산가톨릭대학교",
+        "item": "2026학년도 추가모집 결과·최종 경쟁률",
+        "reason": "입학처 지난입시결과에 추가모집 결과 없음. 원서접수·합격자 조회는 외부 대행사 도메인(jinhakapply.com) 링크라 요청하지 않음.",
+        "url": "https://ext.cup.ac.kr/ipsi/main.do"
+      },
+      {
+        "university_code": "U114",
+        "university_name": "부산가톨릭대학교",
+        "item": "게시일(published_at)",
+        "reason": "PDF 뷰어 페이지에 게시일 표시가 없어 null.",
+        "url": "https://ext.cup.ac.kr/cup/ipsi/front/pdfView083000000000000.do"
+      },
+      {
+        "university_code": "U114",
+        "university_name": "부산가톨릭대학교",
+        "item": "입학처 대표 주소(rad/sht/gks.cup.ac.kr)",
+        "reason": "WebSearch로 찾은 rad.cup.ac.kr·sht.cup.ac.kr·gks.cup.ac.kr /ipsi/main.do는 robots.txt 요청이 연결 재설정으로 실패(robots 판정 불가). rad는 새 IpsiFetcher로 다시 시도해 robots 판정은 됐으나 본문 요청이 연결 재설정으로 실패. 같은 CMS의 ext.cup.ac.kr/ipsi/main.do(WebSearch 결과, robots 허용)로 수집.",
+        "url": "https://rad.cup.ac.kr/ipsi/main.do"
+      },
+      {
+        "university_code": "U115",
+        "university_name": "부산외국어대학교",
+        "item": "지원인원",
+        "reason": "원문 표에 지원인원 열이 없음(모집·경쟁률만) → applicant_count 비움.",
+        "url": "https://enter.bufs.ac.kr/bbs/board.php?bo_table=b_result&wr_id=11&sca=%EC%88%98%EC%8B%9C"
+      },
+      {
+        "university_code": "U115",
+        "university_name": "부산외국어대학교",
+        "item": "충원(추가합격) 인원",
+        "reason": "원문 열 이름이 '추가합격 인원(예비순위)'로 인원과 예비순위가 함께 적혀 있어 어느 쪽인지 단정할 수 없음 → extra_admitted_count는 비우고 원문 이름 지표 행(OTHER)으로 담음.",
+        "url": "https://enter.bufs.ac.kr/bbs/board.php?bo_table=b_result&wr_id=11&sca=%EC%88%98%EC%8B%9C"
+      },
+      {
+        "university_code": "U115",
+        "university_name": "부산외국어대학교",
+        "item": "본문 이미지(외부 도메인)",
+        "reason": "수시 게시글 본문 첫 이미지는 외부 도메인(enterbufs-renew.codeidea.io)이라 요청하지 않음. 같은 게시글의 enter.bufs.ac.kr 본문 이미지는 받아 보니 첨부 PDF와 같은 표(수치 동일)라 PDF를 원문으로 씀.",
+        "url": "https://enterbufs-renew.codeidea.io/data/editor/2608/4989bf5b5c45cb33082033fe6a47b1bd_1786585026_1218.jpg"
+      },
+      {
+        "university_code": "U119",
+        "university_name": "상지대학교",
+        "item": "2026학년도 최종 경쟁률(입학처 메인 \"경쟁률 확인\")",
+        "reason": "외부 대행사 도메인(ratio.uwayapply.com) 링크라 수집하지 않음. 입시결과 PDF의 2026 모집·지원·경쟁률만 사용.",
+        "url": "https://ratio.uwayapply.com/Sl5KJS9yVzgmSmYlJjomSjdmVGY="
+      },
+      {
+        "university_code": "U119",
+        "university_name": "상지대학교",
+        "item": "수시·정시 외 기타 전형(편입학 등)·전형별 원문에 없는 모집단위",
+        "reason": "PDF 마지막 줄: '기타 전형 등 문의사항은 입학팀(033-730-0125 또는 상지대학교 입학처 카카오톡 채널)으로 문의'. 원문 음영(전형 신설·수시 결원 미발생으로 미운영 등) 칸은 2026 자료 없음으로 행 없음.",
+        "url": "https://www.sangji.ac.kr/go/sub02_06.do"
+      },
+      {
+        "university_code": "U119",
+        "university_name": "상지대학교",
+        "item": "정시 수능강원인재균형 백분위 표의 \"수능 최저 충족 : 0명\"",
+        "reason": "표 사이 줄에 있어 어느 모집단위(한의예과(B형)/간호학과) 값인지 텍스트 위치로 확정할 수 없어 담지 않음.",
+        "url": "https://www.sangji.ac.kr/thumbnail/pdf/CMS_202603170424045330.pdf"
+      },
+      {
+        "university_code": "U127",
+        "university_name": "서울장신대학교",
+        "item": "2026학년도 등록자 성적(교과등급·수능 등)·충원(추가합격) 인원",
+        "reason": "입학처(www.sjs.ac.kr/admission) 메뉴에 입시결과 메뉴 없음. '입시지원현황'(3500) 게시판에는 경쟁률(지원현황) 글만, '입학자료실'(3400)에는 입학양식만, 공지사항(3000) 첫 쪽에는 입시결과 글 없음. 공식 최종 경쟁률만 수집.",
+        "url": "https://www.sjs.ac.kr/admission/w_03ed/3500.php"
+      },
+      {
+        "university_code": "U127",
+        "university_name": "서울장신대학교",
+        "item": "첨부 다운로드 링크(/lms_bbs/dn.php)",
+        "reason": "robots 차단(Disallow: /lms_bbs/dn.php). 첨부 다운로드 주소는 요청하지 않았다. 대신 게시글 본문에 <img src>로 정적으로 실린 같은 이미지(/lms_bbs/dnview.php, robots 허용)를 IpsiFetcher로 받았다.",
+        "url": "https://www.sjs.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "U127",
+        "university_name": "서울장신대학교",
+        "item": "2026학년도 추가모집 경쟁률",
+        "reason": "입시지원현황 게시판 첫 쪽에 2026학년도 추가모집 경쟁률 글 없음.",
+        "url": "https://www.sjs.ac.kr/admission/w_03ed/3500.php"
+      },
+      {
+        "university_code": "U12",
+        "university_name": "국립목포해양대학교",
+        "item": "2026학년도 추가모집 결과",
+        "reason": "입학전형결과 페이지의 2026 PDF는 수시·정시(최종합격자) 표만 있고 추가모집 표는 없음.",
+        "url": "https://www.mmu.ac.kr/admission/contents/2026Result"
+      },
+      {
+        "university_code": "U12",
+        "university_name": "국립목포해양대학교",
+        "item": "모집단위별 계(학부 계/학과 계) 행의 성적",
+        "reason": "원문 모집단위 소계 행(전형 합산 전형성적·내신등급·수능 평균 등)은 전형별 행과 중복되는 합산값이라 rows에 넣지 않고 모집인원·지원인원·선발인원 대조에만 사용함(원문 PDF에 보존).",
+        "url": "https://www.mmu.ac.kr/admission/pdfDown/2026Result/1323"
+      },
+      {
+        "university_code": "U12",
+        "university_name": "국립목포해양대학교",
+        "item": "원본 첨부 파일명·게시일",
+        "reason": "다운로드 응답의 원본 파일명은 기록되지 않았고 페이지에 게시일 표시가 없음(PDF 생성일 2026-04-23은 게시일로 쓰지 않음). file_name·published_at은 null.",
+        "url": "https://www.mmu.ac.kr/admission/contents/2026Result"
+      },
+      {
+        "university_code": "U144",
+        "university_name": "신라대학교",
+        "item": "2026학년도 정시모집 입시결과(전용 게시물)",
+        "reason": "입학처 '정시모집 > 전년도 입시결과' 메뉴는 2025년(2025학년도 입시결과)까지만 있고 2026년 항목 없음. 정시 결과는 2027학년도 정시모집 안내자료 PDF의 'VI 2026학년도 정시모집 결과' 쪽에서 가져옴.",
+        "url": "https://ipsi.silla.ac.kr/ipsi/index.php?pCode=1761118819"
+      },
+      {
+        "university_code": "U144",
+        "university_name": "신라대학교",
+        "item": "수시·정시 모집인원·지원인원·충원(추가합격) 인원",
+        "reason": "수시 원문은 경쟁률·후보·평균·최저만, 정시 원문은 모집인원(이월 포함)·경쟁률·충원합 최종 순위·수능 성적만 제공. 지원인원·충원 인원 없음.",
+        "url": "https://ipsi.silla.ac.kr/ipsi/index.php?pCode=1779349969"
+      },
+      {
+        "university_code": "U144",
+        "university_name": "신라대학교",
+        "item": "외부 대행사 경쟁률",
+        "reason": "WebSearch 결과에 진학어플라이 2026 수시 경쟁률 페이지가 나왔으나 외부 대행사 도메인이라 요청·사용하지 않음.",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11020541.html"
+      },
+      {
+        "university_code": "U145",
+        "university_name": "아신대학교",
+        "item": "2026학년도 수시 합격자 평균 점수(등록자 성적)",
+        "reason": "입학처 '합격자 평균 점수' 2026학년도 수시 페이지는 표 머리글(입시년도·전형유형·전형명·학과·내신·성경·면접·총점·비고)만 있고 데이터 행이 0건.",
+        "url": "https://www.acts.ac.kr/admission/design/admission08.asp?&left=admi4&cry=2026&crs=%BC%F6%BD%C3%C6%F2%B1%D5,%BC%F6%BD%C3%B3%BB%BD%C5&mode=view2"
+      },
+      {
+        "university_code": "U145",
+        "university_name": "아신대학교",
+        "item": "2026학년도 정시 합격자 평균 점수(등록자 성적)",
+        "reason": "2026학년도 정시 페이지도 머리글(…내신·성경·면접·수능·총점…)만 있고 데이터 행 0건.",
+        "url": "https://www.acts.ac.kr/admission/design/admission08.asp?&left=admi4&cry=2026&crs=%C1%A4%BD%C3%C6%F2%B1%D5,%C1%A4%BD%C3%B3%BB%BD%C5&mode=view2"
+      },
+      {
+        "university_code": "U145",
+        "university_name": "아신대학교",
+        "item": "충원(추가합격) 인원",
+        "reason": "경쟁률 표에 충원 관련 열 없음('비고' 열은 빈칸).",
+        "url": "https://www.acts.ac.kr/admission/design/admission08.asp?&left=admi4&cry=2026&crs=susi&mode=view"
+      },
+      {
+        "university_code": "U145",
+        "university_name": "아신대학교",
+        "item": "게시일(published_at)",
+        "reason": "경쟁률 조회 페이지에 게시일 표기 없음('2026학년도 수시/정시모집 원서접수가 마감되었습니다' 문구만).",
+        "url": "https://www.acts.ac.kr/admission/design/admission08.asp?&left=admi4&cry=2026&crs=susi&mode=view"
+      },
+      {
+        "university_code": "U154",
+        "university_name": "유원대학교",
+        "item": "2026학년도 정시모집 입시결과",
+        "reason": "전년도입시결과 게시판 최신글이 \"2026학년도 수시모집 입시결과\"(26.07.27)이고 그 이전글이 \"2025학년도 정시모집 입시결과\"임. 2026학년도 정시 결과 게시물 없음(미게시).",
+        "url": "https://ipsi.u1.ac.kr/ipsi/data/result.do"
+      },
+      {
+        "university_code": "U154",
+        "university_name": "유원대학교",
+        "item": "2026학년도 수시 모집인원·지원인원·경쟁률·충원",
+        "reason": "공개된 입시결과 이미지는 전형점수·등급(평균, 90%컷)만 제공. 인원·경쟁률 열 없음. 입학처 공식 경쟁률 게시물은 이번 조사에서 확인하지 못함.",
+        "url": "https://ipsi.u1.ac.kr/ipsi/data/result.do?mode=view&articleNo=77092&article.offset=0&articleLimit=10"
+      },
+      {
+        "university_code": "U154",
+        "university_name": "유원대학교",
+        "item": "게시글 본문 링크 \"U1대학교 수시모집 성적산출\"(ydhs.u1.ac.kr)",
+        "reason": "성적 산출 계산 페이지로 입시결과 자료가 아니어서 요청하지 않음.",
+        "url": "https://ydhs.u1.ac.kr/result/result_s.htm"
+      },
+      {
+        "university_code": "U161",
+        "university_name": "을지대학교",
+        "item": "2026학년도 지원인원",
+        "reason": "원문 표에 지원인원 열 없음(모집인원·경쟁률만). applicant_count는 전부 null(경쟁률×모집인원으로 계산하지 않음).",
+        "url": "https://admission.eulji.ac.kr/webshr/ipsi/download/2026/2026_eu_ipsi_result.pdf"
+      },
+      {
+        "university_code": "U161",
+        "university_name": "을지대학교",
+        "item": "2026학년도 경쟁률(별도 메뉴)",
+        "reason": "수시·정시 '전년도 입시결과' 페이지의 '2026학년도 경쟁률' 링크는 href='#'(대상 없음). 2025학년도 경쟁률 링크는 외부 대행사(apply.jinhakapply.com)라 요청·사용하지 않음.",
+        "url": "https://admission.eulji.ac.kr/?menuno=7353"
+      },
+      {
+        "university_code": "U161",
+        "university_name": "을지대학교",
+        "item": "등록인원 3명 이하 모집단위 성적",
+        "reason": "원문이 '등록인원 3명 이하 전형 총 합계/평균 공개', '등록인원이 없는 경우 미기재'로 모집단위 성적을 비공개 → 지표 행 없음. 전형별 '합계/평균' 행은 행으로 만들지 않고 합계 대조에만 사용.",
+        "url": "https://admission.eulji.ac.kr/webshr/ipsi/download/2026/2026_eu_ipsi_result.pdf"
+      },
+      {
+        "university_code": "U161",
+        "university_name": "을지대학교",
+        "item": "재외국민·편입학 등",
+        "reason": "편입학 2026 결과(2026pyeonIp.pdf)는 신입학이 아니라 범위 밖으로 받지 않음. 재외국민 메뉴에는 입시결과 없음.",
+        "url": "https://admission.eulji.ac.kr/?menuno=2736"
+      },
+      {
+        "university_code": "U171",
+        "university_name": "전주대학교",
+        "item": "등록자 2명 이하 모집단위의 최종등록자 성적",
+        "reason": "원문이 '등록자 2명 이하'로 표기하고 성적을 공개하지 않음(원문 주석: 등록자가 2명 이하인 경우 입시결과를 공개하지 않음). 해당 지표 행은 만들지 않음",
+        "url": "https://iphak.jj.ac.kr/iphak/assistant/result.do?mode=download&articleNo=511862&attachNo=229903"
+      },
+      {
+        "university_code": "U171",
+        "university_name": "전주대학교",
+        "item": "성적산출(환산점수) 서비스",
+        "reason": "입시결과 메뉴 옆 '성적산출' 링크는 외부 대행사 도메인(uwayapply.com)이라 요청·사용하지 않음",
+        "url": "https://ipsi2.uwayapply.com/aWk4JkxKXko3Xi1USm8mZW9MZUo3ZlRm?p=Y2hhPTE="
+      },
+      {
+        "university_code": "U172",
+        "university_name": "조선대학교",
+        "item": "2026학년도 추가모집(추가모집·추가2차모집) 결과",
+        "reason": "같은 xlsx의 \"추가모집\" 시트(28행)와 미래사회융합대학 시트의 \"3월입학 3차(추가모집기간)\" 2행은 수시/정시가 아니므로 수집하지 않음(지시서 round_type SUSI|JEONGSI).",
+        "url": "https://i.chosun.ac.kr/main/menu?gc=1044IOKR&do=view&bwrite_id=VU1kbhbeDcYB"
+      },
+      {
+        "university_code": "U172",
+        "university_name": "조선대학교",
+        "item": "등록인원 3명 이하 전형·모집단위의 성적 지표",
+        "reason": "원문이 \"3명이하\"로 표기해 비공개(게시글 본문: \"등록인원 3명 이하인 전형별 입시결과는 공개하지 않음\"). 해당 셀 1,793개는 행을 만들지 않음. 기본 행(모집·지원·경쟁률)과 등록인원·최종추가통보번호는 공개되어 수집.",
+        "url": "https://i.chosun.ac.kr/main/menu?gc=1044IOKR&do=view&bwrite_id=VU1kbhU6cxrC"
+      },
+      {
+        "university_code": "U172",
+        "university_name": "조선대학교",
+        "item": "2026학년도 수시/정시 최종 경쟁률(원서접수 경쟁률)",
+        "reason": "입학처 메인의 경쟁률 링크는 외부 대행사 도메인(addon.jinhakapply.com, 2027학년도 수시용)이라 수집하지 않음. 경쟁률은 입시결과 xlsx의 경쟁률 열로 수집.",
+        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio11300581.html"
+      },
+      {
+        "university_code": "U173",
+        "university_name": "중부대학교",
+        "item": "2026학년도 수시·정시 원문 게시일",
+        "reason": "입학 홈페이지의 전년도입시결과 메뉴는 게시판이 아닌 HTML 콘텐츠 페이지로 게시일 표기가 없음 → published_at=null",
+        "url": "https://www.joongbu.ac.kr/menu.es?mid=a60103000000"
+      },
+      {
+        "university_code": "U173",
+        "university_name": "중부대학교",
+        "item": "2026학년도 정시 일부 모집단위(항공운항서비스학전공, 문헌정보학전공, 항공서비스학전공, 뷰티·패션비즈니스학전공, 특수교육과 유아/초등/중등특수교육)",
+        "reason": "원문 셀이 '2026학년도 정시모집 미실시'로 표기되어 행을 만들지 않음",
+        "url": "https://www.joongbu.ac.kr/menu.es?mid=a60203010100"
+      },
+      {
+        "university_code": "U186",
+        "university_name": "평택대학교",
+        "item": "2026학년도 정시모집 입시결과(정원외)",
+        "reason": "정시 입시결과 게시글(32801) 첨부는 정원내 PDF 1건뿐. 정시 정원외 결과는 게시되지 않음.",
+        "url": "https://entrance.ptu.ac.kr/bbs/entrance/302/32801/artclView.do"
+      },
+      {
+        "university_code": "U186",
+        "university_name": "평택대학교",
+        "item": "충원합격 인원(extra_admitted_count)",
+        "reason": "원문 열 이름이 '충원합격(순위)'이고 'ALL: 마지막 예비순위까지' 주석이 있어 충원 인원이 아니라 충원합격 순위로 판단 → extra_admitted_count는 모두 null, 값은 지표 행 '충원합격(순위)'(OTHER)로 기록. 'ALL'(마지막 예비순위까지)은 숫자가 아니라 행을 만들지 않음(정보통신학과·데이터정보학과·국제무역행정학과·경영학과·재활상담학과 PTU기회균형, 장애인 재활상담학과).",
+        "url": "https://entrance.ptu.ac.kr/bbs/entrance/306/22885/download.do"
+      },
+      {
+        "university_code": "U186",
+        "university_name": "평택대학교",
+        "item": "수시 최근 3년 입시결과·충원현황(성적산출프로그램)",
+        "reason": "입학처 메인의 '성적산출프로그램(최근 3년 입시결과, 충원현황)' 링크는 외부 대행사 도메인(cs.u-is.co.kr) — 수치 미사용.",
+        "url": "https://cs.u-is.co.kr/ptu/intro.htm"
+      },
+      {
+        "university_code": "U186",
+        "university_name": "평택대학교",
+        "item": "정원외 장애인 재활상담학과 성적",
+        "reason": "원문 '최종등록자 없음' → 성적 지표 행 없음(기본 행만).",
+        "url": "https://entrance.ptu.ac.kr/bbs/entrance/306/23056/download.do"
+      },
+      {
+        "university_code": "U187",
+        "university_name": "차의과학대학교",
+        "item": "2026학년도 입시결과 PDF 첨부(붙임.-2026학년도-차의과학대-입시결과-자료PDF.pdf)",
+        "reason": "첨부 다운로드 버튼이 href 없이 onclick(window.location.href=…kboard_file_download&nonce=…)로만 열려 받지 않음(JS 전용). 대신 같은 게시글 본문에 정적 링크(<a href>/<img src>)로 게시된 같은 제목의 이미지(…자료PDF.png, 1쪽)를 원문으로 사용.",
+        "url": "https://admission.cha.ac.kr/%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91/%EC%88%98%EC%8B%9C-%EC%9E%85%EC%8B%9C%EA%B2%B0%EA%B3%BC/?uid=3356&mod=document&pageid=1"
+      },
+      {
+        "university_code": "U187",
+        "university_name": "차의과학대학교",
+        "item": "2026학년도 수시모집 최종 경쟁률(지원인원 포함)",
+        "reason": "입학처 게시글 본문이 외부 대행사 링크(ratio.uwayapply.com)로만 연결 — 지시서상 외부 대행사 수치 미사용. 따라서 수시 지원인원(applicant_count)은 null.",
+        "url": "https://ratio.uwayapply.com/Sl5KOHxMSmYlJjomSi1mVGY="
+      },
+      {
+        "university_code": "U187",
+        "university_name": "차의과학대학교",
+        "item": "2026학년도 정시모집 최종 경쟁률 이미지(원서접수 마감일 기준, 지원인원 포함)",
+        "reason": "입학처 게시글(uid=3186) 이미지에 군별·모집단위별 지원인원이 있으나 모집단위명(미래융합대학)·모집인원(간호 32)이 입시결과 이미지(글로벌미래인재대학, 간호 33 — '최종 수시 이월 인원 반영')와 기준이 달라 같은 기본 행에 합치지 않고 수집 제외(합치기·환산 금지). 원문은 data/raw/admission.cha.ac.kr/c04bf03a24fb35bdd9b0da69943b871d.jpeg.",
+        "url": "https://admission.cha.ac.kr/%EC%A0%95%EC%8B%9C%EB%AA%A8%EC%A7%91/%EC%A0%95%EC%8B%9C-%EC%9E%85%EC%8B%9C%EA%B2%B0%EA%B3%BC/?uid=3186&mod=document&pageid=1"
+      },
+      {
+        "university_code": "U187",
+        "university_name": "차의과학대학교",
+        "item": "2026학년도 정시모집 충원합격 최종 결과(uid=3432)",
+        "reason": "이미지에 '예비34번까지' 등 마지막 예비번호가 있음. 입시결과 이미지에 '충원합격 인원'(34/12/131)이 따로 있어 그 값을 extra_admitted_count로 쓰고, 예비번호 이미지는 중복이라 별도 행을 만들지 않음.",
+        "url": "https://admission.cha.ac.kr/%EC%A0%95%EC%8B%9C%EB%AA%A8%EC%A7%91/%EC%A0%95%EC%8B%9C-%EC%9E%85%EC%8B%9C%EA%B2%B0%EA%B3%BC/?uid=3432&mod=document&pageid=1"
+      },
+      {
+        "university_code": "U187",
+        "university_name": "차의과학대학교",
+        "item": "학생부종합(사회통합·농어촌·기회균등) 모집인원·경쟁률·성적",
+        "reason": "입시결과 이미지에는 CHA학생부종합전형만 있고, 나머지 종합/정원외 전형은 충원 현황 이미지의 충원 인원만 공개됨. 모집인원·경쟁률은 null.",
+        "url": "https://admission.cha.ac.kr/%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91/%EC%88%98%EC%8B%9C-%EC%9E%85%EC%8B%9C%EA%B2%B0%EA%B3%BC/?uid=3355&mod=document&pageid=1"
+      },
+      {
+        "university_code": "U187",
+        "university_name": "차의과학대학교",
+        "item": "성적 분포 그래프·고교 유형 비율",
+        "reason": "학생부종합 성적 분포는 점 그래프(수치 없음), 고교 유형은 비율 도넛 그래프라 행으로 만들지 않음.",
+        "url": "https://admission.cha.ac.kr/wp-content/uploads/2026/06/%EB%B6%99%EC%9E%84.-2026%ED%95%99%EB%85%84%EB%8F%84-%EC%B0%A8%EC%9D%98%EA%B3%BC%ED%95%99%EB%8C%80-%EC%9E%85%EC%8B%9C%EA%B2%B0%EA%B3%BC-%EC%9E%90%EB%A3%8CPDF.png"
+      },
+      {
+        "university_code": "U196",
+        "university_name": "한동대학교",
+        "item": "재외국민·전형기간 자율화(전교육과정이수자(1학기)*, 북한이탈주민*, 외국인(1학기)*) 4개 전형",
+        "reason": "원문 p1 표에 있으나 전형유형이 기타/전형기간 자율화로 수시·정시 구분이 원문에 없어 round_type(SUSI|JEONGSI)을 정할 수 없어 행으로 만들지 않음(원문 값: 모집 14/9/0/24, 지원 28/52/2/37).",
+        "url": "https://admissions.handong.edu/dcp/editor/files/2026%ED%95%99%EB%85%84%EB%8F%84%20%EC%9E%85%EC%8B%9C%EA%B2%B0%EA%B3%BC.pdf"
+      },
+      {
+        "university_code": "U196",
+        "university_name": "한동대학교",
+        "item": "모집단위(학과)별 입시결과",
+        "reason": "원문은 전형 단위 집계만 있고 모집단위 열이 없다. 2026 페이지(연도별 입시결과)에 다른 첨부 없음.",
+        "url": "https://admissions.handong.edu/inform/year/2026/"
+      },
+      {
+        "university_code": "U196",
+        "university_name": "한동대학교",
+        "item": "published_at",
+        "reason": "게시 페이지에 게시일 표기 없음(PDF 생성일 2026-03-10은 게시일이 아니므로 쓰지 않음).",
+        "url": "https://admissions.handong.edu/inform/year/2026/"
+      },
+      {
+        "university_code": "U197",
+        "university_name": "한라대학교",
+        "item": "2026학년도 수시 모집인원·지원인원·경쟁률·충원",
+        "reason": "입학처 게시 2026 입시결과 PDF에는 최종등록자 75%컷 등급만 있음. 입학처 메인·수시 메뉴에서 대학 도메인의 2026 경쟁률·충원 자료를 찾지 못함.",
+        "url": "https://ipsi.halla.ac.kr/community/data01.php?sub=1&admin_mode=read&no=8230229"
+      },
+      {
+        "university_code": "U197",
+        "university_name": "한라대학교",
+        "item": "2026학년도 정시 입시결과",
+        "reason": "입학처 '정시모집 > 전년도 입시결과' 페이지는 2025학년도 파일(ipsi_regular_before_2025.pdf) 뷰어만 연결. 2026학년도 정시 결과 게시물 없음.",
+        "url": "https://ipsi.halla.ac.kr/regular/regular02.php?sub=2"
+      },
+      {
+        "university_code": "U197",
+        "university_name": "한라대학교",
+        "item": "수시 '전년도 입시결과' 메뉴의 PDF 뷰어(ipsi_rolling_before_2026.pdf)",
+        "reason": "페이지 iframe(/pdf/index.php?file=…)이 다시 pdf.js 뷰어(lib/web/viewer.html?file=ipsi_rolling_before_2026.pdf)만 띄움. 실제 PDF 주소는 뷰어 JS가 상대경로로 만들어 부르는 것이라 '공개 링크'로 보지 않고 받지 않음(JS 전용). 내용이 게시판 첨부와 같은지 확인 못함 — 사람 확인 필요.",
+        "url": "https://ipsi.halla.ac.kr/rolling/rolling03.php?sub=3"
+      },
+      {
+        "university_code": "U199",
+        "university_name": "한서대학교",
+        "item": "수시 정원외(susi_result_2 p2) 학과별 모집인원·경쟁률",
+        "reason": "학과별 모집이 'N이내'로만 적혀 있고 경쟁률 칸이 여러 학과에 걸친 병합 셀(33.67/23.50/25.50/1.00 — 항공관광학과 행 값과 동일)이라 학과별 모집인원·경쟁률로 쓸 수 없음. 해당 학과 행은 applicant_count만 기록(항공관광학과는 자기 행에 숫자 모집·경쟁률이 있어 그대로 기록). 계 행(농어촌 40/352/8.80 등)은 recruit_total_checks에만 사용.",
+        "url": "https://helper.hanseo.ac.kr/_prog/_board/common/download.php?code=compete01&ntt_no=31508&atch_no=1"
+      },
+      {
+        "university_code": "U199",
+        "university_name": "한서대학교",
+        "item": "정시 성적 문서의 모집군(가/나/다)",
+        "reason": "원문에 모집군 표기 없음 → group=null",
+        "url": "https://helper.hanseo.ac.kr/_prog/_board/?mode=V&no=35278&code=compete02&site_dvs_cd=kr&menu_dvs_cd=0204&skey=&sval=&site_dvs=&stype=&GotoPage="
+      },
+      {
+        "university_code": "U20",
+        "university_name": "국립순천대학교",
+        "item": "2026학년도 추가모집(1~3차) 결과",
+        "reason": "같은 xlsx에 모집시기 추가모집1차·2차·3차 23행이 있으나 수시/정시가 아니므로 수집하지 않음(round_type SUSI|JEONGSI).",
+        "url": "https://scnu.ac.kr/common/nttFileDownload.do?fileKey=889b9010ae39119451f7b01868b9e3d1"
+      },
+      {
+        "university_code": "U20",
+        "university_name": "국립순천대학교",
+        "item": "경쟁률(competition_rate)",
+        "reason": "결과 xlsx에 경쟁률 열이 없음(모집인원·지원인원만). 지원÷모집으로 환산하지 않고 null. 입학처 '수시 > 경쟁률' 게시판(bbsId=4711) 첫 쪽 최신 글은 '2025학년도 수시 모집단위 경쟁률'이며 2026학년도 글 없음, '정시 > 경쟁률' 게시판(bbsId=4712)에는 정적 목록상 게시글 없음.",
+        "url": "https://scnu.ac.kr/iphak/na/ntt/selectNttList.do?mi=9372&bbsId=4711"
+      },
+      {
+        "university_code": "U20",
+        "university_name": "국립순천대학교",
+        "item": "원서접수 경쟁률(대행사)",
+        "reason": "입학처 메인의 경쟁률 링크(수시·정시)는 외부 대행사 도메인(addon.jinhakapply.com, apply.jinhakapply.com)이라 요청·사용하지 않음.",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10990421.html"
+      },
+      {
+        "university_code": "U20",
+        "university_name": "국립순천대학교",
+        "item": "등록인원·충원 차수별(1차~8차) 인원",
+        "reason": "원문 '등록인원' 열과 '충원 합격자 발표인원' 1차~8차 열은 산출물 스키마에 해당 필드가 없어 저장하지 않음(원문 xlsx에 보존). 충원 '합계'만 extra_admitted_count로 저장.",
+        "url": "https://scnu.ac.kr/common/nttFileDownload.do?fileKey=889b9010ae39119451f7b01868b9e3d1"
+      },
+      {
+        "university_code": "U21",
+        "university_name": "국립경국대학교",
+        "item": "2026학년도 수시·정시 최종 경쟁률(외부 링크)",
+        "reason": "입학도우미 메뉴의 '경쟁률' 링크가 외부 대행사(uwayapply.com)라 수치를 쓰지 않음(요청하지 않음)",
+        "url": "https://ratio.uwayapply.com/Sl5KcldhVlc4SmYlJjomSjdmVGY="
+      },
+      {
+        "university_code": "U21",
+        "university_name": "국립경국대학교",
+        "item": "정시 모집군(가/나/다)",
+        "reason": "정시 입결 xlsx에 모집군 표기가 없어 group=null",
+        "url": "https://ipsi.gknu.ac.kr/bbs/bbs_download.php?type=0&download=h&seq=0&mv_data=aWR4PTMzODY4JnN0YXJ0UGFnZT0wJmxpc3RObz01MyZ0YWJsZT1jc19iYnNfZGF0YSZuYXZfY29kZT1hbmQxNTM3MjM0NTQ5JnNpdGVfY29kZT1na251JmNvZGU9aXBzaWRhdGEmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0=%7C%7C"
+      },
+      {
+        "university_code": "U21",
+        "university_name": "국립경국대학교",
+        "item": "예천캠퍼스 공공수요인재대학 정시 농어촌학생전형 성적",
+        "reason": "원문 셀이 '-'(성적 미공개) → 기본 행(모집·지원·경쟁률·추합번호)만",
+        "url": "https://ipsi.gknu.ac.kr/bbs/bbs_download.php?type=0&download=h&seq=0&mv_data=aWR4PTMzODY4JnN0YXJ0UGFnZT0wJmxpc3RObz01MyZ0YWJsZT1jc19iYnNfZGF0YSZuYXZfY29kZT1hbmQxNTM3MjM0NTQ5JnNpdGVfY29kZT1na251JmNvZGU9aXBzaWRhdGEmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0=%7C%7C"
+      },
+      {
+        "university_code": "U21",
+        "university_name": "국립경국대학교",
+        "item": "2026학년도 정시 기계·기술교육학부 기술교육전공, 수시 K-컬처학전공·기술교육전공",
+        "reason": "2027학년도 신설 전공으로 2026 원문 셀이 '-' → 행 없음",
+        "url": "https://ipsi.gknu.ac.kr/bbs/bbs_download.php?type=0&download=h&seq=0&mv_data=aWR4PTMzODY4JnN0YXJ0UGFnZT0wJmxpc3RObz01MyZ0YWJsZT1jc19iYnNfZGF0YSZuYXZfY29kZT1hbmQxNTM3MjM0NTQ5JnNpdGVfY29kZT1na251JmNvZGU9aXBzaWRhdGEmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0=%7C%7C"
+      },
+      {
+        "university_code": "U221",
+        "university_name": "목포가톨릭대학교",
+        "item": "2026학년도 등록자 성적(교과등급·수능 등)·충원(추가합격) 인원",
+        "reason": "입학처 '지난입시결과'(수시 IPSI_SUSI, 정시 IPSI_JUNGSI) 게시판의 2026학년도 글은 '경쟁률 현황'(모집·지원·경쟁률) 이미지뿐이며 성적·충원 자료는 게시되어 있지 않음. 입학자료실·공지사항 첫 쪽에도 2026 입시결과(성적) 글 없음.",
+        "url": "https://www.mcu.ac.kr/ipsi/bb/bbBoard.php?boardID=IPSI_SUSI&pageID=ipsi0102000000"
+      },
+      {
+        "university_code": "U221",
+        "university_name": "목포가톨릭대학교",
+        "item": "원서접수 경쟁률(대행사)",
+        "reason": "입학처 메인 퀵메뉴의 수시·정시 '경쟁률' 링크는 외부 대행사 도메인(ratio.uwayapply.com)이라 요청·사용하지 않음.",
+        "url": "http://ratio.uwayapply.com/Sl5KOkxNSmYlJjomSjdmVGY="
+      },
+      {
+        "university_code": "U221",
+        "university_name": "목포가톨릭대학교",
+        "item": "정시 나·다군",
+        "reason": "정시 이미지는 '정시 가군 지원자 현황'만 있음(다른 군 모집 없음/자료 없음 여부는 원문으로 확인 불가).",
+        "url": "https://www.mcu.ac.kr/ipsi/bb/bbBoard.php?action=view&pageID=ipsi0202000000&SEQ=917504&movePage=1&boardID=IPSI_JUNGSI"
+      },
+      {
+        "university_code": "U235",
+        "university_name": "동명대학교",
+        "item": "2026학년도 수시모집 입시결과 첨부 PDF/XLSX(2026학년도 수시모집 입시결과.pdf/.xlsx)",
+        "reason": "첨부 링크가 href='?mode=download' + data-article/data-attach 속성으로 되어 있어 JS가 주소를 조립해야 내려받을 수 있음. 지시서 규칙(JS 주소 조립 금지)에 따라 요청하지 않음. 같은 게시글 본문에 정적 링크로 실린 표 이미지만 사용. 첨부에 이미지보다 많은 항목(모집·지원 인원 등)이 있을 수 있으나 확인 못 함.",
+        "url": "https://www.tu.ac.kr/iphak/sub01_05.do?mode=view&articleNo=149367&article.offset=0&articleLimit=10"
+      },
+      {
+        "university_code": "U235",
+        "university_name": "동명대학교",
+        "item": "2026학년도 정시모집 입시결과 첨부 PDF/XLSX(2026학년도 정시모집 입시결과.pdf/.xlsx)",
+        "reason": "수시와 동일(JS 다운로드 전용 첨부). 본문 이미지만 사용.",
+        "url": "https://www.tu.ac.kr/iphak/sub01_05.do?mode=view&articleNo=149368&article.offset=0&articleLimit=10"
+      },
+      {
+        "university_code": "U235",
+        "university_name": "동명대학교",
+        "item": "모집인원·지원인원·충원(추가합격) 인원",
+        "reason": "본문 이미지에 모집인원·지원인원 열이 없음. '충원발표' 열은 충원 인원인지 마지막 예비번호인지 원문에 정의가 없어 extra_admitted_count에 넣지 않고 지표 행(OTHER)으로 둠.",
+        "url": "https://www.tu.ac.kr/iphak/sub01_05.do?mode=view&articleNo=149367&article.offset=0&articleLimit=10"
+      },
+      {
+        "university_code": "U235",
+        "university_name": "동명대학교",
+        "item": "시각디자인학과·웹툰애니메이션학부 실기 성적",
+        "reason": "수시 '특성화고교과 / 실기'·정시의 평균등급/평균점수·70% CUT 칸이 '실기'(숫자 아님)로 표기돼 지표 행을 만들지 않음.",
+        "url": "https://www.tu.ac.kr/_attach/tongmyong/editor-image/2026/09/yotCWyTNHLveDvCuzkXkZwjhyK.png"
+      },
+      {
+        "university_code": "U235",
+        "university_name": "동명대학교",
+        "item": "2026학년도 최종 경쟁률(외부 대행사)",
+        "reason": "입학처 메인의 최종 경쟁률 링크는 외부 대행사 도메인(addon.jinhakapply.com)이라 수치 미사용·미요청.",
+        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio30050681.html"
+      },
+      {
+        "university_code": "U239",
+        "university_name": "중원대학교",
+        "item": "2026학년도 정시모집 입시결과",
+        "reason": "입학처 정시 > 입시결과 게시판(category=regular)에는 \"2016학년도 정시모집 입시결과(최종등록 기준)\" 1건만 있음. 2026학년도 정시 결과 미게시.",
+        "url": "https://ipsi.jwu.ac.kr/boards/admission-results?category=regular"
+      },
+      {
+        "university_code": "U239",
+        "university_name": "중원대학교",
+        "item": "2026학년도 정시모집 경쟁률",
+        "reason": "입학처 정시 > 경쟁률 게시판의 \"2026학년도 정시모집 경쟁률\"은 외부 대행사 도메인(진학어플라이) 링크라 수치 사용하지 않음.",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11920231.html"
+      },
+      {
+        "university_code": "U239",
+        "university_name": "중원대학교",
+        "item": "수시 지원인원·충원(추가합격) 인원",
+        "reason": "원문은 모집인원·경쟁률·교과등급(50%, 최저)·충원순위만 제공. 지원인원 없음(경쟁률 재계산 불가), 충원 인원 대신 \"충원 순위\"만 있어 extra_admitted_count=null, 값은 OTHER 지표 행.",
+        "url": "https://ipsi.jwu.ac.kr/boards/admission-results/114"
+      },
+      {
+        "university_code": "U240",
+        "university_name": "우송대학교",
+        "item": "2026학년도 등록인원·충원(추가합격) 인원",
+        "reason": "원문 두 자료 모두 등록인원·충원 인원 열 없음. '후보순위'만 있어 extra_admitted_count는 전부 null.",
+        "url": "https://ent.wsu.ac.kr/board/read.jsp?id=266163&code=einfo0201"
+      },
+      {
+        "university_code": "U240",
+        "university_name": "우송대학교",
+        "item": "성적결과표에 없는 모집단위·전형의 성적",
+        "reason": "성적결과표(2027학년도 모집단위 기준 행)에 컴퓨터·소프트웨어전공 행이 없음. 정시 성적결과는 전형 구분 없이 모집단위당 1행이며 값이 일반전형과 일치 — 정시 교과전형(3개 모집단위)·전형외의 성적은 없음. 글로벌제과제빵학과는 '신설학과'로 값 없음.",
+        "url": "https://ent.wsu.ac.kr/board/read.jsp?id=267260&code=einfo0201"
+      },
+      {
+        "university_code": "U240",
+        "university_name": "우송대학교",
+        "item": "정원외 전형 경쟁률",
+        "reason": "지원현황·성적결과표 모두 정원외(농어촌·특성화·기초생활)에는 경쟁률 열이 없어 competition_rate=null(계산하지 않음).",
+        "url": "https://ent.wsu.ac.kr/board/read.jsp?id=266161&code=einfo0201"
+      },
+      {
+        "university_code": "U244",
+        "university_name": "경운대학교",
+        "item": "2026학년도 수시모집 입시결과(성적자료)",
+        "reason": "수시 공지사항 게시글 '[입시결과]2026학년도 수시모집 성적자료'(2026-06-04, 입학홍보처)의 첨부(PDF 1, JPG 2)는 목록에 정적 링크로 있으나 /jfile/readFile.tc 경로가 robots.txt(HTTP 200)에서 우리 UA에 대해 Disallow → robots 차단, 수집하지 않음. 게시글 본문은 JS(selectBoardDetail) 전용이라 열지 않음",
+        "url": "https://www.ikw.ac.kr/jfile/readFile.tc?fileId=JF00000082216&fileSeq=1"
+      },
+      {
+        "university_code": "U244",
+        "university_name": "경운대학교",
+        "item": "2026학년도 수시모집 최종 경쟁률(지원현황)",
+        "reason": "수시 지원현황(게시판)에는 2027학년도 글만 정적으로 보이고 이전 글은 JS(selectBoardDetail) 전용 → JS 전용",
+        "url": "https://www.ikw.ac.kr/ipsi/page/link.tc?mn=2412&pageSeq=1607"
+      },
+      {
+        "university_code": "U244",
+        "university_name": "경운대학교",
+        "item": "2026학년도 정시 등록자 성적·충원",
+        "reason": "정시 입시결과(성적) 게시물을 정시 공지사항·지원현황 게시판 정적 목록에서 찾지 못함. 수집한 정시 자료는 최종 경쟁률(모집·지원·경쟁률)뿐",
+        "url": "https://www.ikw.ac.kr/ipsi/board/list.tc?mn=2416&mngNo=12&pageSeq=2111"
+      },
+      {
+        "university_code": "U244",
+        "university_name": "경운대학교",
+        "item": "정시 지원현황 안내 이미지(PNG)",
+        "reason": "게시글 첨부 이미지(/jfile/readFile.tc?fileId=JF00000077550)는 robots 차단 경로라 받지 않음. 본문 HTML 표만 사용",
+        "url": "https://www.ikw.ac.kr/jfile/readFile.tc?fileId=JF00000077550&fileSeq=1"
+      },
+      {
+        "university_code": "U2712",
+        "university_name": "신한대학교",
+        "item": "지원인원·충원(추가합격) 인원",
+        "reason": "수시·정시 입시결과 PDF에 지원인원 열과 충원합격 인원 열이 없음(모집인원·경쟁률·성적·'예비'만). applicant_count·extra_admitted_count는 null.",
+        "url": "https://ipsi.shinhan.ac.kr/cmm/fms/FileRead.do?atchFileId=FILE_000000000000083&fileSn=1"
+      },
+      {
+        "university_code": "U2712",
+        "university_name": "신한대학교",
+        "item": "2026학년도 전형·모집단위별 최종 경쟁률(입학처 '경쟁률' 메뉴)",
+        "reason": "입학처 수시/정시 '경쟁률' 메뉴가 외부 대행사 도메인(진학어플라이)으로 연결됨. 요청·사용하지 않음(입시결과 PDF의 경쟁률만 사용).",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11870871.html"
+      },
+      {
+        "university_code": "U2712",
+        "university_name": "신한대학교",
+        "item": "게시일(published_at)",
+        "reason": "'최근입시결과' 페이지는 게시판이 아닌 연도 탭형 PDF 뷰어로 게시일 표기가 없음. PDF 메타데이터 생성일(2026-04-26)은 게시일이 아니므로 사용하지 않고 null.",
+        "url": "https://ipsi.shinhan.ac.kr/adm/info.do?cateId=6&bbsId=BBSMSTR_000000000065&relateImagePath=svis_1"
+      },
+      {
+        "university_code": "U2949",
+        "university_name": "홍익대학교(세종캠퍼스)",
+        "item": "2026학년도 수시모집 경쟁률(접수 마감 경쟁률) 게시물",
+        "reason": "입학처 '경쟁률' 게시판(수시)의 '2026학년도 수시모집 경쟁률(서울캠퍼스/세종캠퍼스)' 게시물은 외부 대행사 도메인(addon.jinhakapply.com) 경쟁률 페이지로 연결된다. 대행사 도메인이므로 요청·사용하지 않음. 모집인원·지원자수·경쟁률은 입학처 '입시성적' 게시판의 입학전형 결과 PDF 값을 사용.",
+        "url": "https://www.hongik.ac.kr/kr/admission/competition-rate.do"
+      },
+      {
+        "university_code": "U2949",
+        "university_name": "홍익대학교(세종캠퍼스)",
+        "item": "2026학년도 정시모집 모집인원·지원자수·경쟁률·추가합격 결과",
+        "reason": "입학처 '입시성적' 게시판의 2026학년도 게시물은 수시 입학전형 결과와 '수시 및 정시모집 일반전형 신입생 학생부 및 수능표준점수 평균' 2건뿐이며, 정시 모집인원·지원·경쟁률 결과표는 없다. '경쟁률(정시)' 게시판도 외부 대행사(jinhakapply.com) 링크 형식. '추가합격률' 게시판은 2024·2025학년도 게시물만 있고 2026학년도 없음. 정시는 수능 평균 점수 지표 행만 수록.",
+        "url": "https://www.hongik.ac.kr/kr/admission/entrance-point.do"
+      },
+      {
+        "university_code": "U31",
+        "university_name": "한국교원대학교",
+        "item": "입학전형결과 게시판 전용 첨부 '[한국교원대] 2026학년도 입학전형 결과 자료(수시).pdf' / '(정시).pdf'",
+        "reason": "robots 차단. 게시글(입학도우미 > 입학전형결과, '2026학년도 신입생 입학전형 결과(수시, 정시) 공개', WebSearch로 확인)은 받았으나 첨부 다운로드(./downloadBbsFile.do?atchmnflNo=83674, 83675)와 미리보기(previewBbsFile.do)가 www.knue.ac.kr/robots.txt의 'Disallow: /*downloadBbsFile.do', '/*previewBbsFile.do'에 걸려 IpsiFetcher가 거부함. 대신 같은 입학학생처가 게시한 2027학년도 모집요강 PDF(robots 허용)의 참고자료 '2026학년도 … 입학전형 결과'를 원문으로 사용. 전용 결과 PDF와 내용이 같은지는 확인하지 못함.",
+        "url": "https://www.knue.ac.kr/ipsi/selectBbsNttView.do?key=1835&bbsNo=271&nttNo=80973"
+      },
+      {
+        "university_code": "U31",
+        "university_name": "한국교원대학교",
+        "item": "충원(추가합격) 인원",
+        "reason": "원문에는 '충원합격 순위'만 있고 충원 인원 열이 없음 → extra_admitted_count=null, 순위는 지표 행(OTHER)으로 기록.",
+        "url": "https://www.knue.ac.kr/site/ipsi/file/cts1802_pdf02.pdf"
+      },
+      {
+        "university_code": "U31",
+        "university_name": "한국교원대학교",
+        "item": "수시 특별전형 합격자·등록자 성적, 정시 전형명",
+        "reason": "특별전형 표는 지원자 교과 평균(지역인재)·제1단계 합격자 교과 평균만 공개(소수 인원·경쟁률 3:1 이하 학과 비공개). 정시 표에는 전형명·모집군 열이 없음.",
+        "url": "https://www.knue.ac.kr/DATA/contents/main/20260827091948737_CUyG.pdf"
+      },
+      {
+        "university_code": "U31",
+        "university_name": "한국교원대학교",
+        "item": "외부 대행사 경쟁률",
+        "reason": "WebSearch에 진학어플라이(addon.jinhakapply.com) 2026 수시 경쟁률 페이지가 나왔으나 외부 대행사 도메인이라 요청·사용하지 않음(URL만 기록).",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11480351.html"
+      },
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "2026학년도 게시글 상세(본문) 페이지",
+        "reason": "게시판 제목은 POST 폼(selectBoardArticle.do)으로만 열려 상세 페이지는 요청하지 않음(POST 금지). 목록 HTML의 첨부 정적 링크(/cmm/fms/FileDown.do)로 원문 파일을 받음. published_at은 목록의 등록일.",
+        "url": "https://www.ut.ac.kr/cop/bbs/BBSMSTR_000000000663/selectBoardList.do?kind=%EC%88%98%EC%8B%9C&mno=sub01_03"
+      },
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "2026학년도 수시 경쟁률(외부 링크)",
+        "reason": "입학처 메인의 경쟁률 링크는 외부 대행사 도메인(진학어플라이)이므로 수치 사용하지 않음(2027학년도 수시 경쟁률 링크였음).",
+        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio30150631.html"
+      },
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "정시 모집군(가/나/다)",
+        "reason": "2026 정시 입시결과 원문에 군 정보가 없어 group=null.",
+        "url": "https://www.ut.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000287404&fileSn=0"
+      },
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "충원(추가합격) 인원",
+        "reason": "원문은 \"예비 순위\"(예비순위)만 제공 → extra_admitted_count는 null, 값은 지표 행(OTHER)으로 저장.",
+        "url": null
+      },
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "2026 정시 일반전형 외 다른 전형(정원외 등) 결과",
+        "reason": "정시 원문에는 \"정시-일반전형\" 표 1개만 있음.",
+        "url": "https://www.ut.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000287404&fileSn=0"
+      },
+      {
+        "university_code": "U39",
+        "university_name": "국립한밭대학교",
+        "item": "등록인원 1명 모집단위 성적, 등록인원 2~3명 모집단위의 50%컷/70%컷",
+        "reason": "원문 안내: \"등록인원이 1명인 모집단위 성적은 공개하지 않음\", \"2명~3명인 모집단위 성적은 평균에 한해 공개\". 해당 칸은 빈칸이라 행 없음.",
+        "url": "https://www.hanbat.ac.kr/prog/bbsArticle/BBSMSTR_000000000119/view.do?nttId=B000000165276Ol2oP1r&mno=sub01_02"
+      },
+      {
+        "university_code": "U39",
+        "university_name": "국립한밭대학교",
+        "item": "2026학년도 수시/정시 원서접수 최종 경쟁률(별도 공고)",
+        "reason": "입시결과 xlsx의 모집·지원·경쟁률 열로 수집. 별도 경쟁률 게시물은 찾지 않음(입학처 경쟁률·성적산출 링크는 외부 도메인 addon.jinhakapply.com).",
+        "url": "https://addon.jinhakapply.com/nesin/3004/2026/sn.html"
+      },
+      {
+        "university_code": "U39",
+        "university_name": "국립한밭대학교",
+        "item": "2026학년도 추가모집·편입학 결과",
+        "reason": "수시/정시가 아니므로 수집 대상 아님(xlsx에도 없음).",
+        "url": "https://www.hanbat.ac.kr/bbs/BBSMSTR_000000000119/list.do?mno=sub01_02&kind=notice1"
+      },
+      {
+        "university_code": "U53",
+        "university_name": "건국대학교(글로컬캠퍼스)",
+        "item": "2026학년도 수시모집 지원현황(최종 경쟁률)",
+        "reason": "입학처 경쟁률 게시판의 해당 글은 외부 대행사 도메인(addon.jinhakapply.com) 링크라 요청·사용하지 않음. 수시 경쟁률은 입학처 PDF(3개년 입시결과 비교)의 2026 모집·지원·경쟁률로 대체.",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10091041.html"
+      },
+      {
+        "university_code": "U53",
+        "university_name": "건국대학교(글로컬캠퍼스)",
+        "item": "2026학년도 정시모집 지원현황 / 추가모집 지원현황",
+        "reason": "외부 대행사 도메인(addon.jinhakapply.com) 링크라 요청·사용하지 않음.",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10091121.html"
+      },
+      {
+        "university_code": "U53",
+        "university_name": "건국대학교(글로컬캠퍼스)",
+        "item": "정시 모집군(가/나/다) 및 정시 전형명",
+        "reason": "정시 PDF에 모집군과 전형명 열이 없음 → group=null, type_name은 문서 제목의 '정시모집'으로 기록(각주에 '정시-일반학생전형(비실기)' 언급만 있음).",
+        "url": "https://enter.kku.ac.kr/upload_data/board/B_1_3/20260811105523_32.pdf"
+      },
+      {
+        "university_code": "U62",
+        "university_name": "경성대학교",
+        "item": "2026학년도 정시모집 입시결과",
+        "reason": "robots 차단: 수시 결과 표 머리말에 '2026학년도 수시모집, 정시모집 입시결과의 보다 자세한 자료는 경성대학교 입학홈페이지에서 확인 가능'이라고 되어 있으나, 입학처 게시판(자료실·공지사항: /ipsi/CMS/Board/Board.do?mCode=MN027·MN033·MN028·MN034·MN071)은 ks.ac.kr·kscms.ks.ac.kr 두 호스트 모두 robots.txt가 Board.do 경로를 불허. 2027학년도 정시모집요강 PDF(92쪽, https://ks.ac.kr/ipsi/ajx_json/UploadMgr/downloadRun.do?qcode=Q29udGVudE1nciwyMTA4NzIsWQ==)에는 2026 입시결과 표가 없음.",
+        "url": "https://kscms.ks.ac.kr/ipsi/CMS/Board/Board.do?mCode=MN033"
+      },
+      {
+        "university_code": "U62",
+        "university_name": "경성대학교",
+        "item": "2026학년도 수시 상세 입시결과(입학홈페이지 자료실)",
+        "reason": "robots 차단(자료실 MN027 Board.do 불허). 모집요강 수록본(6개 전형)만 수집. 실기특별전형·농어촌·저소득층·특성화고동일계·사회배려대상자·지역인재(저소득층)·체육특기자 등은 모집요강 수록 표에 없음.",
+        "url": "https://kscms.ks.ac.kr/ipsi/CMS/Board/Board.do?mCode=MN027"
+      },
+      {
+        "university_code": "U62",
+        "university_name": "경성대학교",
+        "item": "지원인원(applicant_count)",
+        "reason": "원문 표에 지원자 수 열이 없고 지원율만 있어 applicant_count는 모두 null(환산하지 않음).",
+        "url": "https://ks.ac.kr/ipsi/ajx_json/UploadMgr/downloadRun.do?qcode=Q29udGVudE1nciwyMDkxMDEsWQ=="
+      },
+      {
+        "university_code": "U72",
+        "university_name": "가톨릭관동대학교",
+        "item": "2026학년도 수시·정시 최종 경쟁률(입학처 메인 \"경쟁률\" 링크)",
+        "reason": "입학처 메인 경쟁률 링크는 외부 대행사 도메인(ratio.uwayapply.com)이라 수집하지 않음. 입시결과 PDF에 2026 모집·지원·경쟁률이 있어 그것만 사용.",
+        "url": "https://ratio.uwayapply.com/Sl5KOjlMSmYlJjomSjdmVGY="
+      },
+      {
+        "university_code": "U72",
+        "university_name": "가톨릭관동대학교",
+        "item": "정원외 전형(농어촌학생·기초생활 및 차상위) 모집단위별 모집인원·경쟁률",
+        "reason": "원문이 모집인원을 모집단위별로 주지 않고 'N이내'(예: 3이내, 6이내) 또는 '(2026) 통합37'/'통합27'처럼 병합셀로만 표기하고 경쟁률 칸은 비어 있음. recruit_count·competition_rate=null(추측 안 함). 지원·예비충원·등록·등급만 담음.",
+        "url": "https://ipsi.cku.ac.kr/bbs/iphak/1060/151141/download.do"
+      },
+      {
+        "university_code": "U72",
+        "university_name": "가톨릭관동대학교",
+        "item": "학생부종합 성인학습자·재직자·외국인, 선취업후진학자·만학도 등 전형",
+        "reason": "입시결과 PDF(2026학년도 입시결과)에 해당 전형 결과표가 없음.",
+        "url": "https://ipsi.cku.ac.kr/bbs/iphak/1060/364539/artclView.do?layout=unknown"
+      },
+      {
+        "university_code": "U72",
+        "university_name": "가톨릭관동대학교",
+        "item": "2026학년도 추가모집 결과",
+        "reason": "입시결과 PDF에 추가모집 결과 없음(입학처 게시판 목록에서도 별도 2026 추가모집 결과 게시물 확인 못함).",
+        "url": "https://ipsi.cku.ac.kr/iphak/index.do"
+      },
+      {
+        "university_code": "U80",
+        "university_name": "극동대학교",
+        "item": "게시글 첨부파일",
+        "reason": "두 게시글 모두 첨부파일 칸이 비어 있고 결과표는 본문 이미지(PNG)로만 게시됨. 이미지 판독(수기 전사)으로 수집.",
+        "url": "https://www.kdu.ac.kr/ipsi/sub.do?mncd=1363&mode=view&no=527802950"
+      },
+      {
+        "university_code": "U80",
+        "university_name": "극동대학교",
+        "item": "수시 기타 전형(만학도·재외국민 등) 및 정시 기타 전형",
+        "reason": "게시 이미지에 해당 표 없음.",
+        "url": "https://www.kdu.ac.kr/ipsi/sub.do?mncd=1363&mode=view&no=527812384"
+      },
+      {
+        "university_code": "U80",
+        "university_name": "극동대학교",
+        "item": "모집단위별 합계 행",
+        "reason": "원문 이미지에 합계·소계 행이 없어 원문 합계 대조 불가(행 합계와 경쟁률 재계산으로 검산).",
+        "url": "https://www.kdu.ac.kr/ipsi/sub.do?mncd=1363&mode=view&no=527802950"
+      },
+      {
+        "university_code": "U84",
+        "university_name": "대구대학교",
+        "item": "2026학년도 정시모집 전형 결과(환산점수, 수능 백분위, 등급) — 정시 자료실 2026-05-21 게시",
+        "reason": "JS 전용: 정시 자료실 목록(정적 HTML)에 제목은 있으나 링크가 onclick=article.view('19901')뿐이고 정적 href가 없다. WebSearch(allowed_domains ipsi.daegu.ac.kr)로도 게시글 주소를 찾지 못해 요청하지 않음(JS 주소 조립 금지).",
+        "url": "https://ipsi.daegu.ac.kr/kor/article/ATCL8"
+      },
+      {
+        "university_code": "U84",
+        "university_name": "대구대학교",
+        "item": "2026학년도 수시/정시 최종 경쟁률(입시서비스 > 연도별 최종 경쟁률, 2026-08-10 게시)",
+        "reason": "JS 전용: 목록 페이지(정적 링크로 접근)에 제목만 있고 게시글 링크가 onclick=article.view('20631')뿐. WebSearch로도 주소 미확인. 따라서 지원자 수·정시 경쟁률은 수집하지 못함.",
+        "url": "https://ipsi.daegu.ac.kr/kor/article/ATCL7079a7800"
+      },
+      {
+        "university_code": "U84",
+        "university_name": "대구대학교",
+        "item": "수시 지원자 수·충원(추가합격) 인원",
+        "reason": "수집한 수시 결과표에는 2026 모집인원·경쟁률·추가합격순위만 있고 지원자 수와 충원 인원 열이 없음. 추가합격순위는 extra_admitted_count가 아닌 지표 행(OTHER)으로 저장.",
+        "url": "https://ipsi.daegu.ac.kr/attach/4f07f1bc883c5ed3a5f2810a1615e214/778bdbf5db9ced7c8fd52756c00bf0cd"
+      },
+      {
+        "university_code": "U84",
+        "university_name": "대구대학교",
+        "item": "(참고) 전 과목 진로선택 제외 등급 평균(학생부교과 일반·지역인재)",
+        "reason": "원문이 범위 문자열('5~7' 등)로만 표시해 숫자 하나로 저장할 수 없어 행을 만들지 않음(원문 주석: 5.3 → 4~6처럼 범위로 표시).",
+        "url": "https://ipsi.daegu.ac.kr/attach/4f07f1bc883c5ed3a5f2810a1615e214/778bdbf5db9ced7c8fd52756c00bf0cd"
+      },
+      {
+        "university_code": "U84",
+        "university_name": "대구대학교",
+        "item": "그 밖의 수시 전형(실기/실적, 정원외 등)",
+        "reason": "원문이 '학생부위주 주요 전형'(교과 일반·지역인재, 종합 서류·지역인재)만 공개. 학생부종합(지역인재전형)은 2027 모집인원만 있고 2026 결과 없음(비고 '전형 신설') → 행 없음.",
+        "url": "https://ipsi.daegu.ac.kr/kor/article/ATCL7/19900?mno=&pageIndex=1&searchCategory=&searchCondition=1&searchKeyword="
+      },
+      {
+        "university_code": "U84",
+        "university_name": "대구대학교",
+        "item": "수시·정시 성적산출 서비스",
+        "reason": "외부 대행사 도메인(jinhakapply.com) — 사용하지 않음.",
+        "url": "https://addon.jinhakapply.com/Nesin/1044/2027/Susi.html"
+      },
+      {
+        "university_code": "U95",
+        "university_name": "대전대학교",
+        "item": "2026학년도 수시모집 입시결과(게시글 \"(2024~2026학년도) 신입학 수시모집 입시결과\", 첨부 \"(2024~2026) 대전대학교 신입학 수시 성적분석자료_업로드용.pdf\")",
+        "reason": "JS 전용 — 수시 입시결과 게시판 목록의 게시글 링크가 href=\"#\" onclick=\"viewBoardProcess('15728','A')\"뿐이고, 입학처 메인·수시/정시/입시도우미 자료실·공지사항 정적 HTML 어디에도 이 게시글/첨부의 정적 링크가 없음. WebSearch로도 공개 주소를 찾지 못함. JS 인자로 주소를 조립하지 않음.",
+        "url": "https://ipsi.dju.ac.kr/enter/html/rolling/result.asp"
+      },
+      {
+        "university_code": "U95",
+        "university_name": "대전대학교",
+        "item": "2026학년도 수시모집 최종 경쟁률",
+        "reason": "입학처 메인의 경쟁률 링크는 외부 대행사 도메인(addon.jinhakapply.com, 2027학년도). 2026 수시 경쟁률 게시글은 수시 입시결과 게시판 목록 첫 화면에 없음(2027·2021학년도 지원현황만 노출).",
+        "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10501131.html"
+      },
+      {
+        "university_code": "U95",
+        "university_name": "대전대학교",
+        "item": "정시 모집단위 15곳 결과(패션디자인·비즈니스학과, 뷰티디자인학과, 커뮤니케이션디자인학과, 웹툰애니메이션학과, 공연예술영상콘텐츠학과, 군사학과(여), 경찰학과, 법·행정학부, 상담학과, 건축공학과, 재난안전공학전공, 소방방재학과, 체육학전공, 보건의료경영학과, 화장품학과)",
+        "reason": "원문 표에서 모집군만 있고 나머지 칸이 회색 빈칸(설명 없음). 행을 만들지 않음.",
+        "url": "https://ipsi.dju.ac.kr/enter/html/rolling/resultView.asp?p_board_idx=15954"
+      },
+      {
+        "university_code": "U95",
+        "university_name": "대전대학교",
+        "item": "정시 실기위주전형 등 전형별 구분",
+        "reason": "원문 표 머리글이 \"일반전형 / 지역인재전형 / 군사학과전형 / 실기위주전형\"을 한 표로 묶어 모집단위별 전형 구분을 주지 않음(지역인재는 모집단위명의 \"(지역인재)\" 표기로만 구분).",
+        "url": "https://ipsi.dju.ac.kr/enter/html/rolling/resultView.asp?p_board_idx=15954"
+      }
+    ],
+    "per_university": [
+      {
+        "university_key": "hanshin",
+        "university_code": "HANSHIN",
+        "university_name": "한신대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 637,
+        "base_rows": 113,
+        "metric_rows": 524,
+        "metric_labels": 7,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 632,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 논술전형",
+            "sum_of_rows": 261,
+            "source_total": 261,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '계' 행 모집 261·지원 1,537·경쟁률 5.89와 행 합계(모집 261) 일치, 지원 합계도 일치"
+          },
+          {
+            "scope": "SUSI 참인재전형",
+            "sum_of_rows": 296,
+            "source_total": 296,
+            "source_page": 3,
+            "match": true,
+            "note": "원문 '계' 행 모집 296·지원 1,794·경쟁률 6.06와 행 합계(모집 296) 일치, 지원 합계도 일치"
+          },
+          {
+            "scope": "SUSI 학생부우수자전형",
+            "sum_of_rows": 314,
+            "source_total": 314,
+            "source_page": 4,
+            "match": true,
+            "note": "원문 '계' 행 모집 314·지원 1,499·경쟁률 4.77와 행 합계(모집 314) 일치, 지원 합계도 일치"
+          },
+          {
+            "scope": "SUSI 학교장추천전형",
+            "sum_of_rows": 55,
+            "source_total": 55,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '계' 행 모집 55·지원 542·경쟁률 9.85와 행 합계(모집 55) 일치, 지원 합계도 일치"
+          },
+          {
+            "scope": "SUSI 체육실기전형",
+            "sum_of_rows": 22,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(모집단위 1개: 특수체육학)"
+          },
+          {
+            "scope": "SUSI 사회배려자전형",
+            "sum_of_rows": 62,
+            "source_total": 62,
+            "source_page": 6,
+            "match": true,
+            "note": "원문 '계' 행 모집 62·지원 324·경쟁률 5.23와 행 합계(모집 62) 일치, 지원 합계도 일치"
+          },
+          {
+            "scope": "SUSI 고른기회전형",
+            "sum_of_rows": 63,
+            "source_total": 63,
+            "source_page": 7,
+            "match": true,
+            "note": "원문 '계' 행 모집 63·지원 245·경쟁률 3.89와 행 합계(모집 63) 일치, 지원 합계도 일치"
+          },
+          {
+            "scope": "SUSI 기회균형선발전형(정원외)",
+            "sum_of_rows": 26,
+            "source_total": 26,
+            "source_page": 8,
+            "match": true,
+            "note": "원문 '계' 행 모집 26·지원 147·경쟁률 5.65와 행 합계(모집 26) 일치, 지원 합계도 일치"
+          },
+          {
+            "scope": "SUSI 농어촌학생전형(정원외)",
+            "sum_of_rows": 20,
+            "source_total": 20,
+            "source_page": 8,
+            "match": true,
+            "note": "원문 '계' 행 모집 20·지원 96·경쟁률 4.80와 행 합계(모집 20) 일치, 지원 합계도 일치"
+          },
+          {
+            "scope": "SUSI 특성화고교졸업자전형(정원외)",
+            "sum_of_rows": 17,
+            "source_total": 17,
+            "source_page": 8,
+            "match": true,
+            "note": "원문 '계' 행 모집 17·지원 97·경쟁률 5.71와 행 합계(모집 17) 일치, 지원 합계도 일치"
+          },
+          {
+            "scope": "JEONGSI 수능(일반학생) 전형",
+            "sum_of_rows": 150,
+            "source_total": 150,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '계' 행 모집 150·지원 1,275·경쟁률 8.50와 행 합계(모집 150) 일치, 지원 합계도 일치"
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "knsu",
+        "university_code": "KNSU",
+        "university_name": "한국체육대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 908,
+        "base_rows": 0,
+        "metric_rows": 908,
+        "metric_labels": 32,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 783,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 전체",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 원문에 모집인원·지원자·경쟁률·충원 열이 없어 기본 행 없음(recruit_count 합계 0). 참고: '학생부 인원'(최종등록자 수) 지표 합계 280"
+          },
+          {
+            "scope": "JEONGSI 전체",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 모집인원 열 없음(기본 행 없음). 참고: '학생부 인원' 지표 합계 196, '수능 인원' 지표 합계 202"
+          }
+        ],
+        "spot_checks": 6,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "kyonggi",
+        "university_code": "KYONGGI",
+        "university_name": "경기대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 3978,
+        "base_rows": 274,
+        "metric_rows": 3704,
+        "metric_labels": 42,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 2113,
+        "linked_2027_department_rows": 3621,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부교과(교과성적우수자전형)",
+            "sum_of_rows": 275,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 학생부교과(학교장추천전형)",
+            "sum_of_rows": 316,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 학생부교과(농어촌학생전형)",
+            "sum_of_rows": 88,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 학생부교과(기초생활수급자등선발전형)",
+            "sum_of_rows": 43,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 학생부종합(KGU학생부종합전형)",
+            "sum_of_rows": 682,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 학생부종합(SW우수자전형)",
+            "sum_of_rows": 15,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 학생부종합(기회균형선발전형)",
+            "sum_of_rows": 203,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 학생부종합(사회배려대상자전형)",
+            "sum_of_rows": 34,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 학생부종합(특수교육대상자전형)",
+            "sum_of_rows": 4,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 논술(논술우수자전형)",
+            "sum_of_rows": 239,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 실기/실적(예체능우수자전형)",
+            "sum_of_rows": 181,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 실기/실적(특성화고졸업자전형)",
+            "sum_of_rows": 4,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "SUSI 실기/실적 체육특기자전형",
+            "sum_of_rows": 32,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "JEONGSI 수능(일반학생전형) [가군]",
+            "sum_of_rows": 101,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "JEONGSI 수능(일반학생전형) [나군]",
+            "sum_of_rows": 211,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "JEONGSI 수능(일반학생전형) [다군]",
+            "sum_of_rows": 642,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "JEONGSI 수능(특성화고졸업자전형) [다군]",
+            "sum_of_rows": 22,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "JEONGSI 실기/실적(일반학생전형) [가군]",
+            "sum_of_rows": 10,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "JEONGSI 실기/실적(일반학생전형) [나군]",
+            "sum_of_rows": 21,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          },
+          {
+            "scope": "JEONGSI 실기/실적(일반학생전형) [다군]",
+            "sum_of_rows": 6,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF 표에 전형별·전체 합계 행 없음). 기본행 경쟁률을 지원인원÷모집인원으로 재계산해 전 기본행 일치(오차 0.011 이내) 확인"
+          }
+        ],
+        "spot_checks": 14,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      },
+      {
+        "university_key": "syu",
+        "university_code": "SYU",
+        "university_name": "삼육대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 356,
+        "base_rows": 67,
+        "metric_rows": 289,
+        "metric_labels": 9,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 338,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학교장추천",
+            "sum_of_rows": 136,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원 합계 1919"
+          },
+          {
+            "scope": "SUSI 세움인재",
+            "sum_of_rows": 240,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원 합계 3091"
+          },
+          {
+            "scope": "SUSI S/W인재",
+            "sum_of_rows": 30,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원 합계 238"
+          },
+          {
+            "scope": "JEONGSI 일반 가군",
+            "sum_of_rows": 158,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원 합계 1286"
+          },
+          {
+            "scope": "JEONGSI 농어촌 가군",
+            "sum_of_rows": 20,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원 합계 154"
+          },
+          {
+            "scope": "JEONGSI 일반 나군",
+            "sum_of_rows": 176,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원 합계 967"
+          },
+          {
+            "scope": "JEONGSI 농어촌 나군",
+            "sum_of_rows": 18,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원 합계 113"
+          },
+          {
+            "scope": "JEONGSI 일반 다군",
+            "sum_of_rows": 44,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원 합계 252"
+          },
+          {
+            "scope": "JEONGSI 농어촌 다군",
+            "sum_of_rows": 5,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원 합계 32"
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u103",
+        "university_code": "U103",
+        "university_name": "동서대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 4140,
+        "base_rows": 358,
+        "metric_rows": 3782,
+        "metric_labels": 29,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 2886,
+        "linked_2027_department_rows": 2015,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 수시(정원내) 시트",
+            "sum_of_rows": 1890,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(시트에 합계·소계 행 없음). 대신 기본 행마다 지원자수÷모집인원을 다시 계산해 원문 경쟁률(표시 자릿수)과 대조 — 전 시트 233행 불일치 0."
+          },
+          {
+            "scope": "SUSI 수시(정원외) 시트",
+            "sum_of_rows": 207,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(시트에 합계·소계 행 없음). 대신 기본 행마다 지원자수÷모집인원을 다시 계산해 원문 경쟁률(표시 자릿수)과 대조 — 전 시트 233행 불일치 0."
+          },
+          {
+            "scope": "SUSI 학생부종합 시트",
+            "sum_of_rows": 158,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(시트에 합계·소계 행 없음). 대신 기본 행마다 지원자수÷모집인원을 다시 계산해 원문 경쟁률(표시 자릿수)과 대조 — 전 시트 233행 불일치 0."
+          },
+          {
+            "scope": "JEONGSI 정시 시트",
+            "sum_of_rows": 263,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(시트에 합계·소계 행 없음). 대신 기본 행마다 지원자수÷모집인원을 다시 계산해 원문 경쟁률(표시 자릿수)과 대조 — 전 시트 233행 불일치 0."
+          },
+          {
+            "scope": "SUSI 수시(정원외) 농어촌출신자 모집단위 통합(영화과 ~ 자유전공학부)",
+            "sum_of_rows": 166,
+            "source_total": 44,
+            "source_page": null,
+            "match": true,
+            "note": "수시(정원외) 병합셀 모집인원 44·경쟁률 3.77 대조: 모집단위별 지원자수 합 166 ÷ 44 = 3.77 (sum_of_rows=지원자수 합)"
+          },
+          {
+            "scope": "SUSI 수시(정원외) 특성화동일계출신자 모집단위 통합(영화과 ~ 자유전공학부)",
+            "sum_of_rows": 122,
+            "source_total": 31,
+            "source_page": null,
+            "match": true,
+            "note": "수시(정원외) 병합셀 모집인원 31·경쟁률 3.94 대조: 모집단위별 지원자수 합 122 ÷ 31 = 3.94 (sum_of_rows=지원자수 합)"
+          },
+          {
+            "scope": "SUSI 수시(정원외) 고른기회전형 모집단위 통합(영화과 ~ 자유전공학부)",
+            "sum_of_rows": 193,
+            "source_total": 40,
+            "source_page": null,
+            "match": true,
+            "note": "수시(정원외) 병합셀 모집인원 40·경쟁률 4.83 대조: 모집단위별 지원자수 합 193 ÷ 40 = 4.83 (sum_of_rows=지원자수 합)"
+          },
+          {
+            "scope": "SUSI 수시(정원외) 성인학습자 모집단위 통합(영화과 ~ 자유전공학부)",
+            "sum_of_rows": 12,
+            "source_total": 20,
+            "source_page": null,
+            "match": true,
+            "note": "수시(정원외) 병합셀 모집인원 20·경쟁률 0.6 대조: 모집단위별 지원자수 합 12 ÷ 20 = 0.6 (sum_of_rows=지원자수 합)"
+          }
+        ],
+        "spot_checks": 9,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u10",
+        "university_code": "U10",
+        "university_name": "국립금오공과대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 2
+        },
+        "rows": 782,
+        "base_rows": 93,
+        "metric_rows": 689,
+        "metric_labels": 26,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 648,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부교과",
+            "sum_of_rows": 458,
+            "source_total": 458,
+            "source_page": null,
+            "source_cell": "학생부교과전형!C35",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "SUSI 지역인재",
+            "sum_of_rows": 206,
+            "source_total": 206,
+            "source_page": null,
+            "source_cell": "학생부교과전형!C60",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "SUSI 고른기회",
+            "sum_of_rows": 40,
+            "source_total": 40,
+            "source_page": null,
+            "source_cell": "학생부교과전형!C88",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "SUSI 농어촌학생",
+            "sum_of_rows": 49,
+            "source_total": 49,
+            "source_page": null,
+            "source_cell": "학생부교과전형!C117",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "SUSI 특성화고교출신자",
+            "sum_of_rows": 18,
+            "source_total": 18,
+            "source_page": null,
+            "source_cell": "학생부교과전형!C145",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "SUSI KIT인재",
+            "sum_of_rows": 222,
+            "source_total": 222,
+            "source_page": null,
+            "source_cell": "학생부종합전형!C34",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "SUSI 자율인재",
+            "sum_of_rows": 65,
+            "source_total": 65,
+            "source_page": null,
+            "source_cell": "학생부종합전형!C47",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "JEONGSI 일반학생",
+            "sum_of_rows": 274,
+            "source_total": 274,
+            "source_page": null,
+            "source_cell": "정시일반전형!E37",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "SUSI 학생부교과(특수교육대상자)",
+            "sum_of_rows": 11,
+            "source_total": 11,
+            "source_page": null,
+            "source_cell": "sheet1!N17",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "JEONGSI 농어촌학생 가군",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": null,
+            "source_cell": "sheet1!N20",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          },
+          {
+            "scope": "JEONGSI 농어촌학생 나군",
+            "sum_of_rows": 1,
+            "source_total": 1,
+            "source_page": null,
+            "source_cell": "sheet1!R20",
+            "match": true,
+            "note": "원문 '전체'/'총계' 행의 모집인원과 대조"
+          }
+        ],
+        "spot_checks": 11,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u113",
+        "university_code": "U113",
+        "university_name": "배재대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 1320,
+        "base_rows": 128,
+        "metric_rows": 1192,
+        "metric_labels": 11,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 787,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 교과전형",
+            "sum_of_rows": 1134,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "SUSI 일반고교과전형",
+            "sum_of_rows": 349,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "SUSI 지역인재Ⅰ전형",
+            "sum_of_rows": 89,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "SUSI 지역인재Ⅱ전형",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "SUSI 항공인재전형",
+            "sum_of_rows": 18,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "SUSI 농어촌학생 특별전형",
+            "sum_of_rows": 40,
+            "source_total": 40,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '계' 행이 유일한 행(정원외 통합모집). 표 안내문의 모집인원과도 대조"
+          },
+          {
+            "scope": "SUSI 특성화고교졸업자 특별전형",
+            "sum_of_rows": 25,
+            "source_total": 25,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '계' 행이 유일한 행(정원외 통합모집). 표 안내문의 모집인원과도 대조"
+          },
+          {
+            "scope": "SUSI 기초생활수급자및차상위전형 특별전형",
+            "sum_of_rows": 38,
+            "source_total": 38,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '계' 행이 유일한 행(정원외 통합모집). 표 안내문의 모집인원과도 대조"
+          },
+          {
+            "scope": "SUSI 장애인등대상자전형",
+            "sum_of_rows": 5,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "SUSI 체육특기자전형",
+            "sum_of_rows": 10,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "SUSI 예술인재전형",
+            "sum_of_rows": 167,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "SUSI 뷰티케어특기자전형",
+            "sum_of_rows": 15,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "SUSI 서류100전형",
+            "sum_of_rows": 78,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          },
+          {
+            "scope": "JEONGSI 일반전형",
+            "sum_of_rows": 201,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 검산 결과 불일치 0건"
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u114",
+        "university_code": "U114",
+        "university_name": "부산가톨릭대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 1
+        },
+        "rows": 643,
+        "base_rows": 93,
+        "metric_rows": 550,
+        "metric_labels": 16,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 643,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 교과성적우수자전형: 정원내",
+            "sum_of_rows": 242,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 기본 행 93개 전체에서 지원인원÷모집인원 재계산이 원문 경쟁률(소수 둘째 자리)과 불일치 0건."
+          },
+          {
+            "scope": "SUSI 농어촌학생전형: 정원외",
+            "sum_of_rows": 21,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 기본 행 93개 전체에서 지원인원÷모집인원 재계산이 원문 경쟁률(소수 둘째 자리)과 불일치 0건."
+          },
+          {
+            "scope": "SUSI 사회배려대상자전형: 정원외",
+            "sum_of_rows": 17,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 기본 행 93개 전체에서 지원인원÷모집인원 재계산이 원문 경쟁률(소수 둘째 자리)과 불일치 0건."
+          },
+          {
+            "scope": "SUSI 고교학생부전형: 정원내",
+            "sum_of_rows": 168,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 기본 행 93개 전체에서 지원인원÷모집인원 재계산이 원문 경쟁률(소수 둘째 자리)과 불일치 0건."
+          },
+          {
+            "scope": "SUSI 지역인재전형: 정원내",
+            "sum_of_rows": 125,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 기본 행 93개 전체에서 지원인원÷모집인원 재계산이 원문 경쟁률(소수 둘째 자리)과 불일치 0건."
+          },
+          {
+            "scope": "SUSI 자기추천전형: 정원내",
+            "sum_of_rows": 71,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 기본 행 93개 전체에서 지원인원÷모집인원 재계산이 원문 경쟁률(소수 둘째 자리)과 불일치 0건."
+          },
+          {
+            "scope": "SUSI 가톨릭지도자추천전형: 정원내",
+            "sum_of_rows": 28,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 기본 행 93개 전체에서 지원인원÷모집인원 재계산이 원문 경쟁률(소수 둘째 자리)과 불일치 0건."
+          },
+          {
+            "scope": "SUSI 기회균형대상자전형: 정원내",
+            "sum_of_rows": 38,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 기본 행 93개 전체에서 지원인원÷모집인원 재계산이 원문 경쟁률(소수 둘째 자리)과 불일치 0건."
+          },
+          {
+            "scope": "JEONGSI 일반전형(수능위주): 정원내",
+            "sum_of_rows": 69,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 기본 행 93개 전체에서 지원인원÷모집인원 재계산이 원문 경쟁률(소수 둘째 자리)과 불일치 0건."
+          }
+        ],
+        "spot_checks": 9,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u115",
+        "university_code": "U115",
+        "university_name": "부산외국어대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 135,
+        "base_rows": 27,
+        "metric_rows": 108,
+        "metric_labels": 9,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 128,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 전체(기본 행 recruit_count 합)",
+            "sum_of_rows": 1507,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 원문에 지원인원이 없어 경쟁률 재계산 검산 불가(모집·경쟁률만)."
+          },
+          {
+            "scope": "JEONGSI 수능위주 일반전형",
+            "sum_of_rows": 235,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 원문 각주 '※ 정시모집 최종 등록자 기준 모집인원'(모집 칸은 최종 등록자 기준 모집인원). 지원인원 없어 경쟁률 재계산 불가."
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u119",
+        "university_code": "U119",
+        "university_name": "상지대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 1457,
+        "base_rows": 187,
+        "metric_rows": 1270,
+        "metric_labels": 26,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 913,
+        "linked_2027_department_rows": 1235,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 교과일반",
+            "sum_of_rows": 861,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 교과강원인재",
+            "sum_of_rows": 112,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 교과강원인재균형",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 사회통합특별",
+            "sum_of_rows": 18,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 종합일반",
+            "sum_of_rows": 175,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 종합강원인재",
+            "sum_of_rows": 29,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 종합강원인재균형",
+            "sum_of_rows": 1,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 실기일반",
+            "sum_of_rows": 204,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 특기자",
+            "sum_of_rows": 24,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 농어촌학생",
+            "sum_of_rows": 57,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 교육기회균등",
+            "sum_of_rows": 25,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 수능일반",
+            "sum_of_rows": 228,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 수능강원인재",
+            "sum_of_rows": 1,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 수능강원인재균형",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 실기일반",
+            "sum_of_rows": 58,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 농어촌학생",
+            "sum_of_rows": 18,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 교육기회균등",
+            "sum_of_rows": 4,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u127",
+        "university_code": "U127",
+        "university_name": "서울장신대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 58,
+        "base_rows": 58,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 3,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 정원내 모집인원",
+            "sum_of_rows": 85,
+            "source_total": 85,
+            "source_page": null,
+            "cell": "수시 표 정원내 '합계' 행 모집인원",
+            "match": true
+          },
+          {
+            "scope": "SUSI 정원내 지원인원(합계 칸)",
+            "sum_of_rows": 134,
+            "source_total": 134,
+            "source_page": null,
+            "cell": "수시 표 정원내 '합계' 행 지원인원/합계",
+            "match": true
+          },
+          {
+            "scope": "SUSI 정원외 모집인원(제한없음 제외)",
+            "sum_of_rows": 12,
+            "source_total": 12,
+            "source_page": null,
+            "cell": "수시 표 정원외 맨 아래 합계 행",
+            "match": true
+          },
+          {
+            "scope": "SUSI 정원외 지원인원(합계 칸)",
+            "sum_of_rows": 8,
+            "source_total": 8,
+            "source_page": null,
+            "cell": "수시 표 정원외 맨 아래 합계 행",
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 정원내 모집인원",
+            "sum_of_rows": 39,
+            "source_total": 39,
+            "source_page": null,
+            "cell": "정시 표 '정원내 합계' 행",
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 정원내 지원인원",
+            "sum_of_rows": 95,
+            "source_total": 95,
+            "source_page": null,
+            "cell": "정시 표 '정원내 합계' 행",
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 정원외 모집인원(제한없음 제외)",
+            "sum_of_rows": 9,
+            "source_total": 9,
+            "source_page": null,
+            "cell": "정시 표 '정원외 합계' 행",
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 정원외 지원인원",
+            "sum_of_rows": 6,
+            "source_total": 6,
+            "source_page": null,
+            "cell": "정시 표 '정원외 합계' 행",
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 총 합계 모집/지원",
+            "sum_of_rows": [
+              48,
+              101
+            ],
+            "source_total": [
+              48,
+              101
+            ],
+            "source_page": null,
+            "cell": "정시 표 '총 합계' 행",
+            "match": true
+          }
+        ],
+        "spot_checks": 9,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u12",
+        "university_code": "U12",
+        "university_name": "국립목포해양대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 663,
+        "base_rows": 112,
+        "metric_rows": 551,
+        "metric_labels": 9,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 236,
+        "linked_2027_department_rows": 613,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 항해학부",
+            "sum_of_rows": 85,
+            "source_total": 85,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 598, 선발인원 81도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 해상운송학부",
+            "sum_of_rows": 84,
+            "source_total": 84,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 644, 선발인원 82도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 항해정보시스템학부",
+            "sum_of_rows": 61,
+            "source_total": 61,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 579, 선발인원 58도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 기관시스템공학부",
+            "sum_of_rows": 84,
+            "source_total": 84,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 739, 선발인원 81도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 해양경찰학부",
+            "sum_of_rows": 83,
+            "source_total": 83,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 798, 선발인원 76도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 해양메카트로닉스학부",
+            "sum_of_rows": 60,
+            "source_total": 60,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 811, 선발인원 58도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 해군사관학부",
+            "sum_of_rows": 30,
+            "source_total": 30,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 391, 선발인원 29도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 컴퓨터공학과",
+            "sum_of_rows": 35,
+            "source_total": 35,
+            "source_page": 3,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 121, 선발인원 24도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 조선해양공학과",
+            "sum_of_rows": 36,
+            "source_total": 36,
+            "source_page": 3,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 265, 선발인원 34도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 환경․생명공학과",
+            "sum_of_rows": 31,
+            "source_total": 31,
+            "source_page": 3,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 113, 선발인원 21도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 해양건설공학과",
+            "sum_of_rows": 35,
+            "source_total": 35,
+            "source_page": 3,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 156, 선발인원 31도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 해양스포츠학과",
+            "sum_of_rows": 22,
+            "source_total": 22,
+            "source_page": 4,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 63, 선발인원 17도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 해양산업융합학과",
+            "sum_of_rows": 24,
+            "source_total": 24,
+            "source_page": 4,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 33, 선발인원 23도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 첨단해양모빌리티학과",
+            "sum_of_rows": 24,
+            "source_total": 24,
+            "source_page": 4,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 125, 선발인원 23도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 항해학부",
+            "sum_of_rows": 12,
+            "source_total": 12,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 49, 선발인원 13도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 해상운송학부",
+            "sum_of_rows": 8,
+            "source_total": 8,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 38, 선발인원 10도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 항해정보시스템학부",
+            "sum_of_rows": 7,
+            "source_total": 7,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 28, 선발인원 9도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 기관시스템공학부",
+            "sum_of_rows": 10,
+            "source_total": 10,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 49, 선발인원 11도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 해양경찰학부",
+            "sum_of_rows": 10,
+            "source_total": 10,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 50, 선발인원 11도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 해양메카트로닉스학부",
+            "sum_of_rows": 7,
+            "source_total": 7,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 44, 선발인원 8도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 해군사관학부",
+            "sum_of_rows": 3,
+            "source_total": 3,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학부 계' 행 대조(지원인원 41, 선발인원 3도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 컴퓨터공학과",
+            "sum_of_rows": 12,
+            "source_total": 12,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 54, 선발인원 12도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 조선해양공학과",
+            "sum_of_rows": 4,
+            "source_total": 4,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 30, 선발인원 4도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 환경․생명공학과",
+            "sum_of_rows": 11,
+            "source_total": 11,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 58, 선발인원 12도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 해양건설공학과",
+            "sum_of_rows": 4,
+            "source_total": 4,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 44, 선발인원 6도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 해양스포츠학과",
+            "sum_of_rows": 6,
+            "source_total": 6,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 10, 선발인원 5도 행 합계와 일치)"
+          },
+          {
+            "scope": "JEONGSI 첨단해양모빌리티학과",
+            "sum_of_rows": 3,
+            "source_total": 3,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '학과 계' 행 대조(지원인원 16, 선발인원 3도 행 합계와 일치)"
+          },
+          {
+            "scope": "SUSI 전체",
+            "sum_of_rows": 694,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전체 합계 행 없음(모집단위별 계 행만 있음)"
+          },
+          {
+            "scope": "JEONGSI 전체",
+            "sum_of_rows": 97,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전체 합계 행 없음(모집단위별 계 행만 있음)"
+          }
+        ],
+        "spot_checks": 10,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u144",
+        "university_code": "U144",
+        "university_name": "신라대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 786,
+        "base_rows": 190,
+        "metric_rows": 596,
+        "metric_labels": 10,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 90,
+        "linked_2027_department_rows": 648,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 전체",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 수시 원문에는 모집인원·지원인원 열이 없고 경쟁률만 있어 인원 합계·경쟁률 재계산 불가."
+          },
+          {
+            "scope": "JEONGSI 정시(모집인원 이월 포함)",
+            "sum_of_rows": 176,
+            "source_total": null,
+            "source_page": 14,
+            "match": null,
+            "note": "원문 합계 없음. 지원인원 열이 없어 경쟁률 재계산 대신 경쟁률×모집인원이 정수에 가까운지 검산: 37개 중 경쟁률이 있는 35개 가운데 28개는 정수, 7개(항공교통물류학부·반려동물학부·AI로봇학과·호텔관광학부·미디어커뮤니케이션학부·웹툰학과·건축학과)는 정수가 아님 — 모집인원이 '이월 포함'이고 경쟁률은 이월 전 인원 기준으로 보임(예: 8.33×6=49.98). 원문 값 그대로 둠."
+          }
+        ],
+        "spot_checks": 10,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u145",
+        "university_code": "U145",
+        "university_name": "아신대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 15,
+        "base_rows": 15,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 6,
+        "linked_2027_department_rows": 13,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 일반전형",
+            "sum_of_rows": 45,
+            "source_total": 45,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '소계' 행 모집인원 45, 지원인원 35(행 합계 35), 경쟁률 '0.78 : 1'"
+          },
+          {
+            "scope": "SUSI 기독학생",
+            "sum_of_rows": 18,
+            "source_total": 18,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '소계' 행 모집인원 18, 지원인원 21(행 합계 21), 경쟁률 '1.17 : 1'"
+          },
+          {
+            "scope": "SUSI 성인학습자",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '소계' 행 모집인원 2, 지원인원 1(행 합계 1), 경쟁률 '0.50 : 1'"
+          },
+          {
+            "scope": "SUSI 기회균형선발(정원외)",
+            "sum_of_rows": 7,
+            "source_total": 7,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '소계' 행 모집인원 7, 지원인원 5(행 합계 5), 경쟁률 '0.71 : 1'"
+          },
+          {
+            "scope": "SUSI 재외국민과 외국인(정원외)",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '소계' 행 모집인원 2, 지원인원 1(행 합계 1), 경쟁률 '0.50 : 1'"
+          },
+          {
+            "scope": "SUSI 전체",
+            "sum_of_rows": 74,
+            "source_total": 74,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '합계' 행 모집인원 74, 지원인원 63(행 합계 63), 경쟁률 '0.85 : 1'"
+          },
+          {
+            "scope": "JEONGSI 일반전형",
+            "sum_of_rows": 15,
+            "source_total": 15,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '소계' 행 모집인원 15, 지원인원 7(행 합계 7), 경쟁률 '0.47 : 1'"
+          },
+          {
+            "scope": "JEONGSI 기독학생",
+            "sum_of_rows": 7,
+            "source_total": 7,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '소계' 행 모집인원 7, 지원인원 3(행 합계 3), 경쟁률 '0.43 : 1'"
+          },
+          {
+            "scope": "JEONGSI 성경지식우수자",
+            "sum_of_rows": 8,
+            "source_total": 8,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '소계' 행 모집인원 8, 지원인원 6(행 합계 6), 경쟁률 '0.75 : 1'"
+          },
+          {
+            "scope": "JEONGSI 전체",
+            "sum_of_rows": 30,
+            "source_total": 30,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '합계' 행 모집인원 30, 지원인원 16(행 합계 16), 경쟁률 '0.53 : 1'"
+          }
+        ],
+        "spot_checks": 7,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u154",
+        "university_code": "U154",
+        "university_name": "유원대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 0
+        },
+        "rows": 272,
+        "base_rows": 54,
+        "metric_rows": 218,
+        "metric_labels": 5,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 26,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부종합",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 등 인원 열 자체가 없음(모집단위 5개, recruit_count 모두 null). 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 유원교과",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 등 인원 열 자체가 없음(모집단위 17개, recruit_count 모두 null). 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 유원면접",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 등 인원 열 자체가 없음(모집단위 15개, recruit_count 모두 null). 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 지역인재Ⅰ",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 등 인원 열 자체가 없음(모집단위 2개, recruit_count 모두 null). 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 지역인재Ⅱ",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 등 인원 열 자체가 없음(모집단위 1개, recruit_count 모두 null). 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 농어촌학생",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 등 인원 열 자체가 없음(모집단위 12개, recruit_count 모두 null). 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 특성화고교졸업자",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 등 인원 열 자체가 없음(모집단위 1개, recruit_count 모두 null). 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 기초생활수급자 차상위계층 한부모가족 지원대상자",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 등 인원 열 자체가 없음(모집단위 1개, recruit_count 모두 null). 경쟁률 재계산 불가."
+          }
+        ],
+        "spot_checks": 7,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u161",
+        "university_code": "U161",
+        "university_name": "을지대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 896,
+        "base_rows": 143,
+        "metric_rows": 753,
+        "metric_labels": 30,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 566,
+        "linked_2027_department_rows": 521,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI EU면접형",
+            "sum_of_rows": 121,
+            "source_total": 121,
+            "source_page": 3,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 119)도 행 합과 일치"
+          },
+          {
+            "scope": "SUSI EU서류형",
+            "sum_of_rows": 104,
+            "source_total": 104,
+            "source_page": 4,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 103)도 행 합과 일치"
+          },
+          {
+            "scope": "SUSI 기회균형(정원내)",
+            "sum_of_rows": 52,
+            "source_total": 52,
+            "source_page": 5,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 49)도 행 합과 일치"
+          },
+          {
+            "scope": "SUSI 논술우수자",
+            "sum_of_rows": 214,
+            "source_total": 214,
+            "source_page": 6,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 210)도 행 합과 일치"
+          },
+          {
+            "scope": "SUSI 사회기여 및 배려대상자",
+            "sum_of_rows": 37,
+            "source_total": 37,
+            "source_page": 7,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 36)도 행 합과 일치"
+          },
+          {
+            "scope": "SUSI 지역균형(학교장추천)",
+            "sum_of_rows": 136,
+            "source_total": 136,
+            "source_page": 8,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 127)도 행 합과 일치"
+          },
+          {
+            "scope": "SUSI 기회균형(정원외)",
+            "sum_of_rows": 18,
+            "source_total": 18,
+            "source_page": 9,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 17)도 행 합과 일치"
+          },
+          {
+            "scope": "SUSI 농어촌학생",
+            "sum_of_rows": 29,
+            "source_total": 29,
+            "source_page": 10,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 29)도 행 합과 일치"
+          },
+          {
+            "scope": "SUSI 특성화고교졸업자",
+            "sum_of_rows": 8,
+            "source_total": 8,
+            "source_page": 10,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 7)도 행 합과 일치"
+          },
+          {
+            "scope": "JEONGSI 일반전형Ⅰ",
+            "sum_of_rows": 154,
+            "source_total": 154,
+            "source_page": 3,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 154)도 행 합과 일치"
+          },
+          {
+            "scope": "JEONGSI 일반전형Ⅱ",
+            "sum_of_rows": 184,
+            "source_total": 184,
+            "source_page": 4,
+            "match": true,
+            "note": "원문 '합계/평균' 행 모집인원 대조. 등록인원 합계(원문 177)도 행 합과 일치"
+          },
+          {
+            "scope": "SUSI 지역의료인재(특별형)",
+            "sum_of_rows": 1,
+            "source_total": null,
+            "source_page": 5,
+            "match": null,
+            "note": "원문 합계 없음(모집단위 1개)"
+          },
+          {
+            "scope": "SUSI 지역의료인재(일반형)",
+            "sum_of_rows": 24,
+            "source_total": null,
+            "source_page": 8,
+            "match": null,
+            "note": "원문 합계 없음(모집단위 1개)"
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u171",
+        "university_code": "U171",
+        "university_name": "전주대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 750,
+        "base_rows": 261,
+        "metric_rows": 489,
+        "metric_labels": 6,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 515,
+        "linked_2027_department_rows": 686,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부교과(일반학생전형)",
+            "sum_of_rows": 887,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 학생부교과(지역인재1전형)",
+            "sum_of_rows": 266,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 학생부교과(지역인재2전형)",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 학생부교과(달란트전형)",
+            "sum_of_rows": 250,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 학생부교과(농어촌학생전형)",
+            "sum_of_rows": 94,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 학생부교과(특성화고교졸업자전형)",
+            "sum_of_rows": 31,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 학생부종합(일반학생전형)",
+            "sum_of_rows": 785,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 학생부종합(기회균형선발전형)",
+            "sum_of_rows": 109,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 실기/실적(일반학생전형)",
+            "sum_of_rows": 147,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 실기/실적(특기자전형)",
+            "sum_of_rows": 32,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "JEONGSI 가군 수능(일반학생전형)",
+            "sum_of_rows": 139,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "JEONGSI 나군 수능(일반학생전형)",
+            "sum_of_rows": 152,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "JEONGSI 다군 수능(일반학생전형)",
+            "sum_of_rows": 232,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "JEONGSI 다군 실기/실적(일반학생전형)",
+            "sum_of_rows": 15,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음). 기본 행 경쟁률은 지원자÷모집인원 재계산과 모두 일치(소수 둘째 자리)"
+          }
+        ],
+        "spot_checks": 10,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "u172",
+        "university_code": "U172",
+        "university_name": "조선대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 6729,
+        "base_rows": 416,
+        "metric_rows": 6313,
+        "metric_labels": 63,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 3112,
+        "linked_2027_department_rows": 4223,
+        "recruit_total_checks": [
+          {
+            "scope": "u172_2026_susi_result 전체(기본행 recruit_count 합)",
+            "sum_of_rows": 4629,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — xlsx에 합계/소계 행이 없음. 대신 기본 행 전부(416행) 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 대조 → 불일치 0."
+          },
+          {
+            "scope": "u172_2026_jeongsi_result 전체(기본행 recruit_count 합)",
+            "sum_of_rows": 368,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 경쟁률 재계산 불일치 0."
+          }
+        ],
+        "spot_checks": 15,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u173",
+        "university_code": "U173",
+        "university_name": "중부대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 562,
+        "base_rows": 107,
+        "metric_rows": 455,
+        "metric_labels": 14,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 304,
+        "linked_2027_department_rows": 466,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학교생활우수자전형",
+            "sum_of_rows": 311,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 전형별·전체 합계 행 없음). 대신 모든 기본 행에서 지원÷모집 재계산값이 원문 경쟁률과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 학생부우수자전형",
+            "sum_of_rows": 884,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 전형별·전체 합계 행 없음). 대신 모든 기본 행에서 지원÷모집 재계산값이 원문 경쟁률과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 지역인재전형",
+            "sum_of_rows": 69,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 전형별·전체 합계 행 없음). 대신 모든 기본 행에서 지원÷모집 재계산값이 원문 경쟁률과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 실기우수자전형",
+            "sum_of_rows": 242,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 전형별·전체 합계 행 없음). 대신 모든 기본 행에서 지원÷모집 재계산값이 원문 경쟁률과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "JEONGSI 수능우수자전형",
+            "sum_of_rows": 95,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 전형별·전체 합계 행 없음). 대신 모든 기본 행에서 지원÷모집 재계산값이 원문 경쟁률과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "JEONGSI 사범계전형",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 전형별·전체 합계 행 없음). 대신 모든 기본 행에서 지원÷모집 재계산값이 원문 경쟁률과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "JEONGSI 실기우수자전형",
+            "sum_of_rows": 19,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 전형별·전체 합계 행 없음). 대신 모든 기본 행에서 지원÷모집 재계산값이 원문 경쟁률과 일치(소수 둘째 자리)"
+          }
+        ],
+        "spot_checks": 7,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "u186",
+        "university_code": "U186",
+        "university_name": "평택대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 1
+        },
+        "rows": 518,
+        "base_rows": 144,
+        "metric_rows": 374,
+        "metric_labels": 8,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 316,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI | 학생부교과 - PTU교과",
+            "sum_of_rows": 328,
+            "source_total": 328,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 2672 vs 원문 2672 (일치), 원문 경쟁률 8.15 : 1"
+          },
+          {
+            "scope": "SUSI | 학생부교과 - PTU자율전공",
+            "sum_of_rows": 100,
+            "source_total": 100,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 659 vs 원문 659 (일치), 원문 경쟁률 6.59 : 1"
+          },
+          {
+            "scope": "SUSI | 학생부교과 - PTU추천",
+            "sum_of_rows": 90,
+            "source_total": 90,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 745 vs 원문 745 (일치), 원문 경쟁률 8.28 : 1"
+          },
+          {
+            "scope": "SUSI | 학생부교과 - PTU기회균형",
+            "sum_of_rows": 44,
+            "source_total": 44,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 215 vs 원문 215 (일치), 원문 경쟁률 4.89 : 1"
+          },
+          {
+            "scope": "SUSI | 학생부종합 - PTU종합",
+            "sum_of_rows": 66,
+            "source_total": 66,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 578 vs 원문 578 (일치), 원문 경쟁률 8.76 : 1"
+          },
+          {
+            "scope": "SUSI | 실기위주 - PTU실기",
+            "sum_of_rows": 100,
+            "source_total": 100,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 1178 vs 원문 1178 (일치), 원문 경쟁률 11.78 : 1"
+          },
+          {
+            "scope": "SUSI | 학생부교과(정원외) - 농어촌학생",
+            "sum_of_rows": null,
+            "source_total": 14,
+            "source_page": 1,
+            "match": null,
+            "note": "학과별 모집인원 없음(20개 모집단위 병합 셀 14/11명) — 원문 '전형별 요약(평균)' 행 그대로 기재. 학과별 지원인원 합 116 = 원문 지원 합계 116 (일치)"
+          },
+          {
+            "scope": "SUSI | 학생부교과(정원외) - 특성화고교졸업자",
+            "sum_of_rows": null,
+            "source_total": 11,
+            "source_page": 1,
+            "match": null,
+            "note": "학과별 모집인원 없음(20개 모집단위 병합 셀 14/11명) — 원문 '전형별 요약(평균)' 행 그대로 기재. 학과별 지원인원 합 117 = 원문 지원 합계 117 (일치)"
+          },
+          {
+            "scope": "SUSI | 학생부교과(정원외) - 기초생활수급자등",
+            "sum_of_rows": 17,
+            "source_total": 17,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 102 vs 원문 102 (일치), 원문 경쟁률 6.00 : 1"
+          },
+          {
+            "scope": "SUSI | 학생부교과(정원외) - 장애인",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 8 vs 원문 8 (일치), 원문 경쟁률 4.00 : 1"
+          },
+          {
+            "scope": "JEONGSI | 수능위주 - PTU수능 가군",
+            "sum_of_rows": 19,
+            "source_total": 19,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 227 vs 원문 227 (일치), 원문 경쟁률 11.95 : 1"
+          },
+          {
+            "scope": "JEONGSI | 수능위주 - PTU수능 나군",
+            "sum_of_rows": 60,
+            "source_total": 60,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 504 vs 원문 504 (일치), 원문 경쟁률 8.40 : 1"
+          },
+          {
+            "scope": "JEONGSI | 수능위주 - PTU수능 다군",
+            "sum_of_rows": 6,
+            "source_total": 6,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 80 vs 원문 80 (일치), 원문 경쟁률 13.33 : 1"
+          },
+          {
+            "scope": "JEONGSI | 실기위주 - PTU실기 다군",
+            "sum_of_rows": 41,
+            "source_total": 41,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '전형별 요약(평균)' 행 대조. 지원인원 행 합 625 vs 원문 625 (일치), 원문 경쟁률 15.24 : 1"
+          }
+        ],
+        "spot_checks": 9,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u187",
+        "university_code": "U187",
+        "university_name": "차의과학대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 1
+        },
+        "rows": 73,
+        "base_rows": 19,
+        "metric_rows": 54,
+        "metric_labels": 7,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 70,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부교과 - 지역균형선발전형",
+            "sum_of_rows": 101,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과 - CHA학생부교과전형",
+            "sum_of_rows": 68,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부종합 - CHA학생부종합전형",
+            "sum_of_rows": 186,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 수능 - 일반전형",
+            "sum_of_rows": 194,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 전형별·전체 합계 행 없음)"
+          }
+        ],
+        "spot_checks": 7,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 6
+      },
+      {
+        "university_key": "u196",
+        "university_code": "U196",
+        "university_name": "한동대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 64,
+        "base_rows": 18,
+        "metric_rows": 46,
+        "metric_labels": 10,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 22,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 전체(기본행 recruit_count 합, 정원내+정원외 수시 전형)",
+            "sum_of_rows": 742,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문에 수시만의 합계 없음"
+          },
+          {
+            "scope": "JEONGSI 전체(기본행 recruit_count 합, 정시(다)군+추가모집+정원외 수능)",
+            "sum_of_rows": 70,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문에 정시만의 합계 없음"
+          },
+          {
+            "scope": "p1 표 전체 모집인원 계(제외한 재외국민·전형기간 자율화 47명 포함 시)",
+            "sum_of_rows": 859,
+            "source_total": 819,
+            "source_page": 1,
+            "match": false,
+            "note": "원문 계 행 819는 열의 각 칸 합(859)과 다르다(원문 자체 불일치, 추출 오류 아님: 쪽 이미지로 각 칸 재확인). 지원인원 계 4,174는 각 칸 합과 일치(포함 행 4055 + 제외 4개 전형 119 = 4,174). 경쟁률은 전 기본행에서 지원÷모집 재계산과 소수 둘째 자리까지 일치."
+          }
+        ],
+        "spot_checks": 9,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u197",
+        "university_code": "U197",
+        "university_name": "한라대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 0
+        },
+        "rows": 65,
+        "base_rows": 0,
+        "metric_rows": 65,
+        "metric_labels": 1,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 59,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 전체",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문에 모집·지원·경쟁률 열이 없고 최종등록자 75%컷만 있어 기본 행 없음(모집인원 합계·경쟁률 검산 불가)."
+          }
+        ],
+        "spot_checks": 6,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u199",
+        "university_code": "U199",
+        "university_name": "한서대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 2
+        },
+        "rows": 717,
+        "base_rows": 383,
+        "metric_rows": 334,
+        "metric_labels": 7,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 230,
+        "linked_2027_department_rows": 699,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부교과1 (정원내, susi_result_2 p1 계 행)",
+            "sum_of_rows": 694,
+            "source_total": 694,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 5199,
+            "applicant_source_total": 5199,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 학생부교과2 (정원내, susi_result_2 p1 계 행)",
+            "sum_of_rows": 169,
+            "source_total": 169,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 1313,
+            "applicant_source_total": 1313,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 지역인재 (정원내, susi_result_2 p1 계 행)",
+            "sum_of_rows": 91,
+            "source_total": 91,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 638,
+            "applicant_source_total": 638,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 지역인재기회균형 (정원내, susi_result_2 p1 계 행)",
+            "sum_of_rows": 3,
+            "source_total": 3,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 6,
+            "applicant_source_total": 6,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 사회기여(배려)자 (정원내, susi_result_2 p1 계 행)",
+            "sum_of_rows": 50,
+            "source_total": 50,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 761,
+            "applicant_source_total": 761,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 한서인재 (정원내, susi_result_2 p1 계 행)",
+            "sum_of_rows": 200,
+            "source_total": 200,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 3137,
+            "applicant_source_total": 3137,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 융합인재 (정원내, susi_result_2 p1 계 행)",
+            "sum_of_rows": 29,
+            "source_total": 29,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 283,
+            "applicant_source_total": 283,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 일반전형(실기) (정원내, susi_result_2 p1 계 행)",
+            "sum_of_rows": 185,
+            "source_total": 185,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 717,
+            "applicant_source_total": 717,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 농어촌학생 (정원외, susi_result_2 p2 계 행)",
+            "sum_of_rows": 6,
+            "source_total": 40,
+            "source_page": 2,
+            "match": null,
+            "applicant_sum_of_rows": 352,
+            "applicant_source_total": 352,
+            "applicant_match": true,
+            "note": "정원외 모집인원은 학과별 'N이내'로만 표기되어 recruit_count=null(항공관광학과만 숫자 표기). 모집 합계는 대조 불가, 지원자 합계만 대조."
+          },
+          {
+            "scope": "SUSI 특성화고교출신자 (정원외, susi_result_2 p2 계 행)",
+            "sum_of_rows": 4,
+            "source_total": 22,
+            "source_page": 2,
+            "match": null,
+            "applicant_sum_of_rows": 217,
+            "applicant_source_total": 217,
+            "applicant_match": true,
+            "note": "정원외 모집인원은 학과별 'N이내'로만 표기되어 recruit_count=null(항공관광학과만 숫자 표기). 모집 합계는 대조 불가, 지원자 합계만 대조."
+          },
+          {
+            "scope": "SUSI 기회균형선발 (정원외, susi_result_2 p2 계 행)",
+            "sum_of_rows": 4,
+            "source_total": 22,
+            "source_page": 2,
+            "match": null,
+            "applicant_sum_of_rows": 227,
+            "applicant_source_total": 227,
+            "applicant_match": true,
+            "note": "정원외 모집인원은 학과별 'N이내'로만 표기되어 recruit_count=null(항공관광학과만 숫자 표기). 모집 합계는 대조 불가, 지원자 합계만 대조."
+          },
+          {
+            "scope": "SUSI 서해5도 (정원외, susi_result_2 p2 계 행)",
+            "sum_of_rows": 1,
+            "source_total": 5,
+            "source_page": 2,
+            "match": null,
+            "applicant_sum_of_rows": 11,
+            "applicant_source_total": 11,
+            "applicant_match": true,
+            "note": "정원외 모집인원은 학과별 'N이내'로만 표기되어 recruit_count=null(항공관광학과만 숫자 표기). 모집 합계는 대조 불가, 지원자 합계만 대조."
+          },
+          {
+            "scope": "SUSI 만학도 (정원외, susi_result_2 p2 계 행)",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": 2,
+            "match": null,
+            "applicant_sum_of_rows": 4,
+            "applicant_source_total": 4,
+            "applicant_match": true,
+            "note": "정원외 모집인원은 학과별 'N이내'로만 표기되어 recruit_count=null(항공관광학과만 숫자 표기). 모집 합계는 대조 불가, 지원자 합계만 대조."
+          },
+          {
+            "scope": "JEONGSI 일반전형 (jeongsi_result_2 계 행)",
+            "sum_of_rows": 283,
+            "source_total": 283,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 1398,
+            "applicant_source_total": 1398,
+            "applicant_match": true
+          },
+          {
+            "scope": "JEONGSI 충남형 계약학과전형 (jeongsi_result_2 계 행)",
+            "sum_of_rows": 52,
+            "source_total": 52,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 7,
+            "applicant_source_total": 7,
+            "applicant_match": true
+          },
+          {
+            "scope": "JEONGSI 만학도 전형 (jeongsi_result_2 계 행)",
+            "sum_of_rows": 17,
+            "source_total": 17,
+            "source_page": 1,
+            "match": true,
+            "applicant_sum_of_rows": 14,
+            "applicant_source_total": 14,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI/JEONGSI 성적 문서(susi_result, jeongsi_result)",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "성적·추가합격 문서에는 모집인원 열 없음(원문 합계 없음). 경쟁률 문서 기본 행은 모두 지원÷모집 재계산값이 원문 경쟁률과 일치."
+          }
+        ],
+        "spot_checks": 9,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [
+          {
+            "row_index": 716,
+            "reason": "같은 단위가 두 문서에 다른 값 ['raw_value_text', 'competition_rate'] — 앞 문서 값 유지"
+          }
+        ],
+        "gaps": 2
+      },
+      {
+        "university_key": "u20",
+        "university_code": "U20",
+        "university_name": "국립순천대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 502,
+        "base_rows": 145,
+        "metric_rows": 357,
+        "metric_labels": 9,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 462,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 전체(기본행 recruit_count 합)",
+            "sum_of_rows": 1646,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — xlsx에 합계/소계 행이 없음(경쟁률 열도 없어 재계산 검산 불가)"
+          },
+          {
+            "scope": "JEONGSI 전체(기본행 recruit_count 합)",
+            "sum_of_rows": 166,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — xlsx에 합계/소계 행이 없음(경쟁률 열도 없어 재계산 검산 불가)"
+          }
+        ],
+        "spot_checks": 10,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u218",
+        "university_code": "U218",
+        "university_name": "예원예술대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 110,
+        "base_rows": 32,
+        "metric_rows": 78,
+        "metric_labels": 5,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 74,
+        "linked_2027_department_rows": 74,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 일반전형",
+            "sum_of_rows": 199,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "SUSI 정원외 특별전형(농어촌학생)",
+            "sum_of_rows": 4,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "SUSI 정원외 특별전형(특성화고교졸업자)",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "SUSI 정원외 특별전형(기회균등제(기초생활수급자, 차상위계층))",
+            "sum_of_rows": 5,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "SUSI 정원외 특별전형(특수교육대상자)",
+            "sum_of_rows": 4,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "SUSI 정원외 특별전형(서해5도)",
+            "sum_of_rows": 2,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "JEONGSI 일반전형",
+            "sum_of_rows": 47,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "JEONGSI 정원외 특별전형(농어촌학생)",
+            "sum_of_rows": 1,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "JEONGSI 정원외 특별전형(기회균등제(기초생활수급자, 차상위계층))",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "JEONGSI 정원외 특별전형(특수교육대상자)",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          },
+          {
+            "scope": "JEONGSI 정원외 특별전형(서해5도)",
+            "sum_of_rows": 1,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 0
+      },
+      {
+        "university_key": "u21",
+        "university_code": "U21",
+        "university_name": "국립경국대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 1153,
+        "base_rows": 186,
+        "metric_rows": 967,
+        "metric_labels": 25,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 815,
+        "recruit_total_checks": [
+          {
+            "scope": "u21_2026_susi_result SUSI 일반학생전형",
+            "sum_of_rows": 974,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 지역인재전형",
+            "sum_of_rows": 160,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 지역사회배려대상자전형",
+            "sum_of_rows": 2,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 기회균형",
+            "sum_of_rows": 18,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 실기전형",
+            "sum_of_rows": 26,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 체육특기자전형",
+            "sum_of_rows": 22,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 선수출신자전형",
+            "sum_of_rows": 4,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 특성화고출신자전형",
+            "sum_of_rows": 21,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 사회배려대상자전형",
+            "sum_of_rows": 20,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 농어촌학생전형",
+            "sum_of_rows": 36,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 만학도전형",
+            "sum_of_rows": 30,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_susi_result SUSI 바른인재전형",
+            "sum_of_rows": 267,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_jeongsi_result JEONGSI 일반학생전형",
+            "sum_of_rows": 346,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_jeongsi_result JEONGSI 특성화고출신자전형",
+            "sum_of_rows": 7,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_jeongsi_result JEONGSI 사회배려대상자전형",
+            "sum_of_rows": 7,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_jeongsi_result JEONGSI 농어촌학생전형",
+            "sum_of_rows": 13,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          },
+          {
+            "scope": "u21_2026_jeongsi_result JEONGSI 만학도전형",
+            "sum_of_rows": 15,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 합계/소계 행 없음). 대신 기본 행 전부 지원÷모집 재계산으로 경쟁률 검산(불일치 0)"
+          }
+        ],
+        "spot_checks": 18,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u221",
+        "university_code": "U221",
+        "university_name": "목포가톨릭대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 13,
+        "base_rows": 13,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 10,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 전체 모집인원",
+            "sum_of_rows": 139,
+            "source_total": 139,
+            "source_page": null,
+            "cell": "수시 이미지 '합계' 행 모집(지원 556, 행 합 556)",
+            "match": true
+          },
+          {
+            "scope": "SUSI 간호학과 모집인원",
+            "sum_of_rows": 102,
+            "source_total": 102,
+            "source_page": null,
+            "cell": "수시 이미지 간호학과 '소계' 행 모집(지원 465)",
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 전체 모집인원",
+            "sum_of_rows": 23,
+            "source_total": 23,
+            "source_page": null,
+            "cell": "정시 이미지 '계' 행 모집(지원 28, 행 합 28)",
+            "match": true
+          }
+        ],
+        "spot_checks": 7,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u235",
+        "university_code": "U235",
+        "university_name": "동명대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 616,
+        "base_rows": 161,
+        "metric_rows": 455,
+        "metric_labels": 4,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 300,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 전체",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문 이미지에 모집인원·지원인원 열이 없고 경쟁률만 있어 모집인원 합계·경쟁률 재계산 검산 불가. 기본 행 136개(경쟁률만)."
+          },
+          {
+            "scope": "JEONGSI 전체",
+            "sum_of_rows": 0,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — 원문 이미지에 모집인원·지원인원 열이 없음. 기본 행 25개(경쟁률만)."
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      },
+      {
+        "university_key": "u239",
+        "university_code": "U239",
+        "university_name": "중원대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 0
+        },
+        "rows": 175,
+        "base_rows": 60,
+        "metric_rows": 115,
+        "metric_labels": 3,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 104,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 일반전형1",
+            "sum_of_rows": 320,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 일반전형2",
+            "sum_of_rows": 165,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 지역인재전형",
+            "sum_of_rows": 45,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 기회균형선발전형",
+            "sum_of_rows": 69,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 학생부종합전형",
+            "sum_of_rows": 40,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 성인학습자전형1",
+            "sum_of_rows": 57,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 실기/실적 실기중심전형",
+            "sum_of_rows": 18,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 체육우수인재전형",
+            "sum_of_rows": 130,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+          },
+          {
+            "scope": "SUSI 농어촌전형",
+            "sum_of_rows": 32,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가. 모집인원·경쟁률은 모든 모집단위에 걸친 병합 셀 값(전형 전체 행)."
+          },
+          {
+            "scope": "SUSI 특성화고교졸업자(첫째 구역)",
+            "sum_of_rows": 12,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가. 모집인원·경쟁률은 모든 모집단위에 걸친 병합 셀 값(전형 전체 행)."
+          },
+          {
+            "scope": "SUSI 특성화고교졸업자(둘째 구역)",
+            "sum_of_rows": 4,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가. 모집인원·경쟁률은 모든 모집단위에 걸친 병합 셀 값(전형 전체 행)."
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u240",
+        "university_code": "U240",
+        "university_name": "우송대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 2
+        },
+        "rows": 1315,
+        "base_rows": 544,
+        "metric_rows": 771,
+        "metric_labels": 8,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 1248,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 정원내(수시 지원현황 '합 계' 열, 모집단위 43개 각각 대조)",
+            "sum_of_rows": 1959,
+            "source_total": 1959,
+            "source_page": null,
+            "match": true,
+            "note": "모집단위별 정원내 전형 모집인원·지원인원 합 = 원문 '합 계' 열(AF·AG) — 43개 중 불일치 0개. source_total은 '합 계' 열 모집인원의 총합"
+          },
+          {
+            "scope": "JEONGSI 일반전형+교과전형(정시 지원현황 '합 계' 열, 모집단위 43개 각각 대조)",
+            "sum_of_rows": 83,
+            "source_total": 83,
+            "source_page": null,
+            "match": true,
+            "note": "모집단위별 모집인원·지원인원 합 = 원문 '합 계' 열(T·U) — 43개 중 불일치 0개"
+          },
+          {
+            "scope": "SUSI 학생부 교과[교과중심]",
+            "sum_of_rows": 819,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 학생부 교과[지역인재]",
+            "sum_of_rows": 63,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 학생부 교과[자기추천]",
+            "sum_of_rows": 105,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 학생부 교과 [교과면접]",
+            "sum_of_rows": 630,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 학생부종합[서류형]",
+            "sum_of_rows": 171,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 학생부종합[면접형]",
+            "sum_of_rows": 155,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 학생부종합[지역인재Ⅱ]",
+            "sum_of_rows": 2,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 실기/실적위주[체육특기자]",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 실기/실적위주[미술우수자]",
+            "sum_of_rows": 5,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 실기/실적위주[뷰티특기자]",
+            "sum_of_rows": 6,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계)"
+          },
+          {
+            "scope": "SUSI 학생부교과[농어촌학생]",
+            "sum_of_rows": 129,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계). 정원외 전형은 괄호 안 '모집단위별 최대 모집인원'의 합이라 실제 선발인원과 다름"
+          },
+          {
+            "scope": "SUSI 학생부교과[특성화고교졸업자]",
+            "sum_of_rows": 113,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계). 정원외 전형은 괄호 안 '모집단위별 최대 모집인원'의 합이라 실제 선발인원과 다름"
+          },
+          {
+            "scope": "SUSI 학생부교과[기초생활수급자]",
+            "sum_of_rows": 72,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 전형별 합계 행 없음(행 합계). 정원외 전형은 괄호 안 '모집단위별 최대 모집인원'의 합이라 실제 선발인원과 다름"
+          }
+        ],
+        "spot_checks": 14,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u244",
+        "university_code": "U244",
+        "university_name": "경운대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 1
+        },
+        "rows": 22,
+        "base_rows": 22,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 13,
+        "recruit_total_checks": [
+          {
+            "scope": "JEONGSI 일반전형1 나군",
+            "sum_of_rows": 26,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 일반전형1 다군",
+            "sum_of_rows": 93,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 일반전형1 가군",
+            "sum_of_rows": 56,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 농어촌전형",
+            "sum_of_rows": 13,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 기회균형2",
+            "sum_of_rows": 8,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 특성화고교",
+            "sum_of_rows": 2,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(HTML 표에 합계 행 없음)"
+          }
+        ],
+        "spot_checks": 18,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u2712",
+        "university_code": "U2712",
+        "university_name": "신한대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 831,
+        "base_rows": 151,
+        "metric_rows": 680,
+        "metric_labels": 22,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 508,
+        "linked_2027_department_rows": 800,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 일반전형",
+            "sum_of_rows": 403,
+            "source_total": null,
+            "source_page": 2,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 학생부우수자전형",
+            "sum_of_rows": 197,
+            "source_total": null,
+            "source_page": 3,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 실기우수자전형",
+            "sum_of_rows": 155,
+            "source_total": null,
+            "source_page": 4,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 실적우수자전형",
+            "sum_of_rows": 32,
+            "source_total": null,
+            "source_page": 4,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 사회기여자전형",
+            "sum_of_rows": 12,
+            "source_total": null,
+            "source_page": 5,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 기회균형전형",
+            "sum_of_rows": 74,
+            "source_total": null,
+            "source_page": 5,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 신한국인전형",
+            "sum_of_rows": 106,
+            "source_total": null,
+            "source_page": 6,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 논술전형",
+            "sum_of_rows": 166,
+            "source_total": null,
+            "source_page": 7,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 농어촌전형",
+            "sum_of_rows": 37,
+            "source_total": null,
+            "source_page": 8,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 교육기회균형전형",
+            "sum_of_rows": 24,
+            "source_total": null,
+            "source_page": 9,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "SUSI 특성화고교졸업자전형",
+            "sum_of_rows": 16,
+            "source_total": null,
+            "source_page": 10,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "JEONGSI 일반전형Ⅰ",
+            "sum_of_rows": 47,
+            "source_total": null,
+            "source_page": 2,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "JEONGSI 일반전형Ⅱ",
+            "sum_of_rows": 148,
+            "source_total": null,
+            "source_page": 2,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "JEONGSI 일반전형Ⅲ",
+            "sum_of_rows": 48,
+            "source_total": null,
+            "source_page": 3,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          },
+          {
+            "scope": "JEONGSI 실기우수자",
+            "sum_of_rows": 49,
+            "source_total": null,
+            "source_page": 3,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 수 열이 없어 경쟁률 재계산 불가"
+          }
+        ],
+        "spot_checks": 10,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u2949",
+        "university_code": "U2949",
+        "university_name": "홍익대학교(세종캠퍼스)",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 1
+        },
+        "rows": 221,
+        "base_rows": 39,
+        "metric_rows": 182,
+        "metric_labels": 12,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 138,
+        "linked_2027_department_rows": 178,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 교과우수자전형 (세종캠퍼스 합계, p.1)",
+            "sum_of_rows": 355,
+            "source_total": 355,
+            "source_page": 1,
+            "match": true,
+            "note": "지원자수 행합계 2165 / 원문 2165 (일치)"
+          },
+          {
+            "scope": "SUSI 학교생활우수자_종합_인문자연 (세종캠퍼스 합계, p.2)",
+            "sum_of_rows": 235,
+            "source_total": 235,
+            "source_page": 2,
+            "match": true,
+            "note": "지원자수 행합계 1700 / 원문 1700 (일치)"
+          },
+          {
+            "scope": "SUSI 논술전형 (세종캠퍼스 합계, p.3)",
+            "sum_of_rows": 120,
+            "source_total": 120,
+            "source_page": 3,
+            "match": true,
+            "note": "지원자수 행합계 1350 / 원문 1350 (일치)"
+          },
+          {
+            "scope": "SUSI 미술우수자 (세종캠퍼스 합계, p.4)",
+            "sum_of_rows": 182,
+            "source_total": 182,
+            "source_page": 4,
+            "match": true,
+            "note": "지원자수 행합계 1229 / 원문 1229 (일치)"
+          }
+        ],
+        "spot_checks": 7,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "u31",
+        "university_code": "U31",
+        "university_name": "한국교원대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 740,
+        "base_rows": 127,
+        "metric_rows": 613,
+        "metric_labels": 29,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 740,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부종합우수자 일반전형",
+            "sum_of_rows": 317,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 행 합계 1911. 기본 행 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 불일치 0건"
+          },
+          {
+            "scope": "SUSI 학생부 종합 장애인 등 대상자",
+            "sum_of_rows": 26,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 행 합계 57. 기본 행 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 불일치 0건"
+          },
+          {
+            "scope": "SUSI 학생부 교과 지역인재",
+            "sum_of_rows": 16,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 행 합계 139. 기본 행 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 불일치 0건"
+          },
+          {
+            "scope": "SUSI 학생부 종합 사회통합",
+            "sum_of_rows": 17,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 행 합계 96. 기본 행 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 불일치 0건"
+          },
+          {
+            "scope": "SUSI 학생부 종합 기초수급 및 차상위",
+            "sum_of_rows": 19,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 행 합계 115. 기본 행 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 불일치 0건"
+          },
+          {
+            "scope": "SUSI 학생부 종합 농어촌학생",
+            "sum_of_rows": 11,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 행 합계 69. 기본 행 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 불일치 0건"
+          },
+          {
+            "scope": "JEONGSI 정시모집",
+            "sum_of_rows": 209,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 합계 행 없음). 지원자 행 합계 923. 기본 행 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 불일치 2건"
+          }
+        ],
+        "spot_checks": 14,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u34",
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 3541,
+        "base_rows": 364,
+        "metric_rows": 3177,
+        "metric_labels": 84,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 3113,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부종합전형Ⅰ (TABLE#1)",
+            "sum_of_rows": 21,
+            "source_total": 21,
+            "source_page": null,
+            "source_cell": "TABLE#1 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 624 / 원문 합계 624 (일치)"
+          },
+          {
+            "scope": "SUSI 학생부종합전형Ⅱ (TABLE#3)",
+            "sum_of_rows": 563,
+            "source_total": 563,
+            "source_page": null,
+            "source_cell": "TABLE#3 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 3624 / 원문 합계 3624 (일치)"
+          },
+          {
+            "scope": "SUSI 일반전형 (TABLE#5)",
+            "sum_of_rows": 947,
+            "source_total": 947,
+            "source_page": null,
+            "source_cell": "TABLE#5 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 6184 / 원문 합계 6184 (일치)"
+          },
+          {
+            "scope": "SUSI 지역인재전형 (TABLE#7)",
+            "sum_of_rows": 137,
+            "source_total": 137,
+            "source_page": null,
+            "source_cell": "TABLE#7 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 635 / 원문 합계 635 (일치)"
+          },
+          {
+            "scope": "SUSI 지역인재전형-저소득 (TABLE#9)",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": null,
+            "source_cell": "TABLE#9 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 10 / 원문 합계 10 (일치)"
+          },
+          {
+            "scope": "SUSI 사회기여및배려자 (TABLE#11)",
+            "sum_of_rows": 41,
+            "source_total": 41,
+            "source_page": null,
+            "source_cell": "TABLE#11 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 294 / 원문 합계 294 (일치)"
+          },
+          {
+            "scope": "SUSI 고른기회전형 (TABLE#13)",
+            "sum_of_rows": 63,
+            "source_total": 63,
+            "source_page": null,
+            "source_cell": "TABLE#13 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 223 / 원문 합계 223 (일치)"
+          },
+          {
+            "scope": "SUSI 농어촌전형 (TABLE#15)",
+            "sum_of_rows": 47,
+            "source_total": 47,
+            "source_page": null,
+            "source_cell": "TABLE#15 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 360 / 원문 합계 360 (일치)"
+          },
+          {
+            "scope": "SUSI 특성화고동일계전형 (TABLE#17)",
+            "sum_of_rows": 29,
+            "source_total": 29,
+            "source_page": null,
+            "source_cell": "TABLE#17 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 212 / 원문 합계 212 (일치)"
+          },
+          {
+            "scope": "SUSI 기회균등전형 (TABLE#19)",
+            "sum_of_rows": 32,
+            "source_total": 32,
+            "source_page": null,
+            "source_cell": "TABLE#19 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 117 / 원문 합계 117 (일치)"
+          },
+          {
+            "scope": "SUSI 특수교육대상자전형 (TABLE#21)",
+            "sum_of_rows": 11,
+            "source_total": 11,
+            "source_page": null,
+            "source_cell": "TABLE#21 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 44 / 원문 합계 44 (일치)"
+          },
+          {
+            "scope": "SUSI 평생학습자전형Ⅰ (TABLE#23)",
+            "sum_of_rows": 24,
+            "source_total": 24,
+            "source_page": null,
+            "source_cell": "TABLE#23 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 27 / 원문 합계 27 (일치)"
+          },
+          {
+            "scope": "SUSI 평생학습자전형Ⅱ (TABLE#25)",
+            "sum_of_rows": 30,
+            "source_total": 30,
+            "source_page": null,
+            "source_cell": "TABLE#25 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 34 / 원문 합계 34 (일치)"
+          },
+          {
+            "scope": "SUSI 평생학습자전형Ⅲ (TABLE#27)",
+            "sum_of_rows": 49,
+            "source_total": 49,
+            "source_page": null,
+            "source_cell": "TABLE#27 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 30 / 원문 합계 30 (일치)"
+          },
+          {
+            "scope": "JEONGSI 일반전형 (TABLE#2)",
+            "sum_of_rows": 234,
+            "source_total": 234,
+            "source_page": null,
+            "source_cell": "TABLE#2 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 1627 / 원문 합계 1627 (일치)"
+          }
+        ],
+        "spot_checks": 9,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      },
+      {
+        "university_key": "u39",
+        "university_code": "U39",
+        "university_name": "국립한밭대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 2307,
+        "base_rows": 208,
+        "metric_rows": 2099,
+        "metric_labels": 39,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 2251,
+        "recruit_total_checks": [
+          {
+            "scope": "u39_2026_susi_result 전체(기본행 recruit_count 합)",
+            "sum_of_rows": 1872,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음 — xlsx 각 시트에 합계/소계 행이 없음. 대신 기본 행 전부 경쟁률 재계산(지원÷모집, 소수 둘째 자리) 대조 → 불일치 0."
+          },
+          {
+            "scope": "u39_2026_jeongsi_result 전체(기본행 recruit_count 합, 원문 열 \"최종 모집인원\")",
+            "sum_of_rows": 140,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 경쟁률 재계산 불일치 0."
+          }
+        ],
+        "spot_checks": 13,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u53",
+        "university_code": "U53",
+        "university_name": "건국대학교(글로컬캠퍼스)",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 414,
+        "base_rows": 107,
+        "metric_rows": 307,
+        "metric_labels": 7,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 22,
+        "linked_2027_department_rows": 402,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부종합전형(Cogito자기추천전형)",
+            "sum_of_rows": 479,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+          },
+          {
+            "scope": "SUSI 학생부종합전형(지역인재전형)",
+            "sum_of_rows": 21,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+          },
+          {
+            "scope": "SUSI 학생부교과전형(교과우수전형)",
+            "sum_of_rows": 407,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+          },
+          {
+            "scope": "SUSI 학생부교과전형(지역인재전형)",
+            "sum_of_rows": 91,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+          },
+          {
+            "scope": "SUSI 실기우수자전형",
+            "sum_of_rows": 220,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+          },
+          {
+            "scope": "JEONGSI 정시모집",
+            "sum_of_rows": 349,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+          }
+        ],
+        "spot_checks": 7,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u62",
+        "university_code": "U62",
+        "university_name": "경성대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 0
+        },
+        "rows": 749,
+        "base_rows": 192,
+        "metric_rows": 557,
+        "metric_labels": 5,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 562,
+        "linked_2027_department_rows": 714,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 일반계고면접전형",
+            "sum_of_rows": 432,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(모집요강 입시결과 표에 전형별·전체 합계 행 없음). 지원자 수가 원문에 없어 지원율 재계산 검산 불가"
+          },
+          {
+            "scope": "SUSI 일반계고교과전형",
+            "sum_of_rows": 1035,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(모집요강 입시결과 표에 전형별·전체 합계 행 없음). 지원자 수가 원문에 없어 지원율 재계산 검산 불가"
+          },
+          {
+            "scope": "SUSI 지역인재전형",
+            "sum_of_rows": 55,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(모집요강 입시결과 표에 전형별·전체 합계 행 없음). 지원자 수가 원문에 없어 지원율 재계산 검산 불가"
+          },
+          {
+            "scope": "SUSI 특성화고교과전형",
+            "sum_of_rows": 168,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(모집요강 입시결과 표에 전형별·전체 합계 행 없음). 지원자 수가 원문에 없어 지원율 재계산 검산 불가"
+          },
+          {
+            "scope": "SUSI 학교생활우수자전형",
+            "sum_of_rows": 298,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(모집요강 입시결과 표에 전형별·전체 합계 행 없음). 지원자 수가 원문에 없어 지원율 재계산 검산 불가"
+          },
+          {
+            "scope": "SUSI 지역인재Ⅱ전형",
+            "sum_of_rows": 224,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(모집요강 입시결과 표에 전형별·전체 합계 행 없음). 지원자 수가 원문에 없어 지원율 재계산 검산 불가"
+          }
+        ],
+        "spot_checks": 10,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u72",
+        "university_code": "U72",
+        "university_name": "가톨릭관동대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 1866,
+        "base_rows": 204,
+        "metric_rows": 1662,
+        "metric_labels": 23,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 1110,
+        "linked_2027_department_rows": 1199,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부교과(일반전형)",
+            "sum_of_rows": 795,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(지역인재전형)",
+            "sum_of_rows": 283,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(지역기회균형전형)",
+            "sum_of_rows": 5,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(운동선수출신(A)전형)",
+            "sum_of_rows": 10,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(기회균형전형)",
+            "sum_of_rows": 37,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부종합(일반전형)",
+            "sum_of_rows": 58,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부종합(지역인재전형)",
+            "sum_of_rows": 29,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부종합(가톨릭지도자추천전형)",
+            "sum_of_rows": 23,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 실기/실적(실기전형)",
+            "sum_of_rows": 101,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 실기/실적(체육특기자전형)",
+            "sum_of_rows": 82,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(농어촌학생전형)",
+            "sum_of_rows": 15,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음); 모집인원이 통합·'N이내'로만 표기돼 recruit_count=null인 모집단위 27개는 합계에서 제외"
+          },
+          {
+            "scope": "SUSI 학생부교과(기초생활 및 차상위전형)",
+            "sum_of_rows": 10,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음); 모집인원이 통합·'N이내'로만 표기돼 recruit_count=null인 모집단위 27개는 합계에서 제외"
+          },
+          {
+            "scope": "SUSI 학생부교과(채용조건형 계약학과전형)",
+            "sum_of_rows": 20,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 실기/실적(농어촌학생전형)",
+            "sum_of_rows": 2,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 실기/실적(기초생활 및 차상위전형)",
+            "sum_of_rows": 2,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 수능(일반전형)",
+            "sum_of_rows": 343,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 수능(지역인재전형)",
+            "sum_of_rows": 2,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 수능(실기전형)",
+            "sum_of_rows": 43,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(전형별 표에 합계 행 없음)"
+          }
+        ],
+        "spot_checks": 10,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u80",
+        "university_code": "U80",
+        "university_name": "극동대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 1
+        },
+        "rows": 395,
+        "base_rows": 26,
+        "metric_rows": 369,
+        "metric_labels": 24,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 335,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 일반학생전형(정원내)",
+            "sum_of_rows": 210,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 합계 행 없음). 지원인원 행합 1393. 경쟁률 재계산(지원÷모집) 전 행 원문과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 교과우수자전형(정원내)",
+            "sum_of_rows": 462,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 합계 행 없음). 지원인원 행합 1203. 경쟁률 재계산(지원÷모집) 전 행 원문과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 기회균형전형(정원내)",
+            "sum_of_rows": 16,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 합계 행 없음). 지원인원 행합 81. 경쟁률 재계산(지원÷모집) 전 행 원문과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 지역인재1전형(정원내)",
+            "sum_of_rows": 37,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 합계 행 없음). 지원인원 행합 144. 경쟁률 재계산(지원÷모집) 전 행 원문과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 지역인재2전형(정원내)",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 합계 행 없음). 지원인원 행합 3. 경쟁률 재계산(지원÷모집) 전 행 원문과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "SUSI 특별전형(정원외)",
+            "sum_of_rows": 41,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 합계 행 없음). 지원인원 행합 256. 경쟁률 재계산(지원÷모집) 전 행 원문과 일치(소수 둘째 자리)"
+          },
+          {
+            "scope": "JEONGSI 일반학생전형(정원내)",
+            "sum_of_rows": 55,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(이미지 표에 합계 행 없음). 지원인원 행합 200. 경쟁률 재계산(지원÷모집) 전 행 원문과 일치(소수 둘째 자리)"
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u84",
+        "university_code": "U84",
+        "university_name": "대구대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 0
+        },
+        "rows": 601,
+        "base_rows": 147,
+        "metric_rows": 454,
+        "metric_labels": 5,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 601,
+        "linked_2027_department_rows": 495,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부교과(일반전형)",
+            "sum_of_rows": 1920,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 전형별·전체 합계 행 없음). 지원자 수가 원문에 없어 경쟁률 재계산 검산 불가."
+          },
+          {
+            "scope": "SUSI 학생부교과(지역인재전형)",
+            "sum_of_rows": 145,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 전형별·전체 합계 행 없음). 지원자 수가 원문에 없어 경쟁률 재계산 검산 불가."
+          },
+          {
+            "scope": "SUSI 학생부종합(서류전형)",
+            "sum_of_rows": 729,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(표에 전형별·전체 합계 행 없음). 지원자 수가 원문에 없어 경쟁률 재계산 검산 불가."
+          }
+        ],
+        "spot_checks": 8,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 6
+      },
+      {
+        "university_key": "u95",
+        "university_code": "U95",
+        "university_name": "대전대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 2
+        },
+        "rows": 216,
+        "base_rows": 28,
+        "metric_rows": 188,
+        "metric_labels": 16,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 150,
+        "recruit_total_checks": [
+          {
+            "scope": "u95_2026_jeongsi_result 전체(기본행 recruit_count 합, 원문 모집인원이 있는 25개 모집단위)",
+            "sum_of_rows": 182,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 원문에 지원인원이 없어 경쟁률 재계산 불가 — 대신 문서2(성적분석자료)의 2026 지원인원÷모집인원과 7개 모집단위 대조: 간호학과: 문서2 지원78÷모집9=8.67 vs 문서1 경쟁률 8.67 → 일치; 80%컷 등급 2.67/2.67 | 간호학과(지역인재): 문서2 지원22÷모집3=7.33 vs 문서1 경쟁률 7.33 → 일치; 80%컷 등급 2.67/2.67 | 물리치료학과: 문서2 지원38÷모집6=6.33 vs 문서1 경쟁률 6.33 → 일치; 80%컷 등급 3/3.0 | 임상병리학과: 문서2 지원36÷모집5=7.2 vs 문서1 경쟁률 7.2 → 일치; 80%컷 등급 3.33/3.33 | 응급구조학과: 문서2 지원36÷모집4=9.0 vs 문서1 경쟁률 9.0 → 일치; 80%컷 등급 3.67/3.67 | 한의예과: 문서2 지원87÷모집7=12.43 vs 문서1 경쟁률 12.43 → 일치; 80%컷 등급 1.13/1.13 | 한의예과(지역인재): 문서2 지원43÷모집6=7.17 vs 문서1 경쟁률 7.17 → 일치; 80%컷 등급 1.5/1.5"
+          },
+          {
+            "scope": "u95_2026_jeongsi_result_2 2026학년도 행(기본행 recruit_count 합, 7개 모집단위)",
+            "sum_of_rows": 40,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 위 교차 대조 결과 7개 모두 모집인원·경쟁률·80%컷 등급 일치."
+          }
+        ],
+        "spot_checks": 11,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u9",
+        "university_code": "U9",
+        "university_name": "국립군산대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 844,
+        "base_rows": 257,
+        "metric_rows": 587,
+        "metric_labels": 7,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 329,
+        "linked_2027_department_rows": 567,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부교과(일반전형)",
+            "sum_of_rows": 953,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(지역인재1)",
+            "sum_of_rows": 314,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(지역인재2)",
+            "sum_of_rows": 1,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(저소득층학생)",
+            "sum_of_rows": 15,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(실기/실적 위주(일반전형))",
+            "sum_of_rows": 52,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(농어촌학생)",
+            "sum_of_rows": 70,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(특성화고교졸업자)",
+            "sum_of_rows": 25,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(특수교육대상자)",
+            "sum_of_rows": 3,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부교과(특성화고졸재직자)",
+            "sum_of_rows": 24,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부종합(일반학생전형)",
+            "sum_of_rows": 378,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "SUSI 학생부종합(사회통합)",
+            "sum_of_rows": 4,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 일반전형(실기위주)",
+            "sum_of_rows": 17,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          },
+          {
+            "scope": "JEONGSI 일반전형(수능위주)",
+            "sum_of_rows": 324,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(xlsx에 전형별·전체 합계 행 없음)"
+          }
+        ],
+        "spot_checks": 16,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 0
+      }
+    ]
   }
 }

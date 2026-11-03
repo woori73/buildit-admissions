@@ -133,7 +133,7 @@ def build(keys: list[str] | None):
         for g in src.get("gaps", []):
             gaps.append({"university_code": code, "university_name": name, **g})
 
-        out_rows, failures, moved, linked_t, linked_d, seen = [], [], 0, 0, 0, {}
+        out_rows, failures, warnings, moved, linked_t, linked_d, seen = [], [], [], 0, 0, 0, {}
         rank_label = EXTRA_IS_RESERVE_RANK.get(key)
         for i, r in enumerate(src["rows"]):
             doc = doc_map.get(r["source_document_key"])
@@ -144,13 +144,18 @@ def build(keys: list[str] | None):
             base = {
                 "university_code": code, "academic_year": COUNSEL_YEAR, "result_year": RESULT_YEAR,
                 "round_type": r["round_type"], "group": r.get("group"),
-                "type_name": r["type_name"].strip(), "department_name": r["department_name"].strip(),
+                "type_name": (r.get("type_name") or "").strip(),
+                # 원문에 모집단위 열이 없는 표(전형 단위 결과)는 "전형 전체"로 둔다(빈 이름은 적재기가 건너뛰므로).
+                "department_name": (r.get("department_name") or "").strip() or "전형 전체",
                 "source_document_key": new_key,
                 "source_url": d.get("source_url") or d.get("source_page_url"),
                 "institution_name": d.get("institution_name") or f"{name} 입학처",
                 "published_at": d.get("published_at"),
                 "evidence_pages": r.get("evidence_pages") or [],
             }
+            if r.get("round_type") not in ("SUSI", "JEONGSI") or not base["type_name"]:
+                failures.append({"row_index": i, "reason": f"round_type/type_name 이상: {r.get('round_type')!r}/{r.get('type_name')!r}"})
+                continue
             if not base["source_url"]:
                 failures.append({"row_index": i, "reason": "source_url 없음"})
                 continue
@@ -183,8 +188,15 @@ def build(keys: list[str] | None):
                 nk = natural_key(e)
                 if nk in seen:
                     prev = seen[nk]
-                    if prev != e:
-                        failures.append({"row_index": i, "reason": "같은 자연키에 다른 값(중복)"})
+                    # 같은 단위가 두 문서(예: 결과표·성적분석표)에 나오면: 값이 겹치지 않는 칸만 채우고, 다른 값이면 앞 문서 값을 둔다.
+                    value_keys = ("metric_value", "raw_value_text", "recruit_count", "applicant_count",
+                                  "competition_rate", "extra_admitted_count")
+                    conflict = [k for k in value_keys if prev.get(k) is not None and e.get(k) is not None and prev[k] != e[k]]
+                    for k in value_keys:
+                        if prev.get(k) is None and e.get(k) is not None:
+                            prev[k] = e[k]
+                    if conflict:
+                        warnings.append({"row_index": i, "reason": f"같은 단위가 두 문서에 다른 값 {conflict} — 앞 문서 값 유지"})
                     continue
                 seen[nk] = e
                 out_rows.append(e)
@@ -210,6 +222,7 @@ def build(keys: list[str] | None):
             "spot_checks_all_match": all(c.get("match") for c in ver.get("spot_checks", [])) if ver.get("spot_checks") else None,
             "range_failures_source": ver.get("range_failures", 0),
             "build_failures": failures,
+            "build_warnings": warnings,
             "gaps": len(src.get("gaps", [])),
         })
 
@@ -272,6 +285,8 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--keys", nargs="*", help="이 대학 키만 (기본: 전체)")
     ap.add_argument("--out-dir", default=OUT_DIR)
+    ap.add_argument("--report-key", default="prior_results",
+                    help="build_report.json 안의 항목 이름(추가 묶음은 prior_results_batch3처럼 따로 둬 기존 기록을 덮지 않음)")
     args = ap.parse_args()
     seed, per_univ = build(args.keys)
     os.makedirs(args.out_dir, exist_ok=True)
@@ -293,7 +308,7 @@ def main():
     if os.path.exists(REPORT):
         with open(REPORT, encoding="utf-8") as f:
             report = json.load(f)
-    report["prior_results"] = {
+    report[args.report_key] = {
         "seed_files": files,
         "result_year": RESULT_YEAR, "academic_year": COUNSEL_YEAR,
         "count": len(seed["prior_results"]), "documents": len(seed["ipsi_documents"]),

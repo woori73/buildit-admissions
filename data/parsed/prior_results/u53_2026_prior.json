@@ -1,0 +1,7639 @@
+{
+ "university_key": "u53",
+ "university_name": "건국대학교(글로컬캠퍼스)",
+ "university_code": "U53",
+ "result_year": 2026,
+ "documents": [
+  {
+   "document_key": "u53_2026_susi_result",
+   "document_name": "2024 ~ 2026 수시모집 3개년 입시결과 비교(PDF 제목: 수시모집 2024~2026학년도 입시결과)",
+   "round_type": "SUSI",
+   "institution_name": "건국대학교 글로컬캠퍼스 입학처",
+   "source_page_url": "https://enter.kku.ac.kr/rate/pdf_viewer.php?b_code=B_1_3&b_no=6957",
+   "source_url": "https://enter.kku.ac.kr/upload_data/board/B_1_3/20260729154232_5.pdf",
+   "file_name": "20260729154232_5.pdf",
+   "file_sha256": "092efd5cc94b276d8b4371b65aa0317950e470e2ab4805eb982915708b87e40e",
+   "published_at": "2026-04-30",
+   "pages": 5
+  },
+  {
+   "document_key": "u53_2026_jeongsi_result",
+   "document_name": "2024 ~ 2026 정시모집 3개년 입시결과 비교(PDF 제목: 정시모집 2024~2026학년도 입시결과)",
+   "round_type": "JEONGSI",
+   "institution_name": "건국대학교 글로컬캠퍼스 입학처",
+   "source_page_url": "https://enter.kku.ac.kr/rate/pdf_viewer.php?b_code=B_1_3&b_no=6958",
+   "source_url": "https://enter.kku.ac.kr/upload_data/board/B_1_3/20260811105523_32.pdf",
+   "file_name": "20260811105523_32.pdf",
+   "file_sha256": "2ed4ad70108073a0c1c8b5f06e22e8c1d22fd661dcb7f49978d0b4e968883328",
+   "published_at": "2026-04-30",
+   "pages": 1
+  }
+ ],
+ "rows": [
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.7",
+   "recruit_count": 28,
+   "applicant_count": 188,
+   "competition_rate": 6.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.69,
+   "raw_value_text": "4.69",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.74,
+   "raw_value_text": "4.74",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 27,
+   "raw_value_text": "27",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.1",
+   "recruit_count": 28,
+   "applicant_count": 171,
+   "competition_rate": 6.1,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.16,
+   "raw_value_text": "5.16",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.34,
+   "raw_value_text": "5.34",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 6,
+   "raw_value_text": "6",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.5",
+   "recruit_count": 20,
+   "applicant_count": 190,
+   "competition_rate": 9.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.72,
+   "raw_value_text": "3.72",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.75,
+   "raw_value_text": "3.75",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 13,
+   "raw_value_text": "13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.3",
+   "recruit_count": 14,
+   "applicant_count": 102,
+   "competition_rate": 7.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.58,
+   "raw_value_text": "4.58",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.73,
+   "raw_value_text": "4.73",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 7,
+   "raw_value_text": "7",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.4",
+   "recruit_count": 14,
+   "applicant_count": 103,
+   "competition_rate": 7.4,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.11,
+   "raw_value_text": "4.11",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.21,
+   "raw_value_text": "4.21",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 9,
+   "raw_value_text": "9",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.3",
+   "recruit_count": 21,
+   "applicant_count": 133,
+   "competition_rate": 6.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.66,
+   "raw_value_text": "4.66",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.86,
+   "raw_value_text": "4.86",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 16,
+   "raw_value_text": "16",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.7",
+   "recruit_count": 19,
+   "applicant_count": 127,
+   "competition_rate": 6.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.71,
+   "raw_value_text": "4.71",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.79,
+   "raw_value_text": "4.79",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 23,
+   "raw_value_text": "23",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.5",
+   "recruit_count": 24,
+   "applicant_count": 181,
+   "competition_rate": 7.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.33,
+   "raw_value_text": "4.33",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.43,
+   "raw_value_text": "4.43",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 11,
+   "raw_value_text": "11",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.1",
+   "recruit_count": 14,
+   "applicant_count": 71,
+   "competition_rate": 5.1,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.66,
+   "raw_value_text": "4.66",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.98,
+   "raw_value_text": "4.98",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 8,
+   "raw_value_text": "8",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.7",
+   "recruit_count": 14,
+   "applicant_count": 94,
+   "competition_rate": 6.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.8,
+   "raw_value_text": "4.8",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.07,
+   "raw_value_text": "5.07",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 11,
+   "raw_value_text": "11",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.7",
+   "recruit_count": 28,
+   "applicant_count": 159,
+   "competition_rate": 5.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.17,
+   "raw_value_text": "5.17",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.29,
+   "raw_value_text": "5.29",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 23,
+   "raw_value_text": "23",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.9",
+   "recruit_count": 28,
+   "applicant_count": 193,
+   "competition_rate": 6.9,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.82,
+   "raw_value_text": "4.82",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.97,
+   "raw_value_text": "4.97",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 20,
+   "raw_value_text": "20",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.0",
+   "recruit_count": 28,
+   "applicant_count": 113,
+   "competition_rate": 4.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.99,
+   "raw_value_text": "4.99",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.3,
+   "raw_value_text": "5.30",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 13,
+   "raw_value_text": "13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.0",
+   "recruit_count": 14,
+   "applicant_count": 70,
+   "competition_rate": 5.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.02,
+   "raw_value_text": "5.02",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.39,
+   "raw_value_text": "5.39",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 14,
+   "raw_value_text": "14",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.0",
+   "recruit_count": 14,
+   "applicant_count": 98,
+   "competition_rate": 7.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.49,
+   "raw_value_text": "4.49",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.98,
+   "raw_value_text": "4.98",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 9,
+   "raw_value_text": "9",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "11.6",
+   "recruit_count": 25,
+   "applicant_count": 290,
+   "competition_rate": 11.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.88,
+   "raw_value_text": "2.88",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.97,
+   "raw_value_text": "2.97",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 15,
+   "raw_value_text": "15",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.1",
+   "recruit_count": 26,
+   "applicant_count": 106,
+   "competition_rate": 4.1,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.53,
+   "raw_value_text": "4.53",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.9,
+   "raw_value_text": "4.90",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 22,
+   "raw_value_text": "22",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.0",
+   "recruit_count": 26,
+   "applicant_count": 130,
+   "competition_rate": 5.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.44,
+   "raw_value_text": "4.44",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.73,
+   "raw_value_text": "4.73",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 13,
+   "raw_value_text": "13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.8",
+   "recruit_count": 14,
+   "applicant_count": 123,
+   "competition_rate": 8.8,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.65,
+   "raw_value_text": "4.65",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.76,
+   "raw_value_text": "4.76",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 13,
+   "raw_value_text": "13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.3",
+   "recruit_count": 20,
+   "applicant_count": 165,
+   "competition_rate": 8.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.37,
+   "raw_value_text": "4.37",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.64,
+   "raw_value_text": "4.64",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 14,
+   "raw_value_text": "14",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "16.8",
+   "recruit_count": 4,
+   "applicant_count": 67,
+   "competition_rate": 16.8,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 1.54,
+   "raw_value_text": "1.54",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 1.54,
+   "raw_value_text": "1.54",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 0,
+   "raw_value_text": "0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "10.6",
+   "recruit_count": 56,
+   "applicant_count": 595,
+   "competition_rate": 10.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.93,
+   "raw_value_text": "4.93",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.08,
+   "raw_value_text": "5.08",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(Cogito자기추천전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 40,
+   "raw_value_text": "40",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(지역인재전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.9",
+   "recruit_count": 12,
+   "applicant_count": 119,
+   "competition_rate": 9.9,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(지역인재전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.8,
+   "raw_value_text": "2.80",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(지역인재전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.88,
+   "raw_value_text": "2.88",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(지역인재전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 8,
+   "raw_value_text": "8",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(지역인재전형)",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "17.44",
+   "recruit_count": 9,
+   "applicant_count": 157,
+   "competition_rate": 17.44,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(지역인재전형)",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 1.65,
+   "raw_value_text": "1.65",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(지역인재전형)",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 1.77,
+   "raw_value_text": "1.77",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형(지역인재전형)",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 0,
+   "raw_value_text": "0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.2",
+   "recruit_count": 24,
+   "applicant_count": 220,
+   "competition_rate": 9.2,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.51,
+   "raw_value_text": "3.51",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.64,
+   "raw_value_text": "3.64",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 76,
+   "raw_value_text": "76",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.9",
+   "recruit_count": 21,
+   "applicant_count": 145,
+   "competition_rate": 6.9,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.72,
+   "raw_value_text": "3.72",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.01,
+   "raw_value_text": "4.01",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 55,
+   "raw_value_text": "55",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "16.0",
+   "recruit_count": 9,
+   "applicant_count": 144,
+   "competition_rate": 16.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.57,
+   "raw_value_text": "2.57",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.22,
+   "raw_value_text": "3.22",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 40,
+   "raw_value_text": "40",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "13.4",
+   "recruit_count": 7,
+   "applicant_count": 94,
+   "competition_rate": 13.4,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.76,
+   "raw_value_text": "2.76",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.43,
+   "raw_value_text": "3.43",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 8,
+   "raw_value_text": "8",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "10.6",
+   "recruit_count": 9,
+   "applicant_count": 95,
+   "competition_rate": 10.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.29,
+   "raw_value_text": "3.29",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.29,
+   "raw_value_text": "3.29",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 36,
+   "raw_value_text": "36",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.3",
+   "recruit_count": 9,
+   "applicant_count": 84,
+   "competition_rate": 9.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.99,
+   "raw_value_text": "3.99",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.03,
+   "raw_value_text": "4.03",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 41,
+   "raw_value_text": "41",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.7",
+   "recruit_count": 9,
+   "applicant_count": 78,
+   "competition_rate": 8.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.81,
+   "raw_value_text": "3.81",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.95,
+   "raw_value_text": "3.95",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 38,
+   "raw_value_text": "38",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.0",
+   "recruit_count": 12,
+   "applicant_count": 84,
+   "competition_rate": 7.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.25,
+   "raw_value_text": "3.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.63,
+   "raw_value_text": "3.63",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 47,
+   "raw_value_text": "47",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.6",
+   "recruit_count": 12,
+   "applicant_count": 79,
+   "competition_rate": 6.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.71,
+   "raw_value_text": "3.71",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.99,
+   "raw_value_text": "3.99",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 19,
+   "raw_value_text": "19",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.5",
+   "recruit_count": 11,
+   "applicant_count": 71,
+   "competition_rate": 6.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.71,
+   "raw_value_text": "3.71",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.79,
+   "raw_value_text": "3.79",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 26,
+   "raw_value_text": "26",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.9",
+   "recruit_count": 23,
+   "applicant_count": 159,
+   "competition_rate": 6.9,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.09,
+   "raw_value_text": "4.09",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.27,
+   "raw_value_text": "4.27",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 55,
+   "raw_value_text": "55",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.5",
+   "recruit_count": 28,
+   "applicant_count": 182,
+   "competition_rate": 6.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.85,
+   "raw_value_text": "3.85",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.96,
+   "raw_value_text": "3.96",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 76,
+   "raw_value_text": "76",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.5",
+   "recruit_count": 27,
+   "applicant_count": 175,
+   "competition_rate": 6.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.15,
+   "raw_value_text": "4.15",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.42,
+   "raw_value_text": "4.42",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 79,
+   "raw_value_text": "79",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.9",
+   "recruit_count": 18,
+   "applicant_count": 125,
+   "competition_rate": 6.9,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.03,
+   "raw_value_text": "4.03",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.19,
+   "raw_value_text": "4.19",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 29,
+   "raw_value_text": "29",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.6",
+   "recruit_count": 17,
+   "applicant_count": 113,
+   "competition_rate": 6.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.3,
+   "raw_value_text": "4.3",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.48,
+   "raw_value_text": "4.48",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 60,
+   "raw_value_text": "60",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.9",
+   "recruit_count": 15,
+   "applicant_count": 134,
+   "competition_rate": 8.9,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.15,
+   "raw_value_text": "2.15",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.23,
+   "raw_value_text": "2.23",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 37,
+   "raw_value_text": "37",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.4",
+   "recruit_count": 14,
+   "applicant_count": 132,
+   "competition_rate": 9.4,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.23,
+   "raw_value_text": "3.23",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.29,
+   "raw_value_text": "3.29",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 74,
+   "raw_value_text": "74",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.0",
+   "recruit_count": 14,
+   "applicant_count": 98,
+   "competition_rate": 7.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.5,
+   "raw_value_text": "3.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.62,
+   "raw_value_text": "3.62",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 44,
+   "raw_value_text": "44",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "10.1",
+   "recruit_count": 16,
+   "applicant_count": 162,
+   "competition_rate": 10.1,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.7,
+   "raw_value_text": "2.7",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.31,
+   "raw_value_text": "3.31",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 34,
+   "raw_value_text": "34",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "13.7",
+   "recruit_count": 6,
+   "applicant_count": 82,
+   "competition_rate": 13.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.37,
+   "raw_value_text": "2.37",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 2.77,
+   "raw_value_text": "2.77",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 27,
+   "raw_value_text": "27",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "14.4",
+   "recruit_count": 106,
+   "applicant_count": 1524,
+   "competition_rate": 14.4,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 3.95,
+   "raw_value_text": "3.95",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 4.08,
+   "raw_value_text": "4.08",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(교과우수전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 237,
+   "raw_value_text": "237",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    3
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "10.3",
+   "recruit_count": 3,
+   "applicant_count": 31,
+   "competition_rate": 10.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 3.35,
+   "raw_value_text": "3.35",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.89,
+   "raw_value_text": "3.89",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 2,
+   "raw_value_text": "2",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.0",
+   "recruit_count": 3,
+   "applicant_count": 15,
+   "competition_rate": 5.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 4.22,
+   "raw_value_text": "4.22",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.82,
+   "raw_value_text": "4.82",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 1,
+   "raw_value_text": "1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.5",
+   "recruit_count": 2,
+   "applicant_count": 9,
+   "competition_rate": 4.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 3.25,
+   "raw_value_text": "3.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.85,
+   "raw_value_text": "3.85",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 0,
+   "raw_value_text": "0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.5",
+   "recruit_count": 2,
+   "applicant_count": 11,
+   "competition_rate": 5.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 5.01,
+   "raw_value_text": "5.01",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.36,
+   "raw_value_text": "5.36",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 2,
+   "raw_value_text": "2",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.0",
+   "recruit_count": 2,
+   "applicant_count": 12,
+   "competition_rate": 6.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 4.1,
+   "raw_value_text": "4.10",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.27,
+   "raw_value_text": "4.27",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 6,
+   "raw_value_text": "6",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.0",
+   "recruit_count": 3,
+   "applicant_count": 18,
+   "competition_rate": 6.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 3.22,
+   "raw_value_text": "3.22",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.56,
+   "raw_value_text": "4.56",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 6,
+   "raw_value_text": "6",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.0",
+   "recruit_count": 2,
+   "applicant_count": 10,
+   "competition_rate": 5.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 3.46,
+   "raw_value_text": "3.46",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.5,
+   "raw_value_text": "3.50",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 1,
+   "raw_value_text": "1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.0",
+   "recruit_count": 3,
+   "applicant_count": 18,
+   "competition_rate": 6.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 3.87,
+   "raw_value_text": "3.87",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.1,
+   "raw_value_text": "4.10",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 3,
+   "raw_value_text": "3",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.0",
+   "recruit_count": 2,
+   "applicant_count": 10,
+   "competition_rate": 5.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 4.34,
+   "raw_value_text": "4.34",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.39,
+   "raw_value_text": "4.39",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "동화·한국어문화학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 0,
+   "raw_value_text": "0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.0",
+   "recruit_count": 2,
+   "applicant_count": 10,
+   "competition_rate": 5.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 3.18,
+   "raw_value_text": "3.18",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.18,
+   "raw_value_text": "3.18",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 0,
+   "raw_value_text": "0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.0",
+   "recruit_count": 3,
+   "applicant_count": 15,
+   "competition_rate": 5.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 5.15,
+   "raw_value_text": "5.15",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.24,
+   "raw_value_text": "5.24",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 9,
+   "raw_value_text": "9",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.7",
+   "recruit_count": 3,
+   "applicant_count": 14,
+   "competition_rate": 4.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 4.11,
+   "raw_value_text": "4.11",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.73,
+   "raw_value_text": "4.73",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 5,
+   "raw_value_text": "5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "3.7",
+   "recruit_count": 3,
+   "applicant_count": 11,
+   "competition_rate": 3.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 4.18,
+   "raw_value_text": "4.18",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.73,
+   "raw_value_text": "5.73",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 3,
+   "raw_value_text": "3",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.5",
+   "recruit_count": 2,
+   "applicant_count": 13,
+   "competition_rate": 6.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 5.44,
+   "raw_value_text": "5.44",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.44,
+   "raw_value_text": "5.44",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 0,
+   "raw_value_text": "0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.0",
+   "recruit_count": 2,
+   "applicant_count": 10,
+   "competition_rate": 5.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 4.9,
+   "raw_value_text": "4.90",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.21,
+   "raw_value_text": "5.21",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 0,
+   "raw_value_text": "0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.3",
+   "recruit_count": 12,
+   "applicant_count": 111,
+   "competition_rate": 9.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 1.22,
+   "raw_value_text": "1.22",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 2.8,
+   "raw_value_text": "2.80",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 18,
+   "raw_value_text": "18",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.0",
+   "recruit_count": 2,
+   "applicant_count": 10,
+   "competition_rate": 5.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 2.55,
+   "raw_value_text": "2.55",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.86,
+   "raw_value_text": "3.86",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 3,
+   "raw_value_text": "3",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.7",
+   "recruit_count": 3,
+   "applicant_count": 29,
+   "competition_rate": 9.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 3.84,
+   "raw_value_text": "3.84",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.61,
+   "raw_value_text": "4.61",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 4,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.0",
+   "recruit_count": 2,
+   "applicant_count": 8,
+   "competition_rate": 4.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 2.96,
+   "raw_value_text": "2.96",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.92,
+   "raw_value_text": "3.92",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 2,
+   "raw_value_text": "2",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.0",
+   "recruit_count": 2,
+   "applicant_count": 14,
+   "competition_rate": 7.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 1.36,
+   "raw_value_text": "1.36",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 2.19,
+   "raw_value_text": "2.19",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 0,
+   "raw_value_text": "0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.0",
+   "recruit_count": 33,
+   "applicant_count": 264,
+   "competition_rate": 8.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "교과등급 최고",
+   "metric_unit": "GRADE",
+   "metric_value": 2.97,
+   "raw_value_text": "2.97",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.96,
+   "raw_value_text": "4.96",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부교과전형(지역인재전형)",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 51,
+   "raw_value_text": "51",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    4
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "디자인조형자유전공학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "26.9",
+   "recruit_count": 70,
+   "applicant_count": 1884,
+   "competition_rate": 26.9,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "디자인조형자유전공학부",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 37,
+   "raw_value_text": "37",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "산업디자인학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "24.1",
+   "recruit_count": 13,
+   "applicant_count": 313,
+   "competition_rate": 24.1,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "산업디자인학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 4,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "실내디자인학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "23.1",
+   "recruit_count": 13,
+   "applicant_count": 300,
+   "competition_rate": 23.1,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "실내디자인학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 7,
+   "raw_value_text": "7",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "패션디자인학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "24.1",
+   "recruit_count": 13,
+   "applicant_count": 313,
+   "competition_rate": 24.1,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "패션디자인학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 1,
+   "raw_value_text": "1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "시각영상디자인학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "32.4",
+   "recruit_count": 25,
+   "applicant_count": 811,
+   "competition_rate": 32.4,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "시각영상디자인학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 17,
+   "raw_value_text": "17",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "미디어콘텐츠학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "46.4",
+   "recruit_count": 13,
+   "applicant_count": 603,
+   "competition_rate": 46.4,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "미디어콘텐츠학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 4,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "조형예술학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "19.4",
+   "recruit_count": 27,
+   "applicant_count": 525,
+   "competition_rate": 19.4,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "조형예술학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 12,
+   "raw_value_text": "12",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "스포츠건강학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "27.5",
+   "recruit_count": 20,
+   "applicant_count": 550,
+   "competition_rate": 27.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "스포츠건강학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.54,
+   "raw_value_text": "5.54",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "스포츠건강학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.92,
+   "raw_value_text": "5.92",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "스포츠건강학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 5,
+   "raw_value_text": "5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "골프산업학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.7",
+   "recruit_count": 26,
+   "applicant_count": 200,
+   "competition_rate": 7.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "골프산업학과",
+   "group": null,
+   "metric_label": "교과등급 50% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 5.71,
+   "raw_value_text": "5.71",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "골프산업학과",
+   "group": null,
+   "metric_label": "교과등급 70% cut",
+   "metric_unit": "GRADE",
+   "metric_value": 6.61,
+   "raw_value_text": "6.61",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기우수자전형",
+   "department_name": "골프산업학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 25,
+   "raw_value_text": "25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_susi_result",
+   "evidence_pages": [
+    5
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "디자인조형자유전공학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.4",
+   "recruit_count": 52,
+   "applicant_count": 490,
+   "competition_rate": 9.4,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "디자인조형자유전공학부",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 77.5,
+   "raw_value_text": "77.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "디자인조형자유전공학부",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 63.5,
+   "raw_value_text": "63.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "디자인조형자유전공학부",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 28,
+   "raw_value_text": "28",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "산업디자인학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.7",
+   "recruit_count": 7,
+   "applicant_count": 61,
+   "competition_rate": 8.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "산업디자인학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 82.5,
+   "raw_value_text": "82.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "산업디자인학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 74.5,
+   "raw_value_text": "74.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "산업디자인학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 6,
+   "raw_value_text": "6",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "실내디자인학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.6",
+   "recruit_count": 7,
+   "applicant_count": 53,
+   "competition_rate": 7.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "실내디자인학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 85.5,
+   "raw_value_text": "85.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "실내디자인학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 73.0,
+   "raw_value_text": "73.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "실내디자인학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 4,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "패션디자인학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.0",
+   "recruit_count": 7,
+   "applicant_count": 56,
+   "competition_rate": 8.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "패션디자인학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 78.0,
+   "raw_value_text": "78.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "패션디자인학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 70.5,
+   "raw_value_text": "70.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "패션디자인학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 1,
+   "raw_value_text": "1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "시각영상디자인학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.6",
+   "recruit_count": 12,
+   "applicant_count": 103,
+   "competition_rate": 8.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "시각영상디자인학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 78.5,
+   "raw_value_text": "78.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "시각영상디자인학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 69.5,
+   "raw_value_text": "69.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "시각영상디자인학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 4,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "미디어콘텐츠학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.4",
+   "recruit_count": 7,
+   "applicant_count": 66,
+   "competition_rate": 9.4,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "미디어콘텐츠학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 75.0,
+   "raw_value_text": "75.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "미디어콘텐츠학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 67.5,
+   "raw_value_text": "67.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "미디어콘텐츠학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 5,
+   "raw_value_text": "5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "조형예술학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "15.5",
+   "recruit_count": 8,
+   "applicant_count": 124,
+   "competition_rate": 15.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "조형예술학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 67.5,
+   "raw_value_text": "67.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "조형예술학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 57.5,
+   "raw_value_text": "57.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "조형예술학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 4,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.3",
+   "recruit_count": 11,
+   "applicant_count": 69,
+   "competition_rate": 6.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 90.5,
+   "raw_value_text": "90.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 83.5,
+   "raw_value_text": "83.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경영학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 15,
+   "raw_value_text": "15",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.7",
+   "recruit_count": 10,
+   "applicant_count": 77,
+   "competition_rate": 7.7,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 88.5,
+   "raw_value_text": "88.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.5,
+   "raw_value_text": "87.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경제통상학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 10,
+   "raw_value_text": "10",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.3",
+   "recruit_count": 7,
+   "applicant_count": 44,
+   "competition_rate": 6.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 91.0,
+   "raw_value_text": "91.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 90.0,
+   "raw_value_text": "90.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "경찰학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 11,
+   "raw_value_text": "11",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.5",
+   "recruit_count": 4,
+   "applicant_count": 34,
+   "competition_rate": 8.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 88.1,
+   "raw_value_text": "88.1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.5,
+   "raw_value_text": "87.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "소방방재융합학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 4,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.3",
+   "recruit_count": 4,
+   "applicant_count": 33,
+   "competition_rate": 8.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 89.5,
+   "raw_value_text": "89.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 89.0,
+   "raw_value_text": "89.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "문헌정보학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 1,
+   "raw_value_text": "1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.0",
+   "recruit_count": 6,
+   "applicant_count": 42,
+   "competition_rate": 7.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.0,
+   "raw_value_text": "87.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 85.5,
+   "raw_value_text": "85.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "유아교육과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 11,
+   "raw_value_text": "11",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.2",
+   "recruit_count": 6,
+   "applicant_count": 55,
+   "competition_rate": 9.2,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 90.0,
+   "raw_value_text": "90.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.5,
+   "raw_value_text": "87.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "사회복지학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 3,
+   "raw_value_text": "3",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.0",
+   "recruit_count": 10,
+   "applicant_count": 80,
+   "competition_rate": 8.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 89.5,
+   "raw_value_text": "89.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 88.0,
+   "raw_value_text": "88.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "신문방송학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 12,
+   "raw_value_text": "12",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "동화ㆍ한국어문화학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.3",
+   "recruit_count": 10,
+   "applicant_count": 53,
+   "competition_rate": 5.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "동화ㆍ한국어문화학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 88.5,
+   "raw_value_text": "88.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "동화ㆍ한국어문화학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.0,
+   "raw_value_text": "87.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "동화ㆍ한국어문화학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 10,
+   "raw_value_text": "10",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.6",
+   "recruit_count": 8,
+   "applicant_count": 69,
+   "competition_rate": 8.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 88.5,
+   "raw_value_text": "88.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.5,
+   "raw_value_text": "87.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "영어문화학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 15,
+   "raw_value_text": "15",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.3",
+   "recruit_count": 12,
+   "applicant_count": 87,
+   "competition_rate": 7.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 89.1,
+   "raw_value_text": "89.1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.3,
+   "raw_value_text": "87.3",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "메카트로닉스공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 20,
+   "raw_value_text": "20",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.2",
+   "recruit_count": 9,
+   "applicant_count": 56,
+   "competition_rate": 6.2,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 90.5,
+   "raw_value_text": "90.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.1,
+   "raw_value_text": "87.1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "컴퓨터공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 27,
+   "raw_value_text": "27",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.8",
+   "recruit_count": 11,
+   "applicant_count": 97,
+   "competition_rate": 8.8,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 89.0,
+   "raw_value_text": "89.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 88.0,
+   "raw_value_text": "88.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "바이오메디컬공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 13,
+   "raw_value_text": "13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.9",
+   "recruit_count": 8,
+   "applicant_count": 47,
+   "competition_rate": 5.9,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 88.5,
+   "raw_value_text": "88.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.5,
+   "raw_value_text": "87.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "녹색기술융합학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 10,
+   "raw_value_text": "10",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.6",
+   "recruit_count": 8,
+   "applicant_count": 69,
+   "competition_rate": 8.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 90.9,
+   "raw_value_text": "90.9",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 89.6,
+   "raw_value_text": "89.6",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "에너지신소재공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 6,
+   "raw_value_text": "6",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.9",
+   "recruit_count": 21,
+   "applicant_count": 165,
+   "competition_rate": 7.9,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 95.0,
+   "raw_value_text": "95.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 94.0,
+   "raw_value_text": "94.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 30,
+   "raw_value_text": "30",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "간호학과(지역인재)",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.3",
+   "recruit_count": 6,
+   "applicant_count": 32,
+   "competition_rate": 5.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "간호학과(지역인재)",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 92.5,
+   "raw_value_text": "92.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "간호학과(지역인재)",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 91.5,
+   "raw_value_text": "91.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "간호학과(지역인재)",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 4,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.1",
+   "recruit_count": 9,
+   "applicant_count": 46,
+   "competition_rate": 5.1,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 91.0,
+   "raw_value_text": "91.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 88.5,
+   "raw_value_text": "88.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "바이오의약학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 10,
+   "raw_value_text": "10",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.5",
+   "recruit_count": 8,
+   "applicant_count": 36,
+   "competition_rate": 4.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 90.9,
+   "raw_value_text": "90.9",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 75.8,
+   "raw_value_text": "75.8",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "생명공학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 17,
+   "raw_value_text": "17",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.5",
+   "recruit_count": 4,
+   "applicant_count": 34,
+   "competition_rate": 8.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 91.6,
+   "raw_value_text": "91.6",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 88.5,
+   "raw_value_text": "88.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "식품영양학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 4,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "9.8",
+   "recruit_count": 4,
+   "applicant_count": 39,
+   "competition_rate": 9.8,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 89.5,
+   "raw_value_text": "89.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 86.5,
+   "raw_value_text": "86.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "뷰티화장품학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 10,
+   "raw_value_text": "10",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "스포츠건강학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "19.3",
+   "recruit_count": 15,
+   "applicant_count": 290,
+   "competition_rate": 19.3,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "스포츠건강학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 80.0,
+   "raw_value_text": "80.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "스포츠건강학과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 60.0,
+   "raw_value_text": "60.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "스포츠건강학과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 9,
+   "raw_value_text": "9",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "24.1",
+   "recruit_count": 9,
+   "applicant_count": 217,
+   "competition_rate": 24.1,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "SCORE",
+   "metric_value": 967.3,
+   "raw_value_text": "967.3",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "SCORE",
+   "metric_value": 962.0,
+   "raw_value_text": "962.0",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "의예과",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 79,
+   "raw_value_text": "79",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "의예과(지역인재)",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "7.6",
+   "recruit_count": 16,
+   "applicant_count": 121,
+   "competition_rate": 7.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "의예과(지역인재)",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "SCORE",
+   "metric_value": 945.2,
+   "raw_value_text": "945.2",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "의예과(지역인재)",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "SCORE",
+   "metric_value": 938.7,
+   "raw_value_text": "938.7",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "의예과(지역인재)",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 36,
+   "raw_value_text": "36",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "8.5",
+   "recruit_count": 33,
+   "applicant_count": 282,
+   "competition_rate": 8.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 50%cut",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 89.5,
+   "raw_value_text": "89.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "수능 백분위(의예과:표준점수) 최저",
+   "metric_unit": "PERCENTILE",
+   "metric_value": 87.5,
+   "raw_value_text": "87.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "JEONGSI",
+   "type_name": "정시모집",
+   "department_name": "KU자유전공학부",
+   "group": null,
+   "metric_label": "최종추가 합격번호",
+   "metric_unit": "OTHER",
+   "metric_value": 59,
+   "raw_value_text": "59",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u53_2026_jeongsi_result",
+   "evidence_pages": [
+    1
+   ]
+  }
+ ],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "SUSI 학생부종합전형(Cogito자기추천전형)",
+    "sum_of_rows": 479,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+   },
+   {
+    "scope": "SUSI 학생부종합전형(지역인재전형)",
+    "sum_of_rows": 21,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+   },
+   {
+    "scope": "SUSI 학생부교과전형(교과우수전형)",
+    "sum_of_rows": 407,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+   },
+   {
+    "scope": "SUSI 학생부교과전형(지역인재전형)",
+    "sum_of_rows": 91,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+   },
+   {
+    "scope": "SUSI 실기우수자전형",
+    "sum_of_rows": 220,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+   },
+   {
+    "scope": "JEONGSI 정시모집",
+    "sum_of_rows": 349,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(전형별 합계 행 없음). 경쟁률은 원문이 소수 첫째 자리로 반올림되어 있어 지원÷모집 재계산값과 ±0.05 이내로 모두 일치"
+   }
+  ],
+  "spot_checks": [
+   {
+    "page": 1,
+    "cell": "수시 p1 학생부종합전형(Cogito자기추천전형) '경영학과' 2026학년도 모집·지원·경쟁률",
+    "type_name": "학생부종합전형(Cogito자기추천전형)",
+    "department_name": "경영학과",
+    "field": "recruit_count/applicant_count/competition_rate",
+    "source_text": "28 / 188 / 6.7",
+    "value": "28 / 188 / 6.7",
+    "match": true
+   },
+   {
+    "page": 3,
+    "cell": "수시 p3 학생부교과전형(교과우수전형) 'KU자유전공학부' 2026 지원인원·최종추가 합격번호",
+    "type_name": "학생부교과전형(교과우수전형)",
+    "department_name": "KU자유전공학부",
+    "field": "applicant_count/metric_value(최종추가 합격번호)",
+    "source_text": "1,524 / 237",
+    "value": "1524 / 237",
+    "match": true
+   },
+   {
+    "page": 4,
+    "cell": "수시 p4 학생부교과전형(지역인재전형) '간호학과***' 2026 교과등급 최고·최저",
+    "type_name": "학생부교과전형(지역인재전형)",
+    "department_name": "간호학과",
+    "field": "metric_value",
+    "source_text": "1.22 / 2.80",
+    "value": "1.22 / 2.8",
+    "match": true
+   },
+   {
+    "page": 5,
+    "cell": "수시 p5 실기우수자전형 '스포츠건강학과' 2026 교과등급 50% cut·70% cut",
+    "type_name": "실기우수자전형",
+    "department_name": "스포츠건강학과",
+    "field": "metric_value",
+    "source_text": "5.54 / 5.92",
+    "value": "5.54 / 5.92",
+    "match": true
+   },
+   {
+    "page": 1,
+    "cell": "정시 '경영학과' 2026학년도 모집·지원·경쟁률(2027 모집인원 7은 제외)",
+    "type_name": "정시모집",
+    "department_name": "경영학과",
+    "field": "recruit_count/applicant_count/competition_rate",
+    "source_text": "11 / 69 / 6.3",
+    "value": "11 / 69 / 6.3",
+    "match": true
+   },
+   {
+    "page": 1,
+    "cell": "정시 '의예과' 2026 수능(표준점수) 50%cut·최저·최종추가 합격번호",
+    "type_name": "정시모집",
+    "department_name": "의예과",
+    "field": "metric_value",
+    "source_text": "967.3 / 962.0 / 79",
+    "value": "967.3 / 962.0 / 79",
+    "match": true
+   },
+   {
+    "page": 1,
+    "cell": "정시 '간호학과(지역인재)***' 2026 수능 백분위 50%cut·최저",
+    "type_name": "정시모집",
+    "department_name": "간호학과(지역인재)",
+    "field": "metric_value",
+    "source_text": "92.5 / 91.5",
+    "value": "92.5 / 91.5",
+    "match": true
+   }
+  ],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 지원현황(최종 경쟁률)",
+   "reason": "입학처 경쟁률 게시판의 해당 글은 외부 대행사 도메인(addon.jinhakapply.com) 링크라 요청·사용하지 않음. 수시 경쟁률은 입학처 PDF(3개년 입시결과 비교)의 2026 모집·지원·경쟁률로 대체.",
+   "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10091041.html"
+  },
+  {
+   "item": "2026학년도 정시모집 지원현황 / 추가모집 지원현황",
+   "reason": "외부 대행사 도메인(addon.jinhakapply.com) 링크라 요청·사용하지 않음.",
+   "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10091121.html"
+  },
+  {
+   "item": "정시 모집군(가/나/다) 및 정시 전형명",
+   "reason": "정시 PDF에 모집군과 전형명 열이 없음 → group=null, type_name은 문서 제목의 '정시모집'으로 기록(각주에 '정시-일반학생전형(비실기)' 언급만 있음).",
+   "url": "https://enter.kku.ac.kr/upload_data/board/B_1_3/20260811105523_32.pdf"
+  }
+ ],
+ "notes": [
+  "입학처 주소: WebSearch 결과(입학처 안내 PDF 발췌)에 나온 enter.kku.ac.kr. 루트(https://enter.kku.ac.kr/)는 document.location.href='/intro/' 고정 경로 리다이렉트뿐이라 /intro/를 열었고(주소 조립 아님, 기존 산출물 sungshin·u177 선례), 메뉴 정적 링크 '경쟁률 및 입학성적'(/rate/?m_type=SUSI, /rate/?m_type=JEONGSI) → 게시글 링크 pdf_viewer.php?b_code=B_1_3&b_no=6957/6958 → 그 페이지 HTML의 PDFObject.embed('/upload_data/board/B_1_3/…pdf') 인자에 완성된 문자열로 들어 있는 PDF 경로를 그대로 요청(조립 없음, 기존 kyonggi 선례). 모든 요청은 IpsiFetcher, robots 허용.",
+  "캠퍼스 범위: enter.kku.ac.kr은 '건국대학교 글로컬 캠퍼스 입학처'(페이지 제목 '건국대글로컬 입학처') — 글로컬(충주)캠퍼스 자료만 수록. 서울캠퍼스 자료는 조회하지 않음.",
+  "두 PDF 모두 2024~2026 3개년 비교표이며 2026학년도 열만 사용(2025·2024 열과 정시 '2027 모집인원' 열은 사용하지 않음). published_at은 게시판 목록의 게시일 2026.04.30(정시 PDF 파일명 타임스탬프는 20260811로 이후 교체된 파일로 보이나 게시일 표기만 사용).",
+  "수시 type_name은 표 제목 '[수시] …' 그대로: 학생부종합전형(Cogito자기추천전형), 학생부종합전형(지역인재전형), 학생부교과전형(교과우수전형), 학생부교과전형(지역인재전형), 실기우수자전형.",
+  "department_name은 모집단위 셀에서 각주 표시 별표(*: 교직과정 설치 학과, **: KU자유전공학부 1학년 수료 후 선택 불가능 학과, ***: 간호학과 표시)만 떼고 기록(예: '문헌정보학과*' → '문헌정보학과', '간호학과(지역인재)***' → '간호학과(지역인재)'). 그 외 표기는 원문 그대로(수시 '동화·한국어문화학과', 정시 '동화ㆍ한국어문화학과' 가운뎃점 문자가 원문에서 서로 다름).",
+  "지표: 수시 '교과등급 50% cut/70% cut'(학생부종합·교과우수·실기), 학생부교과전형(지역인재전형) 표만 머리글이 '교과등급 최고/최저'라 그 이름으로 기록 — 모두 GRADE. 학생부종합 성적은 원문 각주상 '정량 평가하지 않으나 최종등록자 성적을 사후 종합한 결과'. 실기우수자 디자인 계열은 교과등급 '-'(실기 100%)라 행 없음.",
+  "'최종추가 합격번호'는 원문 정의상 '최종 등록자 중 가장 마지막에 합격한 예비번호'이므로 extra_admitted_count가 아니라 지표 행(OTHER)으로 기록.",
+  "정시 '수능 백분위(의예과:표준점수) 50%cut/최저': 의예과·의예과(지역인재)는 표준점수 합이므로 SCORE, 나머지는 PERCENTILE. 원문 각주: 자연계 모집단위는 가산점 반영 점수. 골프산업학과 2026 전부 '-'는 행 없음.",
+  "pdftotext -layout 결과에서 각 행 끝 18개(정시 19개) 숫자 토큰을 연도 블록 순서대로 배정하고, 렌더링 이미지(p1 정시, 수시 p4·p5)와 대조해 열 순서를 확인함."
+ ]
+}
