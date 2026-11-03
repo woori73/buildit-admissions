@@ -1,0 +1,37 @@
+{
+ "university_key": "sogang",
+ "university_name": "서강대학교",
+ "university_code": "SOGANG",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "입학처(admission.sogang.ac.kr)는 https 인증서 검증 실패(SSL: CERTIFICATE_VERIFY_FAILED, unable to get local issuer certificate)로 robots.txt를 받지 못해 RobotsGate가 판정불가로 막음. http 주소는 robots.txt가 HTTP 200(허용)이지만 페이지가 https로 넘어가 같은 인증서 오류로 실패. 인증서 검증을 끄지 않았고 페이지·첨부를 하나도 받지 못함. 본교 www.sogang.ac.kr도 같은 인증서 오류.",
+   "url": "https://admission.sogang.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 대학별 입시결과",
+   "reason": "지시서상 요청 금지 사이트라 요청하지 않음.",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "새 IpsiFetcher로 몇 차례(시간을 두고 4회) 다시 요청해도 같은 인증서 오류. 수치는 하나도 보지 않음. 원문 자료를 확보하지 못해 rows는 빈 배열.",
+  "사람이 확인할 곳: 브라우저로 입학처 자료실에서 2026학년도 수시·정시 입시결과 첨부를 내려받아 data/raw에 넣으면 추출 가능."
+ ]
+}

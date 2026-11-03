@@ -1,0 +1,43 @@
+{
+ "university_key": "uos",
+ "university_name": "서울시립대학교",
+ "university_code": "UOS",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과(수시 입학통계 게시판)",
+   "reason": "입학처 '입학통계'(수시) 게시판에 '2026학년도 수시모집 전형별 성적 통계 자료 공지', '2026학년도 수시모집 최종 충원합격 현황', '2026학년도 수시모집 지원현황' 게시글이 있으나 목록의 글 링크가 javascript:fnView('1','35')·fnView('2','34')·fnView('3','33') 함수 호출뿐이라(HTML에 실제 글·첨부 주소 없음) 주소를 만들어 요청하지 않음. 첨부 파일명은 글을 열지 못해 확인 못 함.",
+   "url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=K7"
+  },
+  {
+   "item": "2026학년도 정시 입시결과(정시 입학통계 게시판)",
+   "reason": "입학처 '입학통계'(정시) 게시판에 '2026학년도 정시모집 전형 결과' 게시글이 있으나 링크가 javascript:fnView('1','28') 함수 호출뿐이라 요청하지 않음. 첨부 파일명은 확인 못 함.",
+   "url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=L6"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 대학별 입시결과",
+   "reason": "지시서상 요청 금지 사이트라 요청하지 않음.",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 첫 주소(admission.uos.ac.kr/)는 대기열(NetFunnel) 스크립트가 있는 빈 페이지이고, 그 스크립트가 넘겨주는 주소 '/admissionNew/main.do'(스크립트 안에 그대로 적힌 고정 주소, 조립 아님)로 입학처 메인을 받아 메뉴 링크를 확인함. robots.txt는 IpsiFetcher 게이트 통과. 이 처리는 판단이 들어간 부분이라 기록함.",
+  "메인·게시판 목록 HTML 2건만 받았고 입시결과 수치는 하나도 보지 않음. 원문 자료를 확보하지 못해 rows는 빈 배열.",
+  "사람이 확인할 곳: 위 두 게시판에서 2026학년도 글 4건을 열어 첨부(PDF/XLSX)를 내려받아 data/raw에 넣으면 같은 형식으로 추출 가능."
+ ]
+}
