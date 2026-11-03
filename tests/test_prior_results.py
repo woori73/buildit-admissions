@@ -83,6 +83,19 @@ class RobotsGateTest(unittest.TestCase):
         # when / then
         self.assertTrue(gate.allowed("https://admission.example.ac.kr/data"))
 
+    def test_given_http_allowed_but_https_blocked_when_checked_then_each_scheme_is_judged_separately(self):
+        # given: http robots는 400(규칙 없음 취급), https robots는 전면 차단
+        session = mock.Mock()
+        session.get.side_effect = [FakeResp(400, "bad request", "text/html"), FakeResp(200, "User-agent: *\nDisallow: /\n")]
+        gate = ipsi_fetch.RobotsGate(session)
+        # when
+        http_ok = gate.allowed("http://ipsi.example.ac.kr/board")
+        https_ok = gate.allowed("https://ipsi.example.ac.kr/board")
+        # then: 같은 호스트라도 스킴마다 robots를 따로 확인한다
+        self.assertTrue(http_ok)
+        self.assertFalse(https_ok)
+        self.assertEqual(session.get.call_count, 2)
+
     def test_given_disallow_all_when_checked_then_request_is_denied(self):
         # given
         gate = self.gate(FakeResp(200, "User-agent: *\nDisallow: /\n"))

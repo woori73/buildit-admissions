@@ -99,13 +99,19 @@ class RobotsGate:
         self._robots_url_cache: dict[str, str] = {}
         self._undetermined: set[str] = set()
 
+    @staticmethod
+    def _origin(url: str) -> str:
+        p = urlparse(url)
+        return f"{p.scheme}://{p.netloc}"
+
     def _robots_url(self, url: str) -> str:
         p = urlparse(url)
         return f"{p.scheme}://{p.netloc}/robots.txt"
 
     def _parser(self, url: str) -> Optional[robotparser.RobotFileParser]:
         rurl = self._robots_url(url)
-        host = urlparse(url).netloc
+        # http와 https는 robots.txt가 다를 수 있어 스킴까지 포함한 출처 단위로 캐시한다.
+        host = self._origin(url)
         if host in self._cache:
             return self._cache[host]
         rp = robotparser.RobotFileParser()
@@ -146,11 +152,11 @@ class RobotsGate:
         if rp is None:
             # robots.txt가 없으면(404 등) 규칙 없음 = 허용. robots.txt 확인 자체가 실패(네트워크 오류·잘못된 리다이렉트)하면
             # 판정하지 못한 것이므로 요청하지 않는다(판정불가를 허용으로 간주하지 않음).
-            return urlparse(url).netloc not in self._undetermined
+            return self._origin(url) not in self._undetermined
         return rp.can_fetch(USER_AGENT, url)
 
     def note(self, url: str) -> str:
-        host = urlparse(url).netloc
+        host = self._origin(url)
         self._parser(url)  # 캐시 확보
         return self._robots_url_cache.get(host, "")
 
