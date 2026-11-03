@@ -1,0 +1,15 @@
+{
+  "url": "https://i.chosun.ac.kr/main/menu?gc=1044IOKR&do=view&bwrite_id=VU1kbhbeDcYB",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-04T01:32:07+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: https://i.chosun.ac.kr/robots.txt -> ERROR HTTPSConnectionPool(host='i.chosun.ac.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1035)')))",
+  "verification_status": "COLLECTED"
+}
