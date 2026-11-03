@@ -1,0 +1,401 @@
+[
+  {
+    "university_code": "AJOU",
+    "university_name": "아주대학교",
+    "item": "2026학년도 지원인원",
+    "reason": "원문에 지원인원 열이 없음(모집인원·경쟁률만) → applicant_count 비움",
+    "url": "https://www.iajou.ac.kr/rate/?m_type=SUSI"
+  },
+  {
+    "university_code": "AJOU",
+    "university_name": "아주대학교",
+    "item": "2026학년도 정시 모집군",
+    "reason": "원문에 가/나/다군 표기가 없음(전형명 '수능(일반전형1~4)'만) → group null, 추정 안 함",
+    "url": "https://www.iajou.ac.kr/rate/?m_type=JEONGSI"
+  },
+  {
+    "university_code": "AJOU",
+    "university_name": "아주대학교",
+    "item": "모집인원 2명 이하 모집단위의 70%cut",
+    "reason": "원문 안내대로 '-'(비공개). 학생부종합은 최종등록자 등급 대신 '지원자 내신(최고-최저)'만 있음",
+    "url": "https://www.iajou.ac.kr/rate/?m_type=SUSI"
+  },
+  {
+    "university_code": "AJOU",
+    "university_name": "아주대학교",
+    "item": "1단계 합격자 내신 분포 그림",
+    "reason": "점 그래프(9·10·27쪽 등)라 수치로 옮기지 않음",
+    "url": "https://www.iajou.ac.kr/rate/?m_type=SUSI"
+  },
+  {
+    "university_code": "AJOU",
+    "university_name": "아주대학교",
+    "item": "PDF 보기 경로",
+    "reason": "화면의 'PDF 확대보기' 주소(/upload_data/mojib/…pdf)는 robots.txt 'Disallow: /upload_data'라 요청하지 않음. 수집은 다운로드 주소(/_common/new_download_file.php)로만 함",
+    "url": "https://www.iajou.ac.kr/robots.txt"
+  },
+  {
+    "university_code": "DONGDUK",
+    "university_name": "동덕여자대학교",
+    "item": "2026학년도 수시모집 입시결과(입시결과 게시판 전체 — 학생부교과·학생부종합·실기·특기자 등)",
+    "reason": "입학처 '입시결과' 메뉴가 javascript:void(0) + onclick gotoMenu('ipsi','3','0','nontime-result','list_ipsi_result.do?schBdcode=_ipsi_result01') 함수 호출뿐이고 HTML에 실제 링크가 없어 게시판을 열지 않음(주소 조립 금지). 따라서 게시글·첨부 파일명 미확인",
+    "url": "https://ipsi.dongduk.ac.kr/ipsi/main/index.do"
+  },
+  {
+    "university_code": "DONGDUK",
+    "university_name": "동덕여자대학교",
+    "item": "2026학년도 정시모집 입시결과",
+    "reason": "입학처 정시 '입시결과' 메뉴도 gotoMenu('ipsi','3','0','fxdtime-result','list_ipsi_result.do?schBdcode=_ipsi_result02') 함수 호출뿐(실제 링크 없음) — 게시글·첨부 파일명 미확인",
+    "url": "https://ipsi.dongduk.ac.kr/ipsi/main/index.do"
+  },
+  {
+    "university_code": "DONGDUK",
+    "university_name": "동덕여자대학교",
+    "item": "2027 수시 학생부종합전형 가이드(2026 결과 수록 여부 미확인)",
+    "reason": "입시자료실 논술가이드북 게시글의 '다음글 [2027 수시] 학생부종합전형 가이드' 링크가 onclick fn_goView(91946) 함수 호출뿐이라 열지 않음 — 첨부 파일명 미확인",
+    "url": "https://ipsi.dongduk.ac.kr/ipsi/contents/nontime-doc.do?schM=view&page=1&viewCount=10&id=91947&schBdcode=_ipsi_admdoc01&schGroupCode=&etc1=78"
+  },
+  {
+    "university_code": "DONGDUK",
+    "university_name": "동덕여자대학교",
+    "item": "논술우수자전형 외 2026학년도 성적(합격자 평균 등) 지표",
+    "reason": "수집한 논술가이드북에는 2026학년도 논술우수자전형 모집인원·지원인원·경쟁률만 있고 합격자 성적·충원 인원은 없음",
+    "url": "https://ipsi.dongduk.ac.kr/ipsi/contents/nontime-doc.do?schM=view&page=1&viewCount=10&id=91947&schBdcode=_ipsi_admdoc01&schGroupCode=&etc1=78"
+  },
+  {
+    "university_code": "DONGGUK",
+    "university_name": "동국대학교",
+    "item": "수시·정시 최종 경쟁률 외 다른 연도·다른 캠퍼스 자료",
+    "reason": "이 파일은 서울캠퍼스 자료만 있음. WISE캠퍼스는 별도 대학(시범에서 별도 처리). 2025·2024학년도 열은 범위 밖이라 담지 않음.",
+    "url": "https://ipsi.dongguk.edu/admission/html/counsel/previous.asp"
+  },
+  {
+    "university_code": "DONGGUK",
+    "university_name": "동국대학교",
+    "item": "재외국민·편입학 등 수시·정시 외 전형 결과",
+    "reason": "입시결과 파일에 없음(신입학 수시·정시만 수록).",
+    "url": "https://ipsi.dongguk.edu/admission/html/counsel/previous.asp"
+  },
+  {
+    "university_code": "DONGGUK",
+    "university_name": "동국대학교",
+    "item": "논술전형 최종등록자 수능 과목별 등급 분포(p.13)",
+    "reason": "막대그래프(비율 막대)로만 제시되고 수치 표가 없어 행으로 옮기지 않음.",
+    "url": "https://ipsi.dongguk.edu/common/downLoad.asp?strFileName=2026%B5%BF%B1%B9%5F%C0%D4%C7%D0%C0%FC%C7%FC%B0%E1%B0%FA%5F%B4%DC%B8%E9%5F260918%BC%F6%C1%A4%2Epdf&strRealFileName=/upload/file/202609181646284P926C.PDF"
+  },
+  {
+    "university_code": "DONGGUK",
+    "university_name": "동국대학교",
+    "item": "정시 수능 성적 표의 다른 분위(최저·70% 컷 등)",
+    "reason": "원문은 일반전형 최종등록자 백분위 상위 80% 평균, 그 외 전형은 최초합격자 평균만 공개.",
+    "url": "https://ipsi.dongguk.edu/common/downLoad.asp?strFileName=2026%B5%BF%B1%B9%5F%C0%D4%C7%D0%C0%FC%C7%FC%B0%E1%B0%FA%5F%B4%DC%B8%E9%5F260918%BC%F6%C1%A4%2Epdf&strRealFileName=/upload/file/202609181646284P926C.PDF"
+  },
+  {
+    "university_code": "HONGIK",
+    "university_name": "홍익대학교",
+    "item": "2026학년도 수시·정시 지원경쟁률 게시판(서울캠퍼스)",
+    "reason": "입학처 경쟁률 게시판 글이 외부 원서접수 대행사 도메인(addon.jinhakapply.com) 링크만 제공 — 대학 ac.kr 도메인이 아니라 요청하지 않음. 정시 모집인원·지원자수·경쟁률은 이 때문에 없음.",
+    "url": "https://www.hongik.ac.kr/kr/admission/competition-rate.do ; https://www.hongik.ac.kr/kr/admission/competition-rate-regular.do (외부: https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11720711.html, https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11720771.html)"
+  },
+  {
+    "university_code": "HONGIK",
+    "university_name": "홍익대학교",
+    "item": "2026학년도 수시·정시 일반전형 모집단위별 추가합격률(정시)",
+    "reason": "추가합격률 게시판에는 2025·2024학년도 글만 있음(2026 미게시, 2026.11.04 확인). 수시 추가합격률은 '입학전형 결과' 파일에 있음.",
+    "url": "https://www.hongik.ac.kr/kr/admission/additional-rate.do"
+  },
+  {
+    "university_code": "HONGIK",
+    "university_name": "홍익대학교",
+    "item": "수시 정원외·특별전형(고른기회·농어촌·특성화고 등) 및 정시 실기·특별전형 2026 결과",
+    "reason": "공개 파일 2건(수시 입학전형 결과 5개 전형, 일반전형 학생부/수능 평균)에 없음.",
+    "url": "https://www.hongik.ac.kr/kr/admission/entrance-point.do"
+  },
+  {
+    "university_code": "HONGIK",
+    "university_name": "홍익대학교",
+    "item": "정시 수능 성적 지표의 다른 분위(70% 등)·과목별 점수",
+    "reason": "원문은 '수능 평균 점수 평균'(국·수·탐·영·한국사, 산출방법 p.4) 하나만 줌.",
+    "url": "https://www.hongik.ac.kr/kr/admission/entrance-point.do?mode=view&articleNo=152832&article.offset=0&articleLimit=10"
+  },
+  {
+    "university_code": "HYERICA",
+    "university_name": "한양대학교(ERICA)",
+    "item": "2026학년도 지원자 수·충원(추가합격) 인원",
+    "reason": "입학처 PDF는 모집인원·경쟁률·충원율(%)만 공개. 지원자 수와 충원 인원은 원문에 없음(비율에서 역산하지 않음).",
+    "url": "https://goerica.hanyang.ac.kr/admission/html/rolling/counsel_result.asp"
+  },
+  {
+    "university_code": "HYERICA",
+    "university_name": "한양대학교(ERICA)",
+    "item": "학생부종합 서류형/면접형 전형별 구분 결과",
+    "reason": "원문 표가 '학생부종합(서류형, 면접형) 전형'을 한 표로 공개 — 모집단위별로 어느 전형인지 표에 표시 없음.",
+    "url": "https://goerica.hanyang.ac.kr/upload/BBS0062/20260423200430A2SV89.PDF"
+  },
+  {
+    "university_code": "HYERICA",
+    "university_name": "한양대학교(ERICA)",
+    "item": "그 밖의 전형(실기·특기자, 정원외 재외국민 등) 2026 입시결과",
+    "reason": "입시결과 PDF는 교과(지역균형선발)·종합(서류형/면접형)·정시 일반·특별전형 4개(고른기회·농어촌·기회균형·특성화고)만 수록. 재외국민·편입학 '입시결과' 메뉴는 주석 처리(비공개)되어 있음.",
+    "url": "https://goerica.hanyang.ac.kr/admission/html/regular/counsel_result.asp"
+  },
+  {
+    "university_code": "HYERICA",
+    "university_name": "한양대학교(ERICA)",
+    "item": "특별전형(고른기회·농어촌·기회균형·특성화고) 모집단위별 성적",
+    "reason": "원문은 성적을 단과대학 단위 병합셀로만 공개(모집단위별 성적 없음). 대학 단위 지표 행으로만 담음.",
+    "url": "https://goerica.hanyang.ac.kr/upload/BBS0062/20260423200437SMTJ7P.PDF"
+  },
+  {
+    "university_code": "HYERICA",
+    "university_name": "한양대학교(ERICA)",
+    "item": "70% cut 비공개 3칸",
+    "reason": "원문 '비공개'(최종등록자 3명 이하): 교과 컴퓨터학부·문화인류학과, 종합 보험계리학과.",
+    "url": "https://goerica.hanyang.ac.kr/upload/BBS0062/20260423200430A2SV89.PDF"
+  },
+  {
+    "university_code": "HYERICA",
+    "university_name": "한양대학교(ERICA)",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(입학처 푸터에 '대입정보포털 어디가' 링크만 있음).",
+    "url": "https://www.adiga.kr/"
+  },
+  {
+    "university_code": "KANGSEO",
+    "university_name": "강서대학교",
+    "item": "2026학년도 수시 경쟁률",
+    "reason": "'수시 > 역대경쟁률' 게시글(boardNum=1482)에 첨부 '2026_수시_경쟁률_엑셀.xlsx'·'2026_수시_경쟁률_pdf.pdf'가 있으나 링크가 javascript:downloadFile('1429'/'1430') 형식이라 실제 주소가 HTML에 없음. JS 주소 조립 금지 규칙에 따라 요청하지 않음",
+    "url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0302&boardNum=1482"
+  },
+  {
+    "university_code": "KANGSEO",
+    "university_name": "강서대학교",
+    "item": "2026학년도 수시 최종등록자 점수현황(80% cut)",
+    "reason": "'수시 > 지원(점수)현황' 게시글(boardNum=1526, 2026-03-10)에 첨부 '2026학년도 최종등록자 점수현황(수시)_공지용.pdf'가 있으나 javascript:downloadFile(...) 링크뿐이라 요청하지 않음",
+    "url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0301&boardNum=1526"
+  },
+  {
+    "university_code": "KANGSEO",
+    "university_name": "강서대학교",
+    "item": "2026학년도 정시 최종등록자 점수현황(80% cut)",
+    "reason": "'정시 > 지원(점수)현황' 게시글(boardNum=1527, 2026-03-10) 첨부 '2026학년도 최종등록자 점수현황(정시)_공지용.pdf'가 javascript:downloadFile('1477') 링크뿐이라 요청하지 않음",
+    "url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0401&boardNum=1527"
+  },
+  {
+    "university_code": "KANGSEO",
+    "university_name": "강서대학교",
+    "item": "2026학년도 정시 정원외(특수교육대상자 등) 경쟁률·충원 인원",
+    "reason": "정시 경쟁률 이미지에는 '일반학생' 전형만 있음. 충원(추가합격) 인원은 입학처에 게시된 자료에서 찾지 못함",
+    "url": "https://entrance.gangseo.ac.kr/kcui/boardView?menuCode=MC0402&boardNum=1517"
+  },
+  {
+    "university_code": "KONKUK",
+    "university_name": "건국대학교",
+    "item": "수시 실기/실적(체육특기자·연기우수자·연출우수자) 2026 입시결과",
+    "reason": "입학처 '입학전형 결과' 게시판의 2026학년도 통합 PDF(17쪽)에 학생부교과·학생부종합·논술·정시 수능 표만 있고 실기/실적 전형 표가 없음. 게시판에 다른 2026 게시물 없음.",
+    "url": "https://admission.konkuk.ac.kr/admission/37905/subview.do"
+  },
+  {
+    "university_code": "KONKUK",
+    "university_name": "건국대학교",
+    "item": "정시 수능-특성화고교졸업자 2026 입시결과",
+    "reason": "통합 PDF 정시 부분에 KU일반학생·농어촌학생·기초생활및차상위 표만 있음.",
+    "url": "https://admission.konkuk.ac.kr/admission/37905/subview.do"
+  },
+  {
+    "university_code": "KONKUK",
+    "university_name": "건국대학교",
+    "item": "모집인원 3명 이하 모집단위의 성적 지표",
+    "reason": "원문 안내: '모집인원 3명 이하는 결과를 공개하지 않음' — 해당 칸이 '-'라 지표 행을 만들지 않음(모집인원·경쟁률·충원합격순위는 공개된 만큼 담음).",
+    "url": "https://admission.konkuk.ac.kr/bbs/admission/6290/1216634/download.do"
+  },
+  {
+    "university_code": "KONKUK",
+    "university_name": "건국대학교",
+    "item": "지원자 수 / 최종 경쟁률 원자료",
+    "reason": "입시결과 PDF에 지원자 수 열이 없음. 입학처 첫 화면 '경쟁률' 링크는 외부 도메인(addon.jinhakapply.com, 비 ac.kr)이라 요청하지 않음.",
+    "url": "https://admission.konkuk.ac.kr/admission/37860/subview.do"
+  },
+  {
+    "university_code": "KW",
+    "university_name": "광운대학교",
+    "item": "수시 실기/실적 외 전형(재외국민·편입학 등) 및 정시 기타 전형",
+    "reason": "입학처 '입시결과' 게시판의 2026 수시·정시 파일에 실린 전형만 담음. 재외국민·편입학 입시결과 게시판(m_type=JEOEGUK/PYEONIP)은 신입학 수시·정시 범위 밖이라 조사하지 않음.",
+    "url": "https://iphak.kw.ac.kr/result/result.php?m_type=JEOEGUK"
+  },
+  {
+    "university_code": "KW",
+    "university_name": "광운대학교",
+    "item": "성적 지표의 다른 분위(50% 컷·평균 등)",
+    "reason": "원문은 '최종등록자의 환산점수 기준 70% 컷의 학생의 성적' 한 가지만 공개.",
+    "url": "https://iphak.kw.ac.kr/result/result.php?m_type=SUSI"
+  },
+  {
+    "university_code": "SEJONG",
+    "university_name": "세종대학교",
+    "item": "정시 표의 환산점수 총점(만점) 열",
+    "reason": "병합 셀(1000/800/500 등)로 여러 행에 걸쳐 있어 행별 지표로 옮기지 않음(값 자체는 성적이 아니라 배점). 실기 표의 실기고사 총점(900/600/300)도 같음.",
+    "url": "https://ipsi.sejong.ac.kr/ipsi/assistant/entrance.do?mode=view&articleNo=2796&article.offset=0&articleLimit=10"
+  },
+  {
+    "university_code": "SEJONG",
+    "university_name": "세종대학교",
+    "item": "수시·정시 최종 지원현황 외 전형(재외국민·편입학)",
+    "reason": "입시결과 자료실의 2026 수시·정시 게시물 첨부에 없음.",
+    "url": "https://ipsi.sejong.ac.kr/ipsi/assistant/entrance.do"
+  },
+  {
+    "university_code": "SEJONG",
+    "university_name": "세종대학교",
+    "item": "수시 실기/실적(예체능특기자) 일부 종목",
+    "reason": "원문 주석: '전년도 지원인원 없는 모집단위: 사격(소총-여), 양궁(리커브-남,여)', '전년도 최종등록인원 없는 모집단위: 수영(경영-여)' — 표에 행이 없어 담지 않음.",
+    "url": "https://ipsi.sejong.ac.kr/ipsi/assistant/entrance.do?mode=view&articleNo=2742&article.offset=0&articleLimit=10"
+  },
+  {
+    "university_code": "SKUNIV",
+    "university_name": "서경대학교",
+    "item": "2026학년도 정시 전형명·모집군",
+    "reason": "정시 원문 표에 전형명·군(가/나/다) 열이 없음. type_name은 원문 제목의 '정시', group은 null로 둠(추정해 채우지 않음)",
+    "url": "https://go.skuniv.ac.kr/index.php?mid=previous_result&category=177&document_srl=226870"
+  },
+  {
+    "university_code": "SKUNIV",
+    "university_name": "서경대학교",
+    "item": "2026학년도 수시 논술·실기 표의 전형 구분",
+    "reason": "수시 2쪽 '논술 · 실기우수자' 표에 전형명 열이 없어 논술/실기우수자를 행마다 나누지 않고 제목 문구 '논술 · 실기우수자'를 type_name으로 둠",
+    "url": "https://go.skuniv.ac.kr/index.php?mid=previous_result&category=176&document_srl=226867"
+  },
+  {
+    "university_code": "SKUNIV",
+    "university_name": "서경대학교",
+    "item": "충원(추가합격) 인원",
+    "reason": "원문은 '최종 예비번호'만 있고 충원 인원 열이 없음 → extra_admitted_count 비움",
+    "url": "https://go.skuniv.ac.kr/index.php?mid=previous_result&category=176&document_srl=226867"
+  },
+  {
+    "university_code": "SKUNIV",
+    "university_name": "서경대학교",
+    "item": "재외국민·편입학 입시결과",
+    "reason": "같은 게시판에 별도 분류(재외국민 category=168494, 편입학 category=178)로 있으나 이번 수집 범위(수시·정시 신입학) 밖이라 받지 않음",
+    "url": "https://go.skuniv.ac.kr/index.php?mid=previous_result"
+  },
+  {
+    "university_code": "SSU",
+    "university_name": "숭실대학교",
+    "item": "2026학년도 재외국민·외국인 등 책자 미수록 정원외 전형 입시결과",
+    "reason": "입학처 입시통계자료 게시판의 2026 수시(241)·정시(242) 게시글 첨부는 같은 책자 1건뿐이고, 책자 목차(2026학년도 입시결과)에 재외국민·외국인 전형이 없음. 재외국민 입시통계자료 게시판은 이번에 확인하지 않음.",
+    "url": "https://iphak.ssu.ac.kr/board/statistics_list.asp?page=1&srchoption=&keyword=&flag=4&page_no=1_5_4"
+  },
+  {
+    "university_code": "SSU",
+    "university_name": "숭실대학교",
+    "item": "1단계 합격자 등급 구간·주요교과 평균 등급 분포(점 그래프)",
+    "reason": "원문에 그래프로만 있고 숫자가 없어 수집하지 않음.",
+    "url": "https://iphak.ssu.ac.kr/board/statistics_view.asp?number=241&srchoption=&keyword=&flag=1&page_no=1_2_6&page=1"
+  },
+  {
+    "university_code": "SSU",
+    "university_name": "숭실대학교",
+    "item": "원문 '-' 표기 칸(기회균형·특수교육대상자 일부 모집단위 주요교과 등급, 논술 회계학과 주요교과 등급 등)",
+    "reason": "원문이 값을 '-'로 비워 둠 → 지표 행을 만들지 않음(null).",
+    "url": "https://iphak.ssu.ac.kr/incs/incFiledo.asp?mode=1&number=241&cot=1"
+  },
+  {
+    "university_code": "SUNGSHIN",
+    "university_name": "성신여자대학교",
+    "item": "2026학년도 수시·정시 모집인원 합계 대조",
+    "reason": "전형결과 PDF에 전형별·전체 합계 행이 없음(원문 합계 없음) — 경쟁률 검산과 1·2쪽 교차 대조로 대신함",
+    "url": null
+  },
+  {
+    "university_code": "SUNGSHIN",
+    "university_name": "성신여자대학교",
+    "item": "2026학년도 정시 모집군(가/나/다군) 구분",
+    "reason": "원문 정시 표에 모집군 열이 없어 group은 모두 null",
+    "url": "https://ipsi.sungshin.ac.kr/guide/dataroom.htm?bbsid=prev_result&ctg_cd=all&page=1&skey=&keyword=&mode=view&bltn_seq=35943"
+  },
+  {
+    "university_code": "SUNGSHIN",
+    "university_name": "성신여자대학교",
+    "item": "2026학년도 추가모집·재외국민·편입학 결과",
+    "reason": "이번 전형결과 PDF에 수록되지 않음(신입학 수시·정시만). 별도 게시물은 이번 범위에서 수집하지 않음",
+    "url": "https://ipsi.sungshin.ac.kr/guide/dataroom.htm?bbsid=prev_result&ctg_cd=all"
+  },
+  {
+    "university_code": "U158",
+    "university_name": "울산대학교",
+    "item": "2026학년도 충원합격자 최종후보순위 별도 게시물",
+    "reason": "수시·정시 전년도입시결과 게시판의 '충원합격자 최종후보순위 결과 안내' 게시물(2025-12-10, 2026-01-13 작성)은 제목·표 제목 모두 '2025학년도'로 적혀 있어 2026학년도 자료로 보지 않고 쓰지 않음. 2026학년도 최종후보순위는 2026 입시결과 자료 안의 열로 수집함",
+    "url": "https://iphak.ulsan.ac.kr/main/46?action=view&no=15582 ; https://iphak.ulsan.ac.kr/main/47?action=view&no=15916"
+  },
+  {
+    "university_code": "U158",
+    "university_name": "울산대학교",
+    "item": "정시 실기(예체능) 등 정시 본문 표에 없는 전형",
+    "reason": "정시 게시글은 첨부 없이 본문 표(수능전형·농어촌학생(정원외)전형·기초생활/차상위(정원외)전형)만 있음. 정시 실기전형 결과는 입학처 게시판에서 찾지 못함",
+    "url": "https://iphak.ulsan.ac.kr/main/47?action=view&no=16269"
+  },
+  {
+    "university_code": "U158",
+    "university_name": "울산대학교",
+    "item": "최종 경쟁률 원문(전 전형)",
+    "reason": "입학처 첫 화면의 최종경쟁률 링크는 외부 원서접수 대행사 도메인(ratio.uwayapply.com)이라 요청하지 않음. 모집인원·지원인원·경쟁률은 입시결과 자료 안의 값을 씀",
+    "url": "http://ratio.uwayapply.com/Sl5KVzgmQzpKZiUmOiZKN2ZUZg=="
+  },
+  {
+    "university_code": "U198",
+    "university_name": "한림대학교",
+    "item": "2026학년도 수시·정시 기타전형(특성화고교졸업자·기회균형·재외국민·정원외 등 원문 미수록 전형) 입시결과",
+    "reason": "입학처 입시결과 게시판의 2026학년도 수시 PDF는 6개 전형(교과우수자·학교생활우수자·지역인재·한림케어1·농어촌학생·한림케어2), 정시 PDF는 일반전형·농어촌학생전형만 수록. 그 밖의 전형은 입학처 게시물에서 찾지 못함.",
+    "url": "https://admission.hallym.ac.kr/admission/6072/subview.do"
+  },
+  {
+    "university_code": "U198",
+    "university_name": "한림대학교",
+    "item": "2026학년도 정시 모집군(가/나/다)",
+    "reason": "정시 입시결과 PDF 표에 모집군 열이 없어 group=null.",
+    "url": "https://admission.hallym.ac.kr/admission/6073/subview.do"
+  },
+  {
+    "university_code": "U198",
+    "university_name": "한림대학교",
+    "item": "게시일",
+    "reason": "입시결과 게시판(웹진형 목록)에 게시일 표시가 없어 published_at=null. 참고: PDF 생성일 수시 2026-06-01, 정시 2026-04-01(파일 속성).",
+    "url": "https://admission.hallym.ac.kr/admission/6072/subview.do"
+  },
+  {
+    "university_code": "U8",
+    "university_name": "국립공주대학교",
+    "item": "2026학년도 수시 학생부종합전형 입시결과",
+    "reason": "원문 PDF의 표 자료(p.59-70 '수시 학생부교과전형 및 실기/실적전형')에 학생부종합전형이 없음. 종합전형은 '시각화 자료'(p.20-57) 그래프 이미지와 배치표(p.18) 그림으로만 나와 글자 값이 없음 — 그림에서 읽지 않음(추정 금지)",
+    "url": "https://ipsi.kongju.ac.kr/kor/pdfWebViewer?atchFileId=35&fileSn=1"
+  },
+  {
+    "university_code": "U8",
+    "university_name": "국립공주대학교",
+    "item": "2027학년도에 모집하지 않는 2026학년도 전형",
+    "reason": "원문 각 표 하단 주석 '※2027학년도에 모집하지 않는 전형은 표기하지 않음' — 해당 전형의 2026 결과는 원문에 없음",
+    "url": "https://ipsi.kongju.ac.kr/kor/pdfWebViewer?atchFileId=35&fileSn=1"
+  },
+  {
+    "university_code": "U8",
+    "university_name": "국립공주대학교",
+    "item": "지원인원(applicant_count)",
+    "reason": "원문 표에 지원인원 열이 없고 경쟁률만 있음 — 지원인원을 계산해 넣지 않음(null)",
+    "url": "https://ipsi.kongju.ac.kr/kor/pdfWebViewer?atchFileId=35&fileSn=1"
+  },
+  {
+    "university_code": "U8",
+    "university_name": "국립공주대학교",
+    "item": "정시 모집군(가/나군)",
+    "reason": "정시 표에 모집군 열이 없어 group은 null(2027 시드 전형명은 군 단위로 나뉨)",
+    "url": "https://ipsi.kongju.ac.kr/kor/pdfWebViewer?atchFileId=36&fileSn=1"
+  },
+  {
+    "university_code": "U8",
+    "university_name": "국립공주대학교",
+    "item": "대학어디가 등 외부 출처",
+    "reason": "규칙상 adiga.kr 자동 요청 금지 — 요청하지 않음",
+    "url": "https://www.adiga.kr/"
+  }
+]
