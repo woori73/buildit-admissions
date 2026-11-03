@@ -1,0 +1,37 @@
+{
+ "university_key": "u159",
+ "university_name": "원광대학교",
+ "university_code": "U159",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 차단: WebSearch로 확인한 입학관리처 주소 ipsi.wku.ac.kr — IpsiFetcher 판정에서 https://ipsi.wku.ac.kr/robots.txt가 HTTP 200으로 응답하고 우리 UA의 사이트 루트(/) 접근을 불허(판정 4회 중 3회 HTTP 200·불허; 나머지 1회는 robots.txt HTTP 404로 응답해 일시적으로 허용 판정이 나왔으나, 불일치 응답을 이용하지 않고 차단으로 봄). 본문 요청 없음.",
+   "url": "https://ipsi.wku.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "위와 같은 사유(robots 차단)로 수집하지 않음.",
+   "url": "https://ipsi.wku.ac.kr/"
+  }
+ ],
+ "notes": [
+  "모든 판정·요청은 scripts/ipsi_fetch.py IpsiFetcher(gate.allowed)로 수행. robots.txt 내용은 직접 읽지 않음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}

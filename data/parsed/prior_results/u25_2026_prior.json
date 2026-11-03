@@ -1,0 +1,42 @@
+{
+ "university_key": "u25",
+ "university_name": "전북대학교",
+ "university_code": "U25",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과",
+   "reason": "robots 차단: 2026학년도 정시모집요강·WebSearch로 확인한 전북대 입학정보 홈페이지 enter.jbnu.ac.kr — IpsiFetcher 판정에서 https://enter.jbnu.ac.kr/robots.txt가 HTTP 200으로 응답하고 우리 UA의 사이트 루트(/) 접근을 불허(새 IpsiFetcher로 2회 판정, 모두 불허). 본문 요청 없음.",
+   "url": "https://enter.jbnu.ac.kr/"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "위와 같은 사유(robots 차단)로 수집하지 않음.",
+   "url": "https://enter.jbnu.ac.kr/"
+  },
+  {
+   "item": "입학처 외 경로",
+   "reason": "WebSearch 결과에 대학 본부 영문 뉴스(2026 수시 지원자 총계 등)와 진학사 입시결과 목록(외부 사이트)이 있었으나, 전자는 입학처 입시결과 자료가 아니고 후자는 사설/외부 사이트라 쓰지 않음.",
+   "url": "https://www.jinhak.com/jh/high3/univ-entrance-info/ipsi-archive/admission/result"
+  }
+ ],
+ "notes": [
+  "모든 판정·요청은 scripts/ipsi_fetch.py IpsiFetcher(fetch, gate.allowed)로 수행. robots.txt 내용은 직접 읽지 않음.",
+  "원문 자료를 확보하지 못해 rows는 빈 배열이며 수치는 하나도 기재하지 않음(추측 없음)."
+ ]
+}
