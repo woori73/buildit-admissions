@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.mtu.ac.kr/",
+  "ok": false,
+  "robots_allowed": true,
+  "http_status": 503,
+  "final_url": "http://ipsi.mtu.ac.kr/NRLogin.do",
+  "content_type": "text/plain",
+  "size": 48,
+  "sha256": "4ea4333d628b6660cbd945434759f7ce42a4a66b8955276124926efe64e1adb7",
+  "raw_path": null,
+  "collected_at": "2026-11-04T00:48:27+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "HTTP 503",
+  "verification_status": "COLLECTED"
+}
