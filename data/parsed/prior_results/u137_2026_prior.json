@@ -1,0 +1,42 @@
+{
+ "university_key": "u137",
+ "university_name": "세명대학교",
+ "university_code": "U137",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 0건)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "robots 판정 불가: WebSearch로 찾은 입시 홈페이지 게시판(https://ipsi.semyung.ac.kr/cop/bbs/BBSMSTR_000000000353/selectBoardList.do)을 IpsiFetcher로 요청했으나 robots.txt 확인 단계에서 TLS 오류(SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED)로 판정 실패 → 요청 차단. 새 IpsiFetcher로 한 번 다시 시도했으나 같은 오류. WebSearch 요약상 이 게시판에 \"2026학년도 입시결과(평균, 70%, 예비최저 등) 안내\"(입학관리본부, 2026-04-22, 첨부 \"2026학년도 수시 및 정시모집 입시결과\" 엑셀)가 있는 것으로 보이나 열람하지 못해 수치 미수집.",
+   "url": "https://ipsi.semyung.ac.kr/cop/bbs/BBSMSTR_000000000353/selectBoardList.do"
+  },
+  {
+   "item": "같은 게시판의 www 도메인 주소",
+   "reason": "robots 판정 불가: WebSearch 결과의 https://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000000353/selectBoardList.do도 robots.txt 확인 실패(1차 ConnectionResetError, 재시도 시 같은 TLS 오류).",
+   "url": "https://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000000353/selectBoardList.do"
+  },
+  {
+   "item": "검색 결과의 http 주소",
+   "reason": "robots 판정 불가: WebSearch 결과 http://www.semyung.ac.kr/intro/intro_ent.jsp는 robots.txt 확인 단계에서 이름 해석 실패(NameResolutionError).",
+   "url": "http://www.semyung.ac.kr/intro/intro_ent.jsp"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로만 시도했고 TLS 설정 변경·헤더 변경 등 우회는 하지 않음. robots.txt를 직접 읽지 않음.",
+  "외부 사이트(진학사·카카오 채널·hakjum 등) 수치는 쓰지 않음. 수치를 하나도 기재하지 않음(추측 없음)."
+ ]
+}
