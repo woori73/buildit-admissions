@@ -8,7 +8,7 @@
   "size": 0,
   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "raw_path": null,
-  "collected_at": "2026-11-04T00:45:07+09:00",
+  "collected_at": "2026-11-04T10:23:24+09:00",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
   "error": "HTTP 404",
   "verification_status": "COLLECTED"

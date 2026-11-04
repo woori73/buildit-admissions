@@ -1,0 +1,27 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "skhu",
+ "university_name": "성공회대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 일반전형(가군)": "원문 모집요강 미확보(gaps 참조) — 계산식 작성 보류",
+  "정시 일반전형(나군)": "원문 모집요강 미확보(gaps 참조) — 계산식 작성 보류",
+  "정시 일반전형(다군)": "원문 모집요강 미확보(gaps 참조) — 계산식 작성 보류",
+  "정시 특별전형(기회균형선발)(나군)": "원문 모집요강 미확보(gaps 참조) — 계산식 작성 보류",
+  "정시 특별전형(농어촌학생)(나군)": "원문 모집요강 미확보(gaps 참조) — 계산식 작성 보류",
+  "정시 특별전형(특성화고교졸업자)(나군)": "원문 모집요강 미확보(gaps 참조) — 계산식 작성 보류",
+  "정시 특별전형(기회균형선발)(다군)": "원문 모집요강 미확보(gaps 참조) — 계산식 작성 보류",
+  "정시 특별전형(농어촌학생)(다군)": "원문 모집요강 미확보(gaps 참조) — 계산식 작성 보류",
+  "정시 특별전형(특성화고교졸업자)(다군)": "원문 모집요강 미확보(gaps 참조) — 계산식 작성 보류"
+ },
+ "gaps": [
+  {
+   "item": "입학처 정시 모집요강 게시 페이지",
+   "reason": "대학 첫 화면(https://www.skhu.ac.kr/introMain/index.html)의 '대학 입학 홈페이지' 링크 enter.skhu.ac.kr는 robots.txt 확인 단계에서 TLS 오류(WRONG_SIGNATURE_TYPE)로 판정불가, ipsi.skhu.ac.kr도 robots.txt 연결 끊김(connection reset)으로 판정불가",
+   "url": "https://enter.skhu.ac.kr/enter/index.do"
+  }
+ ],
+ "notes": []
+}
