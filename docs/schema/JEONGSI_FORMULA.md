@@ -19,7 +19,7 @@
 | documents[] | document_key, document_name, institution_name, source_page_url(게시 페이지), file_url(파일), file_sha256, page_count |
 | formulas[] | 아래 |
 | not_covered | {전형명: 사유} — 계산식이 없는 2027 정시 전형 |
-| gaps[] | 원문을 받지 못한 경우 {item, reason, url} (이때 formulas는 비워도 된다) |
+| gaps[] | 원문을 받지 못한 경우 {item, reason, url}. 원문은 받았지만 모든 전형이 수능 미반영이면 gaps 없이 not_covered만 적는다 |
 | notes[] | 그 밖의 메모 |
 
 ### formulas[] 한 항목

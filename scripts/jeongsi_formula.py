@@ -227,8 +227,8 @@ def validate_doc(doc: dict, known_type_names: set[str] | None = None,
     for k in ("university_key", "university_name", "academic_year"):
         if not doc.get(k):
             errors.append(f"필수 칸 없음: {k}")
-    if not doc.get("formulas") and not doc.get("gaps"):
-        errors.append("formulas가 비었으면 gaps에 사유를 적어야 한다")
+    if not doc.get("formulas") and not doc.get("gaps") and not doc.get("not_covered"):
+        errors.append("formulas가 비었으면 gaps(원문 미확보) 또는 not_covered(전형별 사유)를 적어야 한다")
     if doc.get("formulas") and not doc.get("documents"):
         errors.append("필수 칸 없음: documents")
     if doc.get("academic_year") not in (None, 2027):

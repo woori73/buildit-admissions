@@ -1,0 +1,30 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "kookmin",
+ "university_name": "국민대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 일반전형(가군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고",
+  "정시 일반전형(나군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고",
+  "정시 일반전형(다군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고",
+  "정시 성인학습자전형(다군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고",
+  "정시 특성화고 등을 졸업한 재직자전형(다군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고",
+  "정시 농어촌학생전형(가군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고",
+  "정시 농어촌학생전형(나군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고",
+  "정시 농어촌학생전형(다군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고",
+  "정시 기회균형Ⅱ전형(나군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고",
+  "정시 기회균형Ⅱ전형(다군)": "원문 미수집(입학처 robots.txt가 수집 UA를 막음) — gaps 참고"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 국민대학교 정시 모집요강 원문",
+   "reason": "robots 차단: https://admission.kookmin.ac.kr/robots.txt 가 \"User-agent: * / Disallow: /\"로 수집 UA의 입학처 사이트 접근을 막음(2026-11-04 IpsiFetcher 확인). 다른 경로는 시도하지 않음",
+   "url": "https://admission.kookmin.ac.kr"
+  }
+ ],
+ "notes": [
+  "2027 정시 자료의 원문은 adiga.kr 사본이라 쓰지 않음(robots 차단 대상)"
+ ]
+}
