@@ -52,7 +52,7 @@ PENDING_VARIABLES = {
     "INQ1_CONV_MAX": "대학 변환표준점수표", "INQ2_CONV_MAX": "대학 변환표준점수표",
 }
 
-FUNCTIONS = {"max", "min", "round", "trunc", "cond", "table", "top_sum", "sum"}
+FUNCTIONS = {"max", "min", "round", "trunc", "cond", "table", "top_sum", "low_sum", "sum"}
 GRADE_KEYS = [str(g) for g in range(1, 10)]
 
 
@@ -170,6 +170,9 @@ def evaluate(expression: str, inputs: dict, tables: dict | None = None) -> float
             if f == "top_sum":
                 k = int(args[0])
                 return sum(sorted(args[1:], reverse=True)[:k])
+            if f == "low_sum":
+                k = int(args[0])
+                return sum(sorted(args[1:])[:k])
             if f in ("round", "trunc"):
                 digits = int(args[1]) if len(args) > 1 else 0
                 return _dec_round(args[0], digits, ROUND_HALF_UP if f == "round" else ROUND_DOWN)
