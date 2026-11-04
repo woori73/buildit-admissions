@@ -188,15 +188,28 @@ def build(keys: list[str] | None):
                 nk = natural_key(e)
                 if nk in seen:
                     prev = seen[nk]
-                    # 같은 단위가 두 문서(예: 결과표·성적분석표)에 나오면: 값이 겹치지 않는 칸만 채우고, 다른 값이면 앞 문서 값을 둔다.
                     value_keys = ("metric_value", "raw_value_text", "recruit_count", "applicant_count",
                                   "competition_rate", "extra_admitted_count")
                     conflict = [k for k in value_keys if prev.get(k) is not None and e.get(k) is not None and prev[k] != e[k]]
-                    for k in value_keys:
-                        if prev.get(k) is None and e.get(k) is not None:
-                            prev[k] = e[k]
+                    if prev.get("source_document_key") == e.get("source_document_key"):
+                        # 같은 문서 안의 같은 단위: 빈 칸만 채운다(출처가 같으므로 한 행으로 합쳐도 된다).
+                        for k in value_keys:
+                            if prev.get(k) is None and e.get(k) is not None:
+                                prev[k] = e[k]
+                    else:
+                        # 다른 문서의 같은 단위: 한 행에는 출처가 하나뿐이라 두 문서 값을 섞지 않는다.
+                        # 값이 더 많은 쪽 행을 그 출처째로 남기고, 다른 문서의 값은 넣지 않는다(경고로 남김).
+                        filled = lambda r: sum(r.get(k) is not None for k in value_keys)
+                        dropped = [k for k in value_keys if e.get(k) is not None]
+                        if filled(e) > filled(prev):
+                            dropped = [k for k in value_keys if prev.get(k) is not None]
+                            out_rows[out_rows.index(prev)] = e
+                            seen[nk] = e
+                        diff = f", 서로 다른 값 {conflict}" if conflict else ""
+                        warnings.append({"row_index": i, "reason": f"같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 {dropped} 제외{diff}"})
+                        continue
                     if conflict:
-                        warnings.append({"row_index": i, "reason": f"같은 단위가 두 문서에 다른 값 {conflict} — 앞 문서 값 유지"})
+                        warnings.append({"row_index": i, "reason": f"같은 단위가 한 문서에 다른 값 {conflict} — 앞 행 값 유지"})
                     continue
                 seen[nk] = e
                 out_rows.append(e)

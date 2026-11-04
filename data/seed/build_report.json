@@ -5538,26 +5538,20 @@
         "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_04_u172_u173_u186_u187_u196_u197_u199_u20_u21_u218_u221_u235_u239_u240_u244_u2712_u2949_u31.json",
         "prior_results": 8453,
         "documents": 39,
-        "chars": 4435573
+        "chars": 4433328
       },
       {
-        "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_05_u34_u39_u53_u62_u72_u80.json",
-        "prior_results": 9212,
-        "documents": 11,
-        "chars": 4496883
-      },
-      {
-        "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_06_u80_u84_u9_u95.json",
-        "prior_results": 1721,
-        "documents": 6,
-        "chars": 955500
+        "file": "data/seed/prior_2026_batch3/ipsi_seed_prior_2026_05_u39_u53_u62_u72_u80_u84_u9_u95.json",
+        "prior_results": 7392,
+        "documents": 15,
+        "chars": 3753619
       }
     ],
     "result_year": 2026,
     "academic_year": 2027,
-    "count": 43155,
-    "documents": 93,
-    "universities_with_rows": 44,
+    "count": 39614,
+    "documents": 91,
+    "universities_with_rows": 43,
     "gaps": [
       {
         "university_code": "HANSHIN",
@@ -6363,41 +6357,6 @@
         "item": "외부 대행사 경쟁률",
         "reason": "WebSearch에 진학어플라이(addon.jinhakapply.com) 2026 수시 경쟁률 페이지가 나왔으나 외부 대행사 도메인이라 요청·사용하지 않음(URL만 기록).",
         "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11480351.html"
-      },
-      {
-        "university_code": "U34",
-        "university_name": "국립한국교통대학교",
-        "item": "2026학년도 게시글 상세(본문) 페이지",
-        "reason": "게시판 제목은 POST 폼(selectBoardArticle.do)으로만 열려 상세 페이지는 요청하지 않음(POST 금지). 목록 HTML의 첨부 정적 링크(/cmm/fms/FileDown.do)로 원문 파일을 받음. published_at은 목록의 등록일.",
-        "url": "https://www.ut.ac.kr/cop/bbs/BBSMSTR_000000000663/selectBoardList.do?kind=%EC%88%98%EC%8B%9C&mno=sub01_03"
-      },
-      {
-        "university_code": "U34",
-        "university_name": "국립한국교통대학교",
-        "item": "2026학년도 수시 경쟁률(외부 링크)",
-        "reason": "입학처 메인의 경쟁률 링크는 외부 대행사 도메인(진학어플라이)이므로 수치 사용하지 않음(2027학년도 수시 경쟁률 링크였음).",
-        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio30150631.html"
-      },
-      {
-        "university_code": "U34",
-        "university_name": "국립한국교통대학교",
-        "item": "정시 모집군(가/나/다)",
-        "reason": "2026 정시 입시결과 원문에 군 정보가 없어 group=null.",
-        "url": "https://www.ut.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000287404&fileSn=0"
-      },
-      {
-        "university_code": "U34",
-        "university_name": "국립한국교통대학교",
-        "item": "충원(추가합격) 인원",
-        "reason": "원문은 \"예비 순위\"(예비순위)만 제공 → extra_admitted_count는 null, 값은 지표 행(OTHER)으로 저장.",
-        "url": null
-      },
-      {
-        "university_code": "U34",
-        "university_name": "국립한국교통대학교",
-        "item": "2026 정시 일반전형 외 다른 전형(정원외 등) 결과",
-        "reason": "정시 원문에는 \"정시-일반전형\" 표 1개만 있음.",
-        "url": "https://www.ut.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000287404&fileSn=0"
       },
       {
         "university_code": "U39",
@@ -9100,8 +9059,384 @@
         "build_failures": [],
         "build_warnings": [
           {
+            "row_index": 257,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 258,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 259,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 260,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 262,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 263,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 265,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 266,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 267,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 269,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 271,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 275,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 284,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 285,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 286,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 287,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 290,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 291,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 292,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 293,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 296,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 298,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 299,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 300,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 303,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 304,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 305,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 306,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 309,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 310,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 311,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 312,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 315,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 316,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 317,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 318,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 321,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 322,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 323,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 324,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 327,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 332,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 333,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 334,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 335,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 337,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 340,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 341,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 342,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 343,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 346,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 347,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 348,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 349,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 352,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 353,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 354,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 355,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 359,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 369,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 389,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 596,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 602,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 608,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 614,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 620,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 626,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 632,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 638,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 644,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 650,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 656,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 662,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 668,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 674,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 680,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 686,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 692,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 698,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 704,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 710,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
             "row_index": 716,
-            "reason": "같은 단위가 두 문서에 다른 값 ['raw_value_text', 'competition_rate'] — 앞 문서 값 유지"
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외, 서로 다른 값 ['raw_value_text', 'competition_rate']"
+          },
+          {
+            "row_index": 728,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 734,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 740,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 746,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 752,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate'] 제외"
+          },
+          {
+            "row_index": 758,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 764,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 770,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 776,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 782,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 788,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 794,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
+          },
+          {
+            "row_index": 806,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['raw_value_text', 'competition_rate', 'extra_admitted_count'] 제외"
           }
         ],
         "gaps": 2
@@ -10115,165 +10450,6 @@
         "gaps": 4
       },
       {
-        "university_key": "u34",
-        "university_code": "U34",
-        "university_name": "국립한국교통대학교",
-        "documents": {
-          "SUSI": 1,
-          "JEONGSI": 1
-        },
-        "rows": 3541,
-        "base_rows": 364,
-        "metric_rows": 3177,
-        "metric_labels": 84,
-        "reserve_rank_moved_to_metric": 0,
-        "linked_2027_type_rows": 0,
-        "linked_2027_department_rows": 3113,
-        "recruit_total_checks": [
-          {
-            "scope": "SUSI 학생부종합전형Ⅰ (TABLE#1)",
-            "sum_of_rows": 21,
-            "source_total": 21,
-            "source_page": null,
-            "source_cell": "TABLE#1 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 624 / 원문 합계 624 (일치)"
-          },
-          {
-            "scope": "SUSI 학생부종합전형Ⅱ (TABLE#3)",
-            "sum_of_rows": 563,
-            "source_total": 563,
-            "source_page": null,
-            "source_cell": "TABLE#3 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 3624 / 원문 합계 3624 (일치)"
-          },
-          {
-            "scope": "SUSI 일반전형 (TABLE#5)",
-            "sum_of_rows": 947,
-            "source_total": 947,
-            "source_page": null,
-            "source_cell": "TABLE#5 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 6184 / 원문 합계 6184 (일치)"
-          },
-          {
-            "scope": "SUSI 지역인재전형 (TABLE#7)",
-            "sum_of_rows": 137,
-            "source_total": 137,
-            "source_page": null,
-            "source_cell": "TABLE#7 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 635 / 원문 합계 635 (일치)"
-          },
-          {
-            "scope": "SUSI 지역인재전형-저소득 (TABLE#9)",
-            "sum_of_rows": 2,
-            "source_total": 2,
-            "source_page": null,
-            "source_cell": "TABLE#9 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 10 / 원문 합계 10 (일치)"
-          },
-          {
-            "scope": "SUSI 사회기여및배려자 (TABLE#11)",
-            "sum_of_rows": 41,
-            "source_total": 41,
-            "source_page": null,
-            "source_cell": "TABLE#11 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 294 / 원문 합계 294 (일치)"
-          },
-          {
-            "scope": "SUSI 고른기회전형 (TABLE#13)",
-            "sum_of_rows": 63,
-            "source_total": 63,
-            "source_page": null,
-            "source_cell": "TABLE#13 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 223 / 원문 합계 223 (일치)"
-          },
-          {
-            "scope": "SUSI 농어촌전형 (TABLE#15)",
-            "sum_of_rows": 47,
-            "source_total": 47,
-            "source_page": null,
-            "source_cell": "TABLE#15 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 360 / 원문 합계 360 (일치)"
-          },
-          {
-            "scope": "SUSI 특성화고동일계전형 (TABLE#17)",
-            "sum_of_rows": 29,
-            "source_total": 29,
-            "source_page": null,
-            "source_cell": "TABLE#17 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 212 / 원문 합계 212 (일치)"
-          },
-          {
-            "scope": "SUSI 기회균등전형 (TABLE#19)",
-            "sum_of_rows": 32,
-            "source_total": 32,
-            "source_page": null,
-            "source_cell": "TABLE#19 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 117 / 원문 합계 117 (일치)"
-          },
-          {
-            "scope": "SUSI 특수교육대상자전형 (TABLE#21)",
-            "sum_of_rows": 11,
-            "source_total": 11,
-            "source_page": null,
-            "source_cell": "TABLE#21 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 44 / 원문 합계 44 (일치)"
-          },
-          {
-            "scope": "SUSI 평생학습자전형Ⅰ (TABLE#23)",
-            "sum_of_rows": 24,
-            "source_total": 24,
-            "source_page": null,
-            "source_cell": "TABLE#23 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 27 / 원문 합계 27 (일치)"
-          },
-          {
-            "scope": "SUSI 평생학습자전형Ⅱ (TABLE#25)",
-            "sum_of_rows": 30,
-            "source_total": 30,
-            "source_page": null,
-            "source_cell": "TABLE#25 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 34 / 원문 합계 34 (일치)"
-          },
-          {
-            "scope": "SUSI 평생학습자전형Ⅲ (TABLE#27)",
-            "sum_of_rows": 49,
-            "source_total": 49,
-            "source_page": null,
-            "source_cell": "TABLE#27 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 30 / 원문 합계 30 (일치)"
-          },
-          {
-            "scope": "JEONGSI 일반전형 (TABLE#2)",
-            "sum_of_rows": 234,
-            "source_total": 234,
-            "source_page": null,
-            "source_cell": "TABLE#2 합계 행 모집",
-            "match": true,
-            "note": "지원 합계: 행합 1627 / 원문 합계 1627 (일치)"
-          }
-        ],
-        "spot_checks": 9,
-        "spot_checks_all_match": true,
-        "range_failures_source": 0,
-        "build_failures": [],
-        "build_warnings": [],
-        "gaps": 5
-      },
-      {
         "university_key": "u39",
         "university_code": "U39",
         "university_name": "국립한밭대학교",
@@ -10790,7 +10966,24 @@
         "spot_checks_all_match": true,
         "range_failures_source": 0,
         "build_failures": [],
-        "build_warnings": [],
+        "build_warnings": [
+          {
+            "row_index": 160,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['recruit_count', 'applicant_count'] 제외"
+          },
+          {
+            "row_index": 172,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['recruit_count', 'applicant_count'] 제외"
+          },
+          {
+            "row_index": 184,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['recruit_count', 'applicant_count'] 제외"
+          },
+          {
+            "row_index": 196,
+            "reason": "같은 단위가 두 문서에 나옴 — 값이 더 많은 문서 행만 남기고 다른 문서 값 ['recruit_count', 'applicant_count'] 제외"
+          }
+        ],
         "gaps": 4
       },
       {
@@ -10920,6 +11113,219 @@
         "build_failures": [],
         "build_warnings": [],
         "gaps": 0
+      }
+    ]
+  },
+  "prior_results_batch3_hold": {
+    "seed_files": [
+      {
+        "file": "data/seed/prior_2026_batch3_hold/ipsi_seed_prior_2026_01_u34.json",
+        "prior_results": 3541,
+        "documents": 2,
+        "chars": 1698586
+      }
+    ],
+    "result_year": 2026,
+    "academic_year": 2027,
+    "count": 3541,
+    "documents": 2,
+    "universities_with_rows": 1,
+    "gaps": [
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "2026학년도 게시글 상세(본문) 페이지",
+        "reason": "게시판 제목은 POST 폼(selectBoardArticle.do)으로만 열려 상세 페이지는 요청하지 않음(POST 금지). 목록 HTML의 첨부 정적 링크(/cmm/fms/FileDown.do)로 원문 파일을 받음. published_at은 목록의 등록일.",
+        "url": "https://www.ut.ac.kr/cop/bbs/BBSMSTR_000000000663/selectBoardList.do?kind=%EC%88%98%EC%8B%9C&mno=sub01_03"
+      },
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "2026학년도 수시 경쟁률(외부 링크)",
+        "reason": "입학처 메인의 경쟁률 링크는 외부 대행사 도메인(진학어플라이)이므로 수치 사용하지 않음(2027학년도 수시 경쟁률 링크였음).",
+        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio30150631.html"
+      },
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "정시 모집군(가/나/다)",
+        "reason": "2026 정시 입시결과 원문에 군 정보가 없어 group=null.",
+        "url": "https://www.ut.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000287404&fileSn=0"
+      },
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "충원(추가합격) 인원",
+        "reason": "원문은 \"예비 순위\"(예비순위)만 제공 → extra_admitted_count는 null, 값은 지표 행(OTHER)으로 저장.",
+        "url": null
+      },
+      {
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "item": "2026 정시 일반전형 외 다른 전형(정원외 등) 결과",
+        "reason": "정시 원문에는 \"정시-일반전형\" 표 1개만 있음.",
+        "url": "https://www.ut.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000287404&fileSn=0"
+      }
+    ],
+    "per_university": [
+      {
+        "university_key": "u34",
+        "university_code": "U34",
+        "university_name": "국립한국교통대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1
+        },
+        "rows": 3541,
+        "base_rows": 364,
+        "metric_rows": 3177,
+        "metric_labels": 84,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 3113,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부종합전형Ⅰ (TABLE#1)",
+            "sum_of_rows": 21,
+            "source_total": 21,
+            "source_page": null,
+            "source_cell": "TABLE#1 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 624 / 원문 합계 624 (일치)"
+          },
+          {
+            "scope": "SUSI 학생부종합전형Ⅱ (TABLE#3)",
+            "sum_of_rows": 563,
+            "source_total": 563,
+            "source_page": null,
+            "source_cell": "TABLE#3 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 3624 / 원문 합계 3624 (일치)"
+          },
+          {
+            "scope": "SUSI 일반전형 (TABLE#5)",
+            "sum_of_rows": 947,
+            "source_total": 947,
+            "source_page": null,
+            "source_cell": "TABLE#5 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 6184 / 원문 합계 6184 (일치)"
+          },
+          {
+            "scope": "SUSI 지역인재전형 (TABLE#7)",
+            "sum_of_rows": 137,
+            "source_total": 137,
+            "source_page": null,
+            "source_cell": "TABLE#7 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 635 / 원문 합계 635 (일치)"
+          },
+          {
+            "scope": "SUSI 지역인재전형-저소득 (TABLE#9)",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": null,
+            "source_cell": "TABLE#9 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 10 / 원문 합계 10 (일치)"
+          },
+          {
+            "scope": "SUSI 사회기여및배려자 (TABLE#11)",
+            "sum_of_rows": 41,
+            "source_total": 41,
+            "source_page": null,
+            "source_cell": "TABLE#11 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 294 / 원문 합계 294 (일치)"
+          },
+          {
+            "scope": "SUSI 고른기회전형 (TABLE#13)",
+            "sum_of_rows": 63,
+            "source_total": 63,
+            "source_page": null,
+            "source_cell": "TABLE#13 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 223 / 원문 합계 223 (일치)"
+          },
+          {
+            "scope": "SUSI 농어촌전형 (TABLE#15)",
+            "sum_of_rows": 47,
+            "source_total": 47,
+            "source_page": null,
+            "source_cell": "TABLE#15 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 360 / 원문 합계 360 (일치)"
+          },
+          {
+            "scope": "SUSI 특성화고동일계전형 (TABLE#17)",
+            "sum_of_rows": 29,
+            "source_total": 29,
+            "source_page": null,
+            "source_cell": "TABLE#17 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 212 / 원문 합계 212 (일치)"
+          },
+          {
+            "scope": "SUSI 기회균등전형 (TABLE#19)",
+            "sum_of_rows": 32,
+            "source_total": 32,
+            "source_page": null,
+            "source_cell": "TABLE#19 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 117 / 원문 합계 117 (일치)"
+          },
+          {
+            "scope": "SUSI 특수교육대상자전형 (TABLE#21)",
+            "sum_of_rows": 11,
+            "source_total": 11,
+            "source_page": null,
+            "source_cell": "TABLE#21 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 44 / 원문 합계 44 (일치)"
+          },
+          {
+            "scope": "SUSI 평생학습자전형Ⅰ (TABLE#23)",
+            "sum_of_rows": 24,
+            "source_total": 24,
+            "source_page": null,
+            "source_cell": "TABLE#23 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 27 / 원문 합계 27 (일치)"
+          },
+          {
+            "scope": "SUSI 평생학습자전형Ⅱ (TABLE#25)",
+            "sum_of_rows": 30,
+            "source_total": 30,
+            "source_page": null,
+            "source_cell": "TABLE#25 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 34 / 원문 합계 34 (일치)"
+          },
+          {
+            "scope": "SUSI 평생학습자전형Ⅲ (TABLE#27)",
+            "sum_of_rows": 49,
+            "source_total": 49,
+            "source_page": null,
+            "source_cell": "TABLE#27 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 30 / 원문 합계 30 (일치)"
+          },
+          {
+            "scope": "JEONGSI 일반전형 (TABLE#2)",
+            "sum_of_rows": 234,
+            "source_total": 234,
+            "source_page": null,
+            "source_cell": "TABLE#2 합계 행 모집",
+            "match": true,
+            "note": "지원 합계: 행합 1627 / 원문 합계 1627 (일치)"
+          }
+        ],
+        "spot_checks": 9,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
       }
     ]
   }

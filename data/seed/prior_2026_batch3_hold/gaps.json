@@ -1,0 +1,37 @@
+[
+  {
+    "university_code": "U34",
+    "university_name": "국립한국교통대학교",
+    "item": "2026학년도 게시글 상세(본문) 페이지",
+    "reason": "게시판 제목은 POST 폼(selectBoardArticle.do)으로만 열려 상세 페이지는 요청하지 않음(POST 금지). 목록 HTML의 첨부 정적 링크(/cmm/fms/FileDown.do)로 원문 파일을 받음. published_at은 목록의 등록일.",
+    "url": "https://www.ut.ac.kr/cop/bbs/BBSMSTR_000000000663/selectBoardList.do?kind=%EC%88%98%EC%8B%9C&mno=sub01_03"
+  },
+  {
+    "university_code": "U34",
+    "university_name": "국립한국교통대학교",
+    "item": "2026학년도 수시 경쟁률(외부 링크)",
+    "reason": "입학처 메인의 경쟁률 링크는 외부 대행사 도메인(진학어플라이)이므로 수치 사용하지 않음(2027학년도 수시 경쟁률 링크였음).",
+    "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio30150631.html"
+  },
+  {
+    "university_code": "U34",
+    "university_name": "국립한국교통대학교",
+    "item": "정시 모집군(가/나/다)",
+    "reason": "2026 정시 입시결과 원문에 군 정보가 없어 group=null.",
+    "url": "https://www.ut.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000287404&fileSn=0"
+  },
+  {
+    "university_code": "U34",
+    "university_name": "국립한국교통대학교",
+    "item": "충원(추가합격) 인원",
+    "reason": "원문은 \"예비 순위\"(예비순위)만 제공 → extra_admitted_count는 null, 값은 지표 행(OTHER)으로 저장.",
+    "url": null
+  },
+  {
+    "university_code": "U34",
+    "university_name": "국립한국교통대학교",
+    "item": "2026 정시 일반전형 외 다른 전형(정원외 등) 결과",
+    "reason": "정시 원문에는 \"정시-일반전형\" 표 1개만 있음.",
+    "url": "https://www.ut.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000287404&fileSn=0"
+  }
+]
