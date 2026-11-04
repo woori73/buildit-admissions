@@ -1,0 +1,15 @@
+{
+  "url": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284060&q_fileId=f1f336ef-664a-4caf-8479-6acac9266f7d",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.sen.go.kr/component/file/ND_fileDownload.do?q_fileSn=2284060&q_fileId=f1f336ef-664a-4caf-8479-6acac9266f7d",
+  "content_type": null,
+  "size": 1412608,
+  "sha256": "c220cc760e90cbff8e46412466bd0cfcd9c50c6e05300e790aac1130ce2f0dca",
+  "raw_path": "raw/www.sen.go.kr/c220cc760e90cbff8e46412466bd0cfc.do",
+  "collected_at": "2026-11-04T23:09:26+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
