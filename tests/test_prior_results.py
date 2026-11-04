@@ -215,6 +215,60 @@ class BuildTest(unittest.TestCase):
         self.assertTrue(all(v is not None for r in rows for v in r.values()))
         self.assertTrue(all(p["ipsi_documents"] for p in parts))
 
+    def test_given_same_unit_in_two_documents_when_built_then_empty_cells_are_filled_and_conflict_is_a_warning(self):
+        # given: 같은 기본 행이 두 번째 문서에도 있고, 한쪽에만 지원자 수가 있으며 경쟁률은 서로 다르다
+        path = os.path.join(builder.PRIOR_DIR, "u14_2026_prior.json")
+        with open(path, encoding="utf-8") as f:
+            src = json.load(f)
+        dup = dict(src["rows"][0], applicant_count=None, competition_rate=19.4, extra_admitted_count=None)
+        src["rows"][0]["applicant_count"] = None
+        dup["applicant_count"] = 156
+        src["rows"].append(dup)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(src, f, ensure_ascii=False)
+        # when
+        seed, per = builder.build(None)
+        # then
+        base = [r for r in seed["prior_results"] if r["metric_label"] is None]
+        self.assertEqual(len(base), 1)
+        self.assertEqual(base[0]["applicant_count"], 156)
+        self.assertEqual(base[0]["competition_rate"], 19.5)
+        self.assertEqual(per[0]["build_failures"], [])
+        self.assertEqual(len(per[0]["build_warnings"]), 1)
+
+    def test_given_same_unit_in_two_different_documents_when_built_then_values_are_not_mixed_across_sources(self):
+        # given: 첫 문서에는 추가합격 인원만, 둘째 문서에는 모집·지원·경쟁률이 있는 같은 단위
+        path = os.path.join(builder.PRIOR_DIR, "u14_2026_prior.json")
+        with open(path, encoding="utf-8") as f:
+            src = json.load(f)
+        first = dict(src["rows"][0], recruit_count=None, applicant_count=None, competition_rate=None, extra_admitted_count=4)
+        second = dict(src["rows"][0], extra_admitted_count=None, source_document_key="u14_unused")
+        src["rows"] = [first, src["rows"][1], second]
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(src, f, ensure_ascii=False)
+        # when
+        seed, per = builder.build(None)
+        # then: 한 행에는 한 문서의 값만 — 값이 더 많은 둘째 문서 행이 그 출처로 남고 첫 문서의 추가합격 인원은 섞이지 않는다
+        base = [r for r in seed["prior_results"] if r["metric_label"] is None]
+        self.assertEqual(len(base), 1)
+        self.assertEqual(base[0]["source_document_key"], "doc_u14_unused")
+        self.assertEqual(base[0]["recruit_count"], 8)
+        self.assertNotIn("extra_admitted_count", {k for k, v in base[0].items() if v is not None})
+        self.assertEqual(len(per[0]["build_warnings"]), 1)
+
+    def test_given_row_without_department_when_built_then_department_is_whole_type(self):
+        # given: 원문에 모집단위 열이 없는 전형 단위 결과
+        path = os.path.join(builder.PRIOR_DIR, "u14_2026_prior.json")
+        with open(path, encoding="utf-8") as f:
+            src = json.load(f)
+        src["rows"][0]["department_name"] = None
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(src, f, ensure_ascii=False)
+        # when
+        seed, _ = builder.build(None)
+        # then
+        self.assertIn("전형 전체", {r["department_name"] for r in seed["prior_results"]})
+
 
 if __name__ == "__main__":
     unittest.main()

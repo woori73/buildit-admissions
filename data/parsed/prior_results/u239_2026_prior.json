@@ -1,0 +1,3359 @@
+{
+ "university_key": "u239",
+ "university_name": "중원대학교",
+ "university_code": "U239",
+ "result_year": 2026,
+ "documents": [
+  {
+   "document_key": "u239_2026_susi_result",
+   "document_name": "2026학년도 수시모집 입시결과(입학처 수시 > 입시결과 게시판, 첨부: 2026학년도 수시모집 입시결과_공개용.pdf)",
+   "round_type": "SUSI",
+   "institution_name": "중원대학교 입학처",
+   "source_page_url": "https://ipsi.jwu.ac.kr/boards/admission-results/114",
+   "source_url": "https://ipsi.jwu.ac.kr/boards/admission-results/posts/114/attachments/826",
+   "file_name": "2026학년도 수시모집 입시결과_공개용.pdf",
+   "file_sha256": "dc84e6cda3db002c03c9c7acc6178ab01cfff4afd1deb813b08bb2f34e5979bd",
+   "published_at": "2026-07-02",
+   "pages": 2
+  }
+ ],
+ "rows": [
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.36",
+   "recruit_count": 55,
+   "applicant_count": null,
+   "competition_rate": 6.36,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.25,
+   "raw_value_text": "3.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.75,
+   "raw_value_text": "3.75",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 183.0,
+   "raw_value_text": "183",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.61",
+   "recruit_count": 28,
+   "applicant_count": null,
+   "competition_rate": 2.61,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.0,
+   "raw_value_text": "4.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.0,
+   "raw_value_text": "5.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 17.0,
+   "raw_value_text": "17",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.83",
+   "recruit_count": 36,
+   "applicant_count": null,
+   "competition_rate": 2.83,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.5,
+   "raw_value_text": "4.50",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.5,
+   "raw_value_text": "5.50",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 64.0,
+   "raw_value_text": "64",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.25",
+   "recruit_count": 4,
+   "applicant_count": null,
+   "competition_rate": 4.25,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 11.0,
+   "raw_value_text": "11",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.83",
+   "recruit_count": 40,
+   "applicant_count": null,
+   "competition_rate": 2.83,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.54,
+   "raw_value_text": "4.54",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 6.29,
+   "raw_value_text": "6.29",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "학생부종합전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 43.0,
+   "raw_value_text": "43",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "작업치료학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.13",
+   "recruit_count": 31,
+   "applicant_count": null,
+   "competition_rate": 2.13,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "작업치료학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.33,
+   "raw_value_text": "4.33",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "작업치료학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.63,
+   "raw_value_text": "5.63",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "작업치료학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 35.0,
+   "raw_value_text": "35",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "작업치료학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "0.33",
+   "recruit_count": 3,
+   "applicant_count": null,
+   "competition_rate": 0.33,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.63",
+   "recruit_count": 30,
+   "applicant_count": null,
+   "competition_rate": 4.63,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.0,
+   "raw_value_text": "4.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.0,
+   "raw_value_text": "5.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 109.0,
+   "raw_value_text": "109",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.73",
+   "recruit_count": 15,
+   "applicant_count": null,
+   "competition_rate": 1.73,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.69,
+   "raw_value_text": "4.69",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 7.13,
+   "raw_value_text": "7.13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 5.0,
+   "raw_value_text": "5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.00",
+   "recruit_count": 2,
+   "applicant_count": null,
+   "competition_rate": 2.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "임상병리학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "0.67",
+   "recruit_count": 3,
+   "applicant_count": null,
+   "competition_rate": 0.67,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "보건복지학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.61",
+   "recruit_count": 18,
+   "applicant_count": null,
+   "competition_rate": 1.61,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "보건복지학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 2.88,
+   "raw_value_text": "2.88",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "보건복지학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.25,
+   "raw_value_text": "5.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "보건복지학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 4.0,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "보건복지학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "3.00",
+   "recruit_count": 3,
+   "applicant_count": null,
+   "competition_rate": 3.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "보건복지학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.33",
+   "recruit_count": 3,
+   "applicant_count": null,
+   "competition_rate": 1.33,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "뷰티메디컬학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "6.00",
+   "recruit_count": 10,
+   "applicant_count": null,
+   "competition_rate": 6.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "뷰티메디컬학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 34.0,
+   "raw_value_text": "34",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "뷰티메디컬학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.80",
+   "recruit_count": 10,
+   "applicant_count": null,
+   "competition_rate": 4.8,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "뷰티메디컬학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 13.0,
+   "raw_value_text": "13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "바이오산업학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.15",
+   "recruit_count": 20,
+   "applicant_count": null,
+   "competition_rate": 1.15,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "바이오산업학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.0,
+   "raw_value_text": "4.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "바이오산업학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.2,
+   "raw_value_text": "5.20",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "항공운항학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.05",
+   "recruit_count": 20,
+   "applicant_count": null,
+   "competition_rate": 2.05,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "항공운항학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 5.25,
+   "raw_value_text": "5.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "항공운항학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 8.25,
+   "raw_value_text": "8.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "항공운항학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 15.0,
+   "raw_value_text": "15",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "항공운항학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.00",
+   "recruit_count": 1,
+   "applicant_count": null,
+   "competition_rate": 2.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "항공운항학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 2.0,
+   "raw_value_text": "2",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "글로벌항공서비스학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.31",
+   "recruit_count": 29,
+   "applicant_count": null,
+   "competition_rate": 5.31,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "글로벌항공서비스학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.67,
+   "raw_value_text": "3.67",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "글로벌항공서비스학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 7.0,
+   "raw_value_text": "7.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "글로벌항공서비스학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 40.0,
+   "raw_value_text": "40",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "기계항공우주공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.68",
+   "recruit_count": 19,
+   "applicant_count": null,
+   "competition_rate": 1.68,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "기계항공우주공학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 2.5,
+   "raw_value_text": "2.50",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "기계항공우주공학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 7.25,
+   "raw_value_text": "7.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "기계항공우주공학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 13.0,
+   "raw_value_text": "13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "기계항공우주공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.20",
+   "recruit_count": 5,
+   "applicant_count": null,
+   "competition_rate": 1.2,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "기계항공우주공학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 1.0,
+   "raw_value_text": "1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "항공정비학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.27",
+   "recruit_count": 15,
+   "applicant_count": null,
+   "competition_rate": 4.27,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "항공정비학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.21,
+   "raw_value_text": "4.21",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "항공정비학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.0,
+   "raw_value_text": "5.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "항공정비학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 49.0,
+   "raw_value_text": "49",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "항공정비학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.33",
+   "recruit_count": 9,
+   "applicant_count": null,
+   "competition_rate": 1.33,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "전기반도체컴퓨터공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.36",
+   "recruit_count": 22,
+   "applicant_count": null,
+   "competition_rate": 1.36,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "전기반도체컴퓨터공학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.0,
+   "raw_value_text": "3.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "전기반도체컴퓨터공학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.63,
+   "raw_value_text": "3.63",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "전기반도체컴퓨터공학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 5.0,
+   "raw_value_text": "5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "전기반도체컴퓨터공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.60",
+   "recruit_count": 5,
+   "applicant_count": null,
+   "competition_rate": 1.6,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "전기반도체컴퓨터공학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.00",
+   "recruit_count": 1,
+   "applicant_count": null,
+   "competition_rate": 1.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "스마트농산림학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.17",
+   "recruit_count": 12,
+   "applicant_count": null,
+   "competition_rate": 1.17,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "스마트농산림학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.38,
+   "raw_value_text": "4.38",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "스마트농산림학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.0,
+   "raw_value_text": "5.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "스마트농산림학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 2.0,
+   "raw_value_text": "2",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "종교문화학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.00",
+   "recruit_count": 14,
+   "applicant_count": null,
+   "competition_rate": 1.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "종교문화학부",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.0,
+   "raw_value_text": "3",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "종교문화학부",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 6.8,
+   "raw_value_text": "6.80",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "종교문화학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.00",
+   "recruit_count": 1,
+   "applicant_count": null,
+   "competition_rate": 1.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "경찰행정학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "3.32",
+   "recruit_count": 22,
+   "applicant_count": null,
+   "competition_rate": 3.32,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "경찰행정학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.5,
+   "raw_value_text": "4.5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "경찰행정학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 6.22,
+   "raw_value_text": "6.22",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "경찰행정학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 51.0,
+   "raw_value_text": "51",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "경찰행정학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.00",
+   "recruit_count": 5,
+   "applicant_count": null,
+   "competition_rate": 2.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "4.57",
+   "recruit_count": 7,
+   "applicant_count": null,
+   "competition_rate": 4.57,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.92,
+   "raw_value_text": "3.92",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.17,
+   "raw_value_text": "4.17",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 11.0,
+   "raw_value_text": "11",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.43",
+   "recruit_count": 7,
+   "applicant_count": null,
+   "competition_rate": 2.43,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.63,
+   "raw_value_text": "4.63",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 6.38,
+   "raw_value_text": "6.38",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 5.0,
+   "raw_value_text": "5",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "지역인재전형",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.50",
+   "recruit_count": 2,
+   "applicant_count": null,
+   "competition_rate": 1.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.38",
+   "recruit_count": 8,
+   "applicant_count": null,
+   "competition_rate": 5.38,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.75,
+   "raw_value_text": "3.75",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.75,
+   "raw_value_text": "3.75",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 14.0,
+   "raw_value_text": "14",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "3.29",
+   "recruit_count": 7,
+   "applicant_count": null,
+   "competition_rate": 3.29,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 6.25,
+   "raw_value_text": "6.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 7.0,
+   "raw_value_text": "7.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 15.0,
+   "raw_value_text": "15",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2:00",
+   "recruit_count": 1,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.33",
+   "recruit_count": 6,
+   "applicant_count": null,
+   "competition_rate": 5.33,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.24,
+   "raw_value_text": "3.24",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.63,
+   "raw_value_text": "3.63",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 20.0,
+   "raw_value_text": "20",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.46",
+   "recruit_count": 13,
+   "applicant_count": null,
+   "competition_rate": 2.46,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 5.4,
+   "raw_value_text": "5.40",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 6.5,
+   "raw_value_text": "6.50",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 10.0,
+   "raw_value_text": "10",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "스포츠과학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.88",
+   "recruit_count": 16,
+   "applicant_count": null,
+   "competition_rate": 2.88,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "스포츠과학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 6.04,
+   "raw_value_text": "6.04",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "스포츠과학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 7.13,
+   "raw_value_text": "7.13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형2",
+   "department_name": "스포츠과학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 24.0,
+   "raw_value_text": "24",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "글로컬융합인재학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "0.32",
+   "recruit_count": 37,
+   "applicant_count": null,
+   "competition_rate": 0.32,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "글로컬융합인재학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.4,
+   "raw_value_text": "3.40",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "글로컬융합인재학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.67,
+   "raw_value_text": "4.67",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "성인학습자전형1",
+   "department_name": "글로컬융합인재학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "0.32",
+   "recruit_count": 37,
+   "applicant_count": null,
+   "competition_rate": 0.32,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "성인학습자전형1",
+   "department_name": "글로컬융합인재학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.4,
+   "raw_value_text": "3.40",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "성인학습자전형1",
+   "department_name": "글로컬융합인재학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.67,
+   "raw_value_text": "4.67",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.33",
+   "recruit_count": 24,
+   "applicant_count": null,
+   "competition_rate": 2.33,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.53,
+   "raw_value_text": "4.53",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 6.32,
+   "raw_value_text": "6.32",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "일반전형1",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 32.0,
+   "raw_value_text": "32",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.15",
+   "recruit_count": 20,
+   "applicant_count": null,
+   "competition_rate": 1.15,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.75,
+   "raw_value_text": "3.75",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "기회균형선발전형",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.71,
+   "raw_value_text": "5.71",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "성인학습자전형1",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.15",
+   "recruit_count": 20,
+   "applicant_count": null,
+   "competition_rate": 1.15,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "성인학습자전형1",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.75,
+   "raw_value_text": "3.75",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "성인학습자전형1",
+   "department_name": "자율전공학부",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.71,
+   "raw_value_text": "5.71",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    1
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기/실적 실기중심전형",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "5.50",
+   "recruit_count": 10,
+   "applicant_count": null,
+   "competition_rate": 5.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기/실적 실기중심전형",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.26,
+   "raw_value_text": "4.26",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기/실적 실기중심전형",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.25,
+   "raw_value_text": "5.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기/실적 실기중심전형",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 30.0,
+   "raw_value_text": "30",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기/실적 실기중심전형",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.63",
+   "recruit_count": 8,
+   "applicant_count": null,
+   "competition_rate": 1.63,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기/실적 실기중심전형",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.68,
+   "raw_value_text": "3.68",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기/실적 실기중심전형",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 4.1,
+   "raw_value_text": "4.10",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "실기/실적 실기중심전형",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 4.0,
+   "raw_value_text": "4",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "0.50",
+   "recruit_count": 4,
+   "applicant_count": null,
+   "competition_rate": 0.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.13,
+   "raw_value_text": "3.13",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.25,
+   "raw_value_text": "3.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "드론봇군사학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 2.0,
+   "raw_value_text": "2",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠지도학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.20",
+   "recruit_count": 30,
+   "applicant_count": null,
+   "competition_rate": 1.2,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠지도학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 6.14,
+   "raw_value_text": "6.14",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠지도학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 7.12,
+   "raw_value_text": "7.12",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.92",
+   "recruit_count": 12,
+   "applicant_count": null,
+   "competition_rate": 1.92,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 5.23,
+   "raw_value_text": "5.23",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠산업학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.66,
+   "raw_value_text": "5.66",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.68",
+   "recruit_count": 28,
+   "applicant_count": null,
+   "competition_rate": 1.68,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.72,
+   "raw_value_text": "4.72",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.72,
+   "raw_value_text": "5.72",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "운동레저학부",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 3.0,
+   "raw_value_text": "3",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "골프과학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.86",
+   "recruit_count": 28,
+   "applicant_count": null,
+   "competition_rate": 2.86,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "골프과학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.33,
+   "raw_value_text": "4.33",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "골프과학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 7.25,
+   "raw_value_text": "7.25",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "골프과학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 23.0,
+   "raw_value_text": "23",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠과학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.00",
+   "recruit_count": 8,
+   "applicant_count": null,
+   "competition_rate": 1.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠과학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.83,
+   "raw_value_text": "4.83",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠과학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 6.63,
+   "raw_value_text": "6.63",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠가라테학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "2.00",
+   "recruit_count": 20,
+   "applicant_count": null,
+   "competition_rate": 2.0,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠가라테학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.73,
+   "raw_value_text": "4.73",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "체육우수인재전형",
+   "department_name": "스포츠가라테학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 6.75,
+   "raw_value_text": "6.75",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "농어촌전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": null,
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "농어촌전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 4.27,
+   "raw_value_text": "4.27",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "농어촌전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 5.0,
+   "raw_value_text": "5.00",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "농어촌전형",
+   "department_name": "간호학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 14.0,
+   "raw_value_text": "14",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "농어촌전형",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": null,
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "농어촌전형",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": "교과등급 50%",
+   "metric_unit": "GRADE",
+   "metric_value": 3.58,
+   "raw_value_text": "3.58",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "농어촌전형",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": "교과등급 최저",
+   "metric_unit": "GRADE",
+   "metric_value": 3.67,
+   "raw_value_text": "3.67",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "농어촌전형",
+   "department_name": "만화애니메이션학과",
+   "group": null,
+   "metric_label": "충원순위",
+   "metric_unit": "OTHER",
+   "metric_value": 1.0,
+   "raw_value_text": "1",
+   "recruit_count": null,
+   "applicant_count": null,
+   "competition_rate": null,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "농어촌전형",
+   "department_name": "전형 전체",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.56",
+   "recruit_count": 32,
+   "applicant_count": null,
+   "competition_rate": 1.56,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "특성화고교졸업자(첫째 구역)",
+   "department_name": "전형 전체",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "1.17",
+   "recruit_count": 12,
+   "applicant_count": null,
+   "competition_rate": 1.17,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  },
+  {
+   "round_type": "SUSI",
+   "type_name": "특성화고교졸업자(둘째 구역)",
+   "department_name": "전형 전체",
+   "group": null,
+   "metric_label": null,
+   "metric_unit": null,
+   "metric_value": null,
+   "raw_value_text": "0.5",
+   "recruit_count": 4,
+   "applicant_count": null,
+   "competition_rate": 0.5,
+   "extra_admitted_count": null,
+   "source_document_key": "u239_2026_susi_result",
+   "evidence_pages": [
+    2
+   ]
+  }
+ ],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "SUSI 일반전형1",
+    "sum_of_rows": 320,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+   },
+   {
+    "scope": "SUSI 일반전형2",
+    "sum_of_rows": 165,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+   },
+   {
+    "scope": "SUSI 지역인재전형",
+    "sum_of_rows": 45,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+   },
+   {
+    "scope": "SUSI 기회균형선발전형",
+    "sum_of_rows": 69,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+   },
+   {
+    "scope": "SUSI 학생부종합전형",
+    "sum_of_rows": 40,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+   },
+   {
+    "scope": "SUSI 성인학습자전형1",
+    "sum_of_rows": 57,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+   },
+   {
+    "scope": "SUSI 실기/실적 실기중심전형",
+    "sum_of_rows": 18,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+   },
+   {
+    "scope": "SUSI 체육우수인재전형",
+    "sum_of_rows": 130,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가."
+   },
+   {
+    "scope": "SUSI 농어촌전형",
+    "sum_of_rows": 32,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가. 모집인원·경쟁률은 모든 모집단위에 걸친 병합 셀 값(전형 전체 행)."
+   },
+   {
+    "scope": "SUSI 특성화고교졸업자(첫째 구역)",
+    "sum_of_rows": 12,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가. 모집인원·경쟁률은 모든 모집단위에 걸친 병합 셀 값(전형 전체 행)."
+   },
+   {
+    "scope": "SUSI 특성화고교졸업자(둘째 구역)",
+    "sum_of_rows": 4,
+    "source_total": null,
+    "source_page": null,
+    "match": null,
+    "note": "원문 합계 없음(PDF에 합계 행 없음). 지원인원이 원문에 없어 경쟁률 재계산 불가. 모집인원·경쟁률은 모든 모집단위에 걸친 병합 셀 값(전형 전체 행)."
+   }
+  ],
+  "spot_checks": [
+   {
+    "page": 1,
+    "cell": "일반전형1 / 간호학과",
+    "field": "recruit_count",
+    "value": 55,
+    "source_text": "55",
+    "match": true
+   },
+   {
+    "page": 1,
+    "cell": "일반전형1 / 간호학과 / 충원순위",
+    "field": "metric_value",
+    "value": 183.0,
+    "source_text": "183",
+    "match": true
+   },
+   {
+    "page": 1,
+    "cell": "학생부종합전형 / 간호학과 / 교과등급 최저",
+    "field": "metric_value",
+    "value": 6.29,
+    "source_text": "6.29",
+    "match": true
+   },
+   {
+    "page": 1,
+    "cell": "일반전형2 / 항공운항학과 / 교과등급 최저",
+    "field": "metric_value",
+    "value": 8.25,
+    "source_text": "8.25",
+    "match": true
+   },
+   {
+    "page": 1,
+    "cell": "성인학습자전형1 / 자율전공학부",
+    "field": "competition_rate",
+    "value": 1.15,
+    "source_text": "1.15",
+    "match": true
+   },
+   {
+    "page": 2,
+    "cell": "체육우수인재전형 / 골프과학과 / 충원순위",
+    "field": "metric_value",
+    "value": 23.0,
+    "source_text": "23",
+    "match": true
+   },
+   {
+    "page": 2,
+    "cell": "농어촌전형 / 전형 전체",
+    "field": "recruit_count",
+    "value": 32,
+    "source_text": "32",
+    "match": true
+   },
+   {
+    "page": 2,
+    "cell": "실기/실적 실기중심전형 / 만화애니메이션학과 / 교과등급 50%",
+    "field": "metric_value",
+    "value": 4.26,
+    "source_text": "4.26",
+    "match": true
+   }
+  ],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 정시모집 입시결과",
+   "reason": "입학처 정시 > 입시결과 게시판(category=regular)에는 \"2016학년도 정시모집 입시결과(최종등록 기준)\" 1건만 있음. 2026학년도 정시 결과 미게시.",
+   "url": "https://ipsi.jwu.ac.kr/boards/admission-results?category=regular"
+  },
+  {
+   "item": "2026학년도 정시모집 경쟁률",
+   "reason": "입학처 정시 > 경쟁률 게시판의 \"2026학년도 정시모집 경쟁률\"은 외부 대행사 도메인(진학어플라이) 링크라 수치 사용하지 않음.",
+   "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio11920231.html"
+  },
+  {
+   "item": "수시 지원인원·충원(추가합격) 인원",
+   "reason": "원문은 모집인원·경쟁률·교과등급(50%, 최저)·충원순위만 제공. 지원인원 없음(경쟁률 재계산 불가), 충원 인원 대신 \"충원 순위\"만 있어 extra_admitted_count=null, 값은 OTHER 지표 행.",
+   "url": "https://ipsi.jwu.ac.kr/boards/admission-results/114"
+  }
+ ],
+ "notes": [
+  "출처: 중원대학교 입학처(WebSearch로 확인한 https://ipsi.jwu.ac.kr/boards/notice → 메뉴 \"수시 > 입시결과\") 게시글 114(등록일 2026.07.02). robots.txt(https://ipsi.jwu.ac.kr/robots.txt) HTTP 200, IpsiFetcher 허용. 첨부 PDF는 data/raw/ipsi.jwu.ac.kr/dc84e6cda3db002c03c9c7acc6178ab0.pdf(2쪽, 텍스트층 있음).",
+  "추출: pdfplumber 단어 x좌표로 열(전형 구역×모집인원/경쟁률/50%/최저/충원순위)을 판정하고 쪽 이미지(110dpi 렌더)로 전 행을 대조해 전사함.",
+  "type_name은 표 머리글의 전형명(일반전형1, 일반전형2, 지역인재전형, 기회균형선발전형, 성인학습자전형1, 학생부종합전형, 실기/실적 실기중심전형, 체육우수인재전형, 농어촌전형, 특성화고교졸업자). 2쪽 정원외 구역에 \"특성화고교졸업자\" 머리글이 두 번 나와 구분을 위해 \"(첫째 구역)\"/\"(둘째 구역)\"을 덧붙임(첫째: 모집 12·경쟁률 1.17, 둘째: 모집 4·경쟁률 0.5).",
+  "2쪽 농어촌전형·특성화고교졸업자(두 구역)의 모집인원·경쟁률은 모든 모집단위에 걸친 병합 셀이라 department_name \"전형 전체\" 행으로 저장. 농어촌전형의 학과별 교과등급·충원순위(간호학과, 만화애니메이션학과)는 학과 지표 행으로 저장(학과 기본 행은 인원 필드 모두 null).",
+  "\"충원 순위\"는 충원합격 순위이므로 extra_admitted_count가 아니라 metric_label \"충원순위\"(OTHER).",
+  "원문 \"-\"(최종등록 3명 이하 비공개 등, 원문 각주 \"최종등록 인원 3명 이하의 경우 입시결과 - 표시\") 및 회색(해당 없음) 칸은 행을 만들지 않음.",
+  "1쪽 기회균형선발전형 스포츠산업학과 경쟁률 원문이 \"2:00\"으로 적혀 있어 수치로 확정할 수 없으므로 competition_rate=null, raw_value_text=\"2:00\"으로 둠.",
+  "1쪽 글로컬융합인재학과·자율전공학부는 기회균형선발전형과 성인학습자전형1 두 구역에 같은 값(37/0.32/3.40/4.67, 20/1.15/3.75/5.71)이 적혀 있음. 원문 그대로 두 전형 모두에 저장.",
+  "원문 각주: \"학생부종합전형은 교과전형 산출 반영기준으로 적용\", \"본교 교과목 반영 기준에 따라 산출한 교과 등급\". 1쪽 상단 \"2027학년도 모집단위 변경사항\" 표는 입시결과가 아니므로 미수록."
+ ]
+}
