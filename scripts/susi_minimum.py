@@ -157,13 +157,34 @@ def validate_doc(doc: dict, known_type_names: set[str] | None = None,
     return {"errors": errors, "warnings": warnings, "rules": results}
 
 
+# 선택 표시 묶음. 묶음 중 하나라도 받으면 나머지는 0(해당 없음), 하나도 없으면 학생이 고르지 않은 것이라 입력을 요청한다.
+# (0으로 두면 수학 미적분·기하 지정, 탐구 계열 지정 규칙에서 충족 학생이 미충족으로 나온다.)
+FLAG_GROUPS = {
+    "KOR_SEL": ("KOR_SEL_HW", "KOR_SEL_EM"),
+    "MATH_SEL": ("MATH_SEL_PROB", "MATH_SEL_CALC", "MATH_SEL_GEOM"),
+    "INQ1_TRACK": ("INQ1_SOC", "INQ1_SCI", "INQ1_VOC", "INQ1_SCI2"),
+    "INQ2_TRACK": ("INQ2_SOC", "INQ2_SCI", "INQ2_VOC", "INQ2_SCI2"),
+    "FL_TAKEN": ("FL_TAKEN",),
+}
+
+
 def check(rule: dict, grades: dict) -> dict:
-    """한 규칙 판정. 필요한 등급이 없으면 NEEDS_INPUT. 선택 표시는 없으면 0."""
+    """한 규칙 판정. 필요한 등급이나 선택 묶음이 없으면 NEEDS_INPUT(feel2real 판정과 같은 방식)."""
     variables, _ = jf.names_in(rule["condition"])
-    missing = sorted(v for v in variables if v.endswith("_GRD") and grades.get(v) is None)
+    missing, inputs = set(), {}
+    for v in variables:
+        if grades.get(v) is not None:
+            inputs[v] = float(grades[v])
+            continue
+        group = next((g for g, members in FLAG_GROUPS.items() if v in members), None)
+        if group is None:
+            missing.add(v)
+        elif any(grades.get(m) is not None for m in FLAG_GROUPS[group]):
+            inputs[v] = 0.0
+        else:
+            missing.add(group)
     if missing:
-        return {"outcome": "NEEDS_INPUT", "missing": missing}
-    inputs = {v: float(grades.get(v, 0) or 0) for v in variables}
+        return {"outcome": "NEEDS_INPUT", "missing": sorted(missing)}
     return {"outcome": "MET" if jf.evaluate(rule["condition"], inputs) else "NOT_MET"}
 
 

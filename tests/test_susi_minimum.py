@@ -88,16 +88,24 @@ class CheckTest(unittest.TestCase):
         self.assertEqual(r, {"outcome": "NEEDS_INPUT", "missing": ["INQ1_GRD", "INQ2_GRD"]})
 
     def test_given_science_required_rule_when_social_student_checks_then_not_met(self):
-        # given: 과탐 2과목 응시 필수 — 선택 표시가 없으면 0으로 본다
+        # given: 과탐 2과목 응시 필수
         rule = {"condition": "INQ1_SCI == 1 and INQ2_SCI == 1 and " + THREE_SUM_6}
         grades = {"KOR_GRD": 1, "MATH_GRD": 1, "ENG_GRD": 1, "INQ1_GRD": 1, "INQ2_GRD": 1}
         # when
-        social = sm.check(rule, grades)
+        social = sm.check(rule, {**grades, "INQ1_SOC": 1, "INQ2_SOC": 1})
         science = sm.check(rule, {**grades, "INQ1_SCI": 1, "INQ2_SCI": 1})
-        # then
+        # then: 같은 묶음의 다른 표시를 받았으면 해당 없음(0)으로 본다
         self.assertEqual(social["outcome"], "NOT_MET")
         self.assertEqual(science["outcome"], "MET")
 
+    def test_given_track_not_chosen_when_checked_then_needs_input_not_not_met(self):
+        # given: 탐구 계열·수학 선택과목을 고르지 않은 학생
+        rule = {"condition": "(MATH_SEL_CALC == 1 or MATH_SEL_GEOM == 1) and INQ1_SCI == 1 and " + THREE_SUM_6}
+        grades = {"KOR_GRD": 1, "MATH_GRD": 1, "ENG_GRD": 1, "INQ1_GRD": 1, "INQ2_GRD": 1}
+        # when
+        r = sm.check(rule, grades)
+        # then: 0으로 두면 충족 학생도 미충족으로 나오므로 묶음 이름으로 입력을 요청한다
+        self.assertEqual(r, {"outcome": "NEEDS_INPUT", "missing": ["INQ1_TRACK", "MATH_SEL"]})
 
 if __name__ == "__main__":
     unittest.main()
