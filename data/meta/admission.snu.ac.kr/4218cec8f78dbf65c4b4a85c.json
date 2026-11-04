@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.snu.ac.kr/webdata/admission/files/2027susi.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.snu.ac.kr/webdata/admission/files/2027susi.pdf",
+  "content_type": "application/pdf",
+  "size": 1883389,
+  "sha256": "aff402a9364f5f56b812f2e7ca8829b1881b88b78823e4613e90c8379eeb1a19",
+  "raw_path": "raw/admission.snu.ac.kr/aff402a9364f5f56b812f2e7ca8829b1.pdf",
+  "collected_at": "2026-11-04T14:23:17+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.inu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.inu.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 262,
+  "sha256": "ea51d331a189d18b0f8c732ff2bd8cdd62d4e090e8b0eeecf11e0b98d32d5f62",
+  "raw_path": "raw/www.inu.ac.kr/ea51d331a189d18b0f8c732ff2bd8cdd.html",
+  "collected_at": "2026-11-04T14:29:01+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

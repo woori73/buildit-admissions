@@ -1,0 +1,15 @@
+{
+  "url": "re:fileDownload|nontime-doc|요강|title",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-04T14:24:52+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: re:///robots.txt -> ERROR No connection adapters were found for 're:///robots.txt'",
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.ewha.ac.kr/upload/GUIDES/20260907134642BHLTER.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.ewha.ac.kr/upload/GUIDES/20260907134642BHLTER.pdf",
+  "content_type": "application/pdf",
+  "size": 1805400,
+  "sha256": "7f0fa26d9d0bf39141f7e1387197bd4a9af1843873db559aef0f6b2800914e83",
+  "raw_path": "raw/admission.ewha.ac.kr/7f0fa26d9d0bf39141f7e1387197bd4a.pdf",
+  "collected_at": "2026-11-04T14:24:04+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

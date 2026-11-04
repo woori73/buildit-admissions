@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.konkuk.ac.kr/nctgrBbs/admission/1/6282/1195210/artclView.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.konkuk.ac.kr/nctgrBbs/admission/1/6282/1195210/artclView.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 9754,
+  "sha256": "67b02fb0955f3716e3eec3ee9018459be124069c9a80f8904b57293658306a69",
+  "raw_path": "raw/admission.konkuk.ac.kr/67b02fb0955f3716e3eec3ee9018459b.html",
+  "collected_at": "2026-11-04T14:25:20+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

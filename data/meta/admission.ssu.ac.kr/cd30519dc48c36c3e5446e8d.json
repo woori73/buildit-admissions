@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.ssu.ac.kr/incs/incMojipFiledo2.asp?fileurl=/upload/SSU(2)_26092812337.pdf&fileNM=2027학년도 숭실대학교 수시모집요강.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.ssu.ac.kr/incs/incMojipFiledo2.asp?fileurl=/upload/SSU(2)_26092812337.pdf&fileNM=2027%ED%95%99%EB%85%84%EB%8F%84%20%EC%88%AD%EC%8B%A4%EB%8C%80%ED%95%99%EA%B5%90%20%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95.pdf",
+  "content_type": "application/unknown; Charset=euc-kr",
+  "size": 5317506,
+  "sha256": "d8c5de9407988ad8d1e80900485a84b87dd6d73b119382e9496e5a3520864b72",
+  "raw_path": "raw/admission.ssu.ac.kr/d8c5de9407988ad8d1e80900485a84b8.pdf",
+  "collected_at": "2026-11-04T14:28:17+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

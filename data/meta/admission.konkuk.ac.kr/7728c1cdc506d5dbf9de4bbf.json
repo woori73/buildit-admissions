@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.konkuk.ac.kr/admission/37858/subview.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.konkuk.ac.kr/admission/37858/subview.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 124503,
+  "sha256": "c7e8c08adae99ed9e326e995a21e7099f48ec72b429d0db2bdca9980af0fa35f",
+  "raw_path": "raw/admission.konkuk.ac.kr/c7e8c08adae99ed9e326e995a21e7099.html",
+  "collected_at": "2026-11-04T14:25:14+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

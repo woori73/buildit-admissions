@@ -1,0 +1,15 @@
+{
+  "url": "https://www.knsu.ac.kr/ipsi/rolling/application.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.knsu.ac.kr/ipsi/rolling/application.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 69504,
+  "sha256": "490eb5d57835d5acf5649286866667b6898401e3d28f3f865498793c8d2ee60a",
+  "raw_path": "raw/www.knsu.ac.kr/490eb5d57835d5acf5649286866667b6.html",
+  "collected_at": "2026-11-04T14:25:36+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

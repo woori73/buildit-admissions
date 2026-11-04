@@ -1,0 +1,30 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "caudavinci",
+ "university_name": "중앙대학교(다빈치캠퍼스)",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "학생부교과(지역균형)": "원문 미확보(gaps 참조)",
+  "학생부종합(탐구형인재)": "원문 미확보(gaps 참조)",
+  "학생부종합(융합형인재)": "원문 미확보(gaps 참조)",
+  "학생부종합(기회균형-농어촌학생)(정원내·외)": "원문 미확보(gaps 참조)",
+  "학생부종합(기회균형-기초생활수급자 및 차상위계층)(정원내·외)": "원문 미확보(gaps 참조)",
+  "학생부종합(기회균형-장애인 등 대상자)(정원외)": "원문 미확보(gaps 참조)",
+  "논술(일반형)": "원문 미확보(gaps 참조)",
+  "실기/실적(실기형)": "원문 미확보(gaps 참조)",
+  "실기/실적(특기형)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "중앙대학교 2027학년도 다빈치캠퍼스 수시모집요강",
+   "reason": "다빈치캠퍼스 모집요강도 중앙대 입학처(admission.cau.ac.kr)에서 게시 — robots.txt가 수집기 UA를 차단(robots.txt HTTP 200, Disallow). 2026-11-04 IpsiFetcher 재확인",
+   "url": "https://admission.cau.ac.kr/"
+  }
+ ],
+ "notes": [
+  "시드 min_academic_standard 요약은 원문 대조 전이라 규칙으로 옮기지 않음"
+ ]
+}

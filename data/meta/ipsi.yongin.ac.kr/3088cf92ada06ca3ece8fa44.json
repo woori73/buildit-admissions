@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.yongin.ac.kr/ipsi/guide/susi/mo_susi_20260623_1020.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.yongin.ac.kr/ipsi/guide/susi/mo_susi_20260623_1020.pdf",
+  "content_type": "application/pdf;charset=UTF-8",
+  "size": 20710549,
+  "sha256": "53c7939bb8c3196e048acf258f09fe1f7c910e36ff67fecbfd026a4294a28739",
+  "raw_path": "raw/ipsi.yongin.ac.kr/53c7939bb8c3196e048acf258f09fe1f.pdf",
+  "collected_at": "2026-11-04T14:25:16+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

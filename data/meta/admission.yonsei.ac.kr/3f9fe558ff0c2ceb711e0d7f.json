@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.yonsei.ac.kr/seoul/admission/html/early/guide.asp",
+  "ok": false,
+  "robots_allowed": true,
+  "http_status": 404,
+  "final_url": "https://admission.yonsei.ac.kr/seoul/admission/html/early/guide.asp",
+  "content_type": "text/html; charset=utf-8",
+  "size": 5073,
+  "sha256": "5c920cdbb4a2420c4481ffc43902673b0344c2e158eb851a2a4033934518ef27",
+  "raw_path": null,
+  "collected_at": "2026-11-04T14:25:41+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "HTTP 404",
+  "verification_status": "COLLECTED"
+}

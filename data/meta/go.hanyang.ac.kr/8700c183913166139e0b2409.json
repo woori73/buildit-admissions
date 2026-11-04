@@ -1,0 +1,15 @@
+{
+  "url": "https://go.hanyang.ac.kr/web/mojib/mojib.do?m_type=SUSI",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://go.hanyang.ac.kr/web/mojib/mojib.do?m_type=SUSI",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 25902,
+  "sha256": "4fc9b3064e2ecae9512ca35fdb632772a046594c746f6c2b5efd40b675d1dd70",
+  "raw_path": null,
+  "collected_at": "2026-11-04T14:19:38+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
