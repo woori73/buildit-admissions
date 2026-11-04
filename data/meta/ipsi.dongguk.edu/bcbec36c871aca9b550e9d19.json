@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dongguk.edu/upload/file/20260916161730JHGHCW.PDF",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dongguk.edu/upload/file/20260916161730JHGHCW.PDF",
+  "content_type": "application/pdf",
+  "size": 15854883,
+  "sha256": "d5c190b5692bc46405c456b07d2d30cb5a2b7e6083226db68f3d59fb028af110",
+  "raw_path": "raw/ipsi.dongguk.edu/d5c190b5692bc46405c456b07d2d30cb.pdf",
+  "collected_at": "2026-11-04T10:18:59+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

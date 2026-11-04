@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sungshin.ac.kr/bbs/filedown.php?bbsid=guideline&file_seq=2989",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sungshin.ac.kr/bbs/filedown.php?bbsid=guideline&file_seq=2989",
+  "content_type": "application/octet-stream",
+  "size": 25657317,
+  "sha256": "78c44c44d73037a055a9f8eae8ccd06e60549aed0056d5895a04538820fe2dfe",
+  "raw_path": "raw/ipsi.sungshin.ac.kr/78c44c44d73037a055a9f8eae8ccd06e.php",
+  "collected_at": "2026-11-04T10:18:03+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

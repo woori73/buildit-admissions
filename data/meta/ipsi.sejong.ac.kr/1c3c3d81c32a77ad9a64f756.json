@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sejong.ac.kr/cms/etcResourceDown.do?site=$cms$JYBwzsQ&key=$cms$MoUwVg9gdg5gBAVSgSwG4gE4GdkBcCecATAAxEDsA+gEogwCuANgIYYB0ADgCYBmQA",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sejong.ac.kr/cms/etcResourceDown.do?site=$cms$JYBwzsQ&key=$cms$MoUwVg9gdg5gBAVSgSwG4gE4GdkBcCecATAAxEDsA+gEogwCuANgIYYB0ADgCYBmQA",
+  "content_type": "application/pdf",
+  "size": 28687016,
+  "sha256": "7bcfe611328cb1d96c1a14addc97facabb15b4792f75dcd41ababc08f0e853b4",
+  "raw_path": "raw/ipsi.sejong.ac.kr/7bcfe611328cb1d96c1a14addc97faca.pdf",
+  "collected_at": "2026-11-04T10:19:56+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

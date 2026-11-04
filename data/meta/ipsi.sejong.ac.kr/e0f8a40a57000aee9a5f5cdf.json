@@ -1,0 +1,15 @@
+{
+  "url": "http://ipsi.sejong.ac.kr",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sejong.ac.kr/ipsi/index.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 28400,
+  "sha256": "740bf61366bc7927b857d0acc29ea982029aa3d0f1861be61681174bdbc2349e",
+  "raw_path": "raw/ipsi.sejong.ac.kr/740bf61366bc7927b857d0acc29ea982.html",
+  "collected_at": "2026-11-04T10:19:17+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.karts.ac.kr/usr/gfa/guideline.do?fileUsage=GUIDELINE_COLLEGE",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.karts.ac.kr/usr/gfa/guideline.do?fileUsage=GUIDELINE_COLLEGE",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 34969,
+  "sha256": "4fd440fa264e3994e58ddd0341403fc551320c38e8e85f053b047f249dbe04b6",
+  "raw_path": "raw/www.karts.ac.kr/4fd440fa264e3994e58ddd0341403fc5.html",
+  "collected_at": "2026-11-04T10:23:03+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

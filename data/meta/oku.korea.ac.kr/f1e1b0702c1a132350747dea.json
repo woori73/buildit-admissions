@@ -1,0 +1,15 @@
+{
+  "url": "https://oku.korea.ac.kr/attach/202609/1790733929908_0.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://oku.korea.ac.kr/attach/202609/1790733929908_0.pdf",
+  "content_type": "application/pdf",
+  "size": 570191,
+  "sha256": "15e46ab74a185154d912b6aaf616037b61729ca49f81b8571894e925c62702dc",
+  "raw_path": "raw/oku.korea.ac.kr/15e46ab74a185154d912b6aaf616037b.pdf",
+  "collected_at": "2026-11-04T10:22:34+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

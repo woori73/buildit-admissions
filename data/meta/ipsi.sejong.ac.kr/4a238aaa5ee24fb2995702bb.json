@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sejong.ac.kr/ipsi/regular/recruitment-guidelines.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sejong.ac.kr/ipsi/regular/recruitment-guidelines.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 85842,
+  "sha256": "8b32e29b187f9ab75e12098d8dc8567ee6a7bafaab4615cc3a51fb8f1a28b0dd",
+  "raw_path": "raw/ipsi.sejong.ac.kr/8b32e29b187f9ab75e12098d8dc8567e.html",
+  "collected_at": "2026-11-04T10:19:43+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.adiga.kr/cmm/com/file/fileDown.do?fileId=00000000000000243006&fileSn=1&menuId=PCUVTINF2000&downLogYn=Y&unvCd=0000040&searchSyr=2027",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-04T10:11:42+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: https://www.adiga.kr/robots.txt -> HTTP 200",
+  "verification_status": "COLLECTED"
+}

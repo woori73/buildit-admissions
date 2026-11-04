@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hongik.ac.kr/kr/admission/recruitment-regular.do?mode=download&articleNo=155914&attachNo=91137",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hongik.ac.kr/kr/admission/recruitment-regular.do?mode=download&articleNo=155914&attachNo=91137",
+  "content_type": "application/pdf;charset=utf-8",
+  "size": 5326187,
+  "sha256": "f8b3247cb92ec491d5eddc8f1769e1773f41618d09b68d9ee1da334a57c24138",
+  "raw_path": "raw/www.hongik.ac.kr/f8b3247cb92ec491d5eddc8f1769e177.pdf",
+  "collected_at": "2026-11-04T10:17:22+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

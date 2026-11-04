@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dongduk.ac.kr/afile/fileDownload/NOsmn",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dongduk.ac.kr/afile/fileDownload/NOsmn",
+  "content_type": "application/octet-stream;;charset=EUC-KR",
+  "size": 521996,
+  "sha256": "9c859d863672398b673a961b8e1d055677825b97c5a0f8da37a72b766eddaa8d",
+  "raw_path": "raw/ipsi.dongduk.ac.kr/9c859d863672398b673a961b8e1d0556.bin",
+  "collected_at": "2026-11-04T10:17:17+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

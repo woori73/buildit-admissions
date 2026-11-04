@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sungshin.ac.kr/guide/recruit.htm?ctg_cd=jungsi",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sungshin.ac.kr/guide/recruit.htm?ctg_cd=jungsi",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 19096,
+  "sha256": "f3517aa3d1858608d428aa8b780171f66e8b2d777860e960098991b86166bb5e",
+  "raw_path": "raw/ipsi.sungshin.ac.kr/f3517aa3d1858608d428aa8b780171f6.html",
+  "collected_at": "2026-11-04T10:17:04+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

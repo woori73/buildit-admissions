@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.konkuk.ac.kr/bbs/admission/6282/1224860/download.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.konkuk.ac.kr/bbs/admission/6282/1224860/download.do",
+  "content_type": "application/pdf;=;charset=UTF-8",
+  "size": 9451707,
+  "sha256": "255eded66f03ec0991cb34fcd8607acedf7f3e2dce4710673c0ccde396f28147",
+  "raw_path": "raw/admission.konkuk.ac.kr/255eded66f03ec0991cb34fcd8607ace.pdf",
+  "collected_at": "2026-11-04T10:17:38+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

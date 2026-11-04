@@ -1,0 +1,15 @@
+{
+  "url": "https://www.knsu.ac.kr/ipsi/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.knsu.ac.kr/ipsi/index.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 45875,
+  "sha256": "8474b0fe21ce5c1bc9d6abb7c7b36515f05573cf645b67b469d24a1b9e2e8386",
+  "raw_path": "raw/www.knsu.ac.kr/8474b0fe21ce5c1bc9d6abb7c7b36515.html",
+  "collected_at": "2026-11-04T10:18:25+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

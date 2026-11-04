@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.uos.ac.kr/admissionNew/html/jungsi/info.do?menuid=2002002001000000000",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.uos.ac.kr/admissionNew/html/jungsi/info.do?menuid=2002002001000000000",
+  "content_type": "text/html; charset=utf-8",
+  "size": 20318,
+  "sha256": "13bb727863c5354b7285b391b20c1b6c084c71540760c8f9b6391d3d9d61620d",
+  "raw_path": null,
+  "collected_at": "2026-11-04T10:12:37+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

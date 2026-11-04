@@ -1,0 +1,20 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "bible",
+ "university_name": "한국성서대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 일반학생전형 수능위주(다군)": "원문 미확보 — 대학 입학처 사이트에서 2027 정시 모집요강을 받지 못함(gaps 참고)",
+  "정시 일반학생전형 학생부위주(다군)": "원문 미확보 — 대학 입학처 사이트에서 2027 정시 모집요강을 받지 못함(gaps 참고)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 한국성서대학교 정시[다]군 모집요강 원문",
+   "reason": "입학처(ipsi.bible.ac.kr) robots.txt가 'User-agent: * / Disallow: *'(자동화 수단에 의한 수집 금지 안내 포함)로 우리 요청을 막음(2026-11-04). 2027 정시 자료(univ_sample)의 원문 출처는 adiga.kr라 사용하지 않음",
+   "url": "https://ipsi.bible.ac.kr/"
+  }
+ ],
+ "notes": []
+}

@@ -77,6 +77,15 @@ class RobotsGateTest(unittest.TestCase):
         # when / then
         self.assertFalse(gate.allowed("https://ipsi.example.ac.kr/board"))
 
+    def test_given_euckr_firewall_block_page_without_charset_when_checked_then_request_is_denied(self):
+        # given: 차단 안내가 EUC-KR 바이트로 오고 Content-Type에 charset이 없어 resp.text가 깨진다(감리교신학대 사례)
+        raw = "<html><body>웹 보안 정책에 위배되어 차단되었습니다.</body></html>".encode("cp949")
+        resp = FakeResp(200, raw.decode("latin-1"), "text/html")
+        resp.content = raw
+        gate = self.gate(resp)
+        # when / then
+        self.assertFalse(gate.allowed("https://www.example.ac.kr/main.do"))
+
     def test_given_soft_404_html_as_robots_when_checked_then_request_is_allowed(self):
         # given: robots.txt 자리에 일반 HTML(없는 페이지 안내)
         gate = self.gate(FakeResp(200, "<!doctype html><html><body>페이지를 찾을 수 없습니다</body></html>", "text/html"))

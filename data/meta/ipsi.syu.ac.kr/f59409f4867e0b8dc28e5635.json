@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.syu.ac.kr/2016_syu/pages/index.asp?p=12&mj=02",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.syu.ac.kr/2016_syu/pages/index.asp?p=12&mj=02",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 26078,
+  "sha256": "3a87f5be6863a924b721cb5931fa46412b886fefa1815a0be163a4c39b7c758a",
+  "raw_path": "raw/ipsi.syu.ac.kr/3a87f5be6863a924b721cb5931fa4641.html",
+  "collected_at": "2026-11-04T10:21:15+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

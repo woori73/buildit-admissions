@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.jcoresystem.kr/upload_data/mojib/20261007090613_6.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.jcoresystem.kr/upload_data/mojib/20261007090613_6.pdf",
+  "content_type": "application/pdf",
+  "size": 7444346,
+  "sha256": "94d96a3d8626275ab3fc46754eb00d263cdfa2114eae1efd791d6f08dc79b652",
+  "raw_path": "raw/iphak.jcoresystem.kr/94d96a3d8626275ab3fc46754eb00d26.pdf",
+  "collected_at": "2026-11-04T10:17:21+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

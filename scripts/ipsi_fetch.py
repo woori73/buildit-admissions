@@ -89,6 +89,20 @@ BLOCK_PAGE_MARKERS = ("차단되었습니다", "차단 되었습니다", "접근
                       "request blocked", "has been blocked", "forbidden")
 
 
+def _decoded_text(resp) -> str:
+    """응답 본문을 UTF-8, 안 되면 CP949(EUC-KR)로 읽는다. charset이 없으면 requests의 resp.text는 Latin-1로 읽어
+    한글 차단 안내를 놓치므로, 원래 바이트가 있으면 그것을 직접 디코드한다."""
+    raw = getattr(resp, "content", None)
+    if isinstance(raw, (bytes, bytearray)) and raw:
+        for enc in ("utf-8", "cp949"):
+            try:
+                return raw.decode(enc)
+            except UnicodeDecodeError:
+                continue
+        return raw.decode("cp949", errors="ignore")
+    return resp.text or ""
+
+
 class RobotsGate:
     """호스트별 robots.txt 파싱·캐싱. 우리 UA 기준 allow/disallow 판정."""
 
@@ -127,7 +141,7 @@ class RobotsGate:
                     rp = None
                     # 방화벽·보안장비의 차단 안내가 HTTP 200 HTML로 오는 경우는 robots를 확인하지 못한 것 = 판정불가.
                     # (예: "웹 보안 정책에 위배되어 차단되었습니다") — 규칙 없음(허용)으로 보지 않는다.
-                    full = (resp.text or "")[:4000].lower()
+                    full = _decoded_text(resp)[:4000].lower()
                     if any(k in full for k in BLOCK_PAGE_MARKERS):
                         self._undetermined.add(host)
                 else:
