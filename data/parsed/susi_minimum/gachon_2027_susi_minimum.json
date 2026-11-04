@@ -1,0 +1,35 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "gachon",
+ "university_name": "가천대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "논술 전형": "원문 미확보(gaps 참조)",
+  "학생부우수자 전형": "원문 미확보(gaps 참조)",
+  "지역균형 전형": "원문 미확보(gaps 참조)",
+  "지역의사선발 전형": "원문 미확보(gaps 참조)",
+  "농어촌(교과) 전형": "원문 미확보(gaps 참조)",
+  "특성화고교 전형": "원문 미확보(gaps 참조)",
+  "가천바람개비 전형": "원문 미확보(gaps 참조)",
+  "가천의약학 전형": "원문 미확보(gaps 참조)",
+  "기회균형 전형": "원문 미확보(gaps 참조)",
+  "농어촌(종합) 전형": "원문 미확보(gaps 참조)",
+  "교육기회균형 전형": "원문 미확보(gaps 참조)",
+  "특성화고졸재직자 전형": "원문 미확보(gaps 참조)",
+  "조기취업형 계약학과 전형": "원문 미확보(gaps 참조)",
+  "실기우수자 전형": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시 모집요강",
+   "reason": "입학처(admission.gachon.ac.kr) robots.txt 판정불가 — robots.txt 요청이 TLS 인증서 검증 실패(SSL CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate)로 끝나 IpsiFetcher가 요청하지 않음(2회 시도)",
+   "url": "https://admission.gachon.ac.kr/"
+  }
+ ],
+ "notes": [
+  "시드 min_academic_standard 요약은 원문 근거가 아니어서 규칙으로 옮기지 않음"
+ ]
+}

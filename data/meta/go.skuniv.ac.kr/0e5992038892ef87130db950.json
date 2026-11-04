@@ -1,0 +1,15 @@
+{
+  "url": "https://go.skuniv.ac.kr/index.php?mid=notice&category=182&document_srl=226878",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://go.skuniv.ac.kr/index.php?mid=notice&category=182&document_srl=226878",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 114195,
+  "sha256": "c66221bba47c7edb77269fc87b99b52444e3ae67007bda2807e68a855eb71fdc",
+  "raw_path": "raw/go.skuniv.ac.kr/c66221bba47c7edb77269fc87b99b524.html",
+  "collected_at": "2026-11-04T14:24:16+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

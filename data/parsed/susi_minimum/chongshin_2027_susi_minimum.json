@@ -1,0 +1,31 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "chongshin",
+ "university_name": "총신대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "교과우수자": "원문 미확보(gaps 참조)",
+  "목회자추천자": "원문 미확보(gaps 참조)",
+  "코람데오인재": "원문 미확보(gaps 참조)",
+  "총신고른기회": "원문 미확보(gaps 참조)",
+  "대안학교출신자": "원문 미확보(gaps 참조)",
+  "(정원외)기초생활수급자 및 차상위계층": "원문 미확보(gaps 참조)",
+  "(정원외)특수교육대상자": "원문 미확보(gaps 참조)",
+  "성경지식우수자": "원문 미확보(gaps 참조)",
+  "외국어(영어)우수자": "원문 미확보(gaps 참조)",
+  "실기우수자": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "총신대학교 2027학년도 수시모집 모집요강",
+   "reason": "입학처 robots.txt 확인 실패(판정불가) — 연결 실패(프록시 CONNECT 502 Bad Gateway). 대학 첫 화면(www.chongshin.ac.kr)의 입학 링크는 javascript:; 라 따라갈 주소 없음. 2026-11-04 IpsiFetcher 재확인",
+   "url": "https://ipsi.chongshin.ac.kr/"
+  }
+ ],
+ "notes": [
+  "시드 min_academic_standard 요약은 원문 대조 전이라 규칙으로 옮기지 않음"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_01/mozip/2027_수시모집.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_01/mozip/2027_%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91.pdf",
+  "content_type": "application/pdf",
+  "size": 1796567,
+  "sha256": "dccb5f09333cdde60c11aabf9b3ba5d55d1b511cbb7dbabe85b1f96f7542a434",
+  "raw_path": "raw/ipsi.shyu.ac.kr/dccb5f09333cdde60c11aabf9b3ba5d5.pdf",
+  "collected_at": "2026-11-04T14:27:00+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

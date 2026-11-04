@@ -1,0 +1,28 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "sogang",
+ "university_name": "서강대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "학생부교과(지역균형)": "원문 미확보(gaps 참조)",
+  "학생부종합(일반Ⅰ)": "원문 미확보(gaps 참조)",
+  "학생부종합(일반Ⅱ)": "원문 미확보(gaps 참조)",
+  "학생부종합(기회균형)": "원문 미확보(gaps 참조)",
+  "학생부종합(서강가치)": "원문 미확보(gaps 참조)",
+  "학생부종합(특성화고교졸업자)(정원 외)": "원문 미확보(gaps 참조)",
+  "논술(일반)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 서강대학교 수시모집 모집요강",
+   "reason": "입학처 robots.txt 확인 실패(판정불가) — TLS 인증서 검증 실패(CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate). 2026-11-04 IpsiFetcher 재확인, admission.sogang.ac.kr·www.sogang.ac.kr 모두 같음",
+   "url": "https://admission.sogang.ac.kr/"
+  }
+ ],
+ "notes": [
+  "시드 min_academic_standard 요약은 원문 대조 전이라 규칙으로 옮기지 않음"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "hansung",
+ "university_name": "한성대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "학생부교과(교과우수전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(지역균형전형)": "원문 미확보(gaps 참조)",
+  "학생부종합(한성인재전형)": "원문 미확보(gaps 참조)",
+  "학생부종합(기회균형(고른기회)전형)": "원문 미확보(gaps 참조)",
+  "학생부종합(기회균형(성인학습자)전형)": "원문 미확보(gaps 참조)",
+  "실기위주(실기우수자전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(기회균형(농어촌학생)전형)(정원외)": "원문 미확보(gaps 참조)",
+  "학생부교과(기회균형(특성화고교졸업자)전형)(정원외)": "원문 미확보(gaps 참조)",
+  "학생부종합(기회균형(특성화고교졸재직자)전형)(정원외)": "원문 미확보(gaps 참조)",
+  "실기위주(기회균형(농어촌학생)전형)(정원외)": "원문 미확보(gaps 참조)",
+  "실기위주(기회균형(특성화고교졸업자)전형)(정원외)": "원문 미확보(gaps 참조)",
+  "재외국민 및 외국인(정원외)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시 모집요강",
+   "reason": "입학처(enter.hansung.ac.kr) 수시 모집요강 메뉴 주소(첫 화면 href ?m1=menu00%25&m2=sub00%25&board=application%25&application=1%25)를 받았으나 본문이 스크립트로만 불러와져 응답 HTML에 모집요강 파일 주소(href·iframe src·window.open)가 없음(JS뿐). 메뉴는 span 속성+JS 함수로 이동해 완성된 주소가 없음",
+   "url": "https://enter.hansung.ac.kr/?m1=menu00%25&m2=sub00%25&board=application%25&application=1%25"
+  }
+ ],
+ "notes": [
+  "규칙에 따라 막힌 뒤 다른 경로(사본·외부 CDN·adiga)는 시도하지 않음"
+ ]
+}

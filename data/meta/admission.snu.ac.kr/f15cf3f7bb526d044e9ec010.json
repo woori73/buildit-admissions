@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.snu.ac.kr/undergraduate/early/guide",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.snu.ac.kr/undergraduate/early/guide",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 109857,
+  "sha256": "c65bc84f716824fb978e9700166401e3b5a8ae1ef0c0ed1fdb412bfe0698c47e",
+  "raw_path": "raw/admission.snu.ac.kr/c65bc84f716824fb978e9700166401e3.html",
+  "collected_at": "2026-11-04T14:23:19+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

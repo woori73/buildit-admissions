@@ -1,0 +1,87 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "konkuk",
+ "university_name": "건국대학교(서울)",
+ "academic_year": 2027,
+ "documents": [
+  {
+   "document_key": "konkuk_2027_susi_guide",
+   "document_name": "2027학년도 수시모집요강 (건국대학교 서울캠퍼스)",
+   "institution_name": "건국대학교 입학처",
+   "source_page_url": "https://admission.konkuk.ac.kr/admission/37859/subview.do",
+   "file_url": "https://admission.konkuk.ac.kr/enterTbc/admission/1/69/pdf/fileDownload.do",
+   "file_sha256": "b29ac0f99c3a8057e01bc26e9597d72de0a6c4c79fd1ec198575a309e7857d31",
+   "page_count": 88,
+   "page_numbering": "evidence_pages는 PDF 쪽(1부터, 인쇄 쪽 번호와 같음)",
+   "note": "수시 모집요강 게시 페이지의 'PDF 파일 다운로드' href(PDF 작성 2026-06-25). 공지사항 '2027학년도 수시모집요강 안내'(수정일 2026.07.03) 첨부 펼침면 PDF(https://admission.konkuk.ac.kr/bbs/admission/6282/1221044/download.do, sha256 547e71c8d0242b34984e4a418a5d8b95699d4db839415e5f26fdd9d4080a2bcf, 같은 날 작성)와 수능최저 문구 대조 결과 동일"
+  }
+ ],
+ "rules": [
+  {
+   "rule_id": "konkuk_nonsul_general",
+   "label": "논술(KU논술우수자) 인문계열·자연계열(수의예과 제외)·KU자유전공학부",
+   "document_key": "konkuk_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "논술(KU논술우수자)"
+    ],
+    "unit_scope_text": "인문계열 모집단위 / 자연계열 모집단위(수의예과 제외) / KU자유전공학부"
+   },
+   "condition": "low_sum(2, KOR_GRD, MATH_GRD, ENG_GRD, min(INQ1_GRD, INQ2_GRD)) <= 5 and (INQ1_SOC + INQ1_SCI >= 1) and (INQ2_SOC + INQ2_SCI >= 1) and HIST_GRD <= 5",
+   "required_areas_text": "※ 수능최저학력기준의 모든 반영 영역에 응시하여야 함 ※ 영역별 선택과목 제한 없음 ※ 사/과탐: 2과목을 응시하여 그중 높은 과목 반영",
+   "raw_text": "인문계열 모집단위 / 자연계열 모집단위(수의예과 제외) / KU자유전공학부: 국, 수, 영, 사/과탐(1과목) 중 2개 등급 합 5, [한국사 5등급]. ※ 수능최저학력기준의 모든 반영 영역에 응시하여야 함 ※ 영역별 선택과목 제한 없음 ※ 사/과탐: 2과목을 응시하여 그중 높은 과목 반영",
+   "evidence_pages": [
+    48
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사/과탐: 2과목을 응시하여'를 탐구 2과목이 각각 사회 또는 과학 과목이어야 하는 것으로 봄(사회·과학을 섞어 응시해도 되는지는 원문에 따로 없음)",
+    "'모든 반영 영역에 응시하여야 함'은 국어·수학·영어·탐구(2과목)·한국사 응시를 뜻하는 것으로 보고, 등급 입력이 있으면 응시한 것으로 처리함",
+    "[한국사 5등급]을 한국사 5등급 이내로 봄",
+    "수의예과 외 모든 모집단위에 적용(department_names 없이 전형 전체로 연결, 수의예과는 아래 규칙)"
+   ]
+  },
+  {
+   "rule_id": "konkuk_nonsul_vet",
+   "label": "논술(KU논술우수자) 수의예과",
+   "document_key": "konkuk_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "논술(KU논술우수자)"
+    ],
+    "department_names": [
+     "수의예과"
+    ],
+    "unit_scope_text": "수의예과"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, min(INQ1_GRD, INQ2_GRD)) <= 4 and (INQ1_SOC + INQ1_SCI >= 1) and (INQ2_SOC + INQ2_SCI >= 1) and HIST_GRD <= 5",
+   "required_areas_text": "※ 수능최저학력기준의 모든 반영 영역에 응시하여야 함 ※ 영역별 선택과목 제한 없음 ※ 사/과탐: 2과목을 응시하여 그중 높은 과목 반영",
+   "raw_text": "수의예과: 국, 수, 영, 사/과탐(1과목) 중 3개 등급 합 4, [한국사 5등급]. ※ 수능최저학력기준의 모든 반영 영역에 응시하여야 함 ※ 영역별 선택과목 제한 없음 ※ 사/과탐: 2과목을 응시하여 그중 높은 과목 반영",
+   "evidence_pages": [
+    48
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사/과탐: 2과목을 응시하여'를 탐구 2과목이 각각 사회 또는 과학 과목이어야 하는 것으로 봄(사회·과학을 섞어 응시해도 되는지는 원문에 따로 없음)",
+    "'모든 반영 영역에 응시하여야 함'은 국어·수학·영어·탐구(2과목)·한국사 응시를 뜻하는 것으로 보고, 등급 입력이 있으면 응시한 것으로 처리함",
+    "[한국사 5등급]을 한국사 5등급 이내로 봄"
+   ]
+  }
+ ],
+ "no_minimum": {
+  "학생부교과(KU지역균형)": "3. 전형방법 표 수능최저학력기준: 없음 (27쪽)",
+  "학생부종합(KU자기추천)": "3. 전형방법 표 수능최저학력기준: 없음 (29쪽)",
+  "학생부종합(기회균형)": "3. 전형방법 표 수능최저학력기준: 없음 (35쪽)",
+  "학생부종합(특성화고교졸업자, 정원외)": "3. 전형방법 표 수능최저학력기준: 없음 (41쪽)",
+  "학생부종합(특수교육대상자, 정원외)": "3. 전형방법 표 수능최저학력기준: 없음 (43쪽)",
+  "학생부종합(특성화고졸재직자, 정원외)": "3. 전형방법 표 수능최저학력기준: 없음 (62쪽)",
+  "실기/실적(연기우수자)": "3. 전형방법 표 수능최저학력기준: 없음 (51쪽)",
+  "실기/실적(연출우수자)": "3. 전형방법 표 수능최저학력기준: 없음 (54쪽)",
+  "실기/실적(체육특기자)": "3. 전형방법 표 수능최저학력기준: 없음 (58쪽)"
+ },
+ "not_covered": {},
+ "notes": [
+  "전형별 쪽 대응은 각 전형 첫 쪽의 '1. 모집단위 및 모집인원: 총 N명'과 11쪽 전형 요약 모집인원으로 맞춤(지역균형 345·자기추천 903·기회균형 79·특성화고교졸업자 22·특수교육대상자 20·특성화고졸재직자 165·논술 328·연기 15·연출 10·체육특기자 13)",
+  "11쪽 전형 요약: 논술 100% (수능최저학력기준 적용) — 수능최저는 KU논술우수자에만 적용"
+ ]
+}

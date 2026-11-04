@@ -8,7 +8,7 @@
   "size": 0,
   "sha256": null,
   "raw_path": null,
-  "collected_at": "2026-11-04T01:03:44+09:00",
+  "collected_at": "2026-11-04T14:23:40+09:00",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
   "error": "robots.txt disallows our UA: https://iphak.swu.ac.kr/robots.txt -> ERROR HTTPSConnectionPool(host='iphak.swu.ac.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 502 Bad Gateway')))",
   "verification_status": "COLLECTED"

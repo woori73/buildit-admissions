@@ -1,0 +1,44 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "suwon",
+ "university_name": "수원대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "교과논술전형": "원문 미확보(gaps 참조)",
+  "면접위주교과전형": "원문 미확보(gaps 참조)",
+  "고교추천전형": "원문 미확보(gaps 참조)",
+  "교과우수전형": "원문 미확보(gaps 참조)",
+  "기회균형특별전형": "원문 미확보(gaps 참조)",
+  "고운사회전형": "원문 미확보(gaps 참조)",
+  "실기우수자(체육)전형": "원문 미확보(gaps 참조)",
+  "실기우수자(미술)전형": "원문 미확보(gaps 참조)",
+  "실기우수자(음악)전형": "원문 미확보(gaps 참조)",
+  "실기우수자(영화예술)전형": "원문 미확보(gaps 참조)",
+  "실기우수자(연기예술)전형": "원문 미확보(gaps 참조)",
+  "농어촌학생전형(연기예술)(정원외)": "원문 미확보(gaps 참조)",
+  "농어촌학생전형(정원외)": "원문 미확보(gaps 참조)",
+  "특성화고졸업자전형(정원외)": "원문 미확보(gaps 참조)",
+  "특성화고 등을 졸업한 재직자전형(정원외)": "원문 미확보(gaps 참조)",
+  "재외국민전형(정원외)": "원문 미확보(gaps 참조)",
+  "재외국민전형(12년)(정원외)": "원문 미확보(gaps 참조)",
+  "북한이탈주민전형(정원외)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시 모집요강 PDF",
+   "reason": "robots.txt 차단: ipsi.suwon.ac.kr robots.txt가 'Disallow: /' 후 /guide/susi 등만 허용하고 /upload_data/·/download/ 경로는 허용하지 않음. 게시 페이지(https://ipsi.suwon.ac.kr/guide/susi, 수집 허용)에는 PDF 주소가 완성된 형태로 있으나 파일 요청은 robots 차단으로 하지 않음",
+   "url": "https://ipsi.suwon.ac.kr/upload_data/guide/1787878393_6045.pdf"
+  },
+  {
+   "item": "2027학년도 수시 모집요강 PDF 다운로드 버튼",
+   "reason": "robots.txt 차단(/download/ 경로)",
+   "url": "https://ipsi.suwon.ac.kr/download/guide2/susi/pdf"
+  }
+ ],
+ "notes": [
+  "게시 페이지 https://ipsi.suwon.ac.kr/guide/susi 는 받음(PDF 확대보기 window.open 주소와 iframe 뷰어 주소 확인). 파일 경로만 robots 차단"
+ ]
+}

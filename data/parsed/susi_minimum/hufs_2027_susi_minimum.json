@@ -1,0 +1,26 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "hufs",
+ "university_name": "한국외국어대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "학교장추천전형": "원문 미확보(gaps 참조)",
+  "학생부종합전형(면접형)": "원문 미확보(gaps 참조)",
+  "학생부종합전형(서류형)": "원문 미확보(gaps 참조)",
+  "기회균형전형": "원문 미확보(gaps 참조)",
+  "논술전형": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "한국외국어대학교 2027학년도 수시모집 모집요강",
+   "reason": "입학처 robots.txt가 수집기 UA를 차단(robots.txt HTTP 200, Disallow). 2026-11-04 IpsiFetcher 재확인",
+   "url": "https://adms.hufs.ac.kr/"
+  }
+ ],
+ "notes": [
+  "시드 min_academic_standard 요약은 원문 대조 전이라 규칙으로 옮기지 않음"
+ ]
+}

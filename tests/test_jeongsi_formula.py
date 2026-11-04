@@ -59,6 +59,16 @@ class EvaluateTest(unittest.TestCase):
         # then
         self.assertAlmostEqual(got, 185.0)
 
+    def test_given_low_sum_when_four_grades_then_best_three_summed(self):
+        # given: 수능최저 "4개 영역 중 3개 합" — 등급은 작을수록 좋다
+        expr = "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, min(INQ1_GRD, INQ2_GRD)) <= 6"
+        # when
+        met = jf.evaluate(expr, {"KOR_GRD": 2, "MATH_GRD": 1, "ENG_GRD": 3, "INQ1_GRD": 4, "INQ2_GRD": 2})
+        not_met = jf.evaluate(expr, {"KOR_GRD": 3, "MATH_GRD": 3, "ENG_GRD": 3, "INQ1_GRD": 4, "INQ2_GRD": 4})
+        # then: 1+2+2=5 ≤ 6 충족, 3+3+3=9 미충족
+        self.assertEqual(met, 1.0)
+        self.assertEqual(not_met, 0.0)
+
     def test_given_missing_input_when_evaluated_then_error_names_variable(self):
         # given / when / then
         with self.assertRaisesRegex(jf.FormulaError, "KOR_STD"):

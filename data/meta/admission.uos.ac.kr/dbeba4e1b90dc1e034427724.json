@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.uos.ac.kr/admissionNew/html/susi/info.do?menuid=2002001001000000000",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.uos.ac.kr/admissionNew/html/susi/info.do?menuid=2002001001000000000",
+  "content_type": "text/html; charset=utf-8",
+  "size": 21102,
+  "sha256": "3a02ca73e06a64ec10d2b871b613d7b6cd1ab8ec589fe55606878c18beaed00b",
+  "raw_path": "raw/admission.uos.ac.kr/3a02ca73e06a64ec10d2b871b613d7b6.html",
+  "collected_at": "2026-11-04T14:25:50+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

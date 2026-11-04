@@ -1,0 +1,153 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "hanyang",
+ "university_name": "한양대학교(서울)",
+ "academic_year": 2027,
+ "documents": [
+  {
+   "document_key": "hanyang_2027_susi_guide",
+   "document_name": "2027학년도 수시모집 요강",
+   "institution_name": "한양대학교 입학처",
+   "source_page_url": "https://go.hanyang.ac.kr/web/mojib/mojib.do?m_type=SUSI",
+   "file_url": "https://go.hanyang.ac.kr/file/pdfDown.do?menu=mojib&file_no=502&type=pdf",
+   "file_sha256": "1579535cb1a63d2cf7a73e924f804cbfdd4161b488cfde6fbbe237df85e2bdb1",
+   "page_count": 97,
+   "page_numbering": "evidence_pages는 PDF 쪽(1부터)",
+   "note": "파일 주소는 게시 페이지 버튼 onclick의 window.open에 완성된 형태로 적힌 주소(2026-11-04 사용자 승인 규칙)"
+  }
+ ],
+ "rules": [
+  {
+   "rule_id": "hanyang_kyogwa",
+   "label": "학생부교과(추천형) 자연·인문·상경",
+   "document_key": "hanyang_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부교과(추천형)"
+    ],
+    "unit_scope_text": "자연·인문·상경"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, min(INQ1_GRD, INQ2_GRD)) <= 7 and (INQ1_SOC + INQ1_SCI >= 1) and (INQ2_SOC + INQ2_SCI >= 1) and HIST_GRD <= 9",
+   "required_areas_text": "수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "raw_text": "자연·인문·상경: 국어, 수학, 영어, 탐구(상위 1개 과목) 중 3개 영역 등급합 7 이내. ※ 수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "evidence_pages": [
+    29
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사탐 또는 과탐(2과목)'을 탐구 2과목이 각각 사회 또는 과학 과목이면 되는 것으로 봄(사회·과학을 섞어 응시해도 되는지는 원문에 따로 없음)",
+    "한국사는 응시만 필수이고 등급 기준은 없어 등급 입력만 확인함"
+   ]
+  },
+  {
+   "rule_id": "hanyang_jonghap_general",
+   "label": "학생부종합(추천형) 전체(의예과 제외)",
+   "document_key": "hanyang_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부종합(추천형)"
+    ],
+    "unit_scope_text": "전체 (의예과 제외)"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, min(INQ1_GRD, INQ2_GRD)) <= 7 and (INQ1_SOC + INQ1_SCI >= 1) and (INQ2_SOC + INQ2_SCI >= 1) and HIST_GRD <= 9",
+   "required_areas_text": "수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "raw_text": "전체 (의예과 제외): 국어, 수학, 영어, 탐구(상위 1개 과목) 중 3개 영역 등급합 7 이내. ※ 수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "evidence_pages": [
+    31
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사탐 또는 과탐(2과목)'을 탐구 2과목이 각각 사회 또는 과학 과목이면 되는 것으로 봄(사회·과학을 섞어 응시해도 되는지는 원문에 따로 없음)",
+    "한국사는 응시만 필수이고 등급 기준은 없어 등급 입력만 확인함",
+    "의예과 외 모든 모집단위에 적용(department_names 없이 전형 전체로 연결, 의예과는 아래 규칙)"
+   ]
+  },
+  {
+   "rule_id": "hanyang_jonghap_med",
+   "label": "학생부종합(추천형) 의예과",
+   "document_key": "hanyang_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부종합(추천형)"
+    ],
+    "department_names": [
+     "의예과"
+    ],
+    "unit_scope_text": "의예과"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, (INQ1_GRD + INQ2_GRD) / 2) <= 4 and (INQ1_SOC + INQ1_SCI >= 1) and (INQ2_SOC + INQ2_SCI >= 1) and HIST_GRD <= 9",
+   "required_areas_text": "수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "raw_text": "의예과: 국어, 수학, 영어, 탐구(2개 과목 평균) 중 3개 영역 등급합 4 이내. ※ 수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "evidence_pages": [
+    31
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사탐 또는 과탐(2과목)'을 탐구 2과목이 각각 사회 또는 과학 과목이면 되는 것으로 봄(사회·과학을 섞어 응시해도 되는지는 원문에 따로 없음)",
+    "한국사는 응시만 필수이고 등급 기준은 없어 등급 입력만 확인함",
+    "탐구 2개 과목 평균의 소수점 처리가 원문에 없어 평균 그대로 계산함"
+   ]
+  },
+  {
+   "rule_id": "hanyang_nonsul_general",
+   "label": "논술 전체(의예과 제외)",
+   "document_key": "hanyang_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "논술우수자"
+    ],
+    "unit_scope_text": "전체 (의예과 제외)"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, min(INQ1_GRD, INQ2_GRD)) <= 7 and (INQ1_SOC + INQ1_SCI >= 1) and (INQ2_SOC + INQ2_SCI >= 1) and HIST_GRD <= 9",
+   "required_areas_text": "수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "raw_text": "전체 (의예과 제외): 국어, 수학, 영어, 탐구(상위 1개 과목) 중 3개 영역 등급합 7 이내. ※ 수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "evidence_pages": [
+    45
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사탐 또는 과탐(2과목)'을 탐구 2과목이 각각 사회 또는 과학 과목이면 되는 것으로 봄(사회·과학을 섞어 응시해도 되는지는 원문에 따로 없음)",
+    "한국사는 응시만 필수이고 등급 기준은 없어 등급 입력만 확인함",
+    "의예과 외 모든 모집단위에 적용(전형 전체로 연결, 의예과는 아래 규칙)"
+   ]
+  },
+  {
+   "rule_id": "hanyang_nonsul_med",
+   "label": "논술 의예과",
+   "document_key": "hanyang_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "논술우수자"
+    ],
+    "department_names": [
+     "의예과"
+    ],
+    "unit_scope_text": "의예과"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, (INQ1_GRD + INQ2_GRD) / 2) <= 4 and (INQ1_SOC + INQ1_SCI >= 1) and (INQ2_SOC + INQ2_SCI >= 1) and HIST_GRD <= 9",
+   "required_areas_text": "수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "raw_text": "의예과: 국어, 수학, 영어, 탐구(2개 과목 평균) 중 3개 영역 등급합 4 이내. ※ 수능 필수 응시영역 : 국어, 수학, 영어, 사탐 또는 과탐(2과목), 한국사",
+   "evidence_pages": [
+    45
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사탐 또는 과탐(2과목)'을 탐구 2과목이 각각 사회 또는 과학 과목이면 되는 것으로 봄(사회·과학을 섞어 응시해도 되는지는 원문에 따로 없음)",
+    "한국사는 응시만 필수이고 등급 기준은 없어 등급 입력만 확인함",
+    "탐구 2개 과목 평균의 소수점 처리가 원문에 없어 평균 그대로 계산함"
+   ]
+  }
+ ],
+ "no_minimum": {
+  "학생부종합(서류형)": "6. 수능최저학력기준 : 미적용 (32쪽)",
+  "학생부종합(면접형)": "수능최저학력기준 : 미적용 (35쪽)",
+  "학생부종합(고른기회)": "수능최저학력기준 : 미적용 (39쪽)",
+  "학생부종합(사회통합)": "수능최저학력기준 : 미적용 (40쪽)",
+  "학생부종합(특성화고졸재직자, 정원외)": "수능최저학력기준 : 미적용 (43쪽)",
+  "실기/실적(음악·미술·무용·체육·연극영화)": "실기/실적 수능최저학력기준 미적용 (17쪽)"
+ },
+ "not_covered": {},
+ "notes": [
+  "의예과는 학생부교과(추천형)에서 선발하지 않음(원문 27쪽 표 문구)"
+ ]
+}

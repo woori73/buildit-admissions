@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.cha.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.cha.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 131346,
+  "sha256": "3c0a4331bcd5d3c6856db201dd2b001f4666f60de48ee48c647bedcfb31be5a9",
+  "raw_path": "raw/admission.cha.ac.kr/3c0a4331bcd5d3c6856db201dd2b001f.html",
+  "collected_at": "2026-11-04T14:34:32+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

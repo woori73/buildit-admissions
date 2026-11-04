@@ -1,0 +1,31 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "kangnam",
+ "university_name": "강남대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "논술위주(논술전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(지역균형전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(농어촌학생전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(국가보훈대상자전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(만학도전형)": "원문 미확보(gaps 참조)",
+  "학생부종합(학교생활우수자전형1)": "원문 미확보(gaps 참조)",
+  "학생부종합(학교생활우수자전형2)": "원문 미확보(gaps 참조)",
+  "실기/실적위주(실기전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(특성화고교졸업자전형)(정원외)": "원문 미확보(gaps 참조)",
+  "학생부교과(기초차상위전형)(정원외)": "원문 미확보(gaps 참조)",
+  "학생부종합(장애인 등 대상자전형)(정원외)": "원문 미확보(gaps 참조)",
+  "학생부종합(공무원위탁전형)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "입학처 홈페이지(수시 모집요강 게시 페이지)",
+   "reason": "robots.txt 차단: IpsiFetcher가 https://admission.kangnam.ac.kr/robots.txt(HTTP 200) 기준으로 우리 UA의 첫 화면 요청을 불허. 대학 홈페이지(web.kangnam.ac.kr)의 '입학처' 링크가 이 주소",
+   "url": "https://admission.kangnam.ac.kr/"
+  }
+ ],
+ "notes": []
+}

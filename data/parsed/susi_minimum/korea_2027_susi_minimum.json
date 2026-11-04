@@ -1,0 +1,183 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "korea",
+ "university_name": "고려대학교(서울)",
+ "academic_year": 2027,
+ "documents": [
+  {
+   "document_key": "korea_2027_susi_guide",
+   "document_name": "2027학년도 수시모집요강(서울캠퍼스)",
+   "institution_name": "고려대학교 입학처",
+   "source_page_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
+   "file_url": "https://oku.korea.ac.kr/attach/202610/1792973469910_0.pdf",
+   "file_sha256": "4fa083a9651b827cefd8590ad925094f9c243cd512a12fd494edda9cd8fd470e",
+   "page_count": 54,
+   "page_numbering": "evidence_pages는 PDF 쪽(1부터). 인쇄 쪽 번호와 같음",
+   "note": "파일 주소는 수시 모집요강 페이지의 iframe src(pdf 뷰어 file 인자)와 'PDF 다운로드' 버튼 window.open에 완성된 형태로 적힌 주소. 표지 '2026. 06. 25. 00:00' 판, 파일 생성 2026-10-26"
+  }
+ ],
+ "rules": [
+  {
+   "rule_id": "korea_school_rec",
+   "label": "학교추천 전체(의학과 제외)",
+   "document_key": "korea_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부교과(학교추천전형)"
+    ],
+    "unit_scope_text": "전체(의학과 제외)"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9))) <= 7 and HIST_GRD <= 4",
+   "required_areas_text": "※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "raw_text": "학교추천 / 전체(의학과 제외): 국어, 수학, 영어, 탐구 4개 영역 중 3개 영역 등급의 합이 7 이내 및 한국사 4등급 이내. ※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "evidence_pages": [
+    6,
+    12
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사회탐구와 과학탐구 중 1개 과목 반영'을 사탐·과탐 중 등급이 좋은 1과목으로 봄('상위' 문구는 원문에 없음). 직업탐구 과목은 반영하지 않음(9등급으로 계산)",
+    "응시 필수 영역·지정 과목(수학 선택과목, 사탐/과탐 구분)은 원문에 따로 없음",
+    "의학과 외 모든 모집단위에 적용(전형 전체로 연결, 의학과는 아래 규칙)"
+   ]
+  },
+  {
+   "rule_id": "korea_school_rec_med",
+   "label": "학교추천 의학과",
+   "document_key": "korea_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부교과(학교추천전형)"
+    ],
+    "department_names": [
+     "의학과"
+    ],
+    "unit_scope_text": "의학과"
+   },
+   "condition": "KOR_GRD + MATH_GRD + ENG_GRD + min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9)) <= 5 and HIST_GRD <= 4",
+   "required_areas_text": "※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "raw_text": "학교추천, 학업우수 / 의학과: 국어, 수학, 영어, 탐구 4개 영역 등급의 합이 5 이내 및 한국사 4등급 이내. ※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "evidence_pages": [
+    6,
+    12
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사회탐구와 과학탐구 중 1개 과목 반영'을 사탐·과탐 중 등급이 좋은 1과목으로 봄('상위' 문구는 원문에 없음). 직업탐구 과목은 반영하지 않음(9등급으로 계산)",
+    "응시 필수 영역·지정 과목(수학 선택과목, 사탐/과탐 구분)은 원문에 따로 없음"
+   ]
+  },
+  {
+   "rule_id": "korea_academic",
+   "label": "학업우수 전체(의학과 제외)",
+   "document_key": "korea_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부종합(학업우수전형)"
+    ],
+    "unit_scope_text": "전체(의학과 제외)"
+   },
+   "condition": "KOR_GRD + MATH_GRD + ENG_GRD + min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9)) <= 8 and HIST_GRD <= 4",
+   "required_areas_text": "※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "raw_text": "학업우수, 논술 / 전체(의학과 제외): 국어, 수학, 영어, 탐구 4개 영역 등급의 합이 8 이내 및 한국사 4등급 이내. ※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "evidence_pages": [
+    6,
+    14
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사회탐구와 과학탐구 중 1개 과목 반영'을 사탐·과탐 중 등급이 좋은 1과목으로 봄('상위' 문구는 원문에 없음). 직업탐구 과목은 반영하지 않음(9등급으로 계산)",
+    "응시 필수 영역·지정 과목(수학 선택과목, 사탐/과탐 구분)은 원문에 따로 없음",
+    "의학과 외 모든 모집단위에 적용(전형 전체로 연결, 의학과는 아래 규칙)"
+   ]
+  },
+  {
+   "rule_id": "korea_academic_med",
+   "label": "학업우수 의학과",
+   "document_key": "korea_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부종합(학업우수전형)"
+    ],
+    "department_names": [
+     "의학과"
+    ],
+    "unit_scope_text": "의학과"
+   },
+   "condition": "KOR_GRD + MATH_GRD + ENG_GRD + min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9)) <= 5 and HIST_GRD <= 4",
+   "required_areas_text": "※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "raw_text": "학교추천, 학업우수 / 의학과: 국어, 수학, 영어, 탐구 4개 영역 등급의 합이 5 이내 및 한국사 4등급 이내. ※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "evidence_pages": [
+    6,
+    14
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사회탐구와 과학탐구 중 1개 과목 반영'을 사탐·과탐 중 등급이 좋은 1과목으로 봄('상위' 문구는 원문에 없음). 직업탐구 과목은 반영하지 않음(9등급으로 계산)",
+    "응시 필수 영역·지정 과목(수학 선택과목, 사탐/과탐 구분)은 원문에 따로 없음"
+   ]
+  },
+  {
+   "rule_id": "korea_nonsul",
+   "label": "논술 전체(의학과 제외)",
+   "document_key": "korea_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "논술(논술전형)"
+    ],
+    "unit_scope_text": "전체(의학과 제외)"
+   },
+   "condition": "KOR_GRD + MATH_GRD + ENG_GRD + min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9)) <= 8 and HIST_GRD <= 4",
+   "required_areas_text": "※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "raw_text": "학업우수, 논술 / 전체(의학과 제외): 국어, 수학, 영어, 탐구 4개 영역 등급의 합이 8 이내 및 한국사 4등급 이내. ※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "evidence_pages": [
+    6,
+    22
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사회탐구와 과학탐구 중 1개 과목 반영'을 사탐·과탐 중 등급이 좋은 1과목으로 봄('상위' 문구는 원문에 없음). 직업탐구 과목은 반영하지 않음(9등급으로 계산)",
+    "응시 필수 영역·지정 과목(수학 선택과목, 사탐/과탐 구분)은 원문에 따로 없음",
+    "논술전형은 의학과를 선발하지 않음(시드 모집인원 기준)"
+   ]
+  },
+  {
+   "rule_id": "korea_special_design",
+   "label": "특기자 디자인조형학부",
+   "document_key": "korea_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "실기/실적(특기자전형)"
+    ],
+    "department_names": [
+     "디자인조형학부"
+    ],
+    "unit_scope_text": "디자인조형학부"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9))) <= 8 and HIST_GRD <= 4",
+   "required_areas_text": "※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영",
+   "raw_text": "특기자 / 디자인조형학부: 국어, 수학, 영어, 탐구 4개 영역 중 3개 영역 등급의 합이 8 이내 및 한국사 4등급 이내. ※ 탐구영역은 사회탐구와 과학탐구 중 1개 과목 반영 / 3. 대학수학능력시험 최저학력기준 : 디자인조형학부만 해당 (6쪽 참고)",
+   "evidence_pages": [
+    6,
+    24
+   ],
+   "examples": [],
+   "uncertain": [
+    "'사회탐구와 과학탐구 중 1개 과목 반영'을 사탐·과탐 중 등급이 좋은 1과목으로 봄('상위' 문구는 원문에 없음). 직업탐구 과목은 반영하지 않음(9등급으로 계산)",
+    "응시 필수 영역·지정 과목(수학 선택과목, 사탐/과탐 구분)은 원문에 따로 없음"
+   ]
+  }
+ ],
+ "no_minimum": {
+  "학생부종합(계열적합전형)": "2. 대학수학능력시험 최저학력기준: 없음 (15쪽)",
+  "학생부종합(고른기회전형)": "2. 대학수학능력시험 최저학력기준: 없음 (16쪽)",
+  "학생부종합(다문화전형)": "2. 대학수학능력시험 최저학력기준: 없음 (18쪽)",
+  "학생부종합(재직자전형)": "2. 대학수학능력시험 최저학력기준: 없음 (19쪽)",
+  "학생부종합(사이버국방전형)": "2. 대학수학능력시험 최저학력기준: 없음 (21쪽)",
+  "실기/실적(특기자전형)": "3. 대학수학능력시험 최저학력기준 : 디자인조형학부만 해당 (24쪽) — 체육교육과(체능)는 미적용(3쪽 '체능 –'). 디자인조형학부는 korea_special_design 규칙"
+ },
+ "not_covered": {},
+ "notes": [
+  "세종캠퍼스 자료는 다루지 않음(서울캠퍼스 요강만)"
+ ]
+}

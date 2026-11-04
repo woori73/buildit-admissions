@@ -1,0 +1,15 @@
+{
+  "url": "https://enter.kyonggi.ac.kr/ajaxfile/CMN_SVC/FileView.do?GBN=X12&SITE_NO=2&MENU_NO=120&CONTENTS_NO=1&TYPE_CODE=C0601",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://enter.kyonggi.ac.kr/ajaxfile/CMN_SVC/FileView.do?GBN=X12&SITE_NO=2&MENU_NO=120&CONTENTS_NO=1&TYPE_CODE=C0601",
+  "content_type": "application/pdf",
+  "size": 20489829,
+  "sha256": "c025fb6e6351da97c29ee8638ebbdd1a2705759fbd70b9f2893804aa48ebf3ce",
+  "raw_path": "raw/enter.kyonggi.ac.kr/c025fb6e6351da97c29ee8638ebbdd1a.pdf",
+  "collected_at": "2026-11-04T14:30:15+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

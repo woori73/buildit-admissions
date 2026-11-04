@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.ewha.ac.kr/common/download.File.asp?strFileName=2027학년도 이화여자대학교 수시모집요강(게시용).pdf&strRealFileName=/upload/BBS0012/20260907134717D73T3V.PDF",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.ewha.ac.kr/common/download.File.asp?strFileName=2027%ED%95%99%EB%85%84%EB%8F%84%20%EC%9D%B4%ED%99%94%EC%97%AC%EC%9E%90%EB%8C%80%ED%95%99%EA%B5%90%20%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95(%EA%B2%8C%EC%8B%9C%EC%9A%A9).pdf&strRealFileName=/upload/BBS0012/20260907134717D73T3V.PDF",
+  "content_type": "file/unknown; Charset=UTF-8",
+  "size": 1805400,
+  "sha256": "7f0fa26d9d0bf39141f7e1387197bd4a9af1843873db559aef0f6b2800914e83",
+  "raw_path": "raw/admission.ewha.ac.kr/7f0fa26d9d0bf39141f7e1387197bd4a.pdf",
+  "collected_at": "2026-11-04T14:24:05+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

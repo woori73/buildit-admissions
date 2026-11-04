@@ -1,0 +1,29 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "bible",
+ "university_name": "한국성서대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "일반학생전형": "원문 미확보(gaps 참조)",
+  "교과성적우수자전형": "원문 미확보(gaps 참조)",
+  "목회자추천전형": "원문 미확보(gaps 참조)",
+  "고른기회전형": "원문 미확보(gaps 참조)",
+  "농어촌고교출신자전형(정원 외)": "원문 미확보(gaps 참조)",
+  "기초생활수급자및차상위전형(정원 외)": "원문 미확보(gaps 참조)",
+  "특수교육대상자전형(정원 외)": "원문 미확보(gaps 참조)",
+  "재외국민 및외국인(정원 외)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시모집 모집요강",
+   "reason": "입학처(ipsi.bible.ac.kr) robots.txt가 우리 UA를 막음(IpsiFetcher robots 차단, 2026-11-04 재확인). adiga.kr 사본은 쓰지 않음",
+   "url": "https://ipsi.bible.ac.kr/"
+  }
+ ],
+ "notes": [
+  "시드 요약(간호학과 2개 영역 평균 3등급 등)은 원문 근거가 아니라 규칙에 쓰지 않음"
+ ]
+}

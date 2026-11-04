@@ -1,0 +1,15 @@
+{
+  "url": "https://go.skuniv.ac.kr/?module=file&act=procFileDownload&file_srl=228910&sid=232224e4f8021af627d5546ed93f1ef2&module_srl=210030",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://go.skuniv.ac.kr/index.php?module=file&act=procFileOutput&file_srl=228910&file_key=6aeac18epViUnKyehGBlO2ClkEvMQDMB1p89d9Gb-Xj9KPPg",
+  "content_type": "application/pdf",
+  "size": 6305063,
+  "sha256": "8e285dbceee84de22f9524e6707619f86da16657a7089e16acdda8c7b51f3a55",
+  "raw_path": "raw/go.skuniv.ac.kr/8e285dbceee84de22f9524e6707619f8.pdf",
+  "collected_at": "2026-11-04T14:24:35+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

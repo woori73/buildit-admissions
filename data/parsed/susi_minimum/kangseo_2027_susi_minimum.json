@@ -1,0 +1,27 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "kangseo",
+ "university_name": "강서대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "학생부위주(교과) 일반학생전형": "원문 미확보(gaps 참조)",
+  "실기·실적위주 일반학생전형": "원문 미확보(gaps 참조)",
+  "학생부위주(교과) 교과우수자전형": "원문 미확보(gaps 참조)",
+  "학생부위주(교과) 사회통합전형": "원문 미확보(gaps 참조)",
+  "실기·실적위주 사회통합전형": "원문 미확보(gaps 참조)",
+  "학생부위주(교과) 농어촌학생전형(정원외)": "원문 미확보(gaps 참조)",
+  "학생부위주(교과) 기회균등할당제전형(정원외)": "원문 미확보(gaps 참조)",
+  "학생부위주(교과) 특수교육대상자전형(정원외)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시 모집요강(입학처)",
+   "reason": "ipsi.kangseo.ac.kr·www.kangseo.ac.kr·kangseo.ac.kr 모두 robots.txt 요청이 프록시 연결 실패(Unable to connect)로 판정불가 — IpsiFetcher가 요청하지 않음(2026-11-04 재확인). 입학처 주소를 공식 페이지에서 확인하지 못함(WebSearch로도 공식 주소 미확인)",
+   "url": "https://ipsi.kangseo.ac.kr/"
+  }
+ ],
+ "notes": []
+}

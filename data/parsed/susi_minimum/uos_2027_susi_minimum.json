@@ -1,0 +1,55 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "uos",
+ "university_name": "서울시립대학교",
+ "academic_year": 2027,
+ "documents": [
+  {
+   "document_key": "uos_2027_susi_guide",
+   "document_name": "2027학년도 수시모집 신입생 모집요강(260831)",
+   "institution_name": "서울시립대학교 입학처",
+   "source_page_url": "https://admission.uos.ac.kr/admissionNew/html/susi/info.do?menuid=2002001001000000000",
+   "file_url": "https://file.uos.ac.kr/upload/admission/2027학년도 수시모집 신입생 모집요강_260831.pdf",
+   "file_sha256": "e7c88c470663d53adad1b30a67d339a571eda8ee98e179a56e7ba132ecfc8050",
+   "page_count": 64,
+   "page_numbering": "evidence_pages는 PDF 쪽(1부터). 인쇄 쪽 번호는 PDF 쪽 - 2",
+   "note": "수시 모집요강 게시 페이지의 href·iframe src에 완성된 형태로 적힌 대학 파일 서버 주소(파일명 _260831 판)"
+  }
+ ],
+ "rules": [
+  {
+   "rule_id": "uos_gogyo",
+   "label": "학생부교과(고교추천전형) 계열 구분없음",
+   "document_key": "uos_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "고교추천전형"
+    ],
+    "unit_scope_text": "구분없음(전 모집단위)"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9))) <= 8 and HIST_GRD <= 4",
+   "required_areas_text": "국어(화법과작문, 언어와매체 중 택 1), 수학(확률과 통계, 미적분, 기하 중 택 1), 영어, 탐구(사회/과학 중 상위 1과목)",
+   "raw_text": "마. 대학수학능력시험 최저학력기준(2027학년도 대학수학능력시험) 계열 구분없음: 국어(화법과작문, 언어와매체 중 택 1), 수학(확률과 통계, 미적분, 기하 중 택 1), 영어, 탐구(사회/과학 중 상위 1과목) 중 3개 영역 등급 합이 8 이내 및 한국사 4등급 이내",
+   "evidence_pages": [
+    24,
+    12
+   ],
+   "examples": [],
+   "uncertain": [
+    "탐구는 사회·과학 과목 중 상위 1과목 등급으로 봄(직업탐구는 제외). 제2외국어/한문 대체 문구는 원문에 없어 FL_GRD는 쓰지 않음",
+    "국어·수학 선택과목 문구는 모든 선택과목을 나열한 것이라 선택과목 제한 조건은 넣지 않음"
+   ]
+  }
+ ],
+ "no_minimum": {
+  "논술전형": "사. 대학수학능력시험 최저학력기준: 없음 (22쪽). 12쪽 개요 '수능최저학력기준 없음'",
+  "학생부종합전형Ⅰ(면접형)": "라. 대학수학능력시험 최저학력기준: 없음 (25쪽)",
+  "학생부종합전형Ⅱ(서류형)": "라. 대학수학능력시험 최저학력기준: 없음 (28쪽)",
+  "기회균형전형Ⅰ": "라. 대학수학능력시험 최저학력기준: 없음 (32쪽)",
+  "사회공헌·통합전형": "라. 대학수학능력시험 최저학력기준: 없음 (37쪽)",
+  "실기전형": "사. 대학수학능력시험 최저학력기준: 없음 (41쪽)"
+ },
+ "not_covered": {},
+ "gaps": [],
+ "notes": []
+}

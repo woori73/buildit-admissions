@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.syu.ac.kr/_common/new_download_file.asp?menu=mojib&page_no=1&field=title_img",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-04T14:23:51+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: https://ipsi.syu.ac.kr/robots.txt -> HTTP 200",
+  "verification_status": "COLLECTED"
+}

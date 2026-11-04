@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.konkuk.ac.kr/enterTbc/admission/1/69/pdf/fileDownload.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.konkuk.ac.kr/enterTbc/admission/1/69/pdf/fileDownload.do",
+  "content_type": "application/x-msdownload;=;charset=UTF-8",
+  "size": 15047031,
+  "sha256": "b29ac0f99c3a8057e01bc26e9597d72de0a6c4c79fd1ec198575a309e7857d31",
+  "raw_path": "raw/admission.konkuk.ac.kr/b29ac0f99c3a8057e01bc26e9597d72d.do",
+  "collected_at": "2026-11-04T14:24:05+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

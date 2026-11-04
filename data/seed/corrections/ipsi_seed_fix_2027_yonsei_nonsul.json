@@ -1,0 +1,50 @@
+{
+ "generated_at": "2026-11-04",
+ "note": "연세대학교 2027 논술전형 수능최저 정정 — 원문(2027 서울캠퍼스 수시모집요강 PDF 7·49쪽)은 미적용. 기존 시드는 '적용(전 모집단위)'로 잘못 적혀 있었음(2028 예고 내용과 혼동).",
+ "ipsi_universities": [
+  {
+   "code": "yon",
+   "verification_status": "NORMALIZED",
+   "university_code": "YONSEI",
+   "name": "연세대학교",
+   "establishment_type": "사립",
+   "region": "서울",
+   "admission_office_url": "https://admission.yonsei.ac.kr/"
+  }
+ ],
+ "ipsi_documents": [
+  {
+   "document_key": "doc_yon_2027_susi",
+   "institution_name": "연세대학교 입학처",
+   "document_name": "연세대학교 2027학년도 수시모집 모집요강",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "file_url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
+   "applicable_academic_year": 2027,
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED",
+   "redistribution": "METADATA_PRIORITY",
+   "store_fulltext": false,
+   "note": "원문 전문은 git 미저장(data/raw). 구조화 행만 저장."
+  }
+ ],
+ "ipsi_admission_types": [
+  {
+   "university_code": "YONSEI",
+   "academic_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "논술전형",
+   "type_category": "논술전형",
+   "recruitment_count": 272,
+   "eligibility": "고졸(예정) 등(요강)",
+   "student_record_method": "논술 100(PDF 49쪽 '논술시험 성적순으로 합격자를 선발함')",
+   "min_academic_standard": "미적용(2027 수시모집요강 PDF 49쪽 '수능최저학력기준: 적용하지 않음', 7쪽 적용 여부 표 '미적용: 논술전형')",
+   "source_document_key": "doc_yon_2027_susi",
+   "source_url": "https://admission.yonsei.ac.kr/seoul/admission/html/rolling/guide.asp",
+   "institution_name": "연세대학교 입학처",
+   "published_at": "2026-05-29",
+   "collected_at": "2026-10-13T15:34:16+09:00",
+   "verification_status": "NORMALIZED"
+  }
+ ]
+}

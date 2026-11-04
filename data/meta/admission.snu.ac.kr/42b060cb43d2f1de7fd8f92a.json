@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.snu.ac.kr/materials/guides/guides?md=v&bbsidx=170741",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 117568,
+  "sha256": "eae3b2be3241eff20739782d8b7ace06d97850e2f9a89c05fbd84c4514893ae5",
+  "raw_path": "raw/admission.snu.ac.kr/eae3b2be3241eff20739782d8b7ace06.html",
+  "collected_at": "2026-11-04T14:23:04+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
