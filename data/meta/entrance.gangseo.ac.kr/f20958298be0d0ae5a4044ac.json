@@ -1,0 +1,15 @@
+{
+  "url": "https://entrance.gangseo.ac.kr/kcui/homeService?menuCode=MC0806",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://entrance.gangseo.ac.kr/kcui/guideList?menuCode=MC0806&groupCode=08",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 17344,
+  "sha256": "8b48d3421cb2b5021fc508be89747dd42b2a1d12ff4e74b06e42827f6d07304d",
+  "raw_path": "raw/entrance.gangseo.ac.kr/8b48d3421cb2b5021fc508be89747dd4.html",
+  "collected_at": "2026-11-04T10:22:19+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

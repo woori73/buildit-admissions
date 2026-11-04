@@ -1,0 +1,39 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "dankook",
+ "university_name": "단국대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "DKU인재(서류형)": "원문 미확보(gaps 참조)",
+  "DKU인재(면접형)": "원문 미확보(gaps 참조)",
+  "SW인재": "원문 미확보(gaps 참조)",
+  "창업인재": "원문 미확보(gaps 참조)",
+  "기회균형선발": "원문 미확보(gaps 참조)",
+  "사회적배려대상자": "원문 미확보(gaps 참조)",
+  "지역의료인재(진료권)": "원문 미확보(gaps 참조)",
+  "지역의료인재(광역권)": "원문 미확보(gaps 참조)",
+  "군사학과": "원문 미확보(gaps 참조)",
+  "교육기회배려자(정원외)": "원문 미확보(gaps 참조)",
+  "농어촌학생(정원외)": "원문 미확보(gaps 참조)",
+  "특수교육대상자(정원외)": "원문 미확보(gaps 참조)",
+  "지역균형선발": "원문 미확보(gaps 참조)",
+  "학생부교과우수자": "원문 미확보(gaps 참조)",
+  "지역메디바이오인재": "원문 미확보(gaps 참조)",
+  "논술우수자": "원문 미확보(gaps 참조)",
+  "실기우수자": "원문 미확보(gaps 참조)",
+  "체육특기자": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시 모집요강",
+   "reason": "입학처(ipsi.dankook.ac.kr) robots.txt가 우리 UA 전체 차단(User-agent: * / Disallow: /, 검색엔진만 허용, https·http 모두)",
+   "url": "https://ipsi.dankook.ac.kr/"
+  }
+ ],
+ "notes": [
+  "시드 min_academic_standard 요약은 원문 근거가 아니어서 규칙으로 옮기지 않음"
+ ]
+}

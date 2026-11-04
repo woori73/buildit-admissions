@@ -1,0 +1,15 @@
+{
+  "url": "http://ipsi.hknu.ac.kr/upload_data/mojib/20260623192023_0.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "http://ipsi.hknu.ac.kr/upload_data/mojib/20260623192023_0.pdf",
+  "content_type": "application/pdf",
+  "size": 28156714,
+  "sha256": "456596a9c7e28a413ad93609caf022a0cec92d0f63d7a44447794c2de21ce1c0",
+  "raw_path": "raw/ipsi.hknu.ac.kr/456596a9c7e28a413ad93609caf022a0.pdf",
+  "collected_at": "2026-11-04T14:33:31+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

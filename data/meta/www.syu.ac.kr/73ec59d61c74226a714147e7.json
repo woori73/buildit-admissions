@@ -1,0 +1,15 @@
+{
+  "url": "https://www.syu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.syu.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 287796,
+  "sha256": "ae0f7893006515d6c92d544bc35716da1a28ac735ebe26d094b03a133ece0177",
+  "raw_path": "raw/www.syu.ac.kr/ae0f7893006515d6c92d544bc35716da.html",
+  "collected_at": "2026-11-04T10:20:58+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

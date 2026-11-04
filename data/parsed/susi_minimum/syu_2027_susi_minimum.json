@@ -1,0 +1,36 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "syu",
+ "university_name": "삼육대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "gaps": [
+  {
+   "item": "2027학년도 수시모집 모집요강 PDF",
+   "reason": "입학처 수시 모집요강 페이지(robots 허용)에 적힌 파일 주소 /upload_data/mojib/RF(0)_260828113341.pdf(크게보기·PDF 뷰어 iframe)와 /_common/new_download_file.asp?menu=mojib&page_no=1&field=title_img(PDF 다운)가 모두 robots.txt에서 우리 UA에 불허(2026-11-04 IpsiFetcher 확인). 다른 경로는 시도하지 않음",
+   "url": "https://ipsi.syu.ac.kr/upload_data/mojib/RF(0)_260828113341.pdf"
+  }
+ ],
+ "not_covered": {
+  "학교장추천전형": "원문 미확보(gaps 참조)",
+  "세움인재전형": "원문 미확보(gaps 참조)",
+  "기회균형Ⅰ전형": "원문 미확보(gaps 참조)",
+  "논술우수자전형": "원문 미확보(gaps 참조)",
+  "S/W인재전형": "원문 미확보(gaps 참조)",
+  "신학특별전형": "원문 미확보(gaps 참조)",
+  "재림교회목회자추천전형": "원문 미확보(gaps 참조)",
+  "실기우수자전형": "원문 미확보(gaps 참조)",
+  "예체능인재전형": "원문 미확보(gaps 참조)",
+  "농어촌전형(정원외)": "원문 미확보(gaps 참조)",
+  "특성화고교전형(정원외)": "원문 미확보(gaps 참조)",
+  "특성화고졸재직자전형(정원외)": "원문 미확보(gaps 참조)",
+  "서해5도전형(정원외)": "원문 미확보(gaps 참조)",
+  "기회균형Ⅱ전형(정원외)": "원문 미확보(gaps 참조)",
+  "특수교육대상자전형(정원외)": "원문 미확보(gaps 참조)"
+ },
+ "notes": [
+  "게시 페이지: https://ipsi.syu.ac.kr/2016_syu/pages/index.asp?p=8&mj=01 (수시모집 > 모집요강)"
+ ]
+}

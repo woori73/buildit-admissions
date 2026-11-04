@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.syu.ac.kr/2016_syu/ebook/mojib/01/index.html",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.syu.ac.kr/2016_syu/ebook/mojib/01/index.html",
+  "content_type": "text/html",
+  "size": 2091,
+  "sha256": "d11f25af78338444352f3c85161d2a558c96b705c0fc1cbdcb19b4558ca53017",
+  "raw_path": "raw/ipsi.syu.ac.kr/d11f25af78338444352f3c85161d2a55.html",
+  "collected_at": "2026-11-04T14:23:51+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

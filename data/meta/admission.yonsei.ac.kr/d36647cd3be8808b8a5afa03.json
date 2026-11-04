@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.yonsei.ac.kr/seoul/admission/html/regular/guide.asp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.yonsei.ac.kr/seoul/admission/html/regular/guide.asp",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 26338,
+  "sha256": "55356a1d54180c81271e601b7e1fc180f8be7929ddaa19f0ad6027c99040c168",
+  "raw_path": "raw/admission.yonsei.ac.kr/55356a1d54180c81271e601b7e1fc180.html",
+  "collected_at": "2026-11-04T14:25:48+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

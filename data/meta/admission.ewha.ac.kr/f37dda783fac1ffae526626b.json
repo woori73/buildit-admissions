@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.ewha.ac.kr/upload/GUIDES/20260901162227VPFXS9.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.ewha.ac.kr/upload/GUIDES/20260901162227VPFXS9.pdf",
+  "content_type": "application/pdf",
+  "size": 2636598,
+  "sha256": "b00b851d9b9bb7e75f7bcacd0a333c6e303ba882419f5ad9a244887a6a3773c2",
+  "raw_path": "raw/admission.ewha.ac.kr/b00b851d9b9bb7e75f7bcacd0a333c6e.pdf",
+  "collected_at": "2026-11-04T10:20:55+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

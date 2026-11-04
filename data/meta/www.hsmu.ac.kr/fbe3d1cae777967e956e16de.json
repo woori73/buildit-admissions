@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hsmu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hsmu.ac.kr/web/main/index.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 65217,
+  "sha256": "e6479d45dc9b82f185b1be8c475b2a96682baf60949acd105748908a570e1901",
+  "raw_path": "raw/www.hsmu.ac.kr/e6479d45dc9b82f185b1be8c475b2a96.html",
+  "collected_at": "2026-11-04T14:30:46+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

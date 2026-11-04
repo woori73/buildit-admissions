@@ -1,0 +1,15 @@
+{
+  "url": "https://www.knsu.ac.kr/ipsi/regular/application.do?mode=view&articleNo=56195&article.offset=0&articleLimit=10",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.knsu.ac.kr/ipsi/regular/application.do?mode=view&articleNo=56195&article.offset=0&articleLimit=10",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 52925,
+  "sha256": "68fdbab4c397c29be076fb02b96e84975a5303c5bae30a756157d3bb461d7481",
+  "raw_path": "raw/www.knsu.ac.kr/68fdbab4c397c29be076fb02b96e8497.html",
+  "collected_at": "2026-11-04T10:20:29+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

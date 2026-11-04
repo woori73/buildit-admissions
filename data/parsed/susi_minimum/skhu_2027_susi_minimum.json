@@ -1,0 +1,30 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "skhu",
+ "university_name": "성공회대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "학생부종합(열린인재전형)": "원문 미확보(gaps 참조)",
+  "학생부종합(대안학교출신자전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(교과성적전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(사회기여자 및 배려대상자전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(국가보훈대상자전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(특성화고교교과성적전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(기회균형선발전형)(정원외)": "원문 미확보(gaps 참조)",
+  "학생부교과(농어촌학생전형)(정원외)": "원문 미확보(gaps 참조)",
+  "학생부교과(특성화고교졸업자전형)(정원외)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시 모집요강(입학처)",
+   "reason": "입학처 enter.skhu.ac.kr의 robots.txt 요청이 연결 끊김(connection reset)으로 robots 판정불가 — IpsiFetcher가 요청하지 않음(2026-11-04 재확인). ipsi.skhu.ac.kr도 같은 연결 끊김",
+   "url": "https://enter.skhu.ac.kr/enter/index.do"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 대학 본 홈페이지(https://www.skhu.ac.kr/index.jsp)의 링크에서 확인함"
+ ]
+}

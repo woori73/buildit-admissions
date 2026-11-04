@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.yonsei.ac.kr/seoul/upload/guide/20260529204109T8NZNJ.PDF",
+  "content_type": "application/pdf",
+  "size": 1924182,
+  "sha256": "a41b14f17a7f535f833be238629a50cda23116608f93d13bbe0dd01ba622102b",
+  "raw_path": "raw/admission.yonsei.ac.kr/a41b14f17a7f535f833be238629a50cd.pdf",
+  "collected_at": "2026-11-04T14:26:05+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

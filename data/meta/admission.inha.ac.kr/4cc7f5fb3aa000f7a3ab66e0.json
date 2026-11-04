@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.inha.ac.kr/ajaxfile/CMN_SVC/FileView.do?GBN=X12&SITE_NO=2&MENU_NO=80&CONTENTS_NO=1&TYPE_CODE=C0601",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.inha.ac.kr/ajaxfile/CMN_SVC/FileView.do?GBN=X12&SITE_NO=2&MENU_NO=80&CONTENTS_NO=1&TYPE_CODE=C0601",
+  "content_type": "application/pdf",
+  "size": 3567186,
+  "sha256": "7fae6685fabc2cf444ad07feb5bfd19caca496bfad3e0ae91b3371d9e6afd7f7",
+  "raw_path": "raw/admission.inha.ac.kr/7fae6685fabc2cf444ad07feb5bfd19c.pdf",
+  "collected_at": "2026-11-04T14:27:59+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

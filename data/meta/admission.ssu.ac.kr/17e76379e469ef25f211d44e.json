@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.ssu.ac.kr/mojip/req.asp?flag=1&page_no=1_2_2",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.ssu.ac.kr/mojip/req.asp?flag=1&page_no=1_2_2",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 48015,
+  "sha256": "c430492cae06d9d4e7007ca6e03dea9e5237bb1706d1d8cbeafa1f5fd9a577bd",
+  "raw_path": "raw/admission.ssu.ac.kr/c430492cae06d9d4e7007ca6e03dea9e.html",
+  "collected_at": "2026-11-04T14:28:05+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

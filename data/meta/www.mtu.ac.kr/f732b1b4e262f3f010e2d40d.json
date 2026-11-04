@@ -6,9 +6,9 @@
   "final_url": "https://www.mtu.ac.kr/mtu/board/list.do?mId=516",
   "content_type": "text/html;charset=UTF-8",
   "size": 204989,
-  "sha256": "4f710766f79c1f7c02959bd41cf8ad24d2cc2600303ebde489d4ad1d0b86fa60",
-  "raw_path": "raw/www.mtu.ac.kr/4f710766f79c1f7c02959bd41cf8ad24.html",
-  "collected_at": "2026-11-04T00:49:30+09:00",
+  "sha256": "a841d56f1dd624cc7cd68c19905a8ca13dad661123b70bdf057d0244bac5be33",
+  "raw_path": "raw/www.mtu.ac.kr/a841d56f1dd624cc7cd68c19905a8ca1.html",
+  "collected_at": "2026-11-04T14:32:41+09:00",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
   "error": null,
   "verification_status": "COLLECTED"

@@ -1,0 +1,15 @@
+{
+  "url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://oku.korea.ac.kr/oku/cms/FR_CON/index.do?MENU_ID=680",
+  "content_type": "text/html;charset=utf-8",
+  "size": 57780,
+  "sha256": "fec6b3ff65b1438b37325f3b93d242e5e4c4a0b1498bfb200d30e01f9e600f53",
+  "raw_path": "raw/oku.korea.ac.kr/fec6b3ff65b1438b37325f3b93d242e5.html",
+  "collected_at": "2026-11-04T14:28:01+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

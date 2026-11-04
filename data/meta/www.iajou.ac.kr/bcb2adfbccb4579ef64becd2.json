@@ -1,0 +1,15 @@
+{
+  "url": "https://www.iajou.ac.kr/_common/new_download_file.php?menu=mojib&m_no=80&field=m_pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.iajou.ac.kr/_common/new_download_file.php?menu=mojib&m_no=80&field=m_pdf",
+  "content_type": "application/octet-stream",
+  "size": 4775269,
+  "sha256": "2fbfc1522792b1b007f7daa07c6e8e0c980783b8dc0901099c5afebae5717ece",
+  "raw_path": "raw/www.iajou.ac.kr/2fbfc1522792b1b007f7daa07c6e8e0c.php",
+  "collected_at": "2026-11-04T14:23:49+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://go.skuniv.ac.kr/index.php?mid=rolling_admission_guide",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://go.skuniv.ac.kr/index.php?mid=rolling_admission_guide",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 89326,
+  "sha256": "2d4eda7b90354ac896214a610891b9eb29307c238d08f770e557d249faeca7ac",
+  "raw_path": "raw/go.skuniv.ac.kr/2d4eda7b90354ac896214a610891b9eb.html",
+  "collected_at": "2026-11-04T14:24:08+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dongduk.ac.kr/afile/fileDownloadById/26062650839sbolO",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dongduk.ac.kr/afile/fileDownloadById/26062650839sbolO",
+  "content_type": "application/octet-stream;;charset=EUC-KR",
+  "size": 278528,
+  "sha256": "c4eb0d1b1203a2b132615fdadd3f8c9cd28e24f1b0312aab3f511dad87bbca7b",
+  "raw_path": "raw/ipsi.dongduk.ac.kr/c4eb0d1b1203a2b132615fdadd3f8c9c.bin",
+  "collected_at": "2026-11-04T14:26:10+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

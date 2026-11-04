@@ -1,0 +1,30 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "tukorea",
+ "university_name": "한국공학대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "논술(논술우수자)": "원문 미확보(gaps 참조)",
+  "학생부교과(교과우수자)": "원문 미확보(gaps 참조)",
+  "학생부교과(지역균형)": "원문 미확보(gaps 참조)",
+  "학생부종합(기회균형)": "원문 미확보(gaps 참조)",
+  "학생부종합(융합인재)": "원문 미확보(gaps 참조)",
+  "학생부종합(창의인재)": "원문 미확보(gaps 참조)",
+  "학생부교과(특성화고교졸업자) [정원외]": "원문 미확보(gaps 참조)",
+  "학생부종합(특성화고졸재직자) [정원외]": "원문 미확보(gaps 참조)",
+  "학생부종합(조기취업형계약학과) [정원외]": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시 모집요강",
+   "reason": "입학처(iphak.tukorea.ac.kr) robots.txt가 우리 UA 전체 차단(User-agent: * / Disallow: /, 검색엔진만 허용, https·http 모두) — 대학 홈페이지(www.tukorea.ac.kr) '학부 입학안내'가 이 주소로 연결됨. ipsi.tukorea.ac.kr 은 넥사크로 업무 화면(/nx)이라 모집요강 게시 페이지가 아님",
+   "url": "https://iphak.tukorea.ac.kr/"
+  }
+ ],
+ "notes": [
+  "시드 min_academic_standard 요약은 원문 근거가 아니어서 규칙으로 옮기지 않음"
+ ]
+}

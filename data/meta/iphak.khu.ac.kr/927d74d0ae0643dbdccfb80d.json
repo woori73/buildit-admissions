@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.khu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.khu.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 1297,
+  "sha256": "d70945bfc4e2317b8b4285b108ebdafd69b07c934d34bfbd70aad17bc7518f73",
+  "raw_path": "raw/iphak.khu.ac.kr/d70945bfc4e2317b8b4285b108ebdafd.html",
+  "collected_at": "2026-11-04T14:29:27+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

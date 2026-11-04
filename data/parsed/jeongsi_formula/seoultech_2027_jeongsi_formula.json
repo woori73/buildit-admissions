@@ -1,0 +1,28 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "seoultech",
+ "university_name": "서울과학기술대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 수능위주(일반전형) 수능100%(가군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 수능위주(일반전형) 수능100%(나군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 수능위주(일반전형) 수능+실기(나군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 수능위주(일반전형) 수능100%(다군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 수능위주(농어촌학생전형)(가·나·다군)(정원외)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 학생부교과(특성화고졸재직자전형)(다군)(정원외)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 학생부종합(평생학습자전형)(다군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 학생부종합(특수교육대상자전형)(다군)(정원외)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 정시 신입생 모집요강",
+   "reason": "입학처 사이트의 robots.txt가 'User-agent: * / Disallow: /'로 전체 차단 — 모집요강 게시 페이지·파일에 접근하지 않음",
+   "url": "https://admission.seoultech.ac.kr/"
+  }
+ ],
+ "notes": [
+  "adiga.kr 사본과 외부 CDN·언론 사본은 규칙상 쓰지 않음. 입학처 robots.txt가 허용하면 다시 수집할 것"
+ ]
+}

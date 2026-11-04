@@ -1,0 +1,26 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "sogang",
+ "university_name": "서강대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 수능(일반)(나군)": "원문 미확보 — 대학 입학처 사이트에서 2027 정시 모집요강을 받지 못함(gaps 참고)",
+  "정시 수능(일반)(다군)": "원문 미확보 — 대학 입학처 사이트에서 2027 정시 모집요강을 받지 못함(gaps 참고)",
+  "정시 수능(농어촌학생)(나군)": "원문 미확보 — 대학 입학처 사이트에서 2027 정시 모집요강을 받지 못함(gaps 참고)",
+  "정시 수능(기초생활보장대상자)(나군)": "원문 미확보 — 대학 입학처 사이트에서 2027 정시 모집요강을 받지 못함(gaps 참고)",
+  "정시 수능(장애인대상자)(나군)": "원문 미확보 — 대학 입학처 사이트에서 2027 정시 모집요강을 받지 못함(gaps 참고)",
+  "정시 수능(특성화고교졸업자)(나군)": "원문 미확보 — 대학 입학처 사이트에서 2027 정시 모집요강을 받지 못함(gaps 참고)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 서강대학교 정시 모집요강 원문",
+   "reason": "입학처(admission.sogang.ac.kr) robots.txt 판정불가 — robots.txt 요청이 TLS 인증서 검증 실패(CERTIFICATE_VERIFY_FAILED: unable to get local issuer certificate)로 끝나 IpsiFetcher가 요청을 거부함(2026-11-04). www.sogang.ac.kr도 같은 오류(이전 수집 기록). 2027 정시 자료(univ_sample)의 원문 출처는 adiga.kr라 사용하지 않음",
+   "url": "https://admission.sogang.ac.kr/"
+  }
+ ],
+ "notes": [
+  "외부 사본(negagea.net 등)은 규칙상 쓰지 않음"
+ ]
+}

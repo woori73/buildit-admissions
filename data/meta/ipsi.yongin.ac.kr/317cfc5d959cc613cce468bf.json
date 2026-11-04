@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.yongin.ac.kr/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.yongin.ac.kr/index.do",
+  "content_type": "text/html;charset=utf-8",
+  "size": 73423,
+  "sha256": "4bd75214b9067dc4395b27df4de20e1536f2a83f895ecfc4f9f78133bb070875",
+  "raw_path": "raw/ipsi.yongin.ac.kr/4bd75214b9067dc4395b27df4de20e15.html",
+  "collected_at": "2026-11-04T14:24:20+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

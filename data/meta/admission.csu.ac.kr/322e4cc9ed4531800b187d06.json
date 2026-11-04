@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.csu.ac.kr",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.csu.ac.kr/",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 14690,
+  "sha256": "188a6932d2c34f183525910cd8269eba129d45cf872d49d23789f7096d42fcc1",
+  "raw_path": "raw/admission.csu.ac.kr/188a6932d2c34f183525910cd8269eba.html",
+  "collected_at": "2026-11-04T10:22:09+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

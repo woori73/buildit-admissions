@@ -1,0 +1,126 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "sejong",
+ "university_name": "세종대학교",
+ "academic_year": 2027,
+ "documents": [
+  {
+   "document_key": "sejong_2027_susi_guide",
+   "document_name": "2027학년도 세종대학교 수시모집요강",
+   "institution_name": "세종대학교 입학처",
+   "source_page_url": "https://ipsi.sejong.ac.kr/ipsi/early/recruitment-guidelines.do",
+   "file_url": "https://ipsi.sejong.ac.kr/cms/etcResourceDown.do?site=$cms$JYBwzsQ&key=$cms$MoUwVg9gdg5g+gVSgSwG4gE4GdkBcCecAogIYYA2hAggCYC2yWO0cA4gK7I0jnJQhY4AJgAMQgOwA6AA40AZkA",
+   "file_sha256": "26b549486387221cd032fbbc0a78a4501ea15a2c4533dd88602a5ba06fe16cbe",
+   "page_count": 104,
+   "page_numbering": "evidence_pages는 PDF 쪽(1부터, 인쇄 쪽 번호와 같음)",
+   "note": "수시 모집요강 페이지(2027학년도 탭)의 'PDF 다운받기' href(PDF 작성 2026-06-09). 수시 공지사항 '2027학년도 수시모집 모집요강 공지' 첨부는 20260529(공지용) 판으로 이보다 앞선 판이라 쓰지 않음"
+  }
+ ],
+ "rules": [
+  {
+   "rule_id": "sejong_kyogwa_free",
+   "label": "학생부교과(지역균형 전형) 자유전공학부",
+   "document_key": "sejong_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부교과(지역균형 전형)"
+    ],
+    "department_names": [
+     "자유전공학부"
+    ],
+    "unit_scope_text": "자유전공학부"
+   },
+   "condition": "low_sum(2, KOR_GRD, MATH_GRD, ENG_GRD, min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9))) <= 5",
+   "raw_text": "자유전공학부: 국어, 수학, 영어, 탐구(사회/과학 중 1과목) 중 2개 영역 등급의 합이 5 이내",
+   "evidence_pages": [
+    36
+   ],
+   "examples": [],
+   "uncertain": [
+    "'탐구(사회/과학 중 1과목)'을 사회·과학탐구 응시 과목 중 상위 1과목 등급으로 계산함(상위 과목 반영인지 원문에 따로 적혀 있지 않음, 사회·과학이 아닌 과목은 반영하지 않음)",
+    "한국사 기준·필수 응시 영역은 원문에 없음"
+   ]
+  },
+  {
+   "rule_id": "sejong_kyogwa_general",
+   "label": "학생부교과(지역균형 전형) 인문/자연계열",
+   "document_key": "sejong_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부교과(지역균형 전형)"
+    ],
+    "unit_scope_text": "인문/자연계열"
+   },
+   "condition": "low_sum(2, KOR_GRD, MATH_GRD, ENG_GRD, min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9))) <= 6",
+   "raw_text": "인문/자연계열: 국어, 수학, 영어, 탐구(사회/과학 중 1과목) 중 2개 영역 등급의 합이 6 이내",
+   "evidence_pages": [
+    36
+   ],
+   "examples": [],
+   "uncertain": [
+    "'탐구(사회/과학 중 1과목)'을 사회·과학탐구 응시 과목 중 상위 1과목 등급으로 계산함(상위 과목 반영인지 원문에 따로 적혀 있지 않음, 사회·과학이 아닌 과목은 반영하지 않음)",
+    "한국사 기준·필수 응시 영역은 원문에 없음",
+    "자유전공학부 외 모든 모집단위(36쪽 인문·자연 모집단위)에 적용(department_names 없이 전형 전체로 연결, 자유전공학부는 위 규칙)"
+   ]
+  },
+  {
+   "rule_id": "sejong_nonsul",
+   "label": "논술(논술우수자 전형) 자유전공학부·인문/자연계열",
+   "document_key": "sejong_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "논술(논술우수자 전형)"
+    ],
+    "unit_scope_text": "자유전공학부, 인문/자연계열"
+   },
+   "condition": "low_sum(2, KOR_GRD, MATH_GRD, ENG_GRD, min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9))) <= 5",
+   "raw_text": "자유전공학부, 인문/자연계열: 국어, 수학, 영어, 탐구(사회/과학 중 1과목) 중 2개 영역 등급의 합이 5 이내",
+   "evidence_pages": [
+    53
+   ],
+   "examples": [],
+   "uncertain": [
+    "'탐구(사회/과학 중 1과목)'을 사회·과학탐구 응시 과목 중 상위 1과목 등급으로 계산함(상위 과목 반영인지 원문에 따로 적혀 있지 않음, 사회·과학이 아닌 과목은 반영하지 않음)",
+    "한국사 기준·필수 응시 영역은 원문에 없음"
+   ]
+  },
+  {
+   "rule_id": "sejong_airforce",
+   "label": "학생부교과(항공시스템공학 특별전형 - 공군) 우주항공시스템공학부 항공시스템공학전공",
+   "document_key": "sejong_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부교과(항공시스템공학 특별전형)(정원외)"
+    ],
+    "unit_scope_text": "우주항공시스템공학부 항공시스템공학전공"
+   },
+   "condition": "low_sum(3, KOR_GRD, MATH_GRD, ENG_GRD, min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9))) <= 10",
+   "raw_text": "바. 수능 최저학력기준 : 국어, 수학, 영어, 탐구(사회/과학 중 1과목) 중 3개 영역 등급의 합 10 이내",
+   "evidence_pages": [
+    56
+   ],
+   "examples": [],
+   "uncertain": [
+    "'탐구(사회/과학 중 1과목)'을 사회·과학탐구 응시 과목 중 상위 1과목 등급으로 계산함(상위 과목 반영인지 원문에 따로 적혀 있지 않음, 사회·과학이 아닌 과목은 반영하지 않음)",
+    "한국사 기준·필수 응시 영역은 원문에 없음"
+   ]
+  }
+ ],
+ "no_minimum": {
+  "학생부종합(세종인재 전형(면접형))": "나. 수능 최저학력기준 : 없음 (38쪽)",
+  "학생부종합(세종인재 전형(서류형))": "나. 수능 최저학력기준 : 없음 (40쪽)",
+  "학생부종합(기회균형 전형)": "나. 수능 최저학력기준 : 없음 (42쪽)",
+  "학생부종합(사회기여 및 배려자 전형)": "나. 수능 최저학력기준 : 없음 (43쪽)",
+  "학생부종합(서해5도학생 특별전형)(정원외)": "나. 수능 최저학력기준 : 없음 (44쪽)",
+  "학생부종합(특성화고교졸 재직자 특별전형)(정원외)": "나. 수능 최저학력기준 : 없음 (45쪽)",
+  "학생부종합(사이버국방 특별전형)(정원외)": "마. 수능 최저학력기준 : 없음 (65쪽)",
+  "학생부종합(국방AI융합시스템공학 특별전형)(정원외)": "마. 수능 최저학력기준 : 없음 (69쪽)",
+  "학생부종합(국방AI로봇융합공학 특별전형)(정원외)": "마. 수능 최저학력기준 : 없음 (74쪽)",
+  "실기/실적(실기우수자 전형)": "나. 수능 최저학력기준 : 없음 (80쪽)",
+  "실기/실적(예체능특기자 전형)": "나. 수능 최저학력기준 : 없음 (85쪽)"
+ },
+ "not_covered": {},
+ "notes": [
+  "항공시스템공학 특별전형은 공군 계약학과로 모집단위가 우주항공시스템공학부 항공시스템공학전공 하나뿐이라 전형 전체로 연결"
+ ]
+}

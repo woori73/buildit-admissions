@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.sejong.ac.kr/ipsi/early/notice.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.sejong.ac.kr/ipsi/early/notice.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 85036,
+  "sha256": "a8385037e74da5e8066937604cb59aba1ec8132e529d74540b588c55aaf21610",
+  "raw_path": "raw/ipsi.sejong.ac.kr/a8385037e74da5e8066937604cb59aba.html",
+  "collected_at": "2026-11-04T14:29:55+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

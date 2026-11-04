@@ -1,0 +1,15 @@
+{
+  "url": "https://www.inu.ac.kr:443/inu/index.do",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": "https://portal.inu.ac.kr:444/enpass/login?gateway=client&epAppId=ICUCommon&service=https://www.inu.ac.kr/inu/index.do",
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-04T14:29:29+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "redirect to robots-disallowed URL: https://portal.inu.ac.kr:444/enpass/login?gateway=client&epAppId=ICUCommon&service=https://www.inu.ac.kr/inu/index.do (https://portal.inu.ac.kr:444/robots.txt -> ERROR ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+  "verification_status": "COLLECTED"
+}

@@ -6,9 +6,9 @@
   "final_url": "https://www.hansung.ac.kr/hansung/index.do",
   "content_type": "text/html; charset=UTF-8",
   "size": 147589,
-  "sha256": "406068871be6e8a24d9911698c43beaa100de06923f705b15af894040a6aee68",
-  "raw_path": "raw/www.hansung.ac.kr/406068871be6e8a24d9911698c43beaa.html",
-  "collected_at": "2026-11-04T01:05:05+09:00",
+  "sha256": "9882b7fd6a4cbe03c912f1ef6eb989c7ececc928a7d2c270e99e63e7e50f2404",
+  "raw_path": "raw/www.hansung.ac.kr/9882b7fd6a4cbe03c912f1ef6eb989c7.html",
+  "collected_at": "2026-11-04T10:17:46+09:00",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
   "error": null,
   "verification_status": "COLLECTED"

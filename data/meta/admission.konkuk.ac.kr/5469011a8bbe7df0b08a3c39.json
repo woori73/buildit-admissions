@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.konkuk.ac.kr/bbs/admission/6282/1204956/artclView.do?layout=unknown",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.konkuk.ac.kr/admission/37897/subview.do;jsessionid=03328D7B713C7345462B305643B14B70?enc=Zm5jdDF8QEB8JTJGYmJzJTJGYWRtaXNzaW9uJTJGNjI4MiUyRjEyMDQ5NTYlMkZhcnRjbFZpZXcuZG8lM0Y%3D",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 62895,
+  "sha256": "56767b66f74e1cc52c74d0adb4591e6e1d89bd60c34521016b433e151200e480",
+  "raw_path": "raw/admission.konkuk.ac.kr/56767b66f74e1cc52c74d0adb4591e6e.html",
+  "collected_at": "2026-11-04T10:17:26+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

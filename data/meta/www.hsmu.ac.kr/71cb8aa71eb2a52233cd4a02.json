@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hsmu.ac.kr/afile/fileDownload/ZWU0ODZiNzU4NTM5YzI0ZGQ0MDgwZjZhNjM0NWUxN2U=",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hsmu.ac.kr/afile/fileDownload/ZWU0ODZiNzU4NTM5YzI0ZGQ0MDgwZjZhNjM0NWUxN2U=",
+  "content_type": "application/octet-stream",
+  "size": 400732,
+  "sha256": "d01230bb5bcca55b03aefcd38c1af398ed52e2311f091cce8adf767be9afc156",
+  "raw_path": "raw/www.hsmu.ac.kr/d01230bb5bcca55b03aefcd38c1af398.bin",
+  "collected_at": "2026-11-04T14:31:46+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

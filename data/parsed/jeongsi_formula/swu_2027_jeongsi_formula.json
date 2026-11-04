@@ -1,0 +1,23 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "swu",
+ "university_name": "서울여자대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 수능(일반학생전형)(가군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 수능(일반학생전형)(나군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 수능(일반학생전형)(다군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 정시 모집요강 원문(입학처)",
+   "reason": "입학처 robots.txt가 모든 UA에 'Disallow: /' — IpsiFetcher가 요청을 거부함. 입학처 주소는 www.swu.ac.kr/swu/547/subview.do의 '대학' 입학정보 링크에서 확인",
+   "url": "https://admission.swu.ac.kr/main.php"
+  }
+ ],
+ "notes": [
+  "adiga.kr·외부 사본은 규칙상 쓰지 않음. 입학처 robots가 허용되면 다시 받아 계산식을 채울 것"
+ ]
+}
