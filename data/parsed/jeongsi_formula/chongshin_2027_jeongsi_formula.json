@@ -1,0 +1,23 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "chongshin",
+ "university_name": "총신대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 CS인재(가군)": "원문 미수집(gaps 참조: 입학처 모집요강 링크가 JS로만 제공) — 계산식 작성 못 함",
+  "정시 CS인재(다군)": "원문 미수집(gaps 참조: 입학처 모집요강 링크가 JS로만 제공) — 계산식 작성 못 함"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 정시모집 모집요강 원문(총신대학교 입학정보 사이트)",
+   "reason": "입학정보 사이트 HTML에 정시모집 > 모집요강 메뉴(menu_id 2849)가 JS 메뉴 데이터로만 있고 게시물·파일 링크(href)가 HTML에 없음(목록·첨부는 JS API로 불러옴). 주소를 조립하지 않고 중단",
+   "url": "https://admission.csu.ac.kr/"
+  }
+ ],
+ "notes": [
+  "입학정보 사이트 주소 admission.csu.ac.kr는 www.chongshin.ac.kr → www.csu.ac.kr/gate 첫 화면 스크립트(gate.js)에 그대로 적힌 이동 주소(Lia.redirect('https://admission.csu.ac.kr'))로 찾음",
+  "2027 정시 자료(univ_sample)의 원문 출처는 adiga 사본이라 이 작업 규칙상 쓰지 않음"
+ ]
+}

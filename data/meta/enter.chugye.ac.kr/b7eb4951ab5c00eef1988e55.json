@@ -1,0 +1,15 @@
+{
+  "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=114&dataSeq=218",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=114&dataSeq=218",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 39323,
+  "sha256": "e6516dfc13c9e1579342ca86e24366b8365fcff438becfd97f4d1410dc46a92b",
+  "raw_path": "raw/enter.chugye.ac.kr/e6516dfc13c9e1579342ca86e24366b8.html",
+  "collected_at": "2026-11-04T10:21:54+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

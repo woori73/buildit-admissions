@@ -1,0 +1,26 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "smu",
+ "university_name": "상명대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 수능(수능전형)(나군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 학생부종합(특성화고졸재직자전형)(정원 내)(나군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 실기/실적(실기전형)(나군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 수능(농어촌학생전형)(정원 외)(나군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 수능(특성화고교졸업자전형)(정원 외)(나군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조",
+  "정시 학생부종합(특성화고졸재직자전형)(정원 외)(나군)": "원문 미수집(입학처 사이트가 robots.txt로 전체 차단) — gaps 참조"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 정시모집요강 [서울캠퍼스]",
+   "reason": "대학 홈페이지(www.smu.ac.kr)의 '대학 입학' 링크가 가리키는 입학처 사이트의 robots.txt가 'User-agent: * / Disallow: /'로 전체 차단 — 모집요강 게시 페이지·파일에 접근하지 않음",
+   "url": "https://admission.smu.ac.kr/"
+  }
+ ],
+ "notes": [
+  "adiga.kr 사본과 외부 CDN·언론 사본은 규칙상 쓰지 않음. 입학처 robots.txt가 허용하면 다시 수집할 것"
+ ]
+}

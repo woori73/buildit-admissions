@@ -1,0 +1,15 @@
+{
+  "url": "https://go.hanyang.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://go.hanyang.ac.kr/index.do?mtest=&reqUrl=%2F&configPdsTf=Y&s=&f=",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 113,
+  "sha256": "5639893b3c05f513543751f3720e667df5c395d10d62adc88006d3910625ac48",
+  "raw_path": "raw/go.hanyang.ac.kr/5639893b3c05f513543751f3720e667d.html",
+  "collected_at": "2026-11-04T10:17:32+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hongik.ac.kr/kr/admission",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hongik.ac.kr:443/kr/admission/index.do",
+  "content_type": "text/html; charset=utf-8",
+  "size": 224830,
+  "sha256": "be775315191e5e032fe04742cceaa71eb159cf1dd50b331c6468804fa4044f91",
+  "raw_path": "raw/www.hongik.ac.kr/be775315191e5e032fe04742cceaa71e.html",
+  "collected_at": "2026-11-04T10:16:48+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

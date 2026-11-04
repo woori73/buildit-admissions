@@ -1,0 +1,15 @@
+{
+  "url": "https://www.csu.ac.kr/res/service/page/index/gate.js?V=2026090901",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.csu.ac.kr/res/service/page/index/gate.js?V=2026090901",
+  "content_type": "text/javascript",
+  "size": 13017,
+  "sha256": "7bbb24135256726cb5d2cf00ba729d38d0167861d86753637f1ab90e1dd5a162",
+  "raw_path": "raw/www.csu.ac.kr/7bbb24135256726cb5d2cf00ba729d38.js",
+  "collected_at": "2026-11-04T10:21:58+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

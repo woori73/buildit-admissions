@@ -1,0 +1,15 @@
+{
+  "url": "https://enter.chugye.ac.kr/main.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://enter.chugye.ac.kr/main.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 35959,
+  "sha256": "8bc6de865b191769a82bc3575656d03ba97fc70f86f443b1c0f910eb652a4e26",
+  "raw_path": "raw/enter.chugye.ac.kr/8bc6de865b191769a82bc3575656d03b.html",
+  "collected_at": "2026-11-04T10:21:33+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

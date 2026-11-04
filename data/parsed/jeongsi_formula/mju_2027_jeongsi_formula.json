@@ -1,0 +1,32 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "mju",
+ "university_name": "명지대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 수능(일반전형)(가군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 수능(일반전형)(나군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 수능(일반전형)(다군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 수능(실기전형)(나군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 수능(실기전형)(다군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 수능(농어촌학생전형)(정원외)(나군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 수능(농어촌학생전형)(정원외)(다군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 수능(특성화고교전형)(정원외)(나군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 수능(특성화고교전형)(정원외)(다군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 학생부교과(만학도전형)(나군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조",
+  "정시 학생부교과(특성화고등졸재직자전형)(정원외)(나군)": "원문 미수집(입학처 PDF가 robots.txt로 차단) — gaps 참조"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 신입학 정시모집요강 PDF(인문캠퍼스)",
+   "reason": "입학처 정시 모집요강 페이지(https://iphak.mju.ac.kr/pages/?p=16&mj=02, 수집 성공)에 적힌 PDF 링크가 robots.txt(User-agent: * / Disallow: / / Allow: /main, /pages)로 막힘 — /images/mojib/ 경로와 /_common/new_download_file.php(PDF·HWP 다운로드) 모두 차단",
+   "url": "https://iphak.mju.ac.kr/images/mojib/20261030114545_51.pdf"
+  }
+ ],
+ "notes": [
+  "adiga.kr 사본과 외부 CDN·언론 사본은 규칙상 쓰지 않음. 입학처 robots.txt가 허용하면 다시 수집할 것",
+  "2027 정시 자료 범위(인문캠퍼스)의 전형명을 그대로 not_covered에 적음"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.snu.ac.kr/webdata/admission/files/2027jungsi.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.snu.ac.kr/webdata/admission/files/2027jungsi.pdf",
+  "content_type": "application/pdf",
+  "size": 2377092,
+  "sha256": "abe7ebfa09ce7f7b84f75877a9541a4908790e1f25c83680cae0236a7881285a",
+  "raw_path": "raw/admission.snu.ac.kr/abe7ebfa09ce7f7b84f75877a9541a49.pdf",
+  "collected_at": "2026-11-04T10:17:05+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

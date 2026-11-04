@@ -1,0 +1,25 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "hufs",
+ "university_name": "한국외국어대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 일반전형(가군)": "원문 미수집(gaps 참조: 입학처 robots.txt 전체 차단) — 계산식 작성 못 함",
+  "정시 일반전형(나군)": "원문 미수집(gaps 참조: 입학처 robots.txt 전체 차단) — 계산식 작성 못 함",
+  "정시 일반전형(다군)": "원문 미수집(gaps 참조: 입학처 robots.txt 전체 차단) — 계산식 작성 못 함",
+  "정시 농어촌학생 특별전형(나군)": "원문 미수집(gaps 참조: 입학처 robots.txt 전체 차단) — 계산식 작성 못 함",
+  "정시 기초생활수급자 및 차상위계층 특별전형(나군)": "원문 미수집(gaps 참조: 입학처 robots.txt 전체 차단) — 계산식 작성 못 함"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 정시모집 모집요강 원문(한국외국어대학교 입학처)",
+   "reason": "robots.txt가 우리 UA를 막음(User-agent: * / Disallow: /). 2026-11-04 IpsiFetcher 판정 BLOCK — 요청하지 않음",
+   "url": "https://adms.hufs.ac.kr/"
+  }
+ ],
+ "notes": [
+  "2027 정시 자료(univ_sample)의 원문 출처는 adiga 사본이라 이 작업 규칙상 쓰지 않음"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://go.hanyang.ac.kr/web/mojib/mojib.do?m_type=JEONGSI",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://go.hanyang.ac.kr/web/mojib/mojib.do?m_type=JEONGSI",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 25409,
+  "sha256": "31ee8da517a1ae45c286fe3f4f619d7afc66eacbd5efaba41b2a828404d1d152",
+  "raw_path": "raw/go.hanyang.ac.kr/31ee8da517a1ae45c286fe3f4f619d7a.html",
+  "collected_at": "2026-11-04T10:17:11+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

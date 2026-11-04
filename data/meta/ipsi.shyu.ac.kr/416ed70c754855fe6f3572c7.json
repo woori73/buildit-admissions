@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/mozip/2027regular_admission_guideline(2026.9.1).pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/mozip/2027regular_admission_guideline(2026.9.1).pdf",
+  "content_type": "application/pdf",
+  "size": 276007,
+  "sha256": "97d91f48583e99fd10bd51d0c559c8b9f6d7d0fdb50c0ac10f566c152e43f655",
+  "raw_path": "raw/ipsi.shyu.ac.kr/97d91f48583e99fd10bd51d0c559c8b9.pdf",
+  "collected_at": "2026-11-04T10:20:19+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
