@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hknu.ac.kr/kor/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hknu.ac.kr/kor/index.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 6587,
+  "sha256": "bb285b2a0759ee5a7ce8c7669d9127996e1bf2278820e4558e6b851ffa444357",
+  "raw_path": "raw/www.hknu.ac.kr/bb285b2a0759ee5a7ce8c7669d912799.html",
+  "collected_at": "2026-11-04T14:32:21+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

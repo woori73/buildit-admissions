@@ -1,0 +1,33 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "puts",
+ "university_name": "장로회신학대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "성경고사성적우수자(실기/실적위주)": "원문 미확보(gaps 참조)",
+  "학생부우수자(학생부위주/교과)": "원문 미확보(gaps 참조)",
+  "대안학교출신자(학생부위주/종합)": "원문 미확보(gaps 참조)",
+  "사회기여 및 배려자 (학생부위주/종합)": "원문 미확보(gaps 참조)",
+  "드림(PUTS인재)(학생부위주/종합)": "원문 미확보(gaps 참조)",
+  "일반전형 교회음악학과(실기/실적위주)": "원문 미확보(gaps 참조)",
+  "농어촌 및 도서•벽지 지역 학생(정원외)": "원문 미확보(gaps 참조)",
+  "특수교육대상자(정원외)": "원문 미확보(gaps 참조)",
+  "기회균형선발제(정원외)": "원문 미확보(gaps 참조)",
+  "재외국민과외국인(정원의2%)(정원외)": "원문 미확보(gaps 참조)",
+  "재외국민과외국인(비제한)(정원외)": "원문 미확보(gaps 참조)",
+  "북한이탈주민(정원외)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시 모집요강(대학 홈페이지)",
+   "reason": "http://www.puts.ac.kr/robots.txt -> HTTP 200, 우리 UA Disallow 판정. https://www.puts.ac.kr/robots.txt 는 SSL 핸드셰이크 실패로 판정불가. 요청하지 않음",
+   "url": "http://www.puts.ac.kr"
+  }
+ ],
+ "notes": [
+  "2026-11-04 IpsiFetcher로 다시 확인. robots 판정상 요청하지 않음. adiga.kr·외부 사본은 규칙상 쓰지 않음"
+ ]
+}

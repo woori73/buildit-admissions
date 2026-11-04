@@ -1,0 +1,15 @@
+{
+  "url": "https://www.mtu.ac.kr/mtu/file/2027_hakbu_info.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.mtu.ac.kr/mtu/file/2027_hakbu_info.pdf",
+  "content_type": "application/pdf",
+  "size": 499719,
+  "sha256": "5dd1faf8d91cacfbaebe047b6d65c62b32ee1db6d3f791ec95461ffe714dd846",
+  "raw_path": "raw/www.mtu.ac.kr/5dd1faf8d91cacfbaebe047b6d65c62b.pdf",
+  "collected_at": "2026-11-04T14:32:24+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

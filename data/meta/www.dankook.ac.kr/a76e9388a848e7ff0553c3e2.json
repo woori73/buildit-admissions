@@ -1,0 +1,15 @@
+{
+  "url": "https://www.dankook.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.dankook.ac.kr/web/kor/home",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 509050,
+  "sha256": "225d31314b3145007e87e62e55c8482acf738389144f00a6e092a73d621a95ba",
+  "raw_path": "raw/www.dankook.ac.kr/225d31314b3145007e87e62e55c8482a.html",
+  "collected_at": "2026-11-04T14:31:24+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

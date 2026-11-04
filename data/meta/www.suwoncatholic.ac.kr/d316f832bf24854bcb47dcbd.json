@@ -8,7 +8,7 @@
   "size": 0,
   "sha256": null,
   "raw_path": null,
-  "collected_at": "2026-11-04T14:30:27+09:00",
+  "collected_at": "2026-11-04T14:31:01+09:00",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
   "error": "robots.txt disallows our UA: https://www.suwoncatholic.ac.kr/robots.txt -> ERROR ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
   "verification_status": "COLLECTED"
