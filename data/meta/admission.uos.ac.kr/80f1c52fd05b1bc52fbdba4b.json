@@ -7,8 +7,8 @@
   "content_type": "text/html; charset=utf-8",
   "size": 44918,
   "sha256": "cc687404f8f457d4a38e92e78da35fe1e9c1500798f2d789cdb67377b198f8b8",
-  "raw_path": "raw/admission.uos.ac.kr/cc687404f8f457d4a38e92e78da35fe1.html",
-  "collected_at": "2026-11-04T01:05:23+09:00",
+  "raw_path": null,
+  "collected_at": "2026-11-04T10:12:26+09:00",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
   "error": null,
   "verification_status": "COLLECTED"
