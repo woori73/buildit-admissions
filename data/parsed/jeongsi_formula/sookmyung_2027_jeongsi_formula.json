@@ -1,0 +1,29 @@
+{
+ "schema": "jeongsi_formula/v1",
+ "university_key": "sookmyung",
+ "university_name": "숙명여자대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "formulas": [],
+ "not_covered": {
+  "정시 수능(일반학생전형)(가군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 실기/실적(일반학생전형)(가군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 수능(사회배려전형)(정원 외)(가군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 수능(농어촌학생전형)(정원 외)(가군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 학생부종합(특성화고교출신자전형)(정원 외)(가군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 학생부종합(특성화고졸재직자전형)(정원 외)(가군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 수능(특수교육대상자전형)(정원 외)(가군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 수능(일반학생전형)(나군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조",
+  "정시 수능(사회배려전형)(정원 외)(나군)": "원문 미확보(입학처 robots 차단/판정불가) — gaps 참조"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 정시 모집요강 원문(입학처 정시모집 페이지)",
+   "reason": "입학처 robots.txt(https://admission.sookmyung.ac.kr/robots.txt)가 HTTP 500을 돌려줘 robots 판정불가(2026-11-04 두 차례 확인) — IpsiFetcher가 요청하지 않음. 정시모집 페이지 주소는 www.sookmyung.ac.kr/kr/admission/admission-guide.do의 '정시모집' 링크에서 확인",
+   "url": "https://admission.sookmyung.ac.kr/admission/html/regular/subMain.asp"
+  }
+ ],
+ "notes": [
+  "adiga.kr·외부 사본은 규칙상 쓰지 않음. 입학처 robots가 허용되면 다시 받아 계산식을 채울 것"
+ ]
+}
