@@ -1,0 +1,30 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "chugye",
+ "university_name": "추계예술대학교",
+ "academic_year": 2027,
+ "documents": [
+  {
+   "document_key": "chugye_2027_susi_guide",
+   "document_name": "2027학년도 신입학전형 수시 모집요강",
+   "institution_name": "추계예술대학교 입학처",
+   "source_page_url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=16&dataSeq=494&categorySeq=504",
+   "file_url": "https://enter.chugye.ac.kr/file/fileDownLoad.do?seq=1740461553",
+   "file_sha256": "b7fca0492be686b2f97f998d61135a6a972903dc09adcc1bf11d358695d387f6",
+   "page_count": 30,
+   "page_numbering": "evidence_pages는 PDF 쪽(1부터). 인쇄 쪽 번호와 같음",
+   "note": "파일 주소는 수시 모집요강 페이지 'PDF 모집요강 다운로드' href에 완성된 형태로 적힌 주소. PDF 수정일 2026-09-07"
+  }
+ ],
+ "rules": [],
+ "no_minimum": {
+  "실기/실적(일반학생전형)": "※ 수시모집 모든 전형은 수능최저학력기준 미적용 (PDF 3쪽) / 전형요소별 반영비율 표 '수능최저학력기준: 없음' (PDF 9쪽)",
+  "실기/실적(수상실적특기자전형)": "※ 수시모집 모든 전형은 수능최저학력기준 미적용 (PDF 3쪽) / 전형요소별 반영비율 표 '수능최저학력기준: 없음' (PDF 12쪽)",
+  "학생부교과(미래인재전형)": "※ 수시모집 모든 전형은 수능최저학력기준 미적용 (PDF 3쪽) / 전형요소별 반영비율 표 '수능최저학력기준: 없음' (PDF 14쪽)",
+  "재외국민·외국인 특별전형(정원외)_재외국민·외국인": "재외국민·외국인 특별전형(정원 외) 전형요소별 반영비율 표 '수능최저학력기준: 없음' (PDF 17쪽)",
+  "재외국민·외국인 특별전형(정원외)_외국의 전교육과정이수자": "재외국민·외국인 특별전형(정원 외) 전형요소별 반영비율 표 '수능최저학력기준: 없음' (PDF 17쪽)",
+  "재외국민·외국인 특별전형(정원외)_북한이탈주민": "재외국민·외국인 특별전형(정원 외) 전형요소별 반영비율 표 '수능최저학력기준: 없음' (PDF 17쪽)"
+ },
+ "not_covered": {},
+ "notes": []
+}

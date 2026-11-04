@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.cha.ac.kr/wp-content/uploads/2026/07/공개-2027학년도-차의과학대학교-수시-모집요강-디자인본.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.cha.ac.kr/wp-content/uploads/2026/07/%EA%B3%B5%EA%B0%9C-2027%ED%95%99%EB%85%84%EB%8F%84-%EC%B0%A8%EC%9D%98%EA%B3%BC%ED%95%99%EB%8C%80%ED%95%99%EA%B5%90-%EC%88%98%EC%8B%9C-%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95-%EB%94%94%EC%9E%90%EC%9D%B8%EB%B3%B8.pdf",
+  "content_type": "application/pdf",
+  "size": 4922092,
+  "sha256": "09642e219d7c8b4cc76a0ea6eb6c74c559c207051e51929f3b811afe6f399bdc",
+  "raw_path": "raw/admission.cha.ac.kr/09642e219d7c8b4cc76a0ea6eb6c74c5.pdf",
+  "collected_at": "2026-11-04T14:35:16+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
