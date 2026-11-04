@@ -1,0 +1,32 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "sookmyung",
+ "university_name": "숙명여자대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "학생부종합(숙명인재(면접형)전형)": "원문 미확보(gaps 참조)",
+  "학생부종합(소프트웨어인재전형)": "원문 미확보(gaps 참조)",
+  "학생부종합(기회균형전형)": "원문 미확보(gaps 참조)",
+  "학생부교과(지역균형선발전형)": "원문 미확보(gaps 참조)",
+  "논술(논술우수자전형)": "원문 미확보(gaps 참조)",
+  "실기/실적(예능창의인재전형)": "원문 미확보(gaps 참조)",
+  "학생부종합(농어촌학생전형)(정원 외)": "원문 미확보(gaps 참조)",
+  "학생부종합(특성화고교출신자전형)(정원 외)": "원문 미확보(gaps 참조)",
+  "학생부종합(특성화고졸재직자전형)(정원 외)": "원문 미확보(gaps 참조)",
+  "학생부종합(특수교육대상자전형)(정원 외)": "원문 미확보(gaps 참조)",
+  "공무원 및 군 위탁생(정부위탁학생전형)(정원 외)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "2027학년도 수시 모집요강(입학처)",
+   "reason": "입학처 admission.sookmyung.ac.kr의 robots.txt가 HTTP 500을 돌려 robots 판정불가 — IpsiFetcher가 요청을 거부함(2026-11-04 재확인). ipsi.sookmyung.ac.kr도 robots.txt 요청이 연결 끊김(connection reset)으로 판정불가",
+   "url": "https://admission.sookmyung.ac.kr/admission/html/rolling/subMain.asp"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 대학 본 홈페이지 입학안내(https://www.sookmyung.ac.kr/kr/admission/admission-guide.do)의 '수시모집' 링크에서 확인함. 본 홈페이지에는 모집요강 파일 링크가 없음"
+ ]
+}

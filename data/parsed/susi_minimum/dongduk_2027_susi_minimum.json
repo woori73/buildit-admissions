@@ -1,0 +1,158 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "dongduk",
+ "university_name": "동덕여자대학교",
+ "academic_year": 2027,
+ "documents": [
+  {
+   "document_key": "dongduk_2027_susi_guide",
+   "document_name": "2027학년도 신입학 수시모집요강",
+   "institution_name": "동덕여자대학교 입학처",
+   "source_page_url": "https://ipsi.dongduk.ac.kr/ipsi/contents/nontime-viewer.do?gotoMenuNo=nontime-viewer",
+   "file_url": "https://ipsi.dongduk.ac.kr/afile/fileDownloadById/26062650839sbolO",
+   "file_sha256": "c4eb0d1b1203a2b132615fdadd3f8c9cd28e24f1b0312aab3f511dad87bbca7b",
+   "page_count": null,
+   "file_format": "HWP 5.0(배포용)",
+   "page_numbering": "원문이 HWP라 PDF 쪽이 없음. evidence_pages는 요강 목차에 적힌 그 전형 안내의 쪽 범위(예: 동덕창의리더전형 6~8쪽)",
+   "note": "게시 페이지 'HWP 다운로드' 버튼 onclick의 location.href에 완성된 형태로 적힌 주소. 같은 화면의 PDF 보기·다운로드는 스크립트(fn_getPdfInfo·fn_pdfDown)로만 주소가 만들어져 받지 않음. 게시 페이지 주소는 입학처 첫 화면의 window.open(완성 주소)에서 얻음. 텍스트는 pyhwp(hwp5html)로 추출"
+  }
+ ],
+ "rules": [
+  {
+   "rule_id": "dongduk_leader_pharm",
+   "label": "동덕창의리더전형 약학과",
+   "document_key": "dongduk_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "동덕창의리더전형"
+    ],
+    "department_names": [
+     "약학과"
+    ],
+    "unit_scope_text": "약학과"
+   },
+   "condition": "KOR_GRD + MATH_GRD + min(INQ1_GRD, INQ2_GRD) <= 6 and (MATH_SEL_CALC + MATH_SEL_GEOM >= 1) and INQ1_SCI == 1 and INQ2_SCI == 1",
+   "required_areas_text": "국어(선택과목 무관), 수학(미적분 또는 기하 필수), 탐구(과학탐구 2과목 필수)",
+   "raw_text": "4. 대학수학능력시험 최저학력기준 ○ 전체 모집단위(약학과 제외) : 없음 ○ 약학과 - 2027학년도 대학수학능력시험 3개 영역 [국어, 수학, 탐구(2과목 중 상위 1과목)]의 합이 6등급 이내 ※ 선택과목: 국어(선택과목 무관), 수학(미적분 또는 기하 필수), 탐구(과학탐구 2과목 필수)",
+   "evidence_pages": [
+    6,
+    7,
+    8
+   ],
+   "examples": [],
+   "uncertain": [
+    "'3개 영역의 합'이라 국어·수학·탐구 세 영역 등급을 모두 더함(영어는 반영 영역에 없음)",
+    "'수학(미적분 또는 기하 필수)', '탐구(과학탐구 2과목 필수)'를 응시 조건으로 넣음 — 미적분·기하를 응시하지 않았거나 탐구 두 과목이 모두 과학탐구가 아니면 미충족",
+    "과학Ⅱ 과목은 과학탐구(INQ*_SCI=1)로 입력된다고 봄",
+    "한국사 기준은 원문에 없어 넣지 않음"
+   ],
+   "needs_review": {
+    "reason": "원문이 HWP라 근거 쪽을 목차의 전형 안내 쪽 범위로 적음. 입학처 화면의 PDF판(스크립트로만 열림)과 같은 판인지 확인하지 못함",
+    "found_by": "susi_minimum 작성"
+   }
+  },
+  {
+   "rule_id": "dongduk_kyogwa_general",
+   "label": "학생부교과우수자 특별전형 전체 모집단위(약학과 제외)",
+   "document_key": "dongduk_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부교과우수자 특별전형"
+    ],
+    "unit_scope_text": "전체 모집단위(약학과 제외)"
+   },
+   "condition": "low_sum(2, KOR_GRD, ENG_GRD, MATH_GRD, min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9))) <= 6",
+   "required_areas_text": "국어, 영어, 수학, 탐구(상위 1과목) — 국어·수학·사회/과학탐구 선택과목 무관, 직업탐구·제2외국어/한문으로 대체 불가",
+   "raw_text": "4. 대학수학능력시험 최저학력기준 ○ 전체 모집단위(약학과 제외) - 2027학년도 대학수학능력시험 4개 영역 [국어, 영어, 수학, 탐구(상위 1과목)] 중에서 2개 영역의 합이 6등급 이내 ※ 선택과목: 국어, 수학, 사회/과학탐구 선택과목 무관(직업탐구, 제2외국어/한문으로 대체 불가)",
+   "evidence_pages": [
+    12,
+    13
+   ],
+   "examples": [],
+   "uncertain": [
+    "'직업탐구, 제2외국어/한문으로 대체 불가'를 탐구 등급은 사회·과학탐구 과목만 쓰는 것으로 옮김(직업탐구 과목 등급은 9로 봄)",
+    "과학Ⅱ 과목은 과학탐구(INQ*_SCI=1)로 입력된다고 봄",
+    "한국사 기준은 원문에 없어 넣지 않음",
+    "약학과 외 모든 모집단위에 적용(department_names 없이 전형 전체로 연결, 약학과는 아래 규칙)"
+   ],
+   "needs_review": {
+    "reason": "원문이 HWP라 근거 쪽을 목차의 전형 안내 쪽 범위로 적음. 입학처 화면의 PDF판(스크립트로만 열림)과 같은 판인지 확인하지 못함",
+    "found_by": "susi_minimum 작성"
+   }
+  },
+  {
+   "rule_id": "dongduk_kyogwa_pharm",
+   "label": "학생부교과우수자 특별전형 약학과",
+   "document_key": "dongduk_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "학생부교과우수자 특별전형"
+    ],
+    "department_names": [
+     "약학과"
+    ],
+    "unit_scope_text": "약학과"
+   },
+   "condition": "KOR_GRD + MATH_GRD + min(INQ1_GRD, INQ2_GRD) <= 6 and (MATH_SEL_CALC + MATH_SEL_GEOM >= 1) and INQ1_SCI == 1 and INQ2_SCI == 1",
+   "required_areas_text": "국어(선택과목 무관), 수학(미적분 또는 기하 필수), 탐구(과학탐구 2과목 필수)",
+   "raw_text": "4. 대학수학능력시험 최저학력기준 ○ 약학과 - 2027학년도 대학수학능력시험 3개 영역 [국어, 수학, 탐구(2과목 중 상위 1과목)]의 합이 6등급 이내 ※ 선택과목: 국어(선택과목 무관), 수학(미적분 또는 기하 필수), 탐구(과학탐구 2과목 필수)",
+   "evidence_pages": [
+    12,
+    13
+   ],
+   "examples": [],
+   "uncertain": [
+    "'3개 영역의 합'이라 국어·수학·탐구 세 영역 등급을 모두 더함(영어는 반영 영역에 없음)",
+    "'수학(미적분 또는 기하 필수)', '탐구(과학탐구 2과목 필수)'를 응시 조건으로 넣음 — 미적분·기하를 응시하지 않았거나 탐구 두 과목이 모두 과학탐구가 아니면 미충족",
+    "과학Ⅱ 과목은 과학탐구(INQ*_SCI=1)로 입력된다고 봄",
+    "한국사 기준은 원문에 없어 넣지 않음"
+   ],
+   "needs_review": {
+    "reason": "원문이 HWP라 근거 쪽을 목차의 전형 안내 쪽 범위로 적음. 입학처 화면의 PDF판(스크립트로만 열림)과 같은 판인지 확인하지 못함",
+    "found_by": "susi_minimum 작성"
+   }
+  },
+  {
+   "rule_id": "dongduk_nonsul",
+   "label": "논술우수자전형 전체 모집단위",
+   "document_key": "dongduk_2027_susi_guide",
+   "applies_to": {
+    "type_names": [
+     "논술우수자전형"
+    ],
+    "unit_scope_text": "전체 모집단위"
+   },
+   "condition": "low_sum(2, KOR_GRD, ENG_GRD, MATH_GRD, min(cond(INQ1_SOC + INQ1_SCI >= 1, INQ1_GRD, 9), cond(INQ2_SOC + INQ2_SCI >= 1, INQ2_GRD, 9))) <= 6",
+   "required_areas_text": "국어, 영어, 수학, 탐구(상위 1과목) — 국어·수학·사회/과학탐구 선택과목 무관, 직업탐구·제2외국어/한문으로 대체 불가",
+   "raw_text": "4. 대학수학능력시험 최저학력기준 ○ 전체 모집단위 - 2027학년도 대학수학능력시험 4개 영역 [국어, 영어, 수학, 탐구(상위 1과목)] 중에서 2개 영역의 합이 6등급 이내 ※ 선택과목: 국어, 수학, 사회/과학탐구 선택과목 무관(직업탐구, 제2외국어/한문으로 대체 불가)",
+   "evidence_pages": [
+    14,
+    15
+   ],
+   "examples": [],
+   "uncertain": [
+    "'직업탐구, 제2외국어/한문으로 대체 불가'를 탐구 등급은 사회·과학탐구 과목만 쓰는 것으로 옮김(직업탐구 과목 등급은 9로 봄)",
+    "과학Ⅱ 과목은 과학탐구(INQ*_SCI=1)로 입력된다고 봄",
+    "한국사 기준은 원문에 없어 넣지 않음"
+   ],
+   "needs_review": {
+    "reason": "원문이 HWP라 근거 쪽을 목차의 전형 안내 쪽 범위로 적음. 입학처 화면의 PDF판(스크립트로만 열림)과 같은 판인지 확인하지 못함",
+    "found_by": "susi_minimum 작성"
+   }
+  }
+ ],
+ "no_minimum": {
+  "동덕창의리더전형": "4. 대학수학능력시험 최저학력기준 ○ 전체 모집단위(약학과 제외) : 없음 (6~8쪽) — 약학과는 규칙 dongduk_leader_pharm",
+  "기회균형 특별전형": "4. 대학수학능력시험 최저학력기준 ○ 전체 모집단위 : 없음 (9~11쪽)",
+  "실기우수자전형": "4. 대학수학능력시험 최저학력기준 ○ 전체 모집단위 : 없음 (16~20쪽)",
+  "특기자 특별전형": "4. 대학수학능력시험 최저학력기준 ○ 전체 모집단위: 없음 (21~23쪽)",
+  "특성화고 등 고졸재직자 특별전형(정원외)": "4. 대학수학능력시험 최저학력기준 ○ 전체 모집단위 : 없음 (24~25쪽)"
+ },
+ "not_covered": {},
+ "gaps": [],
+ "notes": [
+  "동덕창의리더전형은 약학과만 수능최저가 있고 나머지 모집단위는 없음 — no_minimum과 rules(약학과)에 함께 적음",
+  "요강 1쪽 '전년도 대비 주요 변동사항' 표: 학생부교과우수자(약학과 외)·논술우수자 최저가 2026학년도 '2개 영역 합 7등급 이내'에서 2027학년도 '6등급 이내'로 바뀜(표의 앞뒤 열 순서는 HWP 추출 텍스트로 확인 — 각 전형 안내 본문의 6등급과 일치)",
+  "운영 시드의 동덕 수시 자료는 adiga 사본(파일명 260713변경공고)에서 나왔고, 이 파일은 입학처 HWP(파일 ID 260626…)라 판이 다를 수 있음. 최저 문구는 시드 요약과 같음"
+ ]
+}
