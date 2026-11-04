@@ -1,0 +1,32 @@
+{
+ "schema": "susi_minimum/v1",
+ "university_key": "u139",
+ "university_name": "수원가톨릭대학교",
+ "academic_year": 2027,
+ "documents": [],
+ "rules": [],
+ "no_minimum": {},
+ "not_covered": {
+  "일반전형[일반학생]": "원문 미확보(gaps 참조)",
+  "특별전형[하상바오로]": "원문 미확보(gaps 참조)",
+  "특별전형[하상바오로 교구장 추천자]": "원문 미확보(gaps 참조)",
+  "특별전형[하상바오로 수도회 총(원)장 추천자]": "원문 미확보(gaps 참조)",
+  "특별전형[성직지망 고교졸업(예정)자]": "원문 미확보(gaps 참조)",
+  "특별전형[성직지망 고교졸업(예정) 교구장 추천자]": "원문 미확보(gaps 참조)",
+  "특별전형[수도자]": "원문 미확보(gaps 참조)",
+  "기회균형[만학도]": "원문 미확보(gaps 참조)",
+  "재외국민 및 외국인(2%이내)(정원외)": "원문 미확보(gaps 참조)",
+  "전 교육과정 이수자(정원외)": "원문 미확보(gaps 참조)",
+  "부모 모두 외국인인 외국인(정원외)": "원문 미확보(gaps 참조)"
+ },
+ "gaps": [
+  {
+   "item": "대학 홈페이지(입학 안내·수시 모집요강)",
+   "reason": "robots 판정불가: https://www.suwoncatholic.ac.kr/robots.txt 요청이 매번 연결 끊김(ConnectionResetError, 프록시 기록 'tunnel closed mid exchange'). 2026-11-04 여러 차례 다시 시도해도 같음",
+   "url": "https://www.suwoncatholic.ac.kr/"
+  }
+ ],
+ "notes": [
+  "공식 도메인은 검색으로 확인되지 않아 알려진 대학 도메인(www.suwoncatholic.ac.kr)으로 시도함. 접속이 되면 다시 작업 필요"
+ ]
+}
