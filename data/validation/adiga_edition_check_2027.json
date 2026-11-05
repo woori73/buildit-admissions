@@ -1,0 +1,717 @@
+{
+ "schema": "adiga_edition_check/v1",
+ "academic_year": 2027,
+ "pairs": [
+  {
+   "key": "ajou",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/ajou_2027_susi_full.json",
+   "adiga_document": "2027학년도 아주대학교 수시모집요강",
+   "official_document": "2027학년도 아주대학교 수시모집요강",
+   "official_file_url": "https://www.iajou.ac.kr/_common/new_download_file.php?menu=mojib&m_no=80&field=m_pdf",
+   "official_source_page_url": "https://www.iajou.ac.kr/mojib/?m_type=SUSI",
+   "official_sha256": "2fbfc1522792b1b007f7daa07c6e8e0c980783b8dc0901099c5afebae5717ece",
+   "official_pages": 111,
+   "checked": {
+    "학과": 37,
+    "학과별 인원": 148,
+    "전형": 11,
+    "전형 인원": 11,
+    "일정": 28
+   },
+   "candidates": {}
+  },
+  {
+   "key": "chugye",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/chugye_2027_jeongsi.json",
+   "adiga_document": "2027학년도 추계예술대학교 신입생 모집요강[정시모집]",
+   "official_document": "2027학년도 추계예술대학교 신입생 모집요강[정시모집]",
+   "official_file_url": "https://enter.chugye.ac.kr/file/fileDownLoad.do?seq=1732894628",
+   "official_source_page_url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=119&dataSeq=494&categorySeq=505",
+   "official_sha256": "728159fc0f2cea8daca171af0acdcfef9c545e4d3224e9e015ca0639513b533c",
+   "official_pages": 32,
+   "checked": {
+    "학과": 8,
+    "학과별 인원": 21,
+    "전형": 17,
+    "전형 인원": 17,
+    "일정": 16
+   },
+   "candidates": {}
+  },
+  {
+   "key": "chugye",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/chugye_2027_susi_full.json",
+   "adiga_document": "2027학년도 추계예술대학교 신입생 모집요강[수시모집]",
+   "official_document": "2027학년도 신입학전형 수시 모집요강",
+   "official_file_url": "https://enter.chugye.ac.kr/file/fileDownLoad.do?seq=1740461553",
+   "official_source_page_url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=16&dataSeq=494&categorySeq=504",
+   "official_sha256": "b7fca0492be686b2f97f998d61135a6a972903dc09adcc1bf11d358695d387f6",
+   "official_pages": 30,
+   "checked": {
+    "학과": 8,
+    "학과별 인원": 8,
+    "전형": 6,
+    "전형 인원": 4,
+    "일정": 17
+   },
+   "candidates": {}
+  },
+  {
+   "key": "dongduk",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/dongduk_2027_jeongsi.json",
+   "adiga_document": "2027학년도 동덕여자대학교 신입학 정시모집요강",
+   "official_document": "2027학년도 신입학 정시 모집요강(안)(261014변경공고)",
+   "official_file_url": "https://ipsi.dongduk.ac.kr/afile/fileDownload/NOsmn",
+   "official_source_page_url": "https://ipsi.dongduk.ac.kr/ipsi/contents/admhelper-notice.do?schM=view&id=92278",
+   "official_sha256": "9c859d863672398b673a961b8e1d055677825b97c5a0f8da37a72b766eddaa8d",
+   "official_pages": 43,
+   "checked": {
+    "학과": 38,
+    "학과별 인원": 60,
+    "전형": 8,
+    "전형 인원": 7,
+    "일정": 12
+   },
+   "candidates": {}
+  },
+  {
+   "key": "dongduk",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/dongduk_2027_susi_full.json",
+   "adiga_document": "2027학년도 동덕여자대학교 신입학 수시모집요강",
+   "official_document": "2027학년도 신입학 수시모집요강",
+   "official_file_url": "https://ipsi.dongduk.ac.kr/afile/fileDownloadById/26062650839sbolO",
+   "official_source_page_url": "https://ipsi.dongduk.ac.kr/ipsi/contents/nontime-viewer.do?gotoMenuNo=nontime-viewer",
+   "official_sha256": "c4eb0d1b1203a2b132615fdadd3f8c9cd28e24f1b0312aab3f511dad87bbca7b",
+   "official_pages": null,
+   "skipped": "HWP 파일(배포용 문서) — 보호를 풀어 읽지 않음"
+  },
+  {
+   "key": "dongguk",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/dongguk_2027_jeongsi.json",
+   "adiga_document": "2027학년도 동국대학교 정시모집요강",
+   "official_document": "2027 동국대학교 정시모집요강",
+   "official_file_url": "https://ipsi.dongguk.edu/upload/file/20260916161730JHGHCW.PDF",
+   "official_source_page_url": "https://ipsi.dongguk.edu/admission/html/regular/guide.asp",
+   "official_sha256": "d5c190b5692bc46405c456b07d2d30cb5a2b7e6083226db68f3d59fb028af110",
+   "official_pages": 70,
+   "checked": {
+    "학과": 56,
+    "학과별 인원": 126,
+    "전형": 14,
+    "전형 인원": 11,
+    "일정": 15
+   },
+   "candidates": {
+    "전형명": [
+     {
+      "전형": "정시 기초생활수급자및차상위계층전형(가군)"
+     },
+     {
+      "전형": "정시 기초생활수급자및차상위계층전형(나군)"
+     },
+     {
+      "전형": "정시 기초생활수급자및차상위계층전형(다군)"
+     }
+    ]
+   }
+  },
+  {
+   "key": "dongguk",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/dongguk_2027_susi_full.json",
+   "adiga_document": "2027학년도 동국대학교 수시모집요강",
+   "official_document": "2027 동국대학교 수시모집요강",
+   "official_file_url": "https://ipsi.dongguk.edu/upload/file/20260715140521FRWQXB.PDF",
+   "official_source_page_url": "https://ipsi.dongguk.edu/admission/html/rolling/guide.asp",
+   "official_sha256": "b0000028ed9b6fcfe8112bec045afa2fb33c34f82e777f2465a2c5d57002243a",
+   "official_pages": 132,
+   "checked": {
+    "학과": 61,
+    "학과별 인원": 225,
+    "전형": 15,
+    "전형 인원": 15,
+    "일정": 47
+   },
+   "candidates": {}
+  },
+  {
+   "key": "ewha",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/ewha_2027_jeongsi.json",
+   "adiga_document": "2027학년도 이화여자대학교 정시모집요강",
+   "official_document": "2027학년도 이화여자대학교 정시모집요강",
+   "official_file_url": "https://admission.ewha.ac.kr/upload/GUIDES/20260901162227VPFXS9.pdf",
+   "official_source_page_url": "https://admission.ewha.ac.kr/admission/html/regular/guide.asp",
+   "official_sha256": "b00b851d9b9bb7e75f7bcacd0a333c6e303ba882419f5ad9a244887a6a3773c2",
+   "official_pages": 42,
+   "checked": {
+    "학과": 34,
+    "학과별 인원": 35,
+    "전형": 16,
+    "전형 인원": 16,
+    "일정": 12
+   },
+   "candidates": {}
+  },
+  {
+   "key": "ewha",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/ewha_2027_susi_full.json",
+   "adiga_document": "2027학년도 이화여자대학교 수시모집요강",
+   "official_document": "2027학년도 이화여자대학교 수시모집요강(게시용)",
+   "official_file_url": "https://admission.ewha.ac.kr/upload/GUIDES/20260907134642BHLTER.pdf",
+   "official_source_page_url": "https://admission.ewha.ac.kr/admission/html/rolling/guide.asp",
+   "official_sha256": "7f0fa26d9d0bf39141f7e1387197bd4a9af1843873db559aef0f6b2800914e83",
+   "official_pages": 50,
+   "checked": {
+    "학과": 64,
+    "학과별 인원": 249,
+    "전형": 8,
+    "전형 인원": 8,
+    "일정": 19
+   },
+   "candidates": {}
+  },
+  {
+   "key": "hongik",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/hongik_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시모집 모집요강",
+   "official_document": "2027학년도 홍익대학교 정시모집요강",
+   "official_file_url": "https://www.hongik.ac.kr/kr/admission/recruitment-regular.do?mode=download&articleNo=155914&attachNo=91137",
+   "official_source_page_url": "https://www.hongik.ac.kr/kr/admission/recruitment-regular.do",
+   "official_sha256": "f8b3247cb92ec491d5eddc8f1769e1773f41618d09b68d9ee1da334a57c24138",
+   "official_pages": 107,
+   "checked": {
+    "학과": 37,
+    "학과별 인원": 72,
+    "전형": 9,
+    "전형 인원": 8,
+    "일정": 14
+   },
+   "candidates": {}
+  },
+  {
+   "key": "hongik",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/hongik_2027_susi_full.json",
+   "adiga_document": "2027학년도 수시모집 모집요강",
+   "official_document": "2027학년도 수시모집 모집요강 (서울캠퍼스·세종캠퍼스 합본)",
+   "official_file_url": "https://www.hongik.ac.kr/kr/admission/recruitment.do?mode=download&articleNo=152315&attachNo=91150",
+   "official_source_page_url": "https://www.hongik.ac.kr/kr/admission/recruitment.do",
+   "official_sha256": "f7f564f32c23b4f2e3f0268ffa255cab2303ae4c8ecf60ff14417995228a02e0",
+   "official_pages": 142,
+   "checked": {
+    "학과": 37,
+    "학과별 인원": 157,
+    "전형": 12,
+    "전형 인원": 12,
+    "일정": 26
+   },
+   "candidates": {}
+  },
+  {
+   "key": "hyerica",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/hyerica_2027_susi_full.json",
+   "adiga_document": "2027학년도 한양대학교 ERICA캠퍼스 수시 모집요강",
+   "official_document": "(한양대학교 ERICA) 2027학년도 수시 모집요강",
+   "official_file_url": "https://goerica.hanyang.ac.kr/upload/BBS0061/202610071301429KPHA9.PDF",
+   "official_source_page_url": "https://goerica.hanyang.ac.kr/admission/html/rolling/guide.asp",
+   "official_sha256": "5e7f72057b2e7da44a76186dc16c363a4a208d3560d5432aca1cf4d1304779e2",
+   "official_pages": 116,
+   "checked": {
+    "학과": 44,
+    "학과별 인원": 108,
+    "전형": 14,
+    "전형 인원": 14,
+    "일정": 38
+   },
+   "candidates": {}
+  },
+  {
+   "key": "hytu",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/hytu_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시모집 모집요강(정시 나군)",
+   "official_document": "2027학년도 신입생 모집요강(정시 나군)",
+   "official_file_url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/mozip/2027regular_admission_guideline(2026.9.1).pdf",
+   "official_source_page_url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/2000.php",
+   "official_sha256": "97d91f48583e99fd10bd51d0c559c8b9f6d7d0fdb50c0ac10f566c152e43f655",
+   "official_pages": 11,
+   "checked": {
+    "학과": 5,
+    "학과별 인원": 5,
+    "전형": 3,
+    "전형 인원": 1,
+    "일정": 15
+   },
+   "candidates": {}
+  },
+  {
+   "key": "hytu",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/hytu_2027_susi_full.json",
+   "adiga_document": "2027학년도 수시모집 모집요강",
+   "official_document": "2027학년도 서울한영대학교 수시모집요강",
+   "official_file_url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_01/mozip/2027_수시모집.pdf",
+   "official_source_page_url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_01/1000.php",
+   "official_sha256": "dccb5f09333cdde60c11aabf9b3ba5d55d1b511cbb7dbabe85b1f96f7542a434",
+   "official_pages": 24,
+   "checked": {
+    "학과": 5,
+    "학과별 인원": 7,
+    "전형": 6,
+    "전형 인원": 6,
+    "일정": 15
+   },
+   "candidates": {}
+  },
+  {
+   "key": "kangseo",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/kangseo_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시 신입생 모집요강",
+   "official_document": "2027학년도 정시 모집요강",
+   "official_file_url": "https://entrance.gangseo.ac.kr/template/2027jungsi.pdf",
+   "official_source_page_url": "https://entrance.gangseo.ac.kr/kcui/homeService?menuCode=MC0400",
+   "official_sha256": "4de5eb0ae5a2c380374b5dae08dbfde9eeb30eba8c50e7e7327a7fc11cf425ba",
+   "official_pages": 36,
+   "checked": {
+    "학과": 8,
+    "학과별 인원": 7,
+    "전형": 9,
+    "전형 인원": 3,
+    "일정": 19
+   },
+   "candidates": {}
+  },
+  {
+   "key": "knsu",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/knsu_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시모집 모집요강['가'군]",
+   "official_document": "2027학년도 정시모집요강(가군) 통합(2026-10-14 변경본)",
+   "official_file_url": "https://www.knsu.ac.kr/ipsi/regular/application.do?mode=download&articleNo=56462&attachNo=122990",
+   "official_source_page_url": "https://www.knsu.ac.kr/ipsi/regular/application.do?mode=view&articleNo=56462&article.offset=0&articleLimit=10",
+   "official_sha256": "833430ff3afbe58f0823574d0c33817420e077d5b15d9db7aa4c978c0adb358e",
+   "official_pages": 82,
+   "checked": {
+    "학과": 11,
+    "학과별 인원": 44,
+    "전형": 10,
+    "전형 인원": 9,
+    "일정": 12
+   },
+   "candidates": {}
+  },
+  {
+   "key": "knsu",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/knsu_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시모집 모집요강['가'군]",
+   "official_document": "2027학년도 정시모집요강(가군) 재외국민 및 외국인군 특별전형(2026-09-01)",
+   "official_file_url": "https://www.knsu.ac.kr/ipsi/regular/application.do?mode=download&articleNo=56195&attachNo=122452",
+   "official_source_page_url": "https://www.knsu.ac.kr/ipsi/regular/application.do?mode=view&articleNo=56195&article.offset=0&articleLimit=10",
+   "official_sha256": "430fc1e1d0ab3f8eb5b01b6f6396f08e6b876b36eab6feb1b32f138a1f7fc89d",
+   "skipped": "다른 문서(재외국민·외국인 전형 전용 요강) — 같은 판 비교 대상 아님"
+  },
+  {
+   "key": "knsu",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/knsu_2027_susi_full.json",
+   "adiga_document": "2027학년도 수시모집 모집요강(통합본, 외국인군특별전형 포함)",
+   "official_document": "2027학년도 수시모집요강(통합본, 외국인군특별전형 포함)",
+   "official_file_url": "https://www.knsu.ac.kr/cms/etcResourceDown.do?site=$cms$JYBwzsQ&key=$cms$NIOQygqgTADFDsBnAroglgOgA4BMBmQA",
+   "official_source_page_url": "https://www.knsu.ac.kr/ipsi/regular/susi.do",
+   "official_sha256": "9ef1bb64c4abaa8b84f4428f7351866f8e4d3c5d63675ca63c592b3f511cf149",
+   "official_pages": 94,
+   "checked": {
+    "학과": 11,
+    "학과별 인원": 22,
+    "전형": 8,
+    "전형 인원": 8,
+    "일정": 19
+   },
+   "candidates": {}
+  },
+  {
+   "key": "konkuk",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/konkuk_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시모집요강 (건국대학교 서울캠퍼스)",
+   "official_document": "2027학년도 정시모집요강 (건국대학교 서울캠퍼스)",
+   "official_file_url": "https://admission.konkuk.ac.kr/bbs/admission/6282/1224860/download.do",
+   "official_source_page_url": "https://admission.konkuk.ac.kr/bbs/admission/6282/1204956/artclView.do?layout=unknown",
+   "official_sha256": "255eded66f03ec0991cb34fcd8607acedf7f3e2dce4710673c0ccde396f28147",
+   "official_pages": 29,
+   "checked": {
+    "학과": 60,
+    "학과별 인원": 132,
+    "전형": 10,
+    "전형 인원": 9,
+    "일정": 17
+   },
+   "candidates": {
+    "전형명": [
+     {
+      "전형": "정시 수능-특성화고교졸업자(가·나·다군, 모집단위별 KU일반학생과 동일 군)"
+     }
+    ]
+   }
+  },
+  {
+   "key": "konkuk",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/konkuk_2027_susi_full.json",
+   "adiga_document": "2027학년도 수시모집요강 (건국대학교 서울캠퍼스)",
+   "official_document": "2027학년도 수시모집요강 (건국대학교 서울캠퍼스)",
+   "official_file_url": "https://admission.konkuk.ac.kr/enterTbc/admission/1/69/pdf/fileDownload.do",
+   "official_source_page_url": "https://admission.konkuk.ac.kr/admission/37859/subview.do",
+   "official_sha256": "b29ac0f99c3a8057e01bc26e9597d72de0a6c4c79fd1ec198575a309e7857d31",
+   "official_pages": 88,
+   "checked": {
+    "학과": 51,
+    "학과별 인원": 192,
+    "전형": 10,
+    "전형 인원": 10,
+    "일정": 29
+   },
+   "candidates": {}
+  },
+  {
+   "key": "kw",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/kw_2027_jeongsi.json",
+   "adiga_document": "2027학년도 신입학 정시 모집요강",
+   "official_document": "2027학년도 신입학 정시 모집요강",
+   "official_file_url": "https://iphak.jcoresystem.kr/upload_data/mojib/20261007090613_6.pdf",
+   "official_source_page_url": "https://iphak.kw.ac.kr/mojib/mojib.php?m_type=JEONGSI",
+   "official_sha256": "94d96a3d8626275ab3fc46754eb00d263cdfa2114eae1efd791d6f08dc79b652",
+   "official_pages": 60,
+   "checked": {
+    "학과": 35,
+    "학과별 인원": 59,
+    "전형": 12,
+    "전형 인원": 6,
+    "일정": 10
+   },
+   "candidates": {}
+  },
+  {
+   "key": "kw",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/kw_2027_susi_full.json",
+   "adiga_document": "2027학년도 신입학 수시 모집요강",
+   "official_document": "2027학년도 신입학 수시 모집요강",
+   "official_file_url": "https://iphak.jcoresystem.kr/upload_data/mojib/20260526155135_27.pdf",
+   "official_source_page_url": "https://iphak.kw.ac.kr/mojib/mojib.php?m_type=SUSI",
+   "official_sha256": "cd606f328f76fcbe64608892e53743ffe3d1477bfccfd0bfde986f145e771796",
+   "official_pages": 64,
+   "checked": {
+    "학과": 33,
+    "학과별 인원": 119,
+    "전형": 11,
+    "전형 인원": 11,
+    "일정": 21
+   },
+   "candidates": {}
+  },
+  {
+   "key": "kyonggi",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/kyonggi_2027_susi_full.json",
+   "adiga_document": "2027학년도 경기대학교 수시 모집요강 [수원·서울캠퍼스 공통]",
+   "official_document": "2027학년도 경기대학교 수시모집요강 [수원·서울캠퍼스 공통]",
+   "official_file_url": "https://enter.kyonggi.ac.kr/ajaxfile/CMN_SVC/FileView.do?GBN=X12&SITE_NO=2&MENU_NO=120&CONTENTS_NO=1&TYPE_CODE=C0601",
+   "official_source_page_url": "https://enter.kyonggi.ac.kr/cms/FR_CON/index.do?MENU_ID=120",
+   "official_sha256": "c025fb6e6351da97c29ee8638ebbdd1a2705759fbd70b9f2893804aa48ebf3ce",
+   "official_pages": null,
+   "skipped": "글자 층 없음 — 쪽 이미지로 확인"
+  },
+  {
+   "key": "mtu",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/mtu_2027_susi_full.json",
+   "adiga_document": "2027학년도 수시모집 모집요강",
+   "official_document": "2027학년도 수시모집요강(2026. 5.)",
+   "official_file_url": "https://www.mtu.ac.kr/mtu/file/2027_hakbu_info.pdf",
+   "official_source_page_url": "https://www.mtu.ac.kr/mtu/contents/view.do?mId=175",
+   "official_sha256": "5dd1faf8d91cacfbaebe047b6d65c62b32ee1db6d3f791ec95461ffe714dd846",
+   "official_pages": 25,
+   "checked": {
+    "학과": 1,
+    "학과별 인원": 7,
+    "전형": 7,
+    "전형 인원": 7,
+    "일정": 9
+   },
+   "candidates": {}
+  },
+  {
+   "key": "sejong",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/sejong_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시모집요강",
+   "official_document": "2027학년도 세종대학교 정시모집요강",
+   "official_file_url": "https://ipsi.sejong.ac.kr/cms/etcResourceDown.do?site=$cms$JYBwzsQ&key=$cms$MoUwVg9gdg5gBAVSgSwG4gE4GdkBcCecATAAxEDsA+gEogwCuANgIYYB0ADgCYBmQA",
+   "official_source_page_url": "https://ipsi.sejong.ac.kr/ipsi/regular/recruitment-guidelines.do",
+   "official_sha256": "7bcfe611328cb1d96c1a14addc97facabb15b4792f75dcd41ababc08f0e853b4",
+   "official_pages": 86,
+   "checked": {
+    "학과": 55,
+    "학과별 인원": 66,
+    "전형": 16,
+    "전형 인원": 15,
+    "일정": 27
+   },
+   "candidates": {}
+  },
+  {
+   "key": "sejong",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/sejong_2027_susi_full.json",
+   "adiga_document": "2027학년도 수시모집 모집요강",
+   "official_document": "2027학년도 세종대학교 수시모집요강",
+   "official_file_url": "https://ipsi.sejong.ac.kr/cms/etcResourceDown.do?site=$cms$JYBwzsQ&key=$cms$MoUwVg9gdg5g+gVSgSwG4gE4GdkBcCecAogIYYA2hAggCYC2yWO0cA4gK7I0jnJQhY4AJgAMQgOwA6AA40AZkA",
+   "official_source_page_url": "https://ipsi.sejong.ac.kr/ipsi/early/recruitment-guidelines.do",
+   "official_sha256": "26b549486387221cd032fbbc0a78a4501ea15a2c4533dd88602a5ba06fe16cbe",
+   "official_pages": 104,
+   "checked": {
+    "학과": 53,
+    "학과별 인원": 149,
+    "전형": 14,
+    "전형 인원": 14,
+    "일정": 44
+   },
+   "candidates": {}
+  },
+  {
+   "key": "skuniv",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/skuniv_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시모집 모집요강",
+   "official_document": "2027학년도 서경대학교 정시모집요강",
+   "official_file_url": "https://go.skuniv.ac.kr/?module=file&act=procFileDownload&file_srl=228922&sid=f98229235edc5335aa68e4429d3a0acd&module_srl=210030",
+   "official_source_page_url": "https://go.skuniv.ac.kr/index.php?mid=regular_admission_guide",
+   "official_sha256": "4784f8282decea0ff82df9ff3efbe3a4bf483725a961ba6009b74f7b0ca6b030",
+   "official_pages": 59,
+   "checked": {
+    "학과": 24,
+    "학과별 인원": 24,
+    "전형": 17,
+    "전형 인원": 6,
+    "일정": 45
+   },
+   "candidates": {}
+  },
+  {
+   "key": "skuniv",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/skuniv_2027_susi_full.json",
+   "adiga_document": "2027학년도 수시모집 모집요강",
+   "official_document": "2027학년도 서경대학교 수시모집요강",
+   "official_file_url": "https://go.skuniv.ac.kr/?module=file&act=procFileDownload&file_srl=228910&sid=232224e4f8021af627d5546ed93f1ef2&module_srl=210030",
+   "official_source_page_url": "https://go.skuniv.ac.kr/index.php?mid=rolling_admission_guide",
+   "official_sha256": "8e285dbceee84de22f9524e6707619f86da16657a7089e16acdda8c7b51f3a55",
+   "official_pages": 66,
+   "checked": {
+    "학과": 49,
+    "학과별 인원": 75,
+    "전형": 12,
+    "전형 인원": 12,
+    "일정": 53
+   },
+   "candidates": {}
+  },
+  {
+   "key": "ssu",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/ssu_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시모집 모집요강",
+   "official_document": "2027학년도 숭실대학교 정시 모집요강",
+   "official_file_url": "https://admission.ssu.ac.kr/upload/SSU(1)_261012134914.pdf",
+   "official_source_page_url": "https://admission.ssu.ac.kr/mojip/req.asp?flag=2&page_no=1_3_2",
+   "official_sha256": "09afaaca2ec8155a23a9ca3708af525314a676c773a18ff6e98b90bf627b8583",
+   "official_pages": 68,
+   "checked": {
+    "학과": 48,
+    "학과별 인원": 95,
+    "전형": 13,
+    "전형 인원": 13,
+    "일정": 13
+   },
+   "candidates": {}
+  },
+  {
+   "key": "ssu",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/ssu_2027_susi_full.json",
+   "adiga_document": "2027학년도 수시모집 모집요강",
+   "official_document": "2027학년도 숭실대학교 수시모집요강",
+   "official_file_url": "https://admission.ssu.ac.kr/upload/SSU(1)_26092812337.pdf",
+   "official_source_page_url": "https://admission.ssu.ac.kr/mojip/req.asp?flag=1&page_no=1_2_2",
+   "official_sha256": "d8c5de9407988ad8d1e80900485a84b87dd6d73b119382e9496e5a3520864b72",
+   "official_pages": 98,
+   "checked": {
+    "학과": 47,
+    "학과별 인원": 218,
+    "전형": 13,
+    "전형 인원": 13,
+    "일정": 28
+   },
+   "candidates": {}
+  },
+  {
+   "key": "sungshin",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/sungshin_2027_jeongsi.json",
+   "adiga_document": "2027학년도 성신여자대학교 정시 신입생 모집요강",
+   "official_document": "2027학년도 정시 신입생 모집요강",
+   "official_file_url": "https://ipsi.sungshin.ac.kr/bbs/filedown.php?bbsid=guideline&file_seq=2989",
+   "official_source_page_url": "https://ipsi.sungshin.ac.kr/guide/recruit.htm?ctg_cd=jungsi",
+   "official_sha256": "78c44c44d73037a055a9f8eae8ccd06e60549aed0056d5895a04538820fe2dfe",
+   "official_pages": 66,
+   "checked": {
+    "학과": 51,
+    "학과별 인원": 62,
+    "전형": 12,
+    "전형 인원": 11,
+    "일정": 19
+   },
+   "candidates": {}
+  },
+  {
+   "key": "sungshin",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/sungshin_2027_susi_full.json",
+   "adiga_document": "2027학년도 성신여자대학교 수시 신입생 모집요강",
+   "official_document": "2027학년도 수시 신입생 모집요강",
+   "official_file_url": "https://ipsi.sungshin.ac.kr/bbs/filedown.php?bbsid=guideline&file_seq=2920",
+   "official_source_page_url": "https://ipsi.sungshin.ac.kr/guide/recruit.htm?ctg_cd=susi",
+   "official_sha256": "a365f916d5cb2f8e19d8b830dba2a3dd34898390d1ede376b8c3ace14ac3e0d8",
+   "official_pages": 76,
+   "checked": {
+    "학과": 54,
+    "학과별 인원": 153,
+    "전형": 7,
+    "전형 인원": 7,
+    "일정": 45
+   },
+   "candidates": {}
+  },
+  {
+   "key": "u187",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/u187_2027_susi_full.json",
+   "adiga_document": "2027학년도 대학 수시 모집요강",
+   "official_document": "2027학년도 차의과학대학교 수시 모집요강(디자인본)",
+   "official_file_url": "https://admission.cha.ac.kr/wp-content/uploads/2026/07/공개-2027학년도-차의과학대학교-수시-모집요강-디자인본.pdf",
+   "official_source_page_url": "https://admission.cha.ac.kr/%ec%88%98%ec%8b%9c%eb%aa%a8%ec%a7%91/%ec%88%98%ec%8b%9c-%eb%aa%a8%ec%a7%91%ec%9a%94%ea%b0%95/",
+   "official_sha256": "09642e219d7c8b4cc76a0ea6eb6c74c559c207051e51929f3b811afe6f399bdc",
+   "official_pages": 48,
+   "checked": {
+    "학과": 3,
+    "학과별 인원": 17,
+    "전형": 6,
+    "전형 인원": 6,
+    "일정": 19
+   },
+   "candidates": {}
+  },
+  {
+   "key": "u233",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/u233_2027_susi_full.json",
+   "adiga_document": "2027학년도 화성의과학대학교 수시모집 모집요강",
+   "official_document": "2027학년도 화성의과학대학교 수시 모집요강",
+   "official_file_url": "https://www.hsmu.ac.kr/afile/fileDownload/ZWU0ODZiNzU4NTM5YzI0ZGQ0MDgwZjZhNjM0NWUxN2U=",
+   "official_source_page_url": "https://www.hsmu.ac.kr/admission/contents/AMS10100000.do",
+   "official_sha256": "d01230bb5bcca55b03aefcd38c1af398ed52e2311f091cce8adf767be9afc156",
+   "official_pages": 34,
+   "checked": {
+    "학과": 12,
+    "학과별 인원": 29,
+    "전형": 6,
+    "전형 인원": 6,
+    "일정": 8
+   },
+   "candidates": {}
+  },
+  {
+   "key": "u37",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/u37_2027_susi_full.json",
+   "adiga_document": "2027학년도 대학입학전형 수시 모집요강",
+   "official_document": "2027학년도 대학입학전형 수시 모집요강",
+   "official_file_url": "http://ipsi.hknu.ac.kr/upload_data/mojib/20260623192023_0.pdf",
+   "official_source_page_url": "http://ipsi.hknu.ac.kr/mojib/mojib.php?m_type=SUSI",
+   "official_sha256": "456596a9c7e28a413ad93609caf022a0cec92d0f63d7a44447794c2de21ce1c0",
+   "official_pages": 70,
+   "checked": {
+    "학과": 48,
+    "학과별 인원": 205,
+    "전형": 13,
+    "전형 인원": 13,
+    "일정": 15
+   },
+   "candidates": {}
+  },
+  {
+   "key": "uos",
+   "round": "jeongsi",
+   "parsed": "data/parsed/univ_sample/uos_2027_jeongsi.json",
+   "adiga_document": "2027학년도 정시모집 신입생 모집요강",
+   "official_document": "2027학년도 정시모집 신입생 모집요강",
+   "official_file_url": "https://file.uos.ac.kr/upload/admission/2027학년도 정시모집 신입생 모집요강.pdf",
+   "official_source_page_url": "https://admission.uos.ac.kr/admissionNew/html/jungsi/info.do?menuid=2002002001000000000",
+   "official_sha256": "ff66d8b053fc5d1f3db4388b074c0e8d8de0b54ab417a9a7597f09fc4e8bf0e0",
+   "official_pages": 35,
+   "checked": {
+    "학과": 46,
+    "학과별 인원": 136,
+    "전형": 11,
+    "전형 인원": 11,
+    "일정": 18
+   },
+   "candidates": {}
+  },
+  {
+   "key": "uos",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/uos_2027_susi_full.json",
+   "adiga_document": "2027학년도 수시모집 신입생 모집요강",
+   "official_document": "2027학년도 수시모집 신입생 모집요강(260831)",
+   "official_file_url": "https://file.uos.ac.kr/upload/admission/2027학년도 수시모집 신입생 모집요강_260831.pdf",
+   "official_source_page_url": "https://admission.uos.ac.kr/admissionNew/html/susi/info.do?menuid=2002001001000000000",
+   "official_sha256": "e7c88c470663d53adad1b30a67d339a571eda8ee98e179a56e7ba132ecfc8050",
+   "official_pages": 64,
+   "checked": {
+    "학과": 43,
+    "학과별 인원": 159,
+    "전형": 7,
+    "전형 인원": 7,
+    "일정": 17
+   },
+   "candidates": {}
+  },
+  {
+   "key": "yongin",
+   "round": "susi",
+   "parsed": "data/parsed/univ_sample/yongin_2027_susi_full.json",
+   "adiga_document": "2027학년도 용인대학교 수시 신입생 모집요강",
+   "official_document": "2027학년도 수시 신입생 모집요강",
+   "official_file_url": "https://ipsi.yongin.ac.kr/ipsi/guide/susi/mo_susi_20260623_1020.pdf",
+   "official_source_page_url": "https://ipsi.yongin.ac.kr/susi/guide.do",
+   "official_sha256": "53c7939bb8c3196e048acf258f09fe1f7c910e36ff67fecbfd026a4294a28739",
+   "official_pages": null,
+   "skipped": "글자 층 없음 — 쪽 이미지로 확인"
+  }
+ ]
+}
