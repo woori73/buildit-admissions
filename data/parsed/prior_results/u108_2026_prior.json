@@ -1,0 +1,39 @@
+{
+ "university_key": "u108",
+ "university_name": "루터대학교",
+ "university_code": "U108",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "입학처(ltu-admission.ac.kr, robots 허용) 공지사항 게시판(bo_table=501) 22쪽 전체와 입시자료실(bo_table=201) 목록을 확인했으나 2026학년도 입시결과(성적·충원) 게시글 없음. 과거 연도는 '2020/2021학년도 신입생 수시모집 입시전형 결과'(wr_id=77, 78)만 있음.",
+   "url": "http://ltu-admission.ac.kr/board/bbs/board.php?bo_table=501"
+  },
+  {
+   "item": "2026학년도 수시 경쟁률",
+   "reason": "공지 '2026학년도 신입생 수시모집 원서접수 경쟁률 안내'(wr_id=287, 2025-09-11) 본문에 수치 없이 외부 대행사(ratio.uwayapply.com) 링크만 있음 — 사용하지 않음.",
+   "url": "http://ltu-admission.ac.kr/board/bbs/board.php?bo_table=501&wr_id=287"
+  },
+  {
+   "item": "2026학년도 정시(다)군 모집인원(이월 포함)",
+   "reason": "공지 wr_id=307은 모집인원 안내(결과 아님)라 열지 않음. 지원·경쟁률·성적 결과는 입학처에 게시되지 않음(정시 경쟁률은 메인의 외부 uway 링크만).",
+   "url": "http://ltu-admission.ac.kr/board/bbs/board.php?bo_table=501&wr_id=307"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "WebSearch로 공식 입학처 주소가 나오지 않아 본교 대표 홈페이지(https://www.ltu.ac.kr/는 robots.txt SSL 오류로 판정 불가 → http://www.ltu.ac.kr/, robots 허용)의 '입학안내' 링크(http://ltu-admission.ac.kr)로 들어감. 입학처 첫 페이지는 정적 location.href='index_.html'.",
+  "합격자조회(ltu.jlab.co.kr)·원서접수/경쟁률(uwayapply.com)은 외부 도메인이라 요청하지 않음."
+ ]
+}

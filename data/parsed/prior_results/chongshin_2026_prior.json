@@ -1,0 +1,39 @@
+{
+ "university_key": "chongshin",
+ "university_name": "총신대학교",
+ "university_code": "CHONGSHIN",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학정보 사이트(admission.csu.ac.kr)의 '수시모집/정시모집 > 연도별 입시결과' 메뉴(menu id 2073·2074, 2075)는 HTML 안 JS 메뉴 데이터로만 있고 href·게시물·첨부 링크가 HTML에 없음(목록은 스크립트로만 열림). 주소를 조립하지 않음. 근거: 2026-11-04 IpsiFetcher로 저장된 첫 화면 HTML(data/raw/admission.csu.ac.kr/188a6932….html) — 이번 작업에서는 이 사이트에 새로 요청하지 않음.",
+   "url": "https://admission.csu.ac.kr/"
+  },
+  {
+   "item": "대학 첫 화면 입학 링크",
+   "reason": "https://www.chongshin.ac.kr/ (robots.txt HTTP 404=허용) → https://www.csu.ac.kr/gate 로 이동. gate 페이지의 링크 9개가 모두 'javascript:;'라 HTML에서 따라갈 입학 주소 없음(2026-11-07 IpsiFetcher).",
+   "url": "https://www.csu.ac.kr/gate"
+  },
+  {
+   "item": "ipsi.chongshin.ac.kr",
+   "reason": "robots.txt 확인 실패(https: 프록시 CONNECT 502, http: 이름 해석 실패) — 판정불가로 요청하지 않음(2026-11-07).",
+   "url": "https://ipsi.chongshin.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청 IpsiFetcher. WebSearch '총신대학교 입학처 입시결과'·'admission.csu.ac.kr 총신대학교 입학정보' 결과에 입학처 공식 도메인 없음(언론·대행사 uwayapply·사설 블로그만 — 수치 미사용).",
+  "admission.csu.ac.kr 주소는 이전 수집(2027 정시 공식)에서 gate 페이지 스크립트(gate.js)의 이동 주소로 확인된 것. HTML href가 아니어서 이번에는 따라가지 않았고, 따라가더라도 입시결과 게시판은 스크립트로만 열림."
+ ]
+}

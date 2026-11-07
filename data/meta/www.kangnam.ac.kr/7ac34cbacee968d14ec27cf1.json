@@ -1,0 +1,15 @@
+{
+  "url": "https://www.kangnam.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.kangnam.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 42531,
+  "sha256": "0573dfad68ef3ced377664b33de25316b728d1ef8cea3da71ef42109c6eba434",
+  "raw_path": "raw/www.kangnam.ac.kr/0573dfad68ef3ced377664b33de25316.html",
+  "collected_at": "2026-11-07T13:35:11+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

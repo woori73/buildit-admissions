@@ -1,0 +1,44 @@
+{
+ "university_key": "yongin",
+ "university_name": "용인대학교",
+ "university_code": "YONGIN",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과('2026학년도 신입학 성적결과')",
+   "reason": "입학처 '전년도 입시결과' 게시판(수시·정시)에 2026학년도 글(등록일 2026.05.29)이 있으나 제목 링크가 href='#'이고 data-value 값을 스크립트가 폼(board_id)에 넣어 /susi/prev_result_view.do로 submit해서만 열린다(스크립트로만 열림). 주소를 조립하지 않아 받지 않음.",
+   "url": "https://ipsi.yongin.ac.kr/susi/prev_result_list.do"
+  },
+  {
+   "item": "2026학년도 정시 입시결과",
+   "reason": "정시 '전년도 입시결과' 게시판도 같은 방식(스크립트로만 열림).",
+   "url": "https://ipsi.yongin.ac.kr/jungsi/prev_result_list.do"
+  },
+  {
+   "item": "2026학년도 수시 예비합격 충원현황",
+   "reason": "'전년도 예비합격 충원현황' 게시판도 제목 링크가 href='#'(스크립트로만 열림).",
+   "url": "https://ipsi.yongin.ac.kr/susi/prev_chungwon_list.do"
+  },
+  {
+   "item": "수시·정시 지원자 현황(경쟁률)",
+   "reason": "입학처 메인의 '수시지원자 현황/정시지원자 현황'은 외부 대행사 도메인(ratio.uwayapply.com)이라 사용하지 않음.",
+   "url": "http://ratio.uwayapply.com/Sl5KVyVyV2FiSmYlJjomSjdmVGY="
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. ipsi.yongin.ac.kr의 robots.txt 주소는 HTTP 200 HTML 페이지(규칙 없음)라 허용 판정. 일부 요청에서 robots.txt가 ConnectionReset으로 판정불가가 되어 요청이 나가지 않았고, 다시 시도해 허용 판정 후 받았다.",
+  "입학처 메인(/index.do)의 '경쟁률 및 입시결과' 링크(/susi/prev_result_list.do, /jungsi/prev_result_list.do)를 열었다. 목록에는 '2026학년도 신입학 성적결과'(수시 목록 등록일 2026.05.29, 첨부 아이콘 없음)가 있지만 POST 폼 제출로만 열려 본문·첨부를 확인하지 못했다. 공지사항 목록에도 입시결과 글 링크는 모두 href='#'."
+ ]
+}

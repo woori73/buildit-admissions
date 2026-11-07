@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.uhs.ac.kr/ipsi/board/notice/detail.do?title=&ci=&pageNo=1&bbsNo=33413",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.uhs.ac.kr/ipsi/board/notice/detail.do?title=&ci=&pageNo=1&bbsNo=33413",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 21437,
+  "sha256": "d5c4560ad16f3ba59a422cfec2e3137d6dbb89921f3cacd11d9017b230ad077f",
+  "raw_path": "raw/iphak.uhs.ac.kr/d5c4560ad16f3ba59a422cfec2e3137d.html",
+  "collected_at": "2026-11-07T13:40:20+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

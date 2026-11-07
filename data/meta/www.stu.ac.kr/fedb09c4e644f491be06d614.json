@@ -1,0 +1,15 @@
+{
+  "url": "https://www.stu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.stu.ac.kr/",
+  "content_type": "text/html;charset=utf-8",
+  "size": 123758,
+  "sha256": "c0fc46180366b821c50ef9c25dacedd8fec8c9e83416d6fc20298fe6967af37b",
+  "raw_path": "raw/www.stu.ac.kr/c0fc46180366b821c50ef9c25dacedd8.html",
+  "collected_at": "2026-11-07T13:35:15+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

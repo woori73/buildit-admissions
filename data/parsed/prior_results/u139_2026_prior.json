@@ -1,0 +1,30 @@
+{
+ "university_key": "u139",
+ "university_name": "수원가톨릭대학교",
+ "university_code": "U139",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "본교 홈페이지(www.suwoncatholic.ac.kr) robots.txt 요청이 연결 재설정(Connection reset by peer)으로 실패(2026-11-04 기존 기록 1회 + 이번 2회) — robots 판정 불가로 요청하지 않음.",
+   "url": "https://www.suwoncatholic.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000139"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 했다(2026-11-07). 주소는 저장소의 2027 모집요강 수집본(official_publisher_url)에 적힌 https://www.suwoncatholic.ac.kr 를 썼다(WebSearch 결과에는 공식 도메인이 나오지 않음).",
+  "참고: 2027 모집요강상 모집단위는 신학과 1개(정시 가군 15명 등)로 소규모라, 대학이 입시결과를 따로 게시하지 않을 수도 있음(미확인).",
+  "페이지·첨부를 받지 않았다. 수치 추측 없음 — rows는 빈 배열."
+ ]
+}

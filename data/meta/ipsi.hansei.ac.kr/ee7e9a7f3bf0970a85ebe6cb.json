@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.hansei.ac.kr/view.do?no=1098",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.hansei.ac.kr/view.do?no=1098",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 119995,
+  "sha256": "b001bc3c16a42c7d21be1bf45dd72700a4d8013727c09c28f23b5513079f837d",
+  "raw_path": "raw/ipsi.hansei.ac.kr/b001bc3c16a42c7d21be1bf45dd72700.html",
+  "collected_at": "2026-11-07T13:37:57+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
