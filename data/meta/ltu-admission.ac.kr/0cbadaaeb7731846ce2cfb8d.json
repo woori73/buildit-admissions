@@ -1,0 +1,15 @@
+{
+  "url": "http://ltu-admission.ac.kr",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "http://ltu-admission.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 430,
+  "sha256": "2086c52c9bfa12658ee4ba11f4aa5478343970d685acf3f7e98aa597098b338c",
+  "raw_path": "raw/ltu-admission.ac.kr/2086c52c9bfa12658ee4ba11f4aa5478.html",
+  "collected_at": "2026-11-07T13:37:34+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

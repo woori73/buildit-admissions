@@ -1,0 +1,37 @@
+[
+  {
+    "university_code": "KARTS",
+    "university_name": "한국예술종합학교",
+    "item": "수시/정시 구분",
+    "reason": "한국예술종합학교는 고등교육법상 대학이 아닌 각종학교로, 대교협 수시·정시(가·나·다군) 체계 밖에서 자체 입시(8월·10월·11월입시 등)를 한다. 원문 결과표는 입시 시기도 수시/정시도 구분하지 않고 '전형구분'(일반/특별, 정원외는 교육기회균등/특수교육대상자/재외국민/외국인)만 준다. 빌드 스크립트가 round_type을 SUSI/JEONGSI만 받으므로 2027 모집요강 자료(univ_sample/karts_2027_jeongsi.json의 '정시 …(N월입시)' 전형명)와 같게 JEONGSI로 두었다 — 원문 표기가 아님. 사람이 분류를 확정할 필요가 있음.",
+    "url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1"
+  },
+  {
+    "university_code": "KARTS",
+    "university_name": "한국예술종합학교",
+    "item": "입시 시기(8월/10월/11월입시)별 결과",
+    "reason": "원문 표에 입시 시기 열이 없어 2027 전형명(정시 일반전형(10월입시) 등)과 연결할 수 없음.",
+    "url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1"
+  },
+  {
+    "university_code": "KARTS",
+    "university_name": "한국예술종합학교",
+    "item": "경쟁률·성적 지표",
+    "reason": "원문에 경쟁률 열과 성적(실기·내신 점수 등) 지표가 없음. 경쟁률을 지원÷정원으로 계산하지 않음(competition_rate 모두 null). 성적 결과는 입학처 통계자료 게시판에 없음.",
+    "url": "https://www.karts.ac.kr/cop/bbs/selectBoardList.do?bbsId=BBSMSTR_000000000008"
+  },
+  {
+    "university_code": "KARTS",
+    "university_name": "한국예술종합학교",
+    "item": "정원외 전형 모집인원",
+    "reason": "정원외 표에는 정원(모집인원) 열이 없어 recruit_count가 비어 있음(지원자·최종합격자만).",
+    "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=0&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956"
+  },
+  {
+    "university_code": "KARTS",
+    "university_name": "한국예술종합학교",
+    "item": "예술전문사(대학원) 과정",
+    "reason": "같은 게시글의 '2026 신입생 모집 지원 및 합격 현황(예술전문사 정원내).pdf'와 정원외 PDF 3쪽 예술전문사 표는 대학원 과정이라 받지 않거나 행으로 만들지 않음.",
+    "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=1&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956"
+  }
+]

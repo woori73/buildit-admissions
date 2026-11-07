@@ -11328,5 +11328,1542 @@
         "gaps": 5
       }
     ]
+  },
+  "prior_results_batch4": {
+    "seed_files": [
+      {
+        "file": "data/seed/prior_2026_batch4/ipsi_seed_prior_2026_01_hytu_u37.json",
+        "prior_results": 2543,
+        "documents": 10,
+        "chars": 1205338
+      }
+    ],
+    "result_year": 2026,
+    "academic_year": 2027,
+    "count": 2543,
+    "documents": 10,
+    "universities_with_rows": 2,
+    "gaps": [
+      {
+        "university_code": "BIBLE",
+        "university_name": "한국성서대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "입학처(ipsi.bible.ac.kr) robots.txt가 'User-agent: * / Disallow: *' 와 자동화 수집 금지 안내(서면 허가 없는 자동 수집 금지) — 우리 UA 차단. 2026-11-07 첫 확인 HTTP 200 차단, 재확인 시 연결 재설정(판정불가). 요청하지 않음.",
+        "url": "https://ipsi.bible.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "BIBLE",
+        "university_name": "한국성서대학교",
+        "item": "대학 첫 화면의 다른 입학안내 링크",
+        "reason": "www.bible.ac.kr(robots 허용) 첫 화면 '입학안내' 링크는 ipsi.bible.ac.kr(차단)와 www.bible.coursemos.work/ko/entrance(ac.kr 아닌 외부 도메인)뿐 — 외부 도메인은 따라가지 않음.",
+        "url": "http://www.bible.coursemos.work/ko/entrance"
+      },
+      {
+        "university_code": "BIBLE",
+        "university_name": "한국성서대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "CAUDAVINCI",
+        "university_name": "중앙대학교(다빈치캠퍼스)",
+        "item": "2026학년도 수시·정시 입시결과(다빈치캠퍼스)",
+        "reason": "본교 홈페이지(www.cau.ac.kr, robots 허용)의 '입학 > 대학입학/입학처' 링크가 서울·다빈치캠퍼스 공통 입학처(admission.cau.ac.kr) 하나뿐. 입학처 robots.txt가 'User-agent: * / Disallow: /'(Googlebot 등만 개별 허용, http·https 모두 HTTP 200) — IpsiFetcher가 요청을 막음. 서울캠퍼스(cau_2026_prior.json)와 같은 사유.",
+        "url": "https://admission.cau.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "CAUDAVINCI",
+        "university_name": "중앙대학교(다빈치캠퍼스)",
+        "item": "사람 확인 후보 파일(입학처 도메인, 내용 미확인)",
+        "reason": "검색 결과에 나온 입학처 경로 PDF. 다빈치캠퍼스 모집단위 포함 여부·2026 결과인지 미확인. robots 차단으로 요청하지 않음.",
+        "url": "https://admission.cau.ac.kr/files/2026/2026_ss_bn.pdf ; https://admission.cau.ac.kr/files/2026/2026_js_bn.pdf"
+      },
+      {
+        "university_code": "CAUDAVINCI",
+        "university_name": "중앙대학교(다빈치캠퍼스)",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "입학정보 사이트(admission.csu.ac.kr)의 '수시모집/정시모집 > 연도별 입시결과' 메뉴(menu id 2073·2074, 2075)는 HTML 안 JS 메뉴 데이터로만 있고 href·게시물·첨부 링크가 HTML에 없음(목록은 스크립트로만 열림). 주소를 조립하지 않음. 근거: 2026-11-04 IpsiFetcher로 저장된 첫 화면 HTML(data/raw/admission.csu.ac.kr/188a6932….html) — 이번 작업에서는 이 사이트에 새로 요청하지 않음.",
+        "url": "https://admission.csu.ac.kr/"
+      },
+      {
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "item": "대학 첫 화면 입학 링크",
+        "reason": "https://www.chongshin.ac.kr/ (robots.txt HTTP 404=허용) → https://www.csu.ac.kr/gate 로 이동. gate 페이지의 링크 9개가 모두 'javascript:;'라 HTML에서 따라갈 입학 주소 없음(2026-11-07 IpsiFetcher).",
+        "url": "https://www.csu.ac.kr/gate"
+      },
+      {
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "item": "ipsi.chongshin.ac.kr",
+        "reason": "robots.txt 확인 실패(https: 프록시 CONNECT 502, http: 이름 해석 실패) — 판정불가로 요청하지 않음(2026-11-07).",
+        "url": "https://ipsi.chongshin.ac.kr/"
+      },
+      {
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "CHUGYE",
+        "university_name": "추계예술대학교",
+        "item": "2026학년도 신편입학전형 경쟁률 현황(게시판 '[공지] 2026학년도 신편입학전형 경쟁률 현황', 작성일 2025-09-15)",
+        "reason": "스크립트로만 열림: 입시결과 게시판 목록의 제목 링크가 href=\"#\"이고 data-itsp-view-link 속성 값을 스크립트가 읽어 여는 방식이라 HTML에 완성된 게시글 주소가 없음. 주소를 조립하지 않아 열지 않음. 게시판 제목상 경쟁률·충원 현황만 있고 성적 지표 게시는 확인되지 않음.",
+        "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=128&dataSeq=497"
+      },
+      {
+        "university_code": "CHUGYE",
+        "university_name": "추계예술대학교",
+        "item": "2026학년도 신편입학전형 충원합격 현황(게시판 '[공지] 2026학년도 신편입학전형 충원합격 현황', 작성일 2026-03-04, 첨부 있음 표시)",
+        "reason": "스크립트로만 열림(위와 같은 data-itsp-view-link 방식). 열지 않음.",
+        "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=128&dataSeq=497"
+      },
+      {
+        "university_code": "CHUGYE",
+        "university_name": "추계예술대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "HYTU",
+        "university_name": "서울한영대학교",
+        "item": "2026학년도 수시 만학도·국가보훈대상자 전형 성적(입시결과)",
+        "reason": "입시결과 게시글 표에 일반·농어촌학생·기초생활수급자·장애인 등 대상자만 있고 만학도·국가보훈대상자 행이 없음(경쟁률 게시글에만 있음: 각 모집 1, 지원 1/0).",
+        "url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_01/1200.php?pagetype=&bbs_idx=3308&pageno=1&pagekind=c&bbsid=rare_score&cafeid=&ref_code=&keyword=&keyfield=&category=&search_year=&search_month=&qstr=&c_pagesize=15&use_eng=&gopage=/fro_end/html/dep_01/1200.php?"
+      },
+      {
+        "university_code": "HYTU",
+        "university_name": "서울한영대학교",
+        "item": "정시 나군(농어촌학생) 충원합격순위",
+        "reason": "원문 셀이 '-'라 지표 행을 만들지 않음.",
+        "url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/2200.php?pagetype=&bbs_idx=3309&pageno=1&pagekind=c&bbsid=regular_score&cafeid=&ref_code=&keyword=&keyfield=&category=&search_year=&search_month=&qstr=&c_pagesize=15&use_eng=&gopage=/fro_end/html/dep_02/2200.php?"
+      },
+      {
+        "university_code": "HYTU",
+        "university_name": "서울한영대학교",
+        "item": "충원(추가)합격 인원",
+        "reason": "원문은 '충원합격순위'만 제공(충원 인원 열 없음) — extra_admitted_count는 모두 null, 충원합격순위는 지표 행(OTHER).",
+        "url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_01/1200.php?pagetype=&bbs_idx=3308&pageno=1&pagekind=c&bbsid=rare_score&cafeid=&ref_code=&keyword=&keyfield=&category=&search_year=&search_month=&qstr=&c_pagesize=15&use_eng=&gopage=/fro_end/html/dep_01/1200.php?"
+      },
+      {
+        "university_code": "HYTU",
+        "university_name": "서울한영대학교",
+        "item": "입시결과 게시글의 지원자 수",
+        "reason": "입시결과 표에는 지원인원 열이 없음(모집인원·경쟁률만). 지원인원은 별도 경쟁률 게시글 문서(_2) 행에만 있음.",
+        "url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/2200.php?pagetype=&bbs_idx=3309&pageno=1&pagekind=c&bbsid=regular_score&cafeid=&ref_code=&keyword=&keyfield=&category=&search_year=&search_month=&qstr=&c_pagesize=15&use_eng=&gopage=/fro_end/html/dep_02/2200.php?"
+      },
+      {
+        "university_code": "HYTU",
+        "university_name": "서울한영대학교",
+        "item": "편입학·외국인 결과",
+        "reason": "수시·정시 신입학 입시결과만 범위.",
+        "url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_03/3200.php"
+      },
+      {
+        "university_code": "KANGNAM",
+        "university_name": "강남대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "본교 홈페이지(www.kangnam.ac.kr, robots 허용)의 정적 링크 '입학처 홈페이지'·'전년도 대입전형결과'가 입학처(admission.kangnam.ac.kr)를 가리키나, 입학처 robots.txt가 'User-agent: * / Disallow: /'(HTTP 200)라 IpsiFetcher가 요청을 막음. 게시판·첨부 모두 미수집.",
+        "url": "https://admission.kangnam.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "KANGNAM",
+        "university_name": "강남대학교",
+        "item": "사람 확인 후보: 입학처 '전년도 대입전형결과' 게시글(내용 미확인)",
+        "reason": "본교 메인 페이지에 적힌 링크. robots 차단으로 자동 요청하지 않음. 사람이 열어 2026학년도 결과인지 확인 필요.",
+        "url": "https://admission.kangnam.ac.kr/iphak/jaryo.htm?bbsid=data_prev_year&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=38471"
+      },
+      {
+        "university_code": "KANGNAM",
+        "university_name": "강남대학교",
+        "item": "입학진단시스템(외부)",
+        "reason": "본교 메인 링크가 외부 대행사 도메인(consult.mncapro.co.kr)이라 요청·사용하지 않음.",
+        "url": "https://consult.mncapro.co.kr/solution/kangnamipsi/"
+      },
+      {
+        "university_code": "KANGNAM",
+        "university_name": "강남대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "MJUNAT",
+        "university_name": "명지대학교(자연캠퍼스)",
+        "item": "2026학년도 수시모집 입시결과(자연캠퍼스)",
+        "reason": "명지대 입학처(iphak.mju.ac.kr)는 인문·자연캠퍼스 공용이고 자연캠퍼스 별도 입시결과 게시판·정적 링크가 없음. 입시결과(수시) 게시판(robots 허용 경로 /pages)의 게시글 '2026학년도 수시모집 입시결과'(2026.05.04, 첨부 '파일' 표시)는 제목 링크가 javascript:js_board_view(30097) 함수 호출뿐이라 열지 않음(주소 조립 금지). 첨부 파일명·캠퍼스 구분 미확인",
+        "url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&cate=수시"
+      },
+      {
+        "university_code": "MJUNAT",
+        "university_name": "명지대학교(자연캠퍼스)",
+        "item": "2026학년도 정시모집 입시결과(자연캠퍼스)",
+        "reason": "같은 게시판 정시 분류의 '2026학년도 정시모집 입시결과'(2026.05.04, 첨부 '파일' 표시)도 javascript:js_board_view(30098) 함수 호출뿐 — 스크립트로만 열림, 게시글·첨부 미확인",
+        "url": "https://iphak.mju.ac.kr/pages/?p=17&b=B_1_2&cate=정시"
+      },
+      {
+        "university_code": "MJUNAT",
+        "university_name": "명지대학교(자연캠퍼스)",
+        "item": "2026학년도 수시·정시·추가모집 경쟁률",
+        "reason": "게시글 '2026학년도 수시모집 경쟁률'(2025.09.15, js_board_view(29535))·'2026학년도 정시모집 경쟁률'(2026.01.01, js_board_view(29837))·'2026학년도 추가모집 경쟁률'(2026.02.26, js_board_view(30024)) 모두 스크립트로만 열림",
+        "url": "https://iphak.mju.ac.kr/pages/?p=31&b=B_1_2"
+      },
+      {
+        "university_code": "MJUNAT",
+        "university_name": "명지대학교(자연캠퍼스)",
+        "item": "첨부 파일 경로 전반",
+        "reason": "iphak.mju.ac.kr robots.txt가 'Disallow: / , Allow: /main, Allow: /pages'라 게시글을 열 수 있어도 /images·/_common 아래 첨부는 IpsiFetcher가 요청하지 않음(인문캠퍼스 mju 수집본과 같은 사유)",
+        "url": "https://iphak.mju.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "MJUNAT",
+        "university_name": "명지대학교(자연캠퍼스)",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000109"
+      },
+      {
+        "university_code": "PUTS",
+        "university_name": "장로회신학대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "http://www.puts.ac.kr/robots.txt -> HTTP 200, 'User-agent: * / Disallow: /'(Googlebot만 일부 경로 Allow) — 우리 UA 차단. https://www.puts.ac.kr/robots.txt는 SSL 핸드셰이크 실패(SSLV3_ALERT_HANDSHAKE_FAILURE)로 판정불가. 요청하지 않음(2026-11-07 IpsiFetcher 재확인).",
+        "url": "http://www.puts.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "PUTS",
+        "university_name": "장로회신학대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "SCU",
+        "university_name": "서울기독대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "본교 대표 홈페이지(www.scu.ac.kr, robots 허용)는 자바스크립트 앱이라 첫 HTML에 링크가 없어(div#root만 있음) '입학' 링크를 따라갈 수 없음. AJAX 호출은 하지 않음. 이전 수집 기록의 입학 사이트 ipsi.scu.ac.kr은 이번에도 robots.txt 확인 단계에서 연결 실패(프록시 502 Bad Gateway)로 판정 불가 — 요청하지 않음. WebSearch로 입학처 공식 주소를 다시 확인하지 못함.",
+        "url": "https://www.scu.ac.kr/"
+      },
+      {
+        "university_code": "SCU",
+        "university_name": "서울기독대학교",
+        "item": "입학 사이트(ipsi.scu.ac.kr)",
+        "reason": "robots 판정 불가(연결 실패).",
+        "url": "https://ipsi.scu.ac.kr/"
+      },
+      {
+        "university_code": "SCU",
+        "university_name": "서울기독대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "SKHU",
+        "university_name": "성공회대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "입학 홈페이지(enter.skhu.ac.kr, 본교 대표 홈페이지 '대학 입학 홈페이지' 링크) robots.txt 확인 단계에서 TLS 오류(SSL WRONG_SIGNATURE_TYPE)로 판정 불가 — 요청하지 않음(2회 재시도, https·http 모두 같은 결과). 이전 수집 기록상 ipsi.skhu.ac.kr도 robots.txt 연결 끊김(connection reset)으로 판정 불가(이번에도 동일).",
+        "url": "https://enter.skhu.ac.kr/enter/index.do"
+      },
+      {
+        "university_code": "SKHU",
+        "university_name": "성공회대학교",
+        "item": "2026 수시·정시 경쟁률 언론 보도",
+        "reason": "언론(dhnews.co.kr) 수치는 규칙상 사용하지 않음. 검색 결과 링크만 기록.",
+        "url": "https://dhnews.co.kr/news/view/1065607578324950"
+      },
+      {
+        "university_code": "SKHU",
+        "university_name": "성공회대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "SUNGKYUL",
+        "university_name": "성결대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "본교 대표 홈페이지 robots 판정 불가: https://www.sungkyul.ac.kr/robots.txt·https://sungkyul.ac.kr/robots.txt는 연결 재설정(ConnectionResetError 104), http://www.sungkyul.ac.kr/robots.txt·http://sungkyul.ac.kr/robots.txt는 HTTP 503 — RobotsGate가 '판정 불가 = 요청 안 함'으로 막음(시간 간격 두고 3회 이상 재시도, 결과 동일). 메인 페이지를 열지 못해 입학처 주소·게시판을 확인하지 못함.",
+        "url": "https://www.sungkyul.ac.kr/"
+      },
+      {
+        "university_code": "SUNGKYUL",
+        "university_name": "성결대학교",
+        "item": "입학처 위치",
+        "reason": "WebSearch 3회('성결대학교 입학처 2026학년도 입시결과' 등)에 공식 ac.kr 입학처 주소가 나오지 않음(언론·대행사·사설 PDF만). 주소를 추측해 만들지 않아 입학처 사이트 자체를 확인하지 못함.",
+        "url": "https://www.sungkyul.ac.kr/"
+      },
+      {
+        "university_code": "SUNGKYUL",
+        "university_name": "성결대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U108",
+        "university_name": "루터대학교",
+        "item": "2026학년도 수시·정시 입시결과",
+        "reason": "입학처(ltu-admission.ac.kr, robots 허용) 공지사항 게시판(bo_table=501) 22쪽 전체와 입시자료실(bo_table=201) 목록을 확인했으나 2026학년도 입시결과(성적·충원) 게시글 없음. 과거 연도는 '2020/2021학년도 신입생 수시모집 입시전형 결과'(wr_id=77, 78)만 있음.",
+        "url": "http://ltu-admission.ac.kr/board/bbs/board.php?bo_table=501"
+      },
+      {
+        "university_code": "U108",
+        "university_name": "루터대학교",
+        "item": "2026학년도 수시 경쟁률",
+        "reason": "공지 '2026학년도 신입생 수시모집 원서접수 경쟁률 안내'(wr_id=287, 2025-09-11) 본문에 수치 없이 외부 대행사(ratio.uwayapply.com) 링크만 있음 — 사용하지 않음.",
+        "url": "http://ltu-admission.ac.kr/board/bbs/board.php?bo_table=501&wr_id=287"
+      },
+      {
+        "university_code": "U108",
+        "university_name": "루터대학교",
+        "item": "2026학년도 정시(다)군 모집인원(이월 포함)",
+        "reason": "공지 wr_id=307은 모집인원 안내(결과 아님)라 열지 않음. 지원·경쟁률·성적 결과는 입학처에 게시되지 않음(정시 경쟁률은 메인의 외부 uway 링크만).",
+        "url": "http://ltu-admission.ac.kr/board/bbs/board.php?bo_table=501&wr_id=307"
+      },
+      {
+        "university_code": "U108",
+        "university_name": "루터대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U125",
+        "university_name": "서울신학대학교",
+        "item": "2026학년도 수시·정시 입시결과(전년도 입시결과 메뉴)",
+        "reason": "대학 첫 화면(www.stu.ac.kr) '대학입학' 링크 → https://ipsi.stu.ac.kr . 입학처 robots.txt(HTTP 200)가 'User-agent: * / Disallow: /Cm / Disallow: /dbimage/' — 메뉴 '전년도 입시결과'(/CmsHome/susi_03.eznic, /CmsHome/jungsi_03.eznic)를 포함한 /CmsHome/ 전체가 우리 UA 차단. 요청하지 않음.",
+        "url": "https://ipsi.stu.ac.kr/CmsHome/susi_03.eznic"
+      },
+      {
+        "university_code": "U125",
+        "university_name": "서울신학대학교",
+        "item": "정시 전년도 입시결과",
+        "reason": "위와 같은 robots 차단(/Cm 접두).",
+        "url": "https://ipsi.stu.ac.kr/CmsHome/jungsi_03.eznic"
+      },
+      {
+        "university_code": "U125",
+        "university_name": "서울신학대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U139",
+        "university_name": "수원가톨릭대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "본교 홈페이지(www.suwoncatholic.ac.kr) robots.txt 요청이 연결 재설정(Connection reset by peer)으로 실패(2026-11-04 기존 기록 1회 + 이번 2회) — robots 판정 불가로 요청하지 않음.",
+        "url": "https://www.suwoncatholic.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "U139",
+        "university_name": "수원가톨릭대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000139"
+      },
+      {
+        "university_code": "U147",
+        "university_name": "안양대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "입학처(enter.anyang.ac.kr) robots.txt(HTTP 200, text/plain)가 'User-agent: * / Disallow: /'(Yeti·Googlebot·Daum·bingbot 등 지정 봇만 Allow) — 전면 차단이라 https·http 모두 요청하지 않음.",
+        "url": "https://enter.anyang.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "U147",
+        "university_name": "안양대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000147"
+      },
+      {
+        "university_code": "U168",
+        "university_name": "인천가톨릭대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "입학처(admission.iccu.ac.kr) robots.txt가 'User-agent: * / Disallow: /'(전면 차단) — 요청하지 않음.",
+        "url": "https://admission.iccu.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "U168",
+        "university_name": "인천가톨릭대학교",
+        "item": "본교 홈페이지 게시판",
+        "reason": "본교(www.iccu.ac.kr) robots.txt도 'Disallow: /'(/default.php만 Allow) — 메인(/default.php)만 열어 입학안내 링크(admission.iccu.ac.kr)를 확인했고 그 밖의 경로는 요청하지 않음.",
+        "url": "https://www.iccu.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "U168",
+        "university_name": "인천가톨릭대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U177",
+        "university_name": "중앙승가대학교",
+        "item": "2026학년도 수시·정시 입시결과",
+        "reason": "본교 홈페이지(www.sangha.ac.kr/SANGHA/, robots 허용)의 입학안내(신입학·편입학·입학상담)와 학사공지사항 게시판 첫 쪽을 확인했으나 입시결과·경쟁률·충원 현황 게시물이 없음(입학안내는 2027 수시모집요강 첨부와 본문뿐, 공지는 합격자 공고·정시모집 요강 등). 별도 입학처 사이트 없음. 첨부 다운로드 링크도 javascript:goDown(...) 형식이라 스크립트 전용.",
+        "url": "https://www.sangha.ac.kr/SANGHA/?ACT=ADMISSION_FRESH&FOR"
+      },
+      {
+        "university_code": "U177",
+        "university_name": "중앙승가대학교",
+        "item": "학사공지사항 게시판",
+        "reason": "첫 쪽(2026-08~11월 게시물)만 확인. 이전 쪽은 확인하지 않음.",
+        "url": "https://www.sangha.ac.kr/SANGHA/?ACT=BOARD_NOTICE&FOR"
+      },
+      {
+        "university_code": "U177",
+        "university_name": "중앙승가대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U184",
+        "university_name": "칼빈대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "본교 홈페이지(www.calvin.ac.kr) robots.txt 요청이 연결 재설정(Connection reset by peer, 프록시 기록: TLS 요청 후 응답 없이 터널 닫힘)으로 2회 실패 — robots 판정 불가로 요청하지 않음. 입학처 별도 도메인은 WebSearch 결과에 나오지 않아 확인 못 함.",
+        "url": "https://www.calvin.ac.kr/"
+      },
+      {
+        "university_code": "U184",
+        "university_name": "칼빈대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000184"
+      },
+      {
+        "university_code": "U201",
+        "university_name": "한세대학교",
+        "item": "[수시] 2026학년도 수시모집 지원현황, 교과성적, 충원현황",
+        "reason": "입학처 입시결과 게시판(robots 허용)에 게시글이 있으나 목록 링크가 href='#none' + onclick 'javascript:show(28616)'로만 열림(폼에 pstSn을 넣어 제출). 지시서 규칙 3에 따라 함수 인자로 주소를 조립하지 않음 — 스크립트로만 열림.",
+        "url": "https://ipsi.hansei.ac.kr/view.do?no=1098&pgMode=index&sv1=수시"
+      },
+      {
+        "university_code": "U201",
+        "university_name": "한세대학교",
+        "item": "[정시] 2026학년도 정시모집 지원현황, 수능성적, 충원현황",
+        "reason": "같은 게시판, onclick 'javascript:show(28456)'로만 열림 — 스크립트로만 열림. 미수집.",
+        "url": "https://ipsi.hansei.ac.kr/view.do?no=1098&pgMode=index&sv1=정시"
+      },
+      {
+        "university_code": "U201",
+        "university_name": "한세대학교",
+        "item": "입시결과 게시판(전체 목록)",
+        "reason": "목록 HTML에 게시글·첨부 파일로 가는 완성된 링크가 없음(첨부 다운로드 링크 0건). 사람이 게시판에서 2026 수시·정시 게시글의 첨부를 내려받아 확인 필요.",
+        "url": "https://ipsi.hansei.ac.kr/view.do?no=1098"
+      },
+      {
+        "university_code": "U201",
+        "university_name": "한세대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U207",
+        "university_name": "협성대학교",
+        "item": "2024~2026학년도 수시 입시결과(성적)",
+        "reason": "입학처 공지 '2024~2026학년도 수시 입시결과 확인 방법 안내'(2026.09.10)는 결과를 '성적산출계산기'에서만 확인하도록 안내한다. 입학처 메뉴의 '성적현황/성적산출계산기' 링크는 외부 도메인(cs.u-is.co.kr) 상담·계산 화면이라 사용하지 않음. 입학처에 입시결과 파일·표 게시 없음.",
+        "url": "https://iphak.uhs.ac.kr/ipsi/board/notice/detail.do?title=&ci=&pageNo=1&bbsNo=33413"
+      },
+      {
+        "university_code": "U207",
+        "university_name": "협성대학교",
+        "item": "2026 수시 최종 경쟁률",
+        "reason": "입학처 '지원현황' 게시글(2025.11.17) 본문은 외부 대행사 링크(ratio.uwayapply.com)만 있어 수치를 쓰지 않음.",
+        "url": "https://iphak.uhs.ac.kr/susi/board/trnsfsprt/detail.do?title=&ci=susi&pageNo=1&bbsNo=29991"
+      },
+      {
+        "university_code": "U207",
+        "university_name": "협성대학교",
+        "item": "2026학년도 정시 최종 경쟁률",
+        "reason": "입학처 '지원현황' 게시글(2026.02.12) 본문은 외부 대행사 링크(ratio.uwayapply.com)만 있어 수치를 쓰지 않음.",
+        "url": "https://iphak.uhs.ac.kr/jungsi/board/trnsfsprt/detail.do?title=&ci=jungsi&pageNo=1&bbsNo=31528"
+      },
+      {
+        "university_code": "U207",
+        "university_name": "협성대학교",
+        "item": "2026학년도 정시 입시결과(성적)",
+        "reason": "입학처 정시 메뉴의 '성적현황'도 외부 도메인(cs.u-is.co.kr) 링크뿐이고 입시자료실(정시)에는 게시물이 없다.",
+        "url": "https://iphak.uhs.ac.kr/jungsi/board/trnsfdcm/list.do?ci=jungsi"
+      },
+      {
+        "university_code": "U207",
+        "university_name": "협성대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U233",
+        "university_name": "화성의과학대학교",
+        "item": "2026학년도 수시·정시 입시결과(성적·충원)",
+        "reason": "입학처(www.hsmu.ac.kr/admission) 메뉴는 모집요강·경쟁률·원서접수·합격자발표·공지사항뿐이고 입시결과 게시판이 없다. 공지사항 첫 쪽 목록에도 2026 입시결과 글이 없다(공지 글은 fn_goView 스크립트로만 열림).",
+        "url": "https://www.hsmu.ac.kr/admission/contents/AMS40100000.do"
+      },
+      {
+        "university_code": "U233",
+        "university_name": "화성의과학대학교",
+        "item": "2026학년도 수시모집 경쟁률",
+        "reason": "입학처 '경쟁률' 게시판(등록일 2025-09-08)의 '이동' 버튼이 외부 대행사 주소(addon.jinhakapply.com)로만 연결돼 수치를 쓰지 않음.",
+        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio11880401.html"
+      },
+      {
+        "university_code": "U233",
+        "university_name": "화성의과학대학교",
+        "item": "2026학년도 정시모집 경쟁률",
+        "reason": "입학처 정시 '경쟁률' 게시판의 '이동' 버튼이 외부 대행사 주소로만 연결돼 수치를 쓰지 않음.",
+        "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio11880411.html"
+      },
+      {
+        "university_code": "U233",
+        "university_name": "화성의과학대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U37",
+        "university_name": "한경국립대학교",
+        "item": "published_at(게시일)",
+        "reason": "입학처 입시결과 목록(result.php)에 게시일 표시가 없어 null. 참고로 PDF 뷰어(result_viewer.php)가 여는 서버 저장 파일명에 업로드 시각이 들어 있음(교과·종합·특수교육·정시 20260526, 정원외 20260623, 지역균형·사회통합 20260729) — 게시일로 옮기지 않음.",
+        "url": "https://ipsi.hknu.ac.kr/result/result.php"
+      },
+      {
+        "university_code": "U37",
+        "university_name": "한경국립대학교",
+        "item": "원본 첨부 파일명",
+        "reason": "다운로드 응답의 파일명(Content-Disposition)을 수집기가 기록하지 않아 확인 못 함. file_name에는 같은 게시물의 PDF 뷰어 페이지에 적힌 서버 저장 파일명(/upload_data/board/B_1_8/…pdf)을 적었다.",
+        "url": "https://ipsi.hknu.ac.kr/result/result_viewer.php?b_code=B_1_8&b_no=5089"
+      },
+      {
+        "university_code": "U37",
+        "university_name": "한경국립대학교",
+        "item": "정원외전형 PDF의 모집·지원·경쟁률과 '평균'의 기준",
+        "reason": "원문 표는 모집단위별 '특성화고교출신자/농어촌 학생/기초생활수급자 등' 열의 '평균' 값만 있고 제목·모집인원·지원인원·경쟁률·충원 정보가 없다. 평균이 최초합격자 기준인지 최종등록자 기준인지, 수시 정원외인지(목록은 수시 탭) 원문에 적혀 있지 않다.",
+        "url": "https://ipsi.hknu.ac.kr/_common/new_download_file.php?menu=board&b_code=B_1_8&b_no=5114&field=file_nm"
+      },
+      {
+        "university_code": "U37",
+        "university_name": "한경국립대학교",
+        "item": "그 밖의 2026 전형(수시 실기위주·특기자, 정시 특수교육대상자·정원외·실기 등)",
+        "reason": "입학처 입시결과 2026년 목록(수시 5건, 정시 1건)에 해당 전형 결과 파일이 없다. 편입학 탭은 수집 범위 밖.",
+        "url": "https://ipsi.hknu.ac.kr/result/result.php?m_type=JEONGSI"
+      },
+      {
+        "university_code": "U37",
+        "university_name": "한경국립대학교",
+        "item": "충원(추가합격) 인원",
+        "reason": "원문은 '충원현황 순위/배수'(정시는 '예비순위 진행순위/모집배수')만 주고 충원 인원 열이 없어 extra_admitted_count는 모두 null. 순위·배수는 원문 머리글 이름의 지표 행(OTHER)으로 저장.",
+        "url": "https://ipsi.hknu.ac.kr/result/result.php"
+      },
+      {
+        "university_code": "U37",
+        "university_name": "한경국립대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U97",
+        "university_name": "대진대학교",
+        "item": "2026학년도 수시·정시 입시결과 전체",
+        "reason": "입학처(admission.daejin.ac.kr) robots.txt(HTTP 200)가 'User-agent: * / Disallow: /' — 전면 차단이라 https·http 모두 요청하지 않음.",
+        "url": "https://admission.daejin.ac.kr/robots.txt"
+      },
+      {
+        "university_code": "U97",
+        "university_name": "대진대학교",
+        "item": "본교 대표 홈페이지 '입학' 경로",
+        "reason": "www.daejin.ac.kr robots.txt 요청이 연결 재설정(Connection reset by peer, 프록시 기록: 터널이 응답 없이 닫힘)으로 2회 실패 — robots 판정 불가로 요청하지 않음.",
+        "url": "https://www.daejin.ac.kr/"
+      },
+      {
+        "university_code": "U97",
+        "university_name": "대진대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000097"
+      },
+      {
+        "university_code": "YONGIN",
+        "university_name": "용인대학교",
+        "item": "2026학년도 수시·정시 입시결과('2026학년도 신입학 성적결과')",
+        "reason": "입학처 '전년도 입시결과' 게시판(수시·정시)에 2026학년도 글(등록일 2026.05.29)이 있으나 제목 링크가 href='#'이고 data-value 값을 스크립트가 폼(board_id)에 넣어 /susi/prev_result_view.do로 submit해서만 열린다(스크립트로만 열림). 주소를 조립하지 않아 받지 않음.",
+        "url": "https://ipsi.yongin.ac.kr/susi/prev_result_list.do"
+      },
+      {
+        "university_code": "YONGIN",
+        "university_name": "용인대학교",
+        "item": "2026학년도 정시 입시결과",
+        "reason": "정시 '전년도 입시결과' 게시판도 같은 방식(스크립트로만 열림).",
+        "url": "https://ipsi.yongin.ac.kr/jungsi/prev_result_list.do"
+      },
+      {
+        "university_code": "YONGIN",
+        "university_name": "용인대학교",
+        "item": "2026학년도 수시 예비합격 충원현황",
+        "reason": "'전년도 예비합격 충원현황' 게시판도 제목 링크가 href='#'(스크립트로만 열림).",
+        "url": "https://ipsi.yongin.ac.kr/susi/prev_chungwon_list.do"
+      },
+      {
+        "university_code": "YONGIN",
+        "university_name": "용인대학교",
+        "item": "수시·정시 지원자 현황(경쟁률)",
+        "reason": "입학처 메인의 '수시지원자 현황/정시지원자 현황'은 외부 대행사 도메인(ratio.uwayapply.com)이라 사용하지 않음.",
+        "url": "http://ratio.uwayapply.com/Sl5KVyVyV2FiSmYlJjomSjdmVGY="
+      },
+      {
+        "university_code": "YONGIN",
+        "university_name": "용인대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      }
+    ],
+    "per_university": [
+      {
+        "university_key": "bible",
+        "university_code": "BIBLE",
+        "university_name": "한국성서대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "caudavinci",
+        "university_code": "CAUDAVINCI",
+        "university_name": "중앙대학교(다빈치캠퍼스)",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "chongshin",
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "chugye",
+        "university_code": "CHUGYE",
+        "university_name": "추계예술대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "hytu",
+        "university_code": "HYTU",
+        "university_name": "서울한영대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 2
+        },
+        "rows": 123,
+        "base_rows": 50,
+        "metric_rows": 73,
+        "metric_labels": 7,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 97,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 일반전형",
+            "document_key": "hytu_2026_susi_result_2",
+            "sum_of_rows": 142,
+            "source_total": 142,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '총계' 행 모집 142·지원 1,150·경쟁률 8.10 : 1; 행 합계 모집 142·지원 1150",
+            "applicant_sum_of_rows": 1150,
+            "applicant_source_total": 1150,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 만학도전형",
+            "document_key": "hytu_2026_susi_result_2",
+            "sum_of_rows": 1,
+            "source_total": 1,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '총계' 행 모집 1·지원 1·경쟁률 1.00 : 1; 행 합계 모집 1·지원 1",
+            "applicant_sum_of_rows": 1,
+            "applicant_source_total": 1,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 국가보훈대상자전형",
+            "document_key": "hytu_2026_susi_result_2",
+            "sum_of_rows": 1,
+            "source_total": 1,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '총계' 행 모집 1·지원 0·경쟁률 0.00 : 1; 행 합계 모집 1·지원 0",
+            "applicant_sum_of_rows": 0,
+            "applicant_source_total": 0,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 기초생활수급자, 차상위계층, 한부모가족지원대상자전형(정원외)",
+            "document_key": "hytu_2026_susi_result_2",
+            "sum_of_rows": 5,
+            "source_total": 5,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '총계' 행 모집 5·지원 53·경쟁률 10.60 : 1; 행 합계 모집 5·지원 53 (모집인원은 병합 셀 1개)",
+            "applicant_sum_of_rows": 53,
+            "applicant_source_total": 53,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 농어촌학생전형(정원외)",
+            "document_key": "hytu_2026_susi_result_2",
+            "sum_of_rows": 3,
+            "source_total": 3,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '총계' 행 모집 3·지원 13·경쟁률 4.33 : 1; 행 합계 모집 3·지원 13 (모집인원은 병합 셀 1개)",
+            "applicant_sum_of_rows": 13,
+            "applicant_source_total": 13,
+            "applicant_match": true
+          },
+          {
+            "scope": "SUSI 장애인 등 대상자전형(정원외)",
+            "document_key": "hytu_2026_susi_result_2",
+            "sum_of_rows": 18,
+            "source_total": 18,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '총계' 행 모집 18·지원 54·경쟁률 3.00 : 1; 행 합계 모집 18·지원 54 (모집인원은 병합 셀 1개)",
+            "applicant_sum_of_rows": 54,
+            "applicant_source_total": 54,
+            "applicant_match": true
+          },
+          {
+            "scope": "JEONGSI 나군 일반전형",
+            "document_key": "hytu_2026_jeongsi_result_2",
+            "sum_of_rows": 62,
+            "source_total": 62,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '총계' 행 모집 62·지원 308·경쟁률 4.97 : 1; 행 합계 모집 62·지원 308",
+            "applicant_sum_of_rows": 308,
+            "applicant_source_total": 308,
+            "applicant_match": true
+          },
+          {
+            "scope": "JEONGSI 나군 농어촌학생전형(정원외)",
+            "document_key": "hytu_2026_jeongsi_result_2",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": null,
+            "match": true,
+            "note": "원문 '총계' 행 모집 2·지원 4·경쟁률 2.00 : 1; 행 합계 모집 2·지원 3 — 지원 합계 불일치(행 합 3 ≠ 원문 총계 4, 원문 값 유지) (모집인원은 병합 셀 1개)",
+            "applicant_sum_of_rows": 3,
+            "applicant_source_total": 4,
+            "applicant_match": false
+          },
+          {
+            "scope": "SUSI 입시결과 표(일반/농어촌학생/기초생활수급자/장애인 등 대상자)",
+            "document_key": "hytu_2026_susi_result",
+            "sum_of_rows": 168,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 경쟁률 게시글(hytu_2026_susi_result_2)의 같은 학과 모집인원과 모두 같음(일반 10/36/32/36/28, 농어촌 3, 기초 5, 장애인 18)"
+          },
+          {
+            "scope": "JEONGSI 입시결과 표(나군(일반)/나군(농어촌학생))",
+            "document_key": "hytu_2026_jeongsi_result",
+            "sum_of_rows": 67,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음. 모집인원은 '수시모집 이월인원 포함'이라 경쟁률 게시글(이월 전, 나군 일반 계 62)과 다름: 나군(일반) 행 합 65(11/14/18/14/8) vs 경쟁률 게시글 62(9/13/15/13/12). 재활복지학과만 8 < 12로 줄어 있음(원문 값 유지)"
+          }
+        ],
+        "spot_checks": 24,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      },
+      {
+        "university_key": "kangnam",
+        "university_code": "KANGNAM",
+        "university_name": "강남대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "mjunat",
+        "university_code": "MJUNAT",
+        "university_name": "명지대학교(자연캠퍼스)",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      },
+      {
+        "university_key": "puts",
+        "university_code": "PUTS",
+        "university_name": "장로회신학대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "scu",
+        "university_code": "SCU",
+        "university_name": "서울기독대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "skhu",
+        "university_code": "SKHU",
+        "university_name": "성공회대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "sungkyul",
+        "university_code": "SUNGKYUL",
+        "university_name": "성결대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u108",
+        "university_code": "U108",
+        "university_name": "루터대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u125",
+        "university_code": "U125",
+        "university_name": "서울신학대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u139",
+        "university_code": "U139",
+        "university_name": "수원가톨릭대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "u147",
+        "university_code": "U147",
+        "university_name": "안양대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "u168",
+        "university_code": "U168",
+        "university_name": "인천가톨릭대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u177",
+        "university_code": "U177",
+        "university_name": "중앙승가대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u184",
+        "university_code": "U184",
+        "university_name": "칼빈대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "u201",
+        "university_code": "U201",
+        "university_name": "한세대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u207",
+        "university_code": "U207",
+        "university_name": "협성대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      },
+      {
+        "university_key": "u233",
+        "university_code": "U233",
+        "university_name": "화성의과학대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "u37",
+        "university_code": "U37",
+        "university_name": "한경국립대학교",
+        "documents": {
+          "SUSI": 5,
+          "JEONGSI": 1
+        },
+        "rows": 2420,
+        "base_rows": 173,
+        "metric_rows": 2247,
+        "metric_labels": 31,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 일반전형(학생부 교과) 안성캠퍼스 표",
+            "sum_of_rows": 593,
+            "source_total": 593,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행 모집 593·지원 4,682·경쟁률 8.8 — 행 합계 모집 593·지원 4682 (지원 합계 일치)"
+          },
+          {
+            "scope": "SUSI 일반전형(학생부 교과) 평택캠퍼스 표",
+            "sum_of_rows": 61,
+            "source_total": 61,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행 모집 61·지원 427·경쟁률 7.2 — 행 합계 모집 61·지원 427 (지원 합계 일치)"
+          },
+          {
+            "scope": "SUSI 일반전형(학생부 종합)",
+            "sum_of_rows": 292,
+            "source_total": 292,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행 모집 292·지원 2,440·경쟁률 9.1 — 행 합계 모집 292·지원 2440 (지원 합계 일치)"
+          },
+          {
+            "scope": "SUSI 특수교육대상자(학생부 교과)",
+            "sum_of_rows": 80,
+            "source_total": 80,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행 모집 80·지원 243·경쟁률 3.3 — 행 합계 모집 80·지원 291 (지원 합계 불일치: 원문 243) — 모집인원 합계는 일치. 원문 소계의 지원인원(243)·경쟁률(3.3)이 원문 행 값의 합(291, 291/80=3.64)과 다르다(원문 자체 불일치, 행 값은 표 이미지와 대조해 원문 그대로 유지)."
+          },
+          {
+            "scope": "SUSI 지역균형",
+            "sum_of_rows": 30,
+            "source_total": 30,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행 모집 30·지원 166·경쟁률 5.0 — 행 합계 모집 30·지원 166 (지원 합계 일치)"
+          },
+          {
+            "scope": "SUSI 사회통합",
+            "sum_of_rows": 17,
+            "source_total": 17,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행 모집 17·지원 16·경쟁률 1.0 — 행 합계 모집 17·지원 16 (지원 합계 일치)"
+          },
+          {
+            "scope": "SUSI 정원외전형(특성화고교출신자·농어촌 학생·기초생활수급자 등)",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(모집인원 열 자체가 없음 — 전형별 '평균' 값만 있는 표)"
+          },
+          {
+            "scope": "JEONGSI 일반전형(수능위주) 안성 소계",
+            "sum_of_rows": 151,
+            "source_total": 151,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행 모집 151·지원 1176·경쟁률 10.7 — 행 합계 모집 151·지원 1176 (지원 합계 일치)"
+          },
+          {
+            "scope": "JEONGSI 일반전형(수능위주) 평택 소계",
+            "sum_of_rows": 20,
+            "source_total": 20,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행 모집 20·지원 205·경쟁률 10.4 — 행 합계 모집 20·지원 205 (지원 합계 일치)"
+          }
+        ],
+        "spot_checks": 33,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 6
+      },
+      {
+        "university_key": "u97",
+        "university_code": "U97",
+        "university_name": "대진대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "yongin",
+        "university_code": "YONGIN",
+        "university_name": "용인대학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 0
+        },
+        "rows": 0,
+        "base_rows": 0,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      }
+    ]
+  },
+  "prior_results_batch4_hold": {
+    "seed_files": [
+      {
+        "file": "data/seed/prior_2026_batch4_hold/ipsi_seed_prior_2026_01_karts.json",
+        "prior_results": 325,
+        "documents": 2,
+        "chars": 168702
+      }
+    ],
+    "result_year": 2026,
+    "academic_year": 2027,
+    "count": 325,
+    "documents": 2,
+    "universities_with_rows": 1,
+    "gaps": [
+      {
+        "university_code": "KARTS",
+        "university_name": "한국예술종합학교",
+        "item": "수시/정시 구분",
+        "reason": "한국예술종합학교는 고등교육법상 대학이 아닌 각종학교로, 대교협 수시·정시(가·나·다군) 체계 밖에서 자체 입시(8월·10월·11월입시 등)를 한다. 원문 결과표는 입시 시기도 수시/정시도 구분하지 않고 '전형구분'(일반/특별, 정원외는 교육기회균등/특수교육대상자/재외국민/외국인)만 준다. 빌드 스크립트가 round_type을 SUSI/JEONGSI만 받으므로 2027 모집요강 자료(univ_sample/karts_2027_jeongsi.json의 '정시 …(N월입시)' 전형명)와 같게 JEONGSI로 두었다 — 원문 표기가 아님. 사람이 분류를 확정할 필요가 있음.",
+        "url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1"
+      },
+      {
+        "university_code": "KARTS",
+        "university_name": "한국예술종합학교",
+        "item": "입시 시기(8월/10월/11월입시)별 결과",
+        "reason": "원문 표에 입시 시기 열이 없어 2027 전형명(정시 일반전형(10월입시) 등)과 연결할 수 없음.",
+        "url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1"
+      },
+      {
+        "university_code": "KARTS",
+        "university_name": "한국예술종합학교",
+        "item": "경쟁률·성적 지표",
+        "reason": "원문에 경쟁률 열과 성적(실기·내신 점수 등) 지표가 없음. 경쟁률을 지원÷정원으로 계산하지 않음(competition_rate 모두 null). 성적 결과는 입학처 통계자료 게시판에 없음.",
+        "url": "https://www.karts.ac.kr/cop/bbs/selectBoardList.do?bbsId=BBSMSTR_000000000008"
+      },
+      {
+        "university_code": "KARTS",
+        "university_name": "한국예술종합학교",
+        "item": "정원외 전형 모집인원",
+        "reason": "정원외 표에는 정원(모집인원) 열이 없어 recruit_count가 비어 있음(지원자·최종합격자만).",
+        "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=0&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956"
+      },
+      {
+        "university_code": "KARTS",
+        "university_name": "한국예술종합학교",
+        "item": "예술전문사(대학원) 과정",
+        "reason": "같은 게시글의 '2026 신입생 모집 지원 및 합격 현황(예술전문사 정원내).pdf'와 정원외 PDF 3쪽 예술전문사 표는 대학원 과정이라 받지 않거나 행으로 만들지 않음.",
+        "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=1&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956"
+      }
+    ],
+    "per_university": [
+      {
+        "university_key": "karts",
+        "university_code": "KARTS",
+        "university_name": "한국예술종합학교",
+        "documents": {
+          "SUSI": 0,
+          "JEONGSI": 2
+        },
+        "rows": 325,
+        "base_rows": 173,
+        "metric_rows": 152,
+        "metric_labels": 3,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 0,
+        "recruit_total_checks": [
+          {
+            "scope": "JEONGSI 정원내 음악원 소계",
+            "sum_of_rows": 133,
+            "source_total": 133,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '음악원 소계' 정원 133·지원자 1,408·최종 132·예비합격 설정인원 57·추가합격 인원 22 / 행 합계(병합 셀은 한 번만) 정원 133·지원자 1,408·최종 132·예비 57·추가 22 → 모두 일치"
+          },
+          {
+            "scope": "JEONGSI 정원내 연극원 소계",
+            "sum_of_rows": 85,
+            "source_total": 85,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '연극원 소계' 정원 85·지원자 7,459·최종 80·예비합격 설정인원 5·추가합격 인원 2 / 행 합계(병합 셀은 한 번만) 정원 85·지원자 7,459·최종 80·예비 5·추가 2 → 모두 일치"
+          },
+          {
+            "scope": "JEONGSI 정원내 영상원 소계",
+            "sum_of_rows": 105,
+            "source_total": 105,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '영상원 소계' 정원 105·지원자 3,035·최종 105·예비합격 설정인원 9·추가합격 인원 1 / 행 합계(병합 셀은 한 번만) 정원 105·지원자 3,035·최종 105·예비 9·추가 1 → 모두 일치"
+          },
+          {
+            "scope": "JEONGSI 정원내 무용원 소계",
+            "sum_of_rows": 60,
+            "source_total": 60,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '무용원 소계' 정원 60·지원자 409·최종 60·예비합격 설정인원 13·추가합격 인원 1 / 행 합계(병합 셀은 한 번만) 정원 60·지원자 409·최종 60·예비 13·추가 1 → 모두 일치"
+          },
+          {
+            "scope": "JEONGSI 정원내 미술원 소계",
+            "sum_of_rows": 90,
+            "source_total": 90,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '미술원 소계' 정원 90·지원자 1,771·최종 90·예비합격 설정인원 22·추가합격 인원 13 / 행 합계(병합 셀은 한 번만) 정원 90·지원자 1,771·최종 90·예비 22·추가 13 → 모두 일치"
+          },
+          {
+            "scope": "JEONGSI 정원내 전통예술원 소계",
+            "sum_of_rows": 85,
+            "source_total": 85,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '전통예술원 소계' 정원 85·지원자 459·최종 85·예비합격 설정인원 58·추가합격 인원 30 / 행 합계(병합 셀은 한 번만) 정원 85·지원자 459·최종 85·예비 58·추가 30 → 모두 일치"
+          },
+          {
+            "scope": "JEONGSI 정원내 총계(일반·특별·일반/특별 병합 행 전체)",
+            "sum_of_rows": 558,
+            "source_total": 558,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '총 계' 정원 558·지원자 14,541·최종 552·예비합격 설정인원 164·추가합격 인원 69 / 파일 행 합계 정원 558·지원자 14,541·최종 552·예비 164·추가 69 → 모두 일치"
+          },
+          {
+            "scope": "JEONGSI 정원외(예술사) 음악원 소계 — 지원자",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": 1,
+            "match": true,
+            "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '음악원 소계' 지원자 49·최종합격자 1와 행 합계 지원자 49·최종합격자 1 비교 → 일치"
+          },
+          {
+            "scope": "JEONGSI 정원외(예술사) 연극원 소계 — 지원자",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": 1,
+            "match": true,
+            "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '연극원 소계' 지원자 128·최종합격자 2와 행 합계 지원자 128·최종합격자 2 비교 → 일치"
+          },
+          {
+            "scope": "JEONGSI 정원외(예술사) 영상원 소계 — 지원자",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": 2,
+            "match": true,
+            "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '영상원 소계' 지원자 55·최종합격자 3와 행 합계 지원자 55·최종합격자 3 비교 → 일치"
+          },
+          {
+            "scope": "JEONGSI 정원외(예술사) 무용원 소계 — 지원자",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": 2,
+            "match": true,
+            "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '무용원 소계' 지원자 9·최종합격자 2와 행 합계 지원자 9·최종합격자 2 비교 → 일치"
+          },
+          {
+            "scope": "JEONGSI 정원외(예술사) 미술원 소계 — 지원자",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": 2,
+            "match": true,
+            "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '미술원 소계' 지원자 33·최종합격자 5와 행 합계 지원자 33·최종합격자 5 비교 → 일치"
+          },
+          {
+            "scope": "JEONGSI 정원외(예술사) 전통예술원 소계 — 지원자",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": 2,
+            "match": true,
+            "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '전통예술원 소계' 지원자 23·최종합격자 10와 행 합계 지원자 23·최종합격자 10 비교 → 일치"
+          },
+          {
+            "scope": "JEONGSI 정원외(예술사) 총계 — 지원자",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": 2,
+            "match": true,
+            "note": "원문 '총 계' 지원자 297·최종합격자 23 / 행 합계 지원자 297·최종합격자 23 → 일치"
+          }
+        ],
+        "spot_checks": 14,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      }
+    ]
   }
 }

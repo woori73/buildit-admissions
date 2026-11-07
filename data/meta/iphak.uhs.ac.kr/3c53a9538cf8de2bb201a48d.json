@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.uhs.ac.kr/susi/board/trnsfdcm/list.do?ci=susi",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.uhs.ac.kr/susi/board/trnsfdcm/list.do?ci=susi",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 22641,
+  "sha256": "52a5e09fa9dbef9074c25e3c2754d809e6ad87888feee3798e93f52b8026d35c",
+  "raw_path": "raw/iphak.uhs.ac.kr/52a5e09fa9dbef9074c25e3c2754d809.html",
+  "collected_at": "2026-11-07T13:39:31+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

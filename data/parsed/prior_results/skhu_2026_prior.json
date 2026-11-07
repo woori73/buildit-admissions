@@ -1,0 +1,33 @@
+{
+ "university_key": "skhu",
+ "university_name": "성공회대학교",
+ "university_code": "SKHU",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학 홈페이지(enter.skhu.ac.kr, 본교 대표 홈페이지 '대학 입학 홈페이지' 링크) robots.txt 확인 단계에서 TLS 오류(SSL WRONG_SIGNATURE_TYPE)로 판정 불가 — 요청하지 않음(2회 재시도, https·http 모두 같은 결과). 이전 수집 기록상 ipsi.skhu.ac.kr도 robots.txt 연결 끊김(connection reset)으로 판정 불가(이번에도 동일).",
+   "url": "https://enter.skhu.ac.kr/enter/index.do"
+  },
+  {
+   "item": "2026 수시·정시 경쟁률 언론 보도",
+   "reason": "언론(dhnews.co.kr) 수치는 규칙상 사용하지 않음. 검색 결과 링크만 기록.",
+   "url": "https://dhnews.co.kr/news/view/1065607578324950"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "본교 대표 홈페이지 https://www.skhu.ac.kr/ → https://www.skhu.ac.kr/introMain/index.html(robots 허용)의 '대학 입학 홈페이지' 링크로 입학처 주소를 확인. 대표 홈페이지에는 입시결과 메뉴가 없음. 입학처 robots 판정 불가로 입학처 페이지·첨부를 한 건도 받지 않음."
+ ]
+}

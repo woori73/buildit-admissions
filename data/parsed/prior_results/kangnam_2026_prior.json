@@ -1,0 +1,40 @@
+{
+ "university_key": "kangnam",
+ "university_name": "강남대학교",
+ "university_code": "KANGNAM",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "본교 홈페이지(www.kangnam.ac.kr, robots 허용)의 정적 링크 '입학처 홈페이지'·'전년도 대입전형결과'가 입학처(admission.kangnam.ac.kr)를 가리키나, 입학처 robots.txt가 'User-agent: * / Disallow: /'(HTTP 200)라 IpsiFetcher가 요청을 막음. 게시판·첨부 모두 미수집.",
+   "url": "https://admission.kangnam.ac.kr/robots.txt"
+  },
+  {
+   "item": "사람 확인 후보: 입학처 '전년도 대입전형결과' 게시글(내용 미확인)",
+   "reason": "본교 메인 페이지에 적힌 링크. robots 차단으로 자동 요청하지 않음. 사람이 열어 2026학년도 결과인지 확인 필요.",
+   "url": "https://admission.kangnam.ac.kr/iphak/jaryo.htm?bbsid=data_prev_year&ctg_cd=&page=1&skey=&keyword=&mode=view&bltn_seq=38471"
+  },
+  {
+   "item": "입학진단시스템(외부)",
+   "reason": "본교 메인 링크가 외부 대행사 도메인(consult.mncapro.co.kr)이라 요청·사용하지 않음.",
+   "url": "https://consult.mncapro.co.kr/solution/kangnamipsi/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "WebSearch('강남대학교 입학처 2026학년도 입시결과')에 공식 ac.kr 입학처 주소가 나오지 않아 본교 대표 홈페이지(https://www.kangnam.ac.kr/, robots 허용, HTTP 200)에서 '입학' 링크를 확인함.",
+  "입학처 robots.txt를 IpsiFetcher RobotsGate로 여러 번 확인: 매번 HTTP 200 'User-agent: * / Disallow: /'. (robots.txt 주소 자체를 직접 요청했을 때 한 번 404가 돌아온 적이 있으나 RobotsGate 판정은 일관되게 차단.) 입학처 페이지·첨부는 한 건도 받지 않음.",
+  "원서접수·경쟁률은 uwayapply.com(외부 대행사) 링크라 사용하지 않음."
+ ]
+}

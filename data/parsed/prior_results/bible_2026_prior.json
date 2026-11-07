@@ -1,0 +1,33 @@
+{
+ "university_key": "bible",
+ "university_name": "한국성서대학교",
+ "university_code": "BIBLE",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(ipsi.bible.ac.kr) robots.txt가 'User-agent: * / Disallow: *' 와 자동화 수집 금지 안내(서면 허가 없는 자동 수집 금지) — 우리 UA 차단. 2026-11-07 첫 확인 HTTP 200 차단, 재확인 시 연결 재설정(판정불가). 요청하지 않음.",
+   "url": "https://ipsi.bible.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학 첫 화면의 다른 입학안내 링크",
+   "reason": "www.bible.ac.kr(robots 허용) 첫 화면 '입학안내' 링크는 ipsi.bible.ac.kr(차단)와 www.bible.coursemos.work/ko/entrance(ac.kr 아닌 외부 도메인)뿐 — 외부 도메인은 따라가지 않음.",
+   "url": "http://www.bible.coursemos.work/ko/entrance"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "WebSearch '한국성서대학교 입학처 입시결과' 등 2회 — 공식 입학처 외에는 negagea.net(대행사 CDN) 모집요강 사본·사설 블로그만, 미사용."
+ ]
+}

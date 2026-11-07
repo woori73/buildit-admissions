@@ -1,0 +1,15 @@
+{
+  "url": "http://ltu-admission.ac.kr/board/bbs/board.php?bo_table=501&page=19",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "http://ltu-admission.ac.kr/board/bbs/board.php?bo_table=501&page=19",
+  "content_type": "text/html; charset=utf-8",
+  "size": 24647,
+  "sha256": "901bd8e9495606d43e75bba86b48cdca347215a7cb679a1dc0f7b4df150a1a69",
+  "raw_path": "raw/ltu-admission.ac.kr/901bd8e9495606d43e75bba86b48cdca.html",
+  "collected_at": "2026-11-07T13:41:12+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.hknu.ac.kr/result/result_viewer.php?b_code=B_1_8&b_no=5091",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.hknu.ac.kr/result/result_viewer.php?b_code=B_1_8&b_no=5091",
+  "content_type": "text/html; charset=utf-8",
+  "size": 998,
+  "sha256": "1b355389c7ab34acf7dc7624e1a1df5ef06bf440b783bc99b21f2352606c1f8f",
+  "raw_path": "raw/ipsi.hknu.ac.kr/1b355389c7ab34acf7dc7624e1a1df5e.html",
+  "collected_at": "2026-11-07T13:43:04+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/2200.php?pagetype=&bbs_idx=3309&pageno=1&pagekind=c&bbsid=regular_score&cafeid=&ref_code=&keyword=&keyfield=&category=&search_year=&search_month=&qstr=&c_pagesize=15&use_eng=&gopage=/fro_end/html/dep_02/2200.php?",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/2200.php?pagetype=&bbs_idx=3309&pageno=1&pagekind=c&bbsid=regular_score&cafeid=&ref_code=&keyword=&keyfield=&category=&search_year=&search_month=&qstr=&c_pagesize=15&use_eng=&gopage=/fro_end/html/dep_02/2200.php?",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 18125,
+  "sha256": "33324b53512a0ab8492c3bf2c4581d73241b557c18c737f031d30f6a4e48f673",
+  "raw_path": "raw/ipsi.shyu.ac.kr/33324b53512a0ab8492c3bf2c4581d73.html",
+  "collected_at": "2026-11-07T13:36:23+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

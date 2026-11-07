@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.stu.ac.kr/CmsHome/susi_03.eznic",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-07T13:37:37+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: https://ipsi.stu.ac.kr/robots.txt -> HTTP 200",
+  "verification_status": "COLLECTED"
+}

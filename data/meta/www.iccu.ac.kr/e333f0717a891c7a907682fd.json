@@ -1,0 +1,15 @@
+{
+  "url": "https://www.iccu.ac.kr/default.php",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.iccu.ac.kr/default.php",
+  "content_type": "text/html; charset=utf-8",
+  "size": 85871,
+  "sha256": "2263dd1771a7c9789335b4c64de504d1a894a6401e0fe7751f4f88fb68e9e602",
+  "raw_path": "raw/www.iccu.ac.kr/2263dd1771a7c9789335b4c64de504d1.html",
+  "collected_at": "2026-11-07T13:41:45+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

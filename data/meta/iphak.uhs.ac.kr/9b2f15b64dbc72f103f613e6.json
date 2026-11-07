@@ -1,0 +1,15 @@
+{
+  "url": "https://iphak.uhs.ac.kr/susi/board/trnsfsprt/detail.do?title=&ci=susi&pageNo=1&bbsNo=29991",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.uhs.ac.kr/susi/board/trnsfsprt/detail.do?title=&ci=susi&pageNo=1&bbsNo=29991",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 26257,
+  "sha256": "6bb3b471af0d449d1f3084e65eb9ac82c7524b92f3d5ba880ee550dfe53b0774",
+  "raw_path": "raw/iphak.uhs.ac.kr/6bb3b471af0d449d1f3084e65eb9ac82.html",
+  "collected_at": "2026-11-07T13:39:54+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

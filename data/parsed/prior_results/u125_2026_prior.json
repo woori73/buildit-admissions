@@ -1,0 +1,34 @@
+{
+ "university_key": "u125",
+ "university_name": "서울신학대학교",
+ "university_code": "U125",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(전년도 입시결과 메뉴)",
+   "reason": "대학 첫 화면(www.stu.ac.kr) '대학입학' 링크 → https://ipsi.stu.ac.kr . 입학처 robots.txt(HTTP 200)가 'User-agent: * / Disallow: /Cm / Disallow: /dbimage/' — 메뉴 '전년도 입시결과'(/CmsHome/susi_03.eznic, /CmsHome/jungsi_03.eznic)를 포함한 /CmsHome/ 전체가 우리 UA 차단. 요청하지 않음.",
+   "url": "https://ipsi.stu.ac.kr/CmsHome/susi_03.eznic"
+  },
+  {
+   "item": "정시 전년도 입시결과",
+   "reason": "위와 같은 robots 차단(/Cm 접두).",
+   "url": "https://ipsi.stu.ac.kr/CmsHome/jungsi_03.eznic"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청 IpsiFetcher. 받은 페이지: www.stu.ac.kr 첫 화면, ipsi.stu.ac.kr 첫 화면(경로 '/', robots 허용)뿐 — 수치 없음. 첫 시도에서 ipsi.stu.ac.kr robots.txt가 연결 재설정(판정불가)이었고, 다음 시도에서 HTTP 200으로 위 규칙 확인.",
+  "WebSearch '서울신학대학교 입학처 입시결과' 등 2회 — 공식 입학처 도메인 외 언론·사설(bherald, jinhak 등)만, 수치 미사용."
+ ]
+}
