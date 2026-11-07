@@ -5,9 +5,9 @@
  "result_year": 2026,
  "documents": [
   {
-   "document_key": "karts_2026_jeongsi_result",
+   "document_key": "karts_2026_result",
    "document_name": "2026학년도 신입생 모집 지원-합격자 현황 안내 (첨부: 2026 신입생 모집 지원 및 합격 현황(에술사 정원내).pdf — 2026학년도 예술사(대학)과정 신입생 모집 지원-합격자 현황 <정원내 일반/특별 전형>)",
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "institution_name": "한국예술종합학교 입학관리과",
    "source_page_url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1",
    "source_url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=2&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956",
@@ -17,9 +17,9 @@
    "pages": 2
   },
   {
-   "document_key": "karts_2026_jeongsi_result_2",
+   "document_key": "karts_2026_result_2",
    "document_name": "2026학년도 신입생 모집 지원-합격자 현황 안내 (첨부: 2026 신입생 모집 지원-합격 현황(정원외 진형).pdf — 2026학년도 신입생 모집 정원외 전형 지원-합격자 현황, 예술사(대학) 과정 부분만 사용)",
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "institution_name": "한국예술종합학교 입학관리과",
    "source_page_url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1",
    "source_url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=0&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956",
@@ -31,7 +31,7 @@
  ],
  "rows": [
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 소프라노(여)",
    "group": null,
@@ -43,13 +43,13 @@
    "applicant_count": 331,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 소프라노(여)",
    "group": null,
@@ -61,13 +61,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 메조소프라노(여)",
    "group": null,
@@ -79,13 +79,13 @@
    "applicant_count": 29,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 메조소프라노(여)",
    "group": null,
@@ -97,13 +97,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 카운터테너(남)",
    "group": null,
@@ -115,13 +115,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 테너(남)",
    "group": null,
@@ -133,13 +133,13 @@
    "applicant_count": 106,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 테너(남)",
    "group": null,
@@ -151,13 +151,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 바리톤(남)",
    "group": null,
@@ -169,13 +169,13 @@
    "applicant_count": 111,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 바리톤(남)",
    "group": null,
@@ -187,13 +187,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 베이스(남)",
    "group": null,
@@ -205,13 +205,13 @@
    "applicant_count": 38,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 베이스(남)",
    "group": null,
@@ -223,13 +223,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 피아노",
    "group": null,
@@ -241,13 +241,13 @@
    "applicant_count": 150,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 피아노",
    "group": null,
@@ -259,13 +259,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 피아노",
    "group": null,
@@ -277,13 +277,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 오르간",
    "group": null,
@@ -295,13 +295,13 @@
    "applicant_count": 14,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 오르간",
    "group": null,
@@ -313,13 +313,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 오르간",
    "group": null,
@@ -331,13 +331,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 하프시코드",
    "group": null,
@@ -349,13 +349,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "기악과 / 바이올린",
    "group": null,
@@ -367,13 +367,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 바이올린",
    "group": null,
@@ -385,13 +385,13 @@
    "applicant_count": 79,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 바이올린",
    "group": null,
@@ -403,13 +403,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 바이올린",
    "group": null,
@@ -421,13 +421,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 비올라",
    "group": null,
@@ -439,13 +439,13 @@
    "applicant_count": 24,
    "competition_rate": null,
    "extra_admitted_count": 2,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 비올라",
    "group": null,
@@ -457,13 +457,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 비올라",
    "group": null,
@@ -475,13 +475,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "기악과 / 첼로",
    "group": null,
@@ -493,13 +493,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "기악과 / 첼로",
    "group": null,
@@ -511,13 +511,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 첼로",
    "group": null,
@@ -529,13 +529,13 @@
    "applicant_count": 11,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 첼로",
    "group": null,
@@ -547,13 +547,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 첼로",
    "group": null,
@@ -565,13 +565,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 더블베이스",
    "group": null,
@@ -583,13 +583,13 @@
    "applicant_count": 29,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 더블베이스",
    "group": null,
@@ -601,13 +601,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 더블베이스",
    "group": null,
@@ -619,13 +619,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 하프",
    "group": null,
@@ -637,13 +637,13 @@
    "applicant_count": 5,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 하프",
    "group": null,
@@ -655,13 +655,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 기타",
    "group": null,
@@ -673,13 +673,13 @@
    "applicant_count": 23,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 기타",
    "group": null,
@@ -691,13 +691,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 기타",
    "group": null,
@@ -709,13 +709,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 리코더",
    "group": null,
@@ -727,13 +727,13 @@
    "applicant_count": 3,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 리코더",
    "group": null,
@@ -745,13 +745,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 오보에",
    "group": null,
@@ -763,13 +763,13 @@
    "applicant_count": 22,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 오보에",
    "group": null,
@@ -781,13 +781,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 오보에",
    "group": null,
@@ -799,13 +799,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 플루트",
    "group": null,
@@ -817,13 +817,13 @@
    "applicant_count": 35,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 플루트",
    "group": null,
@@ -835,13 +835,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 플루트",
    "group": null,
@@ -853,13 +853,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "기악과 / 플루트",
    "group": null,
@@ -871,13 +871,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "기악과 / 플루트",
    "group": null,
@@ -889,13 +889,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 클라리넷",
    "group": null,
@@ -907,13 +907,13 @@
    "applicant_count": 34,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 클라리넷",
    "group": null,
@@ -925,13 +925,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 클라리넷",
    "group": null,
@@ -943,13 +943,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "기악과 / 클라리넷",
    "group": null,
@@ -961,13 +961,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "기악과 / 클라리넷",
    "group": null,
@@ -979,13 +979,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 바순",
    "group": null,
@@ -997,13 +997,13 @@
    "applicant_count": 16,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 바순",
    "group": null,
@@ -1015,13 +1015,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 바순",
    "group": null,
@@ -1033,13 +1033,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 색소폰",
    "group": null,
@@ -1051,13 +1051,13 @@
    "applicant_count": 8,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 색소폰",
    "group": null,
@@ -1069,13 +1069,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 색소폰",
    "group": null,
@@ -1087,13 +1087,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 호른",
    "group": null,
@@ -1105,13 +1105,13 @@
    "applicant_count": 25,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 호른",
    "group": null,
@@ -1123,13 +1123,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 호른",
    "group": null,
@@ -1141,13 +1141,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 트럼펫",
    "group": null,
@@ -1159,13 +1159,13 @@
    "applicant_count": 52,
    "competition_rate": null,
    "extra_admitted_count": 2,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 트럼펫",
    "group": null,
@@ -1177,13 +1177,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 트럼펫",
    "group": null,
@@ -1195,13 +1195,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 트롬본(베이스트롬본포함)",
    "group": null,
@@ -1213,13 +1213,13 @@
    "applicant_count": 38,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 트롬본(베이스트롬본포함)",
    "group": null,
@@ -1231,13 +1231,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 트롬본(베이스트롬본포함)",
    "group": null,
@@ -1249,13 +1249,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 유포니움",
    "group": null,
@@ -1267,13 +1267,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 유포니움",
    "group": null,
@@ -1285,13 +1285,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 유포니움",
    "group": null,
@@ -1303,13 +1303,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 튜바",
    "group": null,
@@ -1321,13 +1321,13 @@
    "applicant_count": 20,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 튜바",
    "group": null,
@@ -1339,13 +1339,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 튜바",
    "group": null,
@@ -1357,13 +1357,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 타악기",
    "group": null,
@@ -1375,13 +1375,13 @@
    "applicant_count": 40,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 타악기",
    "group": null,
@@ -1393,13 +1393,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 타악기",
    "group": null,
@@ -1411,13 +1411,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "기악과 / 타악기",
    "group": null,
@@ -1429,13 +1429,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "기악과 / 타악기",
    "group": null,
@@ -1447,13 +1447,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "작곡과 / 작곡",
    "group": null,
@@ -1465,13 +1465,13 @@
    "applicant_count": 57,
    "competition_rate": null,
    "extra_admitted_count": 4,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "작곡과 / 작곡",
    "group": null,
@@ -1483,13 +1483,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "작곡과 / 작곡",
    "group": null,
@@ -1501,13 +1501,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "지휘과 / 오케스트라지휘",
    "group": null,
@@ -1519,13 +1519,13 @@
    "applicant_count": 12,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "지휘과 / 오케스트라지휘",
    "group": null,
@@ -1537,13 +1537,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "지휘과 / 합창지휘",
    "group": null,
@@ -1555,13 +1555,13 @@
    "applicant_count": 20,
    "competition_rate": null,
    "extra_admitted_count": 2,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "지휘과 / 합창지휘",
    "group": null,
@@ -1573,13 +1573,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "지휘과 / 합창지휘",
    "group": null,
@@ -1591,13 +1591,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악학과 / 음악학",
    "group": null,
@@ -1609,13 +1609,13 @@
    "applicant_count": 58,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악학과 / 음악학",
    "group": null,
@@ -1627,13 +1627,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악학과 / 음악학",
    "group": null,
@@ -1645,13 +1645,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연기과 / 연기(여)",
    "group": null,
@@ -1663,13 +1663,13 @@
    "applicant_count": 3558,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연기과 / 연기(여)",
    "group": null,
@@ -1681,13 +1681,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연기과 / 연기(남)",
    "group": null,
@@ -1699,13 +1699,13 @@
    "applicant_count": 2338,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연기과 / 연기(남)",
    "group": null,
@@ -1717,13 +1717,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연출과 / 연출",
    "group": null,
@@ -1735,13 +1735,13 @@
    "applicant_count": 237,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연출과 / 연출",
    "group": null,
@@ -1753,13 +1753,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "극작과 / 극작",
    "group": null,
@@ -1771,13 +1771,13 @@
    "applicant_count": 181,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "극작과 / 극작",
    "group": null,
@@ -1789,13 +1789,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "극작과 / 극작",
    "group": null,
@@ -1807,13 +1807,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "극작과 / 서사창작",
    "group": null,
@@ -1825,13 +1825,13 @@
    "applicant_count": 357,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "극작과 / 서사창작",
    "group": null,
@@ -1843,13 +1843,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "무대미술과 / 무대미술",
    "group": null,
@@ -1861,13 +1861,13 @@
    "applicant_count": 493,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "무대미술과 / 무대미술",
    "group": null,
@@ -1879,13 +1879,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연극학과 / 연극학",
    "group": null,
@@ -1897,13 +1897,13 @@
    "applicant_count": 67,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연극학과 / 연극학",
    "group": null,
@@ -1915,13 +1915,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연극학과 / 연극학",
    "group": null,
@@ -1933,13 +1933,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연극학과 / 예술경영",
    "group": null,
@@ -1951,13 +1951,13 @@
    "applicant_count": 228,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연극학과 / 예술경영",
    "group": null,
@@ -1969,13 +1969,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연극학과 / 예술경영",
    "group": null,
@@ -1987,13 +1987,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "애니메이션과 / 애니메이션",
    "group": null,
@@ -2005,13 +2005,13 @@
    "applicant_count": 605,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "애니메이션과 / 애니메이션",
    "group": null,
@@ -2023,13 +2023,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "애니메이션과 / 애니메이션",
    "group": null,
@@ -2041,13 +2041,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "애니메이션과 / 애니메이션",
    "group": null,
@@ -2059,13 +2059,13 @@
    "applicant_count": 22,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "애니메이션과 / 애니메이션",
    "group": null,
@@ -2077,13 +2077,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "영상이론과 / 영상이론",
    "group": null,
@@ -2095,13 +2095,13 @@
    "applicant_count": 58,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "영상이론과 / 영상이론",
    "group": null,
@@ -2113,13 +2113,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "영상이론과 / 영상이론",
    "group": null,
@@ -2131,13 +2131,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "영화과 / 영화",
    "group": null,
@@ -2149,13 +2149,13 @@
    "applicant_count": 1538,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "영화과 / 영화",
    "group": null,
@@ -2167,13 +2167,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "영화과 / 영화",
    "group": null,
@@ -2185,13 +2185,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "영화과 / 영화(외국어성적우수자)",
    "group": null,
@@ -2203,13 +2203,13 @@
    "applicant_count": 58,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "영화과 / 영화(외국어성적우수자)",
    "group": null,
@@ -2221,13 +2221,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "영화과 / 영화(영상예술특기자)",
    "group": null,
@@ -2239,13 +2239,13 @@
    "applicant_count": 22,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "영화과 / 영화(영상예술특기자)",
    "group": null,
@@ -2257,13 +2257,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "방송영상과 / 방송영상",
    "group": null,
@@ -2275,13 +2275,13 @@
    "applicant_count": 273,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "방송영상과 / 방송영상",
    "group": null,
@@ -2293,13 +2293,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "방송영상과 / 방송영상",
    "group": null,
@@ -2311,13 +2311,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "멀티미디어영상과 / 멀티미디어영상",
    "group": null,
@@ -2329,13 +2329,13 @@
    "applicant_count": 459,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "멀티미디어영상과 / 멀티미디어영상",
    "group": null,
@@ -2347,13 +2347,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "멀티미디어영상과 / 멀티미디어영상",
    "group": null,
@@ -2365,13 +2365,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "실기과 / 한국무용",
    "group": null,
@@ -2383,13 +2383,13 @@
    "applicant_count": 52,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "실기과 / 한국무용",
    "group": null,
@@ -2401,13 +2401,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "실기과 / 한국무용",
    "group": null,
@@ -2419,13 +2419,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "실기과 / 발레",
    "group": null,
@@ -2437,13 +2437,13 @@
    "applicant_count": 60,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "실기과 / 발레",
    "group": null,
@@ -2455,13 +2455,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "실기과 / 발레",
    "group": null,
@@ -2473,13 +2473,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "실기과 / 발레",
    "group": null,
@@ -2491,13 +2491,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "실기과 / 발레",
    "group": null,
@@ -2509,13 +2509,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "실기과 / 현대무용",
    "group": null,
@@ -2527,13 +2527,13 @@
    "applicant_count": 41,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "실기과 / 현대무용",
    "group": null,
@@ -2545,13 +2545,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "실기과 / 현대무용",
    "group": null,
@@ -2563,13 +2563,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "이론과 / 무용이론",
    "group": null,
@@ -2581,13 +2581,13 @@
    "applicant_count": 26,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "이론과 / 무용이론",
    "group": null,
@@ -2599,13 +2599,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "이론과 / 무용이론",
    "group": null,
@@ -2617,13 +2617,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "이론과 / 예술경영",
    "group": null,
@@ -2635,13 +2635,13 @@
    "applicant_count": 183,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "이론과 / 예술경영",
    "group": null,
@@ -2653,13 +2653,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "이론과 / 예술경영",
    "group": null,
@@ -2671,13 +2671,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "창작과 / 창작",
    "group": null,
@@ -2689,13 +2689,13 @@
    "applicant_count": 46,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "창작과 / 창작",
    "group": null,
@@ -2707,13 +2707,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "창작과 / 창작",
    "group": null,
@@ -2725,13 +2725,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "조형예술과 / 조형예술",
    "group": null,
@@ -2743,13 +2743,13 @@
    "applicant_count": 789,
    "competition_rate": null,
    "extra_admitted_count": 9,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "조형예술과 / 조형예술",
    "group": null,
@@ -2761,13 +2761,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "조형예술과 / 조형예술",
    "group": null,
@@ -2779,13 +2779,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "디자인과 / 디자인",
    "group": null,
@@ -2797,13 +2797,13 @@
    "applicant_count": 678,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "디자인과 / 디자인",
    "group": null,
@@ -2815,13 +2815,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "디자인과 / 디자인",
    "group": null,
@@ -2833,13 +2833,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "건축과 / 건축",
    "group": null,
@@ -2851,13 +2851,13 @@
    "applicant_count": 191,
    "competition_rate": null,
    "extra_admitted_count": 2,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "건축과 / 건축",
    "group": null,
@@ -2869,13 +2869,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "건축과 / 건축",
    "group": null,
@@ -2887,13 +2887,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "미술이론과 / 미술이론",
    "group": null,
@@ -2905,13 +2905,13 @@
    "applicant_count": 113,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "미술이론과 / 미술이론",
    "group": null,
@@ -2923,13 +2923,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "미술이론과 / 미술이론",
    "group": null,
@@ -2941,13 +2941,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "한국예술학과 / 한국예술학",
    "group": null,
@@ -2959,13 +2959,13 @@
    "applicant_count": 35,
    "competition_rate": null,
    "extra_admitted_count": 4,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "한국예술학과 / 한국예술학",
    "group": null,
@@ -2977,13 +2977,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "한국예술학과 / 한국예술학",
    "group": null,
@@ -2995,13 +2995,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/판소리",
    "group": null,
@@ -3013,13 +3013,13 @@
    "applicant_count": 53,
    "competition_rate": null,
    "extra_admitted_count": 2,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/판소리",
    "group": null,
@@ -3031,13 +3031,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/판소리",
    "group": null,
@@ -3049,13 +3049,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/정가",
    "group": null,
@@ -3067,13 +3067,13 @@
    "applicant_count": 10,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/정가",
    "group": null,
@@ -3085,13 +3085,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/정가",
    "group": null,
@@ -3103,13 +3103,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/민요",
    "group": null,
@@ -3121,13 +3121,13 @@
    "applicant_count": 22,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/민요",
    "group": null,
@@ -3139,13 +3139,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/민요",
    "group": null,
@@ -3157,13 +3157,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/가야금병창",
    "group": null,
@@ -3175,13 +3175,13 @@
    "applicant_count": 9,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/가야금병창",
    "group": null,
@@ -3193,13 +3193,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 성악/가야금병창",
    "group": null,
@@ -3211,13 +3211,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/가야금",
    "group": null,
@@ -3229,13 +3229,13 @@
    "applicant_count": 59,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/가야금",
    "group": null,
@@ -3247,13 +3247,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/가야금",
    "group": null,
@@ -3265,13 +3265,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/거문고",
    "group": null,
@@ -3283,13 +3283,13 @@
    "applicant_count": 32,
    "competition_rate": null,
    "extra_admitted_count": 3,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/거문고",
    "group": null,
@@ -3301,13 +3301,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/거문고",
    "group": null,
@@ -3319,13 +3319,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/대금",
    "group": null,
@@ -3337,13 +3337,13 @@
    "applicant_count": 33,
    "competition_rate": null,
    "extra_admitted_count": 2,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/대금",
    "group": null,
@@ -3355,13 +3355,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/대금",
    "group": null,
@@ -3373,13 +3373,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/피리",
    "group": null,
@@ -3391,13 +3391,13 @@
    "applicant_count": 26,
    "competition_rate": null,
    "extra_admitted_count": 2,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/피리",
    "group": null,
@@ -3409,13 +3409,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/피리",
    "group": null,
@@ -3427,13 +3427,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/해금",
    "group": null,
@@ -3445,13 +3445,13 @@
    "applicant_count": 47,
    "competition_rate": null,
    "extra_admitted_count": 6,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/해금",
    "group": null,
@@ -3463,13 +3463,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/해금",
    "group": null,
@@ -3481,13 +3481,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/아쟁",
    "group": null,
@@ -3499,13 +3499,13 @@
    "applicant_count": 15,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/아쟁",
    "group": null,
@@ -3517,13 +3517,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/아쟁",
    "group": null,
@@ -3535,13 +3535,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/타악",
    "group": null,
@@ -3553,13 +3553,13 @@
    "applicant_count": 13,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/타악",
    "group": null,
@@ -3571,13 +3571,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 기악/타악",
    "group": null,
@@ -3589,13 +3589,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "무용과 / 무용",
    "group": null,
@@ -3607,13 +3607,13 @@
    "applicant_count": 53,
    "competition_rate": null,
    "extra_admitted_count": 2,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "무용과 / 무용",
    "group": null,
@@ -3625,13 +3625,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "무용과 / 무용",
    "group": null,
@@ -3643,13 +3643,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연희과 / 연희/풍물",
    "group": null,
@@ -3661,13 +3661,13 @@
    "applicant_count": 31,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연희과 / 연희/풍물",
    "group": null,
@@ -3679,13 +3679,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연희과 / 연희/풍물",
    "group": null,
@@ -3697,13 +3697,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연희과 / 연희/탈춤",
    "group": null,
@@ -3715,13 +3715,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연희과 / 연희/탈춤",
    "group": null,
@@ -3733,13 +3733,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연희과 / 연희/무속",
    "group": null,
@@ -3751,13 +3751,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연희과 / 연희/전문예인집단",
    "group": null,
@@ -3769,13 +3769,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연희과 / 연희/전문예인집단",
    "group": null,
@@ -3787,13 +3787,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "한국음악작곡과 / 작곡",
    "group": null,
@@ -3805,13 +3805,13 @@
    "applicant_count": 16,
    "competition_rate": null,
    "extra_admitted_count": 6,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "한국음악작곡과 / 작곡",
    "group": null,
@@ -3823,13 +3823,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "한국음악작곡과 / 작곡",
    "group": null,
@@ -3841,13 +3841,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 모집단위 통합(소프라노(여)·메조소프라노(여))",
    "group": null,
@@ -3859,13 +3859,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": 4,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 모집단위 통합(소프라노(여)·메조소프라노(여))",
    "group": null,
@@ -3877,13 +3877,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 모집단위 통합(카운터테너(남)·테너(남)·바리톤(남)·베이스(남))",
    "group": null,
@@ -3895,13 +3895,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": 1,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "성악과 / 모집단위 통합(카운터테너(남)·테너(남)·바리톤(남)·베이스(남))",
    "group": null,
@@ -3913,13 +3913,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 모집단위 통합(오르간·하프시코드)",
    "group": null,
@@ -3931,13 +3931,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반/특별",
    "department_name": "기악과 / 바이올린",
    "group": null,
@@ -3949,13 +3949,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반/특별",
    "department_name": "기악과 / 첼로",
    "group": null,
@@ -3967,13 +3967,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "기악과 / 모집단위 통합(리코더·오보에)",
    "group": null,
@@ -3985,13 +3985,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반/특별",
    "department_name": "기악과 / 플루트",
    "group": null,
@@ -4003,13 +4003,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반/특별",
    "department_name": "기악과 / 클라리넷",
    "group": null,
@@ -4021,13 +4021,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반/특별",
    "department_name": "기악과 / 타악기",
    "group": null,
@@ -4039,13 +4039,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연기과 / 모집단위 통합(연기(여)·연기(남))",
    "group": null,
@@ -4057,13 +4057,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특별",
    "department_name": "영화과 / 모집단위 통합(영화(외국어성적우수자)·영화(영상예술특기자))",
    "group": null,
@@ -4075,13 +4075,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반/특별",
    "department_name": "실기과 / 발레",
    "group": null,
@@ -4093,13 +4093,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "음악과 / 모집단위 통합(성악/판소리·성악/정가·성악/민요·성악/가야금병창)",
    "group": null,
@@ -4111,13 +4111,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "일반",
    "department_name": "연희과 / 모집단위 통합(연희/풍물·연희/탈춤·연희/무속·연희/전문예인집단)",
    "group": null,
@@ -4129,13 +4129,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result",
+   "source_document_key": "karts_2026_result",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "성악과 / 소프라노(여)",
    "group": null,
@@ -4147,13 +4147,13 @@
    "applicant_count": 5,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "성악과 / 소프라노(여)",
    "group": null,
@@ -4165,13 +4165,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "성악과 / 메조소프라노(여)",
    "group": null,
@@ -4183,13 +4183,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "성악과 / 테너(남)",
    "group": null,
@@ -4201,13 +4201,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "성악과 / 테너(남)",
    "group": null,
@@ -4219,13 +4219,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "성악과 / 바리톤(남)",
    "group": null,
@@ -4237,13 +4237,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "성악과 / 바리톤(남)",
    "group": null,
@@ -4255,13 +4255,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "성악과 / 베이스(남)",
    "group": null,
@@ -4273,13 +4273,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "성악과 / 베이스(남)",
    "group": null,
@@ -4291,13 +4291,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "기악과 / 피아노",
    "group": null,
@@ -4309,13 +4309,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "기악과 / 바이올린",
    "group": null,
@@ -4327,13 +4327,13 @@
    "applicant_count": 3,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "기악과 / 바이올린",
    "group": null,
@@ -4345,13 +4345,13 @@
    "applicant_count": 3,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "기악과 / 비올라",
    "group": null,
@@ -4363,13 +4363,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "기악과 / 첼로",
    "group": null,
@@ -4381,13 +4381,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "기악과 / 첼로",
    "group": null,
@@ -4399,13 +4399,13 @@
    "applicant_count": 3,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "기악과 / 기타",
    "group": null,
@@ -4417,13 +4417,13 @@
    "applicant_count": 3,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "기악과 / 리코더",
    "group": null,
@@ -4435,13 +4435,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "기악과 / 리코더",
    "group": null,
@@ -4453,13 +4453,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "기악과 / 플루트",
    "group": null,
@@ -4471,13 +4471,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "기악과 / 플루트",
    "group": null,
@@ -4489,13 +4489,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "기악과 / 오보에",
    "group": null,
@@ -4507,13 +4507,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "기악과 / 클라리넷(베이스클라리넷포함)",
    "group": null,
@@ -4525,13 +4525,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "기악과 / 색소폰",
    "group": null,
@@ -4543,13 +4543,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "기악과 / 호른",
    "group": null,
@@ -4561,13 +4561,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "기악과 / 트럼펫",
    "group": null,
@@ -4579,13 +4579,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "기악과 / 트럼펫",
    "group": null,
@@ -4597,13 +4597,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "기악과 / 트롬본(베이스트롬본포함)",
    "group": null,
@@ -4615,13 +4615,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "기악과 / 타악기",
    "group": null,
@@ -4633,13 +4633,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "작곡과 / 작곡",
    "group": null,
@@ -4651,13 +4651,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "지휘과 / 오케스트라지휘",
    "group": null,
@@ -4669,13 +4669,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "연기과 / 연기(여)",
    "group": null,
@@ -4687,13 +4687,13 @@
    "applicant_count": 39,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "연기과 / 연기(여)",
    "group": null,
@@ -4705,13 +4705,13 @@
    "applicant_count": 9,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "연기과 / 연기(여)",
    "group": null,
@@ -4723,13 +4723,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "연기과 / 연기(남)",
    "group": null,
@@ -4741,13 +4741,13 @@
    "applicant_count": 27,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "연기과 / 연기(남)",
    "group": null,
@@ -4759,13 +4759,13 @@
    "applicant_count": 6,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "연기과 / 연기(남)",
    "group": null,
@@ -4777,13 +4777,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "연출과 / 연출",
    "group": null,
@@ -4795,13 +4795,13 @@
    "applicant_count": 5,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "극작과 / 극작",
    "group": null,
@@ -4813,13 +4813,13 @@
    "applicant_count": 8,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "극작과 / 극작",
    "group": null,
@@ -4831,13 +4831,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "극작과 / 서사창작",
    "group": null,
@@ -4849,13 +4849,13 @@
    "applicant_count": 18,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "극작과 / 서사창작",
    "group": null,
@@ -4867,13 +4867,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "극작과 / 서사창작",
    "group": null,
@@ -4885,13 +4885,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "무대미술과 / 무대미술",
    "group": null,
@@ -4903,13 +4903,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "무대미술과 / 무대미술",
    "group": null,
@@ -4921,13 +4921,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "연극학과 / 연극학",
    "group": null,
@@ -4939,13 +4939,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "연극학과 / 예술경영",
    "group": null,
@@ -4957,13 +4957,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     1
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "애니메이션과 / 애니메이션",
    "group": null,
@@ -4975,13 +4975,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "애니메이션과 / 애니메이션",
    "group": null,
@@ -4993,13 +4993,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "영상이론과 / 영상이론",
    "group": null,
@@ -5011,13 +5011,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "영화과 / 영화",
    "group": null,
@@ -5029,13 +5029,13 @@
    "applicant_count": 23,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "영화과 / 영화",
    "group": null,
@@ -5047,13 +5047,13 @@
    "applicant_count": 3,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "방송영상과 / 방송영상",
    "group": null,
@@ -5065,13 +5065,13 @@
    "applicant_count": 13,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "방송영상과 / 방송영상",
    "group": null,
@@ -5083,13 +5083,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "방송영상과 / 방송영상",
    "group": null,
@@ -5101,13 +5101,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "방송영상과 / 방송영상",
    "group": null,
@@ -5119,13 +5119,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "멀티미디어영상과 / 멀티미디어영상",
    "group": null,
@@ -5137,13 +5137,13 @@
    "applicant_count": 7,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "멀티미디어영상과 / 멀티미디어영상",
    "group": null,
@@ -5155,13 +5155,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "실기과 / 발레",
    "group": null,
@@ -5173,13 +5173,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "실기과 / 발레",
    "group": null,
@@ -5191,13 +5191,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "실기과 / 발레",
    "group": null,
@@ -5209,13 +5209,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "실기과 / 현대무용",
    "group": null,
@@ -5227,13 +5227,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "실기과 / 현대무용",
    "group": null,
@@ -5245,13 +5245,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "이론과 / 예술경영",
    "group": null,
@@ -5263,13 +5263,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "이론과 / 예술경영",
    "group": null,
@@ -5281,13 +5281,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "조형예술과 / 조형예술",
    "group": null,
@@ -5299,13 +5299,13 @@
    "applicant_count": 12,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "조형예술과 / 조형예술",
    "group": null,
@@ -5317,13 +5317,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "조형예술과 / 조형예술",
    "group": null,
@@ -5335,13 +5335,13 @@
    "applicant_count": 9,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "조형예술과 / 조형예술",
    "group": null,
@@ -5353,13 +5353,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "조형예술과 / 조형예술",
    "group": null,
@@ -5371,13 +5371,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "디자인과 / 디자인",
    "group": null,
@@ -5389,13 +5389,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "디자인과 / 디자인",
    "group": null,
@@ -5407,13 +5407,13 @@
    "applicant_count": 3,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "건축과 / 건축",
    "group": null,
@@ -5425,13 +5425,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "건축과 / 건축",
    "group": null,
@@ -5443,13 +5443,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "미술이론과 / 미술이론",
    "group": null,
@@ -5461,13 +5461,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "음악과 / 성악/판소리",
    "group": null,
@@ -5479,13 +5479,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "음악과 / 성악/판소리",
    "group": null,
@@ -5497,13 +5497,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "음악과 / 성악/판소리",
    "group": null,
@@ -5515,13 +5515,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "음악과 / 성악/판소리",
    "group": null,
@@ -5533,13 +5533,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "음악과 / 성악/판소리",
    "group": null,
@@ -5551,13 +5551,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "음악과 / 성악/판소리",
    "group": null,
@@ -5569,13 +5569,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "음악과 / 성악/가야금병창",
    "group": null,
@@ -5587,13 +5587,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "음악과 / 성악/가야금병창",
    "group": null,
@@ -5605,13 +5605,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "음악과 / 기악/가야금",
    "group": null,
@@ -5623,13 +5623,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "음악과 / 기악/가야금",
    "group": null,
@@ -5641,13 +5641,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "음악과 / 기악/피리",
    "group": null,
@@ -5659,13 +5659,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "음악과 / 기악/해금",
    "group": null,
@@ -5677,13 +5677,13 @@
    "applicant_count": 2,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "음악과 / 기악/해금",
    "group": null,
@@ -5695,13 +5695,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "음악과 / 기악/타악",
    "group": null,
@@ -5713,13 +5713,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "음악과 / 기악/타악",
    "group": null,
@@ -5731,13 +5731,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "무용과 / 무용",
    "group": null,
@@ -5749,13 +5749,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "특수교육대상자",
    "department_name": "무용과 / 무용",
    "group": null,
@@ -5767,13 +5767,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "연희과 / 연희/풍물",
    "group": null,
@@ -5785,13 +5785,13 @@
    "applicant_count": 4,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "연희과 / 연희/풍물",
    "group": null,
@@ -5803,13 +5803,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "연희과 / 연희/풍물",
    "group": null,
@@ -5821,13 +5821,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "재외국민/외국인",
    "department_name": "연희과 / 연희/풍물",
    "group": null,
@@ -5839,13 +5839,13 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "연희과 / 연희/탈춤",
    "group": null,
@@ -5857,13 +5857,13 @@
    "applicant_count": 1,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
   },
   {
-   "round_type": "JEONGSI",
+   "round_type": "OTHER",
    "type_name": "교육기회균등",
    "department_name": "연희과 / 연희/탈춤",
    "group": null,
@@ -5875,7 +5875,7 @@
    "applicant_count": null,
    "competition_rate": null,
    "extra_admitted_count": null,
-   "source_document_key": "karts_2026_jeongsi_result_2",
+   "source_document_key": "karts_2026_result_2",
    "evidence_pages": [
     2
    ]
@@ -5884,7 +5884,7 @@
  "verification": {
   "recruit_total_checks": [
    {
-    "scope": "JEONGSI 정원내 음악원 소계",
+    "scope": "OTHER 정원내 음악원 소계",
     "sum_of_rows": 133,
     "source_total": 133,
     "source_page": 1,
@@ -5892,7 +5892,7 @@
     "note": "원문 '음악원 소계' 정원 133·지원자 1,408·최종 132·예비합격 설정인원 57·추가합격 인원 22 / 행 합계(병합 셀은 한 번만) 정원 133·지원자 1,408·최종 132·예비 57·추가 22 → 모두 일치"
    },
    {
-    "scope": "JEONGSI 정원내 연극원 소계",
+    "scope": "OTHER 정원내 연극원 소계",
     "sum_of_rows": 85,
     "source_total": 85,
     "source_page": 1,
@@ -5900,7 +5900,7 @@
     "note": "원문 '연극원 소계' 정원 85·지원자 7,459·최종 80·예비합격 설정인원 5·추가합격 인원 2 / 행 합계(병합 셀은 한 번만) 정원 85·지원자 7,459·최종 80·예비 5·추가 2 → 모두 일치"
    },
    {
-    "scope": "JEONGSI 정원내 영상원 소계",
+    "scope": "OTHER 정원내 영상원 소계",
     "sum_of_rows": 105,
     "source_total": 105,
     "source_page": 2,
@@ -5908,7 +5908,7 @@
     "note": "원문 '영상원 소계' 정원 105·지원자 3,035·최종 105·예비합격 설정인원 9·추가합격 인원 1 / 행 합계(병합 셀은 한 번만) 정원 105·지원자 3,035·최종 105·예비 9·추가 1 → 모두 일치"
    },
    {
-    "scope": "JEONGSI 정원내 무용원 소계",
+    "scope": "OTHER 정원내 무용원 소계",
     "sum_of_rows": 60,
     "source_total": 60,
     "source_page": 2,
@@ -5916,7 +5916,7 @@
     "note": "원문 '무용원 소계' 정원 60·지원자 409·최종 60·예비합격 설정인원 13·추가합격 인원 1 / 행 합계(병합 셀은 한 번만) 정원 60·지원자 409·최종 60·예비 13·추가 1 → 모두 일치"
    },
    {
-    "scope": "JEONGSI 정원내 미술원 소계",
+    "scope": "OTHER 정원내 미술원 소계",
     "sum_of_rows": 90,
     "source_total": 90,
     "source_page": 2,
@@ -5924,7 +5924,7 @@
     "note": "원문 '미술원 소계' 정원 90·지원자 1,771·최종 90·예비합격 설정인원 22·추가합격 인원 13 / 행 합계(병합 셀은 한 번만) 정원 90·지원자 1,771·최종 90·예비 22·추가 13 → 모두 일치"
    },
    {
-    "scope": "JEONGSI 정원내 전통예술원 소계",
+    "scope": "OTHER 정원내 전통예술원 소계",
     "sum_of_rows": 85,
     "source_total": 85,
     "source_page": 2,
@@ -5932,7 +5932,7 @@
     "note": "원문 '전통예술원 소계' 정원 85·지원자 459·최종 85·예비합격 설정인원 58·추가합격 인원 30 / 행 합계(병합 셀은 한 번만) 정원 85·지원자 459·최종 85·예비 58·추가 30 → 모두 일치"
    },
    {
-    "scope": "JEONGSI 정원내 총계(일반·특별·일반/특별 병합 행 전체)",
+    "scope": "OTHER 정원내 총계(일반·특별·일반/특별 병합 행 전체)",
     "sum_of_rows": 558,
     "source_total": 558,
     "source_page": 2,
@@ -5940,7 +5940,7 @@
     "note": "원문 '총 계' 정원 558·지원자 14,541·최종 552·예비합격 설정인원 164·추가합격 인원 69 / 파일 행 합계 정원 558·지원자 14,541·최종 552·예비 164·추가 69 → 모두 일치"
    },
    {
-    "scope": "JEONGSI 정원외(예술사) 음악원 소계 — 지원자",
+    "scope": "OTHER 정원외(예술사) 음악원 소계 — 지원자",
     "sum_of_rows": null,
     "source_total": null,
     "source_page": 1,
@@ -5948,7 +5948,7 @@
     "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '음악원 소계' 지원자 49·최종합격자 1와 행 합계 지원자 49·최종합격자 1 비교 → 일치"
    },
    {
-    "scope": "JEONGSI 정원외(예술사) 연극원 소계 — 지원자",
+    "scope": "OTHER 정원외(예술사) 연극원 소계 — 지원자",
     "sum_of_rows": null,
     "source_total": null,
     "source_page": 1,
@@ -5956,7 +5956,7 @@
     "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '연극원 소계' 지원자 128·최종합격자 2와 행 합계 지원자 128·최종합격자 2 비교 → 일치"
    },
    {
-    "scope": "JEONGSI 정원외(예술사) 영상원 소계 — 지원자",
+    "scope": "OTHER 정원외(예술사) 영상원 소계 — 지원자",
     "sum_of_rows": null,
     "source_total": null,
     "source_page": 2,
@@ -5964,7 +5964,7 @@
     "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '영상원 소계' 지원자 55·최종합격자 3와 행 합계 지원자 55·최종합격자 3 비교 → 일치"
    },
    {
-    "scope": "JEONGSI 정원외(예술사) 무용원 소계 — 지원자",
+    "scope": "OTHER 정원외(예술사) 무용원 소계 — 지원자",
     "sum_of_rows": null,
     "source_total": null,
     "source_page": 2,
@@ -5972,7 +5972,7 @@
     "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '무용원 소계' 지원자 9·최종합격자 2와 행 합계 지원자 9·최종합격자 2 비교 → 일치"
    },
    {
-    "scope": "JEONGSI 정원외(예술사) 미술원 소계 — 지원자",
+    "scope": "OTHER 정원외(예술사) 미술원 소계 — 지원자",
     "sum_of_rows": null,
     "source_total": null,
     "source_page": 2,
@@ -5980,7 +5980,7 @@
     "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '미술원 소계' 지원자 33·최종합격자 5와 행 합계 지원자 33·최종합격자 5 비교 → 일치"
    },
    {
-    "scope": "JEONGSI 정원외(예술사) 전통예술원 소계 — 지원자",
+    "scope": "OTHER 정원외(예술사) 전통예술원 소계 — 지원자",
     "sum_of_rows": null,
     "source_total": null,
     "source_page": 2,
@@ -5988,7 +5988,7 @@
     "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '전통예술원 소계' 지원자 23·최종합격자 10와 행 합계 지원자 23·최종합격자 10 비교 → 일치"
    },
    {
-    "scope": "JEONGSI 정원외(예술사) 총계 — 지원자",
+    "scope": "OTHER 정원외(예술사) 총계 — 지원자",
     "sum_of_rows": null,
     "source_total": null,
     "source_page": 2,
@@ -5998,7 +5998,7 @@
   ],
   "spot_checks": [
    {
-    "document_key": "karts_2026_jeongsi_result",
+    "document_key": "karts_2026_result",
     "page": 1,
     "department": "기악과 / 피아노",
     "type_name": "일반",
@@ -6007,7 +6007,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result",
+    "document_key": "karts_2026_result",
     "page": 1,
     "department": "성악과 / 모집단위 통합(소프라노(여)·메조소프라노(여))",
     "type_name": "일반",
@@ -6016,7 +6016,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result",
+    "document_key": "karts_2026_result",
     "page": 1,
     "department": "성악과 / 소프라노(여)",
     "type_name": "일반",
@@ -6025,7 +6025,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result",
+    "document_key": "karts_2026_result",
     "page": 1,
     "department": "기악과 / 바이올린",
     "type_name": "일반/특별",
@@ -6034,7 +6034,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result",
+    "document_key": "karts_2026_result",
     "page": 1,
     "department": "연기과 / 연기(여)",
     "type_name": "일반",
@@ -6043,7 +6043,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result",
+    "document_key": "karts_2026_result",
     "page": 2,
     "department": "영화과 / 영화",
     "type_name": "일반",
@@ -6052,7 +6052,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result",
+    "document_key": "karts_2026_result",
     "page": 2,
     "department": "조형예술과 / 조형예술",
     "type_name": "일반",
@@ -6061,7 +6061,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result",
+    "document_key": "karts_2026_result",
     "page": 2,
     "department": "음악과 / 기악/해금",
     "type_name": "일반",
@@ -6070,7 +6070,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result_2",
+    "document_key": "karts_2026_result_2",
     "page": 1,
     "department": "성악과 / 베이스(남)",
     "type_name": "교육기회균등",
@@ -6079,7 +6079,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result_2",
+    "document_key": "karts_2026_result_2",
     "page": 1,
     "department": "연기과 / 연기(여)",
     "type_name": "교육기회균등",
@@ -6088,7 +6088,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result_2",
+    "document_key": "karts_2026_result_2",
     "page": 1,
     "department": "극작과 / 서사창작",
     "type_name": "교육기회균등",
@@ -6097,7 +6097,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result_2",
+    "document_key": "karts_2026_result_2",
     "page": 2,
     "department": "조형예술과 / 조형예술",
     "type_name": "재외국민/외국인",
@@ -6106,7 +6106,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result_2",
+    "document_key": "karts_2026_result_2",
     "page": 2,
     "department": "방송영상과 / 방송영상",
     "type_name": "교육기회균등",
@@ -6115,7 +6115,7 @@
     "match": true
    },
    {
-    "document_key": "karts_2026_jeongsi_result_2",
+    "document_key": "karts_2026_result_2",
     "page": 2,
     "department": "연희과 / 연희/풍물",
     "type_name": "교육기회균등",
@@ -6129,7 +6129,7 @@
  "gaps": [
   {
    "item": "수시/정시 구분",
-   "reason": "한국예술종합학교는 고등교육법상 대학이 아닌 각종학교로, 대교협 수시·정시(가·나·다군) 체계 밖에서 자체 입시(8월·10월·11월입시 등)를 한다. 원문 결과표는 입시 시기도 수시/정시도 구분하지 않고 '전형구분'(일반/특별, 정원외는 교육기회균등/특수교육대상자/재외국민/외국인)만 준다. 빌드 스크립트가 round_type을 SUSI/JEONGSI만 받으므로 2027 모집요강 자료(univ_sample/karts_2027_jeongsi.json의 '정시 …(N월입시)' 전형명)와 같게 JEONGSI로 두었다 — 원문 표기가 아님. 사람이 분류를 확정할 필요가 있음.",
+   "reason": "한국예술종합학교는 고등교육법상 대학이 아닌 각종학교로, 대교협 수시·정시(가·나·다군) 체계 밖에서 자체 입시(8월·10월·11월입시 등)를 한다. 원문 결과표는 입시 시기도 수시/정시도 구분하지 않고 '전형구분'(일반/특별, 정원외는 교육기회균등/특수교육대상자/재외국민/외국인)만 준다. 그래서 round_type은 OTHER(원문에 수시·정시 구분 없음)로 두었다(2026-11-07, 사용자 결정에 따라 정시로 바꾸지 않고 원문대로).",
    "url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1"
   },
   {
@@ -6155,7 +6155,7 @@
  ],
  "notes": [
   "모든 요청은 IpsiFetcher로 수행(robots 허용). 입학정보 메인(https://www.karts.ac.kr/main/appl.do)의 정적 링크 '통계자료'(bbsId=BBSMSTR_000000000008) → 게시글 '2026학년도 신입생 모집 지원-합격자 현황 안내'(nttNo=69956, 등록일 2026.04.08, 담당 입학관리과) → 첨부 링크(href에 완성된 FileDown.do 주소)로 PDF 2개를 받음. 원문은 data/raw/www.karts.ac.kr/1449ec05….pdf(정원내), dc74a2ba….pdf(정원외).",
-  "round_type: 원문에 수시/정시 구분이 없음. 2027 모집요강 자료와 같은 방식으로 JEONGSI로 둠(gaps 참고). type_name은 원문 '전형구분' 값 그대로: 정원내 '일반'/'특별', 정원외 '교육기회균등'/'특수교육대상자'/'재외국민/외국인'.",
+  "round_type: 원문에 수시/정시 구분이 없어 OTHER(수시·정시 구분 없음)로 둠. type_name은 원문 '전형구분' 값 그대로: 정원내 '일반'/'특별', 정원외 '교육기회균등'/'특수교육대상자'/'재외국민/외국인'.",
   "department_name: 원문 '학과'와 '세부모집' 두 열을 ' / '로 이음(예: '성악과 / 소프라노(여)', '음악과 / 기악/해금'). 세부모집 원문 표기는 그대로(정원내 '클라리넷', 정원외 '클라리넷(베이스클라리넷포함)'처럼 표마다 다름). '소속'(음악원 등) 열은 넣지 않음.",
   "지표 행(metric_unit OTHER, 원문 머리글 그대로): 정원내 '최종'(최종 합격 인원), '예비합격 설정인원'; 정원외 '최종합격자'. 정원내 '추가합격 인원'은 원문이 추가합격 인원이라 적었으므로 extra_admitted_count에 넣음. 빈칸은 0으로 채우지 않고 null(지표 행은 만들지 않음).",
   "병합 셀(쪽 이미지로 범위 확인): 같은 전형구분 안에서 여러 세부모집이 정원 한 칸을 같이 쓰면 개별 세부모집 행의 recruit_count는 비우고 '학과 / 모집단위 통합(세부모집·세부모집…)' 기본 행에 정원을 넣음 — 성악과 소프라노(여)·메조소프라노(여) 12(예비 6·추가 4도 병합), 성악과 카운터테너(남)·테너(남)·바리톤(남)·베이스(남) 13(예비 8·추가 1도 병합), 기악과 오르간·하프시코드 5, 기악과 리코더·오보에 4, 연기과 연기(여)·연기(남) 37, 영화과 영화(외국어성적우수자)·영화(영상예술특기자) 15(특별), 음악과 성악/판소리·정가·민요·가야금병창 9, 연희과 연희/풍물·탈춤·무속·전문예인집단 15.",

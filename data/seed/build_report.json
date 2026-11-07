@@ -12676,13 +12676,13 @@
       }
     ]
   },
-  "prior_results_batch4_hold": {
+  "prior_results_batch4_karts": {
     "seed_files": [
       {
-        "file": "data/seed/prior_2026_batch4_hold/ipsi_seed_prior_2026_01_karts.json",
+        "file": "data/seed/prior_2026_batch4_karts/ipsi_seed_prior_2026_01_karts.json",
         "prior_results": 325,
         "documents": 2,
-        "chars": 168702
+        "chars": 165470
       }
     ],
     "result_year": 2026,
@@ -12695,7 +12695,7 @@
         "university_code": "KARTS",
         "university_name": "한국예술종합학교",
         "item": "수시/정시 구분",
-        "reason": "한국예술종합학교는 고등교육법상 대학이 아닌 각종학교로, 대교협 수시·정시(가·나·다군) 체계 밖에서 자체 입시(8월·10월·11월입시 등)를 한다. 원문 결과표는 입시 시기도 수시/정시도 구분하지 않고 '전형구분'(일반/특별, 정원외는 교육기회균등/특수교육대상자/재외국민/외국인)만 준다. 빌드 스크립트가 round_type을 SUSI/JEONGSI만 받으므로 2027 모집요강 자료(univ_sample/karts_2027_jeongsi.json의 '정시 …(N월입시)' 전형명)와 같게 JEONGSI로 두었다 — 원문 표기가 아님. 사람이 분류를 확정할 필요가 있음.",
+        "reason": "한국예술종합학교는 고등교육법상 대학이 아닌 각종학교로, 대교협 수시·정시(가·나·다군) 체계 밖에서 자체 입시(8월·10월·11월입시 등)를 한다. 원문 결과표는 입시 시기도 수시/정시도 구분하지 않고 '전형구분'(일반/특별, 정원외는 교육기회균등/특수교육대상자/재외국민/외국인)만 준다. 그래서 round_type은 OTHER(원문에 수시·정시 구분 없음)로 두었다(2026-11-07, 사용자 결정에 따라 정시로 바꾸지 않고 원문대로).",
         "url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1"
       },
       {
@@ -12734,7 +12734,8 @@
         "university_name": "한국예술종합학교",
         "documents": {
           "SUSI": 0,
-          "JEONGSI": 2
+          "JEONGSI": 0,
+          "OTHER": 2
         },
         "rows": 325,
         "base_rows": 173,
@@ -12745,7 +12746,7 @@
         "linked_2027_department_rows": 0,
         "recruit_total_checks": [
           {
-            "scope": "JEONGSI 정원내 음악원 소계",
+            "scope": "OTHER 정원내 음악원 소계",
             "sum_of_rows": 133,
             "source_total": 133,
             "source_page": 1,
@@ -12753,7 +12754,7 @@
             "note": "원문 '음악원 소계' 정원 133·지원자 1,408·최종 132·예비합격 설정인원 57·추가합격 인원 22 / 행 합계(병합 셀은 한 번만) 정원 133·지원자 1,408·최종 132·예비 57·추가 22 → 모두 일치"
           },
           {
-            "scope": "JEONGSI 정원내 연극원 소계",
+            "scope": "OTHER 정원내 연극원 소계",
             "sum_of_rows": 85,
             "source_total": 85,
             "source_page": 1,
@@ -12761,7 +12762,7 @@
             "note": "원문 '연극원 소계' 정원 85·지원자 7,459·최종 80·예비합격 설정인원 5·추가합격 인원 2 / 행 합계(병합 셀은 한 번만) 정원 85·지원자 7,459·최종 80·예비 5·추가 2 → 모두 일치"
           },
           {
-            "scope": "JEONGSI 정원내 영상원 소계",
+            "scope": "OTHER 정원내 영상원 소계",
             "sum_of_rows": 105,
             "source_total": 105,
             "source_page": 2,
@@ -12769,7 +12770,7 @@
             "note": "원문 '영상원 소계' 정원 105·지원자 3,035·최종 105·예비합격 설정인원 9·추가합격 인원 1 / 행 합계(병합 셀은 한 번만) 정원 105·지원자 3,035·최종 105·예비 9·추가 1 → 모두 일치"
           },
           {
-            "scope": "JEONGSI 정원내 무용원 소계",
+            "scope": "OTHER 정원내 무용원 소계",
             "sum_of_rows": 60,
             "source_total": 60,
             "source_page": 2,
@@ -12777,7 +12778,7 @@
             "note": "원문 '무용원 소계' 정원 60·지원자 409·최종 60·예비합격 설정인원 13·추가합격 인원 1 / 행 합계(병합 셀은 한 번만) 정원 60·지원자 409·최종 60·예비 13·추가 1 → 모두 일치"
           },
           {
-            "scope": "JEONGSI 정원내 미술원 소계",
+            "scope": "OTHER 정원내 미술원 소계",
             "sum_of_rows": 90,
             "source_total": 90,
             "source_page": 2,
@@ -12785,7 +12786,7 @@
             "note": "원문 '미술원 소계' 정원 90·지원자 1,771·최종 90·예비합격 설정인원 22·추가합격 인원 13 / 행 합계(병합 셀은 한 번만) 정원 90·지원자 1,771·최종 90·예비 22·추가 13 → 모두 일치"
           },
           {
-            "scope": "JEONGSI 정원내 전통예술원 소계",
+            "scope": "OTHER 정원내 전통예술원 소계",
             "sum_of_rows": 85,
             "source_total": 85,
             "source_page": 2,
@@ -12793,7 +12794,7 @@
             "note": "원문 '전통예술원 소계' 정원 85·지원자 459·최종 85·예비합격 설정인원 58·추가합격 인원 30 / 행 합계(병합 셀은 한 번만) 정원 85·지원자 459·최종 85·예비 58·추가 30 → 모두 일치"
           },
           {
-            "scope": "JEONGSI 정원내 총계(일반·특별·일반/특별 병합 행 전체)",
+            "scope": "OTHER 정원내 총계(일반·특별·일반/특별 병합 행 전체)",
             "sum_of_rows": 558,
             "source_total": 558,
             "source_page": 2,
@@ -12801,7 +12802,7 @@
             "note": "원문 '총 계' 정원 558·지원자 14,541·최종 552·예비합격 설정인원 164·추가합격 인원 69 / 파일 행 합계 정원 558·지원자 14,541·최종 552·예비 164·추가 69 → 모두 일치"
           },
           {
-            "scope": "JEONGSI 정원외(예술사) 음악원 소계 — 지원자",
+            "scope": "OTHER 정원외(예술사) 음악원 소계 — 지원자",
             "sum_of_rows": null,
             "source_total": null,
             "source_page": 1,
@@ -12809,7 +12810,7 @@
             "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '음악원 소계' 지원자 49·최종합격자 1와 행 합계 지원자 49·최종합격자 1 비교 → 일치"
           },
           {
-            "scope": "JEONGSI 정원외(예술사) 연극원 소계 — 지원자",
+            "scope": "OTHER 정원외(예술사) 연극원 소계 — 지원자",
             "sum_of_rows": null,
             "source_total": null,
             "source_page": 1,
@@ -12817,7 +12818,7 @@
             "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '연극원 소계' 지원자 128·최종합격자 2와 행 합계 지원자 128·최종합격자 2 비교 → 일치"
           },
           {
-            "scope": "JEONGSI 정원외(예술사) 영상원 소계 — 지원자",
+            "scope": "OTHER 정원외(예술사) 영상원 소계 — 지원자",
             "sum_of_rows": null,
             "source_total": null,
             "source_page": 2,
@@ -12825,7 +12826,7 @@
             "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '영상원 소계' 지원자 55·최종합격자 3와 행 합계 지원자 55·최종합격자 3 비교 → 일치"
           },
           {
-            "scope": "JEONGSI 정원외(예술사) 무용원 소계 — 지원자",
+            "scope": "OTHER 정원외(예술사) 무용원 소계 — 지원자",
             "sum_of_rows": null,
             "source_total": null,
             "source_page": 2,
@@ -12833,7 +12834,7 @@
             "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '무용원 소계' 지원자 9·최종합격자 2와 행 합계 지원자 9·최종합격자 2 비교 → 일치"
           },
           {
-            "scope": "JEONGSI 정원외(예술사) 미술원 소계 — 지원자",
+            "scope": "OTHER 정원외(예술사) 미술원 소계 — 지원자",
             "sum_of_rows": null,
             "source_total": null,
             "source_page": 2,
@@ -12841,7 +12842,7 @@
             "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '미술원 소계' 지원자 33·최종합격자 5와 행 합계 지원자 33·최종합격자 5 비교 → 일치"
           },
           {
-            "scope": "JEONGSI 정원외(예술사) 전통예술원 소계 — 지원자",
+            "scope": "OTHER 정원외(예술사) 전통예술원 소계 — 지원자",
             "sum_of_rows": null,
             "source_total": null,
             "source_page": 2,
@@ -12849,7 +12850,7 @@
             "note": "정원외 표에 모집인원(정원) 열 없음(원문 합계 없음). 대신 원문 '전통예술원 소계' 지원자 23·최종합격자 10와 행 합계 지원자 23·최종합격자 10 비교 → 일치"
           },
           {
-            "scope": "JEONGSI 정원외(예술사) 총계 — 지원자",
+            "scope": "OTHER 정원외(예술사) 총계 — 지원자",
             "sum_of_rows": null,
             "source_total": null,
             "source_page": 2,

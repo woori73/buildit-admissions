@@ -37,7 +37,8 @@ REPORT = os.path.join(ROOT, "data", "seed", "build_report.json")
 
 RESULT_YEAR = 2026
 COUNSEL_YEAR = 2027  # 승격·검색 단위가 되는 상담 학년도
-ROUND_LABEL = {"SUSI": "수시", "JEONGSI": "정시"}
+# OTHER: 원문에 수시·정시 구분이 없는 학교(예: 한국예술종합학교 — 대교협 수시·정시 체계 밖 자체 입시)
+ROUND_LABEL = {"SUSI": "수시", "JEONGSI": "정시", "OTHER": "수시·정시 구분 없음(학교 자체 입시)"}
 
 # 원문 열이 '충원 인원'이 아니라 '마지막 예비번호'인 대학: extra_admitted_count → 이 이름의 지표 행으로 옮긴다.
 EXTRA_IS_RESERVE_RANK = {
@@ -153,7 +154,7 @@ def build(keys: list[str] | None):
                 "published_at": d.get("published_at"),
                 "evidence_pages": r.get("evidence_pages") or [],
             }
-            if r.get("round_type") not in ("SUSI", "JEONGSI") or not base["type_name"]:
+            if r.get("round_type") not in ROUND_LABEL or not base["type_name"]:
                 failures.append({"row_index": i, "reason": f"round_type/type_name 이상: {r.get('round_type')!r}/{r.get('type_name')!r}"})
                 continue
             if not base["source_url"]:
@@ -225,7 +226,8 @@ def build(keys: list[str] | None):
         per_univ.append({
             "university_key": key, "university_code": code, "university_name": name,
             "documents": {"SUSI": sum(1 for d in doc_map.values() if d[1]["round_type"] == "SUSI"),
-                          "JEONGSI": sum(1 for d in doc_map.values() if d[1]["round_type"] == "JEONGSI")},
+                          "JEONGSI": sum(1 for d in doc_map.values() if d[1]["round_type"] == "JEONGSI"),
+                          "OTHER": sum(1 for d in doc_map.values() if d[1]["round_type"] == "OTHER")},
             "rows": len(out_rows), "base_rows": len(base_rows), "metric_rows": len(out_rows) - len(base_rows),
             "metric_labels": len({r["metric_label"] for r in out_rows if r["metric_label"]}),
             "reserve_rank_moved_to_metric": moved,
