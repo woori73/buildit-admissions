@@ -1,0 +1,34 @@
+{
+ "university_key": "u97",
+ "university_name": "대진대학교",
+ "university_code": "U97",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(admission.daejin.ac.kr) robots.txt(HTTP 200)가 'User-agent: * / Disallow: /' — 전면 차단이라 https·http 모두 요청하지 않음.",
+   "url": "https://admission.daejin.ac.kr/robots.txt"
+  },
+  {
+   "item": "본교 대표 홈페이지 '입학' 경로",
+   "reason": "www.daejin.ac.kr robots.txt 요청이 연결 재설정(Connection reset by peer, 프록시 기록: 터널이 응답 없이 닫힘)으로 2회 실패 — robots 판정 불가로 요청하지 않음.",
+   "url": "https://www.daejin.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000097"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 했다(2026-11-07). 입학처 주소는 저장소의 2027 모집요강 수집본(official_publisher_url)에 적힌 https://admission.daejin.ac.kr 를 썼다(WebSearch 결과에는 공식 도메인이 나오지 않음).",
+  "페이지·첨부를 한 건도 받지 않았다. 수치 추측 없음 — rows는 빈 배열."
+ ]
+}

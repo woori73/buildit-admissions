@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/2100.php",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.shyu.ac.kr/fro_end/html/dep_02/2100.php",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 19384,
+  "sha256": "a4e2ecca89bb2c4b664b7ca4037fff9ff8d8d3582ebf5d0f1805f2b048645608",
+  "raw_path": "raw/ipsi.shyu.ac.kr/a4e2ecca89bb2c4b664b7ca4037fff9f.html",
+  "collected_at": "2026-11-07T13:35:50+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

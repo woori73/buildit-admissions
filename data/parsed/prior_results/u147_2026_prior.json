@@ -1,0 +1,30 @@
+{
+ "university_key": "u147",
+ "university_name": "안양대학교",
+ "university_code": "U147",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(enter.anyang.ac.kr) robots.txt(HTTP 200, text/plain)가 'User-agent: * / Disallow: /'(Yeti·Googlebot·Daum·bingbot 등 지정 봇만 Allow) — 전면 차단이라 https·http 모두 요청하지 않음.",
+   "url": "https://enter.anyang.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000147"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 했다(2026-11-07). 본교 대표 홈페이지(www.anyang.ac.kr, robots 허용)의 '입학안내'·'입학처' 링크가 모두 https://enter.anyang.ac.kr(또는 http)로 연결됨을 확인했고, 그 입학처가 robots로 막혀 있다. 본교 홈페이지에는 입시결과 게시 위치가 없어 더 조사하지 않았다.",
+  "시드 대학어디가 코드가 2개(0000147, 0000148)라 자료가 생기면 캠퍼스 구분 여부를 확인해야 한다.",
+  "페이지·첨부를 받지 않았다. 수치 추측 없음 — rows는 빈 배열."
+ ]
+}

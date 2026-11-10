@@ -1,0 +1,33 @@
+{
+ "university_key": "u177",
+ "university_name": "중앙승가대학교",
+ "university_code": "U177",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "본교 홈페이지(www.sangha.ac.kr/SANGHA/, robots 허용)의 입학안내(신입학·편입학·입학상담)와 학사공지사항 게시판 첫 쪽을 확인했으나 입시결과·경쟁률·충원 현황 게시물이 없음(입학안내는 2027 수시모집요강 첨부와 본문뿐, 공지는 합격자 공고·정시모집 요강 등). 별도 입학처 사이트 없음. 첨부 다운로드 링크도 javascript:goDown(...) 형식이라 스크립트 전용.",
+   "url": "https://www.sangha.ac.kr/SANGHA/?ACT=ADMISSION_FRESH&FOR"
+  },
+  {
+   "item": "학사공지사항 게시판",
+   "reason": "첫 쪽(2026-08~11월 게시물)만 확인. 이전 쪽은 확인하지 않음.",
+   "url": "https://www.sangha.ac.kr/SANGHA/?ACT=BOARD_NOTICE&FOR"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "대한불교조계종 종립 승가 교육기관으로 모집인원 60명(2027 수시 일반 46·특별 14) 규모. 입시결과를 공식 게시하지 않는 것으로 보이나 확인 범위는 위 두 쪽뿐. WebSearch에서 입학처 주소가 나오지 않아 본교 공식 도메인(www.sangha.ac.kr) 첫 화면에서 '입학안내' 링크를 따라감."
+ ]
+}

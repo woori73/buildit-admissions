@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.hknu.ac.kr/_common/new_download_file.php?menu=board&b_code=B_1_8&b_no=5090&field=file_nm",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.hknu.ac.kr/_common/new_download_file.php?menu=board&b_code=B_1_8&b_no=5090&field=file_nm",
+  "content_type": "application/octet-stream",
+  "size": 78985,
+  "sha256": "b0e07022fcb8d2fa1ac703a36e19f540a728d90c64115be3140c4571704dfa58",
+  "raw_path": "raw/ipsi.hknu.ac.kr/b0e07022fcb8d2fa1ac703a36e19f540.php",
+  "collected_at": "2026-11-07T13:37:42+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

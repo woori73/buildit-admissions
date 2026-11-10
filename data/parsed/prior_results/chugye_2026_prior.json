@@ -1,0 +1,35 @@
+{
+ "university_key": "chugye",
+ "university_name": "추계예술대학교",
+ "university_code": "CHUGYE",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 신편입학전형 경쟁률 현황(게시판 '[공지] 2026학년도 신편입학전형 경쟁률 현황', 작성일 2025-09-15)",
+   "reason": "스크립트로만 열림: 입시결과 게시판 목록의 제목 링크가 href=\"#\"이고 data-itsp-view-link 속성 값을 스크립트가 읽어 여는 방식이라 HTML에 완성된 게시글 주소가 없음. 주소를 조립하지 않아 열지 않음. 게시판 제목상 경쟁률·충원 현황만 있고 성적 지표 게시는 확인되지 않음.",
+   "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=128&dataSeq=497"
+  },
+  {
+   "item": "2026학년도 신편입학전형 충원합격 현황(게시판 '[공지] 2026학년도 신편입학전형 충원합격 현황', 작성일 2026-03-04, 첨부 있음 표시)",
+   "reason": "스크립트로만 열림(위와 같은 data-itsp-view-link 방식). 열지 않음.",
+   "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=128&dataSeq=497"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행(enter.chugye.ac.kr robots 허용). 입학 홈페이지 메뉴 '입시정보 > 입시결과'(ArticleList.do?menuSeq=128&dataSeq=497, 수시·정시·추가 메뉴의 '이전 지원현황'도 같은 게시판)에서 2026학년도 게시글 2건을 확인했으나 링크가 스크립트 전용이라 첨부를 받지 못함. 메인(main.do)의 '전년도 입시결과 바로가기'도 같은 목록으로 연결되고, 메인에 정적 BoardView 링크로 노출된 글(공지·자료실)에는 입시결과가 없음.",
+  "2027 수시 모집요강을 받은 출처(ArticleList.do?menuSeq=16&dataSeq=494&categorySeq=504)는 목록 화면에 PDF 링크가 정적으로 있는 형식이라 받을 수 있었으나, 입시결과 게시판은 게시글 본문을 따로 열어야 해서 같은 방법이 안 됨.",
+  "사람이 확인할 곳: 위 게시판의 '2026학년도 신편입학전형 경쟁률 현황'·'충원합격 현황' 글(첨부를 내려받아 data/raw에 넣으면 구조화 가능)."
+ ]
+}

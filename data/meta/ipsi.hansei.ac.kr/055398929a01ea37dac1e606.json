@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.hansei.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.hansei.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 120,
+  "sha256": "7bbc72ffc0292035fab39cd26ffa3d2d7483362cab4aafa4c2ad5b549c7005fd",
+  "raw_path": "raw/ipsi.hansei.ac.kr/7bbc72ffc0292035fab39cd26ffa3d2d.html",
+  "collected_at": "2026-11-07T13:37:41+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

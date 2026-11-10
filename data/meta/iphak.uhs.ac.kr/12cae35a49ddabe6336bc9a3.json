@@ -1,0 +1,15 @@
+{
+  "url": "http://iphak.uhs.ac.kr/susi/mojip.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://iphak.uhs.ac.kr/susi/mojip.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 24699,
+  "sha256": "f54dfa37b7c8545985fb4371b6849ebf58ab1341599fbcb02b95dc088cc0b6ef",
+  "raw_path": "raw/iphak.uhs.ac.kr/f54dfa37b7c8545985fb4371b6849ebf.html",
+  "collected_at": "2026-11-07T13:39:22+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

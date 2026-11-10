@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.stu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.stu.ac.kr/",
+  "content_type": "text/html;charset=utf-8",
+  "size": 53097,
+  "sha256": "487a2aced86d15e3d8ee4535b27868c9c6865cd30a69edfcea5c95f21520f125",
+  "raw_path": "raw/ipsi.stu.ac.kr/487a2aced86d15e3d8ee4535b27868c9.html",
+  "collected_at": "2026-11-07T13:35:53+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

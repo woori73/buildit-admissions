@@ -1,0 +1,46 @@
+{
+ "university_key": "mjunat",
+ "university_name": "명지대학교(자연캠퍼스)",
+ "university_code": "MJUNAT",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과(자연캠퍼스)",
+   "reason": "명지대 입학처(iphak.mju.ac.kr)는 인문·자연캠퍼스 공용이고 자연캠퍼스 별도 입시결과 게시판·정적 링크가 없음. 입시결과(수시) 게시판(robots 허용 경로 /pages)의 게시글 '2026학년도 수시모집 입시결과'(2026.05.04, 첨부 '파일' 표시)는 제목 링크가 javascript:js_board_view(30097) 함수 호출뿐이라 열지 않음(주소 조립 금지). 첨부 파일명·캠퍼스 구분 미확인",
+   "url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&cate=수시"
+  },
+  {
+   "item": "2026학년도 정시모집 입시결과(자연캠퍼스)",
+   "reason": "같은 게시판 정시 분류의 '2026학년도 정시모집 입시결과'(2026.05.04, 첨부 '파일' 표시)도 javascript:js_board_view(30098) 함수 호출뿐 — 스크립트로만 열림, 게시글·첨부 미확인",
+   "url": "https://iphak.mju.ac.kr/pages/?p=17&b=B_1_2&cate=정시"
+  },
+  {
+   "item": "2026학년도 수시·정시·추가모집 경쟁률",
+   "reason": "게시글 '2026학년도 수시모집 경쟁률'(2025.09.15, js_board_view(29535))·'2026학년도 정시모집 경쟁률'(2026.01.01, js_board_view(29837))·'2026학년도 추가모집 경쟁률'(2026.02.26, js_board_view(30024)) 모두 스크립트로만 열림",
+   "url": "https://iphak.mju.ac.kr/pages/?p=31&b=B_1_2"
+  },
+  {
+   "item": "첨부 파일 경로 전반",
+   "reason": "iphak.mju.ac.kr robots.txt가 'Disallow: / , Allow: /main, Allow: /pages'라 게시글을 열 수 있어도 /images·/_common 아래 첨부는 IpsiFetcher가 요청하지 않음(인문캠퍼스 mju 수집본과 같은 사유)",
+   "url": "https://iphak.mju.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000109"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 했다(2026-11-07). iphak.mju.ac.kr robots.txt HTTP 200 — /main·/pages만 허용.",
+  "입학처 메인(/main/)·입시결과 수시(p=11)·정시(p=17)·MJ자료실(p=61)·MJ입학처소식(p=57) 목록을 열어 '자연'·'2026'·'결과' 링크를 찾았으나 자연캠퍼스 전용 정적 링크는 없었다. 입시결과 게시글은 모두 javascript:js_board_view(번호) 링크라 인문캠퍼스(mju) 수집본과 같은 사유로 gaps만 남긴다.",
+  "사람이 위 게시판에서 두 게시글(30097·30098)을 열어 첨부를 내려받으면 수집할 수 있다. 원문이 인문·자연 캠퍼스를 한 파일에 담을 가능성이 있어, 넣을 때는 자연캠퍼스(용인) 모집단위만 골라야 한다.",
+  "제3자 출처(adiga.kr, 언론·학원 PDF 등)는 요청하지 않았다. 수치 추측 없음 — rows는 빈 배열."
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=2&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.karts.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000162208&fileSn=2&accAt=&bbsId=BBSMSTR_000000000008&trgetId=SYSTEM_DEFAULT_BOARD&nttId=69956",
+  "content_type": "application/pdf;charset=UTF-8",
+  "size": 65711,
+  "sha256": "1449ec05a22bc06a0914b5bc57cf998af84d8ccd869cf90acdeb7a58896b1b22",
+  "raw_path": "raw/www.karts.ac.kr/1449ec05a22bc06a0914b5bc57cf998a.pdf",
+  "collected_at": "2026-11-07T13:38:33+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,28 @@
+{
+ "university_key": "puts",
+ "university_name": "장로회신학대학교",
+ "university_code": "PUTS",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "http://www.puts.ac.kr/robots.txt -> HTTP 200, 'User-agent: * / Disallow: /'(Googlebot만 일부 경로 Allow) — 우리 UA 차단. https://www.puts.ac.kr/robots.txt는 SSL 핸드셰이크 실패(SSLV3_ALERT_HANDSHAKE_FAILURE)로 판정불가. 요청하지 않음(2026-11-07 IpsiFetcher 재확인).",
+   "url": "http://www.puts.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "WebSearch '장로회신학대학교 입학처 입시결과' 등 2회 — 결과에 입학처 별도 공식 도메인 없음(대학원 정보·순위 사이트·대행사 경쟁률 페이지만, 수치 미사용). 주소 추측 안 함."
+ ]
+}

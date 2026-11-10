@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=310",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=310",
+  "content_type": "text/html;charset=utf-8",
+  "size": 1026538,
+  "sha256": "6685e1041fdfde64ac93e493b87e82202589550ddf78f1e88b81dc2f80f0efc2",
+  "raw_path": "raw/www.cau.ac.kr/6685e1041fdfde64ac93e493b87e8220.html",
+  "collected_at": "2026-11-07T13:36:27+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

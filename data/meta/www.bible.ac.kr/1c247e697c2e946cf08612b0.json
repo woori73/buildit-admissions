@@ -1,0 +1,15 @@
+{
+  "url": "https://www.bible.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.bible.ac.kr/",
+  "content_type": "text/html; charset=utf-8",
+  "size": 60726,
+  "sha256": "0e10a8b9daacb012465acc7ce64140ee678a6e83c71f7086aeea2564d50a2c35",
+  "raw_path": "raw/www.bible.ac.kr/0e10a8b9daacb012465acc7ce64140ee.html",
+  "collected_at": "2026-11-07T13:35:09+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

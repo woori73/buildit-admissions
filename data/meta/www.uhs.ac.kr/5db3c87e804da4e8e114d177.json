@@ -1,0 +1,15 @@
+{
+  "url": "https://www.uhs.ac.kr/sites/uhs/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.uhs.ac.kr/sites/uhs/index.do",
+  "content_type": "text/html; charset=utf-8",
+  "size": 188505,
+  "sha256": "1ff1d96b468d07a01979bec8ed07a152442b0f7cf67109eb1139883d04576e84",
+  "raw_path": "raw/www.uhs.ac.kr/1ff1d96b468d07a01979bec8ed07a152.html",
+  "collected_at": "2026-11-07T13:39:12+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

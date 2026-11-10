@@ -1,0 +1,45 @@
+{
+ "university_key": "u207",
+ "university_name": "협성대학교",
+ "university_code": "U207",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2024~2026학년도 수시 입시결과(성적)",
+   "reason": "입학처 공지 '2024~2026학년도 수시 입시결과 확인 방법 안내'(2026.09.10)는 결과를 '성적산출계산기'에서만 확인하도록 안내한다. 입학처 메뉴의 '성적현황/성적산출계산기' 링크는 외부 도메인(cs.u-is.co.kr) 상담·계산 화면이라 사용하지 않음. 입학처에 입시결과 파일·표 게시 없음.",
+   "url": "https://iphak.uhs.ac.kr/ipsi/board/notice/detail.do?title=&ci=&pageNo=1&bbsNo=33413"
+  },
+  {
+   "item": "2026 수시 최종 경쟁률",
+   "reason": "입학처 '지원현황' 게시글(2025.11.17) 본문은 외부 대행사 링크(ratio.uwayapply.com)만 있어 수치를 쓰지 않음.",
+   "url": "https://iphak.uhs.ac.kr/susi/board/trnsfsprt/detail.do?title=&ci=susi&pageNo=1&bbsNo=29991"
+  },
+  {
+   "item": "2026학년도 정시 최종 경쟁률",
+   "reason": "입학처 '지원현황' 게시글(2026.02.12) 본문은 외부 대행사 링크(ratio.uwayapply.com)만 있어 수치를 쓰지 않음.",
+   "url": "https://iphak.uhs.ac.kr/jungsi/board/trnsfsprt/detail.do?title=&ci=jungsi&pageNo=1&bbsNo=31528"
+  },
+  {
+   "item": "2026학년도 정시 입시결과(성적)",
+   "reason": "입학처 정시 메뉴의 '성적현황'도 외부 도메인(cs.u-is.co.kr) 링크뿐이고 입시자료실(정시)에는 게시물이 없다.",
+   "url": "https://iphak.uhs.ac.kr/jungsi/board/trnsfdcm/list.do?ci=jungsi"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. iphak.uhs.ac.kr·www.uhs.ac.kr robots.txt HTTP 404(규칙 없음 = 허용).",
+  "입학처 주소는 이전 수집본(data/parsed/univ_sample/u207_2027_*.json)의 https://iphak.uhs.ac.kr 과 본교 대표 홈페이지(www.uhs.ac.kr/sites/uhs/index.do)의 '입학안내' 링크로 확인했다. iphak.uhs.ac.kr 루트는 스크립트로 외부(intro.uway.com)로 넘기므로, 대표 홈페이지에 적힌 입학처 하위 주소(/susi/mojip.do 등)에서 시작했다.",
+  "수시·정시 입시자료실(trnsfdcm)에는 2027 서류 양식만 있고, 지원현황(trnsfsprt) 게시판의 2026 경쟁률 글은 외부 링크뿐이다."
+ ]
+}

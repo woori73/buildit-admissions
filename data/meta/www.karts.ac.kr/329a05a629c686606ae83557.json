@@ -1,0 +1,15 @@
+{
+  "url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.karts.ac.kr/cop/bbs/selectBoardArticle.do?siteId=&sysTyCode=&nttNo=69956&noticeAt=N&bbsId=BBSMSTR_000000000008&pageIndex=1",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 39572,
+  "sha256": "fcbe1c2480c587f5301084cea8e7d8f9aaa9dac80d8645cc72fd2dc31d44316f",
+  "raw_path": "raw/www.karts.ac.kr/fcbe1c2480c587f5301084cea8e7d8f9.html",
+  "collected_at": "2026-11-07T13:38:22+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

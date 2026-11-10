@@ -1,0 +1,15 @@
+{
+  "url": "https://www.sangha.ac.kr/SANGHA/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.sangha.ac.kr/SANGHA/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 205650,
+  "sha256": "a38868d1045f17aa5f0733f47590cab3cff482a1a1e9281c365af2e781dfcf23",
+  "raw_path": "raw/www.sangha.ac.kr/a38868d1045f17aa5f0733f47590cab3.html",
+  "collected_at": "2026-11-07T13:37:45+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

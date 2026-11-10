@@ -1,0 +1,39 @@
+{
+ "university_key": "u233",
+ "university_name": "화성의과학대학교",
+ "university_code": "U233",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(성적·충원)",
+   "reason": "입학처(www.hsmu.ac.kr/admission) 메뉴는 모집요강·경쟁률·원서접수·합격자발표·공지사항뿐이고 입시결과 게시판이 없다. 공지사항 첫 쪽 목록에도 2026 입시결과 글이 없다(공지 글은 fn_goView 스크립트로만 열림).",
+   "url": "https://www.hsmu.ac.kr/admission/contents/AMS40100000.do"
+  },
+  {
+   "item": "2026학년도 수시모집 경쟁률",
+   "reason": "입학처 '경쟁률' 게시판(등록일 2025-09-08)의 '이동' 버튼이 외부 대행사 주소(addon.jinhakapply.com)로만 연결돼 수치를 쓰지 않음.",
+   "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio11880401.html"
+  },
+  {
+   "item": "2026학년도 정시모집 경쟁률",
+   "reason": "입학처 정시 '경쟁률' 게시판의 '이동' 버튼이 외부 대행사 주소로만 연결돼 수치를 쓰지 않음.",
+   "url": "http://addon.jinhakapply.com/RatioV1/RatioH/Ratio11880411.html"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. www.hsmu.ac.kr robots.txt 'User-agent:* Allow: /'.",
+  "입학처 시작 주소는 2027 수시 모집요강 수집본(data/parsed/susi_minimum/u233_2027_susi_minimum.json)의 https://www.hsmu.ac.kr/admission/contents/AMS10100000.do. 경쟁률 게시판(AMS10200000·AMS20200000)과 공지사항(AMS40100000) 첫 쪽만 확인했고, 공지 페이지 넘김·검색(스크립트/폼)은 하지 않았다 — 공지 뒤쪽에 입시결과 글이 있는지는 확인 못 함."
+ ]
+}

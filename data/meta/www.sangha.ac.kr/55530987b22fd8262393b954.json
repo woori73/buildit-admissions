@@ -1,0 +1,15 @@
+{
+  "url": "https://www.sangha.ac.kr/SANGHA/?ACT=ADMISSION_FRESH&FOR",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.sangha.ac.kr/SANGHA/?ACT=ADMISSION_FRESH&FOR",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 222317,
+  "sha256": "bc7c2d17d22bad70ce1fb1d05f180530f8359111b88cc1c7635c6fdf62f0c64a",
+  "raw_path": "raw/www.sangha.ac.kr/bc7c2d17d22bad70ce1fb1d05f180530.html",
+  "collected_at": "2026-11-07T13:37:35+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

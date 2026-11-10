@@ -1,0 +1,34 @@
+{
+ "university_key": "u168",
+ "university_name": "인천가톨릭대학교",
+ "university_code": "U168",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(admission.iccu.ac.kr) robots.txt가 'User-agent: * / Disallow: /'(전면 차단) — 요청하지 않음.",
+   "url": "https://admission.iccu.ac.kr/robots.txt"
+  },
+  {
+   "item": "본교 홈페이지 게시판",
+   "reason": "본교(www.iccu.ac.kr) robots.txt도 'Disallow: /'(/default.php만 Allow) — 메인(/default.php)만 열어 입학안내 링크(admission.iccu.ac.kr)를 확인했고 그 밖의 경로는 요청하지 않음.",
+   "url": "https://www.iccu.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. WebSearch 결과에 공식 입학처 도메인이 직접 나오지 않아(위키백과 문서만 나옴) 본교 대표 도메인(www.iccu.ac.kr, 알려진 주소)에서 시작했다. robots 허용 경로인 /default.php의 '입학안내' 링크가 http(s)://admission.iccu.ac.kr 이고, 이 호스트는 robots 전면 차단이라 페이지를 한 건도 받지 않았다.",
+  "시드 대학 코드 adiga_unvCd가 '0000168,0000167'(두 캠퍼스) — 자료가 생기면 캠퍼스(강화/송도) 구분 필요."
+ ]
+}

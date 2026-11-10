@@ -1,0 +1,35 @@
+{
+ "university_key": "caudavinci",
+ "university_name": "중앙대학교(다빈치캠퍼스)",
+ "university_code": "CAUDAVINCI",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(다빈치캠퍼스)",
+   "reason": "본교 홈페이지(www.cau.ac.kr, robots 허용)의 '입학 > 대학입학/입학처' 링크가 서울·다빈치캠퍼스 공통 입학처(admission.cau.ac.kr) 하나뿐. 입학처 robots.txt가 'User-agent: * / Disallow: /'(Googlebot 등만 개별 허용, http·https 모두 HTTP 200) — IpsiFetcher가 요청을 막음. 서울캠퍼스(cau_2026_prior.json)와 같은 사유.",
+   "url": "https://admission.cau.ac.kr/robots.txt"
+  },
+  {
+   "item": "사람 확인 후보 파일(입학처 도메인, 내용 미확인)",
+   "reason": "검색 결과에 나온 입학처 경로 PDF. 다빈치캠퍼스 모집단위 포함 여부·2026 결과인지 미확인. robots 차단으로 요청하지 않음.",
+   "url": "https://admission.cau.ac.kr/files/2026/2026_ss_bn.pdf ; https://admission.cau.ac.kr/files/2026/2026_js_bn.pdf"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "본교 www.cau.ac.kr 메인·입학 메뉴(MENU_ID=310) 페이지에서 다빈치캠퍼스 전용 입학처 링크 없음(다빈치 관련 링크는 상담센터·SW교육원·도서관뿐).",
+  "대학어디가·사설 자료(검색에 나온 negagea.net CDN의 중앙대 2026 수시입시결과 PDF 등)는 요청·사용하지 않음.",
+  "자료가 생기면 서울/다빈치 모집단위를 나눠 다빈치캠퍼스 단위만 이 파일에 넣어야 함."
+ ]
+}

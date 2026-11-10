@@ -1,0 +1,15 @@
+{
+  "url": "https://hansei.ac.kr/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://hansei.ac.kr/index.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 825359,
+  "sha256": "2e6f331532136d0a01fce3929a45d051ff29c6593eacd7ea2508678c0a1f187b",
+  "raw_path": "raw/hansei.ac.kr/2e6f331532136d0a01fce3929a45d051.html",
+  "collected_at": "2026-11-07T13:37:13+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

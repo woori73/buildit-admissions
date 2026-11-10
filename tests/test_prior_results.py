@@ -177,6 +177,31 @@ class BuildTest(unittest.TestCase):
             p.stop()
         self.tmp.cleanup()
 
+    def _rewrite_round(self, round_type):
+        path = os.path.join(builder.PRIOR_DIR, "u14_2026_prior.json")
+        src = json.load(open(path, encoding="utf-8"))
+        for x in src["documents"] + src["rows"]:
+            x["round_type"] = round_type
+        json.dump(src, open(path, "w", encoding="utf-8"), ensure_ascii=False)
+
+    def test_given_source_without_susi_jeongsi_split_when_built_then_other_round_is_kept_and_labeled(self):
+        # given: 원문에 수시·정시 구분이 없는 학교
+        self._rewrite_round("OTHER")
+        # when
+        seed, per = builder.build(None)
+        # then
+        self.assertEqual(per[0]["build_failures"], [])
+        self.assertEqual({r["round_type"] for r in seed["prior_results"]}, {"OTHER"})
+        self.assertIn("2026학년도 수시·정시 구분 없음(학교 자체 입시) 입시결과", seed["ipsi_documents"][0]["document_name"])
+        self.assertEqual(per[0]["documents"]["OTHER"], 1)
+
+    def test_given_unknown_round_when_built_then_build_stops(self):
+        # given
+        self._rewrite_round("ETC")
+        # when
+        with self.assertRaises(KeyError):
+            builder.build(None)
+
     def test_given_reserve_rank_university_when_built_then_rank_moves_to_metric_row_and_count_is_null(self):
         # given: 부산대는 '최종 추합 번호'가 충원 인원 칸에 들어온다
         # when

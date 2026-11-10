@@ -1,0 +1,15 @@
+{
+  "url": "https://www.uhs.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.uhs.ac.kr/",
+  "content_type": "text/html; charset=utf-8",
+  "size": 468,
+  "sha256": "9052fc324080ce85acac02a6d4cc2c2764f16746482ebddfa106341a1fb6064e",
+  "raw_path": "raw/www.uhs.ac.kr/9052fc324080ce85acac02a6d4cc2c27.html",
+  "collected_at": "2026-11-07T13:38:58+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

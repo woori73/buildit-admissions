@@ -8,7 +8,7 @@
   "size": 0,
   "sha256": null,
   "raw_path": null,
-  "collected_at": "2026-11-04T14:23:25+09:00",
+  "collected_at": "2026-11-07T13:35:04+09:00",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
   "error": "robots.txt disallows our UA: https://www.puts.ac.kr/robots.txt -> ERROR HTTPSConnectionPool(host='www.puts.ac.kr', port=443): Max retries exceeded with url: /robots.txt (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1035)')))",
   "verification_status": "COLLECTED"

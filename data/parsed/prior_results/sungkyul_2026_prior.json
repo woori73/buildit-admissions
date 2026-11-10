@@ -1,0 +1,34 @@
+{
+ "university_key": "sungkyul",
+ "university_name": "성결대학교",
+ "university_code": "SUNGKYUL",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "본교 대표 홈페이지 robots 판정 불가: https://www.sungkyul.ac.kr/robots.txt·https://sungkyul.ac.kr/robots.txt는 연결 재설정(ConnectionResetError 104), http://www.sungkyul.ac.kr/robots.txt·http://sungkyul.ac.kr/robots.txt는 HTTP 503 — RobotsGate가 '판정 불가 = 요청 안 함'으로 막음(시간 간격 두고 3회 이상 재시도, 결과 동일). 메인 페이지를 열지 못해 입학처 주소·게시판을 확인하지 못함.",
+   "url": "https://www.sungkyul.ac.kr/"
+  },
+  {
+   "item": "입학처 위치",
+   "reason": "WebSearch 3회('성결대학교 입학처 2026학년도 입시결과' 등)에 공식 ac.kr 입학처 주소가 나오지 않음(언론·대행사·사설 PDF만). 주소를 추측해 만들지 않아 입학처 사이트 자체를 확인하지 못함.",
+   "url": "https://www.sungkyul.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 페이지·첨부는 한 건도 받지 않음. 검색에 나온 사설 CDN(negagea.net)의 모집요강 PDF·진학사 등은 요청·사용하지 않음.",
+  "네트워크(프록시/서버) 사정으로 나중에 robots가 판정되면 다시 시도할 수 있음."
+ ]
+}

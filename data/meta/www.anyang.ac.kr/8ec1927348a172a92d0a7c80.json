@@ -1,0 +1,15 @@
+{
+  "url": "https://www.anyang.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.anyang.ac.kr/main/index.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 168724,
+  "sha256": "36c338504d75e20b1b1fce307291859cdd063501ac86504ca4ff40c91b72aaad",
+  "raw_path": "raw/www.anyang.ac.kr/36c338504d75e20b1b1fce307291859c.html",
+  "collected_at": "2026-11-07T13:39:24+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
