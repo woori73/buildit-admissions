@@ -1,0 +1,33 @@
+{
+ "university_key": "u64",
+ "university_name": "경일대학교",
+ "university_code": "U64",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "본교(www.kiu.ac.kr) robots.txt가 지정 검색봇(Naverbot·Googlebot·Yeti·Daumoa·bingbot)만 허용하고 'User-agent: * / Disallow: /'(전면 차단) — 메인을 포함해 페이지 요청하지 않음. 그래서 메인의 '입학' 링크로 입학처 주소를 확인하지 못했다.",
+   "url": "https://www.kiu.ac.kr/robots.txt"
+  },
+  {
+   "item": "입학 사이트(ipsi.kiu.ac.kr) 존재 여부",
+   "reason": "robots.txt 요청이 프록시 'Tunnel connection failed: 502'(호스트 연결 불가)로 판정 불가 — 요청하지 않음. 실제 입학처 주소인지도 확인 못 함.",
+   "url": "https://ipsi.kiu.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행(robots.txt만). WebSearch 결과에 공식 입학처 도메인이 나오지 않았고 2027 모집요강 수집본에도 official_publisher_url이 없다(대학어디가 첨부만)."
+ ]
+}

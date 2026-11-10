@@ -1,0 +1,15 @@
+{
+  "url": "https://www.daejeon.ac.kr/contents_new/contents_205.php",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.daejeon.ac.kr/contents_new/contents_205.php",
+  "content_type": "text/html; charset=utf-8",
+  "size": 28458,
+  "sha256": "0b6edc084760a89aa31348f63e961275764083822afa96fb1df58e00dff3e2f4",
+  "raw_path": "raw/www.daejeon.ac.kr/0b6edc084760a89aa31348f63e961275.html",
+  "collected_at": "2026-11-10T10:52:43+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

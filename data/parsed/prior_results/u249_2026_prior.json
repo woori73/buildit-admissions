@@ -1,0 +1,30 @@
+{
+ "university_key": "u249",
+ "university_name": "창신대학교",
+ "university_code": "U249",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0,
+  "note": "원문 자료 없음 — 대조·합계 검증 대상 없음(원문 합계 없음)."
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "WebSearch(cs.ac.kr 한정) 결과의 입학안내 홈페이지 admission.cs.ac.kr은 robots.txt 요청이 TLS 핸드셰이크 실패(SSLV3_ALERT_HANDSHAKE_FAILURE), www.cs.ac.kr·ipsi.cs.ac.kr은 인증서 검증 실패 → 모두 판정불가로 요청하지 않음.",
+   "url": "https://admission.cs.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000249&searchSyr=2026"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 원문 자료를 한 건도 받지 못해 rows=[]. adiga.kr·대행사·사설·언론 수치는 요청·사용하지 않음.",
+  "입학처 주소: WebSearch('창신대학교 입학', cs.ac.kr 한정) 결과. ipsi.cs.ac.kr/ratio/2027/1.do는 2027 수시 경쟁률(대상 학년도 아님)."
+ ]
+}

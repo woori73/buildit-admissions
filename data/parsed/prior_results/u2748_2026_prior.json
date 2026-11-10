@@ -1,0 +1,33 @@
+{
+ "university_key": "u2748",
+ "university_name": "가야대학교",
+ "university_code": "U2748",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "본교 홈페이지(www.kaya.ac.kr) robots.txt 판정불가 — https://는 연결 재설정(Connection reset, 에이전트 프록시 기록상 터널 종료), http://는 robots.txt HTTP 503. 여러 차례 재시도했으나 같아 요청하지 않음.",
+   "url": "https://www.kaya.ac.kr/robots.txt"
+  },
+  {
+   "item": "수시 경쟁률(외부)",
+   "reason": "검색 결과의 경쟁률 페이지는 외부 대행사 도메인(jinhakapply.com)이라 사용하지 않음.",
+   "url": "https://addon.jinhakapply.com/RatioV1/RatioH/Ratio10010591.html"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "WebSearch('가야대학교 입학처' 등 2회) 결과에 공식 입학처 도메인이 나오지 않아 본교 대표 홈페이지(www.kaya.ac.kr)에서 시작하려 했으나 robots 판정불가. kaya.ac.kr(www 없는 주소)도 1회 시도했으나 https 502·http 이름 해석 실패. 페이지는 한 건도 받지 않음."
+ ]
+}

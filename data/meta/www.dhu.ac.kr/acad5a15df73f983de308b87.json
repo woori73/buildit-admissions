@@ -1,0 +1,15 @@
+{
+  "url": "https://www.dhu.ac.kr/cmsware/bbs_download.php?mv_data=aWR4PTE1MDIwMjYmc3RhcnRQYWdlPTAmbGlzdE5vPTE0JnRhYmxlPWNzX2Jic19kYXRhJmNvZGU9bm90aWNlMDE5Jm5hdl9jb2RlPWliczE2MzY1MjAzNTcmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0=||&download=h&seq=0",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:48:45+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: https://www.dhu.ac.kr/robots.txt -> HTTP 200",
+  "verification_status": "COLLECTED"
+}

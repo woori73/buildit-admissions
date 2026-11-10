@@ -1,0 +1,43 @@
+{
+ "university_key": "u178",
+ "university_name": "백석대학교",
+ "university_code": "U178",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 없음)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0,
+  "competition_rate_recalc_mismatches": []
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(ipsi.bu.ac.kr) robots.txt가 'User-agent: * / Disallow: /'(Yeti·Googlebot·Daum·bingbot 등 지정 봇만 Allow) — https·http 모두 같음. 요청하지 않음.",
+   "url": "https://ipsi.bu.ac.kr/robots.txt"
+  },
+  {
+   "item": "대표 홈페이지에서 대체 출처 확인",
+   "reason": "www.bu.ac.kr(robots.txt HTTP 404)은 접속됨. 메인(/web/index.do)의 '입학'·'입시안내'·모집요강 링크는 모두 ipsi.bu.ac.kr로만 연결되고 대표 홈페이지 안에 입시결과 게시 위치 없음.",
+   "url": "https://www.bu.ac.kr/web/index.do"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 공개 자료",
+   "reason": "지시서 규칙상 요청하지 않음(미확인). 저장소의 2027 요강 수집본에 적힌 대학 상세 페이지 주소만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000178&searchSyr=2027"
+  }
+ ],
+ "notes": [
+  "입학처 robots 전면 차단으로 입시결과 페이지·첨부를 한 건도 받지 않음. 추측해 넣은 값 없음.",
+  "입학처 주소는 저장소 2027 수집본(official_publisher_url https://ipsi.bu.ac.kr)과 대표 홈페이지 링크로 확인."
+ ]
+}

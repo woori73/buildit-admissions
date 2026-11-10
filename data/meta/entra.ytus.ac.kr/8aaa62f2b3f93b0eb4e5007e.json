@@ -1,0 +1,15 @@
+{
+  "url": "http://entra.ytus.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "http://entra.ytus.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 30232,
+  "sha256": "b8077d2d6167f5bf9a67b39019f377f1b7369c1e6a71a6e5a6d24fcc35c29907",
+  "raw_path": "raw/entra.ytus.ac.kr/b8077d2d6167f5bf9a67b39019f377f1.html",
+  "collected_at": "2026-11-10T10:41:36+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

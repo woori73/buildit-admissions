@@ -1,0 +1,15 @@
+{
+  "url": "https://www.dcatholic.ac.kr/bbs/board.php?bo_table=admissions",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.dcatholic.ac.kr/bbs/board.php?bo_table=admissions",
+  "content_type": "text/html; charset=utf-8",
+  "size": 34914,
+  "sha256": "f79800ad5252f8fe05c775d7b07aef1c6945d9863afc86fa12a09041a132a086",
+  "raw_path": "raw/www.dcatholic.ac.kr/f79800ad5252f8fe05c775d7b07aef1c.html",
+  "collected_at": "2026-11-10T10:49:33+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

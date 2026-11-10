@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dgau.ac.kr/result",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dgau.ac.kr/result",
+  "content_type": "text/html; charset=utf-8",
+  "size": 40988,
+  "sha256": "f47c949cc33f5b307d72e637b906688b3aab91bbaa4568870dfcccd5580fa280",
+  "raw_path": "raw/ipsi.dgau.ac.kr/f47c949cc33f5b307d72e637b906688b.html",
+  "collected_at": "2026-11-10T10:45:58+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

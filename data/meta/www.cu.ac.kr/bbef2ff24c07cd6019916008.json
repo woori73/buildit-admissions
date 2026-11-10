@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cu.ac.kr",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.cu.ac.kr/index.php",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 234175,
+  "sha256": "e5dffc629a63f95d111cbef51849b89a49e421386fc1ca81b1ae3d513c60241b",
+  "raw_path": "raw/www.cu.ac.kr/e5dffc629a63f95d111cbef51849b89a.html",
+  "collected_at": "2026-11-10T10:40:46+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

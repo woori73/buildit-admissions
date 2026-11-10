@@ -1,0 +1,15 @@
+{
+  "url": "https://www.dhu.ac.kr/admission/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.dhu.ac.kr/admission/",
+  "content_type": "text/html; charset=utf-8",
+  "size": 72952,
+  "sha256": "c9fa6f6a1ce6d8fb38239fe28fea81dba2a178568d52d22ce7a0705aa06102ab",
+  "raw_path": "raw/www.dhu.ac.kr/c9fa6f6a1ce6d8fb38239fe28fea81db.html",
+  "collected_at": "2026-11-10T10:41:28+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

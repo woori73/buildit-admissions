@@ -1,0 +1,15 @@
+{
+  "url": "https://entra.ytus.ac.kr/content/11",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://entra.ytus.ac.kr/board/admissions_notice",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 39291,
+  "sha256": "14c32f2371c10f1c644773d93a91faf02a42da1a91f9bdf417655f5e9f368140",
+  "raw_path": "raw/entra.ytus.ac.kr/14c32f2371c10f1c644773d93a91faf0.html",
+  "collected_at": "2026-11-10T10:47:59+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

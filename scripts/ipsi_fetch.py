@@ -103,6 +103,53 @@ def _decoded_text(resp) -> str:
     return resp.text or ""
 
 
+def _rule_regex(pattern: str):
+    """RFC 9309 경로 패턴: '*'는 아무 문자열, 끝의 '$'는 경로 끝. 나머지는 앞부분 일치."""
+    end = pattern.endswith("$")
+    body = pattern[:-1] if end else pattern
+    rx = "".join(".*" if ch == "*" else re.escape(ch) for ch in body)
+    return re.compile("^" + rx + ("$" if end else ""))
+
+
+def wildcard_allowed(lines: list[str], url: str, user_agent: str = USER_AGENT) -> bool:
+    """robots.txt 규칙을 RFC 9309대로 판정한다(와일드카드 '*'·'$' 포함).
+
+    우리 UA 이름이 들어간 그룹이 있으면 그 그룹, 없으면 '*' 그룹의 규칙만 쓴다.
+    경로(쿼리 포함)에 맞는 규칙 중 패턴이 가장 긴 것이 이기고, 길이가 같으면 Allow가 이긴다.
+    urllib.robotparser는 '*'·'$'를 글자 그대로 비교해 '/*Board.do' 같은 규칙을 놓치므로 함께 쓴다.
+    """
+    token = user_agent.split("/")[0].split()[0].lower()
+    groups, cur, in_rules = [], None, False
+    for raw in lines:
+        line = raw.split("#", 1)[0].strip()
+        if ":" not in line:
+            continue
+        key, val = (x.strip() for x in line.split(":", 1))
+        key = key.lower()
+        if key == "user-agent":
+            if cur is None or in_rules:
+                cur = {"agents": [], "rules": []}
+                groups.append(cur)
+                in_rules = False
+            cur["agents"].append(val.lower())
+        elif key in ("allow", "disallow") and cur is not None:
+            in_rules = True
+            if val:
+                cur["rules"].append((key == "allow", val))
+    mine = [g for g in groups if any(a != "*" and a in token for a in g["agents"])]
+    chosen = mine or [g for g in groups if "*" in g["agents"]]
+    rules = [r for g in chosen for r in g["rules"]]
+    p = urlparse(url)
+    path = (p.path or "/") + (("?" + p.query) if p.query else "")
+    best = None
+    for allow, pat in rules:
+        if _rule_regex(pat).match(path):
+            key = (len(pat), allow)
+            if best is None or key > best:
+                best = key
+    return True if best is None else best[1]
+
+
 class RobotsGate:
     """호스트별 robots.txt 파싱·캐싱. 우리 UA 기준 allow/disallow 판정."""
 
@@ -112,6 +159,7 @@ class RobotsGate:
         self._cache: dict[str, Optional[robotparser.RobotFileParser]] = {}
         self._robots_url_cache: dict[str, str] = {}
         self._undetermined: set[str] = set()
+        self._lines: dict[str, list[str]] = {}
 
     @staticmethod
     def _origin(url: str) -> str:
@@ -134,6 +182,7 @@ class RobotsGate:
             resp = self._session.get(rurl, timeout=self._timeout, headers={"User-Agent": USER_AGENT})
             if resp.status_code == 200 and "text/plain" in (resp.headers.get("Content-Type", "") or ""):
                 rp.parse(resp.text.splitlines())
+                self._lines[host] = resp.text.splitlines()
             elif resp.status_code == 200:
                 # robots.txt가 HTML(=없음/404페이지)로 오는 경우 → 규칙 없음으로 취급하지만 기록
                 body = (resp.text or "")[:200].lower()
@@ -146,6 +195,7 @@ class RobotsGate:
                         self._undetermined.add(host)
                 else:
                     rp.parse(resp.text.splitlines())
+                    self._lines[host] = resp.text.splitlines()
             elif resp.status_code >= 500:
                 # 서버 오류(5xx) → robots.txt를 확인하지 못함 = 판정불가(RFC 9309: 전체 불허로 본다)
                 rp = None
@@ -167,7 +217,8 @@ class RobotsGate:
             # robots.txt가 없으면(404 등) 규칙 없음 = 허용. robots.txt 확인 자체가 실패(네트워크 오류·잘못된 리다이렉트)하면
             # 판정하지 못한 것이므로 요청하지 않는다(판정불가를 허용으로 간주하지 않음).
             return self._origin(url) not in self._undetermined
-        return rp.can_fetch(USER_AGENT, url)
+        # 둘 중 하나라도 막으면 요청하지 않는다(와일드카드 규칙은 robotparser가 보지 못함).
+        return rp.can_fetch(USER_AGENT, url) and wildcard_allowed(self._lines.get(self._origin(url), []), url)
 
     def note(self, url: str) -> str:
         host = self._origin(url)

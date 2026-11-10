@@ -1,0 +1,15 @@
+{
+  "url": "https://www.sunmoon.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.sunmoon.ac.kr/",
+  "content_type": "text/html",
+  "size": 650,
+  "sha256": "90dc34d0404eb532b3be372a77059a452b75686775b0eb16aae0e9846be0c2b5",
+  "raw_path": "raw/www.sunmoon.ac.kr/90dc34d0404eb532b3be372a77059a45.html",
+  "collected_at": "2026-11-10T10:45:04+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

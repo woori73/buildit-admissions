@@ -1,0 +1,15 @@
+{
+  "url": "https://www.kmou.ac.kr/ipsi/na/ntt/selectNttInfo.do?nttSn=10380590&mi=5887&currPage=1",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.kmou.ac.kr/ipsi/na/ntt/selectNttInfo.do?nttSn=10380590&mi=5887&currPage=1",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 61493,
+  "sha256": "9e509341868ffc7e5e518900889e2893fea67784ae5f2c3551111bf85f63f262",
+  "raw_path": "raw/www.kmou.ac.kr/9e509341868ffc7e5e518900889e2893.html",
+  "collected_at": "2026-11-10T10:42:21+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

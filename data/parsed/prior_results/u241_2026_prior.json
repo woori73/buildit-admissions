@@ -1,0 +1,28 @@
+{
+ "university_key": "u241",
+ "university_name": "김천대학교",
+ "university_code": "U241",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "본교 대표 홈페이지(www.gimcheon.ac.kr) robots.txt가 'User-agent: * / Disallow: /'(Yeti만 /_hamTool/ 외 허용) — 전면 차단, 요청하지 않음. http:// 쪽 robots.txt는 HTTP 503(판정불가). 입학처 별도 도메인은 검색 결과·링크로 확인하지 못함.",
+   "url": "https://www.gimcheon.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "WebSearch('김천대학교 입학처' 등 2회) 결과에 공식 입학처 도메인이 나오지 않아 본교 대표 홈페이지에서 시작하려 했으나 robots 전면 차단으로 페이지를 한 건도 받지 않음. 주소를 추측해 다른 하위 도메인을 요청하지 않았다."
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.ytus.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.ytus.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 3437,
+  "sha256": "fe439b2d8b503f51cecb78f9a9ffc6377f02763be04ad968c1cf014c6ba0c0e5",
+  "raw_path": "raw/www.ytus.ac.kr/fe439b2d8b503f51cecb78f9a9ffc637.html",
+  "collected_at": "2026-11-10T10:47:44+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dyu.ac.kr/wp-content/uploads/2026/06/동양대학교-2026학년도-수시모집-입시결과입학홈페이지.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dyu.ac.kr/wp-content/uploads/2026/06/%EB%8F%99%EC%96%91%EB%8C%80%ED%95%99%EA%B5%90-2026%ED%95%99%EB%85%84%EB%8F%84-%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91-%EC%9E%85%EC%8B%9C%EA%B2%B0%EA%B3%BC%EC%9E%85%ED%95%99%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80.pdf",
+  "content_type": "application/pdf",
+  "size": 73511,
+  "sha256": "d1e9b7c603e852057ddeeef62e66cef48da82fe60e60b6ed9f1e1bfec942afbc",
+  "raw_path": "raw/ipsi.dyu.ac.kr/d1e9b7c603e852057ddeeef62e66cef4.pdf",
+  "collected_at": "2026-11-10T10:41:25+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.kduniv.ac.kr/iphak/CMS/Contents/Contents.do?mCode=MN050",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.kduniv.ac.kr/iphak/CMS/Contents/Contents.do?mCode=MN050",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 169147,
+  "sha256": "18fe3c618da0fb3bccc533045270fba3defcd09242f039098e8c0875a3e0d597",
+  "raw_path": "raw/www.kduniv.ac.kr/18fe3c618da0fb3bccc533045270fba3.html",
+  "collected_at": "2026-11-10T10:52:54+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

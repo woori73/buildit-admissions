@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dyu.ac.kr/information/information_01/?pageid=5&mod=list",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dyu.ac.kr/information/information_01/?pageid=5&mod=list",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 190511,
+  "sha256": "e112841be86dc1a9b906320a4232eb6fd3f2bfed02df3430c6f56154705f361b",
+  "raw_path": "raw/ipsi.dyu.ac.kr/e112841be86dc1a9b906320a4232eb6f.html",
+  "collected_at": "2026-11-10T10:42:23+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cdu.ac.kr/robots.txt",
+  "ok": false,
+  "robots_allowed": true,
+  "http_status": 404,
+  "final_url": "https://www.cdu.ac.kr/robots.txt",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 2675,
+  "sha256": "2e03a3aaa783bc75c807b37f6bc4fc6cc4a1cb4156cba5b4bc7e6e413252981b",
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:48:28+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "HTTP 404",
+  "verification_status": "COLLECTED"
+}

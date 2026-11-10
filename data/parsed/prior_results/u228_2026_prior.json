@@ -1,0 +1,37 @@
+{
+ "university_key": "u228",
+ "university_name": "예수대학교",
+ "university_code": "U228",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 없음)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0,
+  "competition_rate_recalc_mismatches": []
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "대표 홈페이지(www.jesus.ac.kr, jesus.ac.kr) robots.txt가 HTTP 502/503(서버 오류) — 2026-11-10 01:2x~01:52(UTC) 사이 4차례 모두 같음. 판정 불가로 요청하지 않음. 별도 입학처 도메인은 확인하지 못함(검색 결과·2027 수집본에 없음, 추측하지 않음).",
+   "url": "https://www.jesus.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 공개 자료",
+   "reason": "지시서 규칙상 요청하지 않음(미확인). 저장소의 2027 요강 수집본에 적힌 대학 상세 페이지 주소만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000228&searchSyr=2027"
+  }
+ ],
+ "notes": [
+  "공식 도메인은 WebSearch 결과의 jesus.ac.kr 파일 링크(www.jesus.ac.kr/main/down/...)로 확인. 저장소 2027 수집본에는 official_publisher_url 없음(대학어디가 출처). 페이지·첨부를 한 건도 받지 않음. 추측해 넣은 값 없음."
+ ]
+}

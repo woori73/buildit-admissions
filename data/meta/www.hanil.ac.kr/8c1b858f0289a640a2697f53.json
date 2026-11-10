@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hanil.ac.kr/portal/ipsi/bbs/list.do?menuId=M0015000200010000",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hanil.ac.kr/portal/ipsi/bbs/list.do?menuId=M0015000200010000",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 36702,
+  "sha256": "e4643269ae441d5ac64f98336efbe2d835103a0a3171de96d3b1c31037fa5f08",
+  "raw_path": "raw/www.hanil.ac.kr/e4643269ae441d5ac64f98336efbe2d8.html",
+  "collected_at": "2026-11-10T10:42:41+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

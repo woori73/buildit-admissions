@@ -1,0 +1,30 @@
+{
+ "university_key": "u155",
+ "university_name": "영산선학대학교",
+ "university_code": "U155",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0,
+  "note": "원문 자료 없음 — 대조·합계 검증 대상 없음(원문 합계 없음)."
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "본교 홈페이지(youngsan.ac.kr, WebSearch 결과로 확인)의 robots.txt가 HTTP 403(규칙 없음으로 처리됨)이고 대표 페이지(https://youngsan.ac.kr/, https://www.youngsan.ac.kr/) 자체가 HTTP 403을 돌려줌. 첫 시도는 연결 재설정. 입학 메뉴·게시판을 볼 수 없어 미수집. (ysu.ac.kr은 영산대학교라 대상 아님)",
+   "url": "https://youngsan.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000155&searchSyr=2026"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 원문 자료를 한 건도 받지 못해 rows=[]. adiga.kr·대행사·사설·언론 수치는 요청·사용하지 않음.",
+  "대학 주소: WebSearch('영산선학대학교 입학안내 수시모집 원서접수') 결과의 '영산선학대학교 https://youngsan.ac.kr/'. 서버가 우리 요청에 403으로 응답해 페이지를 한 건도 받지 못함(User-Agent 변경 등 우회 안 함)."
+ ]
+}

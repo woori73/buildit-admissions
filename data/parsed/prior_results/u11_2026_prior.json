@@ -1,0 +1,35 @@
+{
+ "university_key": "u11",
+ "university_name": "국립목포대학교",
+ "university_code": "U11",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0,
+  "note": "원문 자료 없음 — 대조·합계 검증 대상 없음(원문 합계 없음)."
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "WebSearch(mokpo.ac.kr 한정) 결과의 입학처 '전년도 입시결과' 메뉴(ipsi.mokpo.ac.kr/ipsi/791/subview.do, www.mokpo.ac.kr/ipsi/809/subview.do)를 열려 했으나 robots.txt 요청이 TLS 인증서 검증 실패(unable to get local issuer certificate)로 판정불가 → 요청하지 않음. eng.mokpo.ac.kr도 같은 인증서 오류, mokpo.ac.kr은 연결 재설정·인증서 오류, http://ipsi.mokpo.ac.kr/robots.txt는 HTTP 503(판정불가).",
+   "url": "https://ipsi.mokpo.ac.kr/ipsi/791/subview.do"
+  },
+  {
+   "item": "입학처 robots.txt",
+   "reason": "판정불가(인증서 검증 실패). 사람이 브라우저로 '전년도 입시결과' 게시판의 2026학년도 첨부를 확인해야 함.",
+   "url": "https://ipsi.mokpo.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000011&searchSyr=2026"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 원문 자료를 한 건도 받지 못해 rows=[]. adiga.kr·대행사·사설·언론 수치는 요청·사용하지 않음.",
+  "입학처 주소: WebSearch('국립목포대학교 입학 입시결과', mokpo.ac.kr 한정) 결과의 ipsi.mokpo.ac.kr·www.mokpo.ac.kr/sites/ipsi. 검색 결과에 '통합대학 첫 입학식'(2026.3) 언론 기사가 있으나 통합 범위·모집단위 변화는 확인하지 않음(언론 수치 미사용)."
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dyu.ac.kr/jeongsi/jeongsi_03/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dyu.ac.kr/jeongsi/jeongsi_03/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 185053,
+  "sha256": "0bf159eab69496e5d415718e247ed1dbf7a5c04bf956efb46e66cf2734d62d11",
+  "raw_path": "raw/ipsi.dyu.ac.kr/0bf159eab69496e5d415718e247ed1db.html",
+  "collected_at": "2026-11-10T10:41:27+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

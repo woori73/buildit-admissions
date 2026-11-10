@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.kornu.ac.kr/robots.txt",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.kornu.ac.kr/robots.txt",
+  "content_type": "text/plain;charset=utf-8",
+  "size": 26,
+  "sha256": "133e4db054e73a10017a1f429c80c35cd5bfa9c3a1aba581b364ecc459c48a4b",
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:45:41+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

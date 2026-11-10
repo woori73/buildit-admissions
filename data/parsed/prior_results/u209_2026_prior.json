@@ -1,0 +1,42 @@
+{
+ "university_key": "u209",
+ "university_name": "호남신학대학교",
+ "university_code": "U209",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 없음)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0,
+  "competition_rate_recalc_mismatches": []
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처 https://ipsi.htus.ac.kr/robots.txt가 'user-agent: * / disallow: /'(전면 차단). http://ipsi.htus.ac.kr는 robots.txt 요청이 연결 재설정(판정 불가). 요청하지 않음.",
+   "url": "https://ipsi.htus.ac.kr/robots.txt"
+  },
+  {
+   "item": "대표 홈페이지(www.htus.ac.kr)",
+   "reason": "https·http 모두 robots.txt 요청이 'Connection reset by peer' — 판정 불가로 요청하지 않음(두 차례 시도).",
+   "url": "https://www.htus.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 공개 자료",
+   "reason": "지시서 규칙상 요청하지 않음(미확인). 저장소의 2027 요강 수집본에 적힌 대학 상세 페이지 주소만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000209&searchSyr=2027"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 저장소 2027 수집본(official_publisher_url http://ipsi.htus.ac.kr). 페이지·첨부를 한 건도 받지 않음. 추측해 넣은 값 없음."
+ ]
+}

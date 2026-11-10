@@ -1,0 +1,15 @@
+{
+  "url": "https://www.dhu.ac.kr/admission/sub.htm?nav_code=ibs1636520357",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.dhu.ac.kr/admission/sub.htm?nav_code=ibs1636520357",
+  "content_type": "text/html; charset=utf-8",
+  "size": 57847,
+  "sha256": "9688e27b964142fbaea0e6e579b5727de70860446b40a1f89c2b4ea9936bd4f9",
+  "raw_path": "raw/www.dhu.ac.kr/9688e27b964142fbaea0e6e579b5727d.html",
+  "collected_at": "2026-11-10T10:48:01+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

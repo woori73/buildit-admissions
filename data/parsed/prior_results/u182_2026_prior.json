@@ -1,0 +1,30 @@
+{
+ "university_key": "u182",
+ "university_name": "한국침례신학대학교",
+ "university_code": "U182",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0,
+  "note": "원문 자료 없음 — 대조·합계 검증 대상 없음(원문 합계 없음)."
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(ipsi.kbtus.ac.kr)와 본교(www.kbtus.ac.kr) robots.txt 모두 'User-agent: * / Disallow: / … Allow: /$'(루트 페이지만 허용, 게시판 Board.do 명시 차단) — 요청하지 않음.",
+   "url": "https://ipsi.kbtus.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000182&searchSyr=2026"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 원문 자료를 한 건도 받지 못해 rows=[]. adiga.kr·대행사·사설·언론 수치는 요청·사용하지 않음.",
+  "입학처 주소: WebSearch('침례신학대학교 입학', kbtus.ac.kr 한정) 결과의 https://ipsi.kbtus.ac.kr/ipsi/Main.do. robots 차단으로 Main.do도 요청하지 않음."
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "university_key": "u33",
+ "university_name": "국립한국해양대학교",
+ "university_code": "U33",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집(전체) 지원현황 첨부",
+   "reason": "입학처 수시모집>입시결과>지원현황 페이지에 '2026학년도 수시모집(전체) 지원현황' 다운로드 링크가 있으나 주소가 /common/nttFileDownload.do 이고 www.kmou.ac.kr robots.txt가 'Disallow: /common/' — 요청하지 않음.",
+   "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3312&cntntsId=2248"
+  },
+  {
+   "item": "2026학년도 수시모집 성적현황 첨부",
+   "reason": "수시모집>입시결과>성적현황 페이지의 '2026학년도 수시모집 성적현황' 다운로드도 /common/ 경로라 robots 차단 — 요청하지 않음.",
+   "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3313&cntntsId=2249"
+  },
+  {
+   "item": "2026학년도 정시모집(전체) 지원현황 첨부",
+   "reason": "정시모집>입시결과>지원현황 페이지의 다운로드도 /common/ 경로라 robots 차단 — 요청하지 않음.",
+   "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3328&cntntsId=2250"
+  },
+  {
+   "item": "2026학년도 정시모집 성적현황 첨부",
+   "reason": "정시모집>입시결과>성적현황 페이지의 다운로드도 /common/ 경로라 robots 차단 — 요청하지 않음.",
+   "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3329&cntntsId=2251"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 로그인·POST·AJAX·UA 변경 없음.",
+  "입학처는 www.kmou.ac.kr/ipsi/ (본교 첫 화면의 입시 공지 링크로 진입). 입시결과 4개 페이지(수시·정시 × 지원현황·성적현황)는 HTTP 404 상태로 응답하지만 본문에는 2026학년도 자료 안내와 다운로드 링크가 있다(본문 확인은 같은 요청의 응답으로 함, 추가 요청 없음). 페이지 본문에는 수치 표가 없고 첨부 파일로만 제공. 첨부 주소가 robots 'Disallow: /common/' 아래라 받지 않았다 — 자료는 있으나 수집 불가. 사람이 내려받아 넣을지 결정 필요."
+ ]
+}

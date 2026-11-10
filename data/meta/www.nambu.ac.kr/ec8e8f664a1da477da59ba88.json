@@ -1,0 +1,15 @@
+{
+  "url": "https://www.nambu.ac.kr",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.nambu.ac.kr/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 11404,
+  "sha256": "990e0e00869d40e01f68907bc430dcf33934b238d9a04090dc13ca2e5f4a4bb0",
+  "raw_path": "raw/www.nambu.ac.kr/990e0e00869d40e01f68907bc430dcf3.html",
+  "collected_at": "2026-11-10T10:42:40+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

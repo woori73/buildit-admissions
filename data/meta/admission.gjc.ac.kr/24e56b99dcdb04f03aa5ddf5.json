@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.gjc.ac.kr/sub/?mode=notice",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.gjc.ac.kr/sub/?mode=notice",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 39469,
+  "sha256": "7d259358f26895a67f058e0739d6aeae6e25f39894e714fbc80cd312302cb060",
+  "raw_path": "raw/admission.gjc.ac.kr/7d259358f26895a67f058e0739d6aeae.html",
+  "collected_at": "2026-11-10T10:46:55+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

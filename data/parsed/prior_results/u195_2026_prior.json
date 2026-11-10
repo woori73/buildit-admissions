@@ -1,0 +1,40 @@
+{
+ "university_key": "u195",
+ "university_name": "한남대학교",
+ "university_code": "U195",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 입시결과 게시글",
+   "reason": "입학처 '전년도입시결과'(수시) 목록에 게시글이 있으나 링크가 href='javascript://' + onclick=viewBoardProcess('21941')로만 열림(스크립트로만 열림). JS 인자로 주소를 조립하지 않는다는 규칙에 따라 요청하지 않음.",
+   "url": "https://ibsi.hannam.ac.kr/adms5/occasional/1_3.asp"
+  },
+  {
+   "item": "2026학년도 정시모집 일반전형 입시결과 게시글",
+   "reason": "정시 '전년도입시결과' 목록 링크가 href='#' + onclick=viewBoardProcess('21957')로만 열림(스크립트로만 열림).",
+   "url": "https://ibsi.hannam.ac.kr/adms5/procedure/3_3.asp"
+  },
+  {
+   "item": "입시자료실(수시·정시)",
+   "reason": "2026 입시결과 정적 링크 없음(2016~2017 경쟁률 게시글만, 역시 onclick 전용).",
+   "url": "https://ibsi.hannam.ac.kr/adms5/occasional/1_4.asp"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소: 본교 대표 홈페이지(http://www.hannam.ac.kr → meta refresh '/kor/main')의 '입학정보' 링크로 https://ibsi.hannam.ac.kr/adms5/intro/index.asp 확인, 메뉴 '전년도입시결과'(수시 /adms5/occasional/1_3.asp, 정시 /adms5/procedure/3_3.asp)를 열었다(robots 허용). 첫 시도에서 www.hannam.ac.kr robots.txt 연결이 끊겨(Connection reset) 판정불가였고 http:// 주소로 다시 시도해 허용 판정 후 진행.",
+  "주의: www.hannam.ac.kr에서 meta refresh를 따르기 전에 '/kor/main/page.html'을 한 번 요청했다(링크에 없던 주소, 144바이트 응답, 입시결과 아님·수치 미사용).",
+  "입학처 메인(/adms5/main/)·공지사항(/adms5/intoschool/5_1.asp)에도 2026 수시·정시 입시결과 게시글의 정적 링크는 없었다(편입학 2026 입시결과 게시글만 정적 링크 — 신입학 대상 아님). 사람이 게시글(번호 21941·21957)을 열어 첨부를 내려받으면 수집 가능."
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "university_key": "u224",
+ "university_name": "금강대학교",
+ "university_code": "U224",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 신입학 입시결과",
+   "reason": "입학 홈페이지(ggu.ac.kr/matriculation, robots 허용) 입학자료실 '입시결과' 게시판(입시통계 메뉴도 같은 게시판)의 최신 글이 '2025학년도 신입학 입시결과'(2025-03-11)이며 2026학년도 글이 없음(2쪽 목록, 2016~2025만). 입학 공지사항 1쪽에도 2026 입시결과 글 없음(2026 수시·정시·추가모집 모집요강, 2027 모집요강 등만).",
+   "url": "https://ggu.ac.kr/matriculation/sub030101"
+  },
+  {
+   "item": "입학 공지사항",
+   "reason": "2026학년도 입시결과 게시글 없음(2026-11-10 확인).",
+   "url": "https://ggu.ac.kr/matriculation/sub0401"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 로그인·POST·AJAX·UA 변경 없음.",
+  "입학 홈페이지는 본교 메인(https://ggu.ac.kr/)의 '금강대학교 입시 홈페이지 바로가기' 링크로 찾음. 2026학년도 결과는 아직 게시되지 않은 것으로 보임(2025학년도 결과는 2025-03 게시). 2025 이하 자료는 대상이 아니라 받지 않음."
+ ]
+}

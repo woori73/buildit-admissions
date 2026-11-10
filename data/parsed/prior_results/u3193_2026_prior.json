@@ -1,0 +1,34 @@
+{
+ "university_key": "u3193",
+ "university_name": "영산대학교",
+ "university_code": "U3193",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입학전형결과(입학 사이트 '입학전형결과' 게시판)",
+   "reason": "게시판 주소가 /ipsi/CMS/Board/Board.do?mCode=MN023 인데 ipsi.ysu.ac.kr·www.ysu.ac.kr robots.txt가 'Disallow: /*Board.do'(모든 Board.do 게시판), 'Disallow: /downloadRun.do'·'/_UPLOAD'(첨부)를 막음 — 게시판·첨부 요청하지 않음. (IpsiFetcher의 urllib robotparser는 '*' 와일드카드를 해석하지 못해 허용으로 판정하지만 robots 원문 규칙을 따랐다.)",
+   "url": "https://ipsi.ysu.ac.kr/ipsi/CMS/Board/Board.do?mCode=MN023"
+  },
+  {
+   "item": "robots.txt",
+   "reason": "규칙 원문 확인용.",
+   "url": "https://ipsi.ysu.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. WebSearch에서 공식 입학처 도메인이 직접 나오지 않아 알려진 입학 사이트(ipsi.ysu.ac.kr)에서 시작했다. robots 허용인 메인(https://ipsi.ysu.ac.kr/ → /ipsi/Main.do)만 받아 메뉴의 '입학전형결과'(mCode=MN023) 링크를 확인했고, 그 게시판은 robots 'Disallow: /*Board.do'에 해당해 열지 않았다.",
+  "결정 필요: 서원대와 같은 경우 — robots 와일드카드를 IpsiFetcher가 해석하지 못해 기계 판정은 '허용'. 원문 규칙대로 막힌 것으로 처리."
+ ]
+}

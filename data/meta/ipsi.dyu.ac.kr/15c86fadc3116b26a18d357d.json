@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dyu.ac.kr/susi/susi_03/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dyu.ac.kr/susi/susi_03/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 185084,
+  "sha256": "87223d4bbb0a315d42ea3ca4b6f80deb9d62e58e5e41d7305bb2d020a6690241",
+  "raw_path": "raw/ipsi.dyu.ac.kr/87223d4bbb0a315d42ea3ca4b6f80deb.html",
+  "collected_at": "2026-11-10T10:41:31+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

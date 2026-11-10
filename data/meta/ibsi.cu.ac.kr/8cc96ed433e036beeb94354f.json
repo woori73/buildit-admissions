@@ -1,0 +1,15 @@
+{
+  "url": "https://ibsi.cu.ac.kr/kor/bbs/BBSMSTR_000000000001/lst.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ibsi.cu.ac.kr/kor/bbs/BBSMSTR_000000000001/lst.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 46369,
+  "sha256": "86ea46d31b14a2f788c5939b568ef43823d94840531e9d0cfb8329e3b57a6d57",
+  "raw_path": "raw/ibsi.cu.ac.kr/86ea46d31b14a2f788c5939b568ef438.html",
+  "collected_at": "2026-11-10T10:47:00+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
