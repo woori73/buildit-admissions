@@ -1,0 +1,15 @@
+{
+  "url": "https://www.kosin.ac.kr/robots.txt",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.kosin.ac.kr/robots.txt",
+  "content_type": "text/plain",
+  "size": 268,
+  "sha256": "09c337956a2b1710f28dee2c7cdc953e5a41e784abb4bbfff0895a5a569022ab",
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:41:04+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

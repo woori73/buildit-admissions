@@ -1,0 +1,15 @@
+{
+  "url": "https://www.sehan.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.sehan.ac.kr/",
+  "content_type": "text/html",
+  "size": 683,
+  "sha256": "17694b99f0300b3dc1f6eab065266d8bc8e549bbc73fe2d314c620a460186029",
+  "raw_path": "raw/www.sehan.ac.kr/17694b99f0300b3dc1f6eab065266d8b.html",
+  "collected_at": "2026-11-10T10:46:18+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

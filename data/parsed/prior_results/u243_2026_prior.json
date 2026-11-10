@@ -1,0 +1,33 @@
+{
+ "university_key": "u243",
+ "university_name": "송원대학교",
+ "university_code": "U243",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "본교(www.songwon.ac.kr) robots.txt 판정 불가 — https는 연결 재설정/프록시 터널 중단(여러 차례 재시도 모두 실패), http는 HTTP 503. 판정 불가라 페이지를 요청하지 않음.",
+   "url": "https://www.songwon.ac.kr/robots.txt"
+  },
+  {
+   "item": "입학 사이트(ipsi.songwon.ac.kr)",
+   "reason": "robots.txt 요청이 프록시 'Tunnel connection failed: 502'(호스트 연결 불가) — 판정 불가. 실제 입학처 주소인지도 확인 못 함.",
+   "url": "https://ipsi.songwon.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행(robots.txt만 시도). WebSearch 결과에 공식 입학처 도메인이 나오지 않고 2027 모집요강 수집본에도 official_publisher_url이 없어 본교 대표 도메인(www.songwon.ac.kr, 알려진 주소)에서 시작했으나 robots 판정이 끝내 나지 않았다. 사람이 국내망에서 확인 필요."
+ ]
+}

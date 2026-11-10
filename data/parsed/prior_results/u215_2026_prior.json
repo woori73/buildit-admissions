@@ -1,0 +1,30 @@
+{
+ "university_key": "u215",
+ "university_name": "가톨릭꽃동네대학교",
+ "university_code": "U215",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0,
+  "note": "원문 자료 없음 — 대조·합계 검증 대상 없음(원문 합계 없음)."
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "WebSearch(kkot.ac.kr 한정) 결과에 입학안내 '입시결과' 게시판(boardManagementNo=1145, 2025·2023학년도 글 검색됨)이 있으나 www.kkot.ac.kr robots.txt 요청이 TLS 인증서 검증 실패로 판정불가 → 요청하지 않음. http://ipsi.kkot.ac.kr/robots.txt 응답은 'User-agent: * / Disallow: /'(전면 차단). 2026학년도 게시글 유무는 확인 못 함.",
+   "url": "https://www.kkot.ac.kr/ipsi/board/list?boardManagementNo=1145&menuLevel=2&menuNo=126"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000215&searchSyr=2026"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 원문 자료를 한 건도 받지 못해 rows=[]. adiga.kr·대행사·사설·언론 수치는 요청·사용하지 않음.",
+  "입학처 주소: 2027 수집본 official_publisher_url(https://www.kkot.ac.kr/)과 WebSearch 결과의 입시결과 게시판 주소. 게시판·첨부를 한 건도 받지 않음."
+ ]
+}

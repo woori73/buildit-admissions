@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.bpu.ac.kr/Default.aspx",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.bpu.ac.kr/Default.aspx",
+  "content_type": "text/html; charset=utf-8",
+  "size": 42115,
+  "sha256": "5ac536fe709deb4057909a43a1814cc4191bb075fcfa7aaa31ef1c1813d9f666",
+  "raw_path": "raw/ipsi.bpu.ac.kr/5ac536fe709deb4057909a43a1814cc4.html",
+  "collected_at": "2026-11-10T10:44:20+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

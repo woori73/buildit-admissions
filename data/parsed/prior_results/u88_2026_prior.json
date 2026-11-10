@@ -1,0 +1,53 @@
+{
+ "university_key": "u88",
+ "university_name": "대구가톨릭대학교",
+ "university_code": "U88",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [
+   {
+    "scope": "해당 없음(수집 문서 없음)",
+    "sum_of_rows": 0,
+    "source_total": null,
+    "source_page": null,
+    "match": null
+   }
+  ],
+  "spot_checks": [],
+  "range_failures": 0,
+  "competition_rate_recalc_mismatches": []
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시모집 경쟁률 및 성적자료(PDF·XLSX)",
+   "reason": "입학처 게시글(입학자료실, 작성일 2026-06-01)은 열리지만 첨부 2건(…수시모집 입시결과(성적자료)_홈페이지공개용.pdf/.xlsx)이 javascript:fn_egov_downFile('FILE_000000000004342','0'/'1')로만 열림 — 스크립트로만 열림. 목록 페이지에도 완성된 다운로드 주소 없음. 주소를 조립하지 않아 수집 안 함.",
+   "url": "https://ibsi.cu.ac.kr/kor/BBSMSTR_000000000001/16219/view.do"
+  },
+  {
+   "item": "2026학년도 정시모집 경쟁률 및 성적자료",
+   "reason": "정시 입학자료실 목록(BBSMSTR_000000000046)·입시도우미 자료실에서 게시글이 onclick=bbsMstrView('16220')로만 열림(href='#') — 스크립트로만 열림. 다른 페이지에 완성된 글 주소 없음.",
+   "url": "https://ibsi.cu.ac.kr/kor/bbs/BBSMSTR_000000000046/lst.do"
+  },
+  {
+   "item": "미공개 전형",
+   "reason": "수시 게시글 본문: 지역기회균형전형, 실기/실적 위주전형, 정원외 전형(농어촌학생전형, 기회균형선발전형)은 별도로 성적을 공개하지 않음.",
+   "url": "https://ibsi.cu.ac.kr/kor/BBSMSTR_000000000001/16219/view.do"
+  },
+  {
+   "item": "수능성적산출·경쟁률(외부)",
+   "reason": "입학처 메뉴의 성적산출 링크는 외부 대행사(jinhakapply) 도메인 — 사용하지 않음.",
+   "url": "https://addon.jinhakapply.com/nesin/1046/2026/Jungsi.html"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 공개 자료",
+   "reason": "지시서 규칙상 요청하지 않음(미확인). 저장소의 2027 요강 수집본에 적힌 대학 상세 페이지 주소만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000088&searchSyr=2027"
+  }
+ ],
+ "notes": [
+  "입학처 주소는 대표 홈페이지(www.cu.ac.kr) '입학' 링크 → http(s)://ibsi.cu.ac.kr(robots.txt HTTP 404=규칙 없음). 첫 화면은 JS 문자열 location.href='/intro.html'(완성된 경로)로 이동하며, intro.html의 '수시모집 전년도 입시결과 공개' 링크로 수시 게시글을 찾음.",
+  "게시글 본문 수치 표는 없음(첨부 파일에만 있음). 추측해 넣은 값 없음."
+ ]
+}

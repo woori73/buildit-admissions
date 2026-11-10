@@ -1,0 +1,33 @@
+{
+ "university_key": "u81",
+ "university_name": "나사렛대학교",
+ "university_code": "U81",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(ipsi.kornu.ac.kr) robots.txt가 'User-agent: * / Disallow: /'(전면 차단, http·https 모두) — 페이지 요청하지 않음.",
+   "url": "https://ipsi.kornu.ac.kr/robots.txt"
+  },
+  {
+   "item": "본교 홈페이지 게시판",
+   "reason": "본교(www.kornu.ac.kr) robots.txt도 'User-agent: * / Disallow: /' — 요청하지 않음.",
+   "url": "https://www.kornu.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행(robots.txt만 받음). WebSearch에서 공식 입학처 도메인이 나오지 않아 2027 모집요강 수집본의 official_publisher_url(http://ipsi.kornu.ac.kr)에서 시작했다. 입학처·본교 모두 robots 전면 차단이라 페이지를 한 건도 받지 않았다."
+ ]
+}

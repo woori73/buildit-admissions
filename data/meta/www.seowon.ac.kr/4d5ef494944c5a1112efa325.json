@@ -1,0 +1,15 @@
+{
+  "url": "https://www.seowon.ac.kr/robots.txt",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.seowon.ac.kr/robots.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "size": 578,
+  "sha256": "dee549ff175e740ef52f2c288df64d687022e68ea2e55f890251aca02c082312",
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:40:52+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

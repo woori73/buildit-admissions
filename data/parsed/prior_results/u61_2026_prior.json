@@ -1,0 +1,39 @@
+{
+ "university_key": "u61",
+ "university_name": "대구한의대학교",
+ "university_code": "U61",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 신입학 수시모집 입시결과(첨부 '붙임1. 2026학년도 입시결과(수시공지용).pdf', 게시 2026/04/27)",
+   "reason": "게시글은 열렸으나 첨부 다운로드 주소(/cmsware/bbs_download.php…)가 robots.txt 'User-agent: * / Disallow: /*cms* · /*bbs*'에 걸려 IpsiFetcher가 요청하지 않음(robots 차단). 게시글 본문에는 수치 없음.",
+   "url": "https://www.dhu.ac.kr/admission/sub.htm?mode=view&mv_data=aWR4PTE1MDIwMjUmc3RhcnRQYWdlPTAmbGlzdE5vPTE0JnRhYmxlPWNzX2Jic19kYXRhJmNvZGU9bm90aWNlMDE4Jm5hdl9jb2RlPWliczE2MzY1MjAzMDcmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0mdmlld19sZXZlbD0mdmlld19jYXRlPSZ2aWV3X2NhdGUyPQ==||"
+  },
+  {
+   "item": "2026학년도 신입학 정시모집 입시결과(첨부 '붙임2. 2026학년도 입시결과(정시공지용).xlsx', 게시 2026/04/27)",
+   "reason": "수시와 같음 — 첨부 다운로드 경로 robots 차단.",
+   "url": "https://www.dhu.ac.kr/admission/sub.htm?mode=view&mv_data=aWR4PTE1MDIwMjYmc3RhcnRQYWdlPTAmbGlzdE5vPTE0JnRhYmxlPWNzX2Jic19kYXRhJmNvZGU9bm90aWNlMDE5Jm5hdl9jb2RlPWliczE2MzY1MjAzNTcmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0mdmlld19sZXZlbD0mdmlld19jYXRlPSZ2aWV3X2NhdGUyPQ==||"
+  },
+  {
+   "item": "robots.txt",
+   "reason": "'User-agent: *' 규칙: Crawl-delay 2, Disallow /*cms*, /*bbs*, Allow /. 입학처 페이지(/admission/sub.htm)는 허용, 첨부 다운로드(/cmsware/bbs_download.php)는 비허용.",
+   "url": "https://www.dhu.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소: 2027 모집요강 수집본의 official_publisher_url(https://www.dhu.ac.kr/admission/)에서 시작해 메뉴 '전년도 입시결과'(수시 nav_code=ibs1636520307, 정시 ibs1636520357) 목록의 정적 링크로 2026 게시글 2건을 열었다(robots 허용). 첨부 파일 요청은 robots 비허용으로 IpsiFetcher가 거부해 원문 파일을 받지 못함 → 행 없음.",
+  "게시글 본문(참고, 수치 아님): '2026학년도 수시(정시)모집 전형별 입시결과 및 모집단위별 추가합격 후보순번을 첨부와 같이 공지', '입시결과 자료 내 등급, 대학총점의 점수 지표는 최종등록자를 기준으로 산출된 자료', '학생부종합전형의 등급은 교과전형과 동일한 방법으로 환산한 참고 자료'. 사람이 첨부를 내려받아 넣으면 수집 가능."
+ ]
+}

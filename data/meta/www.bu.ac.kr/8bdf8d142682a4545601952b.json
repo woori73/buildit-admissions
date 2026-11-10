@@ -1,0 +1,15 @@
+{
+  "url": "https://www.bu.ac.kr/robots.txt",
+  "ok": false,
+  "robots_allowed": true,
+  "http_status": 404,
+  "final_url": "https://www.bu.ac.kr/error.html",
+  "content_type": "text/html",
+  "size": 88,
+  "sha256": "08a8eba71a2441768b5799ccafee8550123c461e3ddfe800a1ac191f6af47e09",
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:47:41+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "HTTP 404",
+  "verification_status": "COLLECTED"
+}

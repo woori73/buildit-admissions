@@ -1,0 +1,34 @@
+{
+ "university_key": "u104",
+ "university_name": "동신대학교",
+ "university_code": "U104",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(ipsi.dsu.ac.kr, 2027 모집요강 수집본의 official_publisher_url) robots.txt가 HTTP 200 'User-agent: * / Disallow: /'(Googlebot·Yeti 등 지정 봇만 Allow) — 우리 UA 차단. 요청하지 않음.",
+   "url": "https://ipsi.dsu.ac.kr/robots.txt"
+  },
+  {
+   "item": "본교 대표 홈페이지",
+   "reason": "www.dsu.ac.kr robots.txt도 같은 내용('User-agent: * / Disallow: /') — 요청하지 않음.",
+   "url": "https://www.dsu.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 로그인·POST·AJAX·UA 변경 없음.",
+  "입학처·본교 모두 robots 전면 차단으로 페이지·첨부를 한 건도 받지 않음(2026-11-10 IpsiFetcher 확인)."
+ ]
+}

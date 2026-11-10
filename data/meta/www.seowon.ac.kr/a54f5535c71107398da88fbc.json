@@ -1,0 +1,15 @@
+{
+  "url": "https://www.seowon.ac.kr/sites/seowon/index.jsp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.seowon.ac.kr/sites/seowon/index.jsp",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 191,
+  "sha256": "fd66ed53120ff716bf5c22c1ddd05922e529cbeb3aa29790cb090b66ab5cae72",
+  "raw_path": "raw/www.seowon.ac.kr/fd66ed53120ff716bf5c22c1ddd05922.html",
+  "collected_at": "2026-11-10T10:40:29+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

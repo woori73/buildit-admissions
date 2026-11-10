@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.dgau.ac.kr/data_ear",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.dgau.ac.kr/data_ear",
+  "content_type": "text/html; charset=utf-8",
+  "size": 48897,
+  "sha256": "d558d1630405ed489c472352b801d5fd46110c1211fdb60c405d229b41a516ef",
+  "raw_path": "raw/ipsi.dgau.ac.kr/d558d1630405ed489c472352b801d5fd.html",
+  "collected_at": "2026-11-10T10:50:12+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.dcatholic.ac.kr",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:41:50+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: https://www.dcatholic.ac.kr/robots.txt -> ERROR ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+  "verification_status": "COLLECTED"
+}

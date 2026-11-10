@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.cdu.ac.kr/mod/board/list.do?MID=ADM_09010000",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.cdu.ac.kr/mod/board/list.do?MID=ADM_09010000",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 39943,
+  "sha256": "98785cb788132a92246a70f7d2688a6d3686086a0b643fe3b8407784cc2aba01",
+  "raw_path": "raw/ipsi.cdu.ac.kr/98785cb788132a92246a70f7d2688a6d.html",
+  "collected_at": "2026-11-10T10:50:04+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

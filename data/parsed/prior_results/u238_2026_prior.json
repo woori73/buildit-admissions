@@ -1,0 +1,35 @@
+{
+ "university_key": "u238",
+ "university_name": "대전신학대학교",
+ "university_code": "U238",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0,
+  "note": "원문 자료 없음 — 대조·합계 검증 대상 없음(원문 합계 없음)."
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "본교 홈페이지(www.daejeon.ac.kr, robots 허용 페이지) '입학안내 > 대학'(contents_200~206)에는 2027 전형 안내만 있고 입시결과 메뉴·표가 없음. 게시판(/bbs/)과 *.pdf·*.hwp·*.xls 파일은 robots.txt가 차단('Disallow: /bbs/', 'Disallow: /*.pdf$' 등) → 학부 입학서식(A01_04)·대신소식 게시판 미요청.",
+   "url": "https://www.daejeon.ac.kr/contents_new/contents_200.php"
+  },
+  {
+   "item": "입시 홈페이지(ipsi.daejeon.ac.kr)",
+   "reason": "robots.txt 요청이 매번 연결 재설정(Connection reset) → 판정불가로 요청하지 않음.",
+   "url": "https://ipsi.daejeon.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000238&searchSyr=2026"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 원문 자료를 한 건도 받지 못해 rows=[]. adiga.kr·대행사·사설·언론 수치는 요청·사용하지 않음.",
+  "입학처 주소: 2027 수집본 official_publisher_url(https://ipsi.daejeon.ac.kr)·WebSearch(daejeon.ac.kr 한정) 결과. 받은 페이지: www.daejeon.ac.kr 메인, contents_200~205(2027 안내, 수치 미사용)."
+ ]
+}

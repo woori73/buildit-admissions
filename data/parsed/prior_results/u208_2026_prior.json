@@ -1,0 +1,34 @@
+{
+ "university_key": "u208",
+ "university_name": "호남대학교",
+ "university_code": "U208",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "WebSearch로 입학처 공식 주소를 찾지 못해 본교 대표 홈페이지(www.honam.ac.kr)에서 시작하려 했으나 https robots.txt 요청이 TLS 핸드셰이크 실패(SSLV3_ALERT_HANDSHAKE_FAILURE), http robots.txt는 읽기 시간 초과(30초)로 판정 불가 — 요청하지 않음. 2026-11-10 4회 시도 모두 같음.",
+   "url": "https://www.honam.ac.kr/"
+  },
+  {
+   "item": "언론 보도 경쟁률(참고만)",
+   "reason": "언론 기사 수치는 규칙상 쓰지 않음.",
+   "url": "https://www.heraldk.com/article/2026010516484401739"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 로그인·POST·AJAX·UA 변경 없음.",
+  "입학처 위치를 확인하지 못함(대표 홈페이지 연결 불가). 사람이 브라우저로 입학처 입시결과 게시판을 확인해야 함."
+ ]
+}

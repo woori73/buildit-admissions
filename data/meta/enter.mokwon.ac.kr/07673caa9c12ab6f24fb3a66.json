@@ -1,0 +1,15 @@
+{
+  "url": "https://enter.mokwon.ac.kr/enter/html/sub01/01041112.html",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://enter.mokwon.ac.kr/enter/html/sub01/01041112.html",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 59336,
+  "sha256": "23ab74b3084f0371f759347cfcbac6d41187b14c4a14fe9272ede859f3a1dfb8",
+  "raw_path": "raw/enter.mokwon.ac.kr/23ab74b3084f0371f759347cfcbac6d4.html",
+  "collected_at": "2026-11-10T10:43:55+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

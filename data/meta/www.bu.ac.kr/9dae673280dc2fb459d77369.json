@@ -1,0 +1,15 @@
+{
+  "url": "https://www.bu.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.bu.ac.kr/",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 856,
+  "sha256": "643366b87e7b0645a094d8b47db1e5775a1f2ee099f868426992c684abff0359",
+  "raw_path": "raw/www.bu.ac.kr/643366b87e7b0645a094d8b47db1e577.html",
+  "collected_at": "2026-11-10T10:49:09+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

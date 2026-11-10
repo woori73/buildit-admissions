@@ -1,0 +1,15 @@
+{
+  "url": "https://admission.gjc.ac.kr/inc/2027univ.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.gjc.ac.kr/inc/2027univ.pdf",
+  "content_type": "application/pdf",
+  "size": 317997,
+  "sha256": "78d69d4190bffa1999bc1ea347e60082b068125a7eae2b1b70d6e709c27f17ed",
+  "raw_path": "raw/admission.gjc.ac.kr/78d69d4190bffa1999bc1ea347e60082.pdf",
+  "collected_at": "2026-11-10T10:47:37+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

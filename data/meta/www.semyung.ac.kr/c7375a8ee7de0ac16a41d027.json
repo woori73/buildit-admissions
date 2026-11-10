@@ -1,0 +1,15 @@
+{
+  "url": "http://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000000353/selectBoardList.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "http://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000000353/selectBoardList.do",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 56488,
+  "sha256": "cf3a3a31cf7efbc811842e57be809a2e0e74d338677ccd2c6197775d3fd510f1",
+  "raw_path": "raw/www.semyung.ac.kr/cf3a3a31cf7efbc811842e57be809a2e.html",
+  "collected_at": "2026-11-10T10:42:40+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

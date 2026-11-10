@@ -1,0 +1,33 @@
+{
+ "university_key": "u206",
+ "university_name": "한일장신대학교",
+ "university_code": "U206",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과(입학 사이트 '입시결과' 게시판)",
+   "reason": "게시판 목록(tbody)이 정적 HTML에서 비어 있고 /js/portal/list.js(jquery.pmAjax)로만 채워짐 — 스크립트로만 열림. AJAX 호출은 하지 않음. 수시모집·정시모집·입학정보·공지사항 게시판도 같은 구조(정적 목록 0건).",
+   "url": "https://www.hanil.ac.kr/portal/ipsi/bbs/list.do?menuId=M0012000400000000"
+  },
+  {
+   "item": "입학 사이트 메인의 정적 게시글 링크",
+   "reason": "입학 메인(/portal/ipsi/main/main.do) 정적 HTML에 입시결과 게시글로 가는 완성된 링크 없음(메뉴 링크만).",
+   "url": "https://www.hanil.ac.kr/portal/ipsi/main/main.do"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. WebSearch에서 공식 도메인이 나오지 않아 본교 대표 홈페이지(www.hanil.ac.kr, 알려진 주소)에서 시작, 메인의 '입학정보'(/portal/ipsi/main/main.do) → '입시결과'(menuId=M0012000400000000) 링크를 따라감. robots.txt는 HTTP 404(규칙 없음=허용). https 쪽 robots.txt 요청이 연결 재설정으로 여러 번 실패해 재시도했고, 판정이 난(404) 뒤에만 페이지를 요청했다."
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.youngsan.ac.kr/",
+  "ok": false,
+  "robots_allowed": true,
+  "http_status": 403,
+  "final_url": "https://www.youngsan.ac.kr/",
+  "content_type": "text/html; charset=iso-8859-1",
+  "size": 318,
+  "sha256": "b0c7e6712ecbf97a1e3a14f19e3aed5dbd6553f21a2852565bfc5518925713db",
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:41:37+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "HTTP 403",
+  "verification_status": "COLLECTED"
+}

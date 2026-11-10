@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hannam.ac.kr/kor/main",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hannam.ac.kr/kor/main/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 191840,
+  "sha256": "89a0b8ac24a7f755bdfb82d758b38b2ceafe85f09fc98ee839c5de59c5d3a675",
+  "raw_path": "raw/www.hannam.ac.kr/89a0b8ac24a7f755bdfb82d758b38b2c.html",
+  "collected_at": "2026-11-10T10:50:47+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,33 @@
+{
+ "university_key": "u160",
+ "university_name": "위덕대학교",
+ "university_code": "U160",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "입학처(ipsi.uu.ac.kr) robots.txt 판정 불가 — http는 HTTP 503, https는 연결 재설정(여러 차례 재시도 모두 실패). 판정 불가라 페이지를 요청하지 않음.",
+   "url": "http://ipsi.uu.ac.kr/robots.txt"
+  },
+  {
+   "item": "본교 홈페이지(www.uu.ac.kr)",
+   "reason": "robots.txt 판정 불가 — http HTTP 503, https 연결 재설정/프록시 터널 중단.",
+   "url": "https://www.uu.ac.kr/robots.txt"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행(robots.txt만 시도). 2027 모집요강 수집본의 official_publisher_url(http://ipsi.uu.ac.kr/)에서 시작했다. 사람이 국내망에서 확인 필요."
+ ]
+}

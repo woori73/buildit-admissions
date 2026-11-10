@@ -1,0 +1,15 @@
+{
+  "url": "https://enter.mokwon.ac.kr/enter/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://enter.mokwon.ac.kr/enter/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 94953,
+  "sha256": "9de9d974e493cc71fcda39871d44dc883871e683e94b04748c844821535e4284",
+  "raw_path": "raw/enter.mokwon.ac.kr/9de9d974e493cc71fcda39871d44dc88.html",
+  "collected_at": "2026-11-10T10:39:38+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

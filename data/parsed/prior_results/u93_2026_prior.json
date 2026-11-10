@@ -1,0 +1,30 @@
+{
+ "university_key": "u93",
+ "university_name": "대신대학교",
+ "university_code": "U93",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0,
+  "note": "원문 자료 없음 — 대조·합계 검증 대상 없음(원문 합계 없음)."
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "WebSearch(daeshin.ac.kr 한정) 결과의 입학사이트(www.daeshin.ac.kr/html/02_admission/…)를 열려 했으나 robots.txt 요청이 매번 프록시 502(게이트웨이가 호스트에 연결 못 함, 여러 차례 재시도) → 판정불가로 요청하지 않음. http는 이름 해석 실패.",
+   "url": "https://www.daeshin.ac.kr/html/02_admission/01_1.php"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000093&searchSyr=2026"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 원문 자료를 한 건도 받지 못해 rows=[]. adiga.kr·대행사·사설·언론 수치는 요청·사용하지 않음.",
+  "입학처 주소: WebSearch('대신대학교 입학', daeshin.ac.kr 한정) 결과의 '대신대학교 입학사이트'. 게시판(입시 도우미 03_2.php 등)은 한 건도 받지 못함."
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.cdu.ac.kr/mod/page/downloadUploadFile.do?fileUid=178029675282672&MID=ADM_09060000&mid=ADM_09060000&pageHistNo=175669263245749&fileKndCd=page&cmd=download&pageHistFileNo=178029675282672",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.cdu.ac.kr/mod/page/downloadUploadFile.do?fileUid=178029675282672&MID=ADM_09060000&mid=ADM_09060000&pageHistNo=175669263245749&fileKndCd=page&cmd=download&pageHistFileNo=178029675282672",
+  "content_type": null,
+  "size": 292143,
+  "sha256": "a6663d6c31e1ba63a520344e7057ab45a669d58a1319092b81d72bbcf76d240f",
+  "raw_path": "raw/ipsi.cdu.ac.kr/a6663d6c31e1ba63a520344e7057ab45.do",
+  "collected_at": "2026-11-10T10:49:33+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

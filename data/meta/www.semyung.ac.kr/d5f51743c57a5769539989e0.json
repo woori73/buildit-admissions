@@ -1,0 +1,15 @@
+{
+  "url": "http://www.semyung.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000238006&fileSn=0",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "http://www.semyung.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000238006&fileSn=0",
+  "content_type": "application/octer-stream",
+  "size": 2382640,
+  "sha256": "cec4d041a4c16a60ba22cfe3a6ccf00894f058ff07adc780fef4f67bb0bd3783",
+  "raw_path": "raw/www.semyung.ac.kr/cec4d041a4c16a60ba22cfe3a6ccf008.do",
+  "collected_at": "2026-11-10T10:42:48+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

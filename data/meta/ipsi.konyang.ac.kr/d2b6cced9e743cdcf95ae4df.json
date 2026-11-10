@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.konyang.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000220824&fileSn=0",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.konyang.ac.kr/cmm/fms/FileDown.do?atchFileId=FILE_000000000220824&fileSn=0",
+  "content_type": "application/octer-stream;charset=UTF-8",
+  "size": 3700071,
+  "sha256": "9fdf720fc373521f2e68cb1e8a0df6d45e8e6a98192c1a23cfd33464afe7fdf4",
+  "raw_path": "raw/ipsi.konyang.ac.kr/9fdf720fc373521f2e68cb1e8a0df6d4.do",
+  "collected_at": "2026-11-10T10:45:07+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

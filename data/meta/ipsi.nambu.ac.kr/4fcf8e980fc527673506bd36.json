@@ -1,0 +1,15 @@
+{
+  "url": "http://ipsi.nambu.ac.kr",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.nambu.ac.kr/ipsi/index.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 55919,
+  "sha256": "6d5c3b7e9199469f090cd026da6e1b1e94d1523b8f91b679f9f46bd20049e69b",
+  "raw_path": "raw/ipsi.nambu.ac.kr/6d5c3b7e9199469f090cd026da6e1b1e.html",
+  "collected_at": "2026-11-10T10:42:37+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

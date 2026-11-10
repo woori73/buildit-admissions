@@ -1,0 +1,15 @@
+{
+  "url": "https://ibsi.hannam.ac.kr/adms5/intoschool/5_1.asp",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ibsi.hannam.ac.kr/adms5/intoschool/5_1.asp",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 60346,
+  "sha256": "bedf50b5d1af2115634fde1632aca50abb12c8d34222f1c982549bb0aa173f23",
+  "raw_path": "raw/ibsi.hannam.ac.kr/bedf50b5d1af2115634fde1632aca50a.html",
+  "collected_at": "2026-11-10T10:51:43+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

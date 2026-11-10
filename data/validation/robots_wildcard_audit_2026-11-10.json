@@ -1,0 +1,66 @@
+{
+ "schema": "robots_wildcard_audit/v1",
+ "checked_at": "2026-11-10",
+ "rule": "RFC 9309(와일드카드 *, $, 가장 긴 규칙 우선) — scripts/ipsi_fetch.py wildcard_allowed",
+ "records": 802,
+ "origins": 169,
+ "first_pass_checked": 686,
+ "violations_excluding_robots_txt": [
+  {
+   "url": "http://ibhak.kau.ac.kr/error_new/error.html",
+   "rules": [
+    "User-agent: *",
+    "Disallow: /",
+    "Allow: /admission/html",
+    "Allow: /admission/html2"
+   ]
+  },
+  {
+   "url": "http://ipsi.hknu.ac.kr/upload_data/mojib/20260623192023_0.pdf",
+   "rules": [
+    "User-agent: *",
+    "Allow: /",
+    "Disallow: /manager/",
+    "Disallow: /upload_data/",
+    "User-agent: Googlebot",
+    "Allow: /",
+    "Disallow: /manager/",
+    "Disallow: /upload_data/",
+    "User-agent: Yeti",
+    "Allow: /",
+    "Disallow: /manager/",
+    "Disallow: /upload_data/",
+    "User-agent: GPTBot",
+    "Disallow: /",
+    "User-agent: CCBot"
+   ]
+  },
+  {
+   "url": "https://admission.cha.ac.kr/%EC%88%98%EC%8B%9C%EB%AA%A8%EC%A7%91/%EC%88%98%EC%8B%9C-%EB%AA%A8%EC%A7%91%EC%9A%94%EA%B0%95/",
+   "rules": [
+    "User-agent: *",
+    "Disallow: /wp-admin/",
+    "Disallow: /wp-includes/",
+    "Disallow: /xmlrpc.php",
+    "Allow: /wp-admin/admin-ajax.php",
+    "Disallow: /?s=",
+    "Disallow: /search/",
+    "Disallow: /comments/",
+    "Disallow: /wp-json/wp/v2/search*",
+    "Disallow: /trackback/",
+    "Disallow: /feed/",
+    "Disallow: /Goods",
+    "Disallow: /%*",
+    "User-agent: SemrushBot",
+    "Disallow: /"
+   ]
+  }
+ ],
+ "robots_txt_self_fetch_records": 17,
+ "still_unreadable_origins": [
+  "https://www.jejunu.ac.kr",
+  "https://www.sehan.ac.kr"
+ ],
+ "batch4_5_source_urls_checked": 49,
+ "batch4_5_violations": 0
+}

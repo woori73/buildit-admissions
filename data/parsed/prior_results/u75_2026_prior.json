@@ -1,0 +1,30 @@
+{
+ "university_key": "u75",
+ "university_name": "광주가톨릭대학교",
+ "university_code": "U75",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0,
+  "note": "원문 자료 없음 — 대조·합계 검증 대상 없음(원문 합계 없음)."
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시 입시결과",
+   "reason": "입학안내(admission.gjc.ac.kr, robots 허용) 메뉴의 신입학 항목은 전형 시행계획·입시요강·원서접수·선행학습영향평가뿐이고 입시결과 메뉴가 없음(입시전형결과 메뉴는 편입학·대학원에만 있고 편입학 페이지 본문도 비어 있음). 공지사항(6건)·자료실(양식 2건)에도 2026 입시결과 글 없음. 2027 수시 모집요강 PDF(inc/2027univ.pdf)에도 전년도 결과 표 없음.",
+   "url": "https://admission.gjc.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+   "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000075&searchSyr=2026"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 원문 자료를 한 건도 받지 못해 rows=[]. adiga.kr·대행사·사설·언론 수치는 요청·사용하지 않음.",
+  "입학처 주소: 2027 수집본 official_publisher_url(https://admission.gjc.ac.kr/…)·WebSearch(gjc.ac.kr 한정) 결과. 2027 수집본에도 정시 요강이 없음(수시만 모집). 받은 자료: 메인, notice, univpds, univguideline, transresult, 2027univ.pdf(결과 없음 확인용, 수치 미사용)."
+ ]
+}

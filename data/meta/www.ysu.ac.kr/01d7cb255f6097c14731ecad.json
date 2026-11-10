@@ -1,0 +1,15 @@
+{
+  "url": "https://www.ysu.ac.kr/robots.txt",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": "https://www.ysu.ac.kr/resources/robots.txt",
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:45:36+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "redirect to robots-disallowed URL: https://www.ysu.ac.kr/resources/robots.txt (https://www.ysu.ac.kr/robots.txt -> HTTP 200)",
+  "verification_status": "COLLECTED"
+}

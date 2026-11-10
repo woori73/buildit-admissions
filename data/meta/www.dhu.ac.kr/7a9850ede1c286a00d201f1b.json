@@ -1,0 +1,15 @@
+{
+  "url": "https://www.dhu.ac.kr/admission/sub.htm?mode=view&mv_data=aWR4PTE1MDIwMjUmc3RhcnRQYWdlPTAmbGlzdE5vPTE0JnRhYmxlPWNzX2Jic19kYXRhJmNvZGU9bm90aWNlMDE4Jm5hdl9jb2RlPWliczE2MzY1MjAzMDcmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0mdmlld19sZXZlbD0mdmlld19jYXRlPSZ2aWV3X2NhdGUyPQ==||",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.dhu.ac.kr/admission/sub.htm?mode=view&mv_data=aWR4PTE1MDIwMjUmc3RhcnRQYWdlPTAmbGlzdE5vPTE0JnRhYmxlPWNzX2Jic19kYXRhJmNvZGU9bm90aWNlMDE4Jm5hdl9jb2RlPWliczE2MzY1MjAzMDcmc2VhcmNoX2l0ZW09JnNlYXJjaF9vcmRlcj0mb3JkZXJfbGlzdD0mbGlzdF9zY2FsZT0mdmlld19sZXZlbD0mdmlld19jYXRlPSZ2aWV3X2NhdGUyPQ==%7C%7C",
+  "content_type": "text/html; charset=utf-8",
+  "size": 40759,
+  "sha256": "a66abc148766e4660f0d69a0b898e226ee8b4e87252be50b15a1d9aa9eef720c",
+  "raw_path": "raw/www.dhu.ac.kr/a66abc148766e4660f0d69a0b898e226.html",
+  "collected_at": "2026-11-10T10:48:23+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,34 @@
+{
+ "university_key": "u216",
+ "university_name": "남부대학교",
+ "university_code": "U216",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "수시모집 '전년도 입시결과'",
+   "reason": "입학처 메뉴 링크가 href=\"javascript:goLink('html', '', 'ipsi001006', '_self')\"로만 열림(스크립트로만 열림, 정적 주소 없음). 요청하지 않음.",
+   "url": "https://ipsi.nambu.ac.kr/ipsi/index.do"
+  },
+  {
+   "item": "정시모집 '전년도 입시결과'",
+   "reason": "메뉴 링크가 javascript:goLink('html', '', 'ipsi002006', '_self') / javascript:notice(2,'/content/view.do?menuCd=ipsi002006','')로만 열림(스크립트로만 열림). 요청하지 않음.",
+   "url": "https://ipsi.nambu.ac.kr/ipsi/index.do"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "입학처 주소: WebSearch('남부대학교 입학처') 결과에 나온 공식 도메인 ipsi.nambu.ac.kr에서 시작. https:// 첫 시도는 robots.txt 연결 끊김(판정불가)으로 요청하지 않았고, http://ipsi.nambu.ac.kr 재시도에서 robots.txt가 HTTP 400(규칙 없음으로 판정)이라 메인(https://ipsi.nambu.ac.kr/ipsi/index.do)을 열었다.",
+  "입학처 메인·본교 메인(https://www.nambu.ac.kr/)의 메뉴는 모두 javascript 함수(goLink/notice) 링크라 정적 href가 없어 전년도 입시결과 페이지를 열지 않았다. 사람이 브라우저로 '입시도우미 > 전년도 입시결과'를 열어 확인해야 함."
+ ]
+}

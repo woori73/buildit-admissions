@@ -1,0 +1,15 @@
+{
+  "url": "http://www.semyung.ac.kr/robots.txt",
+  "ok": false,
+  "robots_allowed": true,
+  "http_status": 404,
+  "final_url": "http://www.semyung.ac.kr/robots.txt",
+  "content_type": "text/html;charset=utf-8",
+  "size": 447,
+  "sha256": "ea6674f329497c6ca9a2c59f5d1274c7804855a9255164fc34c33e6f769b6fcf",
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:39:37+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "HTTP 404",
+  "verification_status": "COLLECTED"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "http://www.kosin.ac.kr/robots.txt",
+  "ok": false,
+  "robots_allowed": false,
+  "http_status": null,
+  "final_url": null,
+  "content_type": null,
+  "size": 0,
+  "sha256": null,
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:51:47+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": "robots.txt disallows our UA: http://www.kosin.ac.kr/robots.txt -> ERROR HTTPConnectionPool(host='www.kosin.ac.kr', port=80): Read timed out. (read timeout=30)",
+  "verification_status": "COLLECTED"
+}

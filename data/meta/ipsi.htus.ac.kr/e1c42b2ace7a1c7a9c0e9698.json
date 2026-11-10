@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.htus.ac.kr/robots.txt",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.htus.ac.kr/robots.txt",
+  "content_type": "text/plain; charset=EUC-KR",
+  "size": 93,
+  "sha256": "dd33bc36483a7c24bdda5ab9fd0871740c90e708bad48592e3c43327b1653c17",
+  "raw_path": null,
+  "collected_at": "2026-11-10T10:39:29+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

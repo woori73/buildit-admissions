@@ -1,0 +1,15 @@
+{
+  "url": "http://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000000353/selectBoardArticle.do;jsessionid=46E4958571DEC9EFB25DAFCFE1CFCAEA.was2?bbsId=BBSMSTR_000000000353&nttId=474065&bbsTyCode=&bbsAttrbCode=&kind=&mno=sitemap_12&pageIndex=1&searchCnd=&searchWrd=",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "http://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000000353/selectBoardArticle.do;jsessionid=46E4958571DEC9EFB25DAFCFE1CFCAEA.was2?bbsId=BBSMSTR_000000000353&nttId=474065&bbsTyCode=&bbsAttrbCode=&kind=&mno=sitemap_12&pageIndex=1&searchCnd=&searchWrd=",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 50496,
+  "sha256": "a211838ed3a2fd77fec9cca340d3db805ef8bf3c0b955b4ef5f4215b577e8b9f",
+  "raw_path": "raw/www.semyung.ac.kr/a211838ed3a2fd77fec9cca340d3db80.html",
+  "collected_at": "2026-11-10T10:42:41+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

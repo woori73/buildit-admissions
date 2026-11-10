@@ -1,0 +1,15 @@
+{
+  "url": "https://ggu.ac.kr/matriculation/sub0401",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ggu.ac.kr/matriculation/sub0401",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 30547,
+  "sha256": "93a61b8a062d1c046f5826af2053e23f15e2e9ce721c0324a76714c4f07132e9",
+  "raw_path": "raw/ggu.ac.kr/93a61b8a062d1c046f5826af2053e23f.html",
+  "collected_at": "2026-11-10T10:41:45+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

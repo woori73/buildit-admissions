@@ -1,0 +1,29 @@
+{
+ "university_key": "u87",
+ "university_name": "대구예술대학교",
+ "university_code": "U87",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "입학처(ipsi.dgau.ac.kr, 본교 dgau.ac.kr '입학안내' 링크) '전년도 입시결과' 게시판 총 5건이 2020~2022학년도 마감현황뿐이고 2026학년도 글 없음. 수시·정시 입시자료실(data_ear·data_reg)과 수시·정시 공지사항(notice_ear·notice_reg)에도 2026 입시결과 글 없음(양식·모집요강·합격자 유의사항 등만). 본교 입시소식(notice_ent)도 선행학습 영향평가 보고서·리플렛뿐.",
+   "url": "https://ipsi.dgau.ac.kr/result"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 로그인·POST·AJAX·UA 변경 없음.",
+  "2027 모집요강 수집본의 official_publisher_url(http://www.dgau.ac.kr)은 robots.txt가 HTTP 503(판정 불가)라 쓰지 않고 https://dgau.ac.kr/(robots 404=허용)에서 시작. 입학처 ipsi.dgau.ac.kr robots 404=허용. 일부 요청이 연결 재설정으로 실패해 재시도함. 2026학년도 입시결과는 입학처에 게시되지 않은 것으로 보임."
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "university_key": "u222",
+ "university_name": "부산장신대학교",
+ "university_code": "U222",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과",
+   "reason": "입학 사이트(ipsi.bpu.ac.kr)에 입시결과·경쟁률 메뉴가 없고, 공지사항(BoardMstNo=1) 1~4쪽·입시자료실(BoardMstNo=4) 1~2쪽·사이트맵·수시/정시/추가모집 안내 페이지(Pages.aspx?id=1,2,3)에 2026 입시결과 게시글·첨부 없음(모집요강·시행계획·선행학습 영향평가 결과·입학원서만). 미게시로 판단.",
+   "url": "https://ipsi.bpu.ac.kr/Board/BoardList.aspx?BoardMstNo=1"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 IpsiFetcher로 수행. 본교(www.bpu.ac.kr) 메인의 '입시 홈페이지 바로가기'(https://ipsi.bpu.ac.kr/Default.aspx)를 따라감. ipsi.bpu.ac.kr robots.txt는 HTTP 200이지만 HTML 페이지(규칙 없음=허용)로 응답. 연결 재설정으로 robots 요청을 재시도한 뒤 판정이 난 경우에만 요청함.",
+  "'2026학년도 선행학습 영향평가 결과'(BoardNo=4901)는 입시결과가 아니라 수집하지 않음."
+ ]
+}

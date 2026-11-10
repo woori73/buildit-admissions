@@ -112,6 +112,53 @@ class RobotsGateTest(unittest.TestCase):
         self.assertFalse(gate.allowed("https://admission.example.ac.kr/data"))
 
 
+class WildcardRobotsTest(unittest.TestCase):
+    """RFC 9309 와일드카드('*', '$') — urllib.robotparser가 놓치는 규칙."""
+
+    def gate(self, text):
+        session = mock.Mock()
+        session.get.return_value = FakeResp(200, text)
+        return ipsi_fetch.RobotsGate(session)
+
+    def test_given_star_in_middle_when_board_path_requested_then_denied(self):
+        # given: 영산대처럼 '/*Board.do'로 게시판을 막는 경우
+        gate = self.gate("User-agent: *\nDisallow: /*Board.do\n")
+        # when / then
+        self.assertFalse(gate.allowed("https://ipsi.example.ac.kr/ipsi/Board.do?mCode=MN023"))
+        self.assertTrue(gate.allowed("https://ipsi.example.ac.kr/ipsi/Main.do"))
+
+    def test_given_query_wildcard_when_url_has_query_then_denied(self):
+        # given: 서원대처럼 '/*?'로 쿼리가 붙은 주소를 막는 경우
+        gate = self.gate("User-agent: *\nDisallow: /*?\n")
+        # when / then
+        self.assertFalse(gate.allowed("https://www.example.ac.kr/bbs/iphak/602/93042/artclView.do?layout=unknown"))
+        self.assertTrue(gate.allowed("https://www.example.ac.kr/bbs/iphak/602/93042/artclView.do"))
+
+    def test_given_end_anchor_when_extension_matches_then_denied_only_at_end(self):
+        # given
+        gate = self.gate("User-agent: *\nDisallow: /*.pdf$\n")
+        # when / then
+        self.assertFalse(gate.allowed("https://www.example.ac.kr/files/result.pdf"))
+        self.assertTrue(gate.allowed("https://www.example.ac.kr/files/result.pdf.html"))
+
+    def test_given_longer_allow_when_both_match_then_longest_rule_wins(self):
+        # given
+        lines = ["User-agent: *", "Disallow: /*cms*", "Allow: /ipsi/cms/main.do"]
+        # when / then
+        self.assertTrue(ipsi_fetch.wildcard_allowed(lines, "https://a.ac.kr/ipsi/cms/main.do"))
+        self.assertFalse(ipsi_fetch.wildcard_allowed(lines, "https://a.ac.kr/ipsi/cms/down.do"))
+
+    def test_given_named_bot_group_only_when_our_agent_checks_then_star_group_applies(self):
+        # given: 검색봇만 허용하고 나머지는 막는 경우
+        lines = ["User-agent: Googlebot", "Allow: /", "", "User-agent: *", "Disallow: /"]
+        # when / then
+        self.assertFalse(ipsi_fetch.wildcard_allowed(lines, "https://a.ac.kr/anything"))
+
+    def test_given_empty_disallow_when_checked_then_allowed(self):
+        # given / when / then
+        self.assertTrue(ipsi_fetch.wildcard_allowed(["User-agent: *", "Disallow:"], "https://a.ac.kr/x"))
+
+
 class RangeAndKeyTest(unittest.TestCase):
     def row(self, **kw):
         base = {"result_year": 2026, "round_type": "SUSI", "group": None, "type_name": "교과", "department_name": "국어국문학과",

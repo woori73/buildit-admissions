@@ -1,0 +1,15 @@
+{
+  "url": "https://ibsi.hannam.ac.kr/adms5/main/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ibsi.hannam.ac.kr/adms5/main/",
+  "content_type": "text/html; Charset=euc-kr",
+  "size": 55633,
+  "sha256": "5acd0574188b2c9a75e3d12671227cdc33cb675d5f4ee1c7aa67b0b5c07c2297",
+  "raw_path": "raw/ibsi.hannam.ac.kr/5acd0574188b2c9a75e3d12671227cdc.html",
+  "collected_at": "2026-11-10T10:51:29+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

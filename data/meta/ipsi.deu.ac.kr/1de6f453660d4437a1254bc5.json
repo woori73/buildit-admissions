@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.deu.ac.kr/submenu.do?menuUrl=D0Lb4Mk2mKJBZuJJDzIzEw%3d%3d&",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.deu.ac.kr/submenu.do?menuUrl=D0Lb4Mk2mKJBZuJJDzIzEw%3D%3D&",
+  "content_type": "text/html;charset=UTF-8",
+  "size": 88159,
+  "sha256": "ff69f975211609dd3c61ddb8a297d7dcb50b4ef02639136d58a9392dff47d9c9",
+  "raw_path": "raw/ipsi.deu.ac.kr/ff69f975211609dd3c61ddb8a297d7dc.html",
+  "collected_at": "2026-11-10T10:40:39+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

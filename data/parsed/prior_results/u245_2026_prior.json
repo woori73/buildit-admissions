@@ -1,0 +1,34 @@
+{
+ "university_key": "u245",
+ "university_name": "남서울대학교",
+ "university_code": "U245",
+ "result_year": 2026,
+ "documents": [],
+ "rows": [],
+ "verification": {
+  "recruit_total_checks": [],
+  "spot_checks": [],
+  "range_failures": 0
+ },
+ "gaps": [
+  {
+   "item": "2026학년도 수시·정시 입시결과 전체",
+   "reason": "2027 모집요강 수집본의 official_publisher_url인 www.namseoul.net robots.txt가 HTTP 200 'User-agent: * / Disallow: /' — 우리 UA 차단. 요청하지 않음.",
+   "url": "https://www.namseoul.net/robots.txt"
+  },
+  {
+   "item": "본교 www.nsu.ac.kr",
+   "reason": "robots 허용이지만 첫 요청이 https://www.namseoul.net/mainIntro/intro.do 로 리다이렉트 — 리다이렉트 대상이 robots 차단이라 IpsiFetcher가 중단. 별도 입학처 도메인은 WebSearch로 찾지 못함(meta.nsu.ac.kr·gr.nsu.ac.kr는 대학원).",
+   "url": "https://www.nsu.ac.kr/"
+  },
+  {
+   "item": "대학어디가(adiga.kr) 2026 입시결과",
+   "reason": "규칙상 요청하지 않음(미확인).",
+   "url": "https://www.adiga.kr/"
+  }
+ ],
+ "notes": [
+  "모든 요청은 scripts/ipsi_fetch.py IpsiFetcher로 수행(2026-11-10). 로그인·POST·AJAX·UA 변경 없음.",
+  "페이지·첨부를 한 건도 받지 않음."
+ ]
+}

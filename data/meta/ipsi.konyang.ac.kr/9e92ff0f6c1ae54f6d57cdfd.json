@@ -1,0 +1,15 @@
+{
+  "url": "https://ipsi.konyang.ac.kr/cop/bbs/BBSMSTR_000000000731/selectBoardList.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://ipsi.konyang.ac.kr/cop/bbs/BBSMSTR_000000000731/selectBoardList.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 61004,
+  "sha256": "5e58984848f68581e57d9bedd8d7fcab379270474f85e31d3da12910278cb0d0",
+  "raw_path": "raw/ipsi.konyang.ac.kr/5e58984848f68581e57d9bedd8d7fcab.html",
+  "collected_at": "2026-11-10T10:44:50+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

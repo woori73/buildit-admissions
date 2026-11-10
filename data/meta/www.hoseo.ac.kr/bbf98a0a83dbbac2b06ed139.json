@@ -1,0 +1,15 @@
+{
+  "url": "https://www.hoseo.ac.kr/",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.hoseo.ac.kr/Home/Main.mbz",
+  "content_type": "text/html; charset=utf-8",
+  "size": 130801,
+  "sha256": "b27a5aa85952039e66543d60fd40586ddef2b4d0c7136efbe97799841e14d563",
+  "raw_path": "raw/www.hoseo.ac.kr/b27a5aa85952039e66543d60fd40586d.html",
+  "collected_at": "2026-11-10T10:46:08+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

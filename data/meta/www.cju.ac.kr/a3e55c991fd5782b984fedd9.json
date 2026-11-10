@@ -1,0 +1,15 @@
+{
+  "url": "https://www.cju.ac.kr/ipsi/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.cju.ac.kr/ipsi/index.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 90040,
+  "sha256": "0a209e40295a8705bee2159708d99b92986c5f8f44a2ae0c111ec7254c46dcbf",
+  "raw_path": "raw/www.cju.ac.kr/0a209e40295a8705bee2159708d99b92.html",
+  "collected_at": "2026-11-10T10:39:10+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

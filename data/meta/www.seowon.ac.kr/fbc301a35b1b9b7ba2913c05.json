@@ -1,0 +1,15 @@
+{
+  "url": "https://www.seowon.ac.kr/iphak/index.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://www.seowon.ac.kr/iphak/index.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 202583,
+  "sha256": "74cba3bc8822bd549965dd8c9793d9dbbfc0fbd680aaebf316b2d9b7f491ac04",
+  "raw_path": "raw/www.seowon.ac.kr/74cba3bc8822bd549965dd8c9793d9db.html",
+  "collected_at": "2026-11-10T10:43:12+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

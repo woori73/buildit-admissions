@@ -1,0 +1,15 @@
+{
+  "url": "https://entra.ytus.ac.kr/content/14",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://entra.ytus.ac.kr/board/additional_admissions",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 33288,
+  "sha256": "cd118ddc68e1971068c732fe973ed1acdf5f9a482974b4ed87934c93ce42cd24",
+  "raw_path": "raw/entra.ytus.ac.kr/cd118ddc68e1971068c732fe973ed1ac.html",
+  "collected_at": "2026-11-10T10:48:02+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

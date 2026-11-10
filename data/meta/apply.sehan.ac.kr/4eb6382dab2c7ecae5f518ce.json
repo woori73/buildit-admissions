@@ -1,0 +1,15 @@
+{
+  "url": "https://apply.sehan.ac.kr/apply",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://apply.sehan.ac.kr/apply/",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 1383,
+  "sha256": "5cc4c30ec58cd8cf8688ac13ad25b3b8d41798d9854f9be14a9742d1cf3d454d",
+  "raw_path": "raw/apply.sehan.ac.kr/5cc4c30ec58cd8cf8688ac13ad25b3b8.html",
+  "collected_at": "2026-11-10T10:40:04+09:00",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) BuildItIpsiResearch/1.0 (+contact: buildit-study)",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
