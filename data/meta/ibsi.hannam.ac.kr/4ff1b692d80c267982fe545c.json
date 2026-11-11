@@ -1,0 +1,17 @@
+{
+  "url": null,
+  "ok": true,
+  "robots_allowed": null,
+  "http_status": null,
+  "final_url": null,
+  "source_page_url": "https://ibsi.hannam.ac.kr/adms5/procedure/3_3.asp",
+  "content_type": "application/pdf",
+  "size": 130662,
+  "sha256": "f8c44c9a5097fca6c96183584c0604bbfe60eee59eb3782a1a88412709c95fdf",
+  "raw_path": "raw/ibsi.hannam.ac.kr/f8c44c9a5097fca6c96183584c0604bb.pdf",
+  "collected_at": "2026-11-11T10:58:00+09:00",
+  "acquired_by": "user_download",
+  "note": "사용자가 입학처 게시 페이지(source_page_url)의 첨부를 브라우저로 직접 내려받아 대화에 첨부한 파일. 수집 도구는 이 파일 주소를 요청하지 않았다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

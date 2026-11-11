@@ -1,0 +1,156 @@
+[
+  {
+    "university_code": "U107",
+    "university_name": "동의대학교",
+    "item": "대학어디가(adiga.kr) 공개 자료",
+    "reason": "지시서 규칙상 요청 금지. 요청하지 않았고 URL만 기록(저장소 2027 요강 수집본에 적힌 대학 상세 페이지)",
+    "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000107&searchSyr=2027"
+  },
+  {
+    "university_code": "U107",
+    "university_name": "동의대학교",
+    "item": "비공개·합격자 미발생 값",
+    "reason": "원문: 모집인원 1명 또는 지원인원 1명인 경우 비공개(빗금 칸), '*' 표시는 합격자 미발생 — 행을 만들지 않음.",
+    "url": "https://ipsi.deu.ac.kr/submenu.do?menuUrl=2Yx5AdyROxyzbsACUoXUCQ%3d%3d&"
+  },
+  {
+    "university_code": "U107",
+    "university_name": "동의대학교",
+    "item": "2026 정시 모집군",
+    "reason": "결과 표에 모집군 열이 없음(정시 문서 1쪽 '2026학년도 정시모집 군 변경사항' 표는 바뀐 학과만 적음) — group 비움.",
+    "url": "https://ipsi.deu.ac.kr/submenu.do?menuUrl=D0Lb4Mk2mKJBZuJJDzIzEw%3d%3d&"
+  },
+  {
+    "university_code": "U11",
+    "university_name": "국립목포대학교",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+    "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000011&searchSyr=2026"
+  },
+  {
+    "university_code": "U11",
+    "university_name": "국립목포대학교",
+    "item": "2026학년도 정시모집 입학전형 결과",
+    "reason": "사용자가 수시 파일만 첨부함. 정시 결과 게시 여부는 확인 못 함.",
+    "url": "https://ipsi.mokpo.ac.kr/ipsi/791/subview.do"
+  },
+  {
+    "university_code": "U11",
+    "university_name": "국립목포대학교",
+    "item": "공개 범위 밖 값",
+    "reason": "원문 주석: 입학생 1명 미공개, 2명 평균만 공개, 3~4명 70~90%cut 제외 — 빈 칸·'-'는 행으로 만들지 않음.",
+    "url": "https://ipsi.mokpo.ac.kr/ipsi/791/subview.do"
+  },
+  {
+    "university_code": "U128",
+    "university_name": "서원대학교",
+    "item": "2026학년도 정시모집 전형결과",
+    "reason": "입학안내 메인 '전형결과' 목록에 2026학년도 정시 게시글 없음(최신 정시는 '2025학년도 정시모집 전형결과 공지' 2025.11.04). 미게시로 보임. 전형결과 게시판 목록 주소도 쿼리 포함이라 robots 'Disallow: /*?' 대상 — 요청하지 않음.",
+    "url": "https://www.seowon.ac.kr/bbs/iphak/602/artclList.do?bbsClSeq=654&layout=unknown"
+  },
+  {
+    "university_code": "U128",
+    "university_name": "서원대학교",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(미확인).",
+    "url": "https://www.adiga.kr/"
+  },
+  {
+    "university_code": "U195",
+    "university_name": "한남대학교",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(미확인).",
+    "url": "https://www.adiga.kr/"
+  },
+  {
+    "university_code": "U195",
+    "university_name": "한남대학교",
+    "item": "수시 지원자 수·정시 지원자 수",
+    "reason": "원문 표에 모집인원·경쟁률(정시 '지원율')만 있고 지원자 수 열이 없음.",
+    "url": "https://ibsi.hannam.ac.kr/adms5/occasional/1_3.asp"
+  },
+  {
+    "university_code": "U195",
+    "university_name": "한남대학교",
+    "item": "정시 회화과(실기) 성적",
+    "reason": "원문 성적 칸 '실기100%'(원문 주석: 2027학년도 실기/실적위주 실기전형 회화과는 실기 100%) — 성적 행 없음.",
+    "url": "https://ibsi.hannam.ac.kr/adms5/procedure/3_3.asp"
+  },
+  {
+    "university_code": "U201",
+    "university_name": "한세대학교",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(미확인).",
+    "url": "https://www.adiga.kr/"
+  },
+  {
+    "university_code": "U215",
+    "university_name": "가톨릭꽃동네대학교",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+    "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000215&searchSyr=2026"
+  },
+  {
+    "university_code": "U215",
+    "university_name": "가톨릭꽃동네대학교",
+    "item": "최종등록 3인 미만 모집단위 성적",
+    "reason": "원문 '최종등록 3인 미만 미공개'(수시 7개·정시 1개 전형) — 모집·지원·경쟁률만 담음. 자율전공학부 학생부교과(만학도및자립지원)는 성적 칸이 '-'.",
+    "url": "https://www.kkot.ac.kr/ipsi/board/list?boardManagementNo=1145&menuLevel=2&menuNo=126"
+  },
+  {
+    "university_code": "U60",
+    "university_name": "경동대학교",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+    "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000060&searchSyr=2026"
+  },
+  {
+    "university_code": "U60",
+    "university_name": "경동대학교",
+    "item": "2026 정시 정원외(농어촌·특성화고교졸업자·기초생활수급자/차상위/한부모) 성적",
+    "reason": "원문 머리글은 '지원인원 | 교과성적 최종평균·최종100% | 수능성적 최종평균·최종100%'인데 행 값 배치가 머리글과 맞지 않음(예: 사회복지학과 특성화고교졸업자 '1 1 2.98 2.98 5.00' — 지원 1명인데 교과 평균 1·100% 2.98). 지원인원(첫 값)만 담고 성적은 담지 않음. 원문 확인 필요: verification.needs_review",
+    "url": "https://www.kduniv.ac.kr/iphak/CMS/Board/Board.do?mCode=MN071"
+  },
+  {
+    "university_code": "U61",
+    "university_name": "대구한의대학교",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(미확인).",
+    "url": "https://www.adiga.kr/"
+  },
+  {
+    "university_code": "U88",
+    "university_name": "대구가톨릭대학교",
+    "item": "미공개 전형",
+    "reason": "수시 게시글 본문: 지역기회균형전형, 실기/실적 위주전형, 정원외 전형(농어촌학생전형, 기회균형선발전형)은 별도로 성적을 공개하지 않음.",
+    "url": "https://ibsi.cu.ac.kr/kor/BBSMSTR_000000000001/16219/view.do"
+  },
+  {
+    "university_code": "U88",
+    "university_name": "대구가톨릭대학교",
+    "item": "대학어디가(adiga.kr) 공개 자료",
+    "reason": "지시서 규칙상 요청하지 않음(미확인). 저장소의 2027 요강 수집본에 적힌 대학 상세 페이지 주소만 기록.",
+    "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000088&searchSyr=2027"
+  },
+  {
+    "university_code": "U88",
+    "university_name": "대구가톨릭대학교",
+    "item": "2026 정시 미실시·실기위주·학생부교과 선발 모집단위",
+    "reason": "원문 '2026학년도 정시모집 미실시', '…실기위주로 선발', '…학생부교과로 선발' 행은 결과 값이 없어 행을 만들지 않음(verification.skipped_units).",
+    "url": "https://ibsi.cu.ac.kr/kor/bbs/BBSMSTR_000000000046/lst.do"
+  },
+  {
+    "university_code": "YONGIN",
+    "university_name": "용인대학교",
+    "item": "수시·정시 지원자 현황(경쟁률)",
+    "reason": "입학처 메인의 '수시지원자 현황/정시지원자 현황'은 외부 대행사 도메인(ratio.uwayapply.com)이라 사용하지 않음.",
+    "url": "http://ratio.uwayapply.com/Sl5KVyVyV2FiSmYlJjomSjdmVGY="
+  },
+  {
+    "university_code": "YONGIN",
+    "university_name": "용인대학교",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(미확인).",
+    "url": "https://www.adiga.kr/"
+  }
+]

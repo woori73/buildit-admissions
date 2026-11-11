@@ -1,0 +1,17 @@
+{
+  "url": null,
+  "ok": true,
+  "robots_allowed": null,
+  "http_status": null,
+  "final_url": null,
+  "source_page_url": "https://ipsi.yongin.ac.kr/susi/prev_chungwon_list.do",
+  "content_type": "application/pdf",
+  "size": 103020,
+  "sha256": "ef5e59fd106375a1027e044ed3b3c99ede2c14387edd52fad1c2e8ebbb1eb4ce",
+  "raw_path": "raw/ipsi.yongin.ac.kr/ef5e59fd106375a1027e044ed3b3c99e.pdf",
+  "collected_at": "2026-11-11T10:58:00+09:00",
+  "acquired_by": "user_download",
+  "note": "사용자가 입학처 게시 페이지(source_page_url)의 첨부를 브라우저로 직접 내려받아 대화에 첨부한 파일. 수집 도구는 이 파일 주소를 요청하지 않았다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
