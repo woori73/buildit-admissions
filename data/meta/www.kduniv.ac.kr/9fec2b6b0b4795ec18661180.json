@@ -1,0 +1,17 @@
+{
+  "url": null,
+  "ok": true,
+  "robots_allowed": null,
+  "http_status": null,
+  "final_url": null,
+  "source_page_url": "https://www.kduniv.ac.kr/iphak/CMS/Board/Board.do?mCode=MN071",
+  "content_type": "application/pdf",
+  "size": 88852,
+  "sha256": "d3f592c03feb948768e54ba1619f65866e8e9f8751ee1bff93315f6a9a7399a5",
+  "raw_path": "raw/www.kduniv.ac.kr/d3f592c03feb948768e54ba1619f6586.pdf",
+  "collected_at": "2026-11-11T10:58:00+09:00",
+  "acquired_by": "user_download",
+  "note": "사용자가 입학처 게시 페이지(source_page_url)의 첨부를 브라우저로 직접 내려받아 대화에 첨부한 파일. 수집 도구는 이 파일 주소를 요청하지 않았다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

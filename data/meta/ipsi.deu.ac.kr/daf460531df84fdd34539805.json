@@ -1,0 +1,17 @@
+{
+  "url": null,
+  "ok": true,
+  "robots_allowed": null,
+  "http_status": null,
+  "final_url": null,
+  "source_page_url": "https://ipsi.deu.ac.kr/submenu.do?menuUrl=2Yx5AdyROxyzbsACUoXUCQ%3d%3d&",
+  "content_type": "application/pdf",
+  "size": 534717,
+  "sha256": "c6af23f9fcca6e11ed39852760729d66d2fce3bbba029b81341b198fe8febe3b",
+  "raw_path": "raw/ipsi.deu.ac.kr/c6af23f9fcca6e11ed39852760729d66.pdf",
+  "collected_at": "2026-11-11T10:58:00+09:00",
+  "acquired_by": "user_download",
+  "note": "사용자가 입학처 게시 페이지(source_page_url)의 첨부를 브라우저로 직접 내려받아 대화에 첨부한 파일. 수집 도구는 이 파일 주소를 요청하지 않았다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

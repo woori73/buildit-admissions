@@ -1,0 +1,17 @@
+{
+  "url": null,
+  "ok": true,
+  "robots_allowed": null,
+  "http_status": null,
+  "final_url": null,
+  "source_page_url": "https://www.kkot.ac.kr/ipsi/board/list?boardManagementNo=1145&menuLevel=2&menuNo=126",
+  "content_type": "application/pdf",
+  "size": 32291,
+  "sha256": "3edc8d642c5ff8a5f6306566570493fb521cc9af199170d3778e317dffe83728",
+  "raw_path": "raw/www.kkot.ac.kr/3edc8d642c5ff8a5f6306566570493fb.pdf",
+  "collected_at": "2026-11-11T10:58:00+09:00",
+  "acquired_by": "user_download",
+  "note": "사용자가 입학처 게시 페이지(source_page_url)의 첨부를 브라우저로 직접 내려받아 대화에 첨부한 파일. 수집 도구는 이 파일 주소를 요청하지 않았다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

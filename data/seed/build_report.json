@@ -16104,5 +16104,730 @@
         "gaps": 5
       }
     ]
+  },
+  "prior_results_batch6_user": {
+    "seed_files": [
+      {
+        "file": "data/seed/prior_2026_batch6_user/ipsi_seed_prior_2026_01_u107_u11_u128_u195_u201_u215_u60.json",
+        "prior_results": 9395,
+        "documents": 15,
+        "chars": 4387304
+      },
+      {
+        "file": "data/seed/prior_2026_batch6_user/ipsi_seed_prior_2026_02_u61_u88_yongin.json",
+        "prior_results": 2775,
+        "documents": 6,
+        "chars": 1621733
+      }
+    ],
+    "result_year": 2026,
+    "academic_year": 2027,
+    "count": 12170,
+    "documents": 21,
+    "universities_with_rows": 10,
+    "gaps": [
+      {
+        "university_code": "U107",
+        "university_name": "동의대학교",
+        "item": "대학어디가(adiga.kr) 공개 자료",
+        "reason": "지시서 규칙상 요청 금지. 요청하지 않았고 URL만 기록(저장소 2027 요강 수집본에 적힌 대학 상세 페이지)",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000107&searchSyr=2027"
+      },
+      {
+        "university_code": "U107",
+        "university_name": "동의대학교",
+        "item": "비공개·합격자 미발생 값",
+        "reason": "원문: 모집인원 1명 또는 지원인원 1명인 경우 비공개(빗금 칸), '*' 표시는 합격자 미발생 — 행을 만들지 않음.",
+        "url": "https://ipsi.deu.ac.kr/submenu.do?menuUrl=2Yx5AdyROxyzbsACUoXUCQ%3d%3d&"
+      },
+      {
+        "university_code": "U107",
+        "university_name": "동의대학교",
+        "item": "2026 정시 모집군",
+        "reason": "결과 표에 모집군 열이 없음(정시 문서 1쪽 '2026학년도 정시모집 군 변경사항' 표는 바뀐 학과만 적음) — group 비움.",
+        "url": "https://ipsi.deu.ac.kr/submenu.do?menuUrl=D0Lb4Mk2mKJBZuJJDzIzEw%3d%3d&"
+      },
+      {
+        "university_code": "U11",
+        "university_name": "국립목포대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000011&searchSyr=2026"
+      },
+      {
+        "university_code": "U11",
+        "university_name": "국립목포대학교",
+        "item": "2026학년도 정시모집 입학전형 결과",
+        "reason": "사용자가 수시 파일만 첨부함. 정시 결과 게시 여부는 확인 못 함.",
+        "url": "https://ipsi.mokpo.ac.kr/ipsi/791/subview.do"
+      },
+      {
+        "university_code": "U11",
+        "university_name": "국립목포대학교",
+        "item": "공개 범위 밖 값",
+        "reason": "원문 주석: 입학생 1명 미공개, 2명 평균만 공개, 3~4명 70~90%cut 제외 — 빈 칸·'-'는 행으로 만들지 않음.",
+        "url": "https://ipsi.mokpo.ac.kr/ipsi/791/subview.do"
+      },
+      {
+        "university_code": "U128",
+        "university_name": "서원대학교",
+        "item": "2026학년도 정시모집 전형결과",
+        "reason": "입학안내 메인 '전형결과' 목록에 2026학년도 정시 게시글 없음(최신 정시는 '2025학년도 정시모집 전형결과 공지' 2025.11.04). 미게시로 보임. 전형결과 게시판 목록 주소도 쿼리 포함이라 robots 'Disallow: /*?' 대상 — 요청하지 않음.",
+        "url": "https://www.seowon.ac.kr/bbs/iphak/602/artclList.do?bbsClSeq=654&layout=unknown"
+      },
+      {
+        "university_code": "U128",
+        "university_name": "서원대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U195",
+        "university_name": "한남대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U195",
+        "university_name": "한남대학교",
+        "item": "수시 지원자 수·정시 지원자 수",
+        "reason": "원문 표에 모집인원·경쟁률(정시 '지원율')만 있고 지원자 수 열이 없음.",
+        "url": "https://ibsi.hannam.ac.kr/adms5/occasional/1_3.asp"
+      },
+      {
+        "university_code": "U195",
+        "university_name": "한남대학교",
+        "item": "정시 회화과(실기) 성적",
+        "reason": "원문 성적 칸 '실기100%'(원문 주석: 2027학년도 실기/실적위주 실기전형 회화과는 실기 100%) — 성적 행 없음.",
+        "url": "https://ibsi.hannam.ac.kr/adms5/procedure/3_3.asp"
+      },
+      {
+        "university_code": "U201",
+        "university_name": "한세대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U215",
+        "university_name": "가톨릭꽃동네대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000215&searchSyr=2026"
+      },
+      {
+        "university_code": "U215",
+        "university_name": "가톨릭꽃동네대학교",
+        "item": "최종등록 3인 미만 모집단위 성적",
+        "reason": "원문 '최종등록 3인 미만 미공개'(수시 7개·정시 1개 전형) — 모집·지원·경쟁률만 담음. 자율전공학부 학생부교과(만학도및자립지원)는 성적 칸이 '-'.",
+        "url": "https://www.kkot.ac.kr/ipsi/board/list?boardManagementNo=1145&menuLevel=2&menuNo=126"
+      },
+      {
+        "university_code": "U60",
+        "university_name": "경동대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000060&searchSyr=2026"
+      },
+      {
+        "university_code": "U60",
+        "university_name": "경동대학교",
+        "item": "2026 정시 정원외(농어촌·특성화고교졸업자·기초생활수급자/차상위/한부모) 성적",
+        "reason": "원문 머리글은 '지원인원 | 교과성적 최종평균·최종100% | 수능성적 최종평균·최종100%'인데 행 값 배치가 머리글과 맞지 않음(예: 사회복지학과 특성화고교졸업자 '1 1 2.98 2.98 5.00' — 지원 1명인데 교과 평균 1·100% 2.98). 지원인원(첫 값)만 담고 성적은 담지 않음. 원문 확인 필요: verification.needs_review",
+        "url": "https://www.kduniv.ac.kr/iphak/CMS/Board/Board.do?mCode=MN071"
+      },
+      {
+        "university_code": "U61",
+        "university_name": "대구한의대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U88",
+        "university_name": "대구가톨릭대학교",
+        "item": "미공개 전형",
+        "reason": "수시 게시글 본문: 지역기회균형전형, 실기/실적 위주전형, 정원외 전형(농어촌학생전형, 기회균형선발전형)은 별도로 성적을 공개하지 않음.",
+        "url": "https://ibsi.cu.ac.kr/kor/BBSMSTR_000000000001/16219/view.do"
+      },
+      {
+        "university_code": "U88",
+        "university_name": "대구가톨릭대학교",
+        "item": "대학어디가(adiga.kr) 공개 자료",
+        "reason": "지시서 규칙상 요청하지 않음(미확인). 저장소의 2027 요강 수집본에 적힌 대학 상세 페이지 주소만 기록.",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000088&searchSyr=2027"
+      },
+      {
+        "university_code": "U88",
+        "university_name": "대구가톨릭대학교",
+        "item": "2026 정시 미실시·실기위주·학생부교과 선발 모집단위",
+        "reason": "원문 '2026학년도 정시모집 미실시', '…실기위주로 선발', '…학생부교과로 선발' 행은 결과 값이 없어 행을 만들지 않음(verification.skipped_units).",
+        "url": "https://ibsi.cu.ac.kr/kor/bbs/BBSMSTR_000000000046/lst.do"
+      },
+      {
+        "university_code": "YONGIN",
+        "university_name": "용인대학교",
+        "item": "수시·정시 지원자 현황(경쟁률)",
+        "reason": "입학처 메인의 '수시지원자 현황/정시지원자 현황'은 외부 대행사 도메인(ratio.uwayapply.com)이라 사용하지 않음.",
+        "url": "http://ratio.uwayapply.com/Sl5KVyVyV2FiSmYlJjomSjdmVGY="
+      },
+      {
+        "university_code": "YONGIN",
+        "university_name": "용인대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      }
+    ],
+    "per_university": [
+      {
+        "university_key": "u107",
+        "university_code": "U107",
+        "university_name": "동의대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 3205,
+        "base_rows": 524,
+        "metric_rows": 2681,
+        "metric_labels": 45,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 2999,
+        "recruit_total_checks": [
+          {
+            "scope": "전형별",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(농어촌·특성화고동일계는 전체통합선발 요약 표를 통합모집 행으로 담음)"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u11",
+        "university_code": "U11",
+        "university_name": "국립목포대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 0,
+          "OTHER": 0
+        },
+        "rows": 1783,
+        "base_rows": 158,
+        "metric_rows": 1625,
+        "metric_labels": 14,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 26,
+        "linked_2027_department_rows": 1290,
+        "recruit_total_checks": [
+          {
+            "scope": "학생부교과(교과일반전형)",
+            "sum_of_rows": 880,
+            "source_total": 880,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(52행)"
+          },
+          {
+            "scope": "학생부교과(지역인재-일반전형)",
+            "sum_of_rows": 228,
+            "source_total": 228,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(87행)"
+          },
+          {
+            "scope": "학생부교과(지역인재-기초및차상위전형)",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(94행)"
+          },
+          {
+            "scope": "학생부교과(기회균형전형)",
+            "sum_of_rows": 58,
+            "source_total": 58,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(120행)"
+          },
+          {
+            "scope": "학생부교과(기초및차상위계층자전형)",
+            "sum_of_rows": 4,
+            "source_total": 4,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(128행)"
+          },
+          {
+            "scope": "학생부교과(농어촌학생전형)",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(135행)"
+          },
+          {
+            "scope": "학생부종합(종합일반전형)",
+            "sum_of_rows": 322,
+            "source_total": 322,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(176행)"
+          },
+          {
+            "scope": "학생부종합(지역인재전형)",
+            "sum_of_rows": 42,
+            "source_total": 42,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(189행)"
+          },
+          {
+            "scope": "학생부종합(장애인전형)",
+            "sum_of_rows": 6,
+            "source_total": 6,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(207행)"
+          },
+          {
+            "scope": "실기전형",
+            "sum_of_rows": 20,
+            "source_total": 20,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(214행)"
+          },
+          {
+            "scope": "특기자전형",
+            "sum_of_rows": 25,
+            "source_total": 25,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(222행)"
+          },
+          {
+            "scope": "기술인재전형",
+            "sum_of_rows": 79,
+            "source_total": 79,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(230행)"
+          },
+          {
+            "scope": "평생교육전형",
+            "sum_of_rows": 48,
+            "source_total": 48,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(237행)"
+          },
+          {
+            "scope": "특성화고 등을 졸업한 재직자전형",
+            "sum_of_rows": 9,
+            "source_total": 9,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(244행)"
+          },
+          {
+            "scope": "성인학습자전형",
+            "sum_of_rows": 72,
+            "source_total": 72,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(251행)"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u128",
+        "university_code": "U128",
+        "university_name": "서원대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 0,
+          "OTHER": 0
+        },
+        "rows": 1106,
+        "base_rows": 164,
+        "metric_rows": 942,
+        "metric_labels": 8,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 656,
+        "linked_2027_department_rows": 816,
+        "recruit_total_checks": [
+          {
+            "scope": "수시",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음(순번 1~170 연속 확인)"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "u195",
+        "university_code": "U195",
+        "university_name": "한남대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 2111,
+        "base_rows": 242,
+        "metric_rows": 1869,
+        "metric_labels": 17,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 557,
+        "linked_2027_department_rows": 1975,
+        "recruit_total_checks": [
+          {
+            "scope": "수시·정시",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "u201",
+        "university_code": "U201",
+        "university_name": "한세대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 2,
+          "OTHER": 0
+        },
+        "rows": 707,
+        "base_rows": 147,
+        "metric_rows": 560,
+        "metric_labels": 14,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 281,
+        "recruit_total_checks": [
+          {
+            "scope": "수시·정시",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 1
+      },
+      {
+        "university_key": "u215",
+        "university_code": "U215",
+        "university_name": "가톨릭꽃동네대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 50,
+        "base_rows": 14,
+        "metric_rows": 36,
+        "metric_labels": 8,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 50,
+        "recruit_total_checks": [
+          {
+            "scope": "전체",
+            "sum_of_rows": 133,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음. 표 행 14개 전부 기본 행으로 담음"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "u60",
+        "university_code": "U60",
+        "university_name": "경동대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 433,
+        "base_rows": 161,
+        "metric_rows": 272,
+        "metric_labels": 5,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 227,
+        "linked_2027_department_rows": 427,
+        "recruit_total_checks": [
+          {
+            "scope": "수시·정시",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": 1,
+            "match": null,
+            "note": "원문 합계 없음"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "u61",
+        "university_code": "U61",
+        "university_name": "대구한의대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 908,
+        "base_rows": 103,
+        "metric_rows": 805,
+        "metric_labels": 18,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 721,
+        "linked_2027_department_rows": 806,
+        "recruit_total_checks": [
+          {
+            "scope": "수시·정시",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 1
+      },
+      {
+        "university_key": "u88",
+        "university_code": "U88",
+        "university_name": "대구가톨릭대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 762,
+        "base_rows": 184,
+        "metric_rows": 578,
+        "metric_labels": 7,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 674,
+        "linked_2027_department_rows": 732,
+        "recruit_total_checks": [
+          {
+            "scope": "수시·정시",
+            "sum_of_rows": null,
+            "source_total": null,
+            "source_page": null,
+            "match": null,
+            "note": "원문 합계 없음"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "yongin",
+        "university_code": "YONGIN",
+        "university_name": "용인대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 1105,
+        "base_rows": 224,
+        "metric_rows": 881,
+        "metric_labels": 16,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 933,
+        "linked_2027_department_rows": 743,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 일반학생 전형 소계",
+            "sum_of_rows": 451,
+            "source_total": 451,
+            "source_page": 4,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "SUSI 교과성적우수자 특별전형 소계",
+            "sum_of_rows": 82,
+            "source_total": 82,
+            "source_page": 6,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "SUSI 자율전공 특별전형 소계",
+            "sum_of_rows": 237,
+            "source_total": 237,
+            "source_page": 7,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "SUSI 기회균형 특별전형 소계",
+            "sum_of_rows": 65,
+            "source_total": 65,
+            "source_page": 8,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "SUSI 체육우수자 특별전형 소계",
+            "sum_of_rows": 183,
+            "source_total": 183,
+            "source_page": 10,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "SUSI 기초생활수급자 및 차상위계층 특별전형(정원외) 소계",
+            "sum_of_rows": 10,
+            "source_total": 10,
+            "source_page": 12,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "SUSI 농어촌학생 특별전형(정원외) 소계",
+            "sum_of_rows": 41,
+            "source_total": 41,
+            "source_page": 13,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "SUSI 특성화고교출신자 특별전형(정원외) 소계",
+            "sum_of_rows": 18,
+            "source_total": 18,
+            "source_page": 14,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "JEONGSI 일반학생 전형 소계",
+            "sum_of_rows": 198,
+            "source_total": 198,
+            "source_page": 15,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "JEONGSI 자율전공 특별전형 소계",
+            "sum_of_rows": 60,
+            "source_total": 60,
+            "source_page": 17,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "JEONGSI 경기실적 및 선수경력자 특별전형 소계",
+            "sum_of_rows": 3,
+            "source_total": 3,
+            "source_page": 17,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "JEONGSI 장애인 등 대상자 특별전형(정원외) 소계",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": 18,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "JEONGSI 기초생활수급자 및 차상위계층 특별전형(정원외) 소계",
+            "sum_of_rows": 1,
+            "source_total": 1,
+            "source_page": 18,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          },
+          {
+            "scope": "JEONGSI 특성화고교졸업자 특별전형(정원외) 소계",
+            "sum_of_rows": 2,
+            "source_total": 2,
+            "source_page": 18,
+            "match": true,
+            "note": "원문 소계/합계 행"
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      }
+    ]
   }
 }
