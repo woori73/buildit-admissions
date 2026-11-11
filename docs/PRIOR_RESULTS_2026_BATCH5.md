@@ -63,7 +63,7 @@
 
 - data/meta의 성공 기록 802건, 출처 169곳을 대상으로 robots.txt를 다시 받아 새 규칙으로 판정했다. robots.txt 외의 요청은 하지 않았다.
 - 새 규칙으로 막히는 실제 수집은 **3건**이다.
-  1. **한경국립대 2027 수시 모집요강 PDF**(`http://ipsi.hknu.ac.kr/upload_data/mojib/20260623192023_0.pdf`, 규칙 `Allow: /` + `Disallow: /upload_data/`) — 운영 중인 한경국립대 **수능최저 규칙**(`data/parsed/susi_minimum/u37_2027_susi_minimum.json`)의 원문이다. → 처리 방법은 사용자 결정 사항이다.
+  1. **한경국립대 2027 수시 모집요강 PDF**(`http://ipsi.hknu.ac.kr/upload_data/mojib/20260623192023_0.pdf`, 규칙 `Allow: /` + `Disallow: /upload_data/`) — 운영 중인 한경국립대 **수능최저 규칙**(`data/parsed/susi_minimum/u37_2027_susi_minimum.json`)의 원문이다. → 규칙은 유지하기로 했다(사용자 결정, 2026-11-10). 2026-11-11 사용자가 입학처 모집요강 페이지의 'PDF 다운로드' 버튼으로 받은 파일을 첨부해 대조했다. SHA-256(`456596a9…1ce1c0`)·크기(28,156,714바이트)가 보관본과 같고, 17쪽 최저학력기준 원문도 `raw_text`와 같다. 원문 확인 완료.
   2. **차의과학대 수시 모집요강 안내 페이지**(한글 주소, 규칙 `Disallow: /%*`) — 링크를 찾으려고 연 페이지다. 데이터를 뽑은 PDF(`/wp-content/uploads/…`)는 허용 경로다.
   3. 한국항공대 오류 안내 페이지(`/error_new/error.html`) — 다른 주소가 넘겨준 오류 화면이고, 데이터로 쓰지 않았다.
 - robots.txt 자체를 받은 기록 17건은 위반이 아니다.
