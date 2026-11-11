@@ -16108,22 +16108,22 @@
   "prior_results_batch6_user": {
     "seed_files": [
       {
-        "file": "data/seed/prior_2026_batch6_user/ipsi_seed_prior_2026_01_u107_u11_u128_u195_u201_u215_u60.json",
-        "prior_results": 9395,
-        "documents": 15,
-        "chars": 4387304
+        "file": "data/seed/prior_2026_batch6_user/ipsi_seed_prior_2026_01_u107_u11_u128_u195_u201_u215.json",
+        "prior_results": 9502,
+        "documents": 14,
+        "chars": 4427705
       },
       {
-        "file": "data/seed/prior_2026_batch6_user/ipsi_seed_prior_2026_02_u61_u88_yongin.json",
-        "prior_results": 2775,
-        "documents": 6,
-        "chars": 1621733
+        "file": "data/seed/prior_2026_batch6_user/ipsi_seed_prior_2026_02_u60_u61_u88_yongin.json",
+        "prior_results": 3208,
+        "documents": 8,
+        "chars": 1817313
       }
     ],
     "result_year": 2026,
     "academic_year": 2027,
-    "count": 12170,
-    "documents": 21,
+    "count": 12710,
+    "documents": 22,
     "universities_with_rows": 10,
     "gaps": [
       {
@@ -16153,13 +16153,6 @@
         "item": "대학어디가(adiga.kr) 2026 입시결과",
         "reason": "규칙상 요청하지 않음(미확인). 링크만 기록.",
         "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000011&searchSyr=2026"
-      },
-      {
-        "university_code": "U11",
-        "university_name": "국립목포대학교",
-        "item": "2026학년도 정시모집 입학전형 결과",
-        "reason": "사용자가 수시 파일만 첨부함. 정시 결과 게시 여부는 확인 못 함.",
-        "url": "https://ipsi.mokpo.ac.kr/ipsi/791/subview.do"
       },
       {
         "university_code": "U11",
@@ -16321,136 +16314,208 @@
         "university_name": "국립목포대학교",
         "documents": {
           "SUSI": 1,
-          "JEONGSI": 0,
+          "JEONGSI": 1,
           "OTHER": 0
         },
-        "rows": 1783,
-        "base_rows": 158,
-        "metric_rows": 1625,
-        "metric_labels": 14,
+        "rows": 2323,
+        "base_rows": 207,
+        "metric_rows": 2116,
+        "metric_labels": 25,
         "reserve_rank_moved_to_metric": 0,
         "linked_2027_type_rows": 26,
-        "linked_2027_department_rows": 1290,
+        "linked_2027_department_rows": 1656,
         "recruit_total_checks": [
           {
-            "scope": "학생부교과(교과일반전형)",
+            "scope": "SUSI 학생부교과(교과일반전형)",
             "sum_of_rows": 880,
             "source_total": 880,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(52행)"
+            "note": "원문 '소계' 행(전체 52행)"
           },
           {
-            "scope": "학생부교과(지역인재-일반전형)",
+            "scope": "SUSI 학생부교과(지역인재-일반전형)",
             "sum_of_rows": 228,
             "source_total": 228,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(87행)"
+            "note": "원문 '소계' 행(전체 87행)"
           },
           {
-            "scope": "학생부교과(지역인재-기초및차상위전형)",
+            "scope": "SUSI 학생부교과(지역인재-기초및차상위전형)",
             "sum_of_rows": 2,
             "source_total": 2,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(94행)"
+            "note": "원문 '소계' 행(전체 94행)"
           },
           {
-            "scope": "학생부교과(기회균형전형)",
+            "scope": "SUSI 학생부교과(기회균형전형)",
             "sum_of_rows": 58,
             "source_total": 58,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(120행)"
+            "note": "원문 '소계' 행(전체 120행)"
           },
           {
-            "scope": "학생부교과(기초및차상위계층자전형)",
+            "scope": "SUSI 학생부교과(기초및차상위계층자전형)",
             "sum_of_rows": 4,
             "source_total": 4,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(128행)"
+            "note": "원문 '소계' 행(전체 128행)"
           },
           {
-            "scope": "학생부교과(농어촌학생전형)",
+            "scope": "SUSI 학생부교과(농어촌학생전형)",
             "sum_of_rows": 2,
             "source_total": 2,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(135행)"
+            "note": "원문 '소계' 행(전체 135행)"
           },
           {
-            "scope": "학생부종합(종합일반전형)",
+            "scope": "SUSI 학생부종합(종합일반전형)",
             "sum_of_rows": 322,
             "source_total": 322,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(176행)"
+            "note": "원문 '소계' 행(전체 176행)"
           },
           {
-            "scope": "학생부종합(지역인재전형)",
+            "scope": "SUSI 학생부종합(지역인재전형)",
             "sum_of_rows": 42,
             "source_total": 42,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(189행)"
+            "note": "원문 '소계' 행(전체 189행)"
           },
           {
-            "scope": "학생부종합(장애인전형)",
+            "scope": "SUSI 학생부종합(장애인전형)",
             "sum_of_rows": 6,
             "source_total": 6,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(207행)"
+            "note": "원문 '소계' 행(전체 207행)"
           },
           {
-            "scope": "실기전형",
+            "scope": "SUSI 실기전형",
             "sum_of_rows": 20,
             "source_total": 20,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(214행)"
+            "note": "원문 '소계' 행(전체 214행)"
           },
           {
-            "scope": "특기자전형",
+            "scope": "SUSI 특기자전형",
             "sum_of_rows": 25,
             "source_total": 25,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(222행)"
+            "note": "원문 '소계' 행(전체 222행)"
           },
           {
-            "scope": "기술인재전형",
+            "scope": "SUSI 기술인재전형",
             "sum_of_rows": 79,
             "source_total": 79,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(230행)"
+            "note": "원문 '소계' 행(전체 230행)"
           },
           {
-            "scope": "평생교육전형",
+            "scope": "SUSI 평생교육전형",
             "sum_of_rows": 48,
             "source_total": 48,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(237행)"
+            "note": "원문 '소계' 행(전체 237행)"
           },
           {
-            "scope": "특성화고 등을 졸업한 재직자전형",
+            "scope": "SUSI 특성화고 등을 졸업한 재직자전형",
             "sum_of_rows": 9,
             "source_total": 9,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(244행)"
+            "note": "원문 '소계' 행(전체 244행)"
           },
           {
-            "scope": "성인학습자전형",
+            "scope": "SUSI 성인학습자전형",
             "sum_of_rows": 72,
             "source_total": 72,
             "source_page": 1,
             "match": true,
-            "note": "원문 '소계' 행(251행)"
+            "note": "원문 '소계' 행(전체 251행)"
+          },
+          {
+            "scope": "JEONGSI 가군 일반학생",
+            "sum_of_rows": 155,
+            "source_total": 155,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(정시 가,다군 30행)"
+          },
+          {
+            "scope": "JEONGSI 가군 지역인재",
+            "sum_of_rows": 5,
+            "source_total": 5,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(정시 가,다군 38행)"
+          },
+          {
+            "scope": "JEONGSI 가군 지역인재-기초및차상위",
+            "sum_of_rows": 1,
+            "source_total": 1,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(정시 가,다군 46행)"
+          },
+          {
+            "scope": "JEONGSI 가군 기초및차상위",
+            "sum_of_rows": 1,
+            "source_total": 1,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(정시 가,다군 54행)"
+          },
+          {
+            "scope": "JEONGSI 다군 일반학생",
+            "sum_of_rows": 115,
+            "source_total": 115,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(정시 가,다군 84행)"
+          },
+          {
+            "scope": "JEONGSI 다군 평생교육",
+            "sum_of_rows": 13,
+            "source_total": 11,
+            "source_page": 1,
+            "match": false,
+            "note": "원문 '소계' 행(정시 가,다군 92행)"
+          },
+          {
+            "scope": "JEONGSI 다군 특성화고 등을 졸업한 재직자",
+            "sum_of_rows": 9,
+            "source_total": 9,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(정시 가,다군 100행)"
+          },
+          {
+            "scope": "JEONGSI 다군 성인학습자",
+            "sum_of_rows": 47,
+            "source_total": 43,
+            "source_page": 1,
+            "match": false,
+            "note": "원문 '소계' 행(정시 가,다군 108행)"
+          },
+          {
+            "scope": "JEONGSI 나군 전문학사",
+            "sum_of_rows": 87,
+            "source_total": 87,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '소계' 행(정사 나군(전문학사) 14행)"
           }
         ],
         "spot_checks": 0,
@@ -16458,7 +16523,7 @@
         "range_failures_source": 0,
         "build_failures": [],
         "build_warnings": [],
-        "gaps": 3
+        "gaps": 2
       },
       {
         "university_key": "u128",

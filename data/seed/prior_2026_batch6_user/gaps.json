@@ -30,13 +30,6 @@
   {
     "university_code": "U11",
     "university_name": "국립목포대학교",
-    "item": "2026학년도 정시모집 입학전형 결과",
-    "reason": "사용자가 수시 파일만 첨부함. 정시 결과 게시 여부는 확인 못 함.",
-    "url": "https://ipsi.mokpo.ac.kr/ipsi/791/subview.do"
-  },
-  {
-    "university_code": "U11",
-    "university_name": "국립목포대학교",
     "item": "공개 범위 밖 값",
     "reason": "원문 주석: 입학생 1명 미공개, 2명 평균만 공개, 3~4명 70~90%cut 제외 — 빈 칸·'-'는 행으로 만들지 않음.",
     "url": "https://ipsi.mokpo.ac.kr/ipsi/791/subview.do"
