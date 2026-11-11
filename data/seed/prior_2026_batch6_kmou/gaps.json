@@ -1,0 +1,37 @@
+[
+  {
+    "university_code": "U33",
+    "university_name": "국립한국해양대학교",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 요청하지 않음(미확인).",
+    "url": "https://www.adiga.kr/"
+  },
+  {
+    "university_code": "U33",
+    "university_name": "국립한국해양대학교",
+    "item": "2026학년도 수시 실기/특기 전형 성적(체육특기자·특수교육대상자·특성화고교졸업자·아치해양인재Ⅱ·재직자)",
+    "reason": "수시 성적 파일에 일반·교과성적우수자·지역인재·아치해양인재Ⅰ·농어촌·기회균형 6개 시트만 있음(나머지 전형은 지원현황·충원순위만).",
+    "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3313&cntntsId=2249"
+  },
+  {
+    "university_code": "U33",
+    "university_name": "국립한국해양대학교",
+    "item": "2026학년도 정시 기회균형선발·재직자 성적",
+    "reason": "정시 성적 파일에 일반전형 시트만 있음.",
+    "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3329&cntntsId=2251"
+  },
+  {
+    "university_code": "U33",
+    "university_name": "국립한국해양대학교",
+    "item": "미공개 성적",
+    "reason": "원문 주석: 개인정보 보호에 따라 등록인원 1명인 모집단위 성적 미공개, 2명인 모집단위 표준편차 미공개 — 빈 칸은 행으로 만들지 않음.",
+    "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3313&cntntsId=2249"
+  },
+  {
+    "university_code": "U33",
+    "university_name": "국립한국해양대학교",
+    "item": "게시일",
+    "reason": "사용자가 내려받은 파일만 있어 게시 페이지의 게시일을 확인하지 않음(published_at null). 파일 속성의 수정일은 게시일로 쓰지 않음.",
+    "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3312&cntntsId=2248"
+  }
+]

@@ -15905,5 +15905,204 @@
         "gaps": 2
       }
     ]
+  },
+  "prior_results_batch6_kmou": {
+    "seed_files": [
+      {
+        "file": "data/seed/prior_2026_batch6_kmou/ipsi_seed_prior_2026_01_u33.json",
+        "prior_results": 1928,
+        "documents": 4,
+        "chars": 910231
+      }
+    ],
+    "result_year": 2026,
+    "academic_year": 2027,
+    "count": 1928,
+    "documents": 4,
+    "universities_with_rows": 1,
+    "gaps": [
+      {
+        "university_code": "U33",
+        "university_name": "국립한국해양대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "U33",
+        "university_name": "국립한국해양대학교",
+        "item": "2026학년도 수시 실기/특기 전형 성적(체육특기자·특수교육대상자·특성화고교졸업자·아치해양인재Ⅱ·재직자)",
+        "reason": "수시 성적 파일에 일반·교과성적우수자·지역인재·아치해양인재Ⅰ·농어촌·기회균형 6개 시트만 있음(나머지 전형은 지원현황·충원순위만).",
+        "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3313&cntntsId=2249"
+      },
+      {
+        "university_code": "U33",
+        "university_name": "국립한국해양대학교",
+        "item": "2026학년도 정시 기회균형선발·재직자 성적",
+        "reason": "정시 성적 파일에 일반전형 시트만 있음.",
+        "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3329&cntntsId=2251"
+      },
+      {
+        "university_code": "U33",
+        "university_name": "국립한국해양대학교",
+        "item": "미공개 성적",
+        "reason": "원문 주석: 개인정보 보호에 따라 등록인원 1명인 모집단위 성적 미공개, 2명인 모집단위 표준편차 미공개 — 빈 칸은 행으로 만들지 않음.",
+        "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3313&cntntsId=2249"
+      },
+      {
+        "university_code": "U33",
+        "university_name": "국립한국해양대학교",
+        "item": "게시일",
+        "reason": "사용자가 내려받은 파일만 있어 게시 페이지의 게시일을 확인하지 않음(published_at null). 파일 속성의 수정일은 게시일로 쓰지 않음.",
+        "url": "https://www.kmou.ac.kr/ipsi/cm/cntnts/cntntsView.do?mi=3312&cntntsId=2248"
+      }
+    ],
+    "per_university": [
+      {
+        "university_key": "u33",
+        "university_code": "U33",
+        "university_name": "국립한국해양대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 2,
+          "OTHER": 0
+        },
+        "rows": 1928,
+        "base_rows": 271,
+        "metric_rows": 1657,
+        "metric_labels": 22,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 738,
+        "linked_2027_department_rows": 1057,
+        "recruit_total_checks": [
+          {
+            "scope": "수시 일반전형",
+            "sum_of_rows": 86,
+            "source_total": 86,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 교과성적우수자",
+            "sum_of_rows": 783,
+            "source_total": 783,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 지역인재",
+            "sum_of_rows": 117,
+            "source_total": 117,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 아치해양인재 Ⅰ(일반)",
+            "sum_of_rows": 100,
+            "source_total": 100,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 아치해양인재 Ⅱ(사회적배려대상자)",
+            "sum_of_rows": 38,
+            "source_total": 38,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 체육특기자",
+            "sum_of_rows": 3,
+            "source_total": 3,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 특수교육대상자",
+            "sum_of_rows": 4,
+            "source_total": 4,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 농·어촌학생",
+            "sum_of_rows": 41,
+            "source_total": 41,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 특성화고교졸업자",
+            "sum_of_rows": 11,
+            "source_total": 11,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 기회균형선발",
+            "sum_of_rows": 24,
+            "source_total": 24,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "수시 특성화고 등을 졸업한 재직자",
+            "sum_of_rows": 17,
+            "source_total": 17,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '합  계' 행(51행)"
+          },
+          {
+            "scope": "정시 일반전형 가군",
+            "sum_of_rows": 145,
+            "source_total": 145,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '총     계' 행(44행)"
+          },
+          {
+            "scope": "정시 일반전형 다군",
+            "sum_of_rows": 136,
+            "source_total": 136,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '총     계' 행(44행)"
+          },
+          {
+            "scope": "정시 기회균형선발 가군",
+            "sum_of_rows": 1,
+            "source_total": 1,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '총     계' 행(44행)"
+          },
+          {
+            "scope": "정시 특성화고 등을 졸업한 재직자 가군",
+            "sum_of_rows": 10,
+            "source_total": 10,
+            "source_page": 1,
+            "match": true,
+            "note": "원문 '총     계' 행(44행)"
+          }
+        ],
+        "spot_checks": 24,
+        "spot_checks_all_match": true,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      }
+    ]
   }
 }
