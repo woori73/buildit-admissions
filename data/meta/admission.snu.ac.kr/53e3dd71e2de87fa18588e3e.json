@@ -1,0 +1,17 @@
+{
+  "url": "https://admission.snu.ac.kr/materials/stats/competition_rate?md=down&bbsidx=163729&fileidx=46612",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": null,
+  "source_page_url": "https://admission.snu.ac.kr/materials/stats/competition_rate",
+  "content_type": "application/pdf",
+  "size": 1337992,
+  "sha256": "4d56f2db6f9c4c42fb0dcb7ed366770def5307cd897072df30b7960e2f610dae",
+  "raw_path": "raw/admission.snu.ac.kr/4d56f2db6f9c4c42fb0dcb7ed366770d.pdf",
+  "collected_at": "2026-11-12T19:20:00+09:00",
+  "acquired_by": "browser_click_through",
+  "note": "2026-11-12 사용자가 파일 이름·출처·크기를 보고 승인한 뒤, 사용자 컴퓨터의 내장 브라우저에서 입학처 게시글을 열고 게시글에 있는 첨부 링크로 받은 파일. robots.txt가 막지 않는 경로이며 Referer 등 헤더를 바꾸지 않았다(브라우저 기본 요청). 받은 뒤 브라우저에서 계산한 SHA-256과 대조했다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
