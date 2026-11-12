@@ -1,0 +1,17 @@
+{
+  "url": null,
+  "ok": true,
+  "robots_allowed": null,
+  "http_status": null,
+  "final_url": null,
+  "source_page_url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&bn=30097&m=read&cate=%EC%88%98%EC%8B%9C",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 54493,
+  "sha256": "0dfe178fa94b01b9a13219d60e193edc086e21b6c284c315b26bcdafb5695d27",
+  "raw_path": "raw/iphak.mju.ac.kr/0dfe178fa94b01b9a13219d60e193edc.xlsx",
+  "collected_at": "2026-11-13T00:51:00+09:00",
+  "acquired_by": "user_download",
+  "note": "사용자가 입학처 게시 페이지(source_page_url)의 첨부를 브라우저로 직접 내려받아(2026-11-13) 사용자 컴퓨터의 다운로드 폴더에서 가져온 파일. 수집 도구는 이 파일 주소를 요청하지 않았다(robots 차단 또는 robots 확인 불가).",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

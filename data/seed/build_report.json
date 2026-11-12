@@ -18015,5 +18015,519 @@
         "gaps": 2
       }
     ]
+  },
+  "prior_results_batch8": {
+    "seed_files": [
+      {
+        "file": "data/seed/prior_2026_batch8_user_download/ipsi_seed_prior_2026_01_mju_mjunat_skku_sookmyung_uos.json",
+        "prior_results": 6456,
+        "documents": 13,
+        "chars": 2978208
+      }
+    ],
+    "result_year": 2026,
+    "academic_year": 2027,
+    "count": 6456,
+    "documents": 15,
+    "universities_with_rows": 5,
+    "gaps": [
+      {
+        "university_code": "MJU",
+        "university_name": "명지대학교(인문캠퍼스)",
+        "item": "'-' 칸",
+        "reason": "원문 '-'(예: 최종 예비순위 없음)와 빈 칸은 행으로 만들지 않음.",
+        "url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&bn=30097&m=read&cate=%EC%88%98%EC%8B%9C"
+      },
+      {
+        "university_code": "MJUNAT",
+        "university_name": "명지대학교(자연캠퍼스)",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000109"
+      },
+      {
+        "university_code": "MJUNAT",
+        "university_name": "명지대학교(자연캠퍼스)",
+        "item": "'-' 칸",
+        "reason": "원문 '-'(예: 최종 예비순위 없음)와 빈 칸은 행으로 만들지 않음.",
+        "url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&bn=30097&m=read&cate=%EC%88%98%EC%8B%9C"
+      },
+      {
+        "university_code": "SKKU",
+        "university_name": "성균관대학교",
+        "item": "예체능 특기자/실기우수자 전형",
+        "reason": "원문에 1쪽 선발 개요 합계(모집 106·지원 2,661·경쟁률 25.10·충원 29·충원율 27.4)만 있고 모집단위별 표가 없다. 합계 행은 담지 않았다.",
+        "url": "https://admission.skku.edu/main.html"
+      },
+      {
+        "university_code": "SKKU",
+        "university_name": "성균관대학교",
+        "item": "정시 특성화고졸재직자 전형",
+        "reason": "원문에 1쪽 선발 개요 합계(모집 4·지원 135·경쟁률 33.75·충원 13·충원율 325.0)만 있고, 정시 표 주석이 '특성화고졸재직자전형 제외'라 모집단위별 값이 없다.",
+        "url": "https://admission.skku.edu/main.html"
+      },
+      {
+        "university_code": "SKKU",
+        "university_name": "성균관대학교",
+        "item": "수시 등급·점수(종합·논술)",
+        "reason": "원문은 학교장추천(학생부교과)만 최종등록자 교과성적 50%·70% cut을 싣고, 종합·논술·정시는 모집·지원·경쟁률·충원만 싣는다.",
+        "url": "https://admission.skku.edu/main.html"
+      },
+      {
+        "university_code": "SKKU",
+        "university_name": "성균관대학교",
+        "item": "게시 페이지 주소",
+        "reason": "사용자가 입학처 사이트에서 직접 받은 파일로, 게시글 주소는 기록하지 않았다(source_page_url은 입학처 첫 화면).",
+        "url": "https://admission.skku.edu/main.html"
+      },
+      {
+        "university_code": "SOOKMYUNG",
+        "university_name": "숙명여자대학교",
+        "item": "대학어디가(adiga.kr) 대학별 입시결과",
+        "reason": "지시서상 요청 금지 사이트라 요청하지 않음.",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "SOOKMYUNG",
+        "university_name": "숙명여자대학교",
+        "item": "수시·정시 충원현황 PDF",
+        "reason": "사용자가 함께 받은 '2026학년도 수시모집충원현황'·'정시모집충원현황' PDF는 글자층 없는 그림이라 이번에 담지 않았다(판독 필요). 정시 전형 결과는 이 두 파일 외에 받은 것이 없다.",
+        "url": "https://admission.sookmyung.ac.kr"
+      },
+      {
+        "university_code": "SOOKMYUNG",
+        "university_name": "숙명여자대학교",
+        "item": "숙명인재(서류형) 등 이번 파일에 없는 전형",
+        "reason": "받은 파일은 지역균형·논술우수자·숙명인재(면접형)·소프트웨어인재·예능창의인재·정원외 전형 결과다.",
+        "url": "https://admission.sookmyung.ac.kr"
+      },
+      {
+        "university_code": "SOOKMYUNG",
+        "university_name": "숙명여자대학교",
+        "item": "게시 페이지 주소",
+        "reason": "사용자가 입학처 사이트에서 직접 받은 파일로, 게시글 주소는 기록하지 않았다(source_page_url은 입학처 첫 화면).",
+        "url": "https://admission.sookmyung.ac.kr"
+      },
+      {
+        "university_code": "UOS",
+        "university_name": "서울시립대학교",
+        "item": "수시 지원현황·최종 충원합격 현황",
+        "reason": "입학통계(수시) 게시판의 '2026학년도 수시모집 지원현황'·'최종 충원합격 현황' 게시글은 첨부 없이 본문 이미지로만 올라 있어 이번에 담지 않았다(이미지 판독 필요).",
+        "url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=K7&menuid=2002001009000000000"
+      },
+      {
+        "university_code": "UOS",
+        "university_name": "서울시립대학교",
+        "item": "붙임1 출신지역별 최종등록자 현황",
+        "reason": "전형유형별·지역별 등록자 수 집계표로 모집단위별 값이 아니라 담지 않았다.",
+        "url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=K7&menuid=2002001009000000000"
+      },
+      {
+        "university_code": "UOS",
+        "university_name": "서울시립대학교",
+        "item": "정시 모집인원 3명 이하 모집단위 성적",
+        "reason": "원문 '미제출 사유: 3명 이하 모집단위 미제출'. 지표 '미제출 사유' 행에 문자열로 둠.",
+        "url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=L6&menuid=2002002004000000000"
+      }
+    ],
+    "per_university": [
+      {
+        "university_key": "mju",
+        "university_code": "MJU",
+        "university_name": "명지대학교(인문캠퍼스)",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 1895,
+        "base_rows": 163,
+        "metric_rows": 1732,
+        "metric_labels": 36,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 247,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 1
+      },
+      {
+        "university_key": "mjunat",
+        "university_code": "MJUNAT",
+        "university_name": "명지대학교(자연캠퍼스)",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 1722,
+        "base_rows": 166,
+        "metric_rows": 1556,
+        "metric_labels": 41,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 35,
+        "linked_2027_department_rows": 322,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "skku",
+        "university_code": "SKKU",
+        "university_name": "성균관대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 418,
+        "base_rows": 171,
+        "metric_rows": 247,
+        "metric_labels": 3,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 288,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부종합(융합형)",
+            "sum_of_rows": [
+              315,
+              7615,
+              1101
+            ],
+            "source_total": [
+              315,
+              7615,
+              1077
+            ],
+            "source_page": 1,
+            "match": false
+          },
+          {
+            "scope": "SUSI 학생부종합(탐구형)",
+            "sum_of_rows": [
+              406,
+              6791,
+              1043
+            ],
+            "source_total": [
+              406,
+              6791,
+              1043
+            ],
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합(기회균형)",
+            "sum_of_rows": [
+              24,
+              711,
+              47
+            ],
+            "source_total": [
+              24,
+              711,
+              47
+            ],
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합(성균인재)",
+            "sum_of_rows": [
+              236,
+              6332,
+              293
+            ],
+            "source_total": [
+              236,
+              6332,
+              293
+            ],
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합(과학인재)",
+            "sum_of_rows": [
+              155,
+              1522,
+              270
+            ],
+            "source_total": [
+              155,
+              1522,
+              270
+            ],
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 정원외 특별전형",
+            "sum_of_rows": [
+              366,
+              4191,
+              226
+            ],
+            "source_total": [
+              366,
+              4191,
+              226
+            ],
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학교장추천(학생부교과)",
+            "sum_of_rows": [
+              416,
+              3992,
+              1134
+            ],
+            "source_total": [
+              416,
+              3992,
+              1134
+            ],
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 논술위주(언어형)",
+            "sum_of_rows": [
+              182,
+              18373,
+              6
+            ],
+            "source_total": [
+              182,
+              18373,
+              6
+            ],
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 논술위주(수리형)",
+            "sum_of_rows": [
+              204,
+              26101,
+              32
+            ],
+            "source_total": [
+              204,
+              26101,
+              32
+            ],
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 일반전형",
+            "sum_of_rows": [
+              1675,
+              9928,
+              2251
+            ],
+            "source_total": [
+              1657,
+              9928,
+              2251
+            ],
+            "source_page": 1,
+            "match": false
+          },
+          {
+            "scope": "JEONGSI 특별전형 농어촌학생",
+            "sum_of_rows": [
+              29,
+              233,
+              54
+            ],
+            "source_total": [
+              29,
+              233,
+              54
+            ],
+            "source_page": 1,
+            "match": true
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "sookmyung",
+        "university_code": "SOOKMYUNG",
+        "university_name": "숙명여자대학교",
+        "documents": {
+          "SUSI": 5,
+          "JEONGSI": 0,
+          "OTHER": 0
+        },
+        "rows": 659,
+        "base_rows": 197,
+        "metric_rows": 462,
+        "metric_labels": 5,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 547,
+        "recruit_total_checks": [
+          {
+            "scope": "지역균형선발전형",
+            "recruit_sum": 248,
+            "recruit_source": 248,
+            "applicant_sum": 1952,
+            "applicant_source": 1952,
+            "extra_sum": 483,
+            "extra_source": 483,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "논술우수자전형",
+            "recruit_sum": 214,
+            "recruit_source": 214,
+            "applicant_sum": 9461,
+            "applicant_source": 9461,
+            "extra_sum": 63,
+            "extra_source": 63,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "숙명인재(면접형)전형",
+            "recruit_sum": 391,
+            "recruit_source": 391,
+            "applicant_sum": 5271,
+            "applicant_source": 5271,
+            "extra_sum": 310,
+            "extra_source": 310,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "소프트웨어인재전형",
+            "recruit_sum": 44,
+            "recruit_source": 44,
+            "applicant_sum": 277,
+            "applicant_source": 277,
+            "extra_sum": 20,
+            "extra_source": 20,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "예능창의인재전형(미술대학)",
+            "recruit_sum": 53,
+            "recruit_source": 53,
+            "applicant_sum": 984,
+            "applicant_source": 984,
+            "extra_sum": 8,
+            "extra_source": 8,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "예능창의인재전형(체육교육과)",
+            "recruit_sum": 6,
+            "recruit_source": 6,
+            "applicant_sum": 134,
+            "applicant_source": 134,
+            "extra_sum": 1,
+            "extra_source": 1,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "농어촌학생전형(정원외)",
+            "recruit_sum": 63,
+            "recruit_source": 63,
+            "applicant_sum": 416,
+            "applicant_source": 416,
+            "extra_sum": 46,
+            "extra_source": 46,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "특성화고교출신자전형(정원외)",
+            "recruit_sum": 25,
+            "recruit_source": 25,
+            "applicant_sum": 212,
+            "applicant_source": 212,
+            "extra_sum": 17,
+            "extra_source": 17,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "특성화고졸재직자전형(정원외)",
+            "recruit_sum": 118,
+            "recruit_source": 118,
+            "applicant_sum": 749,
+            "applicant_source": 749,
+            "extra_sum": 278,
+            "extra_source": 278,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "특수교육대상자전형(정원외)",
+            "recruit_sum": 15,
+            "recruit_source": 15,
+            "applicant_sum": 97,
+            "applicant_source": 97,
+            "extra_sum": 14,
+            "extra_source": 14,
+            "source_page": 3,
+            "match": true
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "uos",
+        "university_code": "UOS",
+        "university_name": "서울시립대학교",
+        "documents": {
+          "SUSI": 3,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 1762,
+        "base_rows": 266,
+        "metric_rows": 1496,
+        "metric_labels": 36,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 36,
+        "linked_2027_department_rows": 1652,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      }
+    ]
   }
 }

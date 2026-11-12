@@ -1,0 +1,100 @@
+[
+  {
+    "university_code": "MJU",
+    "university_name": "명지대학교(인문캠퍼스)",
+    "item": "'-' 칸",
+    "reason": "원문 '-'(예: 최종 예비순위 없음)와 빈 칸은 행으로 만들지 않음.",
+    "url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&bn=30097&m=read&cate=%EC%88%98%EC%8B%9C"
+  },
+  {
+    "university_code": "MJUNAT",
+    "university_name": "명지대학교(자연캠퍼스)",
+    "item": "대학어디가(adiga.kr) 2026 입시결과",
+    "reason": "규칙상 제3자 출처는 요청하지 않음(미확인).",
+    "url": "https://www.adiga.kr/ucp/uvt/uni/univDetail.do?menuId=PCUVTINF2000&unvCd=0000109"
+  },
+  {
+    "university_code": "MJUNAT",
+    "university_name": "명지대학교(자연캠퍼스)",
+    "item": "'-' 칸",
+    "reason": "원문 '-'(예: 최종 예비순위 없음)와 빈 칸은 행으로 만들지 않음.",
+    "url": "https://iphak.mju.ac.kr/pages/?p=11&b=B_1_2&bn=30097&m=read&cate=%EC%88%98%EC%8B%9C"
+  },
+  {
+    "university_code": "SKKU",
+    "university_name": "성균관대학교",
+    "item": "예체능 특기자/실기우수자 전형",
+    "reason": "원문에 1쪽 선발 개요 합계(모집 106·지원 2,661·경쟁률 25.10·충원 29·충원율 27.4)만 있고 모집단위별 표가 없다. 합계 행은 담지 않았다.",
+    "url": "https://admission.skku.edu/main.html"
+  },
+  {
+    "university_code": "SKKU",
+    "university_name": "성균관대학교",
+    "item": "정시 특성화고졸재직자 전형",
+    "reason": "원문에 1쪽 선발 개요 합계(모집 4·지원 135·경쟁률 33.75·충원 13·충원율 325.0)만 있고, 정시 표 주석이 '특성화고졸재직자전형 제외'라 모집단위별 값이 없다.",
+    "url": "https://admission.skku.edu/main.html"
+  },
+  {
+    "university_code": "SKKU",
+    "university_name": "성균관대학교",
+    "item": "수시 등급·점수(종합·논술)",
+    "reason": "원문은 학교장추천(학생부교과)만 최종등록자 교과성적 50%·70% cut을 싣고, 종합·논술·정시는 모집·지원·경쟁률·충원만 싣는다.",
+    "url": "https://admission.skku.edu/main.html"
+  },
+  {
+    "university_code": "SKKU",
+    "university_name": "성균관대학교",
+    "item": "게시 페이지 주소",
+    "reason": "사용자가 입학처 사이트에서 직접 받은 파일로, 게시글 주소는 기록하지 않았다(source_page_url은 입학처 첫 화면).",
+    "url": "https://admission.skku.edu/main.html"
+  },
+  {
+    "university_code": "SOOKMYUNG",
+    "university_name": "숙명여자대학교",
+    "item": "대학어디가(adiga.kr) 대학별 입시결과",
+    "reason": "지시서상 요청 금지 사이트라 요청하지 않음.",
+    "url": "https://www.adiga.kr/"
+  },
+  {
+    "university_code": "SOOKMYUNG",
+    "university_name": "숙명여자대학교",
+    "item": "수시·정시 충원현황 PDF",
+    "reason": "사용자가 함께 받은 '2026학년도 수시모집충원현황'·'정시모집충원현황' PDF는 글자층 없는 그림이라 이번에 담지 않았다(판독 필요). 정시 전형 결과는 이 두 파일 외에 받은 것이 없다.",
+    "url": "https://admission.sookmyung.ac.kr"
+  },
+  {
+    "university_code": "SOOKMYUNG",
+    "university_name": "숙명여자대학교",
+    "item": "숙명인재(서류형) 등 이번 파일에 없는 전형",
+    "reason": "받은 파일은 지역균형·논술우수자·숙명인재(면접형)·소프트웨어인재·예능창의인재·정원외 전형 결과다.",
+    "url": "https://admission.sookmyung.ac.kr"
+  },
+  {
+    "university_code": "SOOKMYUNG",
+    "university_name": "숙명여자대학교",
+    "item": "게시 페이지 주소",
+    "reason": "사용자가 입학처 사이트에서 직접 받은 파일로, 게시글 주소는 기록하지 않았다(source_page_url은 입학처 첫 화면).",
+    "url": "https://admission.sookmyung.ac.kr"
+  },
+  {
+    "university_code": "UOS",
+    "university_name": "서울시립대학교",
+    "item": "수시 지원현황·최종 충원합격 현황",
+    "reason": "입학통계(수시) 게시판의 '2026학년도 수시모집 지원현황'·'최종 충원합격 현황' 게시글은 첨부 없이 본문 이미지로만 올라 있어 이번에 담지 않았다(이미지 판독 필요).",
+    "url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=K7&menuid=2002001009000000000"
+  },
+  {
+    "university_code": "UOS",
+    "university_name": "서울시립대학교",
+    "item": "붙임1 출신지역별 최종등록자 현황",
+    "reason": "전형유형별·지역별 등록자 수 집계표로 모집단위별 값이 아니라 담지 않았다.",
+    "url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=K7&menuid=2002001009000000000"
+  },
+  {
+    "university_code": "UOS",
+    "university_name": "서울시립대학교",
+    "item": "정시 모집인원 3명 이하 모집단위 성적",
+    "reason": "원문 '미제출 사유: 3명 이하 모집단위 미제출'. 지표 '미제출 사유' 행에 문자열로 둠.",
+    "url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=L6&menuid=2002002004000000000"
+  }
+]

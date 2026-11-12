@@ -1,0 +1,17 @@
+{
+  "url": null,
+  "ok": true,
+  "robots_allowed": null,
+  "http_status": null,
+  "final_url": null,
+  "source_page_url": "https://admission.uos.ac.kr/admissionNew/freeBoard/list.do?list_id=L6&menuid=2002002004000000000",
+  "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "size": 34704,
+  "sha256": "c3963c28b827a02f3105d232dd423ba0f72f840bb1edc083d4ce933199880613",
+  "raw_path": "raw/admission.uos.ac.kr/c3963c28b827a02f3105d232dd423ba0.xlsx",
+  "collected_at": "2026-11-13T00:51:00+09:00",
+  "acquired_by": "user_download",
+  "note": "사용자가 입학처 게시 페이지(source_page_url)의 첨부를 브라우저로 직접 내려받아(2026-11-13) 사용자 컴퓨터의 다운로드 폴더에서 가져온 파일. 수집 도구는 이 파일 주소를 요청하지 않았다(robots 차단 또는 robots 확인 불가).",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
