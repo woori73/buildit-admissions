@@ -1,0 +1,17 @@
+{
+  "url": "https://enter.hansung.ac.kr/api/file/get?path=board%2F%2Ff99d6dda-5046-4ba5-bc40-8ab9f8ddd7b7.pdf&ignoreDestFilename=1",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": null,
+  "source_page_url": "https://enter.hansung.ac.kr/?m1=menu08%25&m2=sub02%25&board=entrance_data%2Fresult%25",
+  "content_type": "application/pdf",
+  "size": 144047,
+  "sha256": "458f2c4fd71cd5f58fefc1ca8933f4c4d8b342ee4cb831c3742fa215a2b34352",
+  "raw_path": "raw/enter.hansung.ac.kr/458f2c4fd71cd5f58fefc1ca8933f4c4.pdf",
+  "collected_at": "2026-11-12T19:20:00+09:00",
+  "acquired_by": "browser_click_through",
+  "note": "2026-11-12 사용자가 파일 이름·출처·크기를 보고 승인한 뒤, 사용자 컴퓨터의 내장 브라우저에서 입학처 게시글을 열고 게시글에 있는 첨부 링크로 받은 파일. robots.txt가 막지 않는 경로이며 Referer 등 헤더를 바꾸지 않았다(브라우저 기본 요청). 받은 뒤 브라우저에서 계산한 SHA-256과 대조했다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

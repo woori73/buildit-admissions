@@ -1,0 +1,17 @@
+{
+  "url": "https://admission.snu.ac.kr/materials/stats/result?md=down&bbsidx=163375&fileidx=46297",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": null,
+  "source_page_url": "https://admission.snu.ac.kr/materials/stats/result",
+  "content_type": "application/pdf",
+  "size": 307094,
+  "sha256": "d25c7a0b01cae193555decfe45cac48f6f6f245580a5cec2bd58a9ba007c75c5",
+  "raw_path": "raw/admission.snu.ac.kr/d25c7a0b01cae193555decfe45cac48f.pdf",
+  "collected_at": "2026-11-12T19:20:00+09:00",
+  "acquired_by": "browser_click_through",
+  "note": "2026-11-12 사용자가 파일 이름·출처·크기를 보고 승인한 뒤, 사용자 컴퓨터의 내장 브라우저에서 입학처 게시글을 열고 게시글에 있는 첨부 링크로 받은 파일. robots.txt가 막지 않는 경로이며 Referer 등 헤더를 바꾸지 않았다(브라우저 기본 요청). 받은 뒤 브라우저에서 계산한 SHA-256과 대조했다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

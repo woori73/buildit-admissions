@@ -16898,17 +16898,17 @@
   "prior_results_batch7_browser": {
     "seed_files": [
       {
-        "file": "data/seed/prior_2026_batch7_browser/ipsi_seed_prior_2026_01_ewha_snu.json",
-        "prior_results": 1283,
-        "documents": 6,
-        "chars": 643171
+        "file": "data/seed/prior_2026_batch7_browser/ipsi_seed_prior_2026_01_ewha_hansung_skhu_snu_sogang.json",
+        "prior_results": 3628,
+        "documents": 17,
+        "chars": 1797692
       }
     ],
     "result_year": 2026,
     "academic_year": 2027,
-    "count": 1283,
-    "documents": 6,
-    "universities_with_rows": 2,
+    "count": 3628,
+    "documents": 17,
+    "universities_with_rows": 5,
     "gaps": [
       {
         "university_code": "EWHA",
@@ -16932,25 +16932,25 @@
         "url": "https://admission.ewha.ac.kr/admission/html/rolling/competition.asp"
       },
       {
-        "university_code": "SNU",
-        "university_name": "서울대학교",
-        "item": "2026학년도 수시모집 1차 충원합격자 선발현황",
-        "reason": "1차 게시글(bbsidx=163375)은 이번 승인 목록에 없어 받지 않았다. 2차 파일만 있어 1차·2차 합계(전체 충원 인원)는 알 수 없다.",
-        "url": "https://admission.snu.ac.kr/materials/stats/result"
+        "university_code": "HANSUNG",
+        "university_name": "한성대학교",
+        "item": "수시 모집인원·지원인원·경쟁률",
+        "reason": "수시 전형결과 PDF는 등급 50%·70% Cut만 싣는다. 수시 경쟁률은 '입시자료 > 경쟁률' 게시판에 있으나 이번에 받지 않았다.",
+        "url": "https://enter.hansung.ac.kr/?m1=menu08%25&m2=sub02%25&board=entrance_data%2Fresult%25"
       },
       {
-        "university_code": "SNU",
-        "university_name": "서울대학교",
-        "item": "2026학년도 정시모집 1·2차 충원합격자 선발현황",
-        "reason": "1·2차 게시글(bbsidx=164990, 165062)은 받지 않았다. 3차(최종) 파일만 있다.",
-        "url": "https://admission.snu.ac.kr/materials/stats/result"
+        "university_code": "HANSUNG",
+        "university_name": "한성대학교",
+        "item": "정시 모집인원·지원인원",
+        "reason": "정시 전형결과 PDF는 수능등급·총점·경쟁률만 싣는다.",
+        "url": "https://enter.hansung.ac.kr/?m1=menu08%25&m2=sub02%25&board=entrance_data%2Fresult%25"
       },
       {
-        "university_code": "SNU",
-        "university_name": "서울대학교",
-        "item": "충원 표의 숫자가 해당 차수 인원인지 누적인지",
-        "reason": "원문 제목은 '2차 충원합격자 선발현황', '3차(최종) 충원합격자 선발현황'이고 누적 여부를 적지 않았다. 지표명을 '2차 충원합격자 수'·'3차(최종) 충원합격자 수'로 두고 extra_admitted_count(충원 인원)에는 넣지 않았다. 확인 필요.",
-        "url": "https://admission.snu.ac.kr/materials/stats/result"
+        "university_code": "SKHU",
+        "university_name": "성공회대학교",
+        "item": "'-' 값",
+        "reason": "원문 주석: '“-” 값은 모집인원이 1명 이하이거나 등록자가 1명 이하인 경우입니다.' 등록자 2명이면 평균점만 공개. 이런 칸은 행으로 만들지 않음.",
+        "url": "https://enter.skhu.ac.kr/enter/3067/subview.do"
       },
       {
         "university_code": "SNU",
@@ -16965,6 +16965,20 @@
         "item": "등록자 성적(교과등급·수능 점수 등) 입시결과",
         "reason": "입학본부 '전형결과' 메뉴는 '경쟁률'·'선발현황'(충원합격자) 두 게시판뿐이고, 등록자 성적을 담은 게시물은 목록에서 찾지 못함",
         "url": "https://admission.snu.ac.kr/materials/stats/competition_rate"
+      },
+      {
+        "university_code": "SOGANG",
+        "university_name": "서강대학교",
+        "item": "모집인원 3명 이하 모집단위의 성적·충원 값",
+        "reason": "원문 주석: '모집 단위별 모집 인원이 소수인 경우(모집인원 3명 이하)에는 전형 결과를 입력하지 않음(개인정보 보호법에 의한 개인 특정 방지)'. '–' 칸은 행으로 만들지 않음.",
+        "url": "https://admission.sogang.ac.kr/enter/html/counsel/result.asp"
+      },
+      {
+        "university_code": "SOGANG",
+        "university_name": "서강대학교",
+        "item": "논술전형·실기 등 이 문서에 없는 전형",
+        "reason": "이 문서는 학생부교과(지역균형), 학생부종합 4개, 수능 6개 표만 싣는다.",
+        "url": "https://admission.sogang.ac.kr/enter/html/counsel/result.asp"
       }
     ],
     "per_university": [
@@ -16993,21 +17007,69 @@
         "gaps": 3
       },
       {
-        "university_key": "snu",
-        "university_code": "SNU",
-        "university_name": "서울대학교",
+        "university_key": "hansung",
+        "university_code": "HANSUNG",
+        "university_name": "한성대학교",
         "documents": {
           "SUSI": 2,
           "JEONGSI": 2,
           "OTHER": 0
         },
-        "rows": 564,
-        "base_rows": 493,
-        "metric_rows": 71,
-        "metric_labels": 2,
+        "rows": 885,
+        "base_rows": 131,
+        "metric_rows": 754,
+        "metric_labels": 10,
         "reserve_rank_moved_to_metric": 0,
         "linked_2027_type_rows": 0,
-        "linked_2027_department_rows": 470,
+        "linked_2027_department_rows": 403,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
+      },
+      {
+        "university_key": "skhu",
+        "university_code": "SKHU",
+        "university_name": "성공회대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 188,
+        "base_rows": 52,
+        "metric_rows": 136,
+        "metric_labels": 10,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 188,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 1
+      },
+      {
+        "university_key": "snu",
+        "university_code": "SNU",
+        "university_name": "서울대학교",
+        "documents": {
+          "SUSI": 3,
+          "JEONGSI": 4,
+          "OTHER": 0
+        },
+        "rows": 723,
+        "base_rows": 493,
+        "metric_rows": 230,
+        "metric_labels": 3,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 616,
         "recruit_total_checks": [
           {
             "scope": "SUSI 학생부종합전형 지역균형전형 인문대학 소계",
@@ -17880,7 +17942,77 @@
         "range_failures_source": 0,
         "build_failures": [],
         "build_warnings": [],
-        "gaps": 5
+        "gaps": 2
+      },
+      {
+        "university_key": "sogang",
+        "university_code": "SOGANG",
+        "university_name": "서강대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 1113,
+        "base_rows": 117,
+        "metric_rows": 996,
+        "metric_labels": 25,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 274,
+        "linked_2027_department_rows": 946,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부교과(지역균형)",
+            "sum_of_rows": 180,
+            "source_total": 180,
+            "applicant_sum": 1953,
+            "applicant_source": 1953,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합(일반)",
+            "sum_of_rows": 565,
+            "source_total": 565,
+            "applicant_sum": 7829,
+            "applicant_source": 7829,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합(기회균형)",
+            "sum_of_rows": 85,
+            "source_total": 85,
+            "applicant_sum": 1061,
+            "applicant_source": 1061,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합(서강가치)",
+            "sum_of_rows": 36,
+            "source_total": 36,
+            "applicant_sum": 611,
+            "applicant_source": 611,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합(특성화고교졸업자)",
+            "sum_of_rows": 6,
+            "source_total": 6,
+            "applicant_sum": 222,
+            "applicant_source": 222,
+            "source_page": 3,
+            "match": true
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 2
       }
     ]
   }
