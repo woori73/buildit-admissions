@@ -1,0 +1,58 @@
+[
+  {
+    "university_code": "EWHA",
+    "university_name": "이화여자대학교",
+    "item": "지원자 수",
+    "reason": "원문 표에 모집인원·경쟁률만 있고 지원자 수 열이 없다. applicant_count는 비웠다(계산하지 않음).",
+    "url": "https://admission.ewha.ac.kr/admission/html/ewharo/notice.asp"
+  },
+  {
+    "university_code": "EWHA",
+    "university_name": "이화여자대학교",
+    "item": "모집인원 3명 이하 모집단위의 50%·70% cut(미래인재전형-면접형)",
+    "reason": "원문 주석: '모집인원 3명 이하의 모집단위는 50%, 70% cut 공개하지 않음' — 빗금 칸은 행으로 만들지 않음.",
+    "url": "https://admission.ewha.ac.kr/admission/html/ewharo/notice.asp"
+  },
+  {
+    "university_code": "EWHA",
+    "university_name": "이화여자대학교",
+    "item": "2026학년도 수시·정시 지원경쟁률 게시글(지원자 수 포함 가능)",
+    "reason": "수시(idx 15133)·정시(idx 15236) 경쟁률 게시글은 이번에 받지 않았다. 지원자 수가 필요하면 다음 묶음에서 파일 목록을 다시 여쭐 것.",
+    "url": "https://admission.ewha.ac.kr/admission/html/rolling/competition.asp"
+  },
+  {
+    "university_code": "SNU",
+    "university_name": "서울대학교",
+    "item": "2026학년도 수시모집 1차 충원합격자 선발현황",
+    "reason": "1차 게시글(bbsidx=163375)은 이번 승인 목록에 없어 받지 않았다. 2차 파일만 있어 1차·2차 합계(전체 충원 인원)는 알 수 없다.",
+    "url": "https://admission.snu.ac.kr/materials/stats/result"
+  },
+  {
+    "university_code": "SNU",
+    "university_name": "서울대학교",
+    "item": "2026학년도 정시모집 1·2차 충원합격자 선발현황",
+    "reason": "1·2차 게시글(bbsidx=164990, 165062)은 받지 않았다. 3차(최종) 파일만 있다.",
+    "url": "https://admission.snu.ac.kr/materials/stats/result"
+  },
+  {
+    "university_code": "SNU",
+    "university_name": "서울대학교",
+    "item": "충원 표의 숫자가 해당 차수 인원인지 누적인지",
+    "reason": "원문 제목은 '2차 충원합격자 선발현황', '3차(최종) 충원합격자 선발현황'이고 누적 여부를 적지 않았다. 지표명을 '2차 충원합격자 수'·'3차(최종) 충원합격자 수'로 두고 extra_admitted_count(충원 인원)에는 넣지 않았다. 확인 필요.",
+    "url": "https://admission.snu.ac.kr/materials/stats/result"
+  },
+  {
+    "university_code": "SNU",
+    "university_name": "서울대학교",
+    "item": "2026학년도 수시·정시 선발 결과 보도자료",
+    "reason": "보도자료(수시 bbsidx=163032, 정시 bbsidx=164740) 첨부는 받지 않았다. 전체 집계 자료로 보인다.",
+    "url": "https://admission.snu.ac.kr/materials/downloads/press"
+  },
+  {
+    "university_code": "SNU",
+    "university_name": "서울대학교",
+    "item": "등록자 성적(교과등급·수능 점수 등) 입시결과",
+    "reason": "입학본부 '전형결과' 메뉴는 '경쟁률'·'선발현황'(충원합격자) 두 게시판뿐이고, 등록자 성적을 담은 게시물은 목록에서 찾지 못함",
+    "url": "https://admission.snu.ac.kr/materials/stats/competition_rate"
+  }
+]

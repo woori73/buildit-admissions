@@ -16894,5 +16894,994 @@
         "gaps": 2
       }
     ]
+  },
+  "prior_results_batch7_browser": {
+    "seed_files": [
+      {
+        "file": "data/seed/prior_2026_batch7_browser/ipsi_seed_prior_2026_01_ewha_snu.json",
+        "prior_results": 1283,
+        "documents": 6,
+        "chars": 643171
+      }
+    ],
+    "result_year": 2026,
+    "academic_year": 2027,
+    "count": 1283,
+    "documents": 6,
+    "universities_with_rows": 2,
+    "gaps": [
+      {
+        "university_code": "EWHA",
+        "university_name": "이화여자대학교",
+        "item": "지원자 수",
+        "reason": "원문 표에 모집인원·경쟁률만 있고 지원자 수 열이 없다. applicant_count는 비웠다(계산하지 않음).",
+        "url": "https://admission.ewha.ac.kr/admission/html/ewharo/notice.asp"
+      },
+      {
+        "university_code": "EWHA",
+        "university_name": "이화여자대학교",
+        "item": "모집인원 3명 이하 모집단위의 50%·70% cut(미래인재전형-면접형)",
+        "reason": "원문 주석: '모집인원 3명 이하의 모집단위는 50%, 70% cut 공개하지 않음' — 빗금 칸은 행으로 만들지 않음.",
+        "url": "https://admission.ewha.ac.kr/admission/html/ewharo/notice.asp"
+      },
+      {
+        "university_code": "EWHA",
+        "university_name": "이화여자대학교",
+        "item": "2026학년도 수시·정시 지원경쟁률 게시글(지원자 수 포함 가능)",
+        "reason": "수시(idx 15133)·정시(idx 15236) 경쟁률 게시글은 이번에 받지 않았다. 지원자 수가 필요하면 다음 묶음에서 파일 목록을 다시 여쭐 것.",
+        "url": "https://admission.ewha.ac.kr/admission/html/rolling/competition.asp"
+      },
+      {
+        "university_code": "SNU",
+        "university_name": "서울대학교",
+        "item": "2026학년도 수시모집 1차 충원합격자 선발현황",
+        "reason": "1차 게시글(bbsidx=163375)은 이번 승인 목록에 없어 받지 않았다. 2차 파일만 있어 1차·2차 합계(전체 충원 인원)는 알 수 없다.",
+        "url": "https://admission.snu.ac.kr/materials/stats/result"
+      },
+      {
+        "university_code": "SNU",
+        "university_name": "서울대학교",
+        "item": "2026학년도 정시모집 1·2차 충원합격자 선발현황",
+        "reason": "1·2차 게시글(bbsidx=164990, 165062)은 받지 않았다. 3차(최종) 파일만 있다.",
+        "url": "https://admission.snu.ac.kr/materials/stats/result"
+      },
+      {
+        "university_code": "SNU",
+        "university_name": "서울대학교",
+        "item": "충원 표의 숫자가 해당 차수 인원인지 누적인지",
+        "reason": "원문 제목은 '2차 충원합격자 선발현황', '3차(최종) 충원합격자 선발현황'이고 누적 여부를 적지 않았다. 지표명을 '2차 충원합격자 수'·'3차(최종) 충원합격자 수'로 두고 extra_admitted_count(충원 인원)에는 넣지 않았다. 확인 필요.",
+        "url": "https://admission.snu.ac.kr/materials/stats/result"
+      },
+      {
+        "university_code": "SNU",
+        "university_name": "서울대학교",
+        "item": "2026학년도 수시·정시 선발 결과 보도자료",
+        "reason": "보도자료(수시 bbsidx=163032, 정시 bbsidx=164740) 첨부는 받지 않았다. 전체 집계 자료로 보인다.",
+        "url": "https://admission.snu.ac.kr/materials/downloads/press"
+      },
+      {
+        "university_code": "SNU",
+        "university_name": "서울대학교",
+        "item": "등록자 성적(교과등급·수능 점수 등) 입시결과",
+        "reason": "입학본부 '전형결과' 메뉴는 '경쟁률'·'선발현황'(충원합격자) 두 게시판뿐이고, 등록자 성적을 담은 게시물은 목록에서 찾지 못함",
+        "url": "https://admission.snu.ac.kr/materials/stats/competition_rate"
+      }
+    ],
+    "per_university": [
+      {
+        "university_key": "ewha",
+        "university_code": "EWHA",
+        "university_name": "이화여자대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 719,
+        "base_rows": 153,
+        "metric_rows": 566,
+        "metric_labels": 7,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 631,
+        "linked_2027_department_rows": 559,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      },
+      {
+        "university_key": "snu",
+        "university_code": "SNU",
+        "university_name": "서울대학교",
+        "documents": {
+          "SUSI": 2,
+          "JEONGSI": 2,
+          "OTHER": 0
+        },
+        "rows": 564,
+        "base_rows": 493,
+        "metric_rows": 71,
+        "metric_labels": 2,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 470,
+        "recruit_total_checks": [
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 인문대학 소계",
+            "recruit_sum": 36,
+            "recruit_source": 36,
+            "applicant_sum": 137,
+            "applicant_source": 137,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 사회과학대학 소계",
+            "recruit_sum": 48,
+            "recruit_source": 48,
+            "applicant_sum": 169,
+            "applicant_source": 169,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 자연과학대학 소계",
+            "recruit_sum": 40,
+            "recruit_source": 40,
+            "applicant_sum": 161,
+            "applicant_source": 161,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 공과대학 소계",
+            "recruit_sum": 107,
+            "recruit_source": 107,
+            "applicant_sum": 419,
+            "applicant_source": 419,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 농업생명과학대학 소계",
+            "recruit_sum": 54,
+            "recruit_source": 54,
+            "applicant_sum": 346,
+            "applicant_source": 346,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 미술대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 사범대학 소계",
+            "recruit_sum": 58,
+            "recruit_source": 58,
+            "applicant_sum": 203,
+            "applicant_source": 203,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 생활과학대학 소계",
+            "recruit_sum": 24,
+            "recruit_source": 24,
+            "applicant_sum": 109,
+            "applicant_source": 109,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 음악대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합전형 지역균형전형 총계",
+            "recruit_sum": 509,
+            "recruit_source": 509,
+            "applicant_sum": 2419,
+            "applicant_source": 2419,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 인문대학 소계",
+            "recruit_sum": 126,
+            "recruit_source": 126,
+            "applicant_sum": 1245,
+            "applicant_source": 1245,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 사회과학대학 소계",
+            "recruit_sum": 143,
+            "recruit_source": 143,
+            "applicant_sum": 1271,
+            "applicant_source": 1271,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 자연과학대학 소계",
+            "recruit_sum": 121,
+            "recruit_source": 121,
+            "applicant_sum": 1047,
+            "applicant_source": 1047,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 공과대학 소계",
+            "recruit_sum": 386,
+            "recruit_source": 386,
+            "applicant_sum": 2547,
+            "applicant_source": 2547,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 농업생명과학대학 소계",
+            "recruit_sum": 127,
+            "recruit_source": 127,
+            "applicant_sum": 1731,
+            "applicant_source": 1731,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 미술대학 소계",
+            "recruit_sum": 7,
+            "recruit_source": 7,
+            "applicant_sum": 197,
+            "applicant_source": 197,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 사범대학 소계",
+            "recruit_sum": 124,
+            "recruit_source": 124,
+            "applicant_sum": 1285,
+            "applicant_source": 1285,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 생활과학대학 소계",
+            "recruit_sum": 42,
+            "recruit_source": 42,
+            "applicant_sum": 422,
+            "applicant_source": 422,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 음악대학 소계",
+            "recruit_sum": 98,
+            "recruit_source": 98,
+            "applicant_sum": 827,
+            "applicant_source": 827,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "SUSI 학생부종합/실기위주전형 일반전형 총계",
+            "recruit_sum": 1515,
+            "recruit_source": 1515,
+            "applicant_sum": 13695,
+            "applicant_source": 13695,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 전체(농생명계열 제외) 사회과학대학 소계",
+            "recruit_sum": 18,
+            "recruit_source": 18,
+            "applicant_sum": 182,
+            "applicant_source": 182,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 전체(농생명계열 제외) 자연과학대학 소계",
+            "recruit_sum": 13,
+            "recruit_source": 13,
+            "applicant_sum": 131,
+            "applicant_source": 131,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 전체(농생명계열 제외) 공과대학 소계",
+            "recruit_sum": 39,
+            "recruit_source": 39,
+            "applicant_sum": 344,
+            "applicant_source": 344,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 전체(농생명계열 제외) 농업생명과학대학 소계",
+            "recruit_sum": 16,
+            "recruit_source": 16,
+            "applicant_sum": 196,
+            "applicant_source": 196,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 전체(농생명계열 제외) 미술대학 소계",
+            "recruit_sum": 5,
+            "recruit_source": 5,
+            "applicant_sum": 60,
+            "applicant_source": 60,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 전체(농생명계열 제외) 사범대학 소계",
+            "recruit_sum": 16,
+            "recruit_source": 16,
+            "applicant_sum": 169,
+            "applicant_source": 169,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 전체(농생명계열 제외) 생활과학대학 소계",
+            "recruit_sum": 5,
+            "recruit_source": 5,
+            "applicant_sum": 48,
+            "applicant_source": 48,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 전체(농생명계열 제외) 음악대학 소계",
+            "recruit_sum": 5,
+            "recruit_source": 5,
+            "applicant_sum": 33,
+            "applicant_source": 33,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 전체(농생명계열 제외) 총계",
+            "recruit_sum": 179,
+            "recruit_source": 179,
+            "applicant_sum": 1793,
+            "applicant_source": 1793,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 농생명계열 사회과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 농생명계열 자연과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 농생명계열 공과대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 농생명계열 농업생명과학대학 소계",
+            "recruit_sum": 4,
+            "recruit_source": 4,
+            "applicant_sum": 23,
+            "applicant_source": 23,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 농생명계열 미술대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 농생명계열 사범대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 농생명계열 생활과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 농생명계열 음악대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "SUSI 기회균형특별전형(사회통합) 농생명계열 총계",
+            "recruit_sum": 4,
+            "recruit_source": 4,
+            "applicant_sum": 23,
+            "applicant_source": 23,
+            "source_page": 5,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 인문대학 소계",
+            "recruit_sum": 23,
+            "recruit_source": 23,
+            "applicant_sum": 49,
+            "applicant_source": 49,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 사회과학대학 소계",
+            "recruit_sum": 43,
+            "recruit_source": 43,
+            "applicant_sum": 122,
+            "applicant_source": 122,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 자연과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 공과대학 소계",
+            "recruit_sum": 36,
+            "recruit_source": 36,
+            "applicant_sum": 81,
+            "applicant_source": 81,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 농업생명과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 미술대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 사범대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 생활과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 음악대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 학부대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 지역균형전형 총계",
+            "recruit_sum": 152,
+            "recruit_source": 152,
+            "applicant_sum": 355,
+            "applicant_source": 355,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 인문대학 소계",
+            "recruit_sum": 77,
+            "recruit_source": 77,
+            "applicant_sum": 256,
+            "applicant_source": 256,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 사회과학대학 소계",
+            "recruit_sum": 104,
+            "recruit_source": 104,
+            "applicant_sum": 440,
+            "applicant_source": 440,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 자연과학대학 소계",
+            "recruit_sum": 78,
+            "recruit_source": 78,
+            "applicant_sum": 348,
+            "applicant_source": 348,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 공과대학 소계",
+            "recruit_sum": 275,
+            "recruit_source": 275,
+            "applicant_sum": 991,
+            "applicant_source": 991,
+            "source_page": 1,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 농업생명과학대학 소계",
+            "recruit_sum": 138,
+            "recruit_source": 138,
+            "applicant_sum": 527,
+            "applicant_source": 527,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 미술대학 소계",
+            "recruit_sum": 92,
+            "recruit_source": 92,
+            "applicant_sum": 526,
+            "applicant_source": 526,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 사범대학 소계",
+            "recruit_sum": 120,
+            "recruit_source": 120,
+            "applicant_sum": 518,
+            "applicant_source": 518,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 생활과학대학 소계",
+            "recruit_sum": 36,
+            "recruit_source": 36,
+            "applicant_sum": 155,
+            "applicant_source": 155,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 음악대학 소계",
+            "recruit_sum": 45,
+            "recruit_source": 45,
+            "applicant_sum": 293,
+            "applicant_source": 293,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 학부대학 소계",
+            "recruit_sum": 85,
+            "recruit_source": 85,
+            "applicant_sum": 283,
+            "applicant_source": 283,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 일반전형 총계",
+            "recruit_sum": 1256,
+            "recruit_source": 1256,
+            "applicant_sum": 5024,
+            "applicant_source": 5024,
+            "source_page": 2,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(농어촌) 사회과학대학 소계",
+            "recruit_sum": 7,
+            "recruit_source": 7,
+            "applicant_sum": 16,
+            "applicant_source": 16,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(농어촌) 자연과학대학 소계",
+            "recruit_sum": 7,
+            "recruit_source": 7,
+            "applicant_sum": 20,
+            "applicant_source": 20,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(농어촌) 공과대학 소계",
+            "recruit_sum": 17,
+            "recruit_source": 17,
+            "applicant_sum": 38,
+            "applicant_source": 38,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(농어촌) 농업생명과학대학 소계",
+            "recruit_sum": 12,
+            "recruit_source": 12,
+            "applicant_sum": 34,
+            "applicant_source": 34,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(농어촌) 미술대학 소계",
+            "recruit_sum": 1,
+            "recruit_source": 1,
+            "applicant_sum": 2,
+            "applicant_source": 2,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(농어촌) 사범대학 소계",
+            "recruit_sum": 9,
+            "recruit_source": 9,
+            "applicant_sum": 38,
+            "applicant_source": 38,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(농어촌) 생활과학대학 소계",
+            "recruit_sum": 3,
+            "recruit_source": 3,
+            "applicant_sum": 12,
+            "applicant_source": 12,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(농어촌) 음악대학 소계",
+            "recruit_sum": 3,
+            "recruit_source": 3,
+            "applicant_sum": 6,
+            "applicant_source": 6,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(농어촌) 총계",
+            "recruit_sum": 87,
+            "recruit_source": 87,
+            "applicant_sum": 237,
+            "applicant_source": 237,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(저소득) 사회과학대학 소계",
+            "recruit_sum": 8,
+            "recruit_source": 8,
+            "applicant_sum": 24,
+            "applicant_source": 24,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(저소득) 자연과학대학 소계",
+            "recruit_sum": 7,
+            "recruit_source": 7,
+            "applicant_sum": 14,
+            "applicant_source": 14,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(저소득) 공과대학 소계",
+            "recruit_sum": 17,
+            "recruit_source": 17,
+            "applicant_sum": 39,
+            "applicant_source": 39,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(저소득) 농업생명과학대학 소계",
+            "recruit_sum": 12,
+            "recruit_source": 12,
+            "applicant_sum": 21,
+            "applicant_source": 21,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(저소득) 미술대학 소계",
+            "recruit_sum": 3,
+            "recruit_source": 3,
+            "applicant_sum": 13,
+            "applicant_source": 13,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(저소득) 사범대학 소계",
+            "recruit_sum": 9,
+            "recruit_source": 9,
+            "applicant_sum": 18,
+            "applicant_source": 18,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(저소득) 생활과학대학 소계",
+            "recruit_sum": 2,
+            "recruit_source": 2,
+            "applicant_sum": 4,
+            "applicant_source": 4,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(저소득) 음악대학 소계",
+            "recruit_sum": 3,
+            "recruit_source": 3,
+            "applicant_sum": 10,
+            "applicant_source": 10,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 수능위주전형 기회균형특별전형(저소득) 총계",
+            "recruit_sum": 93,
+            "recruit_source": 93,
+            "applicant_sum": 250,
+            "applicant_source": 250,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(특수교육대상자) 사회과학대학 소계",
+            "recruit_sum": 4,
+            "recruit_source": 4,
+            "applicant_sum": 5,
+            "applicant_source": 5,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(특수교육대상자) 자연과학대학 소계",
+            "recruit_sum": 5,
+            "recruit_source": 5,
+            "applicant_sum": 3,
+            "applicant_source": 3,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(특수교육대상자) 공과대학 소계",
+            "recruit_sum": 5,
+            "recruit_source": 5,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(특수교육대상자) 농업생명과학대학 소계",
+            "recruit_sum": 4,
+            "recruit_source": 4,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(특수교육대상자) 미술대학 소계",
+            "recruit_sum": 2,
+            "recruit_source": 2,
+            "applicant_sum": 3,
+            "applicant_source": 3,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(특수교육대상자) 사범대학 소계",
+            "recruit_sum": 4,
+            "recruit_source": 4,
+            "applicant_sum": 1,
+            "applicant_source": 1,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(특수교육대상자) 생활과학대학 소계",
+            "recruit_sum": 2,
+            "recruit_source": 2,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(특수교육대상자) 음악대학 소계",
+            "recruit_sum": 2,
+            "recruit_source": 2,
+            "applicant_sum": 5,
+            "applicant_source": 5,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(특수교육대상자) 총계",
+            "recruit_sum": 49,
+            "recruit_source": "20이내",
+            "applicant_sum": 31,
+            "applicant_source": 31,
+            "source_page": 4,
+            "match": null,
+            "note": "원문 총계 모집 칸은 '20이내'. 원문 주석: 모집인원은 특수교육대상자의 모집단위(대학)별 상한 인원이며 총 20명 이내에서 최종 선발. 대학별 상한 합(49)과 비교하지 않음"
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(북한이탈주민) 사회과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(북한이탈주민) 자연과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(북한이탈주민) 공과대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 1,
+            "applicant_source": 1,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(북한이탈주민) 농업생명과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(북한이탈주민) 미술대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 3,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(북한이탈주민) 사범대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(북한이탈주민) 생활과학대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(북한이탈주민) 음악대학 소계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 0,
+            "applicant_source": null,
+            "source_page": 4,
+            "match": true
+          },
+          {
+            "scope": "JEONGSI 학생부종합전형 기회균형특별전형(북한이탈주민) 총계",
+            "recruit_sum": 0,
+            "recruit_source": null,
+            "applicant_sum": 4,
+            "applicant_source": 4,
+            "source_page": 4,
+            "match": true
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 5
+      }
+    ]
   }
 }
