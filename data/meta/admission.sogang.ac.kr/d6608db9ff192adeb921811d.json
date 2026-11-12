@@ -1,0 +1,17 @@
+{
+  "url": "https://admission.sogang.ac.kr/upload/GUIDES/20260602150120JNQJPH.pdf",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": null,
+  "source_page_url": "https://admission.sogang.ac.kr/enter/html/counsel/result.asp",
+  "content_type": "application/pdf",
+  "size": 250274,
+  "sha256": "3745a8aa6f569f9b7d249ac7731a0ea96250b43d261b95af874f879d2f2b6c9a",
+  "raw_path": "raw/admission.sogang.ac.kr/3745a8aa6f569f9b7d249ac7731a0ea9.pdf",
+  "collected_at": "2026-11-12T19:20:00+09:00",
+  "acquired_by": "browser_click_through",
+  "note": "2026-11-12 사용자가 파일 이름·출처·크기를 보고 승인한 뒤, 사용자 컴퓨터의 내장 브라우저에서 입학처 게시글을 열고 게시글에 있는 첨부 링크로 받은 파일. robots.txt가 막지 않는 경로이며 Referer 등 헤더를 바꾸지 않았다(브라우저 기본 요청). 받은 뒤 브라우저에서 계산한 SHA-256과 대조했다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

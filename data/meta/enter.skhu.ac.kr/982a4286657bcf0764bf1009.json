@@ -1,0 +1,16 @@
+{
+  "url": "https://enter.skhu.ac.kr/enter/3072/subview.do",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://enter.skhu.ac.kr/enter/3072/subview.do",
+  "content_type": "text/html; charset=UTF-8",
+  "size": 66180,
+  "sha256": "6ec908d3ca69f3563711d652064cf55061c8d3f953752dbc977503e6be506619",
+  "raw_path": "raw/enter.skhu.ac.kr/6ec908d3ca69f3563711d652064cf550.html",
+  "collected_at": "2026-11-12T20:20:00+09:00",
+  "acquired_by": "browser_click_through",
+  "note": "사용자 컴퓨터의 내장 브라우저에서 연 입학처 입시결과 페이지의 HTML(같은 페이지를 브라우저 fetch로 다시 받아 저장). robots.txt는 /bbs/* 만 막고 이 경로는 허용. 첫 화면 기본 선택 학년도가 2026(탭 '2026' _active)임을 확인.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
