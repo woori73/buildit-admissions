@@ -1,0 +1,1184 @@
+{
+ "generated_at": "2026-11-13T07:11:43+00:00",
+ "gate": "verification_status=NORMALIZED — 2027학년도 수시 원서접수 최종 경쟁률(올해 결과). activate-all(2027) 승격 전까지 상담 검색 미노출",
+ "part": "1/1",
+ "ipsi_universities": [
+  {
+   "code": "bible",
+   "university_code": "BIBLE",
+   "name": "한국성서대학교",
+   "establishment_type": "사립",
+   "region": "서울"
+  },
+  {
+   "code": "puts",
+   "university_code": "PUTS",
+   "name": "장로회신학대학교",
+   "establishment_type": "사립",
+   "region": "서울"
+  }
+ ],
+ "ipsi_documents": [
+  {
+   "document_key": "doc_bible_2027_susi_ratio",
+   "document_name": "한국성서대학교 2027학년도 수시모집 경쟁률(2026년 9월 11일 18시 최종)",
+   "applicable_academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "document_type": "경쟁률",
+   "institution_name": "한국성서대학교 입학처",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "source_page_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "published_at": "2026-09-11",
+   "verification_status": "NORMALIZED"
+  },
+  {
+   "document_key": "doc_puts_2027_susi_ratio",
+   "document_name": "장로회신학대학교 2027학년도 수시모집 경쟁률(최종현황)",
+   "applicable_academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "document_type": "경쟁률",
+   "institution_name": "장로회신학대학교 입학처(유웨이 경쟁률 서비스)",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "source_page_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "verification_status": "NORMALIZED"
+  }
+ ],
+ "prior_results": [
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "일반학생전형",
+   "department_name": "성서학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "1.94 : 1",
+   "linked_2027_type_name": "일반학생전형",
+   "linked_2027_department_name": "성서학과",
+   "recruit_count": 18,
+   "applicant_count": 35,
+   "competition_rate": 1.94,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "일반학생전형",
+   "department_name": "사회복지학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "6.94 : 1",
+   "linked_2027_type_name": "일반학생전형",
+   "linked_2027_department_name": "사회복지학과",
+   "recruit_count": 17,
+   "applicant_count": 118,
+   "competition_rate": 6.94,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "일반학생전형",
+   "department_name": "영유아보육학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "5.07 : 1",
+   "linked_2027_type_name": "일반학생전형",
+   "linked_2027_department_name": "영유아보육학과",
+   "recruit_count": 15,
+   "applicant_count": 76,
+   "competition_rate": 5.07,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "일반학생전형",
+   "department_name": "AI융합학부",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.28 : 1",
+   "linked_2027_type_name": "일반학생전형",
+   "linked_2027_department_name": "AI융합학부",
+   "recruit_count": 25,
+   "applicant_count": 82,
+   "competition_rate": 3.28,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "일반학생전형",
+   "department_name": "간호학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "9.91 : 1",
+   "linked_2027_type_name": "일반학생전형",
+   "linked_2027_department_name": "간호학과",
+   "recruit_count": 22,
+   "applicant_count": 218,
+   "competition_rate": 9.91,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "교과성적우수자전형",
+   "department_name": "성서학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "1.67 : 1",
+   "linked_2027_type_name": "교과성적우수자전형",
+   "linked_2027_department_name": "성서학과",
+   "recruit_count": 15,
+   "applicant_count": 25,
+   "competition_rate": 1.67,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "교과성적우수자전형",
+   "department_name": "사회복지학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "13.33 : 1",
+   "linked_2027_type_name": "교과성적우수자전형",
+   "linked_2027_department_name": "사회복지학과",
+   "recruit_count": 6,
+   "applicant_count": 80,
+   "competition_rate": 13.33,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "교과성적우수자전형",
+   "department_name": "영유아보육학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.82 : 1",
+   "linked_2027_type_name": "교과성적우수자전형",
+   "linked_2027_department_name": "영유아보육학과",
+   "recruit_count": 11,
+   "applicant_count": 31,
+   "competition_rate": 2.82,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "교과성적우수자전형",
+   "department_name": "AI융합학부",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.60 : 1",
+   "linked_2027_type_name": "교과성적우수자전형",
+   "linked_2027_department_name": "AI융합학부",
+   "recruit_count": 15,
+   "applicant_count": 39,
+   "competition_rate": 2.6,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "교과성적우수자전형",
+   "department_name": "간호학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "12.80 : 1",
+   "linked_2027_type_name": "교과성적우수자전형",
+   "linked_2027_department_name": "간호학과",
+   "recruit_count": 5,
+   "applicant_count": 64,
+   "competition_rate": 12.8,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "목회자추천전형",
+   "department_name": "성서학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "1.60 : 1",
+   "linked_2027_type_name": "목회자추천전형",
+   "linked_2027_department_name": "성서학과",
+   "recruit_count": 15,
+   "applicant_count": 24,
+   "competition_rate": 1.6,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "목회자추천전형",
+   "department_name": "사회복지학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "4.83 : 1",
+   "linked_2027_type_name": "목회자추천전형",
+   "linked_2027_department_name": "사회복지학과",
+   "recruit_count": 6,
+   "applicant_count": 29,
+   "competition_rate": 4.83,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "목회자추천전형",
+   "department_name": "영유아보육학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.33 : 1",
+   "linked_2027_type_name": "목회자추천전형",
+   "linked_2027_department_name": "영유아보육학과",
+   "recruit_count": 6,
+   "applicant_count": 14,
+   "competition_rate": 2.33,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "목회자추천전형",
+   "department_name": "AI융합학부",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "1.33 : 1",
+   "linked_2027_type_name": "목회자추천전형",
+   "linked_2027_department_name": "AI융합학부",
+   "recruit_count": 15,
+   "applicant_count": 20,
+   "competition_rate": 1.33,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "목회자추천전형",
+   "department_name": "간호학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "21.75 : 1",
+   "linked_2027_type_name": "목회자추천전형",
+   "linked_2027_department_name": "간호학과",
+   "recruit_count": 8,
+   "applicant_count": 174,
+   "competition_rate": 21.75,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "고른기회전형",
+   "department_name": "성서학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.00 : 1",
+   "linked_2027_type_name": "고른기회전형",
+   "linked_2027_department_name": "성서학과",
+   "recruit_count": 2,
+   "applicant_count": 4,
+   "competition_rate": 2.0,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "고른기회전형",
+   "department_name": "영유아보육학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.50 : 1",
+   "linked_2027_type_name": "고른기회전형",
+   "linked_2027_department_name": "영유아보육학과",
+   "recruit_count": 2,
+   "applicant_count": 7,
+   "competition_rate": 3.5,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "농어촌고교출신자전형(정원외)",
+   "department_name": "성서학과+사회복지학과+영유아보육학과+AI융합학부",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "1.67 : 1",
+   "linked_2027_type_name": "농어촌고교출신자전형(정원 외)",
+   "recruit_count": 3,
+   "applicant_count": 5,
+   "competition_rate": 1.67,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "농어촌고교출신자전형(정원외)",
+   "department_name": "간호학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "5.50 : 1",
+   "linked_2027_type_name": "농어촌고교출신자전형(정원 외)",
+   "linked_2027_department_name": "간호학과",
+   "recruit_count": 2,
+   "applicant_count": 11,
+   "competition_rate": 5.5,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "기초생활수급대상자 및 차상위전형(정원외)",
+   "department_name": "성서학과+사회복지학과+영유아보육학과+AI융합학부",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "5.75 : 1",
+   "linked_2027_type_name": "기초생활수급자및차상위전형(정원 외)",
+   "recruit_count": 4,
+   "applicant_count": 23,
+   "competition_rate": 5.75,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "기초생활수급대상자 및 차상위전형(정원외)",
+   "department_name": "간호학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "14.67 : 1",
+   "linked_2027_type_name": "기초생활수급자및차상위전형(정원 외)",
+   "linked_2027_department_name": "간호학과",
+   "recruit_count": 3,
+   "applicant_count": 44,
+   "competition_rate": 14.67,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "특수교육대상자전형(정원외)",
+   "department_name": "성서학과+사회복지학과+영유아보육학과+AI융합학부",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.50 : 1",
+   "linked_2027_type_name": "특수교육대상자전형(정원 외)",
+   "recruit_count": 10,
+   "applicant_count": 35,
+   "competition_rate": 3.5,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "재외국민전형(정원외)",
+   "department_name": "성서학과+사회복지학과+영유아보육학과+AI융합학부+간호학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "0.00 : 1",
+   "linked_2027_type_name": "재외국민 및외국인(정원 외)",
+   "recruit_count": 4,
+   "applicant_count": 0,
+   "competition_rate": 0.0,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "BIBLE",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "북한이탈주민(정원외)",
+   "department_name": "성서학과+사회복지학과+영유아보육학과+AI융합학부+간호학과",
+   "source_document_key": "doc_bible_2027_susi_ratio",
+   "source_url": "https://ipsi.bible.ac.kr/summary/Summarys.aspx",
+   "institution_name": "한국성서대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "0.00 : 1",
+   "recruit_count": 0,
+   "applicant_count": 3,
+   "published_at": "2026-09-11"
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 성경고사성적우수자",
+   "department_name": "자유전공",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.00 : 1",
+   "linked_2027_type_name": "성경고사성적우수자(실기/실적위주)",
+   "linked_2027_department_name": "자유전공",
+   "recruit_count": 2,
+   "applicant_count": 6,
+   "competition_rate": 3.0
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 성경고사성적우수자",
+   "department_name": "신학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.00 : 1",
+   "linked_2027_type_name": "성경고사성적우수자(실기/실적위주)",
+   "linked_2027_department_name": "신학과",
+   "recruit_count": 3,
+   "applicant_count": 9,
+   "competition_rate": 3.0
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 성경고사성적우수자",
+   "department_name": "기독교교육과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.67 : 1",
+   "linked_2027_type_name": "성경고사성적우수자(실기/실적위주)",
+   "linked_2027_department_name": "기독교교육과",
+   "recruit_count": 3,
+   "applicant_count": 8,
+   "competition_rate": 2.67
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 학생부우수자",
+   "department_name": "자유전공",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.80 : 1",
+   "linked_2027_type_name": "학생부우수자(학생부위주/교과)",
+   "linked_2027_department_name": "자유전공",
+   "recruit_count": 5,
+   "applicant_count": 19,
+   "competition_rate": 3.8
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 학생부우수자",
+   "department_name": "신학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.20 : 1",
+   "linked_2027_type_name": "학생부우수자(학생부위주/교과)",
+   "linked_2027_department_name": "신학과",
+   "recruit_count": 10,
+   "applicant_count": 32,
+   "competition_rate": 3.2
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 학생부우수자",
+   "department_name": "기독교교육과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.62 : 1",
+   "linked_2027_type_name": "학생부우수자(학생부위주/교과)",
+   "linked_2027_department_name": "기독교교육과",
+   "recruit_count": 13,
+   "applicant_count": 47,
+   "competition_rate": 3.62
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 대안학교출신자",
+   "department_name": "자유전공",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.00 : 1",
+   "linked_2027_type_name": "대안학교출신자(학생부위주/종합)",
+   "linked_2027_department_name": "자유전공",
+   "recruit_count": 2,
+   "applicant_count": 4,
+   "competition_rate": 2.0
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 대안학교출신자",
+   "department_name": "신학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.50 : 1",
+   "linked_2027_type_name": "대안학교출신자(학생부위주/종합)",
+   "linked_2027_department_name": "신학과",
+   "recruit_count": 2,
+   "applicant_count": 5,
+   "competition_rate": 2.5
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 대안학교출신자",
+   "department_name": "기독교교육과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.83 : 1",
+   "linked_2027_type_name": "대안학교출신자(학생부위주/종합)",
+   "linked_2027_department_name": "기독교교육과",
+   "recruit_count": 6,
+   "applicant_count": 17,
+   "competition_rate": 2.83
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 사회기여 및 배려자",
+   "department_name": "자유전공",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "5.00 : 1",
+   "linked_2027_type_name": "사회기여 및 배려자 (학생부위주/종합)",
+   "linked_2027_department_name": "자유전공",
+   "recruit_count": 3,
+   "applicant_count": 15,
+   "competition_rate": 5.0
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 사회기여 및 배려자",
+   "department_name": "신학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "5.57 : 1",
+   "linked_2027_type_name": "사회기여 및 배려자 (학생부위주/종합)",
+   "linked_2027_department_name": "신학과",
+   "recruit_count": 7,
+   "applicant_count": 39,
+   "competition_rate": 5.57
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 사회기여 및 배려자",
+   "department_name": "기독교교육과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.75 : 1",
+   "linked_2027_type_name": "사회기여 및 배려자 (학생부위주/종합)",
+   "linked_2027_department_name": "기독교교육과",
+   "recruit_count": 12,
+   "applicant_count": 45,
+   "competition_rate": 3.75
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 드림(PUTS인재)",
+   "department_name": "자유전공",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.67 : 1",
+   "linked_2027_type_name": "드림(PUTS인재)(학생부위주/종합)",
+   "linked_2027_department_name": "자유전공",
+   "recruit_count": 6,
+   "applicant_count": 16,
+   "competition_rate": 2.67
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 드림(PUTS인재)",
+   "department_name": "신학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "5.50 : 1",
+   "linked_2027_type_name": "드림(PUTS인재)(학생부위주/종합)",
+   "linked_2027_department_name": "신학과",
+   "recruit_count": 10,
+   "applicant_count": 55,
+   "competition_rate": 5.5
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 드림(PUTS인재)",
+   "department_name": "기독교교육과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "3.63 : 1",
+   "linked_2027_type_name": "드림(PUTS인재)(학생부위주/종합)",
+   "linked_2027_department_name": "기독교교육과",
+   "recruit_count": 16,
+   "applicant_count": 58,
+   "competition_rate": 3.63
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 일반전형",
+   "department_name": "교회음악학과 성악(남)",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.60 : 1",
+   "linked_2027_type_name": "일반전형 교회음악학과(실기/실적위주)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 5,
+   "applicant_count": 13,
+   "competition_rate": 2.6
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 일반전형",
+   "department_name": "교회음악학과 성악(여)",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "1.88 : 1",
+   "linked_2027_type_name": "일반전형 교회음악학과(실기/실적위주)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 8,
+   "applicant_count": 15,
+   "competition_rate": 1.88
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 일반전형",
+   "department_name": "교회음악학과 피아노",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.75 : 1",
+   "linked_2027_type_name": "일반전형 교회음악학과(실기/실적위주)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 8,
+   "applicant_count": 22,
+   "competition_rate": 2.75
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 일반전형",
+   "department_name": "교회음악학과 오르간",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "1.50 : 1",
+   "linked_2027_type_name": "일반전형 교회음악학과(실기/실적위주)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 2,
+   "applicant_count": 3,
+   "competition_rate": 1.5
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 일반전형",
+   "department_name": "교회음악학과 뉴미디어 작곡",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.00 : 1",
+   "linked_2027_type_name": "일반전형 교회음악학과(실기/실적위주)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 3,
+   "applicant_count": 6,
+   "competition_rate": 2.0
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 일반전형",
+   "department_name": "교회음악학과 지휘",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "0.00 : 1",
+   "linked_2027_type_name": "일반전형 교회음악학과(실기/실적위주)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 1,
+   "applicant_count": 0,
+   "competition_rate": 0.0
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 일반전형",
+   "department_name": "교회음악학과 실용음악(보컬)+실용음악(싱어송라이터)",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "10.00 : 1 (지원: 보컬 19, 싱어송라이터 1)",
+   "linked_2027_type_name": "일반전형 교회음악학과(실기/실적위주)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 2,
+   "applicant_count": 20,
+   "competition_rate": 10.0
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원내 일반전형",
+   "department_name": "교회음악학과 실용음악(기악-건반)+(기악-드럼)+(기악-기타)+(기악-베이스)",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.17 : 1 (지원: 건반 3, 드럼 6, 기타 4, 베이스 0)",
+   "linked_2027_type_name": "일반전형 교회음악학과(실기/실적위주)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 6,
+   "applicant_count": 13,
+   "competition_rate": 2.17
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원외 농어촌 및 도서,벽지 지역",
+   "department_name": "자유전공+신학과+기독교교육과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.50 : 1 (지원: 자유전공 2, 신학과 4, 기독교교육과 4)",
+   "linked_2027_type_name": "농어촌 및 도서•벽지 지역 학생(정원외)",
+   "recruit_count": 4,
+   "applicant_count": 10,
+   "competition_rate": 2.5
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원외 농어촌 및 도서,벽지 지역",
+   "department_name": "교회음악학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "2.00 : 1 (지원: 성악(남) 1, 피아노 1, 실용음악(보컬) 1, 실용음악(싱어송라이터) 1, 나머지 0)",
+   "linked_2027_type_name": "농어촌 및 도서•벽지 지역 학생(정원외)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 2,
+   "applicant_count": 4,
+   "competition_rate": 2.0
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원외 특수교육대상자",
+   "department_name": "자유전공+신학과+기독교교육과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "0.33 : 1 (지원: 자유전공 1, 신학과 1, 기독교교육과 0)",
+   "linked_2027_type_name": "특수교육대상자(정원외)",
+   "recruit_count": 6,
+   "applicant_count": 2,
+   "competition_rate": 0.33
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원외 특수교육대상자",
+   "department_name": "교회음악학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "0.00 : 1",
+   "linked_2027_type_name": "특수교육대상자(정원외)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 2,
+   "applicant_count": 0,
+   "competition_rate": 0.0
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원외 기회균형선발제",
+   "department_name": "신학과+자유전공+기독교교육과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "8.50 : 1 (지원: 신학과 12, 자유전공 1, 기독교교육과 4)",
+   "linked_2027_type_name": "기회균형선발제(정원외)",
+   "recruit_count": 2,
+   "applicant_count": 17,
+   "competition_rate": 8.5
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원외 재외국민(2%)",
+   "department_name": "자유전공+신학과+기독교교육과+교회음악학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "0.67 : 1 (지원: 자유전공 1, 기독교교육과 1, 나머지 0)",
+   "linked_2027_type_name": "재외국민과외국인(정원의2%)(정원외)",
+   "recruit_count": 3,
+   "applicant_count": 2,
+   "competition_rate": 0.67
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원외 재외국민 및 외국인(입학정원 비제한)",
+   "department_name": "자유전공+신학과+기독교교육과+교회음악학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "모집인원 - , 경쟁률 - (지원: 자유전공 1, 신학과 2, 기독교교육과 1, 교회음악학과 0)",
+   "linked_2027_type_name": "재외국민과외국인(비제한)(정원외)",
+   "applicant_count": 4
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원외 북한이탈주민",
+   "department_name": "자유전공+신학과+기독교교육과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "0.33 : 1 (원문 표기 지원인원 0은 병합 셀 첫 칸 / 지원: 자유전공 0, 신학과 1, 기독교교육과 1)",
+   "linked_2027_type_name": "북한이탈주민(정원외)",
+   "recruit_count": 6,
+   "applicant_count": 2,
+   "competition_rate": 0.33
+  },
+  {
+   "university_code": "PUTS",
+   "academic_year": 2027,
+   "result_year": 2027,
+   "round_type": "SUSI",
+   "type_name": "정원외 북한이탈주민",
+   "department_name": "교회음악학과",
+   "source_document_key": "doc_puts_2027_susi_ratio",
+   "source_url": "https://ratio.uwayapply.com/Sl5KJjBMaUpmJSY6Jko3ZlRm",
+   "institution_name": "장로회신학대학교 입학처",
+   "evidence_pages": [
+    1
+   ],
+   "raw_value_text": "0.00 : 1",
+   "linked_2027_type_name": "북한이탈주민(정원외)",
+   "linked_2027_department_name": "교회음악학과",
+   "recruit_count": 2,
+   "applicant_count": 0,
+   "competition_rate": 0.0
+  }
+ ],
+ "counts": {
+  "universities": 2,
+  "documents": 2,
+  "prior_results": 56
+ }
+}
