@@ -18529,5 +18529,349 @@
         "gaps": 3
       }
     ]
+  },
+  "prior_results_batch9": {
+    "seed_files": [
+      {
+        "file": "data/seed/prior_2026_batch9_small_seoul/ipsi_seed_prior_2026_01_chongshin_chugye_scu.json",
+        "prior_results": 487,
+        "documents": 5,
+        "chars": 231742
+      }
+    ],
+    "result_year": 2026,
+    "academic_year": 2027,
+    "count": 487,
+    "documents": 5,
+    "universities_with_rows": 3,
+    "gaps": [
+      {
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "item": "비공개·미반영·'-' 칸",
+        "reason": "원문 '비공개'(모집인원 1명 이하 등), '미반영'(실기/실적위주의 학생부·검정고시), '-'(해당 없음) 칸은 행으로 만들지 않았다.",
+        "url": "https://admission.csu.ac.kr/?m1=page&menu_id=2073&category_id=283"
+      },
+      {
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "item": "정시 실기/실적위주 수능 성적",
+        "reason": "원문이 '비공개'로 적었다.",
+        "url": "https://admission.csu.ac.kr/?m1=page&menu_id=2074&category_id=284"
+      },
+      {
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "item": "충원 인원",
+        "reason": "원문은 '최종예비합격순위'만 싣고 충원 인원은 싣지 않는다. 예비순위는 지표 행으로 두었고 extra_admitted_count는 비웠다.",
+        "url": "https://admission.csu.ac.kr/?m1=page&menu_id=2073&category_id=283"
+      },
+      {
+        "university_code": "CHUGYE",
+        "university_name": "추계예술대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "CHUGYE",
+        "university_name": "추계예술대학교",
+        "item": "2026학년도 경쟁률",
+        "reason": "입시결과 게시판의 '2026학년도 신편입학전형 경쟁률 현황' 게시글은 [바로가기]가 모두 유웨이 경쟁률 서비스(원서접수 대행사)로 연결돼 쓰지 않았다(2026-11-13 확인).",
+        "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=128&dataSeq=497"
+      },
+      {
+        "university_code": "CHUGYE",
+        "university_name": "추계예술대학교",
+        "item": "모집인원·등록자 성적",
+        "reason": "받은 충원합격 현황 파일에는 모집인원·성적이 없다. 입시결과 게시판에 성적 게시물은 확인되지 않았다.",
+        "url": "https://enter.chugye.ac.kr/ArticleList.do?menuSeq=128&dataSeq=497"
+      },
+      {
+        "university_code": "CHUGYE",
+        "university_name": "추계예술대학교",
+        "item": "편입학 충원합격 현황",
+        "reason": "같은 게시글의 '1. 2026학년도 편입학전형 충원합격 현황.pdf'는 신입학 상담 범위가 아니라 받지 않았다.",
+        "url": "https://enter.chugye.ac.kr/BoardView.do?menuSeq=128&dataSeq=497&idx=1602484228"
+      },
+      {
+        "university_code": "SCU",
+        "university_name": "서울기독대학교",
+        "item": "대학어디가(adiga.kr) 2026 입시결과",
+        "reason": "규칙상 요청하지 않음(미확인).",
+        "url": "https://www.adiga.kr/"
+      },
+      {
+        "university_code": "SCU",
+        "university_name": "서울기독대학교",
+        "item": "2026학년도 정시모집 경쟁률·전형 결과",
+        "reason": "입학 사이트 정시모집 '지난 경쟁률' 게시판에는 2023·2021학년도 글만 있고, '경쟁률' 탭은 진학어플라이 경쟁률 서비스(대행사)로 연결돼 쓰지 않았다(2026-11-13 확인).",
+        "url": "https://admission.scu.ac.kr/entrance/university/regular"
+      },
+      {
+        "university_code": "SCU",
+        "university_name": "서울기독대학교",
+        "item": "2026학년도 등록자 성적·충원 인원",
+        "reason": "입학 사이트 모집안내·공지사항에 입시결과(성적·충원) 게시물이 없다(공지사항 첫 쪽, 수시·정시 메뉴 확인).",
+        "url": "https://admission.scu.ac.kr/admissions-support/notices"
+      }
+    ],
+    "per_university": [
+      {
+        "university_key": "chongshin",
+        "university_code": "CHONGSHIN",
+        "university_name": "총신대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 206,
+        "base_rows": 75,
+        "metric_rows": 131,
+        "metric_labels": 10,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 133,
+        "linked_2027_department_rows": 179,
+        "recruit_total_checks": [],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "chugye",
+        "university_code": "CHUGYE",
+        "university_name": "추계예술대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 1,
+          "OTHER": 0
+        },
+        "rows": 248,
+        "base_rows": 0,
+        "metric_rows": 248,
+        "metric_labels": 5,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 20,
+        "recruit_total_checks": [
+          {
+            "page": 1,
+            "source_total": [
+              114,
+              68,
+              111
+            ],
+            "sum_of_rows": [
+              114,
+              68,
+              111
+            ],
+            "match": true
+          },
+          {
+            "page": 2,
+            "source_total": [
+              137,
+              95,
+              137
+            ],
+            "sum_of_rows": [
+              137,
+              95,
+              137
+            ],
+            "match": true
+          },
+          {
+            "page": 3,
+            "source_total": [
+              18,
+              12,
+              17
+            ],
+            "sum_of_rows": [
+              18,
+              12,
+              17
+            ],
+            "match": true
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 4
+      },
+      {
+        "university_key": "scu",
+        "university_code": "SCU",
+        "university_name": "서울기독대학교",
+        "documents": {
+          "SUSI": 1,
+          "JEONGSI": 0,
+          "OTHER": 0
+        },
+        "rows": 33,
+        "base_rows": 33,
+        "metric_rows": 0,
+        "metric_labels": 0,
+        "reserve_rank_moved_to_metric": 0,
+        "linked_2027_type_rows": 0,
+        "linked_2027_department_rows": 23,
+        "recruit_total_checks": [
+          {
+            "scope": "일반전형",
+            "sum_of_rows": [
+              91,
+              239
+            ],
+            "source_total": [
+              91,
+              239
+            ],
+            "match": true
+          },
+          {
+            "scope": "[SCU인재]교회추천자",
+            "sum_of_rows": [
+              4,
+              4
+            ],
+            "source_total": [
+              4,
+              4
+            ],
+            "match": true
+          },
+          {
+            "scope": "[SCU인재]학교장 추천자",
+            "sum_of_rows": [
+              1,
+              0
+            ],
+            "source_total": [
+              1,
+              0
+            ],
+            "match": true
+          },
+          {
+            "scope": "[SCU인재]리더십",
+            "sum_of_rows": [
+              1,
+              0
+            ],
+            "source_total": [
+              1,
+              0
+            ],
+            "match": true
+          },
+          {
+            "scope": "[기회균형]만학도",
+            "sum_of_rows": [
+              5,
+              4
+            ],
+            "source_total": [
+              5,
+              4
+            ],
+            "match": true
+          },
+          {
+            "scope": "[기회균형]평생학습자",
+            "sum_of_rows": [
+              4,
+              4
+            ],
+            "source_total": [
+              4,
+              4
+            ],
+            "match": true
+          },
+          {
+            "scope": "[기회균형]기초생활수급자 및 차상위계층",
+            "sum_of_rows": [
+              2,
+              7
+            ],
+            "source_total": [
+              2,
+              7
+            ],
+            "match": true
+          },
+          {
+            "scope": "(정원외)농어촌 출신자",
+            "sum_of_rows": [
+              3,
+              1
+            ],
+            "source_total": [
+              3,
+              1
+            ],
+            "match": true
+          },
+          {
+            "scope": "(정원외)특성화고교출신자",
+            "sum_of_rows": [
+              1,
+              1
+            ],
+            "source_total": [
+              1,
+              1
+            ],
+            "match": true
+          },
+          {
+            "scope": "(정원외)기초생활수급자 및 차상위 계층",
+            "sum_of_rows": [
+              3,
+              1
+            ],
+            "source_total": [
+              3,
+              1
+            ],
+            "match": true
+          },
+          {
+            "scope": "(정원외)재외국민 및 외국인",
+            "sum_of_rows": [
+              2,
+              0
+            ],
+            "source_total": [
+              2,
+              0
+            ],
+            "match": true
+          }
+        ],
+        "spot_checks": 0,
+        "spot_checks_all_match": null,
+        "range_failures_source": 0,
+        "build_failures": [],
+        "build_warnings": [],
+        "gaps": 3
+      }
+    ]
   }
 }
