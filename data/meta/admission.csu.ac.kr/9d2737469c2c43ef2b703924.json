@@ -1,0 +1,19 @@
+{
+  "url": null,
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": null,
+  "final_url": null,
+  "source_page_url": "https://admission.csu.ac.kr/?m1=page&menu_id=2073&category_id=283",
+  "content_type": "application/pdf",
+  "size": 68708,
+  "sha256": "487fd83f8186f1992055412c0fbee4732aac3b59a252915f433719d4a83eae63",
+  "raw_path": "raw/admission.csu.ac.kr/487fd83f8186f1992055412c0fbee473.pdf",
+  "collected_at": "2026-11-13T16:45:00+09:00",
+  "acquired_by": "browser_click_through",
+  "original_file_name": "붙임1. 총신대학교 2026학년도 수시모집 입시결과(26.10.27)-수정.pdf",
+  "robots_txt": "admission.csu.ac.kr/robots.txt·www.csu.ac.kr/robots.txt HTTP 404(없음=허용)",
+  "note": "2026-11-13 사용자 승인 후, 사용자 크롬에서 입학정보 > 연도별 입시결과 > 2026학년도 화면의 'PDF 다운로드' 버튼으로 받은 파일(PDF는 www.csu.ac.kr 파일 API에서 불러옴). 사용자가 대화에 첨부.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}

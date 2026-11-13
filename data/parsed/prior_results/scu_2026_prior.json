@@ -3,31 +3,250 @@
  "university_name": "서울기독대학교",
  "university_code": "SCU",
  "result_year": 2026,
- "documents": [],
- "rows": [],
+ "documents": [
+  {
+   "document_key": "scu_2026_susi_final_ratio",
+   "document_name": "2026학년도 수시모집 최종 경쟁률(입학 사이트 '지난 경쟁률' 게시글, 2026-09-07)",
+   "round_type": "SUSI",
+   "file_name": "f88c10ec663d2a9aac9afcf77c595a2d.jpeg",
+   "file_sha256": "f88c10ec663d2a9aac9afcf77c595a2da25580f137766e0fcfa824de4520c421",
+   "source_page_url": "https://admission.scu.ac.kr/entrance/university/early/202609070003",
+   "source_url": "https://admission.scu.ac.kr/api/board/entrance/notice/202609070003",
+   "institution_name": "서울기독대학교 입학관리팀",
+   "published_at": "2026-09-07",
+   "pages": 1
+  }
+ ],
+ "rows": [
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "기독교신학", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.4", "recruit_count": 5, "applicant_count": 7, "competition_rate": 1.4, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "사회복지", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "5.7", "recruit_count": 20, "applicant_count": 113, "competition_rate": 5.7, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "글로벌휴먼경영", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.6", "recruit_count": 18, "applicant_count": 29, "competition_rate": 1.6, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "운동건강관리", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.5", "recruit_count": 6, "applicant_count": 9, "competition_rate": 1.5, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "무용", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "3.0", "recruit_count": 16, "applicant_count": null, "competition_rate": 3.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "무용 / 발레", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 26, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "무용 / 한국무용", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 13, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "무용 / 현대무용", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 9, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "음악", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.0", "recruit_count": 15, "applicant_count": null, "competition_rate": 1.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "음악 / 실용음악", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 4, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "음악 / 관현악", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 1, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "음악 / 피아노", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 7, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "음악 / 성악", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 3, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "뮤지컬", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.1", "recruit_count": 8, "applicant_count": 9, "competition_rate": 1.1, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "일반전형", "department_name": "상담심리(야간)", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "3.0", "recruit_count": 3, "applicant_count": 9, "competition_rate": 3.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "[SCU인재]교회추천자", "department_name": "기독교신학", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.0", "recruit_count": 4, "applicant_count": 4, "competition_rate": 1.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "[SCU인재]학교장 추천자", "department_name": "글로벌휴먼경영", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "0.0", "recruit_count": 1, "applicant_count": 0, "competition_rate": 0.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "[SCU인재]리더십", "department_name": "글로벌휴먼경영", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "0.0", "recruit_count": 1, "applicant_count": 0, "competition_rate": 0.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "[기회균형]만학도", "department_name": "기독교신학", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "0.8", "recruit_count": 4, "applicant_count": 3, "competition_rate": 0.8, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "[기회균형]만학도", "department_name": "사회복지", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.0", "recruit_count": 1, "applicant_count": 1, "competition_rate": 1.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "[기회균형]평생학습자", "department_name": "상담심리(야간)", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.0", "recruit_count": 4, "applicant_count": 4, "competition_rate": 1.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "[기회균형]기초생활수급자 및 차상위계층", "department_name": "사회복지", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "3.5", "recruit_count": 2, "applicant_count": 7, "competition_rate": 3.5, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)농어촌 출신자", "department_name": "기독교신학", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "0.0", "recruit_count": 1, "applicant_count": 0, "competition_rate": 0.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)농어촌 출신자", "department_name": "사회복지", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.0", "recruit_count": 1, "applicant_count": 1, "competition_rate": 1.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)농어촌 출신자", "department_name": "글로벌휴먼경영", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "0.0", "recruit_count": 1, "applicant_count": 0, "competition_rate": 0.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)특성화고교출신자", "department_name": "글로벌휴먼경영", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.0", "recruit_count": 1, "applicant_count": 1, "competition_rate": 1.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)기초생활수급자 및 차상위 계층", "department_name": "기독교신학", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "1.0", "recruit_count": 1, "applicant_count": 1, "competition_rate": 1.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)기초생활수급자 및 차상위 계층", "department_name": "사회복지", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "0.0", "recruit_count": 1, "applicant_count": 0, "competition_rate": 0.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)기초생활수급자 및 차상위 계층", "department_name": "글로벌휴먼경영", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "0.0", "recruit_count": 1, "applicant_count": 0, "competition_rate": 0.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)재외국민 및 외국인", "department_name": "통합모집(기독교신학, 사회복지, 글로벌휴먼경영)", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": "0.0", "recruit_count": 2, "applicant_count": null, "competition_rate": 0.0, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)재외국민 및 외국인", "department_name": "기독교신학", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 0, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)재외국민 및 외국인", "department_name": "사회복지", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 0, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]},
+  {"round_type": "SUSI", "type_name": "(정원외)재외국민 및 외국인", "department_name": "글로벌휴먼경영", "group": null, "metric_label": null, "metric_unit": null, "metric_value": null, "raw_value_text": null, "recruit_count": null, "applicant_count": 0, "competition_rate": null, "extra_admitted_count": null, "source_document_key": "scu_2026_susi_final_ratio", "evidence_pages": [1]}
+ ],
  "verification": {
-  "recruit_total_checks": [],
-  "spot_checks": [],
+  "reading": "그림 속 표를 쪽 그림(2956×8833)에서 사람이 읽어 옮겼다(행 39개). 숫자는 전형별 총계와 경쟁률 재계산으로 대조.",
+  "recruit_total_checks": [
+   {
+    "scope": "일반전형",
+    "sum_of_rows": [
+     91,
+     239
+    ],
+    "source_total": [
+     91,
+     239
+    ],
+    "match": true
+   },
+   {
+    "scope": "[SCU인재]교회추천자",
+    "sum_of_rows": [
+     4,
+     4
+    ],
+    "source_total": [
+     4,
+     4
+    ],
+    "match": true
+   },
+   {
+    "scope": "[SCU인재]학교장 추천자",
+    "sum_of_rows": [
+     1,
+     0
+    ],
+    "source_total": [
+     1,
+     0
+    ],
+    "match": true
+   },
+   {
+    "scope": "[SCU인재]리더십",
+    "sum_of_rows": [
+     1,
+     0
+    ],
+    "source_total": [
+     1,
+     0
+    ],
+    "match": true
+   },
+   {
+    "scope": "[기회균형]만학도",
+    "sum_of_rows": [
+     5,
+     4
+    ],
+    "source_total": [
+     5,
+     4
+    ],
+    "match": true
+   },
+   {
+    "scope": "[기회균형]평생학습자",
+    "sum_of_rows": [
+     4,
+     4
+    ],
+    "source_total": [
+     4,
+     4
+    ],
+    "match": true
+   },
+   {
+    "scope": "[기회균형]기초생활수급자 및 차상위계층",
+    "sum_of_rows": [
+     2,
+     7
+    ],
+    "source_total": [
+     2,
+     7
+    ],
+    "match": true
+   },
+   {
+    "scope": "(정원외)농어촌 출신자",
+    "sum_of_rows": [
+     3,
+     1
+    ],
+    "source_total": [
+     3,
+     1
+    ],
+    "match": true
+   },
+   {
+    "scope": "(정원외)특성화고교출신자",
+    "sum_of_rows": [
+     1,
+     1
+    ],
+    "source_total": [
+     1,
+     1
+    ],
+    "match": true
+   },
+   {
+    "scope": "(정원외)기초생활수급자 및 차상위 계층",
+    "sum_of_rows": [
+     3,
+     1
+    ],
+    "source_total": [
+     3,
+     1
+    ],
+    "match": true
+   },
+   {
+    "scope": "(정원외)재외국민 및 외국인",
+    "sum_of_rows": [
+     2,
+     0
+    ],
+    "source_total": [
+     2,
+     0
+    ],
+    "match": true
+   }
+  ],
+  "grand_total": {
+   "sum_of_type_totals": [
+    117,
+    261
+   ],
+   "source": [
+    117,
+    261
+   ],
+   "match": true
+  },
+  "merged_cell_rate_checks": [
+   {
+    "unit": "일반전형 무용",
+    "applicants_sum": 48,
+    "recruit": 16,
+    "calc": 3.0,
+    "source_rate": "3.0"
+   },
+   {
+    "unit": "일반전형 음악",
+    "applicants_sum": 15,
+    "recruit": 15,
+    "calc": 1.0,
+    "source_rate": "1.0"
+   },
+   {
+    "unit": "(정원외)재외국민 및 외국인 통합모집(기독교신학, 사회복지, 글로벌휴먼경영)",
+    "applicants_sum": 0,
+    "recruit": 2,
+    "calc": 0.0,
+    "source_rate": "0.0"
+   }
+  ],
+  "rate_checks": [],
   "range_failures": 0
  },
  "gaps": [
   {
-   "item": "2026학년도 수시·정시 입시결과 전체",
-   "reason": "본교 대표 홈페이지(www.scu.ac.kr, robots 허용)는 자바스크립트 앱이라 첫 HTML에 링크가 없어(div#root만 있음) '입학' 링크를 따라갈 수 없음. AJAX 호출은 하지 않음. 이전 수집 기록의 입학 사이트 ipsi.scu.ac.kr은 이번에도 robots.txt 확인 단계에서 연결 실패(프록시 502 Bad Gateway)로 판정 불가 — 요청하지 않음. WebSearch로 입학처 공식 주소를 다시 확인하지 못함.",
-   "url": "https://www.scu.ac.kr/"
-  },
-  {
-   "item": "입학 사이트(ipsi.scu.ac.kr)",
-   "reason": "robots 판정 불가(연결 실패).",
-   "url": "https://ipsi.scu.ac.kr/"
-  },
-  {
    "item": "대학어디가(adiga.kr) 2026 입시결과",
    "reason": "규칙상 요청하지 않음(미확인).",
    "url": "https://www.adiga.kr/"
+  },
+  {
+   "item": "2026학년도 정시모집 경쟁률·전형 결과",
+   "reason": "입학 사이트 정시모집 '지난 경쟁률' 게시판에는 2023·2021학년도 글만 있고, '경쟁률' 탭은 진학어플라이 경쟁률 서비스(대행사)로 연결돼 쓰지 않았다(2026-11-13 확인).",
+   "url": "https://admission.scu.ac.kr/entrance/university/regular"
+  },
+  {
+   "item": "2026학년도 등록자 성적·충원 인원",
+   "reason": "입학 사이트 모집안내·공지사항에 입시결과(성적·충원) 게시물이 없다(공지사항 첫 쪽, 수시·정시 메뉴 확인).",
+   "url": "https://admission.scu.ac.kr/admissions-support/notices"
   }
  ],
  "notes": [
-  "모든 요청은 IpsiFetcher로 수행. 수집한 입시결과 없음. 사람이 확인할 곳: 서울기독대학교 입학 홈페이지의 입시결과(경쟁률) 게시판."
+  "자료 출처: 서울기독대 입학 사이트 수시모집 > 지난 경쟁률 > '2026학년도 수시모집 최종 경쟁률'(2026-09-07) 게시글. 본문이 표 그림(JPEG) 한 장이다. 2026-11-13 사용자 크롬에서 게시글을 열어 확인했고, 화면이 부르는 게시글 API 응답을 그대로 저장했다(robots.txt 전부 허용).",
+  "확인 필요(판단): 그림 아래에 'JINHAKapply' 표시가 있어 진학어플라이 경쟁률 화면을 갈무리한 것으로 보인다. 다만 대학이 입학 사이트에 '최종 경쟁률'로 직접 게시한 글이라 입학처 공식 게시물로 담았다.",
+  "원문 경쟁률은 'x.x : 1' 표기이며 competition_rate에는 앞 숫자만 둔다(소수 첫째 자리).",
+  "통합 칸(판단): 일반전형 무용(발레·한국무용·현대무용)과 음악(실용음악·관현악·피아노·성악)은 모집인원 16·15와 경쟁률 3.0·1.0이 세부 전공에 걸친 병합 칸이라 '무용'·'음악' 행에 모집·경쟁률을, '무용 / 발레' 같은 세부 행에 지원인원만 두었다. (정원외)재외국민 및 외국인은 모집 2·경쟁률 0.0이 세 모집단위에 걸친 병합 칸이라 '통합모집(기독교신학, 사회복지, 글로벌휴먼경영)' 행으로 담았다(원문 표기 아님).",
+  "원문 첫 표 '전형별 경쟁률 현황'(전형 합계)과 각 표의 '총계' 행은 담지 않고 합계 검사에만 썼다."
  ]
 }

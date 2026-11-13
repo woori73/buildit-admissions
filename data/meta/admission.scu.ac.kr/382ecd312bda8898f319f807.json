@@ -1,0 +1,18 @@
+{
+  "url": "https://admission.scu.ac.kr/api/board/entrance/notice/202609070003",
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": 200,
+  "final_url": "https://admission.scu.ac.kr/api/board/entrance/notice/202609070003",
+  "source_page_url": "https://admission.scu.ac.kr/entrance/university/early/202609070003",
+  "content_type": "application/json",
+  "size": 2502766,
+  "sha256": "c95efb2b24bda88a08043fd72b797ebc0aed431249df0cd34c47f9226e856372",
+  "raw_path": "raw/admission.scu.ac.kr/c95efb2b24bda88a08043fd72b797ebc.json",
+  "collected_at": "2026-11-13T16:05:00+09:00",
+  "acquired_by": "browser_click_through",
+  "robots_txt": "https://admission.scu.ac.kr/robots.txt -> 'User-agent: * / Disallow:'(전부 허용)",
+  "note": "2026-11-13 사용자 크롬에서 입학 사이트 > 수시모집 > 지난 경쟁률 > '2026학년도 수시모집 최종 경쟁률' 게시글을 열어 확인. 게시글 화면이 부르는 게시글 API 응답(본문 HTML에 경쟁률 표 그림이 base64 JPEG로 들어 있음).",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
