@@ -1,0 +1,18 @@
+{
+  "url": null,
+  "ok": true,
+  "robots_allowed": true,
+  "http_status": null,
+  "final_url": null,
+  "source_page_url": "https://admission.scu.ac.kr/entrance/university/early/202609070003",
+  "content_type": "image/jpeg",
+  "size": 1876639,
+  "sha256": "f88c10ec663d2a9aac9afcf77c595a2da25580f137766e0fcfa824de4520c421",
+  "raw_path": "raw/admission.scu.ac.kr/f88c10ec663d2a9aac9afcf77c595a2d.jpeg",
+  "collected_at": "2026-11-13T16:05:00+09:00",
+  "acquired_by": "browser_click_through",
+  "robots_txt": "https://admission.scu.ac.kr/robots.txt -> 'User-agent: * / Disallow:'(전부 허용)",
+  "note": "2026-11-13 사용자 크롬에서 입학 사이트 > 수시모집 > 지난 경쟁률 > '2026학년도 수시모집 최종 경쟁률' 게시글을 열어 확인. 위 API 응답 본문의 <img src=\"data:image/jpeg;base64,…\">를 그대로 디코드한 그림. 브라우저에서 계산한 SHA-256과 같다.",
+  "error": null,
+  "verification_status": "COLLECTED"
+}
