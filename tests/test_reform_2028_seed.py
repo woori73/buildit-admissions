@@ -71,3 +71,24 @@ def test_given_written_seed_when_compared_then_matches_builder_items():
     # then
     assert saved["official_knowledge"] == built["official_knowledge"]
     assert saved["youtube_knowledge"] == built["youtube_knowledge"]
+
+
+def test_given_added_items_when_built_then_score_credit_courses_med_and_plan_items_exist():
+    # given: 2026-11-22 추가 항목(성적 표기·학점 이수·학생부 반영·권장과목·지역의사·2029 기본사항·국가교육발전계획)
+    seed = reform.build()
+
+    # when
+    ids = {it["id"] for it in seed["official_knowledge"]}
+
+    # then
+    assert {"R2028-CSAT-SCORE", "R2028-CREDIT-PASS", "R2028-RECORD-ITEMS", "R2028-SNU-COURSES",
+            "R2028-RECOMMENDED-STATS", "R2028-MED-REGIONAL", "R2029-BASICS", "R2028-NATIONAL-PLAN"} <= ids
+
+
+def test_given_undecided_policy_when_written_then_marked_not_confirmed():
+    # given: 국가교육발전계획 대입 논의는 확정되지 않았다
+    item = next(it for it in reform.build()["official_knowledge"] if it["id"] == "R2028-NATIONAL-PLAN")
+
+    # when / then: '확정 아님'을 제목과 본문에 함께 적는다
+    assert "확정 아님" in item["title"]
+    assert "확정된 제도가 아니" in item["content"]
