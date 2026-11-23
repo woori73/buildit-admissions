@@ -92,3 +92,26 @@ def test_given_undecided_policy_when_written_then_marked_not_confirmed():
     # when / then: '확정 아님'을 제목과 본문에 함께 적는다
     assert "확정 아님" in item["title"]
     assert "확정된 제도가 아니" in item["content"]
+
+
+def test_given_csat_date_items_when_built_then_exam_and_score_dates_match_moe_announcements():
+    # given: 2026-11-23 추가 — 교육부 발표 수능 시험일(2028: 2025-06-02 발표, 2029: 2026-08-18 발표)
+    seed = reform.build()
+    by_id = {it["id"]: it for it in seed["official_knowledge"]}
+
+    # when
+    csat2028 = by_id["R2028-CSAT-DATE"]["content"]
+    csat2029 = by_id["R2029-CSAT-DATE"]["content"]
+
+    # then
+    assert "2027년 11월 18일(목)" in csat2028 and "2027년 12월 10일(금)" in csat2028
+    assert "2028년 11월 16일(목)" in csat2029 and "2028년 12월 8일(금)" in csat2029
+
+
+def test_given_national_plan_item_when_built_then_delay_of_draft_is_stated():
+    # given: 국가교육위원회가 2026-10-21 시안 발표를 미룸(연내 공개, 2027년 3월 말 확정 방침 유지)
+    seed = reform.build()
+    plan = next(it for it in seed["official_knowledge"] if it["id"] == "R2028-NATIONAL-PLAN")["content"]
+
+    # when / then
+    assert "2026-10-21" in plan and "연내" in plan and "확정 예정이며" not in plan

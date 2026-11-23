@@ -39,6 +39,9 @@ DHNEWS_SNU_COURSES = "https://dhnews.co.kr/news/view/1065589466716815"          
 METRO_RECOMMENDED = "https://www.metroseoul.co.kr/article/20261028500446"                  # 2028 권장과목 현황 분석 보도(2026-10-28)
 SEGYE_REGIONAL_DOCTOR = "https://www.segye.com/newsView/20260903512698"                    # 지역의사선발전형 보도(2026-09-03)
 DHNEWS_RECORD_ITEMS = "https://dhnews.co.kr/news/view/1065572281278268"                    # 2024학년도~ 학생부 대입 반영 항목 축소 보도
+KDI_2028_CSAT_DATE = "https://eiec.kdi.re.kr/policy/materialView.do?num=267335"
+KDI_2029_CSAT_DATE = "https://eiec.kdi.re.kr/policy/materialView.do?num=285494"
+SPECIALTIMES_NATIONAL_PLAN_DELAY = "https://www.specialtimes.co.kr/news/articleView.html?idxno=476928"  # 국교위 시안 발표 연기 보도(2026-10-21) — 본문에 출처 표기
 KDI_2029_BASICS = "https://eiec.kdi.re.kr/policy/materialView.do?num=285864"               # 대교협 2029학년도 대학입학전형기본사항(2026-08-28)
 NEWSIS_NATIONAL_PLAN = "https://mobile.newsis.com/view/NISX20260805_0003737230"            # 국가교육위원회 국가교육발전계획 일정 보도(2026-08-05)
 
@@ -248,13 +251,37 @@ OFFICIAL = [
         "source_url": KDI_2029_BASICS,
     },
     {
+        "id": "R2028-CSAT-DATE",
+        "title": "2028학년도 수능 시험일 — 2027년 11월 18일(목), 성적 통지 12월 10일(금)",
+        "tags": "수능 시험일, 수능 날짜, 수능 일정, 2028 수능, 2028학년도 수능, 성적 통지, 성적 발표, 현 고2, 시행기본계획, 2027년 11월",
+        "content": (
+            "교육부는 2025-06-02 2028학년도 대학수학능력시험을 2027년 11월 18일(목)에 시행한다고 발표했다. 현 고2가 치르는 수능이다. "
+            "성적 통지일은 2027년 12월 10일(금)이다. 2023년 12월 발표한 대입 개편에 따른 첫 통합형 수능으로, 영역별 문항 수와 시험시간은 2025년 1월 안내와 같다. "
+            "출제 원칙 등을 담은 시행 기본계획은 한국교육과정평가원이 2027년 3월에 공고할 예정이다. 원서접수 기간과 응시 수수료는 이 기본계획에서 정해진다."
+        ),
+        "source_url": KDI_2028_CSAT_DATE,
+    },
+    {
+        "id": "R2029-CSAT-DATE",
+        "title": "2029학년도 수능 시험일 — 2028년 11월 16일(목), 성적 통지 12월 8일(금)",
+        "tags": "수능 시험일, 수능 날짜, 2029 수능, 2029학년도 수능, 현 고1, 성적 통지, 통합형 수능, 선택과목 폐지, 2028년 11월",
+        "content": (
+            "교육부는 2026-08-18 2029학년도 대학수학능력시험을 2028년 11월 16일(목)에 시행한다고 발표했다. 현 고1이 치르는 수능이다. "
+            "성적 통지일은 2028년 12월 8일(금)이다. 2028학년도에 도입된 체제를 그대로 적용해 국어·수학·탐구의 선택과목이 없고, "
+            "제2외국어/한문은 9과목 중 1과목을 골라 본다. 시행 기본계획은 한국교육과정평가원이 2028년 3월에 공고할 예정이다."
+        ),
+        "source_url": KDI_2029_CSAT_DATE,
+    },
+    {
         "id": "R2028-NATIONAL-PLAN",
         "title": "국가교육발전계획(2028~2037)의 대입 논의 — 내신·수능 절대평가, 수능 서·논술형 검토(확정 아님)",
-        "tags": "국가교육발전계획, 국가교육위원회, 국교위, 절대평가, 수능 절대평가, 내신 절대평가, 서논술형, 서술형, 논술형 수능, 대입 개편, 공론화, 중학생, 초등학생, 2027년 3월",
+        "tags": "국가교육발전계획, 국가교육위원회, 국교위, 절대평가, 수능 절대평가, 내신 절대평가, 서논술형, 서술형, 논술형 수능, 대입 개편, 공론화, 시안 연기, 시안 발표, 중학생, 초등학생, 2027년 3월",
         "content": (
             "국가교육위원회는 2026-08-05 업무보고에서 국가교육발전계획(2028~2037) 마련 일정을 밝혔다(뉴시스 보도). "
             "검토 대상에는 고교 내신과 수능의 절대평가 전환, 중·고교 서·논술형 평가 확대와 수능 서·논술형 도입, 고3 2학기 수업 정상화를 위한 대입 전형 시기 조정이 들어 있다. "
-            "일정은 2026년 10월 말 시안, 11월까지 공청회·공개 포럼, 2027년 3월 말 확정 예정이며, 토론회·국민의견플랫폼·공론조사로 의견을 모은다. "
+            "처음 밝힌 일정은 2026년 10월 말 시안, 11월까지 공청회·공개 포럼, 2027년 3월 말 확정이었다. "
+            "국가교육위원회는 2026-10-21 제11차 회의에서 시안 발표를 미루기로 의결했고, 시안은 연내 공개하되 날짜는 정하지 않았다. "
+            "계획 확정은 예정대로 2027년 3월 말까지 마칠 방침이다(스페셜타임스 2026-10-21 보도). "
             "이 논의는 아직 확정된 제도가 아니며 적용 학년도 정해지지 않았다. "
             "현재 발표된 제도로는 현 고2(2028학년도)부터 예비 고1(2030학년도)·현 중2(2031학년도)까지 내신 5등급제와 통합형 수능이 적용되므로, 상담은 확정안이 나오기 전까지 이 기준으로 안내한다."
         ),
@@ -352,8 +379,18 @@ YOUTUBE = [
 ]
 
 
+POLICY_COLLECTED = os.path.normpath(os.path.join(HERE, "..", "data", "collect", "reform_2028_policy_2026-11-23.json"))
+
+
+def collected_policy() -> list[dict]:
+    """2026-11-23 수집한 2028~2031학년도 제도 항목(공식 원문 11건·언론 2건). 언론 항목은 본문에 '보도 기준'을 적어 둔다."""
+    with open(POLICY_COLLECTED, encoding="utf-8") as f:
+        items = json.load(f)["items"]
+    return [{k: it[k] for k in ("id", "title", "tags", "content", "source_url")} for it in items]
+
+
 def build() -> dict:
-    official = [{**it, "academic_year": YEAR, "category": "제도 발표"} for it in OFFICIAL]
+    official = [{**it, "academic_year": YEAR, "category": "제도 발표"} for it in OFFICIAL + collected_policy()]
     youtube = [{**it, "academic_year": YEAR} for it in YOUTUBE]
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
