@@ -9,18 +9,21 @@ sys.path.insert(0, os.path.join(HERE, "..", "scripts"))
 import build_univ_2028_plans_seed as plans  # noqa: E402
 
 
-def test_given_press_only_item_when_converted_then_it_is_held():
-    # given: 언론 보도만 있는 주제
-    it = {"topic": "susi_minimum", "text": "보도 기준", "source_url": "https://example.com/news", "source_kind": "press"}
+def test_given_press_only_item_when_converted_then_content_says_press_not_plan():
+    # given: 언론 보도만 있는 주제(대표 결정으로 싣되 원문이 아님을 밝힌다)
+    it = {"topic": "susi_minimum", "text": "일반II 수능최저 신설.", "source_url": "https://example.com/news",
+          "source_kind": "press", "source_title": "전자신문 2026-06-11"}
 
-    # when / then: 대학 세부 숫자는 원문만 싣는다
-    assert plans.item_for("서강대학교", it) is None
+    # when
+    k = plans.item_for("서강대학교", it)
+
+    # then
+    assert "언론 보도 기준(대학 원문 미확인" in k["content"] and "시행계획(" not in k["content"]
 
 
-def test_given_constructed_url_when_converted_then_it_is_held():
-    # given: 검색 결과가 아니라 주소 규칙으로 만든 원문 주소
-    url = next(iter(plans.HOLD_URLS))
-    it = {"topic": "susi_types", "text": "원문", "source_url": url, "source_kind": "official"}
+def test_given_unknown_source_kind_when_converted_then_it_is_held():
+    # given
+    it = {"topic": "susi_types", "text": "블로그", "source_url": "https://example.com/b", "source_kind": "blog"}
 
     # when / then
     assert plans.item_for("한국외국어대학교", it) is None
@@ -40,7 +43,7 @@ def test_given_official_item_when_converted_then_university_names_are_in_title_t
     assert re.match(r"^https://[\x21-\x7e]+$", k["source_url"])
 
 
-def test_given_built_seed_when_checked_then_ids_unique_and_only_official_items():
+def test_given_built_seed_when_checked_then_ids_unique_and_all_collected_items_included():
     # given / when
     seed = plans.build()
     ids = [k["id"] for k in seed["official_knowledge"]]
@@ -48,4 +51,4 @@ def test_given_built_seed_when_checked_then_ids_unique_and_only_official_items()
     # then
     assert ids and len(ids) == len(set(ids))
     assert all(k["academic_year"] == 2028 for k in seed["official_knowledge"])
-    assert seed["ipsi_universities"]
+    assert seed["ipsi_universities"] and seed["held"] == []
