@@ -11,6 +11,7 @@ import glob
 import json
 import os
 import re
+import urllib.parse
 from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -64,7 +65,8 @@ def item_for(univ: str, it: dict) -> dict | None:
         "title": f"{univ} 2028학년도 {label}",
         "tags": f"{univ}, {short}, 2028학년도, 2028, 시행계획, 현 고2, {tags}",
         "content": f"{univ} 2028학년도 대학입학전형 시행계획{when} 기준. {it['text'].strip()}",
-        "source_url": it["source_url"],
+        # 한글이 든 주소(대학 원문 PDF)는 퍼센트 인코딩해 둔다.
+        "source_url": urllib.parse.quote(it["source_url"], safe=":/?&=%()#+~"),
     }
 
 
